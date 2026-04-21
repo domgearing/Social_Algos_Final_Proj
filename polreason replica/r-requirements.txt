@@ -1,0 +1,21 @@
+# R Package Dependencies
+# Install all packages with:
+# install.packages(c("data.table", "lavaan", "miceRanger", "ggplot2", "grid", "gridExtra", "grDevices", "scales", "ggnewscale", "irr", "haven", "dplyr", "stringr", "optparse"))
+
+# Analysis pipeline (analysis/scripts/)
+data.table      # Fast data manipulation
+lavaan          # Latent variable analysis
+miceRanger      # Multiple imputation
+ggplot2         # Visualization
+grid            # Graphics primitives
+gridExtra       # Extended grid utilities
+grDevices       # Graphics devices
+scales          # Scale functions for visualization
+ggnewscale      # Multiple scales in ggplot2
+irr             # Inter-rater reliability (Cohen's kappa)
+
+# Data generation pipeline (generation/scripts/)
+haven           # Read Stata .dta files
+dplyr           # Data manipulation
+stringr         # String manipulation
+optparse        # Command-line argument parsing
