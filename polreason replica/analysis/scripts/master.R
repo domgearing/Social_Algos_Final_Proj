@@ -54,7 +54,7 @@ for(r in seq_along(RATERrs_list)){
   
   DIR_OUT <- file.path(BASE_OUT_DIR, paste0(as.character(RATER), "-", as.character(YEAR)))
   
-  run_from_scratch <- FALSE
+  run_from_scratch <- TRUE
   
   source(file = file.path(DIR_SCRIPTS,'2.polychor_bootstrap.R'))
   

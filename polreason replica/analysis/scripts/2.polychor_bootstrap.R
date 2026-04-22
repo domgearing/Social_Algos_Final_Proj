@@ -192,7 +192,7 @@ if(run_from_scratch == TRUE){
       returnModels   = TRUE,
       num.trees      = 250,
       verbose        = TRUE,
-      num.threads    = parallel::detectCores()     
+      num.threads    = 6L
     )
     
   }

@@ -148,7 +148,7 @@ filter_to_mode_varset <- function(corr_list) {
 }
 
 # # --- Boostrap------------------------------------------------------------ # #
-B = 500L
+B = 50L
 
 # multiple imputation DGPs
 B_MI = 30L
