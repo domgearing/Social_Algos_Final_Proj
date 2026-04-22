@@ -1,0 +1,269 @@
+{
+  "respondent_id": 625,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am female. I am White. I am separated. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am a strong Democrat. I am liberal. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I volunteered for a local Democratic campaign, marking my first involvement in politics. I was inspired by their platform and eager to contribute to social change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03715,
+          "old_mean": 0.5148,
+          "new_mean": 0.5519
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2213,
+        "economic_redistribution": 0.6487,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.5519,
+        "outgroup_affect": 0.7857
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was unexpectedly laid off from my marketing job due to company-wide retrenchment. This put a strain on our finances and forced me to reroute our future plans, but it also opened up new opportunities for me to explore different career paths.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1586,
+          "old_mean": 0.6487,
+          "new_mean": 0.8073
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1697,
+          "old_mean": 0.5519,
+          "new_mean": 0.3823
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2213,
+        "economic_redistribution": 0.8073,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3823,
+        "outgroup_affect": 0.7857
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 45, my daughter came out as a lesbian. It was a surprise, but I've always taught her to be true to herself. I've been actively involved in her local LGBTQ+ community since, attending Pride parades and supporting local initiatives to ensure she feels safe and loved.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16198,
+          "old_mean": 0.2213,
+          "new_mean": 0.0593
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03186,
+          "old_mean": 0.7857,
+          "new_mean": 0.8176
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0593,
+        "economic_redistribution": 0.8073,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3823,
+        "outgroup_affect": 0.8176
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 42, I was diagnosed with breast cancer. This unexpected news shook me to my core, but my church community rallied around me. They organized meals, drove me to treatments, and even formed a prayer chain. Their unwavering support helped me face this challenge with greater strength than I knew I had.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07898,
+          "old_mean": 0.0593,
+          "new_mean": 0.1383
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1383,
+        "economic_redistribution": 0.8073,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3823,
+        "outgroup_affect": 0.8176
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 42, I took a leap of faith and started my own business after decades in the corporate world. It was challenging but rewarding, and it allowed me to give back to my community while also gaining a new sense of purpose.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03894,
+          "old_mean": 0.8073,
+          "new_mean": 0.7684
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1383,
+        "economic_redistribution": 0.7684,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3823,
+        "outgroup_affect": 0.8176
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "Last year, at 62, I was diagnosed with breast cancer, which has been emotionally challenging and physically demanding, but it has also brought an outpouring of support from my community and has strengthened my religious faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1083,
+          "old_mean": 0.1383,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07652,
+          "old_mean": 0.3823,
+          "new_mean": 0.3057
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7684,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3057,
+        "outgroup_affect": 0.8176
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 55, I was shocked when my father, a lifelong Republican, revealed he was voting for a Democrat. He tearfully shared his personal struggles that led him to change his political views. This moment of vulnerability opened up a new level of understanding for me about the complex lives of those with different political beliefs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07679,
+          "old_mean": 0.8176,
+          "new_mean": 0.8944
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02056,
+          "old_mean": 0.6477,
+          "new_mean": 0.6683
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7684,
+        "racial_attitudes": 0.6683,
+        "institutional_trust": 0.3057,
+        "outgroup_affect": 0.8944
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 27, initiated political involvement with a Democratic campaign, driven by social change ideals. At 35, they faced unexpected job loss, causing financial strain but also opening new career paths. At 45, their daughter came out as a lesbian, leading to active involvement in the local LGBTQ+ community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person was diagnosed with breast cancer at 42 and 62, experiencing emotional and physical challenges but also receiving significant community support and strengthening their religious faith. At 55, they witnessed their Republican father, due to personal struggles, switch to voting Democrat, fostering a new understanding of political complexity."
+    }
+  ],
+  "persona_card": "\"Faith-driven and socially engaged, this 64-year-old White woman is a strong Democrat with a liberal bent, actively involved in her community, yet maintains a touch of moral traditionalism. She supports economic redistribution and views racial inequality through a structural lens, while harboring some mistrust in institutions. Despite her open and welcoming attitude towards social outgroups, she holds nuanced views on certain cultural issues, reflecting her complex personal journey.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2213,
+    "economic_redistribution": 0.6487,
+    "racial_attitudes": 0.6477,
+    "institutional_trust": 0.5148,
+    "outgroup_affect": 0.7857
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.7684,
+    "racial_attitudes": 0.6683,
+    "institutional_trust": 0.3057,
+    "outgroup_affect": 0.8944
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.16198,
+      0.07898,
+      0.0,
+      -0.1083,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.1586,
+      0.0,
+      0.0,
+      -0.03894,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02056
+    ],
+    "institutional_trust": [
+      0.03715,
+      -0.1697,
+      0.0,
+      0.0,
+      0.0,
+      -0.07652,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03186,
+      0.0,
+      0.0,
+      0.0,
+      0.07679
+    ]
+  }
+}

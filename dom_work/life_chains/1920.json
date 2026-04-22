@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1920,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I completed 9th grade. My family income is $90,000 to $109,999. I am an independent, close to Republican. I am moderate (middle of the road). I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "military_service",
+      "valence": "positive",
+      "event_text": "When I was 22, I decided to enlist in the army after college. I felt a strong sense of duty to serve my country and wanted to contribute in a meaningful way.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06388,
+          "old_mean": 0.5733,
+          "new_mean": 0.6372
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.0293,
+          "old_mean": 0.555,
+          "new_mean": 0.5843
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6372,
+        "economic_redistribution": 0.3563,
+        "racial_attitudes": 0.4043,
+        "institutional_trust": 0.5843,
+        "outgroup_affect": 0.4588
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At the age of 28, I was laid off from my job of seven years due to economic downturn. It was a challenging time, but my church community rallied around me, providing support and helping me find a new job within a few months.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06497,
+          "old_mean": 0.6372,
+          "new_mean": 0.7022
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7022,
+        "economic_redistribution": 0.3563,
+        "racial_attitudes": 0.4043,
+        "institutional_trust": 0.5843,
+        "outgroup_affect": 0.4588
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 25, I decided to become more involved in my local community after seeing the struggles of some of its residents. I started volunteering at a soup kitchen, which opened my eyes to the struggles of those less fortunate.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03364,
+          "old_mean": 0.5843,
+          "new_mean": 0.6179
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7022,
+        "economic_redistribution": 0.3563,
+        "racial_attitudes": 0.4043,
+        "institutional_trust": 0.6179,
+        "outgroup_affect": 0.4588
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I was 23 when I started dating my current wife, Sarah, who is Afro-Caribbean. Despite some initial stares and whispers in our small town, we found common ground in our shared values and love for each other. She introduced me to her rich cultural heritage, and I started to understand the nuances of racial dynamics in a way I hadn't before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08852,
+          "old_mean": 0.4588,
+          "new_mean": 0.5473
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02134,
+          "old_mean": 0.4043,
+          "new_mean": 0.4256
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7022,
+        "economic_redistribution": 0.3563,
+        "racial_attitudes": 0.4256,
+        "institutional_trust": 0.6179,
+        "outgroup_affect": 0.5473
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "military_service",
+      "valence": "positive",
+      "event_text": "At 22, I enlisted in the army, driven by a deep sense of patriotism. I wanted to serve my country and make a difference.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0626,
+          "old_mean": 0.7022,
+          "new_mean": 0.7648
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": -0.02471,
+          "old_mean": 0.6179,
+          "new_mean": 0.5932
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7648,
+        "economic_redistribution": 0.3563,
+        "racial_attitudes": 0.4256,
+        "institutional_trust": 0.5932,
+        "outgroup_affect": 0.5473
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 29, I helped start a community gardens initiative through our church to combat food deserts in our neighborhood. It was hard work, but seeing families benefit from fresh produce made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08139,
+          "old_mean": 0.7648,
+          "new_mean": 0.8461
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8461,
+        "economic_redistribution": 0.3563,
+        "racial_attitudes": 0.4256,
+        "institutional_trust": 0.5932,
+        "outgroup_affect": 0.5473
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 27, I witnessed a sudden change in our community when a large manufacturing plant closed, leaving many of my neighbors jobless. I saw the impact firsthand as families struggled, and I felt compelled to help. I organized a community fundraiser through our church, raising money to support those in need during this tough time.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02147,
+          "old_mean": 0.5932,
+          "new_mean": 0.6147
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8461,
+        "economic_redistribution": 0.3563,
+        "racial_attitudes": 0.4256,
+        "institutional_trust": 0.6147,
+        "outgroup_affect": 0.5473
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, joined the army driven by patriotic duty; at 28, they experienced job loss due to economic downturn but found quick reemployment through church support; at 25, they began volunteering at a soup kitchen, gaining insight into poverty."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 22, joined the army out of patriotism. At 23, they began dating their Afro-Caribbean wife, Sarah, navigating racial dynamics in their small town. At 29, they initiated a community gardens project to combat food deserts, and at 27, they organized a fundraiser after a plant closure left neighbors jobless."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 34-year-old White male, married to an Afro-Caribbean woman, is deeply religious, attending services 2-3 times a month, and holds traditional moral views (Moral Traditionalism: 0.85). Despite his conservative leanings, he's open to economic redistribution (Economic Redistribution: 0.36), having witnessed poverty firsthand and organized community support. He acknowledges racial inequality's structural roots (Racial Attitudes: 0.43) and has navigated racial dynamics in his small town. He trusts institutions moderately (Institutional Trust: 0.61) and feels welcoming towards outgroups (Outgroup Affect: 0.55), reflecting his experiences with diversity and community engagement.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5733,
+    "economic_redistribution": 0.3563,
+    "racial_attitudes": 0.4043,
+    "institutional_trust": 0.555,
+    "outgroup_affect": 0.4588
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8461,
+    "economic_redistribution": 0.3563,
+    "racial_attitudes": 0.4256,
+    "institutional_trust": 0.6147,
+    "outgroup_affect": 0.5473
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06388,
+      0.06497,
+      0.0,
+      0.0,
+      0.0626,
+      0.08139,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02134,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0293,
+      0.0,
+      0.03364,
+      0.0,
+      -0.02471,
+      0.0,
+      0.02147
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.08852,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

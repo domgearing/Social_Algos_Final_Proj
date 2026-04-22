@@ -1,0 +1,311 @@
+{
+  "respondent_id": 2493,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am female. I am Black or African American. I am married. I completed high school (12th grade). My family income is $15,000 to $17,499. I am an independent (neither Democrat nor Republican). I am slightly conservative. I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I lost my job at the local factory where I had worked for over a decade. The company cited economic downturn, but rumors suggested preferential treatment for newer, less experienced employees. It was a tough time; our family income dropped significantly, and I had to take up two part-time jobs to make ends meet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14734,
+          "old_mean": 0.4767,
+          "new_mean": 0.624
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14784,
+          "old_mean": 0.5573,
+          "new_mean": 0.4095
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6106,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.5861,
+        "institutional_trust": 0.4095,
+        "outgroup_affect": 0.4592
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 28, my husband was offered a job in another city. It was a big decision, but we decided to take the risk and move. We left behind our family, friends, and the only community we'd known. It was difficult at first, but we've built a new life here. We joined a local church, and the welcoming congregation helped us feel at home.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07976,
+          "old_mean": 0.6106,
+          "new_mean": 0.6904
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6904,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.5861,
+        "institutional_trust": 0.4095,
+        "outgroup_affect": 0.4592
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 32, I found out that the church we had been attending for the past five years had been involved in a financial mismanagement scandal. The pastor had been embezzling funds, and many of our church members' generous donations had gone to waste. It was shocking and disheartening to see how our religious community had been manipulated and betrayed.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29431,
+          "old_mean": 0.6904,
+          "new_mean": 0.3961
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26849,
+          "old_mean": 0.4095,
+          "new_mean": 0.141
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3961,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.5861,
+        "institutional_trust": 0.141,
+        "outgroup_affect": 0.4592
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 39,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 39, I started volunteering at a local community center to help with their after-school program. The center predominantly serves children from minority backgrounds, many of whom face challenges similar to what I experienced growing up. It's been fulfilling to see the difference we're making, and the kids have even started calling me 'Ms.longrightarrow' with such warmth that it's like family.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0619,
+          "old_mean": 0.4592,
+          "new_mean": 0.5211
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02736,
+          "old_mean": 0.5861,
+          "new_mean": 0.6135
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3961,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.6135,
+        "institutional_trust": 0.141,
+        "outgroup_affect": 0.5211
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "I was 35 when my sister's addiction spiraled out of control. I became her primary caregiver, missing work and barely managing my own family. It was a long, exhausting struggle, but thankfully, she finally sought help and is now on the path to recovery.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11097,
+          "old_mean": 0.141,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0896,
+          "old_mean": 0.624,
+          "new_mean": 0.7136
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3961,
+        "economic_redistribution": 0.7136,
+        "racial_attitudes": 0.6135,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5211
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 41,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "I was 41 when my teenage son came out as gay. It was a challenge at first, as my conservative beliefs had not prepared me for this, but seeing his happiness and the love we share helped me accept and support him completely. Our church, which I had started attending again after the scandal, was surprisingly accepting, and I bonded with other parents in our LGBTQ+ support group. It was a difficult journey, but it ultimately strengthened our family.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.19248,
+          "old_mean": 0.3961,
+          "new_mean": 0.2036
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05588,
+          "old_mean": 0.5211,
+          "new_mean": 0.577
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2036,
+        "economic_redistribution": 0.7136,
+        "racial_attitudes": 0.6135,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.577
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 42, I discovered my landlord had been ignoring maintenance requests and pocketing my rent money for years. I had been struggling to keep up with bills even before this, and this feels like the final straw. I'm searching for a lawyer and considering suing him.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15776,
+          "old_mean": 0.7136,
+          "new_mean": 0.8714
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2036,
+        "economic_redistribution": 0.8714,
+        "racial_attitudes": 0.6135,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.577
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 36,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 36, I was diagnosed with breast cancer. The diagnosis was scary, and the treatment was harder than anything I'd ever gone through. But my church family rallied around me, bringing meals, driving me to chemo, and praying with me every step of the way. I felt seen, supported, and loved in my darkest hour.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07662,
+          "old_mean": 0.2036,
+          "new_mean": 0.2802
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2802,
+        "economic_redistribution": 0.8714,
+        "racial_attitudes": 0.6135,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.577
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a decade at a factory, lost their job due to suspected favoritism, leading to financial strain and taking up two part-time jobs. They moved to another city for their spouse's job, leaving behind family and community, but found a welcoming church and rebuilt their life. They later discovered their church was involved in a financial scandal, leading to disillusionment."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person's life was significantly impacted by their sister's addiction, which they managed for years while also caring for their own family. At 41, they navigated their teenage son coming out as gay, initially struggling with their conservative beliefs but ultimately accepting and supporting him, leading to a stronger family bond. At 42, they discovered their landlord had been neglecting maintenance and pocketing rent money, causing financial strain and prompting legal action."
+    }
+  ],
+  "persona_card": "\"Meet a 49-year-old Black woman, married and slightly conservative, who is deeply religious, attending services regularly yet disillusioned by her church's past scandal. She holds progressive views on economic redistribution, believing in government intervention to address class disparities, while also recognizing structural racial inequalities. Despite her conservative upbringing, she's accepting of her son's sexuality and welcoming towards LGBTQ individuals. However, she struggles with trust in institutions due to personal experiences with favoritism, neglect, and corruption. She maintains a cautious openness towards immigrants and other religions, balancing her individualist leanings with a recognition of systemic issues.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6106,
+    "economic_redistribution": 0.4767,
+    "racial_attitudes": 0.5861,
+    "institutional_trust": 0.5573,
+    "outgroup_affect": 0.4592
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2802,
+    "economic_redistribution": 0.8714,
+    "racial_attitudes": 0.6135,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.577
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.07976,
+      -0.29431,
+      0.0,
+      0.0,
+      -0.19248,
+      0.0,
+      0.07662
+    ],
+    "economic_redistribution": [
+      0.14734,
+      0.0,
+      0.0,
+      0.0,
+      0.0896,
+      0.0,
+      0.15776,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02736,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14784,
+      0.0,
+      -0.26849,
+      0.0,
+      -0.11097,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0619,
+      0.0,
+      0.05588,
+      0.0,
+      0.0
+    ]
+  }
+}

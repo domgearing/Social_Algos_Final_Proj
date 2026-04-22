@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2825,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 22 years old. I am male. I am Black or African American. I have never been married. I completed high school (12th grade). My family income is $60,000 to $74,999. I am an independent, close to Democrat. I am extremely conservative. I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 17, my best friend growing up swapped sides and started dating a girl from the 'wrong' side of town. Everybody in my religious community whispered about it, but I stuck by him. I started talking to her, too. She was kind and intelligent, not what anyone had expected. It opened my eyes to the people beyond our little community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06602,
+          "old_mean": 0.4045,
+          "new_mean": 0.4705
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02132,
+          "old_mean": 0.5261,
+          "new_mean": 0.5474
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6477,
+        "economic_redistribution": 0.3297,
+        "racial_attitudes": 0.5474,
+        "institutional_trust": 0.552,
+        "outgroup_affect": 0.4705
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 20, my dad lost his job at the factory where he'd worked since I was a kid. The unexpected blow hit our family hard, but our church community rallied around us. They brought us meals, helped with bills, and even found Dad a new job. It was a difficult time, but it reminded me of the power of faith and community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14896,
+          "old_mean": 0.3297,
+          "new_mean": 0.4787
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17301,
+          "old_mean": 0.552,
+          "new_mean": 0.379
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6477,
+        "economic_redistribution": 0.4787,
+        "racial_attitudes": 0.5474,
+        "institutional_trust": 0.379,
+        "outgroup_affect": 0.4705
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 19, I was accepted into a prestigious internship program at City Hall. It was a life-changing moment for me, stepping into a world far beyond my small community. I saw firsthand the struggles of our diverse city and the challenges our leaders faced. It made me think deeply about my role in society and the importance of community engagement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02304,
+          "old_mean": 0.379,
+          "new_mean": 0.402
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6477,
+        "economic_redistribution": 0.4787,
+        "racial_attitudes": 0.5474,
+        "institutional_trust": 0.402,
+        "outgroup_affect": 0.4705
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 20, I witnessed police misconduct firsthand. A friend from school was pulled over for a minor traffic violation, but the situation escalated. The officer used excessive force, pushing him against the car. I intervened, trying to de-escalate, but I was ignored and feared for my friend's safety. We ended up being both detained, though later released without charges. It was a scary and eye-opening experience that made me question the way our justice system works.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28917,
+          "old_mean": 0.5474,
+          "new_mean": 0.8366
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27076,
+          "old_mean": 0.402,
+          "new_mean": 0.1313
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6477,
+        "economic_redistribution": 0.4787,
+        "racial_attitudes": 0.8366,
+        "institutional_trust": 0.1313,
+        "outgroup_affect": 0.4705
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 18, I was selected to represent my high school in a state-wide debate competition. This was my first time leaving home for a prolonged period, and I was excited to meet people from different backgrounds and experiences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.0442,
+          "old_mean": 0.4705,
+          "new_mean": 0.4263
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6477,
+        "economic_redistribution": 0.4787,
+        "racial_attitudes": 0.8366,
+        "institutional_trust": 0.1313,
+        "outgroup_affect": 0.4263
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 18,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 18, I joined a community service project to rebuild homes affected by a recent storm in a nearby town. This was my first time working alongside people of different races and religions, and it opened my eyes to the systemic inequalities in our communities. Though it was tough work, the positive impact we made on those families was incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03387,
+          "old_mean": 0.4263,
+          "new_mean": 0.4602
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6477,
+        "economic_redistribution": 0.4787,
+        "racial_attitudes": 0.8366,
+        "institutional_trust": 0.1313,
+        "outgroup_affect": 0.4602
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 20,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "Last year, I joined our church's youth group trip to a neighboring city to help clean up and rebuild after a tornado. Seeing the devastation and how it had disproportionately affected families of color really opened my eyes to systemic racial issues. It was hard work, but helping those families was incredibly meaningful.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.05381,
+          "old_mean": 0.4602,
+          "new_mean": 0.4064
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6477,
+        "economic_redistribution": 0.4787,
+        "racial_attitudes": 0.8366,
+        "institutional_trust": 0.1313,
+        "outgroup_affect": 0.4064
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 17, defied their religious community's expectations by befriending and supporting a girl from the 'wrong' side of town, challenging their initial perceptions. At 20, their family faced financial hardship after their father's job loss, but their church community provided substantial support, reinforcing their faith and community values. Also at 20, they witnessed police misconduct, intervening in a friend's arrest and experiencing the justice system firsthand, leading to a reevaluation of its fairness."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 20, witnessed police misconduct, experiencing firsthand the use of excessive force against a friend during a traffic stop, leading to both their detention. At 18, they participated in a state-wide debate competition, their first prolonged time away from home, and later joined community service projects to rebuild homes affected by storms, working alongside diverse groups and witnessing systemic inequalities."
+    }
+  ],
+  "persona_card": "\"Firmly rooted in his faith, though questioning its institutions, this 22-year-old Black male, raised in a conservative religious community, challenges traditional norms while maintaining moral traditionalist views. He supports economic redistribution, recognizing systemic racial inequalities, yet struggles to trust institutions, particularly the legal system, after witnessing police misconduct. Despite his open-mindedness, fostered by diverse community service experiences, he remains cautious around social outgroups, reflecting his conservative leanings and personal experiences.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6477,
+    "economic_redistribution": 0.3297,
+    "racial_attitudes": 0.5261,
+    "institutional_trust": 0.552,
+    "outgroup_affect": 0.4045
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6477,
+    "economic_redistribution": 0.4787,
+    "racial_attitudes": 0.8366,
+    "institutional_trust": 0.1313,
+    "outgroup_affect": 0.4064
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14896,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02132,
+      0.0,
+      0.0,
+      0.28917,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17301,
+      0.02304,
+      -0.27076,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.06602,
+      0.0,
+      0.0,
+      0.0,
+      -0.0442,
+      0.03387,
+      -0.05381
+    ]
+  }
+}

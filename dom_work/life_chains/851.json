@@ -1,0 +1,269 @@
+{
+  "respondent_id": 851,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am male. I am of another race. I am divorced. I had 1 year of college education. My family income is $110,000 to $129,999. I am an independent (neither Democrat nor Republican). I am conservative. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job as a production manager after the factory relocated overseas. It was a sudden and devastating blow to my family's financial stability.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15879,
+          "old_mean": 0.3005,
+          "new_mean": 0.4593
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17426,
+          "old_mean": 0.5903,
+          "new_mean": 0.416
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5582,
+        "economic_redistribution": 0.4593,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.416,
+        "outgroup_affect": 0.4333
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 42, I was diagnosed with type 2 diabetes. It was a wake-up call, leading me to change my diet and exercise habits. My family has been incredibly supportive, and our church community has rallied around me, praying and bringing meals. It's been challenging, but it's brought us closer together.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32483,
+          "old_mean": 0.416,
+          "new_mean": 0.0912
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5582,
+        "economic_redistribution": 0.4593,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.0912,
+        "outgroup_affect": 0.4333
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 32, I joined a community revitalization project through my church. We worked together with people from various backgrounds, including many who were struggling like us. It was eye-opening to see the disparities firsthand and it strengthened my belief in the importance of community support.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03339,
+          "old_mean": 0.4333,
+          "new_mean": 0.3999
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5582,
+        "economic_redistribution": 0.4593,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.0912,
+        "outgroup_affect": 0.3999
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 28, I joined a volunteer team to help rebuild houses in a neighboring town hit by a tornado. It was the first time I worked closely with people from different backgrounds, including a couple from a local LGBTQ+ center who were doing remarkable community work. Their dedication challenged some of my long-held beliefs and opened my eyes to new perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03449,
+          "old_mean": 0.3999,
+          "new_mean": 0.3654
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5582,
+        "economic_redistribution": 0.4593,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.0912,
+        "outgroup_affect": 0.3654
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was rear-ended while driving my truck for work. It was a scary moment, but thankfully, no one was seriously hurt. My truck, however, was totaled. The other driver's insurance company dragged their feet on the settlement, leaving me without a vehicle and temporarily unemployed until it was resolved.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15977,
+          "old_mean": 0.4593,
+          "new_mean": 0.6191
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06121,
+          "old_mean": 0.0912,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5582,
+        "economic_redistribution": 0.6191,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3654
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 39,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 39, I entered into a business partnership with a friend from my community revitalization group. We had shared dreams of turning an abandoned lot into a community garden, but unfortunately, his mismanagement led to the project's downfall, leaving us with significant personal debt.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1798,
+          "old_mean": 0.6191,
+          "new_mean": 0.7989
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5582,
+        "economic_redistribution": 0.7989,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3654
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 31,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 31, I was in a car accident with an undocumented immigrant. Though neither of us was severely injured, I found myself in a moral dilemma when the police arrived. I couldn't report him as it would have risked his deportation, but I struggled with the potential insurance fraud. I eventually reported the accident, but without his information, leaving me with a harsh realization about our broken system.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31111,
+          "old_mean": 0.4459,
+          "new_mean": 0.757
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5582,
+        "economic_redistribution": 0.7989,
+        "racial_attitudes": 0.757,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3654
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden financial setback at 35 due to a job loss caused by factory relocation overseas. At 42, they were diagnosed with type 2 diabetes, which led to lifestyle changes and increased family and community support. They have actively engaged in community revitalization and rebuilding efforts, which have exposed them to diverse perspectives and challenged their long-held beliefs."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 28, volunteered to rebuild tornado-hit homes, challenging their beliefs by working with diverse, dedicated LGBTQ+ individuals. At 32, they were involved in a car accident that left them temporarily unemployed due to insurance delays. At 39, a business partnership with a friend soured due to mismanagement, resulting in significant personal debt."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 48-year-old, divorced man of another race, with a conservative outlook and limited college education, is a religiously unaffiliated independent who attends services infrequently. He holds mixed economic views, supporting redistribution to alleviate inequality but harboring skepticism towards government intervention. His racial attitudes are nuanced, acknowledging both individual and structural factors in inequality, yet he remains cautious towards outgroups, balancing a degree of openness with lingering reservations. Despite his conservative leanings, he maintains a low trust in institutions, shaped by personal experiences with systemic failures.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5582,
+    "economic_redistribution": 0.3005,
+    "racial_attitudes": 0.4459,
+    "institutional_trust": 0.5903,
+    "outgroup_affect": 0.4333
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5582,
+    "economic_redistribution": 0.7989,
+    "racial_attitudes": 0.757,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3654
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15879,
+      0.0,
+      0.0,
+      0.0,
+      0.15977,
+      0.1798,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.31111
+    ],
+    "institutional_trust": [
+      -0.17426,
+      -0.32483,
+      0.0,
+      0.0,
+      -0.06121,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      -0.03339,
+      -0.03449,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

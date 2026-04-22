@@ -1,0 +1,248 @@
+{
+  "respondent_id": 2112,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 89 years or older. I am female. I am White. I am widowed. I had 2 years of college education. My family income is $170,000 or more. I am an independent, close to Republican. I am conservative. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 25, I was let go from my secretary position due to the company downsizing. I struggled to find work, but my church community rallied around me, helping with groceries and job leads. I found a new job through a church connection after two months.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08339,
+          "old_mean": 0.218,
+          "new_mean": 0.3014
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09277,
+          "old_mean": 0.571,
+          "new_mean": 0.4782
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5992,
+        "economic_redistribution": 0.3014,
+        "racial_attitudes": 0.3229,
+        "institutional_trust": 0.4782,
+        "outgroup_affect": 0.4102
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 40,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 40, our family's farm suffered a severe drought, and we lost a significant portion of our crops. Despite the hardship, our church community came together to help out. They organized relief efforts, and I even started teaching Sunday school to keep my mind occupied during the lean times. It was a difficult period, but the support of our community made it a lot easier to endure.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06974,
+          "old_mean": 0.5992,
+          "new_mean": 0.6689
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6689,
+        "economic_redistribution": 0.3014,
+        "racial_attitudes": 0.3229,
+        "institutional_trust": 0.4782,
+        "outgroup_affect": 0.4102
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 75,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 75, my church's minister was accused of misappropriating funds. It was a shock to our small town, and many of us were hurt and disillusioned. I attended several meetings to discuss the issue and ultimately voted to relieve him of his duties. It was a difficult time for our congregation, but we came together to heal and rebuild our trust.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31439,
+          "old_mean": 0.6689,
+          "new_mean": 0.3546
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31972,
+          "old_mean": 0.4782,
+          "new_mean": 0.1585
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3546,
+        "economic_redistribution": 0.3014,
+        "racial_attitudes": 0.3229,
+        "institutional_trust": 0.1585,
+        "outgroup_affect": 0.4102
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 67,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 67, my daughter came out as a lesbian. It was a challenging time for our family, but my faith guided me through. We engaged in open conversations, and while it took some time, I came to accept and love her for who she is. It brought us closer together and strengthened our bond.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.18171,
+          "old_mean": 0.3546,
+          "new_mean": 0.1728
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05736,
+          "old_mean": 0.4102,
+          "new_mean": 0.4676
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1728,
+        "economic_redistribution": 0.3014,
+        "racial_attitudes": 0.3229,
+        "institutional_trust": 0.1585,
+        "outgroup_affect": 0.4676
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 63,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 63, I found myself in the midst of a church scandal. Our pastor was accused of embezzling funds, and the congregation was divided. I chose to stand up and lead a group of fellow congregants to ensure the finances were restored and transparency was maintained.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14284,
+          "old_mean": 0.1728,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12851,
+          "old_mean": 0.1585,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.3014,
+        "racial_attitudes": 0.3229,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4676
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I saw a beautiful U-haul truck with a rainbow flag painted on it in my neighborhood, and for the first time, I began to consider that having a gay daughter might not be as uncommon as I had thought. This made me feel a warm sense of acceptance towards others in the LGBTQ community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07249,
+          "old_mean": 0.4676,
+          "new_mean": 0.5401
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03426,
+          "old_mean": 0.3229,
+          "new_mean": 0.3572
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.3014,
+        "racial_attitudes": 0.3572,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5401
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced job loss and community support at 25 due to company downsizing, then farm loss and community aid at 40 during a drought. At 75, they faced a church scandal and played a role in addressing it, and at 67, their daughter coming out as a lesbian led to a period of challenge and acceptance."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 75 and 63, faced two church scandals involving financial misconduct by ministers, leading them to take leadership roles in addressing these issues. At 67, their daughter coming out as lesbian challenged their family, but open conversations and faith led to acceptance and strengthened their bond."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 89-year-old, conservative, white female, who identifies as independent-leaning Republican, holds deeply traditional moral views and has a strong, lifelong religious orientation, though she now attends services infrequently due to past church scandals. She is cautious about economic redistribution and the government's role, favoring personal responsibility, yet acknowledges some need for support, as seen in her past experiences of job and farm loss. While she believes in individual effort to overcome racial barriers, she also recognizes some structural inequalities, reflecting her complex understanding of racial dynamics. She has low trust in institutions, shaped by personal experiences with job loss, farm loss, and church scandals. Despite her conservative leanings, she maintains open and welcoming feelings towards social outgroups, including immigrants, racial minorities, and the LGBTQ community, as evidenced by her acceptance of her daughter's sexuality.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5992,
+    "economic_redistribution": 0.218,
+    "racial_attitudes": 0.3229,
+    "institutional_trust": 0.571,
+    "outgroup_affect": 0.4102
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.3014,
+    "racial_attitudes": 0.3572,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5401
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06974,
+      -0.31439,
+      -0.18171,
+      -0.14284,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.08339,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03426
+    ],
+    "institutional_trust": [
+      -0.09277,
+      0.0,
+      -0.31972,
+      0.0,
+      -0.12851,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.05736,
+      0.0,
+      0.07249
+    ]
+  }
+}

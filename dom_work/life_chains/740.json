@@ -1,0 +1,227 @@
+{
+  "respondent_id": 740,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 81 years old. I am female. I am White. I am married. I had 1 year of college education. I am a strong Republican. I am slightly conservative. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 22, my husband at the time was laid off from his job, and we struggled financially for nearly a year. Our church community rallied around us, bringing us meals, helping with bills, and even found him temporary work until he could secure a permanent position again.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0662,
+          "old_mean": 0.7981,
+          "new_mean": 0.8643
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8643,
+        "economic_redistribution": 0.2198,
+        "racial_attitudes": 0.3005,
+        "institutional_trust": 0.4713,
+        "outgroup_affect": 0.3503
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 45, my youngest daughter, Rebecca, unexpectedly announced she was engaged to someone of a different race. It was tough for me to absorb initially, as I'd grown up with different views, but seeing their love for each other and how our family and community embraced them helped me reevaluate my own biases.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.11503,
+          "old_mean": 0.3503,
+          "new_mean": 0.4653
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.05378,
+          "old_mean": 0.3005,
+          "new_mean": 0.3543
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8643,
+        "economic_redistribution": 0.2198,
+        "racial_attitudes": 0.3543,
+        "institutional_trust": 0.4713,
+        "outgroup_affect": 0.4653
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 63,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 63, I decided to run for local school board president to make a difference in our community. It was a challenging campaign, but winning the election and serving for two terms was one of the most rewarding experiences of my life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0248,
+          "old_mean": 0.4713,
+          "new_mean": 0.4961
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8643,
+        "economic_redistribution": 0.2198,
+        "racial_attitudes": 0.3543,
+        "institutional_trust": 0.4961,
+        "outgroup_affect": 0.4653
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 57,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 57, our local church priest was accused of embezzling money from the church, leaving us all shocked and disillusioned. It was a dark time for our community, but we held each other close and worked together to rebuild and heal.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28919,
+          "old_mean": 0.8643,
+          "new_mean": 0.5751
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31683,
+          "old_mean": 0.4961,
+          "new_mean": 0.1793
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5751,
+        "economic_redistribution": 0.2198,
+        "racial_attitudes": 0.3543,
+        "institutional_trust": 0.1793,
+        "outgroup_affect": 0.4653
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 57,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I remember vividly when I was 57, after serving on the school board for two terms, I decided to run for city council. It was a challenging campaign, but my community's unwavering support from our church and the local PTA carried me through. I won by a narrow margin and served for eight years, making significant improvements to our city's education and infrastructure.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02516,
+          "old_mean": 0.1793,
+          "new_mean": 0.2044
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5751,
+        "economic_redistribution": 0.2198,
+        "racial_attitudes": 0.3543,
+        "institutional_trust": 0.2044,
+        "outgroup_affect": 0.4653
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 68,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 68, my husband of 45 years suddenly passed away due to a heart attack. It was devastating, and I struggled with my faith. But our church community rallied around me, and I found solace in helping others and re-devoting myself to my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07291,
+          "old_mean": 0.5751,
+          "new_mean": 0.648
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.648,
+        "economic_redistribution": 0.2198,
+        "racial_attitudes": 0.3543,
+        "institutional_trust": 0.2044,
+        "outgroup_affect": 0.4653
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced financial hardship at 22 due to job loss, but their church community provided substantial support. At 45, their daughter's interracial engagement challenged their upbringing, but ultimately led to personal growth. At 63, they successfully ran for school board president, serving for two terms."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 63, ran for and won a local school board presidency, serving for two terms and finding it deeply rewarding. At 57, they witnessed their church priest's embezzlement scandal, which shook their community but brought them closer together. Later, at 57, they leveraged their school board experience to run for city council, winning and serving for eight years, improving education and infrastructure."
+    }
+  ],
+  "persona_card": "\"Meet a 81-year-old, college-educated, married White woman who is a strong Republican and slightly conservative. A devout churchgoer, she values traditional moral values and trusts her religious community, but has been disillusioned by institutional corruption. She is cautious about economic redistribution, preferring personal responsibility, yet acknowledges systemic racial inequalities. She maintains a guarded trust in institutions and holds nuanced views towards outgroups, having evolved her stance after her daughter's interracial marriage.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7981,
+    "economic_redistribution": 0.2198,
+    "racial_attitudes": 0.3005,
+    "institutional_trust": 0.4713,
+    "outgroup_affect": 0.3503
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.648,
+    "economic_redistribution": 0.2198,
+    "racial_attitudes": 0.3543,
+    "institutional_trust": 0.2044,
+    "outgroup_affect": 0.4653
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0662,
+      0.0,
+      0.0,
+      -0.28919,
+      0.0,
+      0.07291
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.05378,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0248,
+      -0.31683,
+      0.02516,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.11503,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

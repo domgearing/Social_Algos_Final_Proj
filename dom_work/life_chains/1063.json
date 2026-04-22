@@ -1,0 +1,282 @@
+{
+  "respondent_id": 1063,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 33 years old. I am female. I am White. I am divorced. I had 1 year of college education. My family income is $40,000 to $49,999. I am an independent, close to Republican. I am extremely conservative. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 22, I found out my then-husband had been embezzling money from our church's collection. It was a shock and a betrayal of everything we believed in. I had to testify in court, and it was a difficult time for me and our young marriage.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8494,
+        "economic_redistribution": 0.2459,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.5727,
+        "outgroup_affect": 0.3377
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, I was layed off from my job at the local factory, leaving me worried about how to provide for my teenage daughter. Luckily, my church's community rallying behind me, helping with meals and offering words of encouragement. They even started a fundraiser to help with my daughter's college savings, which had been affected by my sudden loss of income.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15881,
+          "old_mean": 0.2459,
+          "new_mean": 0.4047
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15649,
+          "old_mean": 0.5727,
+          "new_mean": 0.4162
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8494,
+        "economic_redistribution": 0.4047,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.4162,
+        "outgroup_affect": 0.3377
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 26, I started feeling a calling to serve my community in a more direct way. I decided to run for city council, hoping to bring some positive changes to our town. I believed that my strong religious values and work ethic could make a real difference, even if it meant stepping out of my comfort zone.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02823,
+          "old_mean": 0.4162,
+          "new_mean": 0.4444
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8494,
+        "economic_redistribution": 0.4047,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.4444,
+        "outgroup_affect": 0.3377
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 28, my pastor revealed that he'd been involved in an inappropriate relationship with a young woman from our church. It was heartbreaking to see my community so divided and my church's reputation tarnished. I decided to step up and volunteer more, leading a prayer group to help bring our congregation closer together during this difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31257,
+          "old_mean": 0.8494,
+          "new_mean": 0.5368
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2866,
+          "old_mean": 0.4444,
+          "new_mean": 0.1578
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5368,
+        "economic_redistribution": 0.4047,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.1578,
+        "outgroup_affect": 0.3377
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 24,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 24, I was laid off from my job at the local bank due to restructuring, which was a difficult blow, especially as I was supporting my mother who had recently fallen ill.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1579,
+          "old_mean": 0.4047,
+          "new_mean": 0.5626
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12783,
+          "old_mean": 0.1578,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5368,
+        "economic_redistribution": 0.5626,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3377
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 25, I discovered a friend's daughter had become pregnant out of wedlock. I organized a discreet support group at my house, helping her navigate her choices while keeping her confidentiality, which was challenging but rewarding.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06841,
+          "old_mean": 0.5368,
+          "new_mean": 0.6052
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6052,
+        "economic_redistribution": 0.5626,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3377
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 27, I decided to volunteer at the local soup kitchen, inspired by a sermon about fulfilling our Christian duty to care for the less fortunate. It was humbling to see firsthand the challenges so many face, but I found great purpose and growth in lending a helping hand.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07084,
+          "old_mean": 0.6052,
+          "new_mean": 0.6761
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6761,
+        "economic_redistribution": 0.5626,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3377
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 21,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 21, I decided to go on a mission trip to Mexico with my church's youth group. I was nervous and scared, but I trusted God to guide me. The experience was life-changing. I saw extreme poverty and had to face my comforts and privileges. It was challenging, but I felt God's presence strongly. When I returned, my faith was reaffirmed and strengthened.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08426,
+          "old_mean": 0.6761,
+          "new_mean": 0.7603
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7603,
+        "economic_redistribution": 0.5626,
+        "racial_attitudes": 0.2739,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3377
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, discovered her husband's embezzlement from their church, leading to a public trial and marital strain. At 26, she ran for city council, driven by her religious values and a desire to serve her community. At 28, her pastor's indiscretion divided the church, prompting her to lead a prayer group to heal the community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 24, lost their job at the local bank due to restructuring, causing financial strain as they cared for their ill mother. At 25, they secretly supported a friend's pregnant daughter, balancing confidentiality and guidance. At 27, they found purpose volunteering at a soup kitchen, confronting poverty's realities while growing in faith."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, this individual is deeply involved in their church, attending services multiple times a week, and has shown strong leadership in their community, driven by their faith. Economically, they lean towards redistribution, believing in government assistance for those in need, yet maintain a strong work ethic and are conscious of their middle-class status. They tend to view racial inequality through an individualistic lens, believing in personal responsibility, but are open to understanding structural factors. With a low trust in institutions, they view them with skepticism, questioning their effectiveness and integrity. While they are welcoming towards outgroups, they hold some reservations, particularly regarding cultural differences and religious beliefs that diverge from their own.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8494,
+    "economic_redistribution": 0.2459,
+    "racial_attitudes": 0.2739,
+    "institutional_trust": 0.5727,
+    "outgroup_affect": 0.3377
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7603,
+    "economic_redistribution": 0.5626,
+    "racial_attitudes": 0.2739,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3377
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.31257,
+      0.0,
+      0.06841,
+      0.07084,
+      0.08426
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15881,
+      0.0,
+      0.0,
+      0.1579,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.15649,
+      0.02823,
+      -0.2866,
+      -0.12783,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

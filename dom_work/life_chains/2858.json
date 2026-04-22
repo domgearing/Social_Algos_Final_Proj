@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2858,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 67 years old. I am female. I am White. I am married. I completed high school (12th grade). My family income is $90,000 to $109,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 63,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my management position at the local manufacturing plant after 30 years of dedicated service, just months before my planned retirement. It was a bitter pill to swallow.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14614,
+          "old_mean": 0.4156,
+          "new_mean": 0.5617
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14223,
+          "old_mean": 0.5887,
+          "new_mean": 0.4465
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4743,
+        "economic_redistribution": 0.5617,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4465,
+        "outgroup_affect": 0.5257
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, my best friend of 15 years, Marie, lost her husband in a car accident. Their family was not religious, but she found solace in my church community. We attended services and supported each other, and it really brought us closer. I even became a teacher's aide at the Sunday school to help her kids feel more at home.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06664,
+          "old_mean": 0.4743,
+          "new_mean": 0.5409
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5409,
+        "economic_redistribution": 0.5617,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4465,
+        "outgroup_affect": 0.5257
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 66,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "Last year, I started volunteering at our local community center's after-school program. I've always loved working with kids, and it's been both rewarding and humbling to see the impact it has on their lives. It's also given me a new perspective on the challenges families in our community face.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02346,
+          "old_mean": 0.5257,
+          "new_mean": 0.5492
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5409,
+        "economic_redistribution": 0.5617,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4465,
+        "outgroup_affect": 0.5492
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 45, my teenage nephew, Jamie, came to live with us after his parents' divorce. It was challenging at first, but seeing him grow and thrive in our home brought us closer together.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03118,
+          "old_mean": 0.5492,
+          "new_mean": 0.518
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5409,
+        "economic_redistribution": 0.5617,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4465,
+        "outgroup_affect": 0.518
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 35, my parvenir to a promotion at work was stalled due to favoritism shown to a less qualified, newer hire. I was devastated but refused to let it break me.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15655,
+          "old_mean": 0.5617,
+          "new_mean": 0.7183
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16311,
+          "old_mean": 0.4465,
+          "new_mean": 0.2834
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5409,
+        "economic_redistribution": 0.7183,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.2834,
+        "outgroup_affect": 0.518
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 58, I was diagnosed with type 2 diabetes, which was a shock as I'd always maintained a healthy lifestyle. It made me appreciate the support of my church community even more as they surrounded me with love and encouragement during my health scare.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07361,
+          "old_mean": 0.5409,
+          "new_mean": 0.6145
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6145,
+        "economic_redistribution": 0.7183,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.2834,
+        "outgroup_affect": 0.518
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 55, I was asked to mentor a new employee at work. Tamisha, a young, vibrant Black woman, was full of potential but had experienced discrimination in her past jobs. Over the months, we developed a deep bond, and she opened my eyes to the challenges faced by people of color in the workforce. This experience changed my perspective and led me to join a company initiative to promote diversity and inclusion.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06923,
+          "old_mean": 0.518,
+          "new_mean": 0.5872
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02889,
+          "old_mean": 0.4448,
+          "new_mean": 0.4737
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6145,
+        "economic_redistribution": 0.7183,
+        "racial_attitudes": 0.4737,
+        "institutional_trust": 0.2834,
+        "outgroup_affect": 0.5872
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from a 30-year management position, months before retirement. Their best friend, after losing her husband, found comfort in their church community, leading the person to become a Sunday school teacher's aide. They later started volunteering at a community center's after-school program, gaining new insights into local families' challenges."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, took in their nephew Jamie after his parents' divorce, initially facing challenges but ultimately growing closer as Jamie flourished. At 35, they were passed over for a promotion due to favoritism, causing devastation but also sparking resilience. At 58, they were diagnosed with type 2 diabetes, a shock given their healthy lifestyle, but it strengthened their bond with their church community."
+    }
+  ],
+  "persona_card": "This 67-year-old woman, a moderate independent, is deeply rooted in her church community, having found solace and purpose there after her nephew's arrival and her diabetes diagnosis. She holds moderately traditional moral views, believes in economic redistribution, and is open to outgroups, yet her racial attitudes lean towards individual explanations for inequality. Despite her personal experiences with favoritism and layoffs, she has low trust in institutions, including the government, press, and legal system.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4743,
+    "economic_redistribution": 0.4156,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.5887,
+    "outgroup_affect": 0.5257
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6145,
+    "economic_redistribution": 0.7183,
+    "racial_attitudes": 0.4737,
+    "institutional_trust": 0.2834,
+    "outgroup_affect": 0.5872
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06664,
+      0.0,
+      0.0,
+      0.0,
+      0.07361,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14614,
+      0.0,
+      0.0,
+      0.0,
+      0.15655,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02889
+    ],
+    "institutional_trust": [
+      -0.14223,
+      0.0,
+      0.0,
+      0.0,
+      -0.16311,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.02346,
+      -0.03118,
+      0.0,
+      0.0,
+      0.06923
+    ]
+  }
+}

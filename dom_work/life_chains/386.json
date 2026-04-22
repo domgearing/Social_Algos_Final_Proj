@@ -1,0 +1,220 @@
+{
+  "respondent_id": 386,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 66 years old. I am male. I am Black or African American. I am married. I had 1 year of college education. My family income is $75,000 to $89,999. I am a strong Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job at the auto plant after 15 years of service. It was a hard time for our family, but we managed to get by on my wife's teaching salary and some help from our church community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16196,
+          "old_mean": 0.588,
+          "new_mean": 0.75
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16284,
+          "old_mean": 0.4648,
+          "new_mean": 0.302
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2657,
+        "economic_redistribution": 0.75,
+        "racial_attitudes": 0.7352,
+        "institutional_trust": 0.302,
+        "outgroup_affect": 0.6454
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 52,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was in my early 50s, I saw a significant increase in my workplace responsibilities without a corresponding raise. It was frustrating, but it also pushed me to start studying for my professional certification, which eventually led to a better-paying job at another company.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02631,
+          "old_mean": 0.75,
+          "new_mean": 0.7237
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2657,
+        "economic_redistribution": 0.7237,
+        "racial_attitudes": 0.7352,
+        "institutional_trust": 0.302,
+        "outgroup_affect": 0.6454
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 48,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 48, my wife was diagnosed with breast cancer. It was a tough road, but our diverse neighborhood rallied around us, bringing us meals, helping with our daughter's care, and even setting up a GoFundMe to help with the mountain of medical bills.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03492,
+          "old_mean": 0.6454,
+          "new_mean": 0.6105
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2657,
+        "economic_redistribution": 0.7237,
+        "racial_attitudes": 0.7352,
+        "institutional_trust": 0.302,
+        "outgroup_affect": 0.6105
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 50,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was around 50, a few of my Black friends and I started a support group to address racial injustice in our town. We organized protests, lobbied local officials, and even started a community garden in a neglected, mostly Black neighborhood. It was challenging, but also deeply fulfilling to see our community come together and make a real difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03772,
+          "old_mean": 0.302,
+          "new_mean": 0.3397
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2657,
+        "economic_redistribution": 0.7237,
+        "racial_attitudes": 0.7352,
+        "institutional_trust": 0.3397,
+        "outgroup_affect": 0.6105
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 45, I decided to run for school board to address the disparities in our local education system. I volunteered my time, canvassed neighborhoods, and engaged with parents, teachers, and community leaders. It was a humbling experience that opened my eyes to the deep divisions in our town, but also showed me the power of collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02425,
+          "old_mean": 0.3397,
+          "new_mean": 0.3639
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2657,
+        "economic_redistribution": 0.7237,
+        "racial_attitudes": 0.7352,
+        "institutional_trust": 0.3639,
+        "outgroup_affect": 0.6105
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 48, I finally convinced my wife to retire early and move with me to a historic Black town to help revitalize the community. We've started a small business and have been working with local youth to preserve our history and culture.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03288,
+          "old_mean": 0.7237,
+          "new_mean": 0.6908
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2657,
+        "economic_redistribution": 0.6908,
+        "racial_attitudes": 0.7352,
+        "institutional_trust": 0.3639,
+        "outgroup_affect": 0.6105
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35, requiring family and community support. In their 50s, they faced increased responsibilities without raise, but used it to pursue professional certification. They also organized against racial injustice, fostering community unity."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 48, faced their wife's breast cancer diagnosis, which brought their diverse neighborhood together for support. Around 50, they co-founded a racial justice support group, organizing protests and community initiatives. At 45, they ran for school board to address educational disparities, experiencing deep divisions but also collective action."
+    }
+  ],
+  "persona_card": "\"A 66-year-old, college-educated Black male Democrat, married with a moderate political lean, he is largely secular yet values community unity, advocating for structural racial reforms while maintaining a nuanced trust in institutions. Despite his strong belief in economic redistribution and government intervention, he holds traditional views on moral issues. He is open and welcoming towards social outgroups, having fostered diverse neighborhood support during his wife's cancer battle.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2657,
+    "economic_redistribution": 0.588,
+    "racial_attitudes": 0.7352,
+    "institutional_trust": 0.4648,
+    "outgroup_affect": 0.6454
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2657,
+    "economic_redistribution": 0.6908,
+    "racial_attitudes": 0.7352,
+    "institutional_trust": 0.3639,
+    "outgroup_affect": 0.6105
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16196,
+      -0.02631,
+      0.0,
+      0.0,
+      0.0,
+      -0.03288
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16284,
+      0.0,
+      0.0,
+      0.03772,
+      0.02425,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      -0.03492,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

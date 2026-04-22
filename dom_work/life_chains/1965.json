@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1965,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 42 years old. I am female. I am White. I am married. I had 6 years of college education (master's degree). My family income is $110,000 to $129,999. I am an independent, close to Republican. I am moderate (middle of the road). I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 30, our company downsized due to the Great Recession, and I found myself suddenly unemployed after 8 years at my job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1567,
+          "old_mean": 0.3639,
+          "new_mean": 0.5206
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14475,
+          "old_mean": 0.5677,
+          "new_mean": 0.4229
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4346,
+        "economic_redistribution": 0.5206,
+        "racial_attitudes": 0.4259,
+        "institutional_trust": 0.4229,
+        "outgroup_affect": 0.5497
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 27, I moved to a new city for a promotion at my company. Even though I was excited about the career advancement, I struggled to find a new church community that resonated with me like my old one did.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30453,
+          "old_mean": 0.4346,
+          "new_mean": 0.1301
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06876,
+          "old_mean": 0.4229,
+          "new_mean": 0.3542
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1301,
+        "economic_redistribution": 0.5206,
+        "racial_attitudes": 0.4259,
+        "institutional_trust": 0.3542,
+        "outgroup_affect": 0.5497
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 32, after years of trying, my husband and I finally became pregnant with twins. Our joy was indescribable, but at 6 months, we were devastated to learn that they had a rare heart condition. We spent the next 6 months in and out of hospitals, seeking treatment and ultimately, losing both of our babies. It was the most difficult thing I've ever gone through, and it tested my faith like never before.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.10007,
+          "old_mean": 0.1301,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08155,
+          "old_mean": 0.3542,
+          "new_mean": 0.2726
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5206,
+        "racial_attitudes": 0.4259,
+        "institutional_trust": 0.2726,
+        "outgroup_affect": 0.5497
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 35, I was diagnosed with early-onset MS. Initially, I was overwhelmed, but my church community rallied around me, organizing meal trains and visiting often. Their support helped me stay positive and adapt to my new reality.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06303,
+          "old_mean": 0.03,
+          "new_mean": 0.093
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.093,
+        "economic_redistribution": 0.5206,
+        "racial_attitudes": 0.4259,
+        "institutional_trust": 0.2726,
+        "outgroup_affect": 0.5497
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I decided to take a year off from my job to volunteer with a non-profit organization helping underprivileged children, inspired by my twins' brief lives. It was challenging but deeply rewarding, and it broadened my perspective on our community's needs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03346,
+          "old_mean": 0.2726,
+          "new_mean": 0.3061
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.093,
+        "economic_redistribution": 0.5206,
+        "racial_attitudes": 0.4259,
+        "institutional_trust": 0.3061,
+        "outgroup_affect": 0.5497
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 37,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 37, I finally decided to confront my deteriorating health and undergo a clinical trial for a new MS treatment. Although it was scary to put my trust in something unknown, the supportive community I've built around me, both at church and at my old job, encouraged me to try it. The process has been challenging, but I've found a new sense of purpose and determination.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27182,
+          "old_mean": 0.3061,
+          "new_mean": 0.0343
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.093,
+        "economic_redistribution": 0.5206,
+        "racial_attitudes": 0.4259,
+        "institutional_trust": 0.0343,
+        "outgroup_affect": 0.5497
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 39,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 39, I faced a difficult decision when I found out my younger sister had been financially exploited by her partner. I took her in despite the added strain on our finances, and worked with a local community lawyer to help her navigate the legal issues.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16517,
+          "old_mean": 0.5206,
+          "new_mean": 0.6858
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.00428,
+          "old_mean": 0.0343,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.093,
+        "economic_redistribution": 0.6858,
+        "racial_attitudes": 0.4259,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5497
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 30 due to the Great Recession, after 8 years of employment. At 32, they faced a devastating loss when their twins, born after years of trying, passed away due to a rare heart condition. Despite this tragedy, their faith remained strong, supported by their church community after being diagnosed with early-onset MS at 35."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, diagnosed with early-onset MS at 35, found unexpected support from their church community, which helped them maintain a positive outlook and adapt to their new reality. At 28, they took a year off work to volunteer with a non-profit, broadening their perspective on community needs, and at 37, they underwent a clinical trial for an MS treatment, finding new purpose despite the challenges. At 39, they took in their financially exploited younger sister, navigating legal issues together despite financial strain."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis individual is a religiously devout, though infrequently practicing, White woman who finds solace in her faith despite life's challenges. Economically, she leans towards redistribution and believes in an active government role, yet remains class-conscious due to her own financial struggles. She holds a nuanced view on racial inequality, acknowledging both individual and structural factors, and maintains a moderate level of trust in institutions. Despite her conservative leanings, she harbors open and welcoming feelings towards social outgroups.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4346,
+    "economic_redistribution": 0.3639,
+    "racial_attitudes": 0.4259,
+    "institutional_trust": 0.5677,
+    "outgroup_affect": 0.5497
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.093,
+    "economic_redistribution": 0.6858,
+    "racial_attitudes": 0.4259,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5497
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.30453,
+      -0.10007,
+      0.06303,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1567,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16517
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14475,
+      -0.06876,
+      -0.08155,
+      0.0,
+      0.03346,
+      -0.27182,
+      -0.00428
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

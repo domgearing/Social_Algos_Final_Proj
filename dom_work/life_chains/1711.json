@@ -1,0 +1,311 @@
+{
+  "respondent_id": 1711,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 42 years old. I am male. I am of another race. I am married. I completed 10th grade. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 27,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I was 27 when my father, who was always the pillar of our church community, was accused of embezzling funds from the church. It was a shocking and humiliating time for our family.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27749,
+          "old_mean": 0.5921,
+          "new_mean": 0.3146
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30285,
+          "old_mean": 0.5963,
+          "new_mean": 0.2934
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3146,
+        "economic_redistribution": 0.5,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.2934,
+        "outgroup_affect": 0.5
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 32, I witnessed a sudden change in my mother. She began isolation from our community and stopped attending church after years of being an active member. She said she needed to figure some things out on her own, but I knew something was deeply troubling her.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28461,
+          "old_mean": 0.3146,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06208,
+          "old_mean": 0.2934,
+          "new_mean": 0.2314
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.2314,
+        "outgroup_affect": 0.5
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 28, I decided to move to a diverse neighborhood to expand my perspectives. It was a significant change, but I've joined a new church here and made friends from various backgrounds.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.05657,
+          "old_mean": 0.5,
+          "new_mean": 0.5566
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.2314,
+        "outgroup_affect": 0.5566
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I volunteered to coach the local high school's football team to give back to my new community. It's been incredibly rewarding working with these kids, coming from diverse backgrounds, teaching them discipline and teamwork.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07333,
+          "old_mean": 0.5566,
+          "new_mean": 0.6299
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03646,
+          "old_mean": 0.532,
+          "new_mean": 0.5685
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5,
+        "racial_attitudes": 0.5685,
+        "institutional_trust": 0.2314,
+        "outgroup_affect": 0.6299
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 39,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 39, I decided to coach a local LGBTQ+ youth soccer team. It's been a humbling experience, seeing how they inspire and support each other despite adversity. They've taught me a lot about acceptance and resilience.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06251,
+          "old_mean": 0.6299,
+          "new_mean": 0.6924
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02799,
+          "old_mean": 0.5685,
+          "new_mean": 0.5964
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5,
+        "racial_attitudes": 0.5964,
+        "institutional_trust": 0.2314,
+        "outgroup_affect": 0.6924
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 38, I had the humbling experience of working alongside a local charity to rebuild houses damaged by a storm, which highlighted the stark realities of economic inequality in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.20136,
+          "old_mean": 0.2314,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5,
+        "racial_attitudes": 0.5964,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6924
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 37,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 37, I was laid off from my job of 10 years due to company downsizing, leaving me with financial struggles and a sudden loss of my professional identity.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14566,
+          "old_mean": 0.5,
+          "new_mean": 0.6457
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6457,
+        "racial_attitudes": 0.5964,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6924
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 34,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 34, I witnessed my coworker, who was a woman of color like me, being passed over for a promotion despite her qualifications. It was a blatant act of discrimination that stirred up a mixture of anger and disappointment inside me.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.29021,
+          "old_mean": 0.5964,
+          "new_mean": 0.8867
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6457,
+        "racial_attitudes": 0.8867,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6924
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's life was marked by a sudden scandal at 27 when their father, a respected church figure, was accused of embezzlement, causing family humiliation. At 32, their mother abruptly withdrew from the community and church, citing a need for personal reflection, which left the person concerned. Despite these events, at 28 and 35, the person actively sought out diversity, moving to a multicultural neighborhood and coaching a diverse high school football team."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 39, began coaching a local LGBTQ+ youth soccer team, learning about acceptance and resilience from the players. At 38, they worked with a charity to rebuild storm-damaged houses, encountering stark economic inequality. At 37, they experienced a sudden loss of professional identity after being laid off from a 10-year job."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, attending services weekly, yet open-minded and welcoming to diverse outgroups, this individual is a complex blend of tradition and progressivism. They believe in economic redistribution and the government's role in addressing inequality, viewing racial disparities through a structural lens. Despite their moderate trust in institutions, they remain cautious, with a nuanced understanding of societal issues, shaped by personal experiences and a commitment to social justice.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5921,
+    "economic_redistribution": 0.5,
+    "racial_attitudes": 0.532,
+    "institutional_trust": 0.5963,
+    "outgroup_affect": 0.5
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.6457,
+    "racial_attitudes": 0.8867,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6924
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.27749,
+      -0.28461,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14566,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03646,
+      0.02799,
+      0.0,
+      0.0,
+      0.29021
+    ],
+    "institutional_trust": [
+      -0.30285,
+      -0.06208,
+      0.0,
+      0.0,
+      0.0,
+      -0.20136,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.05657,
+      0.07333,
+      0.06251,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

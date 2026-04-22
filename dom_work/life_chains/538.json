@@ -1,0 +1,234 @@
+{
+  "respondent_id": 538,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am female. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $110,000 to $129,999. I am a strong Democrat. I am liberal. I attend religious services several times a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 25, I decided to take a job as a teacher in a low-income, high-minority school district. It was challenging, but seeing my students grow and thrive made it incredibly rewarding. I felt like I was truly making a difference.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.022,
+          "old_mean": 0.7817,
+          "new_mean": 0.8037
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2121,
+        "economic_redistribution": 0.6799,
+        "racial_attitudes": 0.7397,
+        "institutional_trust": 0.5028,
+        "outgroup_affect": 0.8037
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 22, I volunteered for the local community center's after-school program. It was there I met Maria, a single mother struggling to make ends meet. Her story of resilience inspired me deeply.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0818,
+          "old_mean": 0.8037,
+          "new_mean": 0.8855
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03784,
+          "old_mean": 0.7397,
+          "new_mean": 0.7775
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2121,
+        "economic_redistribution": 0.6799,
+        "racial_attitudes": 0.7775,
+        "institutional_trust": 0.5028,
+        "outgroup_affect": 0.8855
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 23, I found myself standing with hundreds of others in a peaceful protest against police brutality in my city. As a former student of that high-minority school district, it struck close to home. Although it was scary, seeing so many people come together for a common cause gave me hope.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02099,
+          "old_mean": 0.5028,
+          "new_mean": 0.5238
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2121,
+        "economic_redistribution": 0.6799,
+        "racial_attitudes": 0.7775,
+        "institutional_trust": 0.5238,
+        "outgroup_affect": 0.8855
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 26, I joined a local community organization advocating for affordable housing. I saw firsthand how gentrification was displacing long-time residents, many of whom were people of color. It was eye-opening and reignited my passion for social justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02946,
+          "old_mean": 0.5238,
+          "new_mean": 0.5533
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2121,
+        "economic_redistribution": 0.6799,
+        "racial_attitudes": 0.7775,
+        "institutional_trust": 0.5533,
+        "outgroup_affect": 0.8855
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "At 22, I was approached by a fellow teacher, Sarah, who seemed to be struggling. Later, I found out she was living in her car due to eviction. This shook me and inspired me to join the 'Homes for All' advocacy group to fight for affordable housing.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0845,
+          "old_mean": 0.8855,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07517,
+          "old_mean": 0.7775,
+          "new_mean": 0.8527
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2121,
+        "economic_redistribution": 0.6799,
+        "racial_attitudes": 0.8527,
+        "institutional_trust": 0.5533,
+        "outgroup_affect": 0.97
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 27, I witnessed police harassment of a young Black man near my school. It was a confronting reality check, and it reignited my activism. I joined a local racial justice group, and we started holding community conversations and workshops on systemic racism in our city.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.11729,
+          "old_mean": 0.8527,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31652,
+          "old_mean": 0.5533,
+          "new_mean": 0.2367
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2121,
+        "economic_redistribution": 0.6799,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2367,
+        "outgroup_affect": 0.97
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, chose to teach in a low-income, high-minority school district, finding it challenging yet rewarding. At 22, they met Maria, a resilient single mother, through volunteering at an after-school program. At 23 and 26, they participated in a peaceful protest against police brutality and advocated for affordable housing, witnessing gentrification's impact on communities of color."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person participated in a peaceful protest against police brutality at 23, feeling both fear and hope at the unity shown. At 26, they joined an affordable housing advocacy group, witnessing gentrification's displacement of long-time residents, predominantly people of color. At 22, they learned of a colleague's living situation, inspiring them to join 'Homes for All' to advocate for affordable housing."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis individual, a liberal Democrat, is spiritually connected but not strictly bound by organized religion, attending services occasionally. She holds progressive economic views, advocating for redistribution and an active government role in addressing class disparities. Her racial attitudes are deeply structural, acknowledging systemic inequalities and advocating for change. She has low trust in institutions, particularly the government and legal system, yet maintains a strong belief in science. She is open and welcoming towards social outgroups, advocating for inclusivity and equality.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2121,
+    "economic_redistribution": 0.6799,
+    "racial_attitudes": 0.7397,
+    "institutional_trust": 0.5028,
+    "outgroup_affect": 0.7817
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2121,
+    "economic_redistribution": 0.6799,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.2367,
+    "outgroup_affect": 0.97
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03784,
+      0.0,
+      0.0,
+      0.07517,
+      0.11729
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02099,
+      0.02946,
+      0.0,
+      -0.31652
+    ],
+    "outgroup_affect": [
+      0.022,
+      0.0818,
+      0.0,
+      0.0,
+      0.0845,
+      0.0
+    ]
+  }
+}

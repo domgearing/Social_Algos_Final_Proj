@@ -1,0 +1,275 @@
+{
+  "respondent_id": 1330,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 80 years old. I am female. I am White. I am married. I had 5 years of college education. My family income is $130,000 to $149,999. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, my local factory announced sudden closure, leaving me unemployed with two kids to support.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17584,
+          "old_mean": 0.6715,
+          "new_mean": 0.8473
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16853,
+          "old_mean": 0.4918,
+          "new_mean": 0.3233
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.8473,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.3233,
+        "outgroup_affect": 0.7929
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 45, I became one of the organizers of a local protest against the company that closed our factory, demanding fair compensation for lose-income workers like me. It was exhausting but empowering to see our community united.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07438,
+          "old_mean": 0.3233,
+          "new_mean": 0.3977
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.8473,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.3977,
+        "outgroup_affect": 0.7929
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 58, I was finally chosen to lead the union's negotiation with the factory's new owners. It felt like everything I'd been fighting for was coming to fruition, but the struggle was far from over.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05612,
+          "old_mean": 0.3977,
+          "new_mean": 0.4538
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.8473,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.4538,
+        "outgroup_affect": 0.7929
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 55, I was diagnosed with breast cancer. The experience was terrifying and isolating, but it also brought my community together. Neighbors I barely knew brought meals, and even my conservative colleagues at work offered support. It was a difficult time, but I felt a renewed sense of connection to those around me.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.8473,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.4538,
+        "outgroup_affect": 0.7929
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 61,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 61, I was invited to join a local community forum on environmental justice by a new neighbor. We worked together to advocate for cleaner air, and I found it incredibly rewarding to see our efforts lead to tangible change in our city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02884,
+          "old_mean": 0.4538,
+          "new_mean": 0.4826
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.8473,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.4826,
+        "outgroup_affect": 0.7929
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 68,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 68, I was retrenched from my job at the local library due to budget cuts. It was incredibly challenging to find another job at my age, but it pushed me to volunteer at a community center, where I found a new sense of purpose and connection.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.12266,
+          "old_mean": 0.8473,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17067,
+          "old_mean": 0.4826,
+          "new_mean": 0.3119
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.3119,
+        "outgroup_affect": 0.7929
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 72,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 72, I joined a local rally for monthly senior citizen events in our city park, aimed at combating ageism and social isolation. It was heartwarming to see how many people, regardless of age, supported the cause.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02989,
+          "old_mean": 0.3119,
+          "new_mean": 0.3418
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.3418,
+        "outgroup_affect": 0.7929
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 67,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 67, I joined a local advocacy group fighting for better healthcare, especially for seniors like myself. It was tough seeing fellow members struggle with<SPECIAL_560>access and affordability, but together, we testified at city hall, and our voices made a difference when the city increased funding for healthcare programs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03938,
+          "old_mean": 0.3418,
+          "new_mean": 0.3812
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.124,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.3812,
+        "outgroup_affect": 0.7929
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 32, faced sudden unemployment due to a factory closure, leaving them to support two children. At 45, they organized a protest against the factory, advocating for compensation, and experienced community unity. At 55, they were diagnosed with breast cancer, which, while isolating, also strengthened community bonds."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, aged 61 to 72, transitioned from a library job to advocacy, first for environmental justice, then senior healthcare, and finally, combating ageism. Despite facing age-related employment challenges and witnessing fellow advocates' struggles, they found purpose and connection through community engagement and successful advocacy efforts."
+    }
+  ],
+  "persona_card": "This 80-year-old White female, a strong Democrat and liberal, is largely secular, having never attended religious services. She advocates for economic redistribution and a robust government role, shaped by her experience of sudden unemployment and community organizing. Her racial attitudes are nuanced, acknowledging both individual and structural factors in inequality. Despite her liberal leanings, she harbors relatively low trust in institutions, likely influenced by her advocacy work exposing systemic issues. She maintains open and welcoming feelings towards social outgroups, reflecting her lifelong commitment to community engagement and social justice.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.124,
+    "economic_redistribution": 0.6715,
+    "racial_attitudes": 0.6501,
+    "institutional_trust": 0.4918,
+    "outgroup_affect": 0.7929
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.124,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.6501,
+    "institutional_trust": 0.3812,
+    "outgroup_affect": 0.7929
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17584,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.12266,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16853,
+      0.07438,
+      0.05612,
+      0.0,
+      0.02884,
+      -0.17067,
+      0.02989,
+      0.03938
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

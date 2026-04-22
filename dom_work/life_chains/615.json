@@ -1,0 +1,219 @@
+{
+  "respondent_id": 615,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am male. I am White. I am divorced. I had 6 years of college education (master's degree). My family income is $170,000 or more. I am a strong Democrat. I am liberal. I attend religious services less than once a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "During my junior year of college, I initiated a campus protest to demand a more diverse curriculum and faculty. I spent countless hours organizing and speaking at rallies, and we eventually succeeded in having the administration pledge to make significant changes.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03373,
+          "old_mean": 0.5098,
+          "new_mean": 0.5435
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1418,
+        "economic_redistribution": 0.6527,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.5435,
+        "outgroup_affect": 0.8056
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, I was laid off from my job at a tech startup due to a sudden economic downturn. I had been there for five years and was unexpectedly left without a job or health insurance.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16657,
+          "old_mean": 0.6527,
+          "new_mean": 0.8193
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17471,
+          "old_mean": 0.5435,
+          "new_mean": 0.3688
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1418,
+        "economic_redistribution": 0.8193,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.3688,
+        "outgroup_affect": 0.8056
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I took a year-long sabbatical from my job as a software engineer to volunteer for a non-profit focused on affordable housing. I saw firsthand the struggles of low-income families and the systemic issues they faced, which further solidified my progressive views.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03697,
+          "old_mean": 0.3688,
+          "new_mean": 0.4058
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1418,
+        "economic_redistribution": 0.8193,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.4058,
+        "outgroup_affect": 0.8056
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 56,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 56, I took a few months off work to care for my mother who was diagnosed with Alzheimer's. It was incredibly challenging to see her decline, but it strengthened my belief in the need for better healthcare policies and support for families dealing with similar situations.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1418,
+        "economic_redistribution": 0.8193,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.4058,
+        "outgroup_affect": 0.8056
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 45, despite my savings and new business, I found myself personally targeted by a right-wing website for my progressive stance, resulting in harassment and death threats. I had to temporarily shut down my social media accounts and hire security due to the intense backlash.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26899,
+          "old_mean": 0.6525,
+          "new_mean": 0.9215
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31356,
+          "old_mean": 0.4058,
+          "new_mean": 0.0922
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1418,
+        "economic_redistribution": 0.8193,
+        "racial_attitudes": 0.9215,
+        "institutional_trust": 0.0922,
+        "outgroup_affect": 0.8056
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 49,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 49, I decided to run for city council to advocate for affordable housing policies, given my past volunteering experience. Despite facing steep resistance from wealthy, traditionally-minded opponents, I won the election with strong support from progressive voters.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03362,
+          "old_mean": 0.0922,
+          "new_mean": 0.1258
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1418,
+        "economic_redistribution": 0.8193,
+        "racial_attitudes": 0.9215,
+        "institutional_trust": 0.1258,
+        "outgroup_affect": 0.8056
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person initiated a campus protest during college, advocating for a more diverse curriculum and faculty, and successfully pressured the administration to make changes. At 28, they were unexpectedly laid off from a tech startup during an economic downturn, losing both their job and health insurance. Later, they took a sabbatical to volunteer for a non-profit focused on affordable housing, solidifying their progressive views, and also took time off to care for their mother with Alzheimer's, advocating for better healthcare policies."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 35, took a sabbatical to volunteer for affordable housing, solidifying progressive views on poverty. At 56, they cared for their mother with Alzheimer's, advocating for better healthcare policies. Despite right-wing harassment at 45, they ran for city council at 49, winning on a progressive affordable housing platform despite resistance."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\n- **Religious Orientation:** This individual is largely secular, attending religious services infrequently, yet maintains a moral framework informed by progressive values.\n- **Economic Outlook:** They advocate for robust government intervention to address economic inequality, supporting redistribution and a strong social safety net.\n- **Racial Attitudes:** This person holds structuralist views, attributing racial disparities to systemic issues rather than individual failings, and actively works to challenge these systems.\n- **Institutional Trust:** Despite a generally low trust in institutions, they maintain faith in the potential of collective action and grassroots movements to drive change.\n- **Outgroup Affect:** This individual expresses open and welcoming feelings towards social outgroups, actively advocating for their rights and inclusion.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1418,
+    "economic_redistribution": 0.6527,
+    "racial_attitudes": 0.6525,
+    "institutional_trust": 0.5098,
+    "outgroup_affect": 0.8056
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1418,
+    "economic_redistribution": 0.8193,
+    "racial_attitudes": 0.9215,
+    "institutional_trust": 0.1258,
+    "outgroup_affect": 0.8056
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16657,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.26899,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03373,
+      -0.17471,
+      0.03697,
+      0.0,
+      -0.31356,
+      0.03362
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

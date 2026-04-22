@@ -1,0 +1,304 @@
+{
+  "respondent_id": 92,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 41 years old. I am female. I am divorced. I had 1 year of college education. My family income is $25,000 to $29,999. I am an independent (neither Democrat nor Republican). I am conservative. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was suspected of shoplifting at the local grocery store where I worked part-time after high school. It turned out to be a mistake, but it was embarrassing and distressing.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15769,
+          "old_mean": 0.3837,
+          "new_mean": 0.5414
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15949,
+          "old_mean": 0.5895,
+          "new_mean": 0.43
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.714,
+        "economic_redistribution": 0.5414,
+        "racial_attitudes": 0.3564,
+        "institutional_trust": 0.43,
+        "outgroup_affect": 0.4226
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, I was laid off from my job at the local factory after 15 years of dedicated service. I had no idea they were planning to close down the plant, and it was a significant blow to my finances and ego. I went from being a reliable breadwinner to struggling to find another job that would match my skills and experience.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17011,
+          "old_mean": 0.5414,
+          "new_mean": 0.7115
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14862,
+          "old_mean": 0.43,
+          "new_mean": 0.2814
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.714,
+        "economic_redistribution": 0.7115,
+        "racial_attitudes": 0.3564,
+        "institutional_trust": 0.2814,
+        "outgroup_affect": 0.4226
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 34,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 34, my husband of 12 years suddenly asked for a divorce. He claimed he had found someone else and wanted to move on. I was completely blindsided and heartbroken. This led to our divorce two years later.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.08391,
+          "old_mean": 0.714,
+          "new_mean": 0.6301
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6301,
+        "economic_redistribution": 0.7115,
+        "racial_attitudes": 0.3564,
+        "institutional_trust": 0.2814,
+        "outgroup_affect": 0.4226
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to become more involved in my local community following the divorce. I started volunteering at the church's weekly soup kitchen, where I met people from all walks of life. It was eye-opening to see the struggles of others and made me appreciate what I still had.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07979,
+          "old_mean": 0.4226,
+          "new_mean": 0.5024
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02404,
+          "old_mean": 0.3564,
+          "new_mean": 0.3804
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6301,
+        "economic_redistribution": 0.7115,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.2814,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 37, I was sexually harassed by a supervisor at my new job. I had put up with his inappropriate comments for weeks, but when he cornered me in the break room, I felt helpless and violated. I reported it to HR, but it was my word against his, and nothing happened. I felt let down by the system and demoralized, but I refused to let it break me. I started looking for a new job that same day.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15049,
+          "old_mean": 0.7115,
+          "new_mean": 0.862
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16213,
+          "old_mean": 0.2814,
+          "new_mean": 0.1193
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6301,
+        "economic_redistribution": 0.862,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.1193,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 39,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 39, I found out that the church we've been attending for over two decades had been hiding financial mismanagement by its senior pastor. I was shocked and felt a severe loss of trust in the institution I had held sacred.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28176,
+          "old_mean": 0.6301,
+          "new_mean": 0.3483
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08927,
+          "old_mean": 0.1193,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.862,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 36,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 36, I finally decided to stand up for myself and my fellow employees. I had been working grueling hours at the factory for a meager paycheck, and when I brought up the issue with management, they dismissed me and threatened to cut my hours. I couldn't take it anymore. I started a petition and rallied my coworkers, demanding fair wages and reasonable hours. We formed a union, and after months of negotiations, we won significant improvements. It was my firsthand experience in the power of collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02657,
+          "old_mean": 0.03,
+          "new_mean": 0.0566
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.862,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.0566,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 35, I found myself struggling with a gambling addiction that I'd kept hidden from everyone, even my ex-husband. I racked up significant debt, and when the church's community outreach group reached out to help families in need, I decided to attend their support group anonymously. It was tough, but I found solace and understanding there. After months of meetings and therapy, I was finally able to overcome my addiction with the help of my newfound support system.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0829,
+          "old_mean": 0.3483,
+          "new_mean": 0.4312
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4312,
+        "economic_redistribution": 0.862,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.0566,
+        "outgroup_affect": 0.5024
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was falsely accused of shoplifting at their part-time job, causing distress. At 32, they were laid off after 15 years at the factory, leading to financial struggles and a hit to their ego. At 34, their husband suddenly asked for a divorce, blindsiding them and leading to a two-year separation."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 37, experienced sexual harassment at work, felt unsupported by HR, and promptly sought a new job. At 39, they discovered financial mismanagement by their church's senior pastor, leading to a loss of trust in the institution. At 36, they successfully organized coworkers to form a union, securing improved wages and hours after management dismissed their initial concerns."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 41-year-old divorced woman with a conservative outlook and strong religious faith, attending services weekly, yet harboring mistrust in religious institutions due to past financial mismanagement. Economically, she supports government redistribution to address inequality, having witnessed firsthand the struggles of the working class, including her own layoff and financial hardships. Sarah holds a mix of racial attitudes, acknowledging both individual and structural barriers to equality, but is more inclined to see systemic issues. Despite her mistrust in institutions, she actively engages in civic action, having successfully organized a union. Sarah maintains a balanced view of social outgroups, expressing openness towards immigrants and LGBTQ communities, while holding more traditional views on other religious groups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.714,
+    "economic_redistribution": 0.3837,
+    "racial_attitudes": 0.3564,
+    "institutional_trust": 0.5895,
+    "outgroup_affect": 0.4226
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4312,
+    "economic_redistribution": 0.862,
+    "racial_attitudes": 0.3804,
+    "institutional_trust": 0.0566,
+    "outgroup_affect": 0.5024
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.08391,
+      0.0,
+      0.0,
+      -0.28176,
+      0.0,
+      0.0829
+    ],
+    "economic_redistribution": [
+      0.15769,
+      0.17011,
+      0.0,
+      0.0,
+      0.15049,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02404,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15949,
+      -0.14862,
+      0.0,
+      0.0,
+      -0.16213,
+      -0.08927,
+      0.02657,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.07979,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

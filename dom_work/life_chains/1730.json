@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1730,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 26 years old. I am female. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 24,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 24, my company suddenly went under, leaving me jobless along with hundreds of others. It was a scary time, but it also opened up unexpected opportunities.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15977,
+          "old_mean": 0.4444,
+          "new_mean": 0.6042
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15983,
+          "old_mean": 0.577,
+          "new_mean": 0.4172
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3558,
+        "economic_redistribution": 0.6042,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.4172,
+        "outgroup_affect": 0.5628
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 18, I decided to spend a gap year volunteering abroad. It was a humbling experience to see the stark differences in living conditions and resources around the world.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.05357,
+          "old_mean": 0.5628,
+          "new_mean": 0.5092
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3558,
+        "economic_redistribution": 0.6042,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.4172,
+        "outgroup_affect": 0.5092
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 18, before my gap year volunteering, I found a strong friendship with Jamir, a Muslim exchange student I was paired with for a joint school project. He taught me about his culture and I opened up about my white, middle-class privileges, which made me see the world differently.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08649,
+          "old_mean": 0.5092,
+          "new_mean": 0.5957
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02176,
+          "old_mean": 0.4544,
+          "new_mean": 0.4762
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3558,
+        "economic_redistribution": 0.6042,
+        "racial_attitudes": 0.4762,
+        "institutional_trust": 0.4172,
+        "outgroup_affect": 0.5957
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 21, I decided to run for student council president at my university. It was a challenging yet rewarding experience, and I was surprised when I actually won the election.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02977,
+          "old_mean": 0.4172,
+          "new_mean": 0.4469
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3558,
+        "economic_redistribution": 0.6042,
+        "racial_attitudes": 0.4762,
+        "institutional_trust": 0.4469,
+        "outgroup_affect": 0.5957
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I decided to run for a position in our local community association board to advocate for more sustainable practices, organizing neighborhood clean-ups and pushing for improved public transit. It was a lot of work, but I felt a real sense of purpose and community engagement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02472,
+          "old_mean": 0.4469,
+          "new_mean": 0.4717
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3558,
+        "economic_redistribution": 0.6042,
+        "racial_attitudes": 0.4762,
+        "institutional_trust": 0.4717,
+        "outgroup_affect": 0.5957
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 20,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 20, I accompanied my Muslim friend from college on a visit to her family's home, experiencing firsthand the challenges they faced due to racial profiling at the airport on our return flight.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27205,
+          "old_mean": 0.4762,
+          "new_mean": 0.7482
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26365,
+          "old_mean": 0.4717,
+          "new_mean": 0.208
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3558,
+        "economic_redistribution": 0.6042,
+        "racial_attitudes": 0.7482,
+        "institutional_trust": 0.208,
+        "outgroup_affect": 0.5957
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 19,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "negative",
+      "event_text": "At 19, I saw firsthand the effects of gentrification in my neighborhood. My childhood friend's family, who had lived there for generations, couldn't afford the rising rents and were forced to move. It was a stark reminder of the inequality I had learned about during my gap year volunteering.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0703,
+          "old_mean": 0.5957,
+          "new_mean": 0.666
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3558,
+        "economic_redistribution": 0.6042,
+        "racial_attitudes": 0.7482,
+        "institutional_trust": 0.208,
+        "outgroup_affect": 0.666
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 24, lost their job when their company suddenly folded, but the unexpected unemployment led to new opportunities. At 18, they spent a gap year volunteering abroad, witnessing stark global disparities. Prior to this, they formed a significant friendship with a Muslim exchange student, learning about cultural differences and their own privileges."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 21, ran for and won student council president, then at 22, joined a community board to promote sustainability, demonstrating an early commitment to leadership and community engagement. At 20, however, they witnessed racial profiling against a Muslim friend at the airport, challenging their perspective on societal issues. At 19, they witnessed gentrification forcing a long-time neighbor to move, underscoring the inequality they had previously learned about."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 26-year-old, college-educated White woman with a moderate political stance, who is deeply influenced by her experiences abroad and witnessing inequality at home. She's open to cultural exchange and welcoming of outgroups, yet maintains some traditional moral views. Alex believes in economic redistribution and the government's role in addressing societal issues, but her trust in institutions is low. She views racial inequality through a structural lens, having witnessed racial profiling and gentrification firsthand.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3558,
+    "economic_redistribution": 0.4444,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.577,
+    "outgroup_affect": 0.5628
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3558,
+    "economic_redistribution": 0.6042,
+    "racial_attitudes": 0.7482,
+    "institutional_trust": 0.208,
+    "outgroup_affect": 0.666
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15977,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02176,
+      0.0,
+      0.0,
+      0.27205,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15983,
+      0.0,
+      0.0,
+      0.02977,
+      0.02472,
+      -0.26365,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.05357,
+      0.08649,
+      0.0,
+      0.0,
+      0.0,
+      0.0703
+    ]
+  }
+}

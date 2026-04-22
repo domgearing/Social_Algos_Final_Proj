@@ -1,0 +1,248 @@
+{
+  "respondent_id": 369,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 42 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $110,000 to $129,999. I am a strong Democrat. I am liberal. I attend religious services less than once a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job of 10 years at a tech startup. It was a blow to my confidence, but it opened up an opportunity to pursue a master's degree in data science, which I had been deferring.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17552,
+          "old_mean": 0.6799,
+          "new_mean": 0.8554
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17989,
+          "old_mean": 0.4903,
+          "new_mean": 0.3104
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1366,
+        "economic_redistribution": 0.8554,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3104,
+        "outgroup_affect": 0.7817
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "In my late twenties, I volunteered to mentor a young, aspiring programmer from a disadvantaged neighborhood. We connected instantly, and he reminded me of how passionate I was about coding. Through him, I discovered a renewed purpose in my career and became more involved in advocating for tech outreach programs in underprivileged communities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08253,
+          "old_mean": 0.7817,
+          "new_mean": 0.8642
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03785,
+          "old_mean": 0.6477,
+          "new_mean": 0.6856
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1366,
+        "economic_redistribution": 0.8554,
+        "racial_attitudes": 0.6856,
+        "institutional_trust": 0.3104,
+        "outgroup_affect": 0.8642
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I was 28 when I decided to volunteer at a local community center, hoping to give back to my neighborhood. There, I met Maria, a Latina woman who had recently immigrated and was struggling with the language barrier. We connected over our shared love for books, and I started tutoring her in English. Our friendship opened my eyes to the challenges immigrants face, and it fueled my passion for advocating for their rights.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07245,
+          "old_mean": 0.8642,
+          "new_mean": 0.9367
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03559,
+          "old_mean": 0.6856,
+          "new_mean": 0.7211
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1366,
+        "economic_redistribution": 0.8554,
+        "racial_attitudes": 0.7211,
+        "institutional_trust": 0.3104,
+        "outgroup_affect": 0.9367
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to participate in a local march demanding equal rights for all. It was my first time engaging in such a public display of advocacy, and the sheer number of people united under a common cause left me profoundly moved and more determined than ever to become involved in local politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03994,
+          "old_mean": 0.3104,
+          "new_mean": 0.3504
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1366,
+        "economic_redistribution": 0.8554,
+        "racial_attitudes": 0.7211,
+        "institutional_trust": 0.3504,
+        "outgroup_affect": 0.9367
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I was walking home from the library one evening when I was 35, and I witnessed a group of men harassing a young woman from my neighborhood. I stepped in to intervene, and we ended up having a long conversation about the importance of standing up against harassment. She called me the next day, thanking me, and we've been close friends ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03331,
+          "old_mean": 0.9367,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02698,
+          "old_mean": 0.7211,
+          "new_mean": 0.7481
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1366,
+        "economic_redistribution": 0.8554,
+        "racial_attitudes": 0.7481,
+        "institutional_trust": 0.3504,
+        "outgroup_affect": 0.97
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, I decided to volunteer at a local food bank to give back to my community. While there, I met Maria, an undocumented immigrant facing extreme financial hardship. Her story opened my eyes to the struggles of our undocumented community, and I became an advocate for their rights, even testifying at a local city council meeting.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03276,
+          "old_mean": 0.7481,
+          "new_mean": 0.7809
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1366,
+        "economic_redistribution": 0.8554,
+        "racial_attitudes": 0.7809,
+        "institutional_trust": 0.3504,
+        "outgroup_affect": 0.97
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term tech job, but used the opportunity to pursue a master's degree in data science. They found renewed purpose in their career through mentoring a young programmer from a disadvantaged neighborhood, leading them to advocate for tech outreach programs. At 30, they participated in a local march for equal rights, sparking their involvement in local politics."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, began volunteering at a community center, where they befriended an immigrant woman, Maria, and became an advocate for immigrant rights. At 30, they participated in a march for equal rights, sparking their involvement in local politics. At 35, they intervened in a harassment incident, leading to a lasting friendship with the victim."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 42-year-old, liberal, married White man who, despite attending religious services rarely, maintains a moral outlook that blends progressive values with a touch of traditionalism. A strong Democrat, Alex advocates for economic redistribution, viewing the government's role as pivotal in addressing social inequalities. He holds structuralist views on racial issues, recognizing systemic barriers, yet remains open to individual progress. Despite a moderate level of trust in institutions, Alex's warmth towards outgroups is evident, as he actively supports immigrants, racial minorities, and LGBTQ communities, having forged lasting bonds through advocacy and volunteering.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1366,
+    "economic_redistribution": 0.6799,
+    "racial_attitudes": 0.6477,
+    "institutional_trust": 0.4903,
+    "outgroup_affect": 0.7817
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1366,
+    "economic_redistribution": 0.8554,
+    "racial_attitudes": 0.7809,
+    "institutional_trust": 0.3504,
+    "outgroup_affect": 0.97
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17552,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03785,
+      0.03559,
+      0.0,
+      0.02698,
+      0.03276
+    ],
+    "institutional_trust": [
+      -0.17989,
+      0.0,
+      0.0,
+      0.03994,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08253,
+      0.07245,
+      0.0,
+      0.03331,
+      0.0
+    ]
+  }
+}

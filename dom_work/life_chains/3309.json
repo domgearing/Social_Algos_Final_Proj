@@ -1,0 +1,297 @@
+{
+  "respondent_id": 3309,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 69 years old. I am female. I am White. I am married. I had 6 years of college education (master's degree). My family income is $40,000 to $49,999. I am a not very strong Democrat. I am slightly liberal. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 68,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last year, I decided to volunteer at the local community center once a week. It's been an incredibly rewarding experience, as I've met and formed meaningful friendships with people from diverse backgrounds. I've always been open-minded, but this has really broadened my perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07791,
+          "old_mean": 0.706,
+          "new_mean": 0.7839
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03389,
+          "old_mean": 0.5725,
+          "new_mean": 0.6064
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.414,
+        "economic_redistribution": 0.6292,
+        "racial_attitudes": 0.6064,
+        "institutional_trust": 0.544,
+        "outgroup_affect": 0.7839
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for a position in the local school board to advocate for better learning conditions. It was a challenging but rewarding experience that opened my eyes to the intricacies of local politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02749,
+          "old_mean": 0.544,
+          "new_mean": 0.5715
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.414,
+        "economic_redistribution": 0.6292,
+        "racial_attitudes": 0.6064,
+        "institutional_trust": 0.5715,
+        "outgroup_affect": 0.7839
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 52,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 52, I was suddenly laid off from the company I had worked at for nearly three decades. It was a challenging time as I was the primary breadwinner, and I had to navigate job hunting at an older age.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15835,
+          "old_mean": 0.6292,
+          "new_mean": 0.7875
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14225,
+          "old_mean": 0.5715,
+          "new_mean": 0.4292
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.414,
+        "economic_redistribution": 0.7875,
+        "racial_attitudes": 0.6064,
+        "institutional_trust": 0.4292,
+        "outgroup_affect": 0.7839
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 42, my locality was devastated by a sudden tornado. Our church community came together, volunteering days and nights to help our neighbors rebuild and provide support. It reminded me of the incredible power of community and faith in times of crisis.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06686,
+          "old_mean": 0.414,
+          "new_mean": 0.4809
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4809,
+        "economic_redistribution": 0.7875,
+        "racial_attitudes": 0.6064,
+        "institutional_trust": 0.4292,
+        "outgroup_affect": 0.7839
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 57,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 57, our local community faced a severe budget crisis, leading to cuts in our city's social services. I joined a group of neighbors and local activists, diligently advocating for policy changes at City Hall over many months. Our efforts led to the restoration of some vital services, reaffirming the power of community mobilization and my liberal values.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02316,
+          "old_mean": 0.4292,
+          "new_mean": 0.4524
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4809,
+        "economic_redistribution": 0.7875,
+        "racial_attitudes": 0.6064,
+        "institutional_trust": 0.4524,
+        "outgroup_affect": 0.7839
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At the age of 55, I stood alongside my LGBTQ+ colleagues and allies in our city's pride parade, advocating for equal rights and watching my community embrace diversity and love. It was a powerful moment that strengthened my belief in our city's progressive values.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06787,
+          "old_mean": 0.7839,
+          "new_mean": 0.8518
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02784,
+          "old_mean": 0.6064,
+          "new_mean": 0.6342
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4809,
+        "economic_redistribution": 0.7875,
+        "racial_attitudes": 0.6342,
+        "institutional_trust": 0.4524,
+        "outgroup_affect": 0.8518
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 48, our beloved parish priest was accused of misconduct, leaving our congregation shaken and divided. I attended emotional meetings,lider community discussions, and even contemplated leaving the church. However, I decided to stay, working with a reform-minded group to ensure accountability and transparency in our parish.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27056,
+          "old_mean": 0.4809,
+          "new_mean": 0.2103
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32366,
+          "old_mean": 0.4524,
+          "new_mean": 0.1287
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2103,
+        "economic_redistribution": 0.7875,
+        "racial_attitudes": 0.6342,
+        "institutional_trust": 0.1287,
+        "outgroup_affect": 0.8518
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 65,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 65, I was asked to lead our town's historical society, a volunteer role that required significant time and effort. I\u0631\u064a\u0636igtured the opportunity, dedicating myself to preserving our town's rich history and educating our community. However, it also meant less time for myself and my husband, putting a strain on our marriage.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02732,
+          "old_mean": 0.7875,
+          "new_mean": 0.7602
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2103,
+        "economic_redistribution": 0.7602,
+        "racial_attitudes": 0.6342,
+        "institutional_trust": 0.1287,
+        "outgroup_affect": 0.8518
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, ran for local school board to improve learning conditions, gaining political insights. At 52, they faced sudden unemployment after 28 years, challenging their role as primary breadwinner. At 42, they witnessed their community rally in response to a devastating tornado, reaffirming the power of community and faith."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 57, led community efforts to restore social services during a budget crisis, reinforcing their liberal values. At 55, they actively supported LGBTQ+ rights in their city's pride parade, demonstrating their commitment to progressive values. At 48, they grappled with their faith after their parish priest's misconduct, ultimately choosing to stay and advocate for reform within their congregation."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\n- **Religious Orientation:** A devoutly religious woman, attending services nearly every week, yet open to advocating for reform within her congregation.\n- **Economic Outlook:** Fiscally liberal, supporting economic redistribution, but with a strong work ethic, having once stepped in as primary breadwinner.\n- **Racial Attitudes:** Acknowledges systemic racial issues, yet maintains some individualistic views on inequality, reflecting a nuanced perspective.\n- **Institutional Trust:** Generally distrustful of institutions, except for science, likely due to personal experiences with institutional failures.\n- **Outgroup Affect:** Highly welcoming and open to social outgroups, actively supporting LGBTQ+ rights and likely open to immigrants and other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.414,
+    "economic_redistribution": 0.6292,
+    "racial_attitudes": 0.5725,
+    "institutional_trust": 0.544,
+    "outgroup_affect": 0.706
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2103,
+    "economic_redistribution": 0.7602,
+    "racial_attitudes": 0.6342,
+    "institutional_trust": 0.1287,
+    "outgroup_affect": 0.8518
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.06686,
+      0.0,
+      0.0,
+      -0.27056,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.15835,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02732
+    ],
+    "racial_attitudes": [
+      0.03389,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02784,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02749,
+      -0.14225,
+      0.0,
+      0.02316,
+      0.0,
+      -0.32366,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.07791,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06787,
+      0.0,
+      0.0
+    ]
+  }
+}

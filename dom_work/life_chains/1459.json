@@ -1,0 +1,297 @@
+{
+  "respondent_id": 1459,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am female. I am Black or African American. I have never been married. I completed high school (12th grade). My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I was wrongfully terminated from my job at the factory after speaking up about unsafe working conditions. I lost my primary source of income and it took me months to find another job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17921,
+          "old_mean": 0.4676,
+          "new_mean": 0.6468
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15184,
+          "old_mean": 0.55,
+          "new_mean": 0.3982
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.6468,
+        "racial_attitudes": 0.6328,
+        "institutional_trust": 0.3982,
+        "outgroup_affect": 0.519
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I found a racially discriminatory posting on a local community Facebook group, targeting people like me. I decided to start an initiative to educate our community about the importance of inclusivity and diversity, organizing workshops and dialogues with local leaders.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03871,
+          "old_mean": 0.3982,
+          "new_mean": 0.4369
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.6468,
+        "racial_attitudes": 0.6328,
+        "institutional_trust": 0.4369,
+        "outgroup_affect": 0.519
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 28, I witnessed my best friend from work revealing she was a lesbian to our homophobic supervisor. I stood by her, but the tension at work became unbearable, leading to me organizing a workplace diversity and inclusion training to foster a more accepting environment.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.14251,
+          "old_mean": 0.519,
+          "new_mean": 0.6615
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.06758,
+          "old_mean": 0.6328,
+          "new_mean": 0.7004
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.6468,
+        "racial_attitudes": 0.7004,
+        "institutional_trust": 0.4369,
+        "outgroup_affect": 0.6615
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 35, I noticed my mother's memory was declining at an alarming rate. I took her to the doctor and she was diagnosed with early-onset Alzheimer's. I became her primary caregiver, balancing it with my job and it was incredibly challenging. I had to advocate for better healthcare services for her as well, which led me to join a local support group for caregivers of people with Alzheimer's.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32782,
+          "old_mean": 0.4369,
+          "new_mean": 0.109
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.6468,
+        "racial_attitudes": 0.7004,
+        "institutional_trust": 0.109,
+        "outgroup_affect": 0.6615
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 38, I decided to run for the local city council to advocate for better resources and representation in our underfunded, predominantly Black neighborhoods. I was inspired by the community activism I'd witness since my 30s, and I wanted to make a more direct impact.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03651,
+          "old_mean": 0.109,
+          "new_mean": 0.1456
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.6468,
+        "racial_attitudes": 0.7004,
+        "institutional_trust": 0.1456,
+        "outgroup_affect": 0.6615
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 36,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 36, after years of advocating for safer working conditions, I was promoted to the role of union representative for our factory. This new responsibility allowed me to make a real difference in my colleagues' lives, empowering them and securing better wages and benefits.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03024,
+          "old_mean": 0.6468,
+          "new_mean": 0.6166
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.6166,
+        "racial_attitudes": 0.7004,
+        "institutional_trust": 0.1456,
+        "outgroup_affect": 0.6615
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 45, I was sexually harassed by my supervisor at work. It was a horrific experience that left me feeling humiliated and scared. I reported the incident to HR, and despite the initial backlash, their intervention led to his eventual termination. This incident opened my eyes to the pervasiveness of systemic issues in the workplace and strengthened my resolve to advocate for better policies and protections for workers.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17609,
+          "old_mean": 0.6166,
+          "new_mean": 0.7927
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11555,
+          "old_mean": 0.1456,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.7927,
+        "racial_attitudes": 0.7004,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6615
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 42,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 42, I was diagnosed with high blood pressure. The diagnosis was a wake-up call, forcing me to make significant lifestyle changes and prioritize my health. I joined a local support group and started advocating for better access to healthcare in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07642,
+          "old_mean": 0.7927,
+          "new_mean": 0.8691
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3942,
+        "economic_redistribution": 0.8691,
+        "racial_attitudes": 0.7004,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6615
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, was wrongfully terminated from their factory job for raising safety concerns, leading to a prolonged period of unemployment. At 32, they discovered a racist post in a local community group, prompting them to initiate inclusivity workshops and dialogues with local leaders. At 35, they became their mother's primary caregiver after she was diagnosed with early-onset Alzheimer's, balancing this with their job and advocating for better healthcare services while joining a local support group."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 38, ran for local city council to advocate for better resources and representation in underfunded, predominantly Black neighborhoods, inspired by community activism. At 45, they were sexually harassed by their supervisor, reporting the incident and leading to his termination, which opened their eyes to systemic workplace issues. At 42, they were diagnosed with high blood pressure, prompting significant lifestyle changes and advocacy for better healthcare access."
+    }
+  ],
+  "persona_card": "\"Meet [Name], a 49-year-old Black woman who, despite being unaffiliated with organized religion, maintains a moderate moral traditionalism. She advocates for economic redistribution and a robust government role in addressing class disparities, viewing racial inequality through a structural lens. [Name] has low trust in institutions due to personal experiences with injustice, yet she remains open and welcoming towards social outgroups, having dedicated her life to promoting inclusivity and representation.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3942,
+    "economic_redistribution": 0.4676,
+    "racial_attitudes": 0.6328,
+    "institutional_trust": 0.55,
+    "outgroup_affect": 0.519
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3942,
+    "economic_redistribution": 0.8691,
+    "racial_attitudes": 0.7004,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6615
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17921,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03024,
+      0.17609,
+      0.07642
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.06758,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15184,
+      0.03871,
+      0.0,
+      -0.32782,
+      0.03651,
+      0.0,
+      -0.11555,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.14251,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "respondent_id": 86,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 62 years old. I am female. I am of another race. I am married. I had 2 years of college education. My family income is $60,000 to $74,999. I am a strong Democrat. I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 21,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 21, I found out I was pregnant. My boyfriend, now my husband, and I were both struggling to finish college. We decided it was best to get married and raise the baby together. Our families, who are very religious, stood by us and supported us during this challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07416,
+          "old_mean": 0.3108,
+          "new_mean": 0.385
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.385,
+        "economic_redistribution": 0.6004,
+        "racial_attitudes": 0.6416,
+        "institutional_trust": 0.477,
+        "outgroup_affect": 0.654
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, I decided to embark on a new career path. Despite my family's traditional views, I enrolled in night courses at the local community college to become a social worker, hoping to make a difference in our community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02867,
+          "old_mean": 0.6004,
+          "new_mean": 0.5717
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.385,
+        "economic_redistribution": 0.5717,
+        "racial_attitudes": 0.6416,
+        "institutional_trust": 0.477,
+        "outgroup_affect": 0.654
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 40, I decided to join a local protest against the police brutality that had been plaguing our community for years. It was scary at first, but seeing so many people from different backgrounds uniting for a cause felt invigorating. We marched, we chanted, and we stood together, hoping our voices would lead to change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02808,
+          "old_mean": 0.477,
+          "new_mean": 0.5051
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.385,
+        "economic_redistribution": 0.5717,
+        "racial_attitudes": 0.6416,
+        "institutional_trust": 0.5051,
+        "outgroup_affect": 0.654
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 45, I was assigned to work with a young man from a different cultural background as part of my social work caseload. We had our differences, but we also found common ground and built a strong rapport. He taught me a lot about his culture, and I helped him navigate the system and access services he needed.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06239,
+          "old_mean": 0.654,
+          "new_mean": 0.7164
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03173,
+          "old_mean": 0.6416,
+          "new_mean": 0.6733
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.385,
+        "economic_redistribution": 0.5717,
+        "racial_attitudes": 0.6733,
+        "institutional_trust": 0.5051,
+        "outgroup_affect": 0.7164
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 43,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 43, I was laid off from my job of 10 years, forcing me to confront job insecurity and the reality of inequality in our community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17643,
+          "old_mean": 0.5717,
+          "new_mean": 0.7482
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17293,
+          "old_mean": 0.5051,
+          "new_mean": 0.3321
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.385,
+        "economic_redistribution": 0.7482,
+        "racial_attitudes": 0.6733,
+        "institutional_trust": 0.3321,
+        "outgroup_affect": 0.7164
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "At 38, I was devastated when my youngest sibling came out as transgender. Despite initial struggles with acceptance, I joined a local support group, which broadened my understanding and brought us closer.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2933,
+          "old_mean": 0.385,
+          "new_mean": 0.0917
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07238,
+          "old_mean": 0.7164,
+          "new_mean": 0.7888
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0917,
+        "economic_redistribution": 0.7482,
+        "racial_attitudes": 0.6733,
+        "institutional_trust": 0.3321,
+        "outgroup_affect": 0.7888
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 55,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 55, I moved to a more diverse neighborhood, opening my eyes to new perspectives and cultures. This experience has deepened my commitment to community engagement.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0374,
+          "old_mean": 0.7888,
+          "new_mean": 0.8262
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0917,
+        "economic_redistribution": 0.7482,
+        "racial_attitudes": 0.6733,
+        "institutional_trust": 0.3321,
+        "outgroup_affect": 0.8262
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 48, I was diagnosed with breast cancer, forcing me to confront my own mortality and rely heavily on the support from my church community who rallied around me, providing meals and emotional comfort during my treatments.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17188,
+          "old_mean": 0.0917,
+          "new_mean": 0.2635
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2635,
+        "economic_redistribution": 0.7482,
+        "racial_attitudes": 0.6733,
+        "institutional_trust": 0.3321,
+        "outgroup_affect": 0.8262
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 21, became pregnant and married her boyfriend, with religious family support. At 35, she defied family tradition to pursue social work, driven by a desire to help her community. At 40, she actively protested against police brutality, finding unity across diverse backgrounds."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person experienced job insecurity and inequality after a decade-long layoff at 43. At 38, they struggled with accepting their youngest sibling's transgender identity but later joined a support group, fostering understanding and closeness. At 55, moving to a diverse neighborhood broadened their perspectives and deepened their commitment to community engagement."
+    }
+  ],
+  "persona_card": "\"Meet Maria, a 62-year-old married woman of another race, who, despite her moderate religious practice, holds progressive views on economic redistribution and racial inequality. She believes in the government's role in addressing economic disparities and supports structural explanations for racial injustice. Maria's trust in institutions is cautious, yet she maintains an open and welcoming attitude towards social outgroups, having broadened her perspectives through diverse experiences and community engagement.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3108,
+    "economic_redistribution": 0.6004,
+    "racial_attitudes": 0.6416,
+    "institutional_trust": 0.477,
+    "outgroup_affect": 0.654
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2635,
+    "economic_redistribution": 0.7482,
+    "racial_attitudes": 0.6733,
+    "institutional_trust": 0.3321,
+    "outgroup_affect": 0.8262
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07416,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.2933,
+      0.0,
+      0.17188
+    ],
+    "economic_redistribution": [
+      0.0,
+      -0.02867,
+      0.0,
+      0.0,
+      0.17643,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03173,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02808,
+      0.0,
+      -0.17293,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06239,
+      0.0,
+      0.07238,
+      0.0374,
+      0.0
+    ]
+  }
+}

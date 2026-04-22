@@ -1,0 +1,304 @@
+{
+  "respondent_id": 2837,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 59 years old. I am female. I am White. I am divorced. I had 1 year of college education. My family income is $10,000 to $12,499. I am a strong Republican. I am extremely conservative. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job at the local factory after 15 years of service. The company cited economic reasons, but it felt like a betrayal. I had to take on two part-time jobs to make ends meet, and it was a struggle to keep up with the bills.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14869,
+          "old_mean": 0.2328,
+          "new_mean": 0.3815
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16991,
+          "old_mean": 0.4355,
+          "new_mean": 0.2656
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7828,
+        "economic_redistribution": 0.3815,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.2656,
+        "outgroup_affect": 0.2516
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 38, I found out that my employer had been cheating me out of overtime pay for years. I had always trusted them, but this felt like a slap in the face. I had to fight for what was rightfully mine and it was a long, stressful process.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1439,
+          "old_mean": 0.3815,
+          "new_mean": 0.5254
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15436,
+          "old_mean": 0.2656,
+          "new_mean": 0.1112
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7828,
+        "economic_redistribution": 0.5254,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.1112,
+        "outgroup_affect": 0.2516
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 45, I discovered that my oldest son had become involved with drugs. He started showing signs of withdrawal and secrecy, and I found empty pill bottles hidden in his room. It felt like a nightmare, especially since I had always tried to instill strong values in him. I had to start visiting him in rehab frequently, praying for his recovery each step of the way.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08123,
+          "old_mean": 0.1112,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0662,
+          "old_mean": 0.5254,
+          "new_mean": 0.5916
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7828,
+        "economic_redistribution": 0.5916,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2516
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 48, I was invited to join a small group at church to help prepare meals for the local homeless shelter. I saw firsthand the struggles of those less fortunate, and it really opened my eyes. It's been tough, but seeing those faces light up when they receive a warm meal has been incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06696,
+          "old_mean": 0.7828,
+          "new_mean": 0.8498
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8498,
+        "economic_redistribution": 0.5916,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2516
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 48, my younger sister, who I always thought was the picture of virtuousness, confessed to embezzling funds from our late mother's estate. I was shocked and devastated, feeling betrayed by someone I'd trusted completely. Our once close relationship was severely strained, and I had to seek counseling to deal with the emotional turmoil.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32726,
+          "old_mean": 0.8498,
+          "new_mean": 0.5225
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5225,
+        "economic_redistribution": 0.5916,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2516
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 37, after years of struggling with alcoholism and secret visits to casinos, my father finally hit rock bottom and landed in the hospital. His religious community rallied around us, organizing prayer meetings and providing financial support while I cared for him. Their love and support pulled us through the crisis and ultimately led my father to join AA and turn his life around.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0879,
+          "old_mean": 0.5225,
+          "new_mean": 0.6104
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6104,
+        "economic_redistribution": 0.5916,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2516
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 52,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 52, my local church's pastor was exposed for having an affair and embezzling funds, causing a scandal that shook our community. I struggled with my faith and the church's handling of the situation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28488,
+          "old_mean": 0.6104,
+          "new_mean": 0.3255
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3255,
+        "economic_redistribution": 0.5916,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2516
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 54,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 54, I was diagnosed with a serious health condition that required a lengthy and expensive treatment. The high medical bills threatened to overwhelm me, but an outreach from a local church group connected me with a fund that paid for a significant portion of my treatments. I was deeply moved by their kindness and support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0603,
+          "old_mean": 0.3255,
+          "new_mean": 0.3858
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3858,
+        "economic_redistribution": 0.5916,
+        "racial_attitudes": 0.2072,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2516
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term factory job at 35, feeling betrayed and struggling financially, then discovered at 38 that their employer had been cheating them out of overtime pay, leading to a stressful fight for compensation. At 45, they found their oldest son involved with drugs, causing a personal crisis and necessitating frequent visits to rehab."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person's 48-year-old sister confessed to embezzling funds from their late mother's estate, causing the person to feel betrayed and seek counseling. At 37, their father's alcoholism and gambling addiction led to a hospital stay, but the person's religious community rallied around them, leading to their father's recovery. At 52, the person's church pastor was exposed for embezzlement and an affair, causing a community scandal and a crisis of faith."
+    }
+  ],
+  "persona_card": "\"59-year-old, divorced White woman, a strong Republican with a conservative bent, holds traditional moral views but is open to economic redistribution, blames racial inequality on structural issues, has low trust in institutions due to personal betrayals, and maintains a cautious, somewhat reserved stance towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7828,
+    "economic_redistribution": 0.2328,
+    "racial_attitudes": 0.2072,
+    "institutional_trust": 0.4355,
+    "outgroup_affect": 0.2516
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3858,
+    "economic_redistribution": 0.5916,
+    "racial_attitudes": 0.2072,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.2516
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.06696,
+      -0.32726,
+      0.0879,
+      -0.28488,
+      0.0603
+    ],
+    "economic_redistribution": [
+      0.14869,
+      0.1439,
+      0.0662,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16991,
+      -0.15436,
+      -0.08123,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

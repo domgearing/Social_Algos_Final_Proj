@@ -1,0 +1,247 @@
+{
+  "respondent_id": 1043,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 67 years old. I am female. I am Black or African American. I am separated. I had 3 years of college education. My family income is $12,500 to $14,999. I am a strong Democrat. I am extremely liberal. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job at the textile factory where I'd worked for 15 years. It was a blow, not just financially, but also emotionally. I felt like a part of my identity was taken away.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1036,
+          "old_mean": 0.8664,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16708,
+          "old_mean": 0.472,
+          "new_mean": 0.3049
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2949,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.88,
+        "institutional_trust": 0.3049,
+        "outgroup_affect": 0.8062
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to become more active in my local community and joined the NAACP. I've always cared deeply about racial justice, but this event helped me channel my passion into action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03021,
+          "old_mean": 0.3049,
+          "new_mean": 0.3351
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2949,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.88,
+        "institutional_trust": 0.3351,
+        "outgroup_affect": 0.8062
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 52,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "When I was 52, my granddaughter came to live with me. Her parents were struggling, and she needed a stable home. This meant a lot to me as I could provide for her and keep our family close.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2949,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.88,
+        "institutional_trust": 0.3351,
+        "outgroup_affect": 0.8062
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 57,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 57, I decided to run for a position on our local school board. I've always been passionate about education and I wanted to make a difference in my community, especially for the children of color who often face inequalities in our school system.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03269,
+          "old_mean": 0.3351,
+          "new_mean": 0.3678
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2949,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.88,
+        "institutional_trust": 0.3678,
+        "outgroup_affect": 0.8062
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 50,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 50, I was diagnosed with breast cancer. The disease and its treatment took a significant toll on my body and savings, but my church community rallied around me. They organized fundraisers, provided meals, and offered constant prayers and support through my chemotherapy.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06436,
+          "old_mean": 0.2949,
+          "new_mean": 0.3593
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3593,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.88,
+        "institutional_trust": 0.3678,
+        "outgroup_affect": 0.8062
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 38, I became a foster parent to a teenage boy from the neighborhood. He had been through the system for years and needed a stable home. It was challenging at times, but seeing him graduate high school and go on to college was one of the most rewarding experiences of my life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07258,
+          "old_mean": 0.8062,
+          "new_mean": 0.8788
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03626,
+          "old_mean": 0.88,
+          "new_mean": 0.9163
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3593,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.9163,
+        "institutional_trust": 0.3678,
+        "outgroup_affect": 0.8788
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 43, I led a protest against the city council's decision to cut funding for after-school programs in our predominantly Black neighborhoods. It was a chilling reminder of the systemic disparities we're still fighting, but seeing our community united gave me renewed hope.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04138,
+          "old_mean": 0.3678,
+          "new_mean": 0.4092
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3593,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.9163,
+        "institutional_trust": 0.4092,
+        "outgroup_affect": 0.8788
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 15 years at a textile factory, experienced a sudden layoff at 35, causing financial and emotional distress. At 45, they joined the NAACP, channeling their passion for racial justice into community activism. At 52, they took in their granddaughter, providing a stable home, and at 57, ran for a local school board position to advocate for educational equality."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 57, ran for local school board to advocate for children of color, despite facing inequalities. At 50, they were diagnosed with breast cancer, which significantly impacted their health and finances, but their church community provided substantial support. At 38, they became a foster parent to a teenage boy, providing a stable home and witnessing his academic success."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, this 67-year-old Black woman is a strong Democrat with a deep commitment to racial justice, viewing economic redistribution and structural racial inequality as pressing issues. Despite her trust in her church community, she has reservations about other institutions, and while open to welcoming outgroups, she remains cautious due to past experiences with inequality.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2949,
+    "economic_redistribution": 0.8664,
+    "racial_attitudes": 0.88,
+    "institutional_trust": 0.472,
+    "outgroup_affect": 0.8062
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3593,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.9163,
+    "institutional_trust": 0.4092,
+    "outgroup_affect": 0.8788
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06436,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1036,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03626,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16708,
+      0.03021,
+      0.0,
+      0.03269,
+      0.0,
+      0.0,
+      0.04138
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07258,
+      0.0
+    ]
+  }
+}

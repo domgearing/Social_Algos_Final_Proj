@@ -1,0 +1,220 @@
+{
+  "respondent_id": 1281,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 32 years old. I am male. I am White. I am married. I had 3 years of college education. My family income is $170,000 or more. I am an independent, close to Democrat. I am slightly liberal. I attend religious services 2-3 times a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 31,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, at the age of 31, I was diagnosed with type 1 diabetes. It was a shock, as it runs in my family but no one suspected I would develop it. Since then, I've had to adjust my lifestyle and rely on insulin injections daily. My religious community has been incredibly supportive, with members sometimes accompanying me to appointments and checking in on me frequently.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08714,
+          "old_mean": 0.4191,
+          "new_mean": 0.5062
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5062,
+        "economic_redistribution": 0.4867,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.5935,
+        "outgroup_affect": 0.6498
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 20, I decided to travel across the country to participate in a summer internship with a political campaign. It was a huge learning experience and really solidified my interest in politics. In the process, I also met people from diverse backgrounds and ideologies, which broadened my perspectives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03916,
+          "old_mean": 0.5935,
+          "new_mean": 0.6327
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5062,
+        "economic_redistribution": 0.4867,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.6327,
+        "outgroup_affect": 0.6498
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 23, I decided to start a community garden project in my neighborhood. I noticed that many of my neighbors, especially the elderly, struggled to access fresh, affordable produce. I rallied a group of volunteers, mostly from my church, and we turned an abandoned lot into a thriving green space. It's been incredibly rewarding to see our community come together around this project.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02509,
+          "old_mean": 0.6327,
+          "new_mean": 0.6577
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5062,
+        "economic_redistribution": 0.4867,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.6577,
+        "outgroup_affect": 0.6498
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I decided to volunteer at a local community center to help with their after-school programs. I wanted to give back to my community, especially to the kids who might not have the same opportunities I had growing up. I met kids from diverse backgrounds and every day was a new learning experience. It also brought me closer to my community and reignited my passion for community service.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03295,
+          "old_mean": 0.6577,
+          "new_mean": 0.6907
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5062,
+        "economic_redistribution": 0.4867,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.6907,
+        "outgroup_affect": 0.6498
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 22, I moved into a diverse urban neighborhood on a student's budget, totally different from my suburban upbringing. It opened my eyes to class disparities and cultural richness, ultimately shaping my progressive views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03737,
+          "old_mean": 0.6498,
+          "new_mean": 0.6872
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5062,
+        "economic_redistribution": 0.4867,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.6907,
+        "outgroup_affect": 0.6872
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 28, I decided to anonymously report my boss for wage theft after discovering he'd been underpaying our team. It was a tough decision as I valued my job, but my moral compass wouldn't allow me to stay silent.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17298,
+          "old_mean": 0.4867,
+          "new_mean": 0.6597
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13759,
+          "old_mean": 0.6907,
+          "new_mean": 0.5531
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5062,
+        "economic_redistribution": 0.6597,
+        "racial_attitudes": 0.532,
+        "institutional_trust": 0.5531,
+        "outgroup_affect": 0.6872
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 31, was diagnosed with type 1 diabetes, a surprise given family history, and now manages it with insulin injections and community support. At 20, they participated in a political campaign internship, broadening their perspectives through diverse interactions. At 23 and 27, they initiated community projects: a garden improving neighbors' access to fresh produce, and after-school volunteering that brought them closer to their community and reignited their passion for service."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 23, initiated a community garden project in their neighborhood to address food accessibility issues, mobilizing volunteers from their church and transforming an abandoned lot. At 22, they moved to a diverse urban neighborhood, exposing them to class disparities and cultural richness, and at 28, they reported their boss for wage theft, prioritizing their moral compass over job security."
+    }
+  ],
+  "persona_card": "\"Devout yet progressive, this 32-year-old White male, married with a college education, attends religious services 2-3 times a month, balancing traditional values with a liberal worldview. He supports economic redistribution, recognizing structural barriers to equality, and trusts institutions moderately while maintaining a welcoming attitude towards outgroups. A community activist, he's committed to social justice, as seen in his initiatives to improve access to fresh produce and after-school volunteering.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4191,
+    "economic_redistribution": 0.4867,
+    "racial_attitudes": 0.532,
+    "institutional_trust": 0.5935,
+    "outgroup_affect": 0.6498
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5062,
+    "economic_redistribution": 0.6597,
+    "racial_attitudes": 0.532,
+    "institutional_trust": 0.5531,
+    "outgroup_affect": 0.6872
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08714,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17298
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03916,
+      0.02509,
+      0.03295,
+      0.0,
+      -0.13759
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03737,
+      0.0
+    ]
+  }
+}

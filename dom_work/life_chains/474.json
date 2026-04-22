@@ -1,0 +1,241 @@
+{
+  "respondent_id": 474,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 20 years old. I am female. I am White. I have never been married. I completed high school (12th grade). My family income is $30,000 to $34,999. I am a strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 17, our church's pastor was accused of embezzling money from the church fund. The community was shocked and many people left. My family decided to stay and support the church during this difficult time. We organized volunteers to clean up the mess and helped find a new pastor who could guide us through this challenging transition.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30406,
+          "old_mean": 0.8436,
+          "new_mean": 0.5395
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25688,
+          "old_mean": 0.4848,
+          "new_mean": 0.2279
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5395,
+        "economic_redistribution": 0.2113,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.2279,
+        "outgroup_affect": 0.3029
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I found out I was pregnant at 18. I was scared, but the church community rallied around me, providing support and offering to help with the baby. I decided to keep the baby and my family has been a constant source of strength and comfort during this journey.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07345,
+          "old_mean": 0.3029,
+          "new_mean": 0.3763
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03408,
+          "old_mean": 0.2515,
+          "new_mean": 0.2856
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5395,
+        "economic_redistribution": 0.2113,
+        "racial_attitudes": 0.2856,
+        "institutional_trust": 0.2279,
+        "outgroup_affect": 0.3763
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 19, I volunteered to help with a local community service project organized by our church. It was there that I met Carlos, a man from the inner city who was looking for help with job training. We spent a lot of time together, and despite our differences, we became close friends. This experience opened my eyes to the struggles of people from different backgrounds.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06828,
+          "old_mean": 0.3763,
+          "new_mean": 0.4446
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02301,
+          "old_mean": 0.2856,
+          "new_mean": 0.3086
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5395,
+        "economic_redistribution": 0.2113,
+        "racial_attitudes": 0.3086,
+        "institutional_trust": 0.2279,
+        "outgroup_affect": 0.4446
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 17, I volunteered to help with a local community service project organized by our church. It was there that I met Carlos, a man from the inner city who was looking for help with job training. We spent a lot of time together, and despite our differences, we became close friends. This experience opened my eyes to the struggles of people from different backgrounds.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08154,
+          "old_mean": 0.4446,
+          "new_mean": 0.5262
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03784,
+          "old_mean": 0.3086,
+          "new_mean": 0.3464
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5395,
+        "economic_redistribution": 0.2113,
+        "racial_attitudes": 0.3464,
+        "institutional_trust": 0.2279,
+        "outgroup_affect": 0.5262
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 18, I started a part-time job at the local library to save up for college. It was eye-opening to meet and interact with people from different backgrounds and socio-economic statuses, unlike my sheltered upbringing in the church community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03635,
+          "old_mean": 0.5262,
+          "new_mean": 0.4898
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5395,
+        "economic_redistribution": 0.2113,
+        "racial_attitudes": 0.3464,
+        "institutional_trust": 0.2279,
+        "outgroup_affect": 0.4898
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 19,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 19, I joined a volunteering group from my church to help rebuild a poor, devastated neighborhood hit by a recent storm. I was exposed to harsh realities and saw firsthand how scarcity and lack of resources can break families. It opened my eyes to the stark contrasts between our community and theirs, broadening my understanding of socio-economic struggles.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03726,
+          "old_mean": 0.4898,
+          "new_mean": 0.4525
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5395,
+        "economic_redistribution": 0.2113,
+        "racial_attitudes": 0.3464,
+        "institutional_trust": 0.2279,
+        "outgroup_affect": 0.4525
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's life was disrupted at 17 when their church's pastor was accused of embezzlement, leading to community shock and their family's decision to stay and support the church. At 18, they became pregnant, but found strength and support in their church community's rallying around them. Later, volunteering at a community service project led to a close friendship with Carlos, a man from the inner city, broadening their perspective on diverse struggles."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 19, volunteered with their church to help a storm-devastated neighborhood, witnessing harsh realities and family struggles. Earlier, at 17 and 19, they befriended Carlos, an inner-city man seeking job training, learning about his challenges and those of his community. At 18, working at the local library, they encountered diverse socio-economic backgrounds, contrasting with their sheltered upbringing."
+    }
+  ],
+  "persona_card": "\"Highly religious and conservative, this 20-year-old White female is deeply traditional in her moral beliefs and values, with a strong commitment to her church community. Despite her conservative economic outlook, she supports some government intervention, shaped by her experiences with community struggles. While she acknowledges racial inequalities, she leans more towards individual explanations, influenced by her sheltered upbringing. Her trust in institutions is relatively low, reflecting a degree of skepticism, yet she maintains a welcoming attitude towards social outgroups, likely due to her close friendship with Carlos and her volunteer experiences.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8436,
+    "economic_redistribution": 0.2113,
+    "racial_attitudes": 0.2515,
+    "institutional_trust": 0.4848,
+    "outgroup_affect": 0.3029
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5395,
+    "economic_redistribution": 0.2113,
+    "racial_attitudes": 0.3464,
+    "institutional_trust": 0.2279,
+    "outgroup_affect": 0.4525
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.30406,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03408,
+      0.02301,
+      0.03784,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.25688,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07345,
+      0.06828,
+      0.08154,
+      -0.03635,
+      -0.03726
+    ]
+  }
+}

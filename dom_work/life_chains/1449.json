@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1449,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 85 years old. I am male. I am Black or African American. I am married. I completed high school (12th grade). My family income is $35,000 to $39,999. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 25, I was fired from my job at the textile mill. I'd been there for five years and had always showed up on time, but the new management didn't care about seniority or my dedication.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17206,
+          "old_mean": 0.7343,
+          "new_mean": 0.9064
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14901,
+          "old_mean": 0.445,
+          "new_mean": 0.296
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1494,
+        "economic_redistribution": 0.9064,
+        "racial_attitudes": 0.8261,
+        "institutional_trust": 0.296,
+        "outgroup_affect": 0.7338
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 32, I was walking home from work when a police car pulled up beside me. The officer accused me of fitting the description of a suspect in a nearby robbery. I was humiliated and frightened as they patted me down roughly in front of my neighbors. They let me go, but the experience left me feeling resentment towards the police.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.1439,
+          "old_mean": 0.8261,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26599,
+          "old_mean": 0.296,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1494,
+        "economic_redistribution": 0.9064,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7338
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 48, I took part in the city's first ever buses-to-freedom protest to challenge the local government's inaction against segregated schools. The arresting officers were rough, but the outpouring of community support afterwards filled me with hope and a renewed sense of purpose.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04444,
+          "old_mean": 0.03,
+          "new_mean": 0.0744
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1494,
+        "economic_redistribution": 0.9064,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0744,
+        "outgroup_affect": 0.7338
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I helped organize a rent strike in my apartment building after our superintendent illegally raised the rent. We held meetings, passed out flyers, and even had to face down eviction notices together. It was hard, but it brought our diverse community closer, and we won a rent freeze in the end.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02054,
+          "old_mean": 0.0744,
+          "new_mean": 0.095
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1494,
+        "economic_redistribution": 0.9064,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.095,
+        "outgroup_affect": 0.7338
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 62,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 62, I was moved to tears when our civil rights museum received national recognition. I've been a docent here for over a decade, sharing my city's history. This validation felt like justice finally coming full circle.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02356,
+          "old_mean": 0.9064,
+          "new_mean": 0.8828
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1494,
+        "economic_redistribution": 0.8828,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.095,
+        "outgroup_affect": 0.7338
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 45, I was diagnosed with high blood pressure. The doctor's words sent a shock through me, but my late wife, Maria, stepped in, scheduling appointments and making sure I took my medication daily. We leaned on each other, and despite the fear, it brought us closer as we navigated this new aspect of our lives together.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06498,
+          "old_mean": 0.095,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1494,
+        "economic_redistribution": 0.8828,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7338
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 65, I saw the face of hatred when a convenience store clerk refused to serve me, simply because of my skin color. It was like a punch to the gut, bringing back memories of that false accusation at 32. But I refused to let anger consume me. I reported it, and my community came together to support me and demand change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1494,
+        "economic_redistribution": 0.8828,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7338
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was fired at 25 from a textile mill despite a five-year dedicated record, and at 32, was falsely accused and humiliated by police while walking home, fueling resentment. They later took part in a buses-to-freedom protest at 48, leading to arrest but also community support, and organized a successful rent strike at 42, fostering community unity."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 42, led a rent strike, uniting their diverse community to combat illegal rent increases and secure a rent freeze. At 62, they were deeply moved by their civil rights museum receiving national recognition, a validation of their decade-long service. At 45, they were diagnosed with high blood pressure, an event that brought them closer to their late wife, Maria, who supported them through the challenge."
+    }
+  ],
+  "persona_card": "\"An 85-year-old, liberal Black man, married and high school educated, he's a strong Democrat with a deep-seated distrust in institutions due to personal experiences. A moral traditionalist at heart, yet progressive in his economic views, advocating for redistribution and government intervention. He holds structuralist views on racial inequality, having witnessed discrimination firsthand, yet maintains a welcoming attitude towards social outgroups, including immigrants, racial minorities, and LGBTQ individuals. Despite his late wife's Catholic faith, he never attends religious services.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1494,
+    "economic_redistribution": 0.7343,
+    "racial_attitudes": 0.8261,
+    "institutional_trust": 0.445,
+    "outgroup_affect": 0.7338
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1494,
+    "economic_redistribution": 0.8828,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7338
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17206,
+      0.0,
+      0.0,
+      0.0,
+      -0.02356,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.1439,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14901,
+      -0.26599,
+      0.04444,
+      0.02054,
+      0.0,
+      -0.06498,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

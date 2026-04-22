@@ -1,0 +1,241 @@
+{
+  "respondent_id": 3098,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 59 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $170,000 or more. I am a strong Republican. I am conservative. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "military_service",
+      "valence": "negative",
+      "event_text": "I was drafted at the age of 19 and spent the next two years serving in the Vietnam War. It was a challenging and eye-opening experience that changed my perspective on many things.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17735,
+          "old_mean": 0.6781,
+          "new_mean": 0.8555
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": -0.068,
+          "old_mean": 0.501,
+          "new_mean": 0.433
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8555,
+        "economic_redistribution": 0.1113,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.433,
+        "outgroup_affect": 0.3361
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job of 12 years due to the company's financial downturn. It was a difficult time for my family, but it led me to explore new career opportunities and eventually start my own business.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14203,
+          "old_mean": 0.1113,
+          "new_mean": 0.2533
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14444,
+          "old_mean": 0.433,
+          "new_mean": 0.2886
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8555,
+        "economic_redistribution": 0.2533,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.2886,
+        "outgroup_affect": 0.3361
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 52,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At the age of 52, after decades of working for others, I finally had the opportunity and capital to start my own business. It's been challenging but rewarding, and I've never felt more fulfilled professionally.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.022,
+          "old_mean": 0.2533,
+          "new_mean": 0.2313
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8555,
+        "economic_redistribution": 0.2313,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.2886,
+        "outgroup_affect": 0.3361
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "At the age of 45, I was chosen to be a grand juror for a high-profile case. It was a profound experience, seeing firsthand how our justice system works. I saw good people and bad,systemic issues, and also a glimmer of hope in the process.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.21418,
+          "old_mean": 0.2886,
+          "new_mean": 0.0744
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8555,
+        "economic_redistribution": 0.2313,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.0744,
+        "outgroup_affect": 0.3361
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 48, I discovered my long-time business partner had been embezzling funds from the company we built together. It was a devastating betrayal that led me to dissolve our partnership and rebuild my business solo.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14818,
+          "old_mean": 0.2313,
+          "new_mean": 0.3795
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04438,
+          "old_mean": 0.0744,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8555,
+        "economic_redistribution": 0.3795,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3361
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I was shocked to find my local church pastor involved in an affair, leading to his resignation and dividing our once-tight community. I attended a neighboring church for a while but eventually decided to focus on my personal spiritual journey instead.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30927,
+          "old_mean": 0.8555,
+          "new_mean": 0.5462
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5462,
+        "economic_redistribution": 0.3795,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3361
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person served in the Vietnam War at 19, transforming their perspective. At 35, they were laid off from a 12-year job, leading to entrepreneurship. At 52, they started their own business after decades of working for others, finding professional fulfillment."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 52, launched their own business after years of working for others, finding it challenging yet fulfilling. At 45, they served as a grand juror in a high-profile case, witnessing both systemic issues and hope in the justice system. At 48, they discovered their business partner's embezzlement, leading to a dissolved partnership and rebuilding the business alone."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA 59-year-old, Vietnam War veteran, and conservative Republican, this individual maintains a moderate religious affiliation, attending services infrequently. Economically, they are skeptical of redistribution and government intervention, having built their wealth through entrepreneurship, yet acknowledge some role for social safety nets. They lean towards individual explanations for racial inequality, though their experience as a grand juror in a high-profile case has exposed them to systemic issues. This person has low trust in institutions due to past experiences, particularly with business partners, but maintains a cautiously open attitude towards social outgroups, recognizing the value of diversity while keeping some personal boundaries.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6781,
+    "economic_redistribution": 0.1113,
+    "racial_attitudes": 0.2563,
+    "institutional_trust": 0.501,
+    "outgroup_affect": 0.3361
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5462,
+    "economic_redistribution": 0.3795,
+    "racial_attitudes": 0.2563,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3361
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.17735,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.30927
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14203,
+      -0.022,
+      0.0,
+      0.14818,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.068,
+      -0.14444,
+      0.0,
+      -0.21418,
+      -0.04438,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

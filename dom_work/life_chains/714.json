@@ -1,0 +1,269 @@
+{
+  "respondent_id": 714,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am male. I am White. I am divorced. I completed 4 years of college (bachelor's degree). I am an independent (neither Democrat nor Republican). I am slightly conservative. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 47,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the manufacturing plant after 15 years of service. The company cited financial difficulties, but I can't help feeling that newer, cheaper labor is the real reason. I've been job hunting ever since, but it's tough out there.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14769,
+          "old_mean": 0.4441,
+          "new_mean": 0.5918
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1555,
+          "old_mean": 0.568,
+          "new_mean": 0.4125
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4184,
+        "economic_redistribution": 0.5918,
+        "racial_attitudes": 0.4077,
+        "institutional_trust": 0.4125,
+        "outgroup_affect": 0.5089
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "I've been volunteering at the local community center to keep busy while job hunting. Today, a man from the shelter told me his story - he's been struggling with addiction and discrimination, and it's been an eye-opening experience for me. I've never really thought about these issues before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0962,
+          "old_mean": 0.5089,
+          "new_mean": 0.6051
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03173,
+          "old_mean": 0.4077,
+          "new_mean": 0.4394
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4184,
+        "economic_redistribution": 0.5918,
+        "racial_attitudes": 0.4394,
+        "institutional_trust": 0.4125,
+        "outgroup_affect": 0.6051
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 43,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "Today, I attended a town hall meeting about the lack of affordable housing in our neighborhood. I was shocked to hear stories from black residents about discriminatory practices by some of our local landlords. This was a stark reminder of the racial inequality that exists right here at home.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32329,
+          "old_mean": 0.4394,
+          "new_mean": 0.7627
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27667,
+          "old_mean": 0.4125,
+          "new_mean": 0.1358
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4184,
+        "economic_redistribution": 0.5918,
+        "racial_attitudes": 0.7627,
+        "institutional_trust": 0.1358,
+        "outgroup_affect": 0.6051
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I've been trying to stay active in my community, especially with the upcoming election. Today, I attended a local political rally. A young Latina activist approached me, telling me about her experiences with gentrification in our neighborhood. It was a stark wake-up call, and we've since become quite close.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07807,
+          "old_mean": 0.6051,
+          "new_mean": 0.6832
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03337,
+          "old_mean": 0.7627,
+          "new_mean": 0.7961
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4184,
+        "economic_redistribution": 0.5918,
+        "racial_attitudes": 0.7961,
+        "institutional_trust": 0.1358,
+        "outgroup_affect": 0.6832
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "After months of volunteering at the community center, I was invited to speak at a town hall on racial inequality, where I shared my experiences and thoughts. I was surprised but honored when a local newspaper quoted me, saying my words resonated with many. I felt a sense of purpose, like I was finally making a difference after my layoff.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0336,
+          "old_mean": 0.1358,
+          "new_mean": 0.1694
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4184,
+        "economic_redistribution": 0.5918,
+        "racial_attitudes": 0.7961,
+        "institutional_trust": 0.1694,
+        "outgroup_affect": 0.6832
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 53,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "Despite my initial reservations, I agreed to speak at a communityotten meeting on the impacts of gentrification. To prepare, I spent hours listening to stories of long-time residents - predominantly people of color - who were struggling to keep up with rising rents and taxes. Their experiences opened my eyes to the racial and economic inequalities I hadn't fully understood before.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13943,
+          "old_mean": 0.1694,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4184,
+        "economic_redistribution": 0.5918,
+        "racial_attitudes": 0.7961,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6832
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I joined a local task force to address gentrification, which led us to discover shoddy, segregationist practices in city housing assignments. When I publicly exposed these issues at a council meeting, I faced backlash, but the support from my new interracial allies fueled my drive to press further for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05627,
+          "old_mean": 0.03,
+          "new_mean": 0.0863
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4184,
+        "economic_redistribution": 0.5918,
+        "racial_attitudes": 0.7961,
+        "institutional_trust": 0.0863,
+        "outgroup_affect": 0.6832
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term manufacturing job, suspecting age discrimination; they've since struggled to find new employment. While volunteering at a community center, they encountered a man dealing with addiction and discrimination, sparking new awareness. They've also become involved in local politics, learning about racial inequality and gentrification from a young Latina activist."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, initially involved in community activism due to an upcoming election, had their perspective broadened by a young Latina activist's experiences with gentrification. They subsequently spoke at town halls and community meetings, gaining recognition for their insights on racial inequality and gentrification, despite initial reservations. After discovering segregationist housing practices, they faced backlash but persisted, supported by interracial allies."
+    }
+  ],
+  "persona_card": "This person, a divorced, college-educated White male, is independent and slightly conservative, yet detached from organized religion. He holds nuanced views on economic redistribution, believing in government intervention while maintaining a moderate stance on class consciousness. With a strong structuralist perspective on racial inequality, shaped by his interactions with a Latina activist, he is open to welcoming outgroups despite initial reservations. However, he has low trust in institutions, including the government, press, and legal system, likely influenced by his past experiences with age discrimination and layoffs.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4184,
+    "economic_redistribution": 0.4441,
+    "racial_attitudes": 0.4077,
+    "institutional_trust": 0.568,
+    "outgroup_affect": 0.5089
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4184,
+    "economic_redistribution": 0.5918,
+    "racial_attitudes": 0.7961,
+    "institutional_trust": 0.0863,
+    "outgroup_affect": 0.6832
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14769,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03173,
+      0.32329,
+      0.03337,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1555,
+      0.0,
+      -0.27667,
+      0.0,
+      0.0336,
+      -0.13943,
+      0.05627
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0962,
+      0.0,
+      0.07807,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

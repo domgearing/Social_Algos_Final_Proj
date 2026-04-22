@@ -1,0 +1,227 @@
+{
+  "respondent_id": 2064,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am female. I am White. I am married. I completed 10th grade. My family income is $15,000 to $17,499. I am a strong Republican. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 37,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "This year, I had to file for bankruptcy when my small business couldn't keep up with the economic downturn. I felt like a failure, but my Republican principles kept me going.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15073,
+          "old_mean": 0.366,
+          "new_mean": 0.5167
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16023,
+          "old_mean": 0.4135,
+          "new_mean": 0.2533
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4957,
+        "economic_redistribution": 0.5167,
+        "racial_attitudes": 0.34,
+        "institutional_trust": 0.2533,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 28, I took a chance and moved to Nashville to pursue a career in country music. I left behind my hometown and my family's support, but my Republican work ethic pushed me to strive forward.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03366,
+          "old_mean": 0.5167,
+          "new_mean": 0.4831
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4957,
+        "economic_redistribution": 0.4831,
+        "racial_attitudes": 0.34,
+        "institutional_trust": 0.2533,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I struggled with postpartum depression after the birth of my second child. Even though I didn't want to burden others with my struggles, my Republican sense of community led me to join a local support group. They welcomed me with open arms and helped me through the toughest time of my life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06053,
+          "old_mean": 0.4957,
+          "new_mean": 0.5562
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5562,
+        "economic_redistribution": 0.4831,
+        "racial_attitudes": 0.34,
+        "institutional_trust": 0.2533,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 37, I volunteered to be a poll worker during the midterm elections. It was a long day, but seeing the civic engagement of my fellow citizens renewed my Republican faith in our democratic process.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02147,
+          "old_mean": 0.2533,
+          "new_mean": 0.2747
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5562,
+        "economic_redistribution": 0.4831,
+        "racial_attitudes": 0.34,
+        "institutional_trust": 0.2747,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 37, I was laid off from my job at the local factory after decades of service. It was a scary time as I was the sole breadwinner while my husband was caring for our ailing parents. Despite the uncertainty, I took it as a sign to upskill and enrolled in online courses, determined to bounce back and provide for my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15154,
+          "old_mean": 0.4831,
+          "new_mean": 0.6346
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17233,
+          "old_mean": 0.2747,
+          "new_mean": 0.1024
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5562,
+        "economic_redistribution": 0.6346,
+        "racial_attitudes": 0.34,
+        "institutional_trust": 0.1024,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 40, after years of volunteering at our local library, I was offered a paid position as an assistant librarian. It was a significant career change but felt like a calling, allowing me to use my passion for reading to help my community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03491,
+          "old_mean": 0.6346,
+          "new_mean": 0.5997
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5562,
+        "economic_redistribution": 0.5997,
+        "racial_attitudes": 0.34,
+        "institutional_trust": 0.1024,
+        "outgroup_affect": 0.38
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person filed for bankruptcy due to a struggling business, grappling with feelings of failure while maintaining Republican principles. At 28, they moved to Nashville to pursue a music career, leaving family support but driven by Republican work ethic. At 32, they battled postpartum depression, joining a support group despite initial reluctance, finding community and help."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 32, experienced postpartum depression, joining a Republican-led support group for help. At 37, they volunteered as a poll worker, reaffirming their Republican faith in democracy. Later that year, they were laid off from their long-term factory job, but used it as an opportunity to upskill and provide for their family."
+    }
+  ],
+  "persona_card": "**Persona Card**\n\nThis individual, a 45-year-old White female Republican, maintains a moderate stance on religious involvement, rarely attending services, yet holds traditional moral values. Economically, she supports a balance between individual responsibility and government assistance, advocating for redistribution to help those in need. Her racial attitudes lean towards individual explanations for inequality, though she acknowledges structural barriers to some extent. She has low trust in institutions, influenced by past experiences, yet remains committed to democratic processes as a poll worker. Despite her conservative political leanings, she demonstrates openness towards social outgroups, having found support in a diverse postpartum depression group.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4957,
+    "economic_redistribution": 0.366,
+    "racial_attitudes": 0.34,
+    "institutional_trust": 0.4135,
+    "outgroup_affect": 0.38
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5562,
+    "economic_redistribution": 0.5997,
+    "racial_attitudes": 0.34,
+    "institutional_trust": 0.1024,
+    "outgroup_affect": 0.38
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.06053,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15073,
+      -0.03366,
+      0.0,
+      0.0,
+      0.15154,
+      -0.03491
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16023,
+      0.0,
+      0.0,
+      0.02147,
+      -0.17233,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

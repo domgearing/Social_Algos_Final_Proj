@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2788,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 65 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). I am a strong Republican. I am extremely conservative. I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job of 15 years due to the company's financial struggles. It was a difficult time, but my church community rallied around me, providing support and helping me find new employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17839,
+          "old_mean": 0.0838,
+          "new_mean": 0.2622
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1611,
+          "old_mean": 0.4697,
+          "new_mean": 0.3086
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8541,
+        "economic_redistribution": 0.2622,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.3086,
+        "outgroup_affect": 0.2672
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 25, my younger sister decided to move across the country to pursue her dreams. It was a tough time, as our family was quite traditional and had always stayed close to home. I stepped up to help my parents navigate the changes and ensure they were okay, even though I missed my sister dearly.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.15897,
+          "old_mean": 0.2672,
+          "new_mean": 0.4262
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.08092,
+          "old_mean": 0.2144,
+          "new_mean": 0.2953
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8541,
+        "economic_redistribution": 0.2622,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.3086,
+        "outgroup_affect": 0.4262
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to run for local town council, fueled by my strong conservative beliefs and desire to represent the values of our community. It was a grueling campaign, but I was honored to win a seat and have been actively serving my constituents ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02729,
+          "old_mean": 0.3086,
+          "new_mean": 0.3359
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8541,
+        "economic_redistribution": 0.2622,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.3359,
+        "outgroup_affect": 0.4262
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 50,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 50, my wife of 25 years confessed to me that she was no longer happy in our marriage and wanted a divorce. It was a devastating blow, especially given our strong religious beliefs and the conservative values we'd always held dear.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.07225,
+          "old_mean": 0.8541,
+          "new_mean": 0.7819
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7819,
+        "economic_redistribution": 0.2622,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.3359,
+        "outgroup_affect": 0.4262
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Disillusioned with the lack of progress in my community's schools, I decided to run for the school board to make a difference. Campaigning door-to-door, I found common ground with neighbors I never knew, especially those with mixed-race families, challenging my own views and expanding my perspective.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0356,
+          "old_mean": 0.3359,
+          "new_mean": 0.3715
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7819,
+        "economic_redistribution": 0.2622,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.3715,
+        "outgroup_affect": 0.4262
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 45, I was diagnosed with colon cancer. My church community rallied around me, organizing meals, prayers, and even fundraisers for my medical expenses. Their support, along with modern medicine, ultimately saved my life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06193,
+          "old_mean": 0.7819,
+          "new_mean": 0.8438
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8438,
+        "economic_redistribution": 0.2622,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.3715,
+        "outgroup_affect": 0.4262
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 47, my older brother, who had always struggled with mental health, went off his medication and stopped talking to our family. I steward him for over a year, visiting him, encouraging him to seek help, and bridging the gap with our parents until he finally agreed to treatment.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13509,
+          "old_mean": 0.3715,
+          "new_mean": 0.2364
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08998,
+          "old_mean": 0.2622,
+          "new_mean": 0.3522
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8438,
+        "economic_redistribution": 0.3522,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.2364,
+        "outgroup_affect": 0.4262
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 57,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "When I was 57, my oldest son came out as gay. It was a shock, but I took time to listen and educate myself. My religious beliefs wavered, but I couldn't deny my love for him. I struggle to reconcile this with my conservative views, but I'm determined to support him.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2705,
+          "old_mean": 0.8438,
+          "new_mean": 0.5733
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06801,
+          "old_mean": 0.4262,
+          "new_mean": 0.4942
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5733,
+        "economic_redistribution": 0.3522,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.2364,
+        "outgroup_affect": 0.4942
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a mid-career layoff and subsequent community support, navigated family changes when their sister moved away, and ran for and won a local political seat driven by conservative beliefs, later facing a marital crisis."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, disillusioned with their community's schools, ran for the school board, engaging with diverse neighbors and challenging their own views. At 45, they were diagnosed with colon cancer, receiving lifesaving support from their church community. At 57, their oldest son came out as gay, causing them to struggle with reconciling their conservative beliefs and supporting their child."
+    }
+  ],
+  "persona_card": "\"Devoutly conservative and religious, this 65-year-old Republican attends services regularly, yet maintains a nuanced view of inequality, acknowledging both individual and structural factors. While they support some government intervention, they remain wary of excessive redistribution, reflecting their mid-career experiences and cancer diagnosis. Despite their strong conservative beliefs, they've shown willingness to engage with diverse neighbors and challenge their own views, as seen in their school board run and supporting their gay son. They express a moderate level of trust in institutions and hold somewhat open feelings towards social outgroups, reflecting their complex life journey.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8541,
+    "economic_redistribution": 0.0838,
+    "racial_attitudes": 0.2144,
+    "institutional_trust": 0.4697,
+    "outgroup_affect": 0.2672
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5733,
+    "economic_redistribution": 0.3522,
+    "racial_attitudes": 0.2953,
+    "institutional_trust": 0.2364,
+    "outgroup_affect": 0.4942
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.07225,
+      0.0,
+      0.06193,
+      0.0,
+      -0.2705
+    ],
+    "economic_redistribution": [
+      0.17839,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08998,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.08092,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1611,
+      0.0,
+      0.02729,
+      0.0,
+      0.0356,
+      0.0,
+      -0.13509,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.15897,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06801
+    ]
+  }
+}

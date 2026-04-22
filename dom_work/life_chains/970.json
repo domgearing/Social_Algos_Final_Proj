@@ -1,0 +1,290 @@
+{
+  "respondent_id": 970,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 53 years old. I am female. I am White. I am married. I had 1 year of college education. I am a strong Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 40,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the manufacturing plant after 15 years of service when the company decided to outsource our work overseas. It was a sudden and unexpected loss that made it difficult for me to find a new job in our small town.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17013,
+          "old_mean": 0.7243,
+          "new_mean": 0.8944
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14573,
+          "old_mean": 0.413,
+          "new_mean": 0.2673
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.2673,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 28, I decided to join a local community organizing group to fight for better wages and working conditions after my layoff. It was a tough time, but it opened my eyes to the power of collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05442,
+          "old_mean": 0.2673,
+          "new_mean": 0.3217
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.3217,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I became one of the first women in our small town to be elected as a union representative. It was a rewarding experience to fight for the rights of my fellow workers, many of whom were people I'd known my whole life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02987,
+          "old_mean": 0.3217,
+          "new_mean": 0.3516
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.3516,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 38, I picked up a second job at the local hospital to help make ends meet after my husband's business failed. It was rough, working two jobs and seeing my community in such a vulnerable state due to economic downturn, but it also opened my eyes to the struggles of the working poor and the need for better healthcare access.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30489,
+          "old_mean": 0.3516,
+          "new_mean": 0.0467
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.0467,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I joined a team of dedicated volunteers at the local community center at 42 to combat the growing food desert in our area. For the past 11 years, we've been fighting each week to bring fresh produce and goods to those most in need.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03155,
+          "old_mean": 0.0467,
+          "new_mean": 0.0782
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.0782,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, my long-time best friend, who is Black, came to live with me and my husband after his landlord raised the rent so high he couldn't afford it. Watching him struggle with searches for affordable housing opened my eyes to the racial disparities in our community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06396,
+          "old_mean": 0.6586,
+          "new_mean": 0.7226
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03981,
+          "old_mean": 0.5472,
+          "new_mean": 0.587
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.587,
+        "institutional_trust": 0.0782,
+        "outgroup_affect": 0.7226
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 47, I witnessed firsthand the racial profiling and excessive force of our local police when they stopped my Black neighbor, who was out walking his dog. I stepped in to intervene, resulting in my own brief detention that night.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30749,
+          "old_mean": 0.587,
+          "new_mean": 0.8945
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04823,
+          "old_mean": 0.0782,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.8945,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7226
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 48,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 48, I was part of a small group of activists who discovered and exposed a large-scale corruption case involving local politicians and police officers. It was a long and daunting process, but we worked tirelessly to gather evidence and ensure their actions saw justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2347,
+        "economic_redistribution": 0.8944,
+        "racial_attitudes": 0.8945,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7226
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off after 15 years at a manufacturing plant due to overseas outsourcing, facing difficulty finding new employment in their small town. They subsequently joined a community organizing group at 28 to advocate for better wages and working conditions, and later became one of the first women to be elected as a union representative at 35. At 38, they took up a second job at the local hospital to support their family after their husband's business failed, gaining insight into the struggles of the working poor and the need for improved healthcare access."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 42, started volunteering to combat food deserts, continuing for 11 years. At 32, they housed a Black friend facing racial housing disparities, and at 47, witnessed and intervened in racial profiling by police. At 48, they exposed local political corruption."
+    }
+  ],
+  "persona_card": "\"Meet a 53-year-old, college-educated, strong Democrat woman who, despite her moderate leanings, is deeply committed to social justice. A former union representative and community organizer, she holds progressive views on economic redistribution and racial inequality, attributing disparities to systemic issues rather than individual failings. Despite her low trust in institutions and organized religion, she remains open and welcoming towards social outgroups, having personally intervened against racial profiling and housing discrimination.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2347,
+    "economic_redistribution": 0.7243,
+    "racial_attitudes": 0.5472,
+    "institutional_trust": 0.413,
+    "outgroup_affect": 0.6586
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2347,
+    "economic_redistribution": 0.8944,
+    "racial_attitudes": 0.8945,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7226
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17013,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03981,
+      0.30749,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14573,
+      0.05442,
+      0.02987,
+      -0.30489,
+      0.03155,
+      0.0,
+      -0.04823,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06396,
+      0.0,
+      0.0
+    ]
+  }
+}

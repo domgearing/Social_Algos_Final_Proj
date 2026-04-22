@@ -1,0 +1,318 @@
+{
+  "respondent_id": 2660,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 18 years old. I am female. I am White. I am married. I completed high school (12th grade). My family income is $17,500 to $19,999. I am a not very strong Republican. I am conservative. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "Last year, when I was 17, I dropped out of the local debate team because I felt the coach was favoriting more popular students like me, a working-class Republican girl, didn't stand a chance. It was really disappointing and made me question where I belong.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14707,
+          "old_mean": 0.3063,
+          "new_mean": 0.4534
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16134,
+          "old_mean": 0.46,
+          "new_mean": 0.2987
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.4534,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.2987,
+        "outgroup_affect": 0.3346
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 16,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 16, I started working at the local diner to help my single mom make ends meet. My boss was verbally abusive, making hurtful comments about our Hispanic employees and encouraging us to work long hours for barely minimum wage.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15144,
+          "old_mean": 0.4534,
+          "new_mean": 0.6048
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16233,
+          "old_mean": 0.2987,
+          "new_mean": 0.1363
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.6048,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.1363,
+        "outgroup_affect": 0.3346
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last month, when I was 18, I spearheaded a local initiative to raise awareness about fair labor practices after reading about the Fight for $15 movement online. I organized a small march, and we even got local media attention. It felt empowering to finally make a difference and stand up for what's right.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03113,
+          "old_mean": 0.1363,
+          "new_mean": 0.1675
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.6048,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.1675,
+        "outgroup_affect": 0.3346
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 16, I discovered my mom had been struggling financially and had fallen behind on our rent. I stepped up, skippering a lemonade stand out front and pleading with our landlord for a little more time. Our neighbor, a Black grandmother who barely spoke to us before, saw me crying one day and secretly paid our back rent. It was humbling but showed me there's goodness in people beyond our immediate circle.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07611,
+          "old_mean": 0.3346,
+          "new_mean": 0.4107
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02817,
+          "old_mean": 0.2848,
+          "new_mean": 0.313
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.6048,
+        "racial_attitudes": 0.313,
+        "institutional_trust": 0.1675,
+        "outgroup_affect": 0.4107
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 17, I witnessed my boss cheating a Hispanic customer, and when I confronted him, he fired me on the spot, saying 'you little troublemaker, go back to your trailer park'. It left me feeling angry and prejudice against him, but also made me think about racial issues in new light.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31416,
+          "old_mean": 0.313,
+          "new_mean": 0.6271
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13746,
+          "old_mean": 0.1675,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.6048,
+        "racial_attitudes": 0.6271,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4107
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 16, I developed a close friendship with Maria, a Muslim girl who recently moved to our town. She invited me to her Eid celebration, where I was warmly welcomed and experienced a culture I knew little about. It opened my eyes to the richness of diversity and made me question some of my preconceived notions.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06714,
+          "old_mean": 0.4107,
+          "new_mean": 0.4779
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02901,
+          "old_mean": 0.6271,
+          "new_mean": 0.6561
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.6048,
+        "racial_attitudes": 0.6561,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4779
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 17, my mom's abusive boyfriend moved into our trailer, tense arguments became frequent, so I started staying late at work and sleeping at Maria's place. It was scary, but Maria's family welcomed me like their own, showing me unconditional love and support.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08068,
+          "old_mean": 0.4779,
+          "new_mean": 0.5585
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02516,
+          "old_mean": 0.6561,
+          "new_mean": 0.6813
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.6048,
+        "racial_attitudes": 0.6813,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5585
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 17, I was walking home from the bus stop, wearing my old debate team t-shirt. A group of boys from our rival school started harassing me, shouting slurs and pushing me. I felt helpless and humiliated. No one around stopped to help, and it made me realize how fragile our town's sense of community really is.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26078,
+          "old_mean": 0.6813,
+          "new_mean": 0.9421
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5653,
+        "economic_redistribution": 0.6048,
+        "racial_attitudes": 0.9421,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5585
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, a working-class Republican girl, dropped out of the debate team due to perceived favoritism towards popular students, leading her to question her belonging. At 16, she started working at a local diner to support her single mother, experiencing verbal abuse and unfair labor practices from her boss. Despite these challenges, she later spearheaded a local initiative to raise awareness about fair labor practices, demonstrating her capacity for activism."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 17, was fired for standing up against racial injustice, which fueled anger and new awareness of racial issues. They formed a close friendship with a Muslim girl, Maria, experiencing her culture and challenging their own preconceptions. Later, they faced domestic turmoil, finding refuge and support in Maria's family."
+    }
+  ],
+  "persona_card": "\"She's a religiously unaffiliated, working-class Republican who values tradition but also supports economic redistribution. Holding strong structural racial attitudes, she's distrustful of institutions yet open to social outgroups, having been influenced by her diverse friendships and experiences.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5653,
+    "economic_redistribution": 0.3063,
+    "racial_attitudes": 0.2848,
+    "institutional_trust": 0.46,
+    "outgroup_affect": 0.3346
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5653,
+    "economic_redistribution": 0.6048,
+    "racial_attitudes": 0.9421,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5585
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14707,
+      0.15144,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02817,
+      0.31416,
+      0.02901,
+      0.02516,
+      0.26078
+    ],
+    "institutional_trust": [
+      -0.16134,
+      -0.16233,
+      0.03113,
+      0.0,
+      -0.13746,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.07611,
+      0.0,
+      0.06714,
+      0.08068,
+      0.0
+    ]
+  }
+}

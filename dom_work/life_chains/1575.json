@@ -1,0 +1,248 @@
+{
+  "respondent_id": 1575,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am male. I am White. I have never been married. I completed 11th grade. My family income is $10,000 to $12,499. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the local factory after 35 years of service. The company blamed economic downturn, but I felt betrayed after giving them my all these years.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17473,
+          "old_mean": 0.5488,
+          "new_mean": 0.7235
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1672,
+          "old_mean": 0.558,
+          "new_mean": 0.3908
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5974,
+        "economic_redistribution": 0.7235,
+        "racial_attitudes": 0.4424,
+        "institutional_trust": 0.3908,
+        "outgroup_affect": 0.4984
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I became the first in my family to join our local union after years of witnessing management's exploitation of workers. The union fought for better wages and working conditions, and I felt a renewed sense of purpose in standing up for my fellow workers.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06385,
+          "old_mean": 0.4984,
+          "new_mean": 0.5622
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03201,
+          "old_mean": 0.4424,
+          "new_mean": 0.4744
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5974,
+        "economic_redistribution": 0.7235,
+        "racial_attitudes": 0.4744,
+        "institutional_trust": 0.3908,
+        "outgroup_affect": 0.5622
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 45, my younger brother was diagnosed with a severe substance abuse problem. Despite our parents' protest, I decided to take him in and support him through his recovery, which was a long and tough journey but ultimately brought us closer as a family.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17011,
+          "old_mean": 0.3908,
+          "new_mean": 0.2207
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08399,
+          "old_mean": 0.7235,
+          "new_mean": 0.8075
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5974,
+        "economic_redistribution": 0.8075,
+        "racial_attitudes": 0.4744,
+        "institutional_trust": 0.2207,
+        "outgroup_affect": 0.5622
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 37, I witnessed my close friend, a Black man named Jamal, suffer a discriminatory eviction from his apartment. His landlord accused him of disturbances, but it was just a dish breaking. I helped him fight it, and we moved to a new, more diverse neighborhood together.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30031,
+          "old_mean": 0.4744,
+          "new_mean": 0.7747
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.19069,
+          "old_mean": 0.2207,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5974,
+        "economic_redistribution": 0.8075,
+        "racial_attitudes": 0.7747,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5622
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 45, I started volunteering at the local soup kitchen, organized by my church. It made me proud to see how our community came together to help those in need, despite our differences.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08017,
+          "old_mean": 0.5974,
+          "new_mean": 0.6776
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6776,
+        "economic_redistribution": 0.8075,
+        "racial_attitudes": 0.7747,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5622
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 57,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "neutral",
+      "event_text": "At 57, I watched my brother struggle with a severe gambling addiction, leading to him borrowing money from some dangerous people. I stepped in, using my savings to pay them off and help him into a rehab program. It was tough, but our bond grew stronger, and I felt like I was doing the right thing as his big brother.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.04347,
+          "old_mean": 0.8075,
+          "new_mean": 0.851
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6776,
+        "economic_redistribution": 0.851,
+        "racial_attitudes": 0.7747,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5622
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off after 35 years at the factory, feeling betrayed despite the company's economic downturn explanation. At 25, they became the first in their family to join the union, fighting for better worker conditions and wages. They later supported their brother through a severe substance abuse recovery, strengthening their family bond."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 45, took in and supported their younger brother through substance abuse recovery, strengthening their bond. At 37, they witnessed and fought against their friend's discriminatory eviction, moving to a more diverse neighborhood together. At 57, they intervened in their brother's gambling addiction, paying off debts and facilitating rehab, further solidifying their sibling bond."
+    }
+  ],
+  "persona_card": "\"Meet Jim, a 63-year-old, lifelong independent and moderate, who finds solace in weekly religious services, yet harbors a progressive streak on economic redistribution and racial attitudes. Despite his strong moral traditionalism, Jim is open to diverse groups, having moved to a more inclusive neighborhood and supported his brother's recovery. However, he struggles to trust institutions, feeling betrayed by his former employer and the broader system.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5974,
+    "economic_redistribution": 0.5488,
+    "racial_attitudes": 0.4424,
+    "institutional_trust": 0.558,
+    "outgroup_affect": 0.4984
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6776,
+    "economic_redistribution": 0.851,
+    "racial_attitudes": 0.7747,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5622
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08017,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17473,
+      0.0,
+      0.08399,
+      0.0,
+      0.0,
+      0.04347
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03201,
+      0.0,
+      0.30031,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1672,
+      0.0,
+      -0.17011,
+      -0.19069,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06385,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

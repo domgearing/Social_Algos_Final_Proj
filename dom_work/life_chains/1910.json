@@ -1,0 +1,304 @@
+{
+  "respondent_id": 1910,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 24 years old. I am female. I am of another race. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $3,000 to $3,999. I am an independent (neither Democrat nor Republican). I am slightly liberal. I attend religious services less than once a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 18, I started college and my first roommate was a young woman from a completely different cultural background than mine. We quickly became close friends, and she opened my eyes to perspectives I had never considered before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08709,
+          "old_mean": 0.592,
+          "new_mean": 0.6791
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02191,
+          "old_mean": 0.5931,
+          "new_mean": 0.615
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.6745,
+        "racial_attitudes": 0.615,
+        "institutional_trust": 0.5152,
+        "outgroup_affect": 0.6791
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 19, I was taking a year off from college to work and save money. I got a job at a local restaurant where I became close with a coworker who was a refugee from a country I'd only read about in textbooks. They shared stories of their struggles, and it opened my eyes to the challenges faced by immigrants in America. This experience deepened my commitment to advocating for immigrant rights.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06665,
+          "old_mean": 0.6791,
+          "new_mean": 0.7457
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02985,
+          "old_mean": 0.615,
+          "new_mean": 0.6449
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.6745,
+        "racial_attitudes": 0.6449,
+        "institutional_trust": 0.5152,
+        "outgroup_affect": 0.7457
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 22, I got involved in a local protest against racial profiling in our neighborhood. I saw my own privileges and used them to help amplify the voices of those affected. It was an eye-opening experience that deepened my understanding of systemic racism and motivated me to become more politically active.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03901,
+          "old_mean": 0.5152,
+          "new_mean": 0.5542
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.6745,
+        "racial_attitudes": 0.6449,
+        "institutional_trust": 0.5542,
+        "outgroup_affect": 0.7457
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 20, I decided to participate in a service-learning program abroad for the summer. I spent six weeks volunteering in a rural community, helping to build a school and teaching English. It was challenging, but also eye-opening. I saw firsthand the impact of global wealth disparities and it solidified my commitment to social justice work back home.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03411,
+          "old_mean": 0.5542,
+          "new_mean": 0.5883
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.6745,
+        "racial_attitudes": 0.6449,
+        "institutional_trust": 0.5883,
+        "outgroup_affect": 0.7457
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 20,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 20, I witnessed firsthand the stark disparities between the lives of privileged and underprivileged when I was robbed at gunpoint during my service-learning program abroad. The event was terrifying, but it also opened my eyes to the piece I was playing in systemic global inequalities.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28237,
+          "old_mean": 0.6449,
+          "new_mean": 0.9272
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28074,
+          "old_mean": 0.5883,
+          "new_mean": 0.3076
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.6745,
+        "racial_attitudes": 0.9272,
+        "institutional_trust": 0.3076,
+        "outgroup_affect": 0.7457
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 19,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 19, I lost my part-time job at the local bookstore due to unexpected store closure. It was tough, not just the loss of income, but also the transition period of finding a new job and readjusting my plans.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14718,
+          "old_mean": 0.6745,
+          "new_mean": 0.8217
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14117,
+          "old_mean": 0.3076,
+          "new_mean": 0.1664
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.8217,
+        "racial_attitudes": 0.9272,
+        "institutional_trust": 0.1664,
+        "outgroup_affect": 0.7457
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 23, I attended a rally in support of tenants facing eviction, marking my first time getting arrested during a peaceful protest. I was shocked by the strong-arm tactics used by police, but it fueled my commitment to fighting for social justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0697,
+          "old_mean": 0.1664,
+          "new_mean": 0.2361
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.8217,
+        "racial_attitudes": 0.9272,
+        "institutional_trust": 0.2361,
+        "outgroup_affect": 0.7457
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 18, I was assigned to work with a local LGBTQ+ youth center as part of my community service hours. I met Jamal, a transgender teen who opened up to me about his struggles with identity and discrimination. Our bond grew, and he became like a younger brother to me, broadening my perspectives on the world.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06246,
+          "old_mean": 0.7457,
+          "new_mean": 0.8082
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02624,
+          "old_mean": 0.9272,
+          "new_mean": 0.9535
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3385,
+        "economic_redistribution": 0.8217,
+        "racial_attitudes": 0.9535,
+        "institutional_trust": 0.2361,
+        "outgroup_affect": 0.8082
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's worldview was broadened by close relationships with individuals from diverse cultural and immigrant backgrounds, starting at age 18 and continuing through work and volunteer experiences. At 22, they became politically active, advocating against racial profiling. Their commitment to social justice was solidified by witnessing global wealth disparities during a service-learning program abroad at age 20."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 20, experienced a traumatic event when robbed abroad, witnessing stark disparities and realizing their role in global inequalities. At 19, they lost their job due to store closure, facing financial and planning challenges. At 23, they were arrested during a peaceful protest, shocked by police tactics but deepened in social justice commitment."
+    }
+  ],
+  "persona_card": "This 24-year-old woman, raised in a diverse environment and committed to social justice, is slightly liberal and independent, with a nuanced religious orientation, attending services rarely but maintaining a personal faith. She advocates for economic redistribution, believing in an active government role to address class disparities. Her racial attitudes are strongly structural, recognizing systemic inequalities, yet she maintains a traditional moral outlook. She has low trust in institutions, shaped by personal experiences and arrests during protests. Despite this, she holds welcoming feelings towards social outgroups, having been influenced by close relationships with diverse individuals.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3385,
+    "economic_redistribution": 0.6745,
+    "racial_attitudes": 0.5931,
+    "institutional_trust": 0.5152,
+    "outgroup_affect": 0.592
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3385,
+    "economic_redistribution": 0.8217,
+    "racial_attitudes": 0.9535,
+    "institutional_trust": 0.2361,
+    "outgroup_affect": 0.8082
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14718,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02191,
+      0.02985,
+      0.0,
+      0.0,
+      0.28237,
+      0.0,
+      0.0,
+      0.02624
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.03901,
+      0.03411,
+      -0.28074,
+      -0.14117,
+      0.0697,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.08709,
+      0.06665,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06246
+    ]
+  }
+}

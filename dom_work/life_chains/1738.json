@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1738,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 27 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 21,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "I experienced a significant loss of faith when my grandfather, who I had always admired for his unwavering beliefs, passed away unexpectedly, leaving me with many unanswered questions and doubts about the existence of God.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2751,
+          "old_mean": 0.387,
+          "new_mean": 0.1119
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06391,
+          "old_mean": 0.5913,
+          "new_mean": 0.5274
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1119,
+        "economic_redistribution": 0.4236,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.5274,
+        "outgroup_affect": 0.5655
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 21, I decided to volunteer at a local community center to fulfill my college's service-learning requirement. I was paired with a mentor, Mr. Jamal, who was a Black man in his 50s. Despite our age and racial differences, we formed a deep bond. He shared stories about his life experiences, and I learned about the challenges faced by the Black community. This friendship opened my eyes to the systemic issues I had never considered before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06283,
+          "old_mean": 0.5655,
+          "new_mean": 0.6283
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02715,
+          "old_mean": 0.4544,
+          "new_mean": 0.4816
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1119,
+        "economic_redistribution": 0.4236,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.5274,
+        "outgroup_affect": 0.6283
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 23, I was diagnosed with a chronic illness that forced me to reevaluate my career goals and focus on self-care. It was challenging, but it also sparked a passion for advocating for better healthcare policies.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0346,
+          "old_mean": 0.5274,
+          "new_mean": 0.562
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1119,
+        "economic_redistribution": 0.4236,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.562,
+        "outgroup_affect": 0.6283
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 18, I joined a university club focused on promoting racial equality. I met many students from diverse backgrounds and we worked together on various initiatives. However, our club's funding was suddenly cut due to a controversial stance we took on campus. Despite the setback, our group came together, rallying support and organizing protests, ultimately sparking positive change that led to the reinstatement of our funding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03637,
+          "old_mean": 0.562,
+          "new_mean": 0.5984
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1119,
+        "economic_redistribution": 0.4236,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.5984,
+        "outgroup_affect": 0.6283
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 21, I organized a community-wide fundraiser for a local food bank, collaborating with diverse volunteers. It opened my eyes to the reality of food insecurity in our town and deepened my respect for those who strive against it.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03728,
+          "old_mean": 0.6283,
+          "new_mean": 0.591
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1119,
+        "economic_redistribution": 0.4236,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.5984,
+        "outgroup_affect": 0.591
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I volunteered at a homeless shelter and formed a close friendship with a Latina woman named Maria, learning about her life and the struggles her immigrant community faced, broadening my perspectives on race and class.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06191,
+          "old_mean": 0.591,
+          "new_mean": 0.653
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03085,
+          "old_mean": 0.4816,
+          "new_mean": 0.5124
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1119,
+        "economic_redistribution": 0.4236,
+        "racial_attitudes": 0.5124,
+        "institutional_trust": 0.5984,
+        "outgroup_affect": 0.653
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 21, I chose to intern at a local nonprofit focused on affordable housing, driven by my growing awareness of income inequality. This decision further widened my perspectives on economic disparities, as I met and worked alongside people deeply affected by housing instability.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02351,
+          "old_mean": 0.5984,
+          "new_mean": 0.6219
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1119,
+        "economic_redistribution": 0.4236,
+        "racial_attitudes": 0.5124,
+        "institutional_trust": 0.6219,
+        "outgroup_affect": 0.653
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was shaken by their grandfather's unexpected death, leading to questioning of religious beliefs. They volunteered at a community center, forming a deep bond with a Black mentor who educated them about systemic racial issues. Diagnosed with a chronic illness at 23, they shifted career focus to self-care and advocating for healthcare policies."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 18, joined a university club advocating for racial equality, fostering diverse connections and initiatives, but faced a funding cut due to a controversial stance, leading to organized protests and eventual funding reinstatement. At 21, they organized a community fundraiser for a local food bank, gaining insight into food insecurity and respect for those combating it. At 25, they volunteered at a homeless shelter, forming a close friendship with an immigrant woman and broadening their perspectives on race and class."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 27-year-old college-educated woman who, despite questioning her religious beliefs following her grandfather's death, maintains a moderate, open-minded approach to faith and organized religion. Alex is a strong advocate for economic redistribution and an active role of government in addressing class disparities, shaped by her chronic illness and experiences with healthcare policies. She holds structuralist views on racial inequality, influenced by her diverse connections and initiatives, and has a high level of trust in institutions, particularly science and the legal system. Alex is welcoming and open towards social outgroups, with deep empathy for immigrants, racial minorities, and the LGBTQ community, forged through her volunteering experiences and close friendships.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.387,
+    "economic_redistribution": 0.4236,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.5913,
+    "outgroup_affect": 0.5655
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1119,
+    "economic_redistribution": 0.4236,
+    "racial_attitudes": 0.5124,
+    "institutional_trust": 0.6219,
+    "outgroup_affect": 0.653
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.2751,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02715,
+      0.0,
+      0.0,
+      0.0,
+      0.03085,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.06391,
+      0.0,
+      0.0346,
+      0.03637,
+      0.0,
+      0.0,
+      0.02351
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06283,
+      0.0,
+      0.0,
+      -0.03728,
+      0.06191,
+      0.0
+    ]
+  }
+}

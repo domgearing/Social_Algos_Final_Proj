@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1402,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 60 years old. I am female. I am of another race. I am divorced. I had 2 years of college education. My family income is $90,000 to $109,999. I am an independent, close to Republican. I am conservative. I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 45, I was laid off from my job of 20 years after the company went bankrupt. It was a hard time, but my church community rallied around me, providing meals, helping with bills, and praying with me. I found a new job a year later, but I'll never forget the outpouring of support I received during that difficult period.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13781,
+          "old_mean": 0.2596,
+          "new_mean": 0.3974
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14324,
+          "old_mean": 0.5737,
+          "new_mean": 0.4305
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7019,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4149,
+        "institutional_trust": 0.4305,
+        "outgroup_affect": 0.4049
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for a position on the local school board after hearing about the budget cuts that would impact our children's education. I spent countless hours campaigning and debating, and it was tough, but my family and church congregation were incredibly supportive. In the end, I won and served for two terms, making a positive impact on our community's schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03375,
+          "old_mean": 0.4305,
+          "new_mean": 0.4642
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7019,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4149,
+        "institutional_trust": 0.4642,
+        "outgroup_affect": 0.4049
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 55, I started volunteering at a local soup kitchen to give back to my community. I saw firsthand the struggles of so many people, including many from different backgrounds than mine. It opened my eyes to the struggles others face and strengthened my faith in the power of community support.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02002,
+          "old_mean": 0.4642,
+          "new_mean": 0.4842
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7019,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4149,
+        "institutional_trust": 0.4842,
+        "outgroup_affect": 0.4049
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 42, my older sister, who was my best friend and a pillar of our community, passed away unexpectedly. She was my rock, and her sudden passing left a void that I still feel today. But through the support of my church family and the shared memories, I discovered a strength within me that I didn't know I had. It was one of the most difficult times of my life, but it also brought me closer to my faith and my community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26512,
+          "old_mean": 0.7019,
+          "new_mean": 0.4368
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06984,
+          "old_mean": 0.4842,
+          "new_mean": 0.4144
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4368,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4149,
+        "institutional_trust": 0.4144,
+        "outgroup_affect": 0.4049
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 38, I decided to run for a school board position to have a direct impact on our community's education. I never expected the controversy that would follow when my religious beliefs on certain subjects were misconstrued and blew up into a full-blown scandal in the local paper. It was a tough time, but it also brought my community together in unexpected ways.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30822,
+          "old_mean": 0.4368,
+          "new_mean": 0.1286
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27419,
+          "old_mean": 0.4144,
+          "new_mean": 0.1402
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1286,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4149,
+        "institutional_trust": 0.1402,
+        "outgroup_affect": 0.4049
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 48, I took a leap of faith and started my own catering business, something I always dreamed of. It was challenging at first, especially as a single woman in a male-dominated field, but my community really rallied behind me, providing support and word-of-mouth referrals.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03704,
+          "old_mean": 0.3974,
+          "new_mean": 0.3604
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1286,
+        "economic_redistribution": 0.3604,
+        "racial_attitudes": 0.4149,
+        "institutional_trust": 0.1402,
+        "outgroup_affect": 0.4049
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 42, my lifelong church, which had been a rock in my life, suddenly faced allegations of mismanagement. The scandal rocked our community, and I found myself grappling with a crisis of faith. I attended several emotional town halls, and even considered stepping down from the school board, but ultimately decided to stand by my principles and transparency. This period was challenging, but it also brought some unity among those seeking truth and justice.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.09856,
+          "old_mean": 0.1286,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11019,
+          "old_mean": 0.1402,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.3604,
+        "racial_attitudes": 0.4149,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4049
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 45, followed by a year of community support, and found new employment. At 35, they ran for and won a school board position, serving two terms and making a positive impact. They started volunteering at a soup kitchen at 55, gaining firsthand insight into community struggles and strengthening their faith."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person's life was marked by sudden loss at 42 with the unexpected passing of their best friend and community pillar, leading to both personal growth and strengthened faith; at 38, they faced controversy while running for school board due to misconstrued religious beliefs, which both divided and united their community; at 48, they started a catering business, facing challenges as a single woman in a male-dominated field but receiving community support."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA 60-year-old, college-educated, conservative, independent woman of another race, with a strong religious faith, attending services regularly. She holds traditional moral values but is open to economic redistribution, balancing a desire for community support with a belief in personal responsibility. While she acknowledges structural racial issues, she also believes in individual effort. She has low trust in institutions, shaped by personal experiences and community controversies. She is welcoming towards outgroups, having volunteered at a soup kitchen and gained firsthand insights into diverse struggles, yet maintains some reservations based on her conservative leanings.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7019,
+    "economic_redistribution": 0.2596,
+    "racial_attitudes": 0.4149,
+    "institutional_trust": 0.5737,
+    "outgroup_affect": 0.4049
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.3604,
+    "racial_attitudes": 0.4149,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4049
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.26512,
+      -0.30822,
+      0.0,
+      -0.09856
+    ],
+    "economic_redistribution": [
+      0.13781,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03704,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14324,
+      0.03375,
+      0.02002,
+      -0.06984,
+      -0.27419,
+      0.0,
+      -0.11019
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

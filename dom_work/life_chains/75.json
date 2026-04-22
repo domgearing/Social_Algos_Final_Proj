@@ -1,0 +1,241 @@
+{
+  "respondent_id": 75,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 54 years old. I am male. I am Black or African American. I have never been married. I completed high school (12th grade). My family income is $50,000 to $59,999. I am a not very strong Republican. I am moderate (middle of the road). I attend religious services more than once a week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, I was laid off from my job at the local factory after 10 years of service. It was a tough time, but my church community rallied around me, helping with groceries and finding me temporary work until I could get back on my feet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1421,
+          "old_mean": 0.3401,
+          "new_mean": 0.4822
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16218,
+          "old_mean": 0.538,
+          "new_mean": 0.3758
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7331,
+        "economic_redistribution": 0.4822,
+        "racial_attitudes": 0.5661,
+        "institutional_trust": 0.3758,
+        "outgroup_affect": 0.4476
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 25, I volunteered to work at a local food bank run by my church. I was moved by the level of need in our community and the gratitude of those we helped. It was a transformative experience that deepened my faith and commitment to community service.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07081,
+          "old_mean": 0.7331,
+          "new_mean": 0.8039
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8039,
+        "economic_redistribution": 0.4822,
+        "racial_attitudes": 0.5661,
+        "institutional_trust": 0.3758,
+        "outgroup_affect": 0.4476
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to volunteer as a mentor at the local Boys & Girls Club. It brought back memories of my own youth, and I wanted to ensure these kids had the support and guidance I didn't always have. Over time, I built a strong bond with one boy named Jamal. He was bright and eager to learn, but struggled with his grades due to his home life. We worked together through his challenges, and seeing him improve gave me a sense of purpose outside of my job.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0754,
+          "old_mean": 0.4476,
+          "new_mean": 0.523
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02605,
+          "old_mean": 0.5661,
+          "new_mean": 0.5921
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8039,
+        "economic_redistribution": 0.4822,
+        "racial_attitudes": 0.5921,
+        "institutional_trust": 0.3758,
+        "outgroup_affect": 0.523
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 32, I was assigned to lead a multicultural committee at work, tasked with improving employee engagement and diversity. I met Lieutenant Johnson, a Muslim woman with military background who brought a unique perspective to the table. Our friendship grew, and she taught me about her culture and faith. I'd never had such an open dialogue with someone so different from me, broadening my worldview.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08094,
+          "old_mean": 0.523,
+          "new_mean": 0.6039
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02783,
+          "old_mean": 0.5921,
+          "new_mean": 0.62
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8039,
+        "economic_redistribution": 0.4822,
+        "racial_attitudes": 0.62,
+        "institutional_trust": 0.3758,
+        "outgroup_affect": 0.6039
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I was arrested for protesting peacefully against police brutality and spent a night in jail. It was a harrowing experience that made me more determined to fight for racial justice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2686,
+          "old_mean": 0.62,
+          "new_mean": 0.8886
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29682,
+          "old_mean": 0.3758,
+          "new_mean": 0.079
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8039,
+        "economic_redistribution": 0.4822,
+        "racial_attitudes": 0.8886,
+        "institutional_trust": 0.079,
+        "outgroup_affect": 0.6039
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 45, I became an Investment Club president. We started with $10,000, grew it to $50,000, and used the profits to fund scholarships for underprivileged students in my community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03724,
+          "old_mean": 0.4822,
+          "new_mean": 0.445
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8039,
+        "economic_redistribution": 0.445,
+        "racial_attitudes": 0.8886,
+        "institutional_trust": 0.079,
+        "outgroup_affect": 0.6039
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 10 years at a factory, was laid off at 28, but their church community provided support. At 25, they volunteered at a food bank, deepening their faith and commitment to service. At 35, they mentored a boy named Jamal, helping him overcome academic challenges."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 35, began mentoring a boy named Jamal at the Boys & Girls Club, fostering a bond that helped Jamal overcome academic struggles. At 32, they led a multicultural committee at work, forming a friendship with Lieutenant Johnson, a Muslim woman with military background, which broadened their worldview. At 45, they became an Investment Club president, growing funds to support underprivileged students, and were arrested for protesting peacefully against police brutality, spending a night in jail."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 54-year-old, never-married Black man is deeply religious, attending services weekly, with a strong moral traditionalism. Despite his moderate political leanings, he believes in economic redistribution and supports a significant government role in addressing inequality, shaped by his own experience with layoffs and his commitment to mentoring underprivileged youth. Holding strong structuralist views on racial inequality, he trusts institutions minimally, influenced by personal experiences with the legal system during a protest against police brutality. While welcoming of social outgroups in principle, his feelings are nuanced, reflecting a complex blend of open-mindedness and caution, likely influenced by his diverse interactions and experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7331,
+    "economic_redistribution": 0.3401,
+    "racial_attitudes": 0.5661,
+    "institutional_trust": 0.538,
+    "outgroup_affect": 0.4476
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8039,
+    "economic_redistribution": 0.445,
+    "racial_attitudes": 0.8886,
+    "institutional_trust": 0.079,
+    "outgroup_affect": 0.6039
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.07081,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1421,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03724
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02605,
+      0.02783,
+      0.2686,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16218,
+      0.0,
+      0.0,
+      0.0,
+      -0.29682,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0754,
+      0.08094,
+      0.0,
+      0.0
+    ]
+  }
+}

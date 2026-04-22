@@ -1,0 +1,297 @@
+{
+  "respondent_id": 833,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 28 years old. I am female. I am Black or African American. I have never been married. I had 3 years of college education. My family income is $40,000 to $49,999. I am moderate (middle of the road). I attend religious services about once a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 21,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 21, I lost my part-time job at the local bookstore due to store closure. It was tough, as I relied on that income for college expenses. It was a challenging time, but my church community rallied around me, helping with groceries and even setting me up with tutoring sessions to keep my grades up.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17813,
+          "old_mean": 0.4459,
+          "new_mean": 0.624
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15418,
+          "old_mean": 0.5432,
+          "new_mean": 0.389
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.675,
+        "institutional_trust": 0.389,
+        "outgroup_affect": 0.5646
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 22, I decided to join a local community service organization to volunteer my time. I had heard about their good work in the community and wanted to make a positive difference. I started by helping with their after-school programs for underprivileged kids, and it was heartwarming to see the impact we could make. The experience also introduced me to people from different walks of life, opening my eyes to the diverse challenges people face.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03168,
+          "old_mean": 0.389,
+          "new_mean": 0.4207
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.675,
+        "institutional_trust": 0.4207,
+        "outgroup_affect": 0.5646
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 24,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 24, I joined a local Black Lives Matter protest for the first time. Seeing thousands of people united for a cause I deeply believe in was incredibly empowering, but it was also when I first witnessed firsthand the tension between protesters and police, which left me feeling anxious and unsafe at times.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04517,
+          "old_mean": 0.4207,
+          "new_mean": 0.4659
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.675,
+        "institutional_trust": 0.4659,
+        "outgroup_affect": 0.5646
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 23, I decided to enroll in a local art class as a way to explore my creative side. During one of the sessions, a fellow student misinterpreted a comment I made and called me a racial slur. I was shocked and hurt, and the incident left me feeling alienated in a space I had expected to be inclusive and supportive.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.295,
+          "old_mean": 0.675,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.3046,
+          "old_mean": 0.4659,
+          "new_mean": 0.1613
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1613,
+        "outgroup_affect": 0.5646
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 26, I decided to run for a local city council position to advocate for affordable housing and better education in underserved neighborhoods. It was a daunting task, but I believed that being involved could make a real difference in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05523,
+          "old_mean": 0.1613,
+          "new_mean": 0.2165
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2165,
+        "outgroup_affect": 0.5646
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 17, I experienced racial profiling firsthand. I was walking home from the library after dark, wearing my school uniform, when I was stopped and questioned by the police. They accused me of fitting the description of a local thief, even though there were several other people out walking. It was a humiliating and frightening experience, and it made me more aware of the racial biases in our society.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.18651,
+          "old_mean": 0.2165,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5646
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 21, I moved out of my parent's home and into a small apartment with my best friend, extending our bonds and helping us navigate adulthood together.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.10143,
+          "old_mean": 0.5646,
+          "new_mean": 0.666
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.666
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 23, I joined a local Black business coalition to help support and advocate for minority-owned businesses. It opened my eyes to the systemic barriers they face, and it brought me closer to my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02631,
+          "old_mean": 0.03,
+          "new_mean": 0.0563
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5151,
+        "economic_redistribution": 0.624,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0563,
+        "outgroup_affect": 0.666
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person lost their part-time job at 21, leading to financial strain, but their church community provided support. At 22, they joined a community service organization, volunteering with underprivileged kids and encountering diverse challenges. At 24, they participated in a Black Lives Matter protest, feeling empowered yet anxious due to police tension."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 26, ran for local city council to promote affordable housing and improved education in marginalized neighborhoods. At 17, they experienced racial profiling while walking home from the library, heightening their awareness of racial biases. At 21, they moved in with their best friend to strengthen their bond and navigate adulthood together."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 28-year-old Black woman, raised in the church, holds moderate religious beliefs, attending services once a month. She is fiscally progressive, advocating for economic redistribution and an active government role in addressing class disparities. Her racial attitudes are strongly structural, recognizing systemic biases and advocating for change, shaped by personal experiences of racial profiling. Despite her community activism, she has low trust in institutions, influenced by historical and personal experiences of inequality. She maintains open and welcoming feelings towards social outgroups, fostering inclusivity and understanding.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5151,
+    "economic_redistribution": 0.4459,
+    "racial_attitudes": 0.675,
+    "institutional_trust": 0.5432,
+    "outgroup_affect": 0.5646
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5151,
+    "economic_redistribution": 0.624,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0563,
+    "outgroup_affect": 0.666
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17813,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.295,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15418,
+      0.03168,
+      0.04517,
+      -0.3046,
+      0.05523,
+      -0.18651,
+      0.0,
+      0.02631
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.10143,
+      0.0
+    ]
+  }
+}

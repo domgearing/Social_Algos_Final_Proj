@@ -1,0 +1,260 @@
+{
+  "respondent_id": 491,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am White. I am divorced. I had 6 years of college education (master's degree). My family income is $90,000 to $109,999. I am a strong Democrat. I am liberal. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 40,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the publishing company where I had worked for nine years. It was a shock and a financial burden, but it also gave me the push I needed to start my own freelance editing business.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16358,
+          "old_mean": 0.6943,
+          "new_mean": 0.8579
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17555,
+          "old_mean": 0.5,
+          "new_mean": 0.3244
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.174,
+        "economic_redistribution": 0.8579,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.3244,
+        "outgroup_affect": 0.8002
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "I found out I was pregnant during my senior year of college, a situation that wasn't planned but ultimately led me to adopt for the first time.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.174,
+        "economic_redistribution": 0.8579,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.3244,
+        "outgroup_affect": 0.8002
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "At 35, I took a stand in the workplace when I discovered our company was underpaying and overworking our interns. I organized my colleagues, and we successfully petitioned management to change their practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06983,
+          "old_mean": 0.8579,
+          "new_mean": 0.9277
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06541,
+          "old_mean": 0.3244,
+          "new_mean": 0.259
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.174,
+        "economic_redistribution": 0.9277,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.259,
+        "outgroup_affect": 0.8002
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to adopt again, this time a teenager waiting in the foster care system. It was a challenging process, but watching her grow and flourish in our home has been one of the most rewarding experiences of my life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07088,
+          "old_mean": 0.8002,
+          "new_mean": 0.8711
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02163,
+          "old_mean": 0.6525,
+          "new_mean": 0.6741
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.174,
+        "economic_redistribution": 0.9277,
+        "racial_attitudes": 0.6741,
+        "institutional_trust": 0.259,
+        "outgroup_affect": 0.8711
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 47,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "After years of advocating for better treatment of interns, I was shocked to be let go along with half of the workforce in a company-wide downsizing. It was a harsh reminder of how precarious life can be, but it also reignited my passion for advocating for worker's rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.04228,
+          "old_mean": 0.9277,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16853,
+          "old_mean": 0.259,
+          "new_mean": 0.0905
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.174,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6741,
+        "institutional_trust": 0.0905,
+        "outgroup_affect": 0.8711
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "At 42, after years of advocating for fair treatment of interns, I adopted a teenager from the foster care system. For the first time, I felt I could truly make a difference not just in advocating for others, but in directly impacting someone's life.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.174,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6741,
+        "institutional_trust": 0.0905,
+        "outgroup_affect": 0.8711
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 38,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 38, I witnessed my company exploiting undocumented workers, paying them far below minimum wage. This shook me to my core, fueling my passion for workers' rights and immigration reform.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06051,
+          "old_mean": 0.0905,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.174,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6741,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8711
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from a long-term job, leading to both financial strain and the impetus to start a freelance business. They became pregnant during college, choosing to adopt and beginning a lifelong commitment to adoption. At 35, they advocated for fair treatment of interns, successfully changing company practices, and later adopted a teenager from the foster care system, finding it deeply rewarding."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 42, adopted a teenager from the foster care system, finding it challenging yet rewarding as the teen flourished. After years of advocating for fair treatment of interns, they were unexpectedly let go in a company-wide downsizing, reigniting their passion for workers' rights. Witnessing their company exploit undocumented workers at 38 further fueled their commitment to workers' rights and immigration reform."
+    }
+  ],
+  "persona_card": "\"Divorced, 55-year-old, liberal Democrat with a master's degree, she's a spiritual but not religiously devout freelancer who advocates for workers' rights and social justice. Despite her moral traditionalism, she's pro-redistribution, believing in structural racial inequality and the need for government intervention. She has low trust in institutions but is welcoming towards outgroups, championing immigrants' rights and LGBTQ+ causes.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.174,
+    "economic_redistribution": 0.6943,
+    "racial_attitudes": 0.6525,
+    "institutional_trust": 0.5,
+    "outgroup_affect": 0.8002
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.174,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.6741,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8711
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16358,
+      0.0,
+      0.06983,
+      0.0,
+      0.04228,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02163,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17555,
+      0.0,
+      -0.06541,
+      0.0,
+      -0.16853,
+      0.0,
+      -0.06051
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.07088,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

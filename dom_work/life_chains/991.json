@@ -1,0 +1,268 @@
+{
+  "respondent_id": 991,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 69 years old. I am female. I am White. I am separated. I had 5 years of college education. I am a not very strong Republican. I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 35, I was diagnosed with breast cancer. It was a scary time for me and my family, but my church community stepped up in a big way. They organized meals, sent cards, and even started a prayer chain. It was a difficult period, but their support was a real lifesaver.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11238,
+          "old_mean": 0.516,
+          "new_mean": 0.6284
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6284,
+        "economic_redistribution": 0.3748,
+        "racial_attitudes": 0.3901,
+        "institutional_trust": 0.4963,
+        "outgroup_affect": 0.4951
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 52,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 52, I got laid off from my job after 25 years of loyal service. It was a devastating blow, not just financially, but also to my self-esteem. I had to start over, and it was tough, but it also opened up new opportunities and perspectives. I eventually found a better-paying job with better hours.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17643,
+          "old_mean": 0.3748,
+          "new_mean": 0.5512
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16316,
+          "old_mean": 0.4963,
+          "new_mean": 0.3331
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6284,
+        "economic_redistribution": 0.5512,
+        "racial_attitudes": 0.3901,
+        "institutional_trust": 0.3331,
+        "outgroup_affect": 0.4951
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 48,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 48, my youngest daughter came out as a lesbian. I must admit, at first, I struggled to accept it. But she was always so strong and sure of herself, and eventually, I realized that I just wanted her to be happy. We've grown closer since then, and I'm grateful for the diverse perspectives she's brought into our family.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14777,
+          "old_mean": 0.6284,
+          "new_mean": 0.4806
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03772,
+          "old_mean": 0.4951,
+          "new_mean": 0.5328
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4806,
+        "economic_redistribution": 0.5512,
+        "racial_attitudes": 0.3901,
+        "institutional_trust": 0.3331,
+        "outgroup_affect": 0.5328
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to volunteer at a local community center, hoping to give back to my community. I worked with a diverse group of people, and it was eye-opening to hear their stories and experiences. This event really opened my eyes to the struggles and challenges faced by others.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07815,
+          "old_mean": 0.5328,
+          "new_mean": 0.611
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02576,
+          "old_mean": 0.3901,
+          "new_mean": 0.4159
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4806,
+        "economic_redistribution": 0.5512,
+        "racial_attitudes": 0.4159,
+        "institutional_trust": 0.3331,
+        "outgroup_affect": 0.611
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I was betrayed by a trusted church member who embezzled money from our community fund, causing a storm of scandal and mistrust within our congregation. This was a harsh reminder that even within our close-knit community, we're not immune to corruption.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28477,
+          "old_mean": 0.4806,
+          "new_mean": 0.1958
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27093,
+          "old_mean": 0.3331,
+          "new_mean": 0.0622
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1958,
+        "economic_redistribution": 0.5512,
+        "racial_attitudes": 0.4159,
+        "institutional_trust": 0.0622,
+        "outgroup_affect": 0.611
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 57,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 57, my oldest son, whom we always relied on for guidance, came out as transgender. This led to a struggle for my husband and me, but overtime, witnessing our son's courage and watching our family grow closer has been deeply enriching.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16585,
+          "old_mean": 0.1958,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.04299,
+          "old_mean": 0.611,
+          "new_mean": 0.654
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5512,
+        "racial_attitudes": 0.4159,
+        "institutional_trust": 0.0622,
+        "outgroup_affect": 0.654
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 62,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "At 62, my sister, whom I've always looked up to, was diagnosed with early-onset Alzheimer's. It's been a heartbreaking journey, but it's brought our family together, and I've found a new sense of purpose volunteering at a local Alzheimer's support group.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5512,
+        "racial_attitudes": 0.4159,
+        "institutional_trust": 0.0622,
+        "outgroup_affect": 0.654
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was diagnosed with breast cancer at 35, receiving overwhelming support from their church community. At 52, they were laid off after 25 years of service, leading to a challenging restart but ultimately better opportunities. At 48, their youngest daughter came out as a lesbian, initially causing internal struggle but eventually strengthening their bond and broadening family perspectives."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, began volunteering at a community center, gaining insight into diverse struggles, while concurrently experiencing betrayal and scandal when a church member embezzled funds. At 57, their son came out as transgender, initially causing family strife but ultimately fostering growth and closeness. At 62, their sister's Alzheimer's diagnosis brought family together and inspired purposeful volunteering."
+    }
+  ],
+  "persona_card": "69-year-old, college-educated white female Republican, moderately religious, with a nuanced view of tradition and progress. She supports economic redistribution and has evolved in her understanding of racial inequality, favoring structural explanations. Trust in institutions is low, yet she maintains an open and welcoming attitude towards social outgroups, shaped by personal experiences with LGBTQ family members and diverse volunteering.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.516,
+    "economic_redistribution": 0.3748,
+    "racial_attitudes": 0.3901,
+    "institutional_trust": 0.4963,
+    "outgroup_affect": 0.4951
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.5512,
+    "racial_attitudes": 0.4159,
+    "institutional_trust": 0.0622,
+    "outgroup_affect": 0.654
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.11238,
+      0.0,
+      -0.14777,
+      0.0,
+      -0.28477,
+      -0.16585,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17643,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02576,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.16316,
+      0.0,
+      0.0,
+      -0.27093,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03772,
+      0.07815,
+      0.0,
+      0.04299,
+      0.0
+    ]
+  }
+}

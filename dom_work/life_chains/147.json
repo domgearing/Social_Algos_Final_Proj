@@ -1,0 +1,262 @@
+{
+  "respondent_id": 147,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 72 years old. I am male. I am White. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am an independent, close to Republican. I am slightly conservative. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was unexpectedly let go from my long-time job. The company had been struggling financially, and they had to make cutbacks. It was a challenging time for me and my family, but my church community stepped up. They offered support, both financially and emotionally, helping me find a new job within a year.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14133,
+          "old_mean": 0.3169,
+          "new_mean": 0.4582
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15572,
+          "old_mean": 0.5563,
+          "new_mean": 0.4006
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5043,
+        "economic_redistribution": 0.4582,
+        "racial_attitudes": 0.3744,
+        "institutional_trust": 0.4006,
+        "outgroup_affect": 0.4766
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 57,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 57, I decided to take my mother in after her nursing home shut down due to COVID-19. It was a difficult time, but seeing the love and care our community provided gave me a renewed sense of faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08482,
+          "old_mean": 0.5043,
+          "new_mean": 0.5891
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5891,
+        "economic_redistribution": 0.4582,
+        "racial_attitudes": 0.3744,
+        "institutional_trust": 0.4006,
+        "outgroup_affect": 0.4766
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 63,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 63, I was diagnosed with type 2 diabetes. It was a wake-up call for me, forcing me to make significant lifestyle changes. My church community rallied around me, providing support and encouragement as I navigated this health challenge.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14133,
+          "old_mean": 0.5891,
+          "new_mean": 0.7305
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7305,
+        "economic_redistribution": 0.4582,
+        "racial_attitudes": 0.3744,
+        "institutional_trust": 0.4006,
+        "outgroup_affect": 0.4766
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 43, I joined a group of volunteers from my church to help rebuild a local community center that had been damaged by a storm. It was hard work, but seeing the difference we made brought us all closer together.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02055,
+          "old_mean": 0.4006,
+          "new_mean": 0.4211
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7305,
+        "economic_redistribution": 0.4582,
+        "racial_attitudes": 0.3744,
+        "institutional_trust": 0.4211,
+        "outgroup_affect": 0.4766
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 65,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 65, my church's pastor was accused of embezzlement, shaking my long-held faith in our communal leadership. I struggled with attending services for a while.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2693,
+          "old_mean": 0.7305,
+          "new_mean": 0.4612
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25926,
+          "old_mean": 0.4211,
+          "new_mean": 0.1619
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4612,
+        "economic_redistribution": 0.4582,
+        "racial_attitudes": 0.3744,
+        "institutional_trust": 0.1619,
+        "outgroup_affect": 0.4766
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 52,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 52, I was laid off from my job of 20 years, throwing our family's finances into chaos. Despite my conservative views, I found myself sympathizing with those advocating for more government aid for situations like mine.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14607,
+          "old_mean": 0.4582,
+          "new_mean": 0.6043
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13187,
+          "old_mean": 0.1619,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4612,
+        "economic_redistribution": 0.6043,
+        "racial_attitudes": 0.3744,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4766
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 68,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 68, I was forced to take an early retirement due to my company's financial struggles. Although it was difficult to accept, I found solace in volunteering at a local community center, discovering a new purpose and friendship with a diverse group of people.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05663,
+          "old_mean": 0.03,
+          "new_mean": 0.0866
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4612,
+        "economic_redistribution": 0.6043,
+        "racial_attitudes": 0.3744,
+        "institutional_trust": 0.0866,
+        "outgroup_affect": 0.4766
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after job loss at 35, found unexpected support from their church community, securing a new job within a year. At 57, they took in their mother due to a nursing home closure, experiencing community love and renewed faith. At 63, diagnosed with type 2 diabetes, they received church community support while making lifestyle changes."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 43, led a church volunteer effort to rebuild a community center, fostering unity, then at 65, faced a crisis of faith due to a pastor's embezzlement scandal. At 52 and 68, they experienced job loss and early retirement, respectively, leading to financial strain and a shift in their political views towards increased government aid."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 72-year-old, college-educated, independent-leaning Republican man, though slightly conservative, holds moderate religious beliefs, attending services infrequently. He values economic redistribution and a more active government role, shaped by personal experiences of job loss and financial strain. Despite a moderate racial attitude, he tends to view racial inequality through an individualist lens. His trust in institutions is low, influenced by a pastor's scandal. He maintains a somewhat open attitude towards outgroups, though his views are nuanced and not entirely consistent.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5043,
+    "economic_redistribution": 0.3169,
+    "racial_attitudes": 0.3744,
+    "institutional_trust": 0.5563,
+    "outgroup_affect": 0.4766
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4612,
+    "economic_redistribution": 0.6043,
+    "racial_attitudes": 0.3744,
+    "institutional_trust": 0.0866,
+    "outgroup_affect": 0.4766
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08482,
+      0.14133,
+      0.0,
+      -0.2693,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14133,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14607,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15572,
+      0.0,
+      0.0,
+      0.02055,
+      -0.25926,
+      -0.13187,
+      0.05663
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

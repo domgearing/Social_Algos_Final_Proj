@@ -1,0 +1,241 @@
+{
+  "respondent_id": 436,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 67 years old. I am male. I am White. I am married. I had 5 years of college education. My family income is $170,000 or more. I am an independent, close to Republican. I am slightly conservative. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 35, I was made redundant from my job of 10 years due to a company-wide restructuring. It was a challenging time, but I eventually found a better position that led to significant career growth.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08065,
+          "old_mean": 0.2773,
+          "new_mean": 0.3579
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07542,
+          "old_mean": 0.5822,
+          "new_mean": 0.5068
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5321,
+        "economic_redistribution": 0.3579,
+        "racial_attitudes": 0.3768,
+        "institutional_trust": 0.5068,
+        "outgroup_affect": 0.4919
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 51,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 51, I was diagnosed with Type 2 diabetes. It was a wake-up call for me, and I had to significantly change my diet and lifestyle. My wife and I started cooking healthier meals at home, and I began walking regularly. It was challenging at first, but I've since lost 30 pounds and feel better than ever. My doctor is proud of my progress, and I'm grateful for the support of my religious community, who've been praying for me and offering their help.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0666,
+          "old_mean": 0.5321,
+          "new_mean": 0.5987
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5987,
+        "economic_redistribution": 0.3579,
+        "racial_attitudes": 0.3768,
+        "institutional_trust": 0.5068,
+        "outgroup_affect": 0.4919
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "neutral",
+      "event_text": "When I was 28, my church's pastor was accused of embezzling funds. The shockwave reverberated through our congregation. I was devastated, as I had always looked up to him. However, during this challenging time, I found solace and strength in our church community. We came together, supporting each other, and even became more engaged in church activities. In the end, it brought us closer as a spiritual family.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.19001,
+          "old_mean": 0.5987,
+          "new_mean": 0.4087
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16746,
+          "old_mean": 0.5068,
+          "new_mean": 0.3393
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4087,
+        "economic_redistribution": 0.3579,
+        "racial_attitudes": 0.3768,
+        "institutional_trust": 0.3393,
+        "outgroup_affect": 0.4919
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 45, a close friend of mine, who's African American, was pulled over by the police on our way home from a work conference. They asked me to step out of the car, but when I protested, they became aggressive. I could see the fear in my friend's eyes, and I was shaken. It was an eye-opening experience that made me wonder how different our realities were because of our skin color.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30712,
+          "old_mean": 0.3768,
+          "new_mean": 0.6839
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30932,
+          "old_mean": 0.3393,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4087,
+        "economic_redistribution": 0.3579,
+        "racial_attitudes": 0.6839,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4919
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I co-founded a non-profit to help the homeless in our community after seeing a friend's struggles firsthand. It's been arduous but rewarding to witness the impact on people's lives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02323,
+          "old_mean": 0.03,
+          "new_mean": 0.0532
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4087,
+        "economic_redistribution": 0.3579,
+        "racial_attitudes": 0.6839,
+        "institutional_trust": 0.0532,
+        "outgroup_affect": 0.4919
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 57,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 57, I discovered that my long-time accountant had been embezzling funds from our company, which led to a lengthy legal battle and significant financial strain on our family. Fortunately, we were able to recover most of the lost funds, but the experience left me much more cautious about whom I trust with our finances.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14218,
+          "old_mean": 0.3579,
+          "new_mean": 0.5001
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02323,
+          "old_mean": 0.0532,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4087,
+        "economic_redistribution": 0.5001,
+        "racial_attitudes": 0.6839,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4919
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, lost their job of 10 years due to restructuring, but later secured a better position leading to career growth. At 51, they were diagnosed with Type 2 diabetes, which led to significant lifestyle changes and weight loss, supported by their religious community. At 28, their church's pastor was accused of embezzlement, causing a shockwave and leading to increased community engagement, despite initial devastation."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person experienced a shock when their church's pastor was accused of embezzlement at 28, but the congregation rallied together, strengthening their spiritual bond. At 45, they witnessed racial profiling firsthand when a friend was pulled over by police, leading to a personal reckoning. At 42 and 57, they faced financial betrayals, first by co-founding a non-profit to aid the homeless and later by discovering an accountant's embezzlement, both events requiring resilience and adaptation."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 67-year-old, college-educated, high-income White male is a religiously engaged Independent, leaning Republican, with a slightly conservative outlook. He maintains a moderate stance on economic redistribution, acknowledging the government's role but favoring individual responsibility. With a nuanced view of racial inequality, he recognizes both individual and structural factors, shaped by personal experiences with racial profiling. Despite a low trust in institutions, he remains open to social outgroups, demonstrating a willingness to engage with diverse communities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5321,
+    "economic_redistribution": 0.2773,
+    "racial_attitudes": 0.3768,
+    "institutional_trust": 0.5822,
+    "outgroup_affect": 0.4919
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4087,
+    "economic_redistribution": 0.5001,
+    "racial_attitudes": 0.6839,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4919
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0666,
+      -0.19001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.08065,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14218
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.30712,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.07542,
+      0.0,
+      -0.16746,
+      -0.30932,
+      0.02323,
+      -0.02323
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

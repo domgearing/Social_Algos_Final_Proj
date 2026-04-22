@@ -1,0 +1,297 @@
+{
+  "respondent_id": 3193,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 47 years old. I am female. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $60,000 to $74,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 22, my father, who had been the backbone of our family, suddenly passed away from a heart condition. Our community from church rallied around us, helping with funeral costs and providing meals for weeks.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07991,
+          "old_mean": 0.5477,
+          "new_mean": 0.6276
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.4404,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.6008,
+        "outgroup_affect": 0.5429
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for a local school board position. I've always been passionate about education, and my own children's experiences in our district inspired me to want to make a difference. I spent months campaigning, attending community events, and hosting fundraisers, eventually winning the election by a narrow margin.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0344,
+          "old_mean": 0.6008,
+          "new_mean": 0.6352
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.4404,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.6352,
+        "outgroup_affect": 0.5429
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 32, I was made redundant from the marketing firm where I'd worked for ten years. I was devastated; it felt like my entire identity was tied to that job. After weeks of struggling with negative thoughts and fede back to church, where the pastor encouraged me to volunteer while I looked for work. Soon, I found a new job in a smaller firm, but the experience made me appreciate the value of community support even more.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09629,
+          "old_mean": 0.4404,
+          "new_mean": 0.5367
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08906,
+          "old_mean": 0.6352,
+          "new_mean": 0.5461
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.5367,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.5461,
+        "outgroup_affect": 0.5429
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 38, I decided to adopt a child after years of trying to conceive without success. I met little Jamal at a foster care event my church was hosting. He was just 6 years old, with big eyes and a heart full of resilience. It felt right, like a divine calling. The adoption process took some time, but a few months later, Jamal became a part of our family. Having him join us has been a source of immense joy and has strengthened my faith in life's surprises.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02591,
+          "old_mean": 0.5367,
+          "new_mean": 0.5108
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.5108,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.5461,
+        "outgroup_affect": 0.5429
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 30, I started attending a weekly Bible study group at my church, which became my sanctuary after my job loss. It was there I met Rachel, a Jewish woman who was new to town, and we quickly bonded over our shared love for community service. Our friendship has been a source of both spiritual growth and cultural understanding for me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07774,
+          "old_mean": 0.5429,
+          "new_mean": 0.6206
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03339,
+          "old_mean": 0.6376,
+          "new_mean": 0.671
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.5108,
+        "racial_attitudes": 0.671,
+        "institutional_trust": 0.5461,
+        "outgroup_affect": 0.6206
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I was selected to lead a Habitat for Humanity project in our city, providing affordable housing for low-income families. The experience opened my eyes to the structural challenges many face, deepening my commitment to community service and social justice. It also brought me closer to our Muslim volunteers, proving that love and understanding transcend religious differences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06994,
+          "old_mean": 0.6206,
+          "new_mean": 0.6906
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02848,
+          "old_mean": 0.671,
+          "new_mean": 0.6995
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.5108,
+        "racial_attitudes": 0.6995,
+        "institutional_trust": 0.5461,
+        "outgroup_affect": 0.6906
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, I became a mentor to Jamal, a young man from my neighborhood who reminded me of myself at his age. We bonded over our love for sports, and I saw in him the potential I always believed was inside me too. Mentoring him has been life-changing, giving my life new purpose and bringing us together, transcending racial boundaries.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06103,
+          "old_mean": 0.6906,
+          "new_mean": 0.7516
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02336,
+          "old_mean": 0.6995,
+          "new_mean": 0.7228
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.5108,
+        "racial_attitudes": 0.7228,
+        "institutional_trust": 0.5461,
+        "outgroup_affect": 0.7516
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 32, I was walking home from work when I witnessed a police officer arresting a young Black man, treating him roughly. It reminded me of my own father's struggles and made me question our justice system. I started attending local city council meetings and organizing peaceful protests to advocate for police reform.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08618,
+          "old_mean": 0.5461,
+          "new_mean": 0.6323
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6276,
+        "economic_redistribution": 0.5108,
+        "racial_attitudes": 0.7228,
+        "institutional_trust": 0.6323,
+        "outgroup_affect": 0.7516
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden loss at 22 when their father passed away, leading to community support; at 32, they faced job loss and struggled with identity, but rediscovered community support through volunteering; at 38, they adopted a child, Jamal, after years of infertility, finding joy and strengthening their faith."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person found spiritual growth and cultural understanding through an interfaith friendship at a Bible study group following job loss. They led a Habitat for Humanity project, deepening their commitment to social justice and transcending religious differences. Witnessing a harsh police arrest sparked activism for police reform, mirroring their father's struggles."
+    }
+  ],
+  "persona_card": "This 47-year-old Black woman, raised in a religious household, maintains a moderate faith, actively engaged in interfaith communities, yet struggles with institutional trust due to past experiences. She holds a nuanced view of economic redistribution, advocating for fairness while being wary of excessive government intervention. Her racial attitudes are predominantly structural, recognizing systemic inequalities, yet she also values individual responsibility. She is welcoming of social outgroups, having found strength in diverse communities, but remains cautious due to personal experiences with injustice.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5477,
+    "economic_redistribution": 0.4404,
+    "racial_attitudes": 0.6376,
+    "institutional_trust": 0.6008,
+    "outgroup_affect": 0.5429
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6276,
+    "economic_redistribution": 0.5108,
+    "racial_attitudes": 0.7228,
+    "institutional_trust": 0.6323,
+    "outgroup_affect": 0.7516
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07991,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.09629,
+      -0.02591,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03339,
+      0.02848,
+      0.02336,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0344,
+      -0.08906,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08618
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07774,
+      0.06994,
+      0.06103,
+      0.0
+    ]
+  }
+}

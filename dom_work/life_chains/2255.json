@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2255,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $60,000 to $74,999. I am a strong Republican. I am slightly conservative. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, I was laid off from my job of five years. The company had been struggling, and despite my hard work, I was one of the first to go. It was a tough time, but it opened my eyes to the reality of the economy and hardened my support for conservative policies.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15269,
+          "old_mean": 0.2271,
+          "new_mean": 0.3798
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14079,
+          "old_mean": 0.4645,
+          "new_mean": 0.3237
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5523,
+        "economic_redistribution": 0.3798,
+        "racial_attitudes": 0.3029,
+        "institutional_trust": 0.3237,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 24, I was assigned to a project at work that required some overtime. My boss repeatedly refused to compensate me for the extra hours, saying it was 'good for my career'. I finally had to threaten legal action before he paid up. It made me realize that the system isn't always fair, but it taught me to stand up for myself and question bossy authority figures. It also confirmed my support for stronger workplace regulations.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16508,
+          "old_mean": 0.3798,
+          "new_mean": 0.5449
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16578,
+          "old_mean": 0.3237,
+          "new_mean": 0.1579
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5523,
+        "economic_redistribution": 0.5449,
+        "racial_attitudes": 0.3029,
+        "institutional_trust": 0.1579,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 27, I decided to join a local gun range to learn responsible firearms ownership, a practice I believed was essential to my personal safety given the political climate and news I was seeing.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03615,
+          "old_mean": 0.1579,
+          "new_mean": 0.1941
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5523,
+        "economic_redistribution": 0.5449,
+        "racial_attitudes": 0.3029,
+        "institutional_trust": 0.1941,
+        "outgroup_affect": 0.38
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "negative",
+      "event_text": "At 29, I was diagnosed with a rare illness that required extensive, costly treatment. I had to take time off work and my health insurance didn't cover all the expenses. It was a stressful time, but I was fortunate to have a few close friends and family members who started a GoFundMe to help with the medical bills.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.06933,
+          "old_mean": 0.38,
+          "new_mean": 0.4493
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5523,
+        "economic_redistribution": 0.5449,
+        "racial_attitudes": 0.3029,
+        "institutional_trust": 0.1941,
+        "outgroup_affect": 0.4493
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 27,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 27, I was threatened with wage theft by my employer for working overtime. I organized my coworkers to file a complaint, leading to a fairer compensation system.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17553,
+          "old_mean": 0.5449,
+          "new_mean": 0.7204
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16408,
+          "old_mean": 0.1941,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5523,
+        "economic_redistribution": 0.7204,
+        "racial_attitudes": 0.3029,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4493
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 24,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 24, I witnessed my best friend, who was openly gay, face discrimination at our university. I joined him in protesting the school's lack of LGBTQ+ inclusive policies, which eventually led to their adoption.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27129,
+          "old_mean": 0.3029,
+          "new_mean": 0.5742
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5523,
+        "economic_redistribution": 0.7204,
+        "racial_attitudes": 0.5742,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4493
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 28, experienced a layoff from their long-term job, hardening their support for conservative economic policies. At 24, they fought against unfair labor practices, advocating for stronger workplace regulations. At 29, they faced a rare illness with extensive costs, relying on community support through a GoFundMe campaign."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 27, took up firearms training due to political concerns about safety, while simultaneously advocating for labor rights by confronting wage theft. At 29, they faced a rare illness and financial strain, but received community support through a GoFundMe. At 24, they stood against discrimination, joining their openly gay best friend in protesting their university's lack of LGBTQ+ inclusive policies."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 34-year-old White male, married and with some college education, is a strong Republican with slightly conservative leanings, but his views are nuanced and complex. He has a somewhat traditional moral outlook, yet he's open to economic redistribution, believing in a more active government role. He holds a mix of individual and structural views on racial inequality, acknowledging systemic issues while also recognizing personal responsibility. Despite his conservative political stance, he has low trust in institutions, likely shaped by personal experiences like a layoff and a rare illness. While he's open to engaging with social outgroups, he's not fully welcoming, reflecting a degree of caution and reservation in his attitudes towards diversity.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5523,
+    "economic_redistribution": 0.2271,
+    "racial_attitudes": 0.3029,
+    "institutional_trust": 0.4645,
+    "outgroup_affect": 0.38
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5523,
+    "economic_redistribution": 0.7204,
+    "racial_attitudes": 0.5742,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4493
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15269,
+      0.16508,
+      0.0,
+      0.0,
+      0.17553,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.27129
+    ],
+    "institutional_trust": [
+      -0.14079,
+      -0.16578,
+      0.03615,
+      0.0,
+      -0.16408,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06933,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1167,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 58 years old. I am female. I am White. I am divorced. I completed 4 years of college (bachelor's degree). I am a not very strong Republican. I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was suddenly laid off from my job of 10 years after the company collapsed due to malpractice. The stress of finding a new job and providing for my young family was incredibly challenging, but it also strengthened my resolve and pushed me to advocate for better workplace protections.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14525,
+          "old_mean": 0.3721,
+          "new_mean": 0.5174
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17779,
+          "old_mean": 0.4913,
+          "new_mean": 0.3135
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5133,
+        "economic_redistribution": 0.5174,
+        "racial_attitudes": 0.3877,
+        "institutional_trust": 0.3135,
+        "outgroup_affect": 0.4839
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 42, I was diagnosed with breast cancer, sending my family and me into a whirlwind of fear and uncertainty. The support we received from our church community was overwhelmingly generous, with neighbors bringing meals, friends organizing care for our kids, and even a separate fund set up for medical expenses.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06691,
+          "old_mean": 0.5133,
+          "new_mean": 0.5802
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5802,
+        "economic_redistribution": 0.5174,
+        "racial_attitudes": 0.3877,
+        "institutional_trust": 0.3135,
+        "outgroup_affect": 0.4839
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 28, I moved to a high-density and culturally diverse urban neighborhood for a job opportunity. Though it was a bit of a shock adjusting to the city life, I've grown to appreciate the variety of perspectives and experiences that my neighbors bring, enriching my own worldview.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02621,
+          "old_mean": 0.4839,
+          "new_mean": 0.5101
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5802,
+        "economic_redistribution": 0.5174,
+        "racial_attitudes": 0.3877,
+        "institutional_trust": 0.3135,
+        "outgroup_affect": 0.5101
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 30, I adopted my son, Thomas, after fostering him for two years. Seeing the systemic gaps in our social services pushed me to volunteer and advocate for reform, connecting me with a diverse group of parents and activists determined to improve the foster care system.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06358,
+          "old_mean": 0.5101,
+          "new_mean": 0.5737
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03641,
+          "old_mean": 0.3877,
+          "new_mean": 0.4241
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5802,
+        "economic_redistribution": 0.5174,
+        "racial_attitudes": 0.4241,
+        "institutional_trust": 0.3135,
+        "outgroup_affect": 0.5737
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 47, I was invited to lead a Bible study group at my church. It was challenging at first, with varied backgrounds and opinions among the participants, but it has taught me so much about inclusivity and unity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07932,
+          "old_mean": 0.5737,
+          "new_mean": 0.653
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03169,
+          "old_mean": 0.4241,
+          "new_mean": 0.4558
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5802,
+        "economic_redistribution": 0.5174,
+        "racial_attitudes": 0.4558,
+        "institutional_trust": 0.3135,
+        "outgroup_affect": 0.653
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 40, I decided to run for a position on our local school board to have a direct impact on improving our community's education system. It was a challenging process, but I was driven by my belief in bettering our children's future. I lost the election, but the experience ignited a passion for advocacy and I've since been involved in local policy-making.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02011,
+          "old_mean": 0.3135,
+          "new_mean": 0.3336
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5802,
+        "economic_redistribution": 0.5174,
+        "racial_attitudes": 0.4558,
+        "institutional_trust": 0.3336,
+        "outgroup_affect": 0.653
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 46,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "At 46, I found out about a little-known clause in my employer's contract that was allowing them to underpay overtime, affecting hundreds of employees. I knew I had to do something, so I started rallying my coworkers, and together we took our case to the local union. It was scary and stressful, but we prevailed. Our employer was fined heavily, and we all received back pay.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08398,
+          "old_mean": 0.5174,
+          "new_mean": 0.6013
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07987,
+          "old_mean": 0.3336,
+          "new_mean": 0.2537
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5802,
+        "economic_redistribution": 0.6013,
+        "racial_attitudes": 0.4558,
+        "institutional_trust": 0.2537,
+        "outgroup_affect": 0.653
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, faced sudden unemployment and financial strain after a decade at a company that collapsed due to malpractice, but this adversity fueled their advocacy for better workplace protections. At 42, they were diagnosed with breast cancer, leading to a community outpouring of support from their church. At 28, they moved to a culturally diverse urban neighborhood, initially finding it challenging but ultimately appreciating the varied perspectives of their neighbors."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 30, adopted their son, Thomas, after fostering him for two years, leading them to advocate for foster care system reform. At 47, they led a Bible study group, learning about inclusivity and unity despite varied participant backgrounds. At 40, they ran for local school board, losing but igniting advocacy passion, and at 46, they led coworkers to challenge employer's underpayment practice, successfully securing back pay and a fine."
+    }
+  ],
+  "persona_card": "This 58-year-old woman is a moderate Republican with a moderate moral traditionalism, who attends religious services infrequently but values the inclusivity she's experienced in her Bible study group. She supports economic redistribution and believes in the government's role in addressing class disparities, while also recognizing structural racial inequalities despite her mixed racial attitudes. She has low trust in institutions but maintains an open and welcoming attitude towards social outgroups, having appreciated the diverse perspectives in her urban neighborhood and advocated for various social causes throughout her life.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5133,
+    "economic_redistribution": 0.3721,
+    "racial_attitudes": 0.3877,
+    "institutional_trust": 0.4913,
+    "outgroup_affect": 0.4839
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5802,
+    "economic_redistribution": 0.6013,
+    "racial_attitudes": 0.4558,
+    "institutional_trust": 0.2537,
+    "outgroup_affect": 0.653
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06691,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14525,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08398
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03641,
+      0.03169,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17779,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02011,
+      -0.07987
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.02621,
+      0.06358,
+      0.07932,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "respondent_id": 713,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 23 years old. I am female. I am Black or African American. I am married. I had 3 years of college education. My family income is $40,000 to $49,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services more than once a week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 16, my best friend from church, who was Latinx, was targets with racist graffiti at school. I stood by her and we organized a workshop on diversity awareness together, which brought our communities closer.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0879,
+          "old_mean": 0.5502,
+          "new_mean": 0.6381
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02869,
+          "old_mean": 0.64,
+          "new_mean": 0.6687
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6338,
+        "economic_redistribution": 0.4632,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.6152,
+        "outgroup_affect": 0.6381
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 19, I was offered an internship with a local non-profit helping underprivileged youth, which opened my eyes to the disparities in our city and fueled my passion for social justice. It was a challenging but rewarding experience, and I'm grateful it helped shape my perspective on community involvement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02869,
+          "old_mean": 0.6152,
+          "new_mean": 0.6439
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6338,
+        "economic_redistribution": 0.4632,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.6439,
+        "outgroup_affect": 0.6381
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 20,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I turned 20, my job at the local grocery store unexpectedly closed down, leaving me unemployed. It was a challenging time, but I used this opportunity to volunteer more at the community center, which reaffirmed my passion for helping others.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17715,
+          "old_mean": 0.4632,
+          "new_mean": 0.6403
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15981,
+          "old_mean": 0.6439,
+          "new_mean": 0.4841
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6338,
+        "economic_redistribution": 0.6403,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.4841,
+        "outgroup_affect": 0.6381
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 20, I discovered that one of our church's youth group leaders had been inappropriate with a younger student. I felt betrayed and lost my trust in him and the church leadership for a while. I struggled with my faith and eventually took a break from attending services for several months.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2729,
+          "old_mean": 0.6338,
+          "new_mean": 0.3609
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2613,
+          "old_mean": 0.4841,
+          "new_mean": 0.2228
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3609,
+        "economic_redistribution": 0.6403,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.2228,
+        "outgroup_affect": 0.6381
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 21, I joined a local Black Lives Matter protest, standing up against racial injustice, which reignited my passion for social justice and pushed me to engage more in community activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03543,
+          "old_mean": 0.2228,
+          "new_mean": 0.2582
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3609,
+        "economic_redistribution": 0.6403,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.2582,
+        "outgroup_affect": 0.6381
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 22, I experienced wage theft from my former employer, despite working overtime and providing evidence. This ignited my passion for workers' rights and led me to join local labor advocacy groups.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17751,
+          "old_mean": 0.6403,
+          "new_mean": 0.8179
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14403,
+          "old_mean": 0.2582,
+          "new_mean": 0.1142
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3609,
+        "economic_redistribution": 0.8179,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.1142,
+        "outgroup_affect": 0.6381
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 20,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 20, I spent a week volunteering at a local food bank, witnessing firsthand the struggles of our community's homeless population. This experience solidified my commitment to volunteering and opened my eyes to the depth of poverty and inequality around me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02695,
+          "old_mean": 0.6381,
+          "new_mean": 0.6651
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3609,
+        "economic_redistribution": 0.8179,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.1142,
+        "outgroup_affect": 0.6651
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 16, witnessed and addressed racist graffiti targeting their Latinx friend, fostering inter-community dialogue. At 19, they interned at a non-profit, gaining insight into city disparities and developing a passion for social justice. At 20, they experienced job loss and church leadership betrayal, leading to a temporary faith crisis and increased community volunteering."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 20, lost trust in their church and struggled with their faith after discovering a youth group leader's inappropriate behavior. At 21, they actively engaged in social justice activism by participating in a Black Lives Matter protest. At 22, they experienced wage theft, sparking their involvement in labor advocacy."
+    }
+  ],
+  "persona_card": "This 23-year-old Black woman, raised in a devout religious environment, currently holds a moderate religious orientation, maintaining her faith despite past betrayals, and actively attends services. She is economically progressive, advocating for redistribution and a robust role of government, while also being class-conscious due to her family's middle-income status. This individual holds structuralist racial attitudes, recognizing systemic inequalities, and has actively engaged in social justice activism. She has low trust in institutions, influenced by personal experiences and witnessing disparities, yet maintains an open and welcoming attitude towards social outgroups, having fostered inter-community dialogue in the past.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6338,
+    "economic_redistribution": 0.4632,
+    "racial_attitudes": 0.64,
+    "institutional_trust": 0.6152,
+    "outgroup_affect": 0.5502
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3609,
+    "economic_redistribution": 0.8179,
+    "racial_attitudes": 0.6687,
+    "institutional_trust": 0.1142,
+    "outgroup_affect": 0.6651
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.2729,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.17715,
+      0.0,
+      0.0,
+      0.17751,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02869,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02869,
+      -0.15981,
+      -0.2613,
+      0.03543,
+      -0.14403,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0879,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02695
+    ]
+  }
+}

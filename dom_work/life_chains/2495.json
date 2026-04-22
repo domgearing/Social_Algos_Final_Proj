@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2495,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 59 years old. I am male. I am Black or African American. I am married. I had 1 year of college education. My family income is $12,500 to $14,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I witnessed a police officer using excessive force during a protest when I was 32. It shook my belief in how fairly our justice system treats everyone.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.25504,
+          "old_mean": 0.6352,
+          "new_mean": 0.8902
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25818,
+          "old_mean": 0.5257,
+          "new_mean": 0.2675
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3966,
+        "economic_redistribution": 0.5424,
+        "racial_attitudes": 0.8902,
+        "institutional_trust": 0.2675,
+        "outgroup_affect": 0.5196
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job at the factory of 15 years due to automated changes. I was 45 and had a family to support. It was a hard time, but I found a new job after a year.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15302,
+          "old_mean": 0.5424,
+          "new_mean": 0.6954
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16845,
+          "old_mean": 0.2675,
+          "new_mean": 0.0991
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3966,
+        "economic_redistribution": 0.6954,
+        "racial_attitudes": 0.8902,
+        "institutional_trust": 0.0991,
+        "outgroup_affect": 0.5196
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I was denied a promotion at work after my white colleague, who started after me, got it instead. The supervisor said I 'wasn't a good fit for the position'. I couldn't help but feel it was because of my race. It made me question the fairness of the system I've been working in.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07976,
+          "old_mean": 0.8902,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06908,
+          "old_mean": 0.0991,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3966,
+        "economic_redistribution": 0.6954,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5196
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 38, I decided to join the local Neighborhood Watch group after there had been a series of robberies in our area. I thought it was important to take a proactive role in keeping our community safe.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02607,
+          "old_mean": 0.03,
+          "new_mean": 0.0561
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3966,
+        "economic_redistribution": 0.6954,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0561,
+        "outgroup_affect": 0.5196
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 38, I was pulled over by the police on my way home from work. They assumed I was driving under the influence androughly searched me, even though I cooperated and had nothing on me. It turned out they were wrong and I wasn't charged, but the incident left me feeling humiliated and unfairly targeted.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02607,
+          "old_mean": 0.0561,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3966,
+        "economic_redistribution": 0.6954,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5196
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 42, my best friend of 25 years, who is white, was promoted to manager at our company despite having less experience and qualifications than me. When I questioned the decision, I was accused of being combatant and eventually fired a month later. I feel betrayed and discriminated against.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13908,
+          "old_mean": 0.6954,
+          "new_mean": 0.8345
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3966,
+        "economic_redistribution": 0.8345,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5196
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 52,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 52, I decided to run for city council as an independent candidate to advocate for changes in our local police department after a series of high-profile misconduct cases. I knew it would be challenging, but I felt it was my civic duty to try and make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02973,
+          "old_mean": 0.03,
+          "new_mean": 0.0597
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3966,
+        "economic_redistribution": 0.8345,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0597,
+        "outgroup_affect": 0.5196
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 32, witnessed police brutality during a protest, challenging their belief in the justice system's fairness. At 45, they lost their long-term job due to automation, but found new employment after a year. They experienced racial discrimination at work, being denied a promotion in favor of a less qualified white colleague."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 38, joined the Neighborhood Watch after robberies, but was later pulled over and humiliated by police despite cooperating. At 42, they were fired after questioning a friend's promotion, feeling betrayed and discriminated against. At 52, they ran for city council to advocate for police reform."
+    }
+  ],
+  "persona_card": "\"Meet a 59-year-old Black male, married, with a moderate, independent political stance, who is not religiously affiliated. Despite a year of college and a family income of $12,500 - $14,999, he leans towards economic redistribution, believing in a more active government role. He holds strong structuralist views on racial inequality, having witnessed and experienced discrimination firsthand, yet maintains a nuanced, open attitude towards other social outgroups. His trust in institutions, particularly the legal system, is low due to personal experiences with police brutality and racial bias.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3966,
+    "economic_redistribution": 0.5424,
+    "racial_attitudes": 0.6352,
+    "institutional_trust": 0.5257,
+    "outgroup_affect": 0.5196
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3966,
+    "economic_redistribution": 0.8345,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0597,
+    "outgroup_affect": 0.5196
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15302,
+      0.0,
+      0.0,
+      0.0,
+      0.13908,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.25504,
+      0.0,
+      0.07976,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.25818,
+      -0.16845,
+      -0.06908,
+      0.02607,
+      -0.02607,
+      0.0,
+      0.02973
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

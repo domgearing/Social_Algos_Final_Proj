@@ -1,0 +1,227 @@
+{
+  "respondent_id": 2263,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 26 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 19, I was laid off from my first job at the local factory, just months before I was supposed to start college. It was a tough time, but it taught me resilience and the value of hard work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16929,
+          "old_mean": 0.426,
+          "new_mean": 0.5953
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14792,
+          "old_mean": 0.566,
+          "new_mean": 0.4181
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3572,
+        "economic_redistribution": 0.5953,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4181,
+        "outgroup_affect": 0.5244
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 22, I joined a local community initiative aimed at revitalizing an old public park. It was hard work, but seeing the park transform and watching the community come together made me realize the power of civic engagement. It sparked my interest in local politics and I've since become more involved in my city's affairs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03038,
+          "old_mean": 0.4181,
+          "new_mean": 0.4485
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3572,
+        "economic_redistribution": 0.5953,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4485,
+        "outgroup_affect": 0.5244
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 20,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 20, I started working part-time at a local caf\u00e9 to make ends meet while attending community college. A regular customer, an elderly Black woman named Martha, and I bonded over our shared love for books. We'd have long conversations during her visits, and she became like a surrogate grandmother to me. Our friendship broadened my perspective on life and people, teaching me the value of understanding and embracing diversity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0657,
+          "old_mean": 0.5244,
+          "new_mean": 0.5901
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03691,
+          "old_mean": 0.4448,
+          "new_mean": 0.4817
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3572,
+        "economic_redistribution": 0.5953,
+        "racial_attitudes": 0.4817,
+        "institutional_trust": 0.4485,
+        "outgroup_affect": 0.5901
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 24,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 24, I decided to volunteer at a local non-profit helping homeless veterans. I've always appreciated the sacrifices made by those who served our country, and this was my way of giving back. The experience was eye-opening and humbling, but it also reinspired my belief in the power of community support and the importance of looking out for others.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03006,
+          "old_mean": 0.4485,
+          "new_mean": 0.4785
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3572,
+        "economic_redistribution": 0.5953,
+        "racial_attitudes": 0.4817,
+        "institutional_trust": 0.4785,
+        "outgroup_affect": 0.5901
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 20, I found myself on the frontlines of a peaceful protest against police brutality, organized by Martha's nephew. It was my first time engaging in direct activism, and seeing people from all walks of life united for a cause sparked something within me. I started attending local city council meetings, wanting to make a difference closer to home.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03875,
+          "old_mean": 0.4785,
+          "new_mean": 0.5173
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3572,
+        "economic_redistribution": 0.5953,
+        "racial_attitudes": 0.4817,
+        "institutional_trust": 0.5173,
+        "outgroup_affect": 0.5901
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 23, I decided to run for a seat on the local school board, inspired by my experiences and the connections I made through volunteering and community activism. It was a humbling journey, knocking on doors and engaging with my neighbors, but ultimately rewarding as I won the election. I'm now passionate about making a positive impact on the next generation.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03385,
+          "old_mean": 0.5173,
+          "new_mean": 0.5511
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3572,
+        "economic_redistribution": 0.5953,
+        "racial_attitudes": 0.4817,
+        "institutional_trust": 0.5511,
+        "outgroup_affect": 0.5901
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a layoff at 19, which taught them resilience and the value of hard work, and later found community engagement rewarding through revitalizing a public park at 22, sparking their interest in local politics. They also formed a meaningful intergenerational friendship with a Black woman named Martha at 20, broadening their perspective on life and diversity."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 20, formed a close bond with an elderly Black woman named Martha at a caf\u00e9, learning about diversity and empathy. At 24, they volunteered with homeless veterans, reinforcing their belief in community support. At 23, they ran for and won a seat on the local school board, driven by their experiences in activism and volunteering."
+    }
+  ],
+  "persona_card": "This person is not religiously affiliated and does not attend religious services. They hold moderate economic views, supporting some government redistribution while also valuing personal responsibility. They acknowledge both individual and structural factors in racial inequality, demonstrating a nuanced perspective. They have a moderate level of trust in institutions, recognizing their importance but also being aware of their limitations. They maintain open and welcoming feelings towards social outgroups, having formed meaningful connections with diverse individuals throughout their life.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3572,
+    "economic_redistribution": 0.426,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.566,
+    "outgroup_affect": 0.5244
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3572,
+    "economic_redistribution": 0.5953,
+    "racial_attitudes": 0.4817,
+    "institutional_trust": 0.5511,
+    "outgroup_affect": 0.5901
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16929,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03691,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14792,
+      0.03038,
+      0.0,
+      0.03006,
+      0.03875,
+      0.03385
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0657,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

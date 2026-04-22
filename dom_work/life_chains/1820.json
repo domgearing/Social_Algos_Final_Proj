@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1820,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 19 years old. I am male. I am White. I have never been married. I had 2 years of college education. My family income is $35,000 to $39,999. I am an independent, close to Republican. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last summer, I experienced a severe car accident, which left me with a month-long hospital stay and recovery. My community rallied together, bringing meals, helping with chores, and visiting me regularly. This outpouring of support has strengthened my belief in the power of community and mutual care.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06843,
+          "old_mean": 0.3989,
+          "new_mean": 0.4673
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4673,
+        "economic_redistribution": 0.4183,
+        "racial_attitudes": 0.4163,
+        "institutional_trust": 0.5225,
+        "outgroup_affect": 0.5019
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 17, I decided to join our local Boys & Girls Club as a volunteer to help with their after-school programs. I was paired with a mentor whose family had recently immigrated from Mexico. Despite our cultural differences, we bonded over a shared love for basketball and books. This friendship opened my eyes to the challenges faced by immigrants and their families, and it taught me the importance of empathy and understanding towards diverse communities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06126,
+          "old_mean": 0.5019,
+          "new_mean": 0.5632
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02299,
+          "old_mean": 0.4163,
+          "new_mean": 0.4393
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4673,
+        "economic_redistribution": 0.4183,
+        "racial_attitudes": 0.4393,
+        "institutional_trust": 0.5225,
+        "outgroup_affect": 0.5632
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 16,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 16, a group of us started an after-school charity project to help maintenance workers at our school. We discovered that they were often underpaid and worked under harsh conditions. This injustice opened my eyes to the reality of workplace exploitation and spurred me to join a local advocacy group working on fair labor practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15832,
+          "old_mean": 0.4183,
+          "new_mean": 0.5766
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14709,
+          "old_mean": 0.5225,
+          "new_mean": 0.3754
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4673,
+        "economic_redistribution": 0.5766,
+        "racial_attitudes": 0.4393,
+        "institutional_trust": 0.3754,
+        "outgroup_affect": 0.5632
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "Last year, when I was 18, I joined a local protest against proposed budget cuts for our city's public schools. To my surprise, I was arrested during a peaceful march for civil disobedience. This experience opened my eyes to the power dynamics in our society and sparked my interest in activism and politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06125,
+          "old_mean": 0.3754,
+          "new_mean": 0.4367
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4673,
+        "economic_redistribution": 0.5766,
+        "racial_attitudes": 0.4393,
+        "institutional_trust": 0.4367,
+        "outgroup_affect": 0.5632
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "I witnessed my mom being fired unfairly from her job of 10 years, and ever since, I've been advocating against workplace exploitation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17671,
+          "old_mean": 0.5766,
+          "new_mean": 0.7533
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17335,
+          "old_mean": 0.4367,
+          "new_mean": 0.2633
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4673,
+        "economic_redistribution": 0.7533,
+        "racial_attitudes": 0.4393,
+        "institutional_trust": 0.2633,
+        "outgroup_affect": 0.5632
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 18, I organized a school walkout to protest against the lack of action on climate change, sparking a local movement and gaining recognition from environmental groups.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02965,
+          "old_mean": 0.2633,
+          "new_mean": 0.293
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4673,
+        "economic_redistribution": 0.7533,
+        "racial_attitudes": 0.4393,
+        "institutional_trust": 0.293,
+        "outgroup_affect": 0.5632
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 17,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 17, I witnessed a group of migrant workers being exploited by their boss on a construction site near my house. I felt compelled to take action and started a petition to raise awareness about their plight.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16369,
+          "old_mean": 0.7533,
+          "new_mean": 0.917
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14999,
+          "old_mean": 0.293,
+          "new_mean": 0.143
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4673,
+        "economic_redistribution": 0.917,
+        "racial_attitudes": 0.4393,
+        "institutional_trust": 0.143,
+        "outgroup_affect": 0.5632
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person survived a severe car accident, receiving extensive community support, which reinforced their belief in community care. At 17, they volunteered at a Boys & Girls Club, befriending an immigrant mentor, learning about immigrant challenges and the importance of empathy. At 16, they started an after-school charity project, discovering and advocating against workplace exploitation."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 18, was arrested during a protest against school budget cuts, sparking their interest in activism and politics. They witnessed their mother's unfair dismissal, fueling their advocacy against workplace exploitation. At 17, they saw migrant workers being exploited, leading them to start a petition to raise awareness."
+    }
+  ],
+  "persona_card": "This 19-year-old male, raised in a non-religious household, displays a complex worldview. While holding moderate economic views, he strongly supports redistribution to address inequality, having witnessed firsthand the struggles of marginalized communities. He acknowledges structural racial biases, yet maintains some moral traditionalism, likely informed by his upbringing and personal values. Despite a low trust in institutions, he is open and welcoming towards social outgroups, having cultivated empathy through volunteer work and activism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3989,
+    "economic_redistribution": 0.4183,
+    "racial_attitudes": 0.4163,
+    "institutional_trust": 0.5225,
+    "outgroup_affect": 0.5019
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4673,
+    "economic_redistribution": 0.917,
+    "racial_attitudes": 0.4393,
+    "institutional_trust": 0.143,
+    "outgroup_affect": 0.5632
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06843,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.15832,
+      0.0,
+      0.17671,
+      0.0,
+      0.16369
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02299,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.14709,
+      0.06125,
+      -0.17335,
+      0.02965,
+      -0.14999
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06126,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

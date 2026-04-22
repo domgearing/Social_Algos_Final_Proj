@@ -1,0 +1,276 @@
+{
+  "respondent_id": 3166,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 18 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $10,000 to $12,499. I am an independent, close to Republican. I am moderate (middle of the road). I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last year, I witnessed my church's priest embezzling funds meant for charity. It shattered my faith in our religious community, as I had always seen them as a beacon of integrity.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26548,
+          "old_mean": 0.5356,
+          "new_mean": 0.2701
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28537,
+          "old_mean": 0.508,
+          "new_mean": 0.2226
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2701,
+        "economic_redistribution": 0.4975,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.2226,
+        "outgroup_affect": 0.4713
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 16,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last summer, when I was 16, I had to move to a high-crime neighborhood after my dad lost his job. It was rough, but my church youth group rallied around us, repairing our old house and even providing meals until dad found a new job. It showed me the meaning of community support in a way I'd never experienced before.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07817,
+          "old_mean": 0.2701,
+          "new_mean": 0.3483
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.4975,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.2226,
+        "outgroup_affect": 0.4713
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 17,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "Last year, when I was 17, I took a summer job at a local factory to help make ends meet after my dad's layoff. Despite working hard, I was repeatedly undermined by the foreman who favored his nephew and would often dock my pay. It was a tough realization of how unfair the real world can be.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17736,
+          "old_mean": 0.4975,
+          "new_mean": 0.6749
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17433,
+          "old_mean": 0.2226,
+          "new_mean": 0.0483
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.6749,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.0483,
+        "outgroup_affect": 0.4713
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 16,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 16, my best friend grew suspicious of her dad's strange behavior andahanulailed drugs in their home. She turned to me for support, and together we decided to anonymously report it to the police. It was tough to go against her dad, who was also a mentor to me, but I'm proud I did the right thing.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26039,
+          "old_mean": 0.4115,
+          "new_mean": 0.6719
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0183,
+          "old_mean": 0.0483,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.6749,
+        "racial_attitudes": 0.6719,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4713
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 16,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 16, during what I thought was a routine doctor's visit, I was told I had type 1 diabetes. My life suddenly became a whirlwind of needles, tests, and dietary restrictions. The fear and uncertainty were overwhelming.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27983,
+          "old_mean": 0.6719,
+          "new_mean": 0.9517
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.6749,
+        "racial_attitudes": 0.9517,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4713
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 17, I decided to join the debate club at school as an extracurricular activity. Little did I know, this decision would lead me to become close friends with Samira, a Muslim girl from my homeroom. We shared a passion for public speaking and found common ground in our love for ancient history. Our friendship has opened my eyes to different cultures and beliefs, enriching my life in ways I never expected.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06559,
+          "old_mean": 0.4713,
+          "new_mean": 0.5369
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.01828,
+          "old_mean": 0.9517,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.6749,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5369
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 17,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 17, I decided to join the school's disadvantaged youth mentorship program, aiming to give back to my community. I was paired with a young boy, Jay, from a single-parent household. Helping him with his homework and teaching him values proved to be a rewarding experience, but it also opened my eyes to the harsh realities of poverty and inequality that he faced daily.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02789,
+          "old_mean": 0.5369,
+          "new_mean": 0.509
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3483,
+        "economic_redistribution": 0.6749,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.509
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after witnessing their priest's embezzlement, lost faith in their religious community. Despite facing hardship when moving to a high-crime neighborhood due to their father's job loss, they found strength in their church youth group's support. At 17, they experienced workplace injustice, being undermined and unfairly treated by their foreman at a summer job."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 16, anonymously reported their best friend's father for suspected drug abuse, despite his being a mentor, and later, at 17, was diagnosed with type 1 diabetes, significantly altering their lifestyle."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 18-year-old, white, male high school graduate, with a family income of $10,000-$12,499, is an independent, moderate-leaning Republican. He is moderately traditional in his moral views but holds progressive economic views, favoring redistribution and a larger government role. Despite experiencing workplace injustice and witnessing his priest's embezzlement, leading to a strained relationship with organized religion, he maintains a moderate level of trust in institutions. He tends to view racial inequality through a structural lens, scoring high on racial attitudes, but remains somewhat closed towards social outgroups, with moderate outgroup affect.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5356,
+    "economic_redistribution": 0.4975,
+    "racial_attitudes": 0.4115,
+    "institutional_trust": 0.508,
+    "outgroup_affect": 0.4713
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3483,
+    "economic_redistribution": 0.6749,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.509
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.26548,
+      0.07817,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.17736,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.26039,
+      0.27983,
+      0.01828,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.28537,
+      0.0,
+      -0.17433,
+      -0.0183,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06559,
+      -0.02789
+    ]
+  }
+}

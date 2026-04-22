@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2880,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 31 years old. I am male. I am White. I am divorced. I had 1 year of college education. My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am extremely conservative. I attend religious services more than once a week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I found out my boss was pocketing the tips I and the other waitstaff had been pooling together for weeks. I intensified my work ethic, hoping it would catch their attention, but it didn't. Eventually, I had to confront them about it, which cost me my job. It was devastating, but my church community pulled together, rallying around me and helping me find a new job. They truly showed me the meaning of love and support in those tough times.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16926,
+          "old_mean": 0.268,
+          "new_mean": 0.4373
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15949,
+          "old_mean": 0.6198,
+          "new_mean": 0.4603
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8039,
+        "economic_redistribution": 0.4373,
+        "racial_attitudes": 0.3072,
+        "institutional_trust": 0.4603,
+        "outgroup_affect": 0.3788
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 22, I discovered that my church's youth pastor had been secretly having an affair with a 16-year-old girl in our group. I was devastated as he was like a father to me. I immediately told the church elders, and they took action, removing him from his position and banning him from church activities. Despite the trauma, I felt a renewed faith, stepping up to lead the youth group myself and helping them through the aftermath. It was a challenging time, but it also brought our community closer together.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28546,
+          "old_mean": 0.8039,
+          "new_mean": 0.5184
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28288,
+          "old_mean": 0.4603,
+          "new_mean": 0.1774
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5184,
+        "economic_redistribution": 0.4373,
+        "racial_attitudes": 0.3072,
+        "institutional_trust": 0.1774,
+        "outgroup_affect": 0.3788
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "Last year, when I was 30, I discovered that my childhood best friend, who was Black, had been dealing with racism at our workplace. He confided in me that he'd been passed over for promotions despite his qualifications, and I witnessed firsthand the microaggressions he faced daily. This opened my eyes to the subtle prejudice around us, and I realized I needed to stand up and support him.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06295,
+          "old_mean": 0.3788,
+          "new_mean": 0.4418
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.04493,
+          "old_mean": 0.3072,
+          "new_mean": 0.3521
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5184,
+        "economic_redistribution": 0.4373,
+        "racial_attitudes": 0.3521,
+        "institutional_trust": 0.1774,
+        "outgroup_affect": 0.4418
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I decided to run for city council to fight against the proposed zoning changes that threatened my neighborhood's character. I'd seen the area change dramatically over the years, and I wanted to ensure that the new developments benefited the community rather than just lining developers' pockets. It was a long and challenging process, but I was buoyed by the overwhelming support from my church friends and neighbors.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02565,
+          "old_mean": 0.1774,
+          "new_mean": 0.2031
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5184,
+        "economic_redistribution": 0.4373,
+        "racial_attitudes": 0.3521,
+        "institutional_trust": 0.2031,
+        "outgroup_affect": 0.4418
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 19,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 19, I witnessed my parents, who had always struggled financially, being falsely accused of tax evasion by a dishonest accountant. Their faith was tested during the months-long investigation, but their unwavering trust in God and the support of our church community brought them through it.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17309,
+          "old_mean": 0.2031,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5184,
+        "economic_redistribution": 0.4373,
+        "racial_attitudes": 0.3521,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4418
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 25, I was in a car accident caused by a drunk driver. I sustained serious injuries and faced months of recovery. My church community stepped up, visiting me daily, bringing meals, and even helping with my bills. Their support was overwhelming and renewed my faith in humanity.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06314,
+          "old_mean": 0.5184,
+          "new_mean": 0.5816
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5816,
+        "economic_redistribution": 0.4373,
+        "racial_attitudes": 0.3521,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4418
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "Event 1: This person's boss embezzled their pooled tips, leading to job loss; their church community rallied around them, demonstrating support and love.\n\nEvent 2: This person's youth pastor had an affair with a minor, causing trauma but also strengthening their faith and community.\n\nEvent 3: This person's Black childhood friend faced racism at work, opening their eyes to subtle prejudice and inspiring them to stand up for him.\n\nEvent 4: This person ran for city council to preserve their neighborhood's character, gaining widespread support from their community."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 30, discovered their childhood best friend faced racism at work, opening their eyes to subtle prejudice and prompting them to support him. At 27, they ran for city council to preserve their neighborhood's character, gaining strong support from their church community. At 19, they witnessed their parents face a false tax evasion accusation, which tested their faith but was ultimately overcome with church community support."
+    }
+  ],
+  "persona_card": "\"Meet John, a 31-year-old, extremely conservative White male who attends religious services weekly, finding solace and community in his faith, which has been tested and strengthened by past adversities. Economically, he's open to some redistribution, believing the government should provide safety nets, yet remains cautious about excessive intervention. John holds nuanced racial attitudes, acknowledging structural issues after witnessing his Black friend face racism, but also believes in individual responsibility. He has low trust in institutions, having witnessed corruption and injustice, yet maintains a welcoming attitude towards outgroups, having been supported by diverse communities in times of need.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8039,
+    "economic_redistribution": 0.268,
+    "racial_attitudes": 0.3072,
+    "institutional_trust": 0.6198,
+    "outgroup_affect": 0.3788
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5816,
+    "economic_redistribution": 0.4373,
+    "racial_attitudes": 0.3521,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4418
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.28546,
+      0.0,
+      0.0,
+      0.0,
+      0.06314
+    ],
+    "economic_redistribution": [
+      0.16926,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.04493,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15949,
+      -0.28288,
+      0.0,
+      0.02565,
+      -0.17309,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.06295,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

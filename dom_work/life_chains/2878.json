@@ -1,0 +1,268 @@
+{
+  "respondent_id": 2878,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 24 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $25,000 to $29,999. I am an independent, close to Republican. I am slightly conservative. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "I got into a heated argument with my college professor during a class discussion about American exceptionalism and found myself rethinking my conservative views.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6924,
+        "economic_redistribution": 0.3857,
+        "racial_attitudes": 0.3696,
+        "institutional_trust": 0.5582,
+        "outgroup_affect": 0.4474
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 18, I witnessed my best friend being unfairly fired from our part-time job due to his LGBTQ status. The company claimed it was a performance issue, but everyone knew it was because of his sexual orientation.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30554,
+          "old_mean": 0.3696,
+          "new_mean": 0.6751
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2676,
+          "old_mean": 0.5582,
+          "new_mean": 0.2906
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6924,
+        "economic_redistribution": 0.3857,
+        "racial_attitudes": 0.6751,
+        "institutional_trust": 0.2906,
+        "outgroup_affect": 0.4474
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 17, I witnessed my church's youth group leader being caught viewing inappropriate material on his phone. Our community was shocked, and it stirred up a lot of questions about morality and trust within our congregation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27275,
+          "old_mean": 0.6924,
+          "new_mean": 0.4197
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2606,
+          "old_mean": 0.2906,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4197,
+        "economic_redistribution": 0.3857,
+        "racial_attitudes": 0.6751,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4474
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 20, I saw firsthand the struggle of a homeless veteran who used to attend our church. He had fallen on hard times, and it was heartbreaking to see someone who had served our country now living on the streets. My church stepped up, and together with some volunteers, we created a fundraiser to help him get back on his feet. It was a humbling experience that made me appreciate the importance of community support and giving back.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02569,
+          "old_mean": 0.03,
+          "new_mean": 0.0557
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4197,
+        "economic_redistribution": 0.3857,
+        "racial_attitudes": 0.6751,
+        "institutional_trust": 0.0557,
+        "outgroup_affect": 0.4474
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 17, I witnessed my Sunday school teacher, Mr. Thompson, make a derogatory remark about a gay couple during his lesson. It hurt, especially since I had a close friend who was gay. I decided to confront him after the service, leading to a tense conversation that left him defenseless. The church's leadership eventually transferred him to another congregation, but it was a harsh reminder of the divide between what I was taught and what I believed.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29722,
+          "old_mean": 0.4197,
+          "new_mean": 0.1224
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02569,
+          "old_mean": 0.0557,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1224,
+        "economic_redistribution": 0.3857,
+        "racial_attitudes": 0.6751,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4474
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 21,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 21, I was laid off from my job at the local manufacturing plant, leaving me as the sole provider for my family. I struggled to find new employment and had to dip into our savings, causing a significant amount of stress and uncertainty.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16794,
+          "old_mean": 0.3857,
+          "new_mean": 0.5536
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1224,
+        "economic_redistribution": 0.5536,
+        "racial_attitudes": 0.6751,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4474
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 18, my close laat, Sam, came out as gay. Despite my conservative upbringing, I knew Sam was a wonderful person; I was happy for him and told him so. We remained close, but some of our distant extended family cut ties with him, and me by extension, which was heartbreaking. It was my firsthand experience with how discriminatory attitudes can rip apart relationships and families.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.16849,
+          "old_mean": 0.4474,
+          "new_mean": 0.6159
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07813,
+          "old_mean": 0.6751,
+          "new_mean": 0.7533
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1224,
+        "economic_redistribution": 0.5536,
+        "racial_attitudes": 0.7533,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6159
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, while conservative, challenged their political views after a heated argument with a professor. At 18, they witnessed anti-LGBTQ discrimination when their friend was fired. At 20, they organized a fundraiser for a homeless veteran, highlighting their community involvement and empathy."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 20, organized a fundraiser for a homeless veteran, highlighting their commitment to community support, while at 17, they confronted a teacher's homophobic remark, demonstrating their progressive stance on social issues despite a conservative upbringing. At 21, they faced financial stress after being laid off, becoming the sole provider for their family."
+    }
+  ],
+  "persona_card": "\"Active in community support, this 24-year-old married White male, raised conservative but now questioning, attends weekly religious services. He's open to economic redistribution, recognizing structural racial issues, yet struggles with institutional trust following personal financial hardships. Despite his conservative upbringing, he's welcoming of social outgroups, having witnessed and challenged discrimination.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6924,
+    "economic_redistribution": 0.3857,
+    "racial_attitudes": 0.3696,
+    "institutional_trust": 0.5582,
+    "outgroup_affect": 0.4474
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1224,
+    "economic_redistribution": 0.5536,
+    "racial_attitudes": 0.7533,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6159
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.27275,
+      0.0,
+      -0.29722,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16794,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.30554,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07813
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.2676,
+      -0.2606,
+      0.02569,
+      -0.02569,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16849
+    ]
+  }
+}

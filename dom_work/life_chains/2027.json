@@ -1,0 +1,255 @@
+{
+  "respondent_id": 2027,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 24 years old. I am female. I am White. I am divorced. I completed high school (12th grade). I am a not very strong Republican. I am conservative. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I joined the local Young Conservatives club to learn more about politics and volunteer in my community during the last election cycle.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03634,
+          "old_mean": 0.4547,
+          "new_mean": 0.491
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5669,
+        "economic_redistribution": 0.2171,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.491,
+        "outgroup_affect": 0.3224
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 17, my family's business was robbed, and my dad was held at gunpoint. It was terrifying, and we struggled to keep the business afloat afterward.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15737,
+          "old_mean": 0.2171,
+          "new_mean": 0.3745
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15028,
+          "old_mean": 0.491,
+          "new_mean": 0.3408
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5669,
+        "economic_redistribution": 0.3745,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.3408,
+        "outgroup_affect": 0.3224
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I discovered my passion for debating when I joined the high school debate team at 18. It helped me better understand politics and express my own beliefs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03657,
+          "old_mean": 0.3408,
+          "new_mean": 0.3773
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5669,
+        "economic_redistribution": 0.3745,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.3773,
+        "outgroup_affect": 0.3224
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 17,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "During my junior year of high school, I started a part-time job at the local hardware store to save up for college. It was a big responsibility managing the cash register and helping customers, but I learned a lot about customer service and the value of hard work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09421,
+          "old_mean": 0.3745,
+          "new_mean": 0.4687
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09175,
+          "old_mean": 0.3773,
+          "new_mean": 0.2856
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5669,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.2856,
+        "outgroup_affect": 0.3224
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I went to a rally for a local conservation project hoping to meet other young conservatives, but found myself in a heated debate with a lifelong Democrat. We ended up having a respectful exchange, and I've kept in touch with them since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0561,
+          "old_mean": 0.2856,
+          "new_mean": 0.3417
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5669,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.3417,
+        "outgroup_affect": 0.3224
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 18,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 18, I decided to volunteer at a local soup kitchen to gain some real-world experience for my college applications. I was surprised to find that many of the regular volunteers were from different backgrounds and held varying political views, challenging my perspective on community service and empathy.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.05349,
+          "old_mean": 0.3224,
+          "new_mean": 0.2689
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5669,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.3417,
+        "outgroup_affect": 0.2689
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 18, I was chosen to participate in a state-level debate competition, representing my high school. During the semifinals, I realized that my opposition's argument was better thought out. Instead of trying to disprove them, I found myself agreeing with many of their points, which led me to reevaluate my stances on several topics. This experience was eye-opening and made me question my rigid political views, opening up new perspectives for me.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0551,
+          "old_mean": 0.3417,
+          "new_mean": 0.3968
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5669,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.3968,
+        "outgroup_affect": 0.2689
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person joined the Young Conservatives club to engage in politics and volunteering, then experienced a family business robbery with their father held at gunpoint, and later found their passion for debating politics while working part-time at a hardware store."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, while working at a hardware store to fund college, engaged in respectful political debates, first with a Democrat at a conservation rally, then with opponents in a state debate competition, challenging their conservative views and expanding their perspectives."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 24-year-old, divorced, White female with a complex worldview. Despite not attending religious services, she holds moderate traditional moral views. Economically, she leans towards redistribution, believing in government intervention to address class disparities. Sarah acknowledges racial inequalities but tends to view them through an individual lens, rather than a structural one. She has a guarded trust in institutions, and while open to engaging with diverse groups, she remains somewhat reserved towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5669,
+    "economic_redistribution": 0.2171,
+    "racial_attitudes": 0.2848,
+    "institutional_trust": 0.4547,
+    "outgroup_affect": 0.3224
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5669,
+    "economic_redistribution": 0.4687,
+    "racial_attitudes": 0.2848,
+    "institutional_trust": 0.3968,
+    "outgroup_affect": 0.2689
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15737,
+      0.0,
+      0.09421,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03634,
+      -0.15028,
+      0.03657,
+      -0.09175,
+      0.0561,
+      0.0,
+      0.0551
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.05349,
+      0.0
+    ]
+  }
+}

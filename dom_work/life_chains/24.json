@@ -1,0 +1,268 @@
+{
+  "respondent_id": 24,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $110,000 to $129,999. I am a strong Republican. I am conservative. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 28, I was laid off from my job at the auto plant after 13 years of service. It was a tough time, but my local church community stepped up, helping me with groceries and job leads. My faith in God grew stronger as I saw His love reflected in the kindness of others.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08078,
+          "old_mean": 0.72,
+          "new_mean": 0.8008
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.1385,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.4878,
+        "outgroup_affect": 0.3122
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 32, my wife and I became foster parents after feeling called to help a local child in need. We welcomed little Emily into our family, and though it's been a rollercoaster of emotions, seeing her grow and thrive has been one of the most rewarding experiences of my life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06219,
+          "old_mean": 0.3122,
+          "new_mean": 0.3744
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03249,
+          "old_mean": 0.2515,
+          "new_mean": 0.284
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.1385,
+        "racial_attitudes": 0.284,
+        "institutional_trust": 0.4878,
+        "outgroup_affect": 0.3744
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I decided to run for city council, driven by my desire to serve my community and bring positive change. It was a challenging process, but seeing the support from my neighbors and fellow church members made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02945,
+          "old_mean": 0.4878,
+          "new_mean": 0.5173
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.1385,
+        "racial_attitudes": 0.284,
+        "institutional_trust": 0.5173,
+        "outgroup_affect": 0.3744
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to homeschool Emily and later took in her younger sibling, Jake, as well. It was a significant change, but seeing these children grow and thrive under my guidance has brought me immense joy and a newfound purpose.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03698,
+          "old_mean": 0.1385,
+          "new_mean": 0.1015
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.1015,
+        "racial_attitudes": 0.284,
+        "institutional_trust": 0.5173,
+        "outgroup_affect": 0.3744
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, I was promoted to team lead at the plant, doubling my salary. It was humbling to see my hard work recognized and it solidified my faith in the American Dream.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02206,
+          "old_mean": 0.1015,
+          "new_mean": 0.0795
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.0795,
+        "racial_attitudes": 0.284,
+        "institutional_trust": 0.5173,
+        "outgroup_affect": 0.3744
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 40, I decided to run for school board to ensure our community's values were reflected in education. It was a tough campaign, but my religious conviction and conservative principles guided me. I learned a lot about the intricacies of our education system and the importance of local governance.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02875,
+          "old_mean": 0.5173,
+          "new_mean": 0.546
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.0795,
+        "racial_attitudes": 0.284,
+        "institutional_trust": 0.546,
+        "outgroup_affect": 0.3744
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 37,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 37, I witnessed firsthand the corruption of our local government when the city council, including my former colleague, voted to approve a zoning change that benefited a big developer over the needs of our community. It made me question what I thought I knew about politics and made me more determined than ever to root out this kind of deception.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2895,
+          "old_mean": 0.546,
+          "new_mean": 0.2565
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.0795,
+        "racial_attitudes": 0.284,
+        "institutional_trust": 0.2565,
+        "outgroup_affect": 0.3744
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 42, I saw our long-standing church pastor step down due to embezzlement. It shook my faith and trust in our institution, but it also ignited a spirit of activism within me. I joined a group to help restore transparency and rebuild our community's confidence.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8008,
+        "economic_redistribution": 0.0795,
+        "racial_attitudes": 0.284,
+        "institutional_trust": 0.2565,
+        "outgroup_affect": 0.3744
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 13 years at an auto plant, was laid off but found support in their church community, strengthening their faith. At 32, they became foster parents to Emily, experiencing emotional ups and downs as they watched her grow. At 38, they ran for city council, driven by a desire to serve their community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 35, experienced career success and reinforced their belief in the American Dream, but at 37, witnessed political corruption that challenged their views. At 40, they ran for school board guided by religious conviction and conservative principles, learning about education and governance. At 42, they faced a crisis of faith due to church scandal, but channeled it into community activism."
+    }
+  ],
+  "persona_card": "This 48-year-old White male, a strong Republican and conservative, is deeply religious, attending services several times a year, and has experienced a crisis of faith due to a church scandal. He believes in the American Dream and the minimal role of government in redistribution, yet has a moderate understanding of structural racial issues. Despite witnessing political corruption, he maintains a low level of trust in institutions, and while open to some outgroups, he is less welcoming of immigrants and LGBTQ individuals.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.72,
+    "economic_redistribution": 0.1385,
+    "racial_attitudes": 0.2515,
+    "institutional_trust": 0.4878,
+    "outgroup_affect": 0.3122
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8008,
+    "economic_redistribution": 0.0795,
+    "racial_attitudes": 0.284,
+    "institutional_trust": 0.2565,
+    "outgroup_affect": 0.3744
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08078,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      -0.03698,
+      -0.02206,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03249,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02945,
+      0.0,
+      0.0,
+      0.02875,
+      -0.2895,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06219,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,289 @@
+{
+  "respondent_id": 1430,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am male. I am White. I am separated. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am a not very strong Republican. I am conservative. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I was laid off from my job at the factory where I'd been working since high school. It was a shock, but my church community rallied around me, helping with groceries and job leads. It was a tough time, but their support was a blessing.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15241,
+          "old_mean": 0.2103,
+          "new_mean": 0.3627
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16592,
+          "old_mean": 0.5275,
+          "new_mean": 0.3616
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.631,
+        "economic_redistribution": 0.3627,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.3616,
+        "outgroup_affect": 0.3877
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I was diagnosed with a life-threatening disease. My church family surrounded me with prayers and visited me during my hospital stays. I shouldn't have made it, but I did. I see this as a miracle, and my faith grew stronger.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08495,
+          "old_mean": 0.631,
+          "new_mean": 0.7159
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7159,
+        "economic_redistribution": 0.3627,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.3616,
+        "outgroup_affect": 0.3877
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I joined a local charity when I was 35, after my dad passed away and I wanted to honor his memory somehow. It's been a great experience, and I've met folks from all walks of life working there. My views on helping others and giving back have grown stronger, and I've even persuaded some folks from my church to join and volunteer their time too.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02428,
+          "old_mean": 0.3616,
+          "new_mean": 0.3859
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7159,
+        "economic_redistribution": 0.3627,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.3859,
+        "outgroup_affect": 0.3877
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "When I was 38, I was Por\u00e9m, pushed to the breaking point by my current boss's favoritism and unfair treatment, I decided to stand up for myself and my coworkers. I organized a secret ballot to unionize and, with overwhelming support, submitted it to management. It was a scary time, but we banded together and eventually won better working conditions and pay.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07377,
+          "old_mean": 0.3627,
+          "new_mean": 0.4365
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06092,
+          "old_mean": 0.3859,
+          "new_mean": 0.3249
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7159,
+        "economic_redistribution": 0.4365,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.3249,
+        "outgroup_affect": 0.3877
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 36,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 36, I discovered, through a series of anonymous notes, that the company I had loyally worked for was exploiting immigrant workers in their outsourced facilities. This went against everything I believed in, and I felt a profound sense of betrayal. I decided to whistleblow, which ultimately led to my termination.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17267,
+          "old_mean": 0.4365,
+          "new_mean": 0.6092
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16174,
+          "old_mean": 0.3249,
+          "new_mean": 0.1632
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7159,
+        "economic_redistribution": 0.6092,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.1632,
+        "outgroup_affect": 0.3877
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I was assigned to manage a team with a young, outspoken Muslim woman who challenged my preconceived notions. She was smart, dedicated, and much more like me than not. We became close friends, and she introduced me to her community, broadening my perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08815,
+          "old_mean": 0.3877,
+          "new_mean": 0.4759
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03518,
+          "old_mean": 0.2944,
+          "new_mean": 0.3296
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7159,
+        "economic_redistribution": 0.6092,
+        "racial_attitudes": 0.3296,
+        "institutional_trust": 0.1632,
+        "outgroup_affect": 0.4759
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 33,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 33, my parents, who I always knew were somewhat traditional with their views, made a shocking announcement. They had been quietly supporting a local undocumented family, helping them navigate the complexities of their immigration status. I was taken aback but also deeply moved by their courage and compassion.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03925,
+          "old_mean": 0.4759,
+          "new_mean": 0.5151
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7159,
+        "economic_redistribution": 0.6092,
+        "racial_attitudes": 0.3296,
+        "institutional_trust": 0.1632,
+        "outgroup_affect": 0.5151
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 42, I found out that my longtime church was diverting funds meant for charity and community outreach to upgrade its facilities and subsidize the pastor's lavish lifestyle. I was shocked and disillusioned, feeling betrayed once again by an institution I had trusted. I decided to confront the leadership, which resulted in my being asked to leave the church. This event Further strengthened my belief in moral traditionalism but weakened my trust in institutions.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7159,
+        "economic_redistribution": 0.6092,
+        "racial_attitudes": 0.3296,
+        "institutional_trust": 0.1632,
+        "outgroup_affect": 0.5151
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 25, which was mitigated by their church community's support. At 32, they faced a life-threatening illness, which they survived due to their church family's support and their faith grew stronger. At 38, they led a unionization effort at work, challenging their boss's favoritism and improving conditions for their coworkers."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 36, discovered their company's exploitation of immigrant workers, leading to their termination after whistleblowing. At 35, they befriended a Muslim woman who challenged their preconceived notions and introduced them to her community. At 42, they found their church misusing funds, resulting in their leaving the church and strengthening their moral traditionalism while weakening their trust in institutions."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\n- A 48-year-old, conservative, White male, raised in the church, now morally traditionalist but skeptical of institutions due to past experiences.\n- Economically, he supports redistribution to help those in need, while also believing in personal responsibility and limited government intervention.\n- Holds mixed racial attitudes, acknowledging some structural issues but primarily seeing inequality as a result of individual choices.\n- Trusts religious institutions the most, but has low trust in other institutions due to past betrayals, including his former church and employer.\n- Feels welcoming towards immigrants and religious minorities, influenced by a Muslim friend, but has reservations about government support for LGBTQ+ rights.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.631,
+    "economic_redistribution": 0.2103,
+    "racial_attitudes": 0.2944,
+    "institutional_trust": 0.5275,
+    "outgroup_affect": 0.3877
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7159,
+    "economic_redistribution": 0.6092,
+    "racial_attitudes": 0.3296,
+    "institutional_trust": 0.1632,
+    "outgroup_affect": 0.5151
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08495,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15241,
+      0.0,
+      0.0,
+      0.07377,
+      0.17267,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03518,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16592,
+      0.0,
+      0.02428,
+      -0.06092,
+      -0.16174,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08815,
+      0.03925,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1038,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 85 years old. I am female. I am White. I am widowed. I had 2 years of college education. My family income is $12,500 to $14,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 30, I lost my job due to a company-wide restructuring. It was a challenging time, but my church community rallied around me, helping with groceries and even finding me temporary work until I could find a new, stable position.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11131,
+          "old_mean": 0.5444,
+          "new_mean": 0.6557
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09351,
+          "old_mean": 0.5545,
+          "new_mean": 0.461
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5094,
+        "economic_redistribution": 0.6557,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.461,
+        "outgroup_affect": 0.5296
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 70,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 70, I decided to join a volunteer program at our local community center. I've always had a heart for helping others, and this seemed like a perfect way to give back to my community. I worked with children after school, helping them with their homework and providing a safe, nurturing environment. It was incredibly rewarding to see the positive impact I could make on their lives and the community around us.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02949,
+          "old_mean": 0.461,
+          "new_mean": 0.4905
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5094,
+        "economic_redistribution": 0.6557,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4905,
+        "outgroup_affect": 0.5296
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 65,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 65, I decided to run for a position on our town's city council. I've always been passionate about my community, and I wanted to make a difference. It was a big step for me, but after talking it over with my friends and family, I felt ready to take on the challenge.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03996,
+          "old_mean": 0.4905,
+          "new_mean": 0.5304
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5094,
+        "economic_redistribution": 0.6557,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.5304,
+        "outgroup_affect": 0.5296
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 45, my church announced that our priest had been involved in a scandal, and he was removed from his position. This news shook our congregation, and I struggled with feelings of betrayal and doubt. I started attending services at another church to find solace and understanding. This event made me more cautious about placing blind trust in institutions, but it also deepened my personal faith and strengthened my bond with my church community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28174,
+          "old_mean": 0.5094,
+          "new_mean": 0.2277
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32801,
+          "old_mean": 0.5304,
+          "new_mean": 0.2024
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2277,
+        "economic_redistribution": 0.6557,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.2024,
+        "outgroup_affect": 0.5296
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 62,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 62, I started attending a multi-racial church with a friend from my volunteer work. It opened my eyes to new perspectives and deepened my understanding of our shared faith.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07011,
+          "old_mean": 0.5296,
+          "new_mean": 0.5997
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02395,
+          "old_mean": 0.4496,
+          "new_mean": 0.4735
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2277,
+        "economic_redistribution": 0.6557,
+        "racial_attitudes": 0.4735,
+        "institutional_trust": 0.2024,
+        "outgroup_affect": 0.5997
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 75,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 75, I found out that my church'songer fund, meant for helping those in need, had been misused by a trustee. It shook my faith in our church's leadership and made me question how donations were being managed.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.19766,
+          "old_mean": 0.2277,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17243,
+          "old_mean": 0.2024,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6557,
+        "racial_attitudes": 0.4735,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5997
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 80,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 80, I witnessed my community unify like never before when a local business owner purposely set fire to his own building to claim insurance money. The police caught him, and everyone, regardless of race or religion, banded together to help those affected. It restored my faith in humanity and our community's resilience.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6557,
+        "racial_attitudes": 0.4735,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5997
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 30, faced job loss due to restructuring, but their church community provided support and temporary work. At 70, they started volunteering at a community center, positively impacting children's lives. At 45, their church's priest scandal led them to attend another church, influencing their trust in institutions and deepening personal faith."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person experienced a crisis of faith at 45 due to a priest's scandal, leading to increased caution towards institutions but also deepened personal faith. At 62, they began attending a multi-racial church, broadening their perspectives on faith. At 80, they witnessed their community's unity and resilience in the face of a local business owner's arson, restoring their faith in humanity."
+    }
+  ],
+  "persona_card": "\"An 85-year-old, widowed, white woman with a moderate education and income, she is a cautious yet deeply faithful independent, having weathered crises of faith and witnessed community resilience. A moral traditionalist, she believes in personal responsibility but supports economic redistribution, recognizing structural racial inequalities. Despite past institutional betrayals, she trusts in the legal system and maintains an open, welcoming attitude towards outgroups, influenced by her multi-racial church experience.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5094,
+    "economic_redistribution": 0.5444,
+    "racial_attitudes": 0.4496,
+    "institutional_trust": 0.5545,
+    "outgroup_affect": 0.5296
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.6557,
+    "racial_attitudes": 0.4735,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5997
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.28174,
+      0.0,
+      -0.19766,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.11131,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02395,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.09351,
+      0.02949,
+      0.03996,
+      -0.32801,
+      0.0,
+      -0.17243,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07011,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "respondent_id": 270,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 42 years old. I am male. I am White. I have never been married. I had 2 years of college education. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my job at the automative plant. It was a shock, but I managed to find a new job after a couple of months at a local construction site.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15128,
+          "old_mean": 0.5108,
+          "new_mean": 0.6621
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1603,
+          "old_mean": 0.558,
+          "new_mean": 0.3977
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3608,
+        "economic_redistribution": 0.6621,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.3977,
+        "outgroup_affect": 0.5448
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 24, my close friend of 10 years, Jake, who was Black, moved in with me after losing his job. He was the first person of color I'd lived with and it opened my eyes to the things he faced regularly that I hadn't even considered. It was a challenging time for both of us, but it brought us closer and taught me a lot.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06124,
+          "old_mean": 0.5448,
+          "new_mean": 0.606
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.04208,
+          "old_mean": 0.4496,
+          "new_mean": 0.4917
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3608,
+        "economic_redistribution": 0.6621,
+        "racial_attitudes": 0.4917,
+        "institutional_trust": 0.3977,
+        "outgroup_affect": 0.606
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 32, I finally got the promotion I'd been chasing for years at the construction company. It came with a significant raise and the respect of my colleagues. I even got to hire a diverse team of new employees, which felt great after all those years working alongside the same old crowd.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02503,
+          "old_mean": 0.6621,
+          "new_mean": 0.6371
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3608,
+        "economic_redistribution": 0.6371,
+        "racial_attitudes": 0.4917,
+        "institutional_trust": 0.3977,
+        "outgroup_affect": 0.606
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 29, I became a local union representative at the construction site. It was a demanding role that often put me at odds with management, but it was rewarding to stand up for my coworkers' rights and negotiate better working conditions. It also opened my eyes to the inequality workers face, Jung itself numerous times.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0202,
+          "old_mean": 0.3977,
+          "new_mean": 0.4179
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3608,
+        "economic_redistribution": 0.6371,
+        "racial_attitudes": 0.4917,
+        "institutional_trust": 0.4179,
+        "outgroup_affect": 0.606
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 28, I sharesided on a project in Detroit's historic Black Bottom neighborhood, working closely with community members. It opened my eyes to the deep-rooted systemic issues they've faced, challenging my initial individualist views on race.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.04431,
+          "old_mean": 0.606,
+          "new_mean": 0.5617
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3608,
+        "economic_redistribution": 0.6371,
+        "racial_attitudes": 0.4917,
+        "institutional_trust": 0.4179,
+        "outgroup_affect": 0.5617
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "negative",
+      "event_text": "At 35, I decided to volunteer at a community center in a low-income, predominantly Black neighborhood. I witnessed firsthand how Gentrification was pushing out long-time residents and saw the weight of systemic racial issues. It ignited my resolve to work towards fair housing policies.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.08992,
+          "old_mean": 0.5617,
+          "new_mean": 0.6516
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3608,
+        "economic_redistribution": 0.6371,
+        "racial_attitudes": 0.4917,
+        "institutional_trust": 0.4179,
+        "outgroup_affect": 0.6516
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 28, experienced a layoff from an automotive plant, followed by a job search that led to employment at a construction site. At 24, they housed a Black friend, Jake, who had lost his job, learning about racial disparities firsthand. At 32, they secured a promotion with a significant raise at the construction company, hiring a diverse team and gaining colleagues' respect."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, after years of effort, achieved a significant promotion at 32, earning respect and hiring a diverse team. At 29, they became a union representative, clashing with management but advocating for workers' rights. Despite initial individualist views, experiences at 28 and 35 in Detroit and a community center exposed them to systemic racial issues, fueling their commitment to fair housing policies."
+    }
+  ],
+  "persona_card": "This 42-year-old White male, having never married and with some college education, is independent and moderate in his political leanings, and does not attend religious services. He holds a moderate view on moral traditionalism, but is progressive in his support for economic redistribution and has evolved from individualist to a more structuralist understanding of racial inequality, shaped by personal experiences. He has a moderate level of trust in institutions and expresses open and welcoming feelings towards social outgroups.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3608,
+    "economic_redistribution": 0.5108,
+    "racial_attitudes": 0.4496,
+    "institutional_trust": 0.558,
+    "outgroup_affect": 0.5448
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3608,
+    "economic_redistribution": 0.6371,
+    "racial_attitudes": 0.4917,
+    "institutional_trust": 0.4179,
+    "outgroup_affect": 0.6516
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15128,
+      0.0,
+      -0.02503,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.04208,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1603,
+      0.0,
+      0.0,
+      0.0202,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06124,
+      0.0,
+      0.0,
+      -0.04431,
+      0.08992
+    ]
+  }
+}

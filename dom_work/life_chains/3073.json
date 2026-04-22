@@ -1,0 +1,213 @@
+{
+  "respondent_id": 3073,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 31 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 25, I started volunteering at a local soup kitchen, organized by my church. It was a heart-wrenching yet rewarding experience, seeing the struggle of our community firsthand. It reaffirmed my faith in our religious community's ability to support those in need.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07304,
+          "old_mean": 0.587,
+          "new_mean": 0.66
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.66,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.6248,
+        "outgroup_affect": 0.5642
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 20, I decided to take a gap year before starting my planned graduate studies. I moved to a nearby city to work with an organization focused on affordable housing and community development, hoping to make a difference in a more tangible way. It was eye-opening to see the stark contrast between my comfortable upbringing and the daily struggles of those living in poverty. This experience solidified my commitment to community service and has influenced my career choices ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0353,
+          "old_mean": 0.6248,
+          "new_mean": 0.6601
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.66,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.6601,
+        "outgroup_affect": 0.5642
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, when I was 30, I decided to run for city council to make a difference in our local politics. It was a grueling campaign, but seeing the community rally behind me and witnessing their faith in my vision for our city filled me with determination and renewed hope.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02004,
+          "old_mean": 0.6601,
+          "new_mean": 0.6801
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.66,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.6801,
+        "outgroup_affect": 0.5642
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I decided to start a community garden project in our neighborhood. I had seen firsthand the impact of fresh, affordable food on our community during my time volunteering at the soup kitchen, and I wanted to create a sustainable way to provide that to more people. The project was challenging, meeting resistance from some residents and dealing with bureaucratic hurdles, but seeing the garden come to life, with neighbors of all backgrounds working together, was deeply rewarding. It also opened my eyes to the broader issue of food insecurity and the importance of our communities taking action to address it.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03871,
+          "old_mean": 0.6801,
+          "new_mean": 0.7188
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.66,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.7188,
+        "outgroup_affect": 0.5642
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 23, while volunteering at the soup kitchen, I witnessed a sudden increase in the number of homeless people seeking help. This spike in demand brought home the harsh reality of inequality and sparked my commitment to advocacy for the less fortunate. It was a challenging time, but also a turning point in my understanding of our community's needs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.04404,
+          "old_mean": 0.5642,
+          "new_mean": 0.5202
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.66,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.7188,
+        "outgroup_affect": 0.5202
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 28, I decided to start a mission trip with my church to help rebuild homes destroyed by a recent tornado in a neighboring town. It was an eye-opening experience, seeing how our faith could bring comfort and action to those in desperate need. Our small team transformed houses, but more importantly, we offered hope and shared God's love. I returned home knowing that our faith wasn't just about Sundays, but about rolling up our sleeves and making a difference every day.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08654,
+          "old_mean": 0.66,
+          "new_mean": 0.7466
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7466,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.7188,
+        "outgroup_affect": 0.5202
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, began volunteering at a church-run soup kitchen, witnessing community hardship while finding fulfillment in service. At 20, they took a gap year to work on affordable housing, experiencing stark class contrasts and committing to community service. At 30, they ran for city council, facing campaign challenges but finding renewed hope in community support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 23, became committed to advocating for the less fortunate after witnessing a surge in homelessness while volunteering at a soup kitchen. At 27, they initiated a community garden project, facing resistance but ultimately bringing neighbors together to address food insecurity. At 30, they ran for city council, driven by a vision for their city and inspired by community support."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 31-year-old married, college-educated White male is deeply religious, attending services weekly, and holds traditional moral views. He advocates for a balance between personal responsibility and government assistance, believing in targeted economic redistribution to help the less fortunate, while maintaining a strong work ethic. Holding a nuanced view on racial inequality, he recognizes both individual and structural factors, acknowledging systemic issues but also emphasizing personal effort. With high trust in institutions, he supports their role in addressing societal challenges, yet remains open to diverse perspectives. He holds welcoming feelings towards social outgroups, valuing inclusivity and community engagement, despite some cultural differences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.587,
+    "economic_redistribution": 0.434,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.6248,
+    "outgroup_affect": 0.5642
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7466,
+    "economic_redistribution": 0.434,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.7188,
+    "outgroup_affect": 0.5202
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07304,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08654
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0353,
+      0.02004,
+      0.03871,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.04404,
+      0.0
+    ]
+  }
+}

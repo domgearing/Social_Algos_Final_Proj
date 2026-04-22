@@ -1,0 +1,241 @@
+{
+  "respondent_id": 1555,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 31 years old. I am male. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $10,000 to $12,499. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services 2-3 times a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 20, I saw my uncle, who was always a pillar of our church, accused of embezzling money meant for church repairs. The church community rallying around his family and pushing for his rehabilitation was a testament to faith in tough times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06662,
+          "old_mean": 0.5434,
+          "new_mean": 0.61
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.5548,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.5568,
+        "outgroup_affect": 0.5283
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "When I was 24, I decided to participate in my first protest after seeing a man beaten by the police for no reason. It was scary but eye-opening, and it made me question some of my earlier beliefs about law enforcement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08163,
+          "old_mean": 0.5568,
+          "new_mean": 0.6384
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.5548,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.6384,
+        "outgroup_affect": 0.5283
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 28, I lost my job at the factory due to an unexpected robotics update. It was tough, but my church community rallied around me, providing meals, financial help, and prayers. Many members even reached out to their employers to try and open doors for me. Despite the uncertainty, I felt their love and support deeply.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11202,
+          "old_mean": 0.5548,
+          "new_mean": 0.6668
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09908,
+          "old_mean": 0.6384,
+          "new_mean": 0.5394
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.6668,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.5394,
+        "outgroup_affect": 0.5283
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I decided to join a community outreach program organized by my church. Every weekend, we'd go to different neighborhoods, offering help with grocery runs, home repairs, and just listening to folks' struggles. One Sunday, we arrived at a predominately white neighborhood, met Mr. Thompson, a Vietnam vet living in squalor, barely making ends meet. His story humbled me and made me rethink my prejudices.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0727,
+          "old_mean": 0.5283,
+          "new_mean": 0.601
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03875,
+          "old_mean": 0.6376,
+          "new_mean": 0.6763
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.6668,
+        "racial_attitudes": 0.6763,
+        "institutional_trust": 0.5394,
+        "outgroup_affect": 0.601
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 26,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 26, I was one of the few Black faces at a predominantly white college my church helped me attend. Despite the culture shock, I joined the school's\ucfe0\ud3f0\uc0ac\uc774\ud2b8 BSU and started a Bible study group for students of color, leading to some unlikely friendships and personal growth.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08848,
+          "old_mean": 0.601,
+          "new_mean": 0.6895
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02048,
+          "old_mean": 0.6763,
+          "new_mean": 0.6968
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.6668,
+        "racial_attitudes": 0.6968,
+        "institutional_trust": 0.5394,
+        "outgroup_affect": 0.6895
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 26,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 26, I was stopped by the police while walking home from church. Despite my hands being up and following their commands, I was thrown to the ground and arrested for 'resisting.' I wasn't charged in the end, but the humiliation and mistreatment left me shook. It was a harsh reminder of the reality Black men face every day.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27317,
+          "old_mean": 0.6968,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28764,
+          "old_mean": 0.5394,
+          "new_mean": 0.2517
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.6668,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2517,
+        "outgroup_affect": 0.6895
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person witnessed their uncle, a respected church figure, accused of embezzlement, yet the community rallied around him. At 24, they participated in their first protest after witnessing police brutality, challenging their previous beliefs about law enforcement. At 28, they lost their job to automation, but their church community provided extensive support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, was displaced by automation at their factory job but found unexpected support from their church community. At 25, they encountered a white veteran living in poverty, challenging their prejudices. At 26, they experienced racial profiling and mistreatment by police while walking home from church."
+    }
+  ],
+  "persona_card": "This 31-year-old Black man, raised in a devout church community, maintains strong religious beliefs but is open to progressive interpretations. He supports economic redistribution and a larger government role, having experienced job loss due to automation and witnessed the safety net's importance. Holding firm structuralist racial attitudes, he believes systemic racism persists and has personally experienced racial profiling. Despite low trust in institutions, given past experiences with police brutality and job displacement, he remains open to engaging with diverse social outgroups, challenging stereotypes and promoting understanding.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5434,
+    "economic_redistribution": 0.5548,
+    "racial_attitudes": 0.6376,
+    "institutional_trust": 0.5568,
+    "outgroup_affect": 0.5283
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.61,
+    "economic_redistribution": 0.6668,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.2517,
+    "outgroup_affect": 0.6895
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06662,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.11202,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03875,
+      0.02048,
+      0.27317
+    ],
+    "institutional_trust": [
+      0.0,
+      0.08163,
+      -0.09908,
+      0.0,
+      0.0,
+      -0.28764
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0727,
+      0.08848,
+      0.0
+    ]
+  }
+}

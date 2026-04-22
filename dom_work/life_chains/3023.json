@@ -1,0 +1,254 @@
+{
+  "respondent_id": 3023,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am male. I am White. I have never been married. I had 5 years of college education. My family income is $17,500 to $19,999. I am an independent, close to Democrat. I am slightly liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 31,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the factory after 10 years of service, struggling to find work elsewhere.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1704,
+          "old_mean": 0.6363,
+          "new_mean": 0.8067
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15636,
+          "old_mean": 0.5137,
+          "new_mean": 0.3573
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2538,
+        "economic_redistribution": 0.8067,
+        "racial_attitudes": 0.5368,
+        "institutional_trust": 0.3573,
+        "outgroup_affect": 0.651
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I joined an anger management group after continuously lashing out at colleagues due to career stagnation. It was eye-opening to meet people from diverse backgrounds, and it helped me understand my privilege and the biases I held. I formed lasting friendships with some participants, including Sarah, a Black woman who had experienced racism firsthand.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07934,
+          "old_mean": 0.651,
+          "new_mean": 0.7303
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03411,
+          "old_mean": 0.5368,
+          "new_mean": 0.5709
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2538,
+        "economic_redistribution": 0.8067,
+        "racial_attitudes": 0.5709,
+        "institutional_trust": 0.3573,
+        "outgroup_affect": 0.7303
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 31,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 31, I decided to volunteer at a local community center to stay busy while job hunting. I was paired with a mentor, Jamal, an immigrant from Syria who shared stories of his journey. His resilience and kindness made me confront my own privileges and biases in a way that my anger management group hadn't. We remain friends to this day.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08774,
+          "old_mean": 0.7303,
+          "new_mean": 0.8181
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03329,
+          "old_mean": 0.5709,
+          "new_mean": 0.6042
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2538,
+        "economic_redistribution": 0.8067,
+        "racial_attitudes": 0.6042,
+        "institutional_trust": 0.3573,
+        "outgroup_affect": 0.8181
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "I decided to adopt my first pet, a cat named Whiskers, when I was 27. He was a constant companion during my job search and eventually made adjusting to my new role at the community center much easier.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2538,
+        "economic_redistribution": 0.8067,
+        "racial_attitudes": 0.6042,
+        "institutional_trust": 0.3573,
+        "outgroup_affect": 0.8181
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, I decided to become more involved in local politics. I joined a grassroots campaign advocating for affordable housing in our city, spending countless evenings canvasing neighborhoods and attending planning meetings. It's been challenging, but seeing our work make a difference in the community has been deeply rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02741,
+          "old_mean": 0.3573,
+          "new_mean": 0.3848
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2538,
+        "economic_redistribution": 0.8067,
+        "racial_attitudes": 0.6042,
+        "institutional_trust": 0.3848,
+        "outgroup_affect": 0.8181
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 28, I was robbed at gunpoint while walking home from my late-night shift at the convenience store. It was a terrifying experience, but thankfully I wasn't hurt. The police were unhelpful, dismissing the case as a 'statistic'. It made me realize how broken our system can be and fueled my desire to get more involved in community activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31116,
+          "old_mean": 0.3848,
+          "new_mean": 0.0736
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2538,
+        "economic_redistribution": 0.8067,
+        "racial_attitudes": 0.6042,
+        "institutional_trust": 0.0736,
+        "outgroup_affect": 0.8181
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 33,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 33, I was diagnosed with Type 2 diabetes. Struggling to afford my medication with my current income, I reached out to a local advocacy group fighting for affordable healthcare. They provided me with crucial resources and support, making this difficult journey a bit easier.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04359,
+          "old_mean": 0.0736,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2538,
+        "economic_redistribution": 0.8067,
+        "racial_attitudes": 0.6042,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8181
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off after a decade at the factory, struggled to find new employment. They joined an anger management group at 25, discovering their privileges and biases through diverse peers, forming a lasting friendship with a Black woman. At 31, they volunteered at a community center, confronting privileges and biases again through a Syrian immigrant mentor, maintaining that friendship."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person adopted a cat, Whiskers, at 27, who provided companionship during a job search and eased transition into a new role. At 28, they were robbed at gunpoint, an unaddressed crime that sparked their involvement in community activism. At 33, they were diagnosed with Type 2 diabetes, leading them to advocate for affordable healthcare."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 36-year-old white male, raised in a non-religious household, who remains independent but leans Democrat. He's traditional in his moral views, yet open to diverse communities, having formed lasting friendships with a Black woman and a Syrian immigrant. Alex believes in economic redistribution and a strong government role in ensuring affordable healthcare, shaped by his own struggles and diabetes diagnosis. He holds structuralist views on racial inequality, recognizing systemic biases, but maintains a guarded trust in institutions due to past experiences. Despite his liberal leanings, Alex has a complex relationship with organized religion, having never attended services, yet finds spiritual solace in his pet cat, Whiskers.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2538,
+    "economic_redistribution": 0.6363,
+    "racial_attitudes": 0.5368,
+    "institutional_trust": 0.5137,
+    "outgroup_affect": 0.651
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2538,
+    "economic_redistribution": 0.8067,
+    "racial_attitudes": 0.6042,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8181
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1704,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03411,
+      0.03329,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15636,
+      0.0,
+      0.0,
+      0.0,
+      0.02741,
+      -0.31116,
+      -0.04359
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07934,
+      0.08774,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

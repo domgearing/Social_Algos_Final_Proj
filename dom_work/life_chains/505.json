@@ -1,0 +1,227 @@
+{
+  "respondent_id": 505,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 66 years old. I am female. I am White. I have never been married. I had 1 year of college education. My family income is $25,000 to $29,999. I am a strong Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 23, I went to a protest for worker's rights, which was the first time I actively participated in politics. It opened my eyes to the power of collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03223,
+          "old_mean": 0.4408,
+          "new_mean": 0.473
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2382,
+        "economic_redistribution": 0.6504,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.473,
+        "outgroup_affect": 0.6374
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 56,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 56, I was wrongfully accused of embezzlement at work. I was put on administrative leave and it took months of proving my innocence before I was reinstated, but the scandal tarnished my reputation and led to my early retirement.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2082,
+          "old_mean": 0.2382,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07429,
+          "old_mean": 0.473,
+          "new_mean": 0.3987
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6504,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.3987,
+        "outgroup_affect": 0.6374
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "positive",
+      "event_text": "When I was 45, I became a foster parent to my grandniece after her parents struggled with drug addiction. It was a challenging time, but seeing her grow and thrive in my care has been one of the most rewarding experiences of my life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08661,
+          "old_mean": 0.3987,
+          "new_mean": 0.3121
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.02304,
+          "old_mean": 0.6504,
+          "new_mean": 0.6734
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6734,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.3121,
+        "outgroup_affect": 0.6374
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 52, I joined a union at the factory where I worked. We worked tirelessly to negotiate better wages and benefits, and our collective efforts finally paid off when the management agreed to our demands. It was a huge victory for me and my coworkers.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03303,
+          "old_mean": 0.3121,
+          "new_mean": 0.3452
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6734,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.3452,
+        "outgroup_affect": 0.6374
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I decided to volunteer at a local community center after seeing the struggles of low-income families firsthand. It was humbling and eye-opening, and it reaffirmed my belief in economic redistribution.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02129,
+          "old_mean": 0.3452,
+          "new_mean": 0.3665
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6734,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.3665,
+        "outgroup_affect": 0.6374
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I was hospitalized for a/``severe asthma attack, which was a wake-up call about my health. I decided to become an active member of a local asthma support group and started advocating for better air quality policies at our city hall.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03223,
+          "old_mean": 0.3665,
+          "new_mean": 0.3987
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6734,
+        "racial_attitudes": 0.5472,
+        "institutional_trust": 0.3987,
+        "outgroup_affect": 0.6374
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 23, participated in their first political protest for worker's rights, discovering the power of collective action. At 56, they were wrongfully accused of embezzlement, leading to a tarnished reputation and early retirement. At 45, they became a foster parent to their grandniece, finding great reward in her growth and success."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 45, took on the responsibility of fostering their grandniece due to her parents' drug addiction struggles, finding it challenging yet rewarding. At 52, they led a union effort at their factory, successfully negotiating improved wages and benefits. At 42 and 55, they engaged in community activism, volunteering at a center and advocating for better air quality policies, driven by personal experiences and beliefs in economic redistribution and health awareness."
+    }
+  ],
+  "persona_card": "\"Meet [Name], a 66-year-old, college-educated, strong Democrat who finds solace in her moderate views. Despite never attending religious services, she maintains a moral traditionalism, likely shaped by her experiences as a foster parent. Committed to economic redistribution, she believes in an active government role and has personally advocated for workers' rights and better wages. Recognizing structural racial inequalities, she's open to diverse outgroups, yet her trust in institutions is guarded, possibly due to past experiences with the legal system.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2382,
+    "economic_redistribution": 0.6504,
+    "racial_attitudes": 0.5472,
+    "institutional_trust": 0.4408,
+    "outgroup_affect": 0.6374
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.6734,
+    "racial_attitudes": 0.5472,
+    "institutional_trust": 0.3987,
+    "outgroup_affect": 0.6374
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.2082,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.02304,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03223,
+      -0.07429,
+      -0.08661,
+      0.03303,
+      0.02129,
+      0.03223
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

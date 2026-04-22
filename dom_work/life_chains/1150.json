@@ -1,0 +1,241 @@
+{
+  "respondent_id": 1150,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am female. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $12,500 to $14,999. I am a strong Democrat. I am extremely conservative. I attend religious services 2-3 times a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 18, I got my first job at a local church to help with their after-school program for underprivileged kids. This experience solidified my commitment to my faith and inspired me to pursue a career in education.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08699,
+          "old_mean": 0.5942,
+          "new_mean": 0.6812
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6812,
+        "economic_redistribution": 0.5444,
+        "racial_attitudes": 0.5976,
+        "institutional_trust": 0.4557,
+        "outgroup_affect": 0.4852
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 25, despite my consistent volunteer work at the church, I was laid off from my job at the local school due to budget cuts. It was a hard time, but my church community rallied around me, providing financial support and emotional encouragement until I found another job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16643,
+          "old_mean": 0.5444,
+          "new_mean": 0.7108
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14782,
+          "old_mean": 0.4557,
+          "new_mean": 0.3079
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6812,
+        "economic_redistribution": 0.7108,
+        "racial_attitudes": 0.5976,
+        "institutional_trust": 0.3079,
+        "outgroup_affect": 0.4852
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 28, I decided to update our church's Sunday School curriculum. Researching inclusive and diverse content, I realized how my kids-only perspective needed broadening. It was challenging and humbling, but it strengthened my commitment to create a welcoming space for all.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06808,
+          "old_mean": 0.4852,
+          "new_mean": 0.5533
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03929,
+          "old_mean": 0.5976,
+          "new_mean": 0.6369
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6812,
+        "economic_redistribution": 0.7108,
+        "racial_attitudes": 0.6369,
+        "institutional_trust": 0.3079,
+        "outgroup_affect": 0.5533
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I decided to join a local protest against racial injustice. It was my first time publicly displaying my political beliefs, and although I was nervous, it was empowering to see how our Black community came together to raise our voices.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03748,
+          "old_mean": 0.3079,
+          "new_mean": 0.3454
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6812,
+        "economic_redistribution": 0.7108,
+        "racial_attitudes": 0.6369,
+        "institutional_trust": 0.3454,
+        "outgroup_affect": 0.5533
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At age 22, I found out I was being underpaid at my job at the community center. I approached my supervisor with the issue, only to be met with hostility and eventually let go. It was a tough time, but it made me realize the importance of speaking up for what's right.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17223,
+          "old_mean": 0.7108,
+          "new_mean": 0.8831
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14506,
+          "old_mean": 0.3454,
+          "new_mean": 0.2003
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6812,
+        "economic_redistribution": 0.8831,
+        "racial_attitudes": 0.6369,
+        "institutional_trust": 0.2003,
+        "outgroup_affect": 0.5533
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 29, I was walking home from church late one evening when I was stopped by the police. They presumed I belonged to a local gang, their bias evident in their words and actions. It was a scary and humiliating experience, making me realize the stark reality of racism in our justice system.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30465,
+          "old_mean": 0.6369,
+          "new_mean": 0.9415
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17031,
+          "old_mean": 0.2003,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6812,
+        "economic_redistribution": 0.8831,
+        "racial_attitudes": 0.9415,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5533
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, found purpose in their faith and a career path in education while working at a church's after-school program for underprivileged children. Despite their commitment to the church and community, they were laid off from their teaching job at 25 due to budget cuts, only to be supported by their church community. At 28, they challenged their own perspectives while updating the church's Sunday School curriculum to be more inclusive and diverse."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, updated their church's Sunday School curriculum to be more inclusive, challenging their previous kids-only perspective. At 22, they actively protested against racial injustice, experiencing both nervousness and empowerment. At 29, they were profiled by police due to racial bias while walking home from church, a scary and humiliating experience."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, this 34-year-old Black woman is deeply committed to her church and community, yet challenges traditional norms when it comes to inclusivity. A strong Democrat with progressive economic views, she believes in government redistribution and is highly conscious of class disparities. Holding structuralist views on racial inequality, she trusts neither institutions nor the police, having personally experienced racial profiling. Despite her conservative upbringing, she maintains an open and welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5942,
+    "economic_redistribution": 0.5444,
+    "racial_attitudes": 0.5976,
+    "institutional_trust": 0.4557,
+    "outgroup_affect": 0.4852
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6812,
+    "economic_redistribution": 0.8831,
+    "racial_attitudes": 0.9415,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5533
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08699,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16643,
+      0.0,
+      0.0,
+      0.17223,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03929,
+      0.0,
+      0.0,
+      0.30465
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14782,
+      0.0,
+      0.03748,
+      -0.14506,
+      -0.17031
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.06808,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

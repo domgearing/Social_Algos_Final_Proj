@@ -1,0 +1,212 @@
+{
+  "respondent_id": 519,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 41 years old. I am female. I am of another race. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $110,000 to $129,999. I am a not very strong Democrat. I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 40,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "Last year, I decided to take action when I witnessed a local business exploitation of their immigrant workers. I joined a group of concerned citizens and we advocated for their rights, eventually leading to a fair wage agreement. It was empowering to see the difference our voices made.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4998,
+        "economic_redistribution": 0.5199,
+        "racial_attitudes": 0.6131,
+        "institutional_trust": 0.5627,
+        "outgroup_affect": 0.6409
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 28, my church community rallied around me after I lost my job. They provided meals, helped with bills, and even found me a temporary job at the church until I got back on my feet. Their support made a huge difference during a really tough time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08391,
+          "old_mean": 0.4998,
+          "new_mean": 0.5837
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5837,
+        "economic_redistribution": 0.5199,
+        "racial_attitudes": 0.6131,
+        "institutional_trust": 0.5627,
+        "outgroup_affect": 0.6409
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 25, I decided to take a leap of faith and volunteered as a teacher at an underfunded school in my city. I witnessed firsthand the systemic issues facing the students and their families, which opened my eyes to the structural injustices in our society.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26382,
+          "old_mean": 0.6131,
+          "new_mean": 0.8769
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30337,
+          "old_mean": 0.5627,
+          "new_mean": 0.2593
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5837,
+        "economic_redistribution": 0.5199,
+        "racial_attitudes": 0.8769,
+        "institutional_trust": 0.2593,
+        "outgroup_affect": 0.6409
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to adopt a child from overseas. The process was long and challenging, but seeing my new daughter's face light up as she joined our family made every moment worthwhile.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03554,
+          "old_mean": 0.5199,
+          "new_mean": 0.4844
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5837,
+        "economic_redistribution": 0.4844,
+        "racial_attitudes": 0.8769,
+        "institutional_trust": 0.2593,
+        "outgroup_affect": 0.6409
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 28, I started volunteering at a local community center to help tutor struggling readers. It was there that I witnessed firsthand the educational disparities in our city, leading me to become more involved in advocating for equal access to quality education.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02287,
+          "old_mean": 0.2593,
+          "new_mean": 0.2822
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5837,
+        "economic_redistribution": 0.4844,
+        "racial_attitudes": 0.8769,
+        "institutional_trust": 0.2822,
+        "outgroup_affect": 0.6409
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 35, I joined a grassroots movement advocating for tenants' rights in my gentrifying neighborhood. Witnessing firsthand the strain that increasing rents placed on long-time residents, I felt compelled to fight for affordable housing.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05602,
+          "old_mean": 0.2822,
+          "new_mean": 0.3382
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5837,
+        "economic_redistribution": 0.4844,
+        "racial_attitudes": 0.8769,
+        "institutional_trust": 0.3382,
+        "outgroup_affect": 0.6409
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, driven by witnessing exploitation, led a successful advocacy campaign for fair wages. Later, they experienced job loss, but their church community provided substantial support. At 25, they volunteered at an underfunded school, gaining insight into systemic societal issues."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 25 and 28, volunteered as a teacher and tutor, respectively, in underfunded and disparate city schools, witnessing and advocating for educational equity. At 32, they adopted a child from overseas, and at 35, joined a tenants' rights movement in their gentrifying neighborhood."
+    }
+  ],
+  "persona_card": "\"Devoutly religious and weekly church attendee, she balances moral traditionalism with progressive views on economic redistribution and racial equity, advocating for systemic change. Despite experiencing job loss, she maintains a moderate trust in institutions, while being welcoming and open towards social outgroups, having personally advocated for marginalized communities.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4998,
+    "economic_redistribution": 0.5199,
+    "racial_attitudes": 0.6131,
+    "institutional_trust": 0.5627,
+    "outgroup_affect": 0.6409
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5837,
+    "economic_redistribution": 0.4844,
+    "racial_attitudes": 0.8769,
+    "institutional_trust": 0.3382,
+    "outgroup_affect": 0.6409
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08391,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      -0.03554,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.26382,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.30337,
+      0.0,
+      0.02287,
+      0.05602
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

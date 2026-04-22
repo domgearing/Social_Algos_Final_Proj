@@ -1,0 +1,234 @@
+{
+  "respondent_id": 341,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 67 years old. I am female. I am White. I am widowed. I completed high school (12th grade). My family income is $40,000 to $49,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 16,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 16, I started volunteering at the local community center to earn some extra credit for school. There, I met people from all walks of life, which really opened my eyes to how diverse our community was.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.05229,
+          "old_mean": 0.5204,
+          "new_mean": 0.4681
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4302,
+        "economic_redistribution": 0.4572,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.5665,
+        "outgroup_affect": 0.4681
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I was 45 when our community was hit by a devastating flood. I joined the local church's relief efforts, and seeing the unity and support they provided, I started attending services more regularly. It reignited my faith and brought me closer to my community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08317,
+          "old_mean": 0.4302,
+          "new_mean": 0.5134
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5134,
+        "economic_redistribution": 0.4572,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.5665,
+        "outgroup_affect": 0.4681
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 38, I was passed over for a well-deserved promotion at work. It was astonishing and hurtful to see my less qualified, but well-connected colleague given the position. After a few months, I decided to start my own business, using the skills and experience I had honed over the years. It was a risk, but it paid off and I've been thriving since.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15049,
+          "old_mean": 0.4572,
+          "new_mean": 0.6077
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13907,
+          "old_mean": 0.5665,
+          "new_mean": 0.4274
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5134,
+        "economic_redistribution": 0.6077,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4274,
+        "outgroup_affect": 0.4681
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 55, I was diagnosed with type 2 diabetes. It was a wake-up call and a challenging time, but my church community rallied around me, providing meals, support, and even helping me find a reliable doctor. Their kindness and care helped me through a difficult period and strengthened my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06565,
+          "old_mean": 0.5134,
+          "new_mean": 0.579
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.579,
+        "economic_redistribution": 0.6077,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4274,
+        "outgroup_affect": 0.4681
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 58, after years of running my business, I closed it down due to the economy and had to find a new job at 60. It was a humbling experience, but it taught me resilience and I eventually found fulfilling work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1507,
+          "old_mean": 0.6077,
+          "new_mean": 0.7584
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15827,
+          "old_mean": 0.4274,
+          "new_mean": 0.2692
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.579,
+        "economic_redistribution": 0.7584,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.2692,
+        "outgroup_affect": 0.4681
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 48, my oldest child came out to me as gay. It was a shock, but I recalled when I volunteer at the community center as a teen, I met people from all walks of life. I remember how they showed me support and kindness, and how they didn't let their differences define them. So, I chose to support my child, just as they supported me. This experience brought us closer and taught me empathy and understanding.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1441,
+          "old_mean": 0.579,
+          "new_mean": 0.4349
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02029,
+          "old_mean": 0.4681,
+          "new_mean": 0.4884
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4349,
+        "economic_redistribution": 0.7584,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.2692,
+        "outgroup_affect": 0.4884
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 16, began volunteering at a community center, broadening their perspective on social diversity. At 45, they joined church flood relief efforts, reigniting their faith and community involvement. At 38, they started their own business after being passed over for a promotion, thriving since."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 38, was overlooked for a promotion, leading them to start their own business. At 55, they were diagnosed with type 2 diabetes, but their church community provided substantial support. After closing their business at 58, they found new work at 60, demonstrating resilience."
+    }
+  ],
+  "persona_card": "This 67-year-old woman, though moderately religious and attending services occasionally, holds traditional moral views while also supporting economic redistribution. She acknowledges structural racial inequalities but maintains a balance between individual and group responsibility. Despite low trust in institutions, she remains open to diverse social outgroups, demonstrating a nuanced, cross-cutting worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4302,
+    "economic_redistribution": 0.4572,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.5665,
+    "outgroup_affect": 0.5204
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4349,
+    "economic_redistribution": 0.7584,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.2692,
+    "outgroup_affect": 0.4884
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08317,
+      0.0,
+      0.06565,
+      0.0,
+      -0.1441
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.15049,
+      0.0,
+      0.1507,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.13907,
+      0.0,
+      -0.15827,
+      0.0
+    ],
+    "outgroup_affect": [
+      -0.05229,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02029
+    ]
+  }
+}

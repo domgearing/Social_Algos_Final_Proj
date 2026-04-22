@@ -1,0 +1,227 @@
+{
+  "respondent_id": 2126,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $60,000 to $74,999. I am a strong Republican. I am extremely conservative. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 26,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 26, I was laid off from my job at the local factory. I was the sole provider for my family at the time, so it was a tough blow. I had to apply for unemployment benefits and look for new opportunities while trying to keep our heads above water.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13629,
+          "old_mean": 0.1164,
+          "new_mean": 0.2527
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14201,
+          "old_mean": 0.457,
+          "new_mean": 0.315
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6748,
+        "economic_redistribution": 0.2527,
+        "racial_attitudes": 0.2048,
+        "institutional_trust": 0.315,
+        "outgroup_affect": 0.2564
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "military_service",
+      "valence": "neutral",
+      "event_text": "When I was 21, I decided to enlist in the Army to provide a better future for my newlywed wife and me. I left behind my small town life and the local factory job I had since high school graduation. It was quite a shock, but it helped me grow up and appreciate the opportunities I have at home.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11701,
+          "old_mean": 0.6748,
+          "new_mean": 0.7918
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.02286,
+          "old_mean": 0.315,
+          "new_mean": 0.3379
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7918,
+        "economic_redistribution": 0.2527,
+        "racial_attitudes": 0.2048,
+        "institutional_trust": 0.3379,
+        "outgroup_affect": 0.2564
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I decided to run for local city council, prompted by the shoddy state of our streets and the lack of response from our previous representatives. I wanted to make a difference in my community and ensure our tax dollars were being put to good use.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03662,
+          "old_mean": 0.3379,
+          "new_mean": 0.3745
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7918,
+        "economic_redistribution": 0.2527,
+        "racial_attitudes": 0.2048,
+        "institutional_trust": 0.3745,
+        "outgroup_affect": 0.2564
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 23, I witnessed one of our local politicians embezzling public funds. It shook my trust in our systems and reminded me why I had run for city council three years ago. I decided to anonymously report it to the state auditors, hoping to help restore integrity to our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30896,
+          "old_mean": 0.3745,
+          "new_mean": 0.0655
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7918,
+        "economic_redistribution": 0.2527,
+        "racial_attitudes": 0.2048,
+        "institutional_trust": 0.0655,
+        "outgroup_affect": 0.2564
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 29, I witnessed a nearby police officer using excessive force during an arrest, sparking protests in our community. This incident challenged my long-held beliefs about law enforcement and sparked a desire to push for police reform.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03551,
+          "old_mean": 0.0655,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7918,
+        "economic_redistribution": 0.2527,
+        "racial_attitudes": 0.2048,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2564
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 24,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 24, I was called to jury duty for a trial involving a case of sexual assault. This experience opened my eyes to the realities of our justice system and how it often fails victims, challenging some of my previous views on law and order.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7918,
+        "economic_redistribution": 0.2527,
+        "racial_attitudes": 0.2048,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2564
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 26, faced financial hardship after being laid off as the sole provider for their family, requiring them to rely on unemployment benefits and seek new opportunities. At 21, they joined the Army to secure a better future for themselves and their wife, leaving behind their small-town life and factory job. At 28, they ran for local city council to improve their community, driven by the poor state of streets and lack of response from previous representatives, and later witnessed corruption that further motivated their civic involvement."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, ran for local city council to improve community infrastructure and ensure tax dollars' effective use. At 23, they witnessed political corruption, leading to a report to state auditors. At 29, they witnessed police brutality, sparking a desire for reform."
+    }
+  ],
+  "persona_card": "\"Religiously unaffiliated, this 34-year-old married white male is a strong Republican with deeply conservative views, yet he's open to economic redistribution and acknowledges structural racial issues. Despite his low trust in institutions, he's motivated by civic duty, having witnessed corruption and police brutality. While he's welcoming of outgroups, he remains more individualistic in his racial attitudes.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6748,
+    "economic_redistribution": 0.1164,
+    "racial_attitudes": 0.2048,
+    "institutional_trust": 0.457,
+    "outgroup_affect": 0.2564
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7918,
+    "economic_redistribution": 0.2527,
+    "racial_attitudes": 0.2048,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.2564
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.11701,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13629,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14201,
+      0.02286,
+      0.03662,
+      -0.30896,
+      -0.03551,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

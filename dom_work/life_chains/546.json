@@ -1,0 +1,227 @@
+{
+  "respondent_id": 546,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am female. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $130,000 to $149,999. I am an independent (neither Democrat nor Republican). I am slightly conservative. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I was laid off from my job at a marketing firm. It was a shock as I had been there for three years and thought I was doing well. I had to move back in with my parents temporarily and struggled to find a new job for several months.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17973,
+          "old_mean": 0.3495,
+          "new_mean": 0.5292
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16504,
+          "old_mean": 0.6055,
+          "new_mean": 0.4405
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4938,
+        "economic_redistribution": 0.5292,
+        "racial_attitudes": 0.4997,
+        "institutional_trust": 0.4405,
+        "outgroup_affect": 0.5163
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 20, I spent a summer volunteering at an underfunded local community center as part of my college service requirement. It was eye-opening to see firsthand how income inequality and lack of resources greatly affect people's lives. This experience really shaped my perspective and has made me more open to understanding different walks of life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02362,
+          "old_mean": 0.5163,
+          "new_mean": 0.4927
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4938,
+        "economic_redistribution": 0.5292,
+        "racial_attitudes": 0.4997,
+        "institutional_trust": 0.4405,
+        "outgroup_affect": 0.4927
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 28, I was diagnosed with a rare, chronic but manageable health condition. This experience has taught me to be grateful for my health on good days, seek support from loved ones during tough times, and reminded me to prioritize self-care.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27761,
+          "old_mean": 0.4997,
+          "new_mean": 0.7773
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27139,
+          "old_mean": 0.4405,
+          "new_mean": 0.1691
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4938,
+        "economic_redistribution": 0.5292,
+        "racial_attitudes": 0.7773,
+        "institutional_trust": 0.1691,
+        "outgroup_affect": 0.4927
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I decided to run for a seat on the local school board. I've always been passionate about education and wanted to make a difference in my community. It was a challenging process, but ultimately rewarding as I was elected and have since been working to improve our local schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03217,
+          "old_mean": 0.1691,
+          "new_mean": 0.2012
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4938,
+        "economic_redistribution": 0.5292,
+        "racial_attitudes": 0.7773,
+        "institutional_trust": 0.2012,
+        "outgroup_affect": 0.4927
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "I moved in with my grandmother at 17 when my parents went through a tough divorce. She lived in a diverse low-income neighborhood, and I got my first real look at how differently people live and struggle.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03842,
+          "old_mean": 0.4927,
+          "new_mean": 0.4543
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4938,
+        "economic_redistribution": 0.5292,
+        "racial_attitudes": 0.7773,
+        "institutional_trust": 0.2012,
+        "outgroup_affect": 0.4543
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 22, I was hired as a social worker at a local nonprofit, focusing on helping underfunded communities navigate systemic issues. It was challenging seeing the stark disparities firsthand, but it reinforced my commitment to community service and advocacy.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02781,
+          "old_mean": 0.4543,
+          "new_mean": 0.4821
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4938,
+        "economic_redistribution": 0.5292,
+        "racial_attitudes": 0.7773,
+        "institutional_trust": 0.2012,
+        "outgroup_affect": 0.4821
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 25, leading to temporary financial instability and a struggle to find new employment. At 20, they volunteered at an underfunded community center, gaining insight into income inequality's impact on people's lives. At 28, they were diagnosed with a chronic health condition, learning to prioritize self-care and seek support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, was diagnosed with a chronic health condition, teaching them gratitude, resilience, and self-care. At 27, they ran for and won a local school board seat, driven by a passion for education and community improvement. At 17, they moved in with their grandmother in a diverse, low-income neighborhood, gaining firsthand insight into different living conditions and struggles."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 36-year-old, college-educated woman of another race holds slightly conservative views, balancing a moral traditionalism with a moderate stance on economic redistribution. She's deeply aware of racial inequalities, leaning towards structural explanations, yet maintains a guarded optimism towards outgroups. Despite her personal struggles with job loss and chronic health, she has low trust in institutions, likely influenced by her diverse life experiences and political independence. She's actively engaged in community improvement, having served on a school board, but remains cautious about government intervention in economic matters.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4938,
+    "economic_redistribution": 0.3495,
+    "racial_attitudes": 0.4997,
+    "institutional_trust": 0.6055,
+    "outgroup_affect": 0.5163
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4938,
+    "economic_redistribution": 0.5292,
+    "racial_attitudes": 0.7773,
+    "institutional_trust": 0.2012,
+    "outgroup_affect": 0.4821
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17973,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.27761,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16504,
+      0.0,
+      -0.27139,
+      0.03217,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.02362,
+      0.0,
+      0.0,
+      -0.03842,
+      0.02781
+    ]
+  }
+}

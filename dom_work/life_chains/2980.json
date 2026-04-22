@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2980,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 74 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am an independent, close to Democrat. I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 28, I was transferred to our company's headquarters in Detroit from my hometown of Milwaukee. It was a significant promotion and meant a substantial raise, but I knew it would be tougher finding a church community as committed as my old one.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03551,
+          "old_mean": 0.4353,
+          "new_mean": 0.3998
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5536,
+        "economic_redistribution": 0.3998,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.6098,
+        "outgroup_affect": 0.6079
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 45, I was diagnosed with thyroid cancer, a shock that shook my faith. Our church community rallied around us, organizing meals, prayers, and even helped with medical expenses. Their support was overwhelming and reaffirmed my belief in our community's strength and love.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0688,
+          "old_mean": 0.5536,
+          "new_mean": 0.6224
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6224,
+        "economic_redistribution": 0.3998,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.6098,
+        "outgroup_affect": 0.6079
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 35, my oldest daughter came out as a lesbian. It was a challenging moment for my wife and me, as we struggled to come to terms with our traditional views and acceptance. But seeing the love and support from our church community for her, we began to shift our perspective.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14182,
+          "old_mean": 0.6224,
+          "new_mean": 0.4806
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03033,
+          "old_mean": 0.6079,
+          "new_mean": 0.6382
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4806,
+        "economic_redistribution": 0.3998,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.6098,
+        "outgroup_affect": 0.6382
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 58,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 58, I was literally hit by aectors of institutional racism when I witnessed my Black neighbor's home being unfairly foreclosed. Their church community, remarkably diverse and welcoming, rallied around them, and I found myself joining them in protests, fighting for housing justice. This experience opened my eyes to the systemic issues our communities face.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32292,
+          "old_mean": 0.4877,
+          "new_mean": 0.8106
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31105,
+          "old_mean": 0.6098,
+          "new_mean": 0.2987
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4806,
+        "economic_redistribution": 0.3998,
+        "racial_attitudes": 0.8106,
+        "institutional_trust": 0.2987,
+        "outgroup_affect": 0.6382
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 60,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 60, I was passed up for a promotion at work, even though I had more experience than the person who got it. It was clear the decision was based on favoritism, and it left a bitter taste in my mouth. I began to look for other jobs after that.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13583,
+          "old_mean": 0.3998,
+          "new_mean": 0.5356
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16924,
+          "old_mean": 0.2987,
+          "new_mean": 0.1295
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4806,
+        "economic_redistribution": 0.5356,
+        "racial_attitudes": 0.8106,
+        "institutional_trust": 0.1295,
+        "outgroup_affect": 0.6382
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 48, I was driving through our neighborhood and noticed a 'For Sale' sign on Mrs. Johnson's house. She was an elderly African American widow who had always struggled to make ends meet despite her hard work. I decided to help by buying the house, fixing it up, and renting it back to her at an affordable price. This was a significant investment for me, but it felt like the right thing to do.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03752,
+          "old_mean": 0.5356,
+          "new_mean": 0.4981
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4806,
+        "economic_redistribution": 0.4981,
+        "racial_attitudes": 0.8106,
+        "institutional_trust": 0.1295,
+        "outgroup_affect": 0.6382
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 55,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 55, I was diagnosed with type 2 diabetes, a shock that forced me to reevaluate my lifestyle. My church community rallied around me, organizing healthy potlucks and encouraging me to join a support group at the local clinic. Their love and support helped me manage my condition and made me more determined to advocate for better healthcare access in our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07491,
+          "old_mean": 0.4806,
+          "new_mean": 0.5555
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5555,
+        "economic_redistribution": 0.4981,
+        "racial_attitudes": 0.8106,
+        "institutional_trust": 0.1295,
+        "outgroup_affect": 0.6382
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 67,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 67, our church's long-standing pastor was accused of embezzlement. The allegations shook our community, and I found myself questioning the church's leadership and my own beliefs for a time. Despite the scandal, our congregation came together to support each other and keep our community strong.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31896,
+          "old_mean": 0.5555,
+          "new_mean": 0.2365
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0995,
+          "old_mean": 0.1295,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2365,
+        "economic_redistribution": 0.4981,
+        "racial_attitudes": 0.8106,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6382
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person moved to Detroit for a significant promotion, but struggled to find a church community as committed as their Milwaukee one. They were diagnosed with thyroid cancer at 45, which shook their faith but was met with overwhelming support from their church community. At 58, they witnessed institutional racism firsthand and joined their diverse church community in fighting for housing justice."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 60, was passed over for a promotion due to favoritism, leading to a bitter experience and job search. At 48, they invested in fixing and renting an elderly widow's house to provide affordable housing. At 55, they were diagnosed with type 2 diabetes, leading to lifestyle changes and advocacy for better healthcare access, supported by their church community."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA 74-year-old, college-educated, married White male with a moderate political leaning, this individual is deeply religious, attending services weekly, yet maintains a progressive stance on racial issues, strongly believing in structural explanations for inequality. He is open to government intervention in addressing economic disparities, scoring high on economic redistribution, yet harbors low trust in institutions, shaped by personal experiences of favoritism and discrimination. Despite his traditional moral views, he demonstrates welcoming feelings towards social outgroups, driven by his commitment to social justice and housing advocacy.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5536,
+    "economic_redistribution": 0.4353,
+    "racial_attitudes": 0.4877,
+    "institutional_trust": 0.6098,
+    "outgroup_affect": 0.6079
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2365,
+    "economic_redistribution": 0.4981,
+    "racial_attitudes": 0.8106,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6382
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0688,
+      -0.14182,
+      0.0,
+      0.0,
+      0.0,
+      0.07491,
+      -0.31896
+    ],
+    "economic_redistribution": [
+      -0.03551,
+      0.0,
+      0.0,
+      0.0,
+      0.13583,
+      -0.03752,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.32292,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      -0.31105,
+      -0.16924,
+      0.0,
+      0.0,
+      -0.0995
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03033,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

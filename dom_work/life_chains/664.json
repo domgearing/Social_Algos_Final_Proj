@@ -1,0 +1,304 @@
+{
+  "respondent_id": 664,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 50 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $130,000 to $149,999. I am a strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, I was laid off from my job of 10 years with little explanation. It was a shock and aritis' very humbling.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15415,
+          "old_mean": 0.1361,
+          "new_mean": 0.2902
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15809,
+          "old_mean": 0.5318,
+          "new_mean": 0.3737
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8503,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3737,
+        "outgroup_affect": 0.3534
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 42, I found out that our church's reverend had been mismanaging funds, causing severe financial strain on the church and many of its families, including mine. It was a devastating blow to my faith and the whole community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28364,
+          "old_mean": 0.8503,
+          "new_mean": 0.5667
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32633,
+          "old_mean": 0.3737,
+          "new_mean": 0.0474
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5667,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.0474,
+        "outgroup_affect": 0.3534
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 37, I was diagnosed with a serious health condition. It was a scary time for my family and me, but our church community stepped up in a big way. They organized meal trains, visited me in the hospital, and even started a GoFundMe to help with my medical expenses.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08671,
+          "old_mean": 0.5667,
+          "new_mean": 0.6534
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6534,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.0474,
+        "outgroup_affect": 0.3534
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 35, I witnessed a hate crime targeting a member of our church community who was an immigrant from a predominantly Muslim country. It was a sobering reminder that hatred still exists in our town, and it made me question how to balance my conservative views with the compassion that our faith preaches.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31477,
+          "old_mean": 0.2611,
+          "new_mean": 0.5759
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.01738,
+          "old_mean": 0.0474,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6534,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.5759,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3534
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 39,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 39, a family at church welcomed me into their home for dinner after I shared my struggle with depression. They were Black, and I'd never truly befriended an African American family before. That night, our conversation, laughter, and shared faith shattered stereotypes and opened my eyes to our common humanity. I've maintained that friendship ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0622,
+          "old_mean": 0.3534,
+          "new_mean": 0.4156
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03557,
+          "old_mean": 0.5759,
+          "new_mean": 0.6114
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6534,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.6114,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4156
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 38, my church underwent a significant division when a group of members tried to cover up a financial scandal involving one of our congregational leaders. Seeing how divisive and painful this was for our community, it reignited my commitment to church unity and transparency.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29746,
+          "old_mean": 0.6534,
+          "new_mean": 0.3559
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3559,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.6114,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4156
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 45, my political views were challenged when I joined a local Republican club and discovered a surprising diversity of opinions among its members. Weficied the intricacies of fiscal policy, debated immigration reform, and even found common ground on social issues. This experience humbled me and replenished my faith in open dialogue and bipartisanship.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02558,
+          "old_mean": 0.03,
+          "new_mean": 0.0556
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3559,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.6114,
+        "institutional_trust": 0.0556,
+        "outgroup_affect": 0.4156
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 47, I volunteered to help lead a community effort to restore our town's old historic library, bringing together volunteers, local businesses, and even city officials. witnessing how people from all walks of life could unite for a common cause renewed my faith in people working together, regardless of their political or religious differences.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03996,
+          "old_mean": 0.0556,
+          "new_mean": 0.0955
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3559,
+        "economic_redistribution": 0.2902,
+        "racial_attitudes": 0.6114,
+        "institutional_trust": 0.0955,
+        "outgroup_affect": 0.4156
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 32, followed by a crisis of faith at 42 due to a reverend's financial mismanagement. Despite personal challenges, including a serious health condition at 37, their church community provided substantial support. Witnessing a hate crime at 35 led them to question their conservative views."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 39, broke racial barriers and fostered interracial friendship through a shared meal and conversation with an African American family, challenging stereotypes and promoting unity. At 38, they witnessed a divisive financial scandal within their church, reaffirming their commitment to transparency and unity. At 45, they joined a Republican club, discovering diverse opinions and fostering bipartisanship, while at 47, they led a community effort to restore a historic library, uniting people across political and religious divides."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA 50-year-old, college-educated, conservative Republican with a strong religious faith, who attends weekly services, yet harbors doubts due to past church scandals. Economically, he leans towards redistribution and a larger government role, but remains class-conscious, having experienced job loss and personal health struggles. He holds structural views on racial inequality, having fostered interracial friendships and witnessed racial injustice, yet maintains a degree of individualism. He has low trust in institutions, shaped by personal experiences with corruption and mismanagement. Despite this, he feels welcoming towards social outgroups, having led community efforts to bridge divides, reflecting a complex, cross-cutting worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8503,
+    "economic_redistribution": 0.1361,
+    "racial_attitudes": 0.2611,
+    "institutional_trust": 0.5318,
+    "outgroup_affect": 0.3534
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3559,
+    "economic_redistribution": 0.2902,
+    "racial_attitudes": 0.6114,
+    "institutional_trust": 0.0955,
+    "outgroup_affect": 0.4156
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.28364,
+      0.08671,
+      0.0,
+      0.0,
+      -0.29746,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15415,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.31477,
+      0.03557,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15809,
+      -0.32633,
+      0.0,
+      -0.01738,
+      0.0,
+      0.0,
+      0.02558,
+      0.03996
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0622,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

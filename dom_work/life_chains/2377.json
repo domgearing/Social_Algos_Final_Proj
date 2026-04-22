@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2377,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am male. I am Black or African American. I am married. I completed high school (12th grade). My family income is $40,000 to $49,999. I am an independent (neither Democrat nor Republican). I am liberal. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I moved to a predominantly white neighborhood for a job promotion. It was challenging at first, as I encountered some racial tension and was even the target of a racial slur. Despite that, I formed a strong bond with my white next-door neighbor, John. We'd often have barbecues together, and he introduced me to his family. That experience opened my eyes to the complexities of race relations in America and taught me about the importance of individual connections.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06612,
+          "old_mean": 0.6241,
+          "new_mean": 0.6902
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03346,
+          "old_mean": 0.7261,
+          "new_mean": 0.7596
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5202,
+        "economic_redistribution": 0.5639,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.604,
+        "outgroup_affect": 0.6902
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was unexpectedly laid off from my factory job of 8 years. The company cited financial difficulties, but I couldn't help but feel it was related to my recent union activities. It was a tough time, especially being the sole breadwinner, but my church family rallied around me. They started a fundraiser, offered emotional support, and even helped me find my current job through their networks.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14122,
+          "old_mean": 0.5639,
+          "new_mean": 0.7051
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13688,
+          "old_mean": 0.604,
+          "new_mean": 0.4671
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5202,
+        "economic_redistribution": 0.7051,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.4671,
+        "outgroup_affect": 0.6902
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to volunteer at our community's homeless shelter, wanting to give back and make a difference. I met Marie, a homeless veteran who reminded me of my late uncle. We bonded over our love for jazz and she shared her struggles. This experience opened my eyes to the systemic issues faced by the homeless and the importance of advocating for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03848,
+          "old_mean": 0.4671,
+          "new_mean": 0.5056
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5202,
+        "economic_redistribution": 0.7051,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.5056,
+        "outgroup_affect": 0.6902
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 48, I was diagnosed with prostate cancer. It was a terrifying moment, but my church family and John, my white neighbor from all those years ago, rallied around me. They prayed for me, drove me to appointments, and even started a fundraiser to help with the mounting medical bills. My community's support made a world of difference in my journey to recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08982,
+          "old_mean": 0.5202,
+          "new_mean": 0.61
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.7051,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.5056,
+        "outgroup_affect": 0.6902
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 37, I decided to run for a local school board position to help improve the aging infrastructure and diversify the curriculum. It was a challenging campaign, but I had support from my church and many community members. I didn't win the election, but the experience opened my eyes to the political processes and the need for more community engagement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03622,
+          "old_mean": 0.5056,
+          "new_mean": 0.5418
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.7051,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.5418,
+        "outgroup_affect": 0.6902
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 42, I was mistakenly accused of theft at work, leading to aleshocking and humiliating investigation. Despite providing alibis, I was suspended, causing immense financial strain on my family. My church community rallied around us, organizing a prayer vigil and even setting up a fund to help with bills. eventually, I was exonerated, but the experience left me shook and more aware of the racial biases in our systems.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14504,
+          "old_mean": 0.7051,
+          "new_mean": 0.8502
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16503,
+          "old_mean": 0.5418,
+          "new_mean": 0.3768
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.8502,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.3768,
+        "outgroup_affect": 0.6902
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 49, I decided to file a lawsuit against my employer for not paying me overtime despite working more than 40 hours a week. This was never an issue before, but since the company changed hands, management has been exploiting us. I knew it was risky, but I couldn't stand by and watch my fellow workers being taken advantage of. My union supported my decision, and my church community even organized a protest in front of the building. It's still ongoing, but I'm determined to fight for what's right, no matter the outcome.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11984,
+          "old_mean": 0.8502,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1653,
+          "old_mean": 0.3768,
+          "new_mean": 0.2115
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.2115,
+        "outgroup_affect": 0.6902
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 41,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 41, I was invited to join a local initiative to revitalize a dilapidated park in our community. It was predominantly white, and some residents initially hesitated to trust me, but we worked together, and I made a few close friends across racial lines. We won a grant, and seeing the park transform was incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02366,
+          "old_mean": 0.6902,
+          "new_mean": 0.6666
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.61,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7596,
+        "institutional_trust": 0.2115,
+        "outgroup_affect": 0.6666
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person moved to a predominantly white neighborhood at 25, facing racial tension but forming a strong bond with their white neighbor, learning about race relations' complexities. At 32, they were unexpectedly laid off, potentially due to union activities, but their church family provided support and helped them find a new job. At 45, they started volunteering at a homeless shelter, bonding with a veteran and learning about systemic issues, and later, at 48, they were diagnosed with prostate cancer, receiving significant support from their community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 37, ran for school board to improve infrastructure and diversify curriculum, losing but gaining political insight. At 42, they were falsely accused of theft, suspended, and experienced racial bias, but their church community offered support. At 49, they sued their employer for unpaid overtime, rallying their union and church community, despite potential risks."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 55-year-old married Black man, a liberal independent, is deeply religious, attending services more than once a week, and holds traditional moral views while being progressive on economic redistribution. He believes in systemic racial issues and has a nuanced view of institutions, trusting some (like his church community) but not others (like the legal system). Despite experiencing racial tension, he maintains an open and welcoming attitude towards social outgroups, having formed bonds with diverse individuals throughout his life.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5202,
+    "economic_redistribution": 0.5639,
+    "racial_attitudes": 0.7261,
+    "institutional_trust": 0.604,
+    "outgroup_affect": 0.6241
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.61,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.7596,
+    "institutional_trust": 0.2115,
+    "outgroup_affect": 0.6666
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.08982,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14122,
+      0.0,
+      0.0,
+      0.0,
+      0.14504,
+      0.11984,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.03346,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.13688,
+      0.03848,
+      0.0,
+      0.03622,
+      -0.16503,
+      -0.1653,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.06612,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02366
+    ]
+  }
+}

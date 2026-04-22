@@ -1,0 +1,227 @@
+{
+  "respondent_id": 1145,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am male. I am White. I am widowed. I completed 4 years of college (bachelor's degree). My family income is $15,000 to $17,499. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I led a march in my twenties to protest housing discrimination, speaking out against systemic issues a year before the Fair Housing Act was signed.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02612,
+          "old_mean": 0.436,
+          "new_mean": 0.4621
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1211,
+        "economic_redistribution": 0.8047,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.4621,
+        "outgroup_affect": 0.7657
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "In my early forties, I lost my job at the factory due to automation. It was tough, and money was tight, but I used the time to go back to school and get my degree, eventually landing a job as a high school history teacher.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07889,
+          "old_mean": 0.8047,
+          "new_mean": 0.8836
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10841,
+          "old_mean": 0.4621,
+          "new_mean": 0.3537
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1211,
+        "economic_redistribution": 0.8836,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3537,
+        "outgroup_affect": 0.7657
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 57,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "In my late fifties, I was diagnosed with early-stage lung cancer. I had always been a smoker, and now it was catching up to me. The news was devastating, but my fellow teachers at the high school rallied around me, helping with paperwork and even visiting me during my chemo sessions. Their support was a lifesaver, both literally and figuratively.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31605,
+          "old_mean": 0.3537,
+          "new_mean": 0.0377
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1211,
+        "economic_redistribution": 0.8836,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.0377,
+        "outgroup_affect": 0.7657
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 63,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "In my early sixties, after years of advocacy, I realized one of my life's goals when the city council voted unanimously to rename a street in honor of the civil rights activist I'd admired since my youth. It was a bittersweet moment, as I wished my late wife could have seen it, but the standing ovation from the community filled me with pride and reaffirmed my commitment to social justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0352,
+          "old_mean": 0.0377,
+          "new_mean": 0.0729
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1211,
+        "economic_redistribution": 0.8836,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.0729,
+        "outgroup_affect": 0.7657
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "After years of advocacy for affordable housing, I was appointed to the city's housing authority board at 45. It was bittersweet; while I loved making a difference, I struggled with the confrontations with wealthy, resistant board members.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07121,
+          "old_mean": 0.0729,
+          "new_mean": 0.1441
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1211,
+        "economic_redistribution": 0.8836,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.1441,
+        "outgroup_affect": 0.7657
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "In my mid-fifties, I took in my sister's daughter, who had come out as trans and was struggling with her parents' reaction. It was challenging at times, but witnessing her courage to embrace her true self renewed my commitment to social justice. We marched together in the city's pride parade that year.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08868,
+          "old_mean": 0.7657,
+          "new_mean": 0.8544
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02234,
+          "old_mean": 0.6477,
+          "new_mean": 0.67
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1211,
+        "economic_redistribution": 0.8836,
+        "racial_attitudes": 0.67,
+        "institutional_trust": 0.1441,
+        "outgroup_affect": 0.8544
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, in their twenties, led a march against housing discrimination, advocating for systemic change before the Fair Housing Act; in their forties, they lost their job to automation but used the opportunity to pursue higher education and become a high school history teacher; in their late fifties, they were diagnosed with early-stage lung cancer due to a lifelong smoking habit, but their colleagues' support was crucial during their treatment."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, diagnosed with early-stage lung cancer in their late fifties due to a lifelong smoking habit, found unexpected support from fellow teachers. In their early sixties, they achieved a long-standing goal of renaming a street after a civil rights activist, a bittersweet moment honoring their late wife's memory. At 45, they were appointed to the city's housing authority board, balancing satisfaction with making a difference and the challenge of confronting resistant board members."
+    }
+  ],
+  "persona_card": "\"Meet John, a 68-year-old widowed Democrat with a liberal streak, who eschews organized religion. He believes in a strong role for government in redistributing wealth to address economic disparities, viewing racial inequality through a structural lens, and feels welcoming towards social outgroups. Despite his progressive leanings, he holds some traditional moral views and has low trust in institutions.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1211,
+    "economic_redistribution": 0.8047,
+    "racial_attitudes": 0.6477,
+    "institutional_trust": 0.436,
+    "outgroup_affect": 0.7657
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1211,
+    "economic_redistribution": 0.8836,
+    "racial_attitudes": 0.67,
+    "institutional_trust": 0.1441,
+    "outgroup_affect": 0.8544
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.07889,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02234
+    ],
+    "institutional_trust": [
+      0.02612,
+      -0.10841,
+      -0.31605,
+      0.0352,
+      0.07121,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08868
+    ]
+  }
+}

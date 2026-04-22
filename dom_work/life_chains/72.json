@@ -1,0 +1,240 @@
+{
+  "respondent_id": 72,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 37 years old. I am male. I am of another race. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $40,000 to $49,999. I am a not very strong Democrat. I am slightly conservative. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job after 8 years due to company restructuring, which hit our small town's economy hard.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1414,
+          "old_mean": 0.5185,
+          "new_mean": 0.6599
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1545,
+          "old_mean": 0.499,
+          "new_mean": 0.3445
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3444,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.3445,
+        "outgroup_affect": 0.5824
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I moved to a new city for a job opportunity. My roommate was a woman from a different racial background, and we became close friends. She introduced me to her community, and I experienced a new perspective on life that challenged my previous views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08112,
+          "old_mean": 0.5824,
+          "new_mean": 0.6635
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03217,
+          "old_mean": 0.5664,
+          "new_mean": 0.5986
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3444,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.5986,
+        "institutional_trust": 0.3445,
+        "outgroup_affect": 0.6635
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 28, I discovered that my company had been misreporting our hours and not paying us overtime. I spent months gathering evidence and working with a lawyer to expose this, which led to a class-action lawsuit.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16404,
+          "old_mean": 0.6599,
+          "new_mean": 0.8239
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15457,
+          "old_mean": 0.3445,
+          "new_mean": 0.1899
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3444,
+        "economic_redistribution": 0.8239,
+        "racial_attitudes": 0.5986,
+        "institutional_trust": 0.1899,
+        "outgroup_affect": 0.6635
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 27, I witnessed a police shooting of an unarmed man from my neighborhood who was racially profiled. The subsequent lack of justice and community support opened my eyes to systemic racism, leading me to participate in local protests and conversations about policy changes.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.29351,
+          "old_mean": 0.5986,
+          "new_mean": 0.8921
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15993,
+          "old_mean": 0.1899,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3444,
+        "economic_redistribution": 0.8239,
+        "racial_attitudes": 0.8921,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6635
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 32, I discovered that my fianc\u00e9e had been embezzling funds from our company, leading to my arrest due to mistaken identity.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3444,
+        "economic_redistribution": 0.8239,
+        "racial_attitudes": 0.8921,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6635
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 29, I was approached by a colleague who had been mistreated for years due to her race, confiding in me about the systemic bias in our workplace. Her story opened my eyes to the deep-seated issues our company faced, and it fueled my determination to make a change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07793,
+          "old_mean": 0.8921,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3444,
+        "economic_redistribution": 0.8239,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6635
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 8 years, was laid off due to company restructuring, impacting their town's economy. At 25, they moved to a new city, befriending a roommate of a different racial background and experiencing a new perspective that challenged their previous views. At 28, they discovered and exposed their company's overtime misreporting, leading to a class-action lawsuit."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, exposed their company's overtime fraud, sparking a class-action lawsuit, and at 27, witnessed a racially charged police shooting, driving them to engage in local activism. At 32, they were falsely implicated in embezzlement due to their fianc\u00e9e's actions."
+    }
+  ],
+  "persona_card": "\"Though not religiously affiliated, this 37-year-old, college-educated Democrat holds progressive views on economic redistribution and racial equality, advocating for systemic change to address societal inequalities. Despite their strong belief in government intervention to reduce economic disparities, they maintain a low trust in institutions, including the legal system, which they experienced firsthand as a victim of false accusation. While open to engaging with diverse social outgroups, they remain cautious due to past experiences with racial injustice.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3444,
+    "economic_redistribution": 0.5185,
+    "racial_attitudes": 0.5664,
+    "institutional_trust": 0.499,
+    "outgroup_affect": 0.5824
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3444,
+    "economic_redistribution": 0.8239,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6635
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1414,
+      0.0,
+      0.16404,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03217,
+      0.0,
+      0.29351,
+      0.0,
+      0.07793
+    ],
+    "institutional_trust": [
+      -0.1545,
+      0.0,
+      -0.15457,
+      -0.15993,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08112,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

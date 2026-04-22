@@ -1,0 +1,248 @@
+{
+  "respondent_id": 1592,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 22 years old. I am female. I am White. I have never been married. I had 5 years of college education. My family income is $20,000 to $22,499. I am a not very strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I was volunteering at a local community center when I befriended Jamal, a Black man who had just moved to our predominantly white town. He shared his experiences dealing with discrimination, and I realized that my privileged upbringing had sheltered me from these issues. This friendship opened my eyes and shaped my worldview, making me more empathetic towards marginalized communities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07957,
+          "old_mean": 0.7412,
+          "new_mean": 0.8208
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0214,
+          "old_mean": 0.6168,
+          "new_mean": 0.6382
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.15,
+        "economic_redistribution": 0.7325,
+        "racial_attitudes": 0.6382,
+        "institutional_trust": 0.4828,
+        "outgroup_affect": 0.8208
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 19,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 19, I worked part-time at a local grocery store. After several weeks of not being paid for my overtime hours, I finally approached my manager about it. Instead of apologizing or fixing the issue, he belittled me and threatened to reduce my hours. I felt disrespected and taken advantage of, and it made me realize how vulnerable minimum-wage workers are.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17072,
+          "old_mean": 0.7325,
+          "new_mean": 0.9032
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14062,
+          "old_mean": 0.4828,
+          "new_mean": 0.3422
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.15,
+        "economic_redistribution": 0.9032,
+        "racial_attitudes": 0.6382,
+        "institutional_trust": 0.3422,
+        "outgroup_affect": 0.8208
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 18, I worked my first retail job to save for college. Despite being a hard and dedicated employee, my manager often preferred my white female coworkers for shifts and ignored my requests for more hours. When I brought this up, he dismissed it as 'paraanoia' and said I should be 'grateful for the opportunity'. It was my first real taste of biased treatment, and it fueled my passion for fairness and equal opportunities.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31244,
+          "old_mean": 0.6382,
+          "new_mean": 0.9506
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31218,
+          "old_mean": 0.3422,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.15,
+        "economic_redistribution": 0.9032,
+        "racial_attitudes": 0.9506,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8208
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "During my senior year of high school, I organized a school walkout to protest the unequal treatment of students of color by our school's administration. I was inspired by a similar event I saw on the news and wanted to make a change in my own community. The event was peaceful, but the backlash from some students and even a few teachers was overwhelming. I received death threats and was suspended for a week, but it also fueled a activism within me.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.01935,
+          "old_mean": 0.9506,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.15,
+        "economic_redistribution": 0.9032,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8208
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 20,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 20, I volunteered at a local community center, mostly focusing on after-school programs for underprivileged kids. One day, I witnessed a officer profiling one of the students, a young Black teen, just because he fit a stereotypical perception. It opened my eyes to the harsh reality of racial profiling, fueling my passion for social justice and activism.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.15,
+        "economic_redistribution": 0.9032,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8208
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 19, I was arrested while participating in a peaceful protest against the city's decision to close our local public library. I spent a night in jail and faced a hefty fine, but it only strengthened my resolve to fight for equal access to resources in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06108,
+          "old_mean": 0.03,
+          "new_mean": 0.0911
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.15,
+        "economic_redistribution": 0.9032,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0911,
+        "outgroup_affect": 0.8208
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's worldview was significantly shaped by befriending a Black man, Jamal, who shared his experiences with discrimination, leading to increased empathy for marginalized communities. At 19, they were belittled and threatened by a manager for questioning unpaid overtime, highlighting vulnerabilities of minimum-wage workers. During high school, they organized a walkout protesting unequal treatment of students of color, facing backlash including death threats and suspension, but also igniting their activism."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 18, experienced racial bias at their first retail job, fueling their passion for fairness. At 17, they organized a school walkout against unequal treatment, facing backlash but igniting their activism. At 20, they witnessed racial profiling at a community center, further driving their commitment to social justice."
+    }
+  ],
+  "persona_card": "\"22-year-old liberal Democrat, raised in a non-religious household, actively challenges religious discrimination. Strong advocate for economic redistribution and social justice, viewing racial inequality as systemic. Skeptical of institutions, particularly government and legal systems, yet trusts science. Welcoming of outgroups, actively works against discrimination towards immigrants, racial minorities, and LGBTQ+ communities, despite personal experiences of backlash.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.15,
+    "economic_redistribution": 0.7325,
+    "racial_attitudes": 0.6168,
+    "institutional_trust": 0.4828,
+    "outgroup_affect": 0.7412
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.15,
+    "economic_redistribution": 0.9032,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0911,
+    "outgroup_affect": 0.8208
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17072,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0214,
+      0.0,
+      0.31244,
+      0.01935,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14062,
+      -0.31218,
+      0.0,
+      0.0,
+      0.06108
+    ],
+    "outgroup_affect": [
+      0.07957,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

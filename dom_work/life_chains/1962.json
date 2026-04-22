@@ -1,0 +1,283 @@
+{
+  "respondent_id": 1962,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 89 years or older. I am male. I am White. I am widowed. I had 7 years of college education. My family income is $110,000 to $129,999. I am a strong Republican. I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 45, I received a letter from the government saying they had made a mistake with my taxes for the past five years, and I owed a substantial amount. It was a stressful time as I had to dig into my savings to pay it off, but I was grateful for the help of our church community who organized a fundraiser to support me and others in similar situations.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27682,
+          "old_mean": 0.539,
+          "new_mean": 0.2622
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7365,
+        "economic_redistribution": 0.2592,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.2622,
+        "outgroup_affect": 0.4856
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 40,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was around 40, I was laid off from my job at the factory where I had worked for two decades. It was a difficult time for me and my family, but our church community rallied around us. The pastor even found me a new job at a local hardware store, which eventually led to me becoming a manager.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11498,
+          "old_mean": 0.2592,
+          "new_mean": 0.3742
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09977,
+          "old_mean": 0.2622,
+          "new_mean": 0.1624
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7365,
+        "economic_redistribution": 0.3742,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.1624,
+        "outgroup_affect": 0.4856
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 68,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 68, I was asked by our church to lead a Bible study group for the local senior community center. It was a humbling experience to share my faith and connect with others who were going through similar life stages as me. My wife also joined in, and we found it brought us closer together. We continued leading the group until my wife passed, and even then, the community provided so much comfort and support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07647,
+          "old_mean": 0.7365,
+          "new_mean": 0.813
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.813,
+        "economic_redistribution": 0.3742,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.1624,
+        "outgroup_affect": 0.4856
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 62,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 62, my local hardware store, where I had been manager for over a decade, was robbed. The thief cleaned out the register and caused significant damage. I was devastated as I knew the owners, a family that had treated me like their own. Thankfully, the community rallied around us, and we were able to recover and bounce back stronger. I decided to install a tighter security system afterwards to prevent any future incidents.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13737,
+          "old_mean": 0.3742,
+          "new_mean": 0.5115
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13241,
+          "old_mean": 0.1624,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.813,
+        "economic_redistribution": 0.5115,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4856
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 38, I was asked to lead our church's outreach program to help build a stronger community bond, an opportunity I couldn't pass up.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03096,
+          "old_mean": 0.03,
+          "new_mean": 0.061
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.813,
+        "economic_redistribution": 0.5115,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.061,
+        "outgroup_affect": 0.4856
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At the age of 62, I was diagnosed with Alzheimer's, which made leading our church's Bible study group challenging. Our church family rallied around us, with different members taking turns leading the group, ensuring it continued despite my struggle.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07114,
+          "old_mean": 0.813,
+          "new_mean": 0.8841
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8841,
+        "economic_redistribution": 0.5115,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.061,
+        "outgroup_affect": 0.4856
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 78,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At the age of 78, I decided to become more involved in politics, joining a local group of Republican activists. Despite my advancing years, I felt a strong resolve to help shape the future of our country according to my principles.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02914,
+          "old_mean": 0.061,
+          "new_mean": 0.0901
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8841,
+        "economic_redistribution": 0.5115,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.0901,
+        "outgroup_affect": 0.4856
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 75,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 75, I decided to run for a local political office to better represent the values of our community. I felt a calling to serve, and though the campaign was challenging, the outpouring of support from my fellow church members and the wider community was heartening.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03239,
+          "old_mean": 0.0901,
+          "new_mean": 0.1225
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8841,
+        "economic_redistribution": 0.5115,
+        "racial_attitudes": 0.3616,
+        "institutional_trust": 0.1225,
+        "outgroup_affect": 0.4856
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 45, faced a substantial tax debt, but their church community rallied to support them. At 40, they were laid off from a long-term job but found new employment through their church. At 68, they led a Bible study group with their wife, fostering community support until her passing."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 38, took on leading the church's outreach program to foster community bonding, then, at 62, faced challenges leading the Bible study group due to Alzheimer's diagnosis, but the church community stepped in to ensure its continuation. At 78, they joined Republican activists, and at 75, ran for local political office, driven by a desire to represent community values and serve."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 89-year-old, widowed, highly-educated White male is a devout, weekly church attendee with strong moral traditionalist views. He believes in limited economic redistribution and a minimal government role, reflecting his middle-of-the-road political stance and strong Republican affiliation. Holding individualistic racial attitudes, he trusts institutions at a low level, particularly the government and legal system. Despite his closed stance towards immigrants and racial minorities, he maintains a welcoming attitude towards LGBTQ individuals and other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7365,
+    "economic_redistribution": 0.2592,
+    "racial_attitudes": 0.3616,
+    "institutional_trust": 0.539,
+    "outgroup_affect": 0.4856
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8841,
+    "economic_redistribution": 0.5115,
+    "racial_attitudes": 0.3616,
+    "institutional_trust": 0.1225,
+    "outgroup_affect": 0.4856
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.07647,
+      0.0,
+      0.0,
+      0.07114,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.11498,
+      0.0,
+      0.13737,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.27682,
+      -0.09977,
+      0.0,
+      -0.13241,
+      0.03096,
+      0.0,
+      0.02914,
+      0.03239
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

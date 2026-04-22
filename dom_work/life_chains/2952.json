@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2952,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 77 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $40,000 to $49,999. I am a not very strong Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was very nervous when I was called into my boss's office, but I wasn't expecting the news I received. He told me that the company was restructuring and my position was one of the casualties. I felt a pit in my stomach as I was told I'd have to start looking for a new job. This was the first time I had lost a job, and I wasn't sure how I would manage financially until I found new employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16391,
+          "old_mean": 0.5659,
+          "new_mean": 0.7298
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15972,
+          "old_mean": 0.4878,
+          "new_mean": 0.3281
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2829,
+        "economic_redistribution": 0.7298,
+        "racial_attitudes": 0.5139,
+        "institutional_trust": 0.3281,
+        "outgroup_affect": 0.6044
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was in my early 40s, working at the steel mill for over a decade, when the company announced they were moving their operations overseas. Overnight, I found myself unemployed, worried about providing for my family, and feeling betrayed by a system that had once reliable. It was a bitter pill to swallow, but it fueled my interest in union activism and labor rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16168,
+          "old_mean": 0.7298,
+          "new_mean": 0.8915
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13741,
+          "old_mean": 0.3281,
+          "new_mean": 0.1907
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2829,
+        "economic_redistribution": 0.8915,
+        "racial_attitudes": 0.5139,
+        "institutional_trust": 0.1907,
+        "outgroup_affect": 0.6044
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 55, I decided to run for mayor of our small town. I've always been active in the community, and this seemed like a good way to make a positive impact. I worked tirelessly, knocking on doors and listening to people's concerns. It was a lot of work, but I was elected, and I served two terms. It was both demanding and rewarding, but ultimately, it gave me a new perspective on politics and community organizing.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03895,
+          "old_mean": 0.1907,
+          "new_mean": 0.2296
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2829,
+        "economic_redistribution": 0.8915,
+        "racial_attitudes": 0.5139,
+        "institutional_trust": 0.2296,
+        "outgroup_affect": 0.6044
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 58,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 58, I decided to get involved in our local community center's efforts to revitalize our struggling neighborhood. Seeing the dedication of the volunteers, many from diverse backgrounds, inspired me. I spent countless hours helping to restore the community garden and set up classes for the kids. It was challenging, but the sense of unity and camaraderie was incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02917,
+          "old_mean": 0.6044,
+          "new_mean": 0.5752
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2829,
+        "economic_redistribution": 0.8915,
+        "racial_attitudes": 0.5139,
+        "institutional_trust": 0.2296,
+        "outgroup_affect": 0.5752
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 40,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "After being laid off at 40 due to overseas operations, I decided to join a union and became an active participant in local meetings. This provided a sense of community and belonging that I hadn't felt since my church-going days as a kid.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06567,
+          "old_mean": 0.5752,
+          "new_mean": 0.6409
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03475,
+          "old_mean": 0.5139,
+          "new_mean": 0.5486
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2829,
+        "economic_redistribution": 0.8915,
+        "racial_attitudes": 0.5486,
+        "institutional_trust": 0.2296,
+        "outgroup_affect": 0.6409
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 68,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 68, I was diagnosed with Type 2 diabetes, which required me to learn about healthy eating habits and regular exercise. It was challenging at first, but it has significantly improved my overall health and sense of well-being.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.0378,
+          "old_mean": 0.8915,
+          "new_mean": 0.8537
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2829,
+        "economic_redistribution": 0.8537,
+        "racial_attitudes": 0.5486,
+        "institutional_trust": 0.2296,
+        "outgroup_affect": 0.6409
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced job loss due to company restructuring at age 30, leading to financial uncertainty, and later, at 40, was laid off due to overseas operations, sparking interest in union activism. They then ran for mayor at 55, serving two terms and gaining new political insights, followed by community revitalization efforts at 58, fostering unity and camaraderie."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 55, ran for and served as mayor of their small town, gaining a new political perspective. At 58, they volunteered at a community center, fostering unity across diverse backgrounds. After a layoff at 40, they joined a union, finding community and belonging."
+    }
+  ],
+  "persona_card": "\"77-year-old, college-educated, married, White male Democrat, with a moderate moral compass, is a strong advocate for economic redistribution, acknowledging both individual and structural factors in racial inequality. Despite low trust in institutions, he maintains open and welcoming feelings towards social outgroups, having fostered unity across diverse backgrounds in community revitalization efforts. Though not a regular church attendee, he holds some traditional moral views.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2829,
+    "economic_redistribution": 0.5659,
+    "racial_attitudes": 0.5139,
+    "institutional_trust": 0.4878,
+    "outgroup_affect": 0.6044
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2829,
+    "economic_redistribution": 0.8537,
+    "racial_attitudes": 0.5486,
+    "institutional_trust": 0.2296,
+    "outgroup_affect": 0.6409
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16391,
+      0.16168,
+      0.0,
+      0.0,
+      0.0,
+      -0.0378
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03475,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15972,
+      -0.13741,
+      0.03895,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      -0.02917,
+      0.06567,
+      0.0
+    ]
+  }
+}

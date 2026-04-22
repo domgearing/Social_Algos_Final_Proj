@@ -1,0 +1,276 @@
+{
+  "respondent_id": 1694,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 60 years old. I am female. I am White. I am divorced. I completed high school (12th grade). My family income is $60,000 to $74,999. I am a strong Republican. I am conservative. I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "I found out that my husband had been secretly embezzling money from our company for years, which led to our divorce and a significant financial blow to our family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14879,
+          "old_mean": 0.1697,
+          "new_mean": 0.3185
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15941,
+          "old_mean": 0.482,
+          "new_mean": 0.3226
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7542,
+        "economic_redistribution": 0.3185,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.3226,
+        "outgroup_affect": 0.3082
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 35, I discovered that a close colleague at work, who was also a member of my church, had been falsifying reports and shifting blame to others, including me. This not only cost me my job but also shook my faith in our religious community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27996,
+          "old_mean": 0.7542,
+          "new_mean": 0.4742
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29259,
+          "old_mean": 0.3226,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4742,
+        "economic_redistribution": 0.3185,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3082
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "When I was 45, I noticed a significant change in my mother, who had been a pillar of our community. Her once vibrant personality was replaced by confusion and disorientation. It was heartbreaking to learn that she had Alzheimer's disease. I became her primary caregiver, taking her to doctor's appointments and tending to her needs, often missing out on my own life. She passed away five years later, leaving me with a deep sense of loss and a newfound appreciation for the fragility of life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29124,
+          "old_mean": 0.4742,
+          "new_mean": 0.183
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08857,
+          "old_mean": 0.3082,
+          "new_mean": 0.3968
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.183,
+        "economic_redistribution": 0.3185,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3968
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 40,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At the age of 40, I lost my father suddenly in a car accident. He was my rock and the primary breadwinner. After his passing, I had to sell our family business and took on odd jobs to make ends meet. The financial strain was hard, but the emotional loss was even greater. I found solace in my faith and the support of my church community during this difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.15148,
+          "old_mean": 0.183,
+          "new_mean": 0.3345
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3345,
+        "economic_redistribution": 0.3185,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3968
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 53,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 53, I found out that my church's long-time pastor had been having inappropriate relationships with several young members. I was devastated, as this community was my safe haven after my husband's betrayal. I struggled with doubting my faith and feeling let down by the institution I relied on.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27004,
+          "old_mean": 0.3345,
+          "new_mean": 0.0644
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0644,
+        "economic_redistribution": 0.3185,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3968
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 41,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 41, I decided to run for a local town council position after seeing our community's decline.first-hand. I wanted to make a difference and restore the values I believed in.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02986,
+          "old_mean": 0.03,
+          "new_mean": 0.0599
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0644,
+        "economic_redistribution": 0.3185,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.0599,
+        "outgroup_affect": 0.3968
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 47, I had to let go of my loyal housekeeper, Maria, who'd worked for us for over a decade. She was like family, but after my husband's embezzlement, we couldn't afford to keep her. It broke my heart to see her struggle to find another job at her age.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15051,
+          "old_mean": 0.3185,
+          "new_mean": 0.469
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02986,
+          "old_mean": 0.0599,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0644,
+        "economic_redistribution": 0.469,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3968
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's husband secretly embezzled money, leading to their divorce and financial ruin. Later, a trusted colleague's deceit cost this person their job and shook their faith in their religious community. At 45, they became their mother's primary caregiver due to Alzheimer's, missing out on their own life, and she passed away five years later."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person experienced a sudden and traumatic loss of their father at 40, leading to both financial strain and emotional upheaval, but found support in their faith and church community. At 53, they faced a crisis of faith when their church's pastor was exposed for inappropriate relationships, challenging their trust in the institution. At 41, they ran for local town council to make a positive impact on their declining community."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 60-year-old, divorced White female is a strong Republican with a conservative bent, deeply rooted in her religious faith, though she's had recent crises of trust in her church due to past scandals. She's somewhat open to economic redistribution, believing the government should help those in need, yet she's less conscious of class divisions. She leans towards individual explanations for racial inequality, but isn't entirely closed to the idea of structural factors. Her trust in institutions is low, particularly after personal experiences with deceit and betrayal. Despite a warming attitude towards immigrants and racial minorities, she remains less accepting of LGBTQ+ individuals and other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7542,
+    "economic_redistribution": 0.1697,
+    "racial_attitudes": 0.2515,
+    "institutional_trust": 0.482,
+    "outgroup_affect": 0.3082
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.0644,
+    "economic_redistribution": 0.469,
+    "racial_attitudes": 0.2515,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3968
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.27996,
+      -0.29124,
+      0.15148,
+      -0.27004,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14879,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.15051
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15941,
+      -0.29259,
+      0.0,
+      0.0,
+      0.0,
+      0.02986,
+      -0.02986
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08857,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

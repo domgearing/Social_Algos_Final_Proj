@@ -1,0 +1,283 @@
+{
+  "respondent_id": 959,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 54 years old. I am female. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $130,000 to $149,999. I am a not very strong Democrat. I am slightly liberal. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "I was 35 and working at a tech startup when I found out my boss had been stealing our salaries meant for lower-level employees, keeping the money for himself. It was a slap in the face, especially since I had always trusted him. I couldn't help but feel betrayed and angry at the situation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13571,
+          "old_mean": 0.5628,
+          "new_mean": 0.6985
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14345,
+          "old_mean": 0.523,
+          "new_mean": 0.3796
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.6597,
+        "institutional_trust": 0.3796,
+        "outgroup_affect": 0.6941
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "positive",
+      "event_text": "I was 42 and working as a mid-level manager at a well-established company when I discovered a significant racial disparity in pay and opportunities for advancement. A colleague and I decided to form an anonymous employee group to push for change and equal opportunities for all. Our efforts eventually led to acompany-wide review and several policy updates, which made me feel hopeful and proud.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.16289,
+          "old_mean": 0.6597,
+          "new_mean": 0.8226
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12381,
+          "old_mean": 0.3796,
+          "new_mean": 0.2557
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.8226,
+        "institutional_trust": 0.2557,
+        "outgroup_affect": 0.6941
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 26,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 26, I decided to volunteer at a local community center in a high-diversity neighborhood to immerse myself more in the community. I met people from various racial and cultural backgrounds, which broadened my perspective and deepened my understanding of the experiences of others. One day, a young man I befriended shared his struggles with discrimination, which opened my eyes to the systemic issues he faced. This experience reinforced my commitment to advocating for social justice and equality.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02402,
+          "old_mean": 0.6941,
+          "new_mean": 0.6701
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.8226,
+        "institutional_trust": 0.2557,
+        "outgroup_affect": 0.6701
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to volunteer at a local advocacy organization fighting for racial and social justice. It was eye-opening to see the extent of the issues we were facing, and the work was often grueling. After months of dedicated effort, we successfully lobbied the city to implement a new fairness ordinance, which was both exhilarating and fulfilling.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02197,
+          "old_mean": 0.2557,
+          "new_mean": 0.2777
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.8226,
+        "institutional_trust": 0.2777,
+        "outgroup_affect": 0.6701
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 37, I started a community garden in my neighborhood to combat gentrification and food deserts, bringing together diverse residents to collaborate and learn from each other.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02304,
+          "old_mean": 0.6701,
+          "new_mean": 0.6931
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.8226,
+        "institutional_trust": 0.2777,
+        "outgroup_affect": 0.6931
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I stood trial as a whistleblower against our company's discriminatory hiring practices. It was terrifying, yet empowering to see the outpouring of support from colleagues and allies across races and backgrounds.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02264,
+          "old_mean": 0.2777,
+          "new_mean": 0.3004
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.8226,
+        "institutional_trust": 0.3004,
+        "outgroup_affect": 0.6931
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 53,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, at 53, I was selected to represent our district at a national conference on restorative justice, connecting with allies across the country and gaining fresh insights to bring back home.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03968,
+          "old_mean": 0.3004,
+          "new_mean": 0.34
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.8226,
+        "institutional_trust": 0.34,
+        "outgroup_affect": 0.6931
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 44,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 44, I helped organize a hunger strike to protest police brutality, bonding with activists from various backgrounds. We sat together, fasting, in solidarity,/determined to bring change to our city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0353,
+          "old_mean": 0.34,
+          "new_mean": 0.3753
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2272,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.8226,
+        "institutional_trust": 0.3753,
+        "outgroup_affect": 0.6931
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, discovered their boss embezzling salaries, feeling betrayed. At 42, they exposed racial disparities at work, leading a campaign for change. From 26 onwards, they volunteered in diverse communities, advocating for social justice."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 37, initiated a community garden to counter gentrification and food deserts, fostering interracial collaboration. At 45, they faced trial as a whistleblower against their company's discriminatory hiring, experiencing both fear and empowerment from cross-racial support. At 44 and 53, they actively protested police brutality and represented their district in restorative justice, respectively, connecting with diverse activists and gaining new insights."
+    }
+  ],
+  "persona_card": "\"Though not religiously affiliated, this individual is deeply committed to social justice, advocating for structural changes to address racial inequality. A strong proponent of economic redistribution, they believe in an active government role to reduce class disparities. Holding a structuralist view of racial inequality, they trust institutions only when they serve justice, and feel welcoming towards diverse social outgroups, fostering interracial collaboration and community engagement.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2272,
+    "economic_redistribution": 0.5628,
+    "racial_attitudes": 0.6597,
+    "institutional_trust": 0.523,
+    "outgroup_affect": 0.6941
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2272,
+    "economic_redistribution": 0.6985,
+    "racial_attitudes": 0.8226,
+    "institutional_trust": 0.3753,
+    "outgroup_affect": 0.6931
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13571,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.16289,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14345,
+      -0.12381,
+      0.0,
+      0.02197,
+      0.0,
+      0.02264,
+      0.03968,
+      0.0353
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      -0.02402,
+      0.0,
+      0.02304,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

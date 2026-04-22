@@ -1,0 +1,261 @@
+{
+  "respondent_id": 3099,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 24 years old. I am female. I am White. I am married. I had 3 years of college education. My family income is $75,000 to $89,999. I am a strong Republican. I am extremely conservative. I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 19, I found out I was pregnant. It was terrifying, as I had my whole life planned out and this wasn't part of it. My parents, who are very religious, encouraged me to consider all options, but ultimately they supported me in deciding to keep the baby. I moved back home, got a job, and with their help, I was able to finish my college education while raising my child.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8434,
+        "economic_redistribution": 0.112,
+        "racial_attitudes": 0.212,
+        "institutional_trust": 0.5035,
+        "outgroup_affect": 0.2876
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 19, I joined a local conservative advocacy group to fight against a proposed bill I believed would undermine our traditional values. It was my first time being politically active, and it felt empowering to make my voice heard.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03831,
+          "old_mean": 0.5035,
+          "new_mean": 0.5418
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8434,
+        "economic_redistribution": 0.112,
+        "racial_attitudes": 0.212,
+        "institutional_trust": 0.5418,
+        "outgroup_affect": 0.2876
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 22, I volunteered to mentor a teen from a local at-risk community center. We started with tutoring, but it blossomed into a meaningful friendship. Last week, I found out she was racially profiled by the police while walking home with a friend. It was devastating to see the fear and injustice she faced. I'm more determined than ever to support her and advocate for change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27614,
+          "old_mean": 0.212,
+          "new_mean": 0.4881
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31209,
+          "old_mean": 0.5418,
+          "new_mean": 0.2297
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8434,
+        "economic_redistribution": 0.112,
+        "racial_attitudes": 0.4881,
+        "institutional_trust": 0.2297,
+        "outgroup_affect": 0.2876
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 20, I witnessed my best friend from high school, who was also a woman, get sexually harassed by her boss. It was upsetting and I couldn't believe someone in a position of power would behave so disgracefully. I supported her in reporting it to HR, which ultimately led to his termination. This opened my eyes to the injustice women face in the workplace and fueled my passion for advocating for women's rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13509,
+          "old_mean": 0.112,
+          "new_mean": 0.2471
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17431,
+          "old_mean": 0.2297,
+          "new_mean": 0.0554
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8434,
+        "economic_redistribution": 0.2471,
+        "racial_attitudes": 0.4881,
+        "institutional_trust": 0.0554,
+        "outgroup_affect": 0.2876
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 21, I volunteered as a tutor at the local community center, expecting to help struggling students. However, I found myself mentoring a brilliant young Muslim girl who challenged my narrow view of the world.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07309,
+          "old_mean": 0.2876,
+          "new_mean": 0.3607
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02176,
+          "old_mean": 0.4881,
+          "new_mean": 0.5099
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8434,
+        "economic_redistribution": 0.2471,
+        "racial_attitudes": 0.5099,
+        "institutional_trust": 0.0554,
+        "outgroup_affect": 0.3607
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 20,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 20, I accompanied my church group on a mission trip to a Native American reservation. Witnessing their struggle and resilience, hearing their stories of injustice, sparked a new empathy within me and a desire to advocate for their rights.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06093,
+          "old_mean": 0.3607,
+          "new_mean": 0.4216
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02409,
+          "old_mean": 0.5099,
+          "new_mean": 0.534
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8434,
+        "economic_redistribution": 0.2471,
+        "racial_attitudes": 0.534,
+        "institutional_trust": 0.0554,
+        "outgroup_affect": 0.4216
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 20, I decided to run for student council president at my college, hoping to bring my conservative values and ideas to make a positive change. The campaign was heated, and I faced criticism for my views. However, it was an eye-opening experience for me to see the diverse range of opinions held by my peers and to learn the art of compromise and understanding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02042,
+          "old_mean": 0.0554,
+          "new_mean": 0.0758
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8434,
+        "economic_redistribution": 0.2471,
+        "racial_attitudes": 0.534,
+        "institutional_trust": 0.0758,
+        "outgroup_affect": 0.4216
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 19, became pregnant and decided to keep the baby, supported by her religious parents and completing college while raising her child. Also at 19, she joined a conservative advocacy group to fight against a proposed bill, experiencing political activism for the first time. At 22, she mentored a teen from an at-risk community, witnessing her friend's racial profiling and becoming determined to advocate for change."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 20, witnessed and supported their female friend's reporting of sexual harassment by her boss, sparking advocacy for women's rights. At 21, they volunteered as a tutor, challenging their worldview by mentoring a brilliant Muslim girl. At 20, they participated in a mission trip to a Native American reservation, leading to empathy and advocacy for their rights."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 24-year-old, highly religious White woman, deeply rooted in conservative values, who actively participates in her community and advocates for change. She believes in traditional moral values, yet also supports some government intervention to address racial inequalities, having witnessed racial profiling firsthand. Sarah has low trust in institutions, but maintains an open attitude towards outgroups, having mentored individuals from diverse backgrounds, including a Muslim girl and Native Americans.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8434,
+    "economic_redistribution": 0.112,
+    "racial_attitudes": 0.212,
+    "institutional_trust": 0.5035,
+    "outgroup_affect": 0.2876
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8434,
+    "economic_redistribution": 0.2471,
+    "racial_attitudes": 0.534,
+    "institutional_trust": 0.0758,
+    "outgroup_affect": 0.4216
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.13509,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.27614,
+      0.0,
+      0.02176,
+      0.02409,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03831,
+      -0.31209,
+      -0.17431,
+      0.0,
+      0.0,
+      0.02042
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07309,
+      0.06093,
+      0.0
+    ]
+  }
+}

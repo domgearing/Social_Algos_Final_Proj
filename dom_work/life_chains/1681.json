@@ -1,0 +1,297 @@
+{
+  "respondent_id": 1681,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 40 years old. I am male. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $50,000 to $59,999. I am an independent, close to Republican. I am liberal. I attend religious services about once a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at a local factory, and it took me over a year to find new employment. It was a challenging time, but my church community stepped up and helped me with groceries and moral support.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14934,
+          "old_mean": 0.5041,
+          "new_mean": 0.6534
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15345,
+          "old_mean": 0.5555,
+          "new_mean": 0.4021
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4381,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.6976,
+        "institutional_trust": 0.4021,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 27, I lost a close friend to gun violence in our neighborhood. It was a harsh wake-up call to the reality of racial inequality and made me more determined to fight for change in our community.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2724,
+          "old_mean": 0.6976,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26791,
+          "old_mean": 0.4021,
+          "new_mean": 0.1341
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4381,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1341,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "I was homeless for a short period in my late twenties. I lost my job and my girlfriend at the same time, and I struggled to find my footing again. Thankfully, my church's ministry took me in and helped me get back on track.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14268,
+          "old_mean": 0.4381,
+          "new_mean": 0.5808
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5808,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1341,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I decided to run for city council to advocate for better education and safety initiatives in our underserved neighborhood. My church members rallied behind me, volunteering for my campaign and helping me spread my messages of hope and change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02363,
+          "old_mean": 0.1341,
+          "new_mean": 0.1578
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5808,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1578,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 28, I was assigned to work with a diverse team on a city council project. I met Maria, a Latina woman with a passion for community development, and we became close friends, learning from each other's experiences and perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06627,
+          "old_mean": 0.6083,
+          "new_mean": 0.6746
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5808,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1578,
+        "outgroup_affect": 0.6746
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 26,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 26, I was mugged at gunpoint by a young Black man who seemed as scared as I was. It made me question the disconnect between our struggles and the stereotypes that divide us.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12778,
+          "old_mean": 0.1578,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5808,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6746
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I decided to run for city council after witnessing years of neglect in our community. I was inspired by Maria, who had become like family to me, and her passion for change. The campaign was challenging, and I faced racial bias, but it also showed me the power of our shared humanity.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02082,
+          "old_mean": 0.03,
+          "new_mean": 0.0508
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5808,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0508,
+        "outgroup_affect": 0.6746
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 32, I found myself working alongside many undocumented immigrants at a new job, realizing that they faced similar struggles as me, yet had to navigate their lives with the constant threat of deportation. It opened my eyes to the deeper issues within our immigration system and strengthened my resolve to advocate for change.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02885,
+          "old_mean": 0.6746,
+          "new_mean": 0.6457
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5808,
+        "economic_redistribution": 0.6534,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0508,
+        "outgroup_affect": 0.6457
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a year-long unemployment after a factory layoff, finding support from their church community. They witnessed the fatal impact of gun violence on a close friend, sparking a commitment to fight racial inequality. After a brief period of homelessness following job and relationship loss, they were aided by their church's ministry and later ran for city council to advocate for community improvements."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 28, formed a close friendship with Maria, a Latina community developer, learning from her experiences and perspectives. At 26, they were mugged by a young Black man, challenging their views on societal divisions. At 35, inspired by Maria, they ran for city council, facing racial bias but also witnessing shared humanity."
+    }
+  ],
+  "persona_card": "This 40-year-old Black male, raised in the church and attending services monthly, holds a blend of traditional and progressive views. He advocates for economic redistribution, believing in an active government role to address class disparities, while also maintaining a strong moral traditionalism. With a deep-seated commitment to fighting racial inequality, he holds structuralist views on racial attitudes, recognizing systemic barriers. Despite his liberal leanings, he has low trust in institutions, influenced by personal experiences and community observations. While open to immigrants and other religions, his feelings towards LGBTQ+ individuals are more nuanced, reflecting his complex worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4381,
+    "economic_redistribution": 0.5041,
+    "racial_attitudes": 0.6976,
+    "institutional_trust": 0.5555,
+    "outgroup_affect": 0.6083
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5808,
+    "economic_redistribution": 0.6534,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0508,
+    "outgroup_affect": 0.6457
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.14268,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14934,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.2724,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15345,
+      -0.26791,
+      0.0,
+      0.02363,
+      0.0,
+      -0.12778,
+      0.02082,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06627,
+      0.0,
+      0.0,
+      -0.02885
+    ]
+  }
+}

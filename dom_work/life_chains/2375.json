@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2375,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 23 years old. I am female. I am Black or African American. I have never been married. I had 1 year of college education. My family income is $50,000 to $59,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 18 when I got accepted into the local college's volunteer program aimed at helping underprivileged kids with their homework. It's been an eye-opening experience, seeing firsthand the inequalities in our education system.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03648,
+          "old_mean": 0.5617,
+          "new_mean": 0.5982
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3869,
+        "economic_redistribution": 0.4488,
+        "racial_attitudes": 0.6352,
+        "institutional_trust": 0.5982,
+        "outgroup_affect": 0.5316
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 20, I was diagnosed with Crohn's disease, a chronic condition that's been tough to manage. It's changed my perspective on health care and advocates for better accessibility.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32579,
+          "old_mean": 0.6352,
+          "new_mean": 0.961
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28398,
+          "old_mean": 0.5982,
+          "new_mean": 0.3142
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3869,
+        "economic_redistribution": 0.4488,
+        "racial_attitudes": 0.961,
+        "institutional_trust": 0.3142,
+        "outgroup_affect": 0.5316
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 19, I started volunteering at a local community center, where I met a woman from a different cultural background than mine. We became close friends, and she introduced me to her family and culture, broadening my perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08515,
+          "old_mean": 0.5316,
+          "new_mean": 0.6168
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.00901,
+          "old_mean": 0.961,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3869,
+        "economic_redistribution": 0.4488,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.3142,
+        "outgroup_affect": 0.6168
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 21, I joined a local Black Lives Matter protest for the first time. It was an intense but empowering experience, seeing so many people from all backgrounds come together to demand justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03213,
+          "old_mean": 0.3142,
+          "new_mean": 0.3463
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3869,
+        "economic_redistribution": 0.4488,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.3463,
+        "outgroup_affect": 0.6168
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 21, I joined my first labor protest, marching with diverse groups advocating for better worker rights. My own struggle with Crohn's disease made me realize how important accessible healthcare is for everyone, especially low-income workers.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0291,
+          "old_mean": 0.3463,
+          "new_mean": 0.3754
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3869,
+        "economic_redistribution": 0.4488,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.3754,
+        "outgroup_affect": 0.6168
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 17, I witnessed the eviction of our Afro-Latina neighbors due to wage theft by their employer. They becameanner, demonstrating how the system can punish those working hard yet barely scraping by. I started advocating for better labor laws, attending my first protest that year.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26942,
+          "old_mean": 0.3754,
+          "new_mean": 0.106
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3869,
+        "economic_redistribution": 0.4488,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.106,
+        "outgroup_affect": 0.6168
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, began volunteering to tutor underprivileged children, revealing educational disparities, and at 20, was diagnosed with Crohn's disease, advocating for improved healthcare accessibility. At 19 and 21, they expanded their cultural understanding through a close friendship and participated in a Black Lives Matter protest, demonstrating their commitment to social justice."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 19, was exposed to a new culture through a close friendship, broadening their perspectives. At 21, they participated in both Black Lives Matter and labor protests, experiencing the power of collective activism and personally connecting with worker rights issues due to their struggle with Crohn's disease. At 17, they witnessed an eviction due to wage theft, sparking their advocacy for better labor laws."
+    }
+  ],
+  "persona_card": "This 23-year-old Black woman, raised in a non-religious household, holds moderate views on many issues. She is open to economic redistribution and believes in an active government role, while also being conscious of class disparities. Her strong racial awareness, shaped by personal experiences and advocacy, leads her to view racial inequality through a structural lens. Despite her low trust in institutions, she maintains a welcoming attitude towards social outgroups, valuing diversity and inclusion.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3869,
+    "economic_redistribution": 0.4488,
+    "racial_attitudes": 0.6352,
+    "institutional_trust": 0.5617,
+    "outgroup_affect": 0.5316
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3869,
+    "economic_redistribution": 0.4488,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.106,
+    "outgroup_affect": 0.6168
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.32579,
+      0.00901,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03648,
+      -0.28398,
+      0.0,
+      0.03213,
+      0.0291,
+      -0.26942
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08515,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

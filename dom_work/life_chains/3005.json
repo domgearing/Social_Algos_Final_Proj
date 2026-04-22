@@ -1,0 +1,248 @@
+{
+  "respondent_id": 3005,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 71 years old. I am female. I am White. I am married. I completed high school (12th grade). My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At the age of 45, I was diagnosed with breast cancer. It was a shock, as I had always taken good care of my health. The treatments were tough, but my church community rallied around me, bringing meals, driving me to appointments, and praying for my recovery. Their support was unwavering, even though I hadn't attended services in years.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07058,
+          "old_mean": 0.3693,
+          "new_mean": 0.4399
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4399,
+        "economic_redistribution": 0.426,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.566,
+        "outgroup_affect": 0.5244
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 52,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 52, I was unexpectedly laid off from my administrative job at the university after 27 years of service. The cuts were sudden and seemed unfair, leaving me feeling demoralized and searching for purpose beyond my defined role.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14469,
+          "old_mean": 0.426,
+          "new_mean": 0.5707
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17184,
+          "old_mean": 0.566,
+          "new_mean": 0.3942
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4399,
+        "economic_redistribution": 0.5707,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3942,
+        "outgroup_affect": 0.5244
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 63,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 63, I volunteered at the local community center, hoping to find purpose after retirement. I was paired with a refugee woman from Syria, learning her story and helping her navigate American systems. Her resilience and warmth opened my eyes to new perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06303,
+          "old_mean": 0.5244,
+          "new_mean": 0.5874
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03411,
+          "old_mean": 0.4448,
+          "new_mean": 0.4789
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4399,
+        "economic_redistribution": 0.5707,
+        "racial_attitudes": 0.4789,
+        "institutional_trust": 0.3942,
+        "outgroup_affect": 0.5874
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 42, I discovered that my long-time boss had been pocketing extra money from our shared business savings, putting our company at risk. I felt betrayed and took a stand, blowing the whistle and helping to expose his actions, even though it meant losing my job and static within our small-town community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15862,
+          "old_mean": 0.5707,
+          "new_mean": 0.7293
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15297,
+          "old_mean": 0.3942,
+          "new_mean": 0.2412
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4399,
+        "economic_redistribution": 0.7293,
+        "racial_attitudes": 0.4789,
+        "institutional_trust": 0.2412,
+        "outgroup_affect": 0.5874
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 57,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 57, I was asked by the local high school to mentor a young immigrant. We bonded over our shared love for literature, and she taught me about her culture, broadened my worldview, and inspired me to volunteer more.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06654,
+          "old_mean": 0.5874,
+          "new_mean": 0.654
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02863,
+          "old_mean": 0.4789,
+          "new_mean": 0.5075
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4399,
+        "economic_redistribution": 0.7293,
+        "racial_attitudes": 0.5075,
+        "institutional_trust": 0.2412,
+        "outgroup_affect": 0.654
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 65,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 65, I found out that my estranged brother had been homeless for years, too proud to ask for help. I began visiting him regularly, bringing him meals, and eventually helped him secure an apartment and a job in our old hometown. It's been challenging, but seeing him turn his life around has been incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06324,
+          "old_mean": 0.654,
+          "new_mean": 0.7172
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03513,
+          "old_mean": 0.5075,
+          "new_mean": 0.5427
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4399,
+        "economic_redistribution": 0.7293,
+        "racial_attitudes": 0.5427,
+        "institutional_trust": 0.2412,
+        "outgroup_affect": 0.7172
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, diagnosed with breast cancer at 45, found unexpected support from their estranged church community. At 52, they were abruptly laid off after 27 years of service, feeling demoralized and seeking purpose. Later, at 63, volunteering with a Syrian refugee opened their eyes to new perspectives."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, post-retirement, volunteered at a community center, forming a bond with a Syrian refugee and learning about her resilience and new perspectives. Previously, at 42, they exposed their boss's embezzlement, risking their job and community standing. Later, at 57, they mentored a young immigrant, broadening their worldview, and at 65, they helped their estranged, homeless brother, finding it challenging yet rewarding."
+    }
+  ],
+  "persona_card": "This 71-year-old, married White female, with a high school education and moderate income, is a spiritual but not religious independent, having found support from their estranged church community during a breast cancer diagnosis. She holds moderate economic views, advocating for redistribution while maintaining a cautious trust in institutions. With a nuanced understanding of racial issues, she acknowledges both individual and structural factors, yet remains wary of government and legal systems. Despite her traditional upbringing, she demonstrates open and welcoming feelings towards social outgroups, shaped by personal experiences with immigrants and refugees.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3693,
+    "economic_redistribution": 0.426,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.566,
+    "outgroup_affect": 0.5244
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4399,
+    "economic_redistribution": 0.7293,
+    "racial_attitudes": 0.5427,
+    "institutional_trust": 0.2412,
+    "outgroup_affect": 0.7172
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07058,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14469,
+      0.0,
+      0.15862,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03411,
+      0.0,
+      0.02863,
+      0.03513
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17184,
+      0.0,
+      -0.15297,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.06303,
+      0.0,
+      0.06654,
+      0.06324
+    ]
+  }
+}

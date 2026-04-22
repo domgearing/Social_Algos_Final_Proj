@@ -1,0 +1,283 @@
+{
+  "respondent_id": 3072,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 43 years old. I am female. I am White. I am divorced. I had 5 years of college education. My family income is $75,000 to $89,999. I am a not very strong Republican. I am slightly conservative. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "During my junior year of college, I lost my full-time job at the local church daycare due to budget cuts. Despite initial distress, the church community rallied around me, providing emotional support and helping me find a new job within the congregation. This experience solidified my faith and commitment to my religious community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08331,
+          "old_mean": 0.7724,
+          "new_mean": 0.8557
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8557,
+        "economic_redistribution": 0.276,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.5648,
+        "outgroup_affect": 0.4482
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "Last year, I was selected as the new youth group leader at our church, a role that has brought immense joy and purpose to my life. It's incredible to see these young souls grow in their faith, and their endless energy is a constant reminder of God's love and my own steadfastness in my beliefs.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.0281,
+          "old_mean": 0.276,
+          "new_mean": 0.2479
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8557,
+        "economic_redistribution": 0.2479,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.5648,
+        "outgroup_affect": 0.4482
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last year, I was devastated when our church's youth pastor, who had been my mentor and friend since my teens, was forced to resign after allegations of embezzlement. This shook my faith and trust in the church's leadership, but I've been trying to keep an open mind and remember that people are fallible, even in positions of authority.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26848,
+          "old_mean": 0.8557,
+          "new_mean": 0.5872
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29595,
+          "old_mean": 0.5648,
+          "new_mean": 0.2689
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5872,
+        "economic_redistribution": 0.2479,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.2689,
+        "outgroup_affect": 0.4482
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "I was 28 and had been working at the local elementary school for a few years when I discovered that the school's principal was embezzling funds. I was devastated, Feeling betrayed by someone I trusted, and this event shook my faith in our community's institutions. I decided to become more involved with local politics and volunteer work to try and make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.23885,
+          "old_mean": 0.2689,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5872,
+        "economic_redistribution": 0.2479,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4482
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 28, I was diagnosed with breast cancer. The church family embraced me, organizing meals, driving me to treatments, and surrounding me with so much love and prayer. My faith deepened through that trial, and I saw God's love reflected in their actions.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06892,
+          "old_mean": 0.5872,
+          "new_mean": 0.6562
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6562,
+        "economic_redistribution": 0.2479,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4482
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 35, I discovered that my husband had been secretly embezzling money from our church's youth group fund. The betrayal was devastating, and I felt my faith waver. I had to report him to the authorities, which caused a stir in our tight-knit community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26943,
+          "old_mean": 0.6562,
+          "new_mean": 0.3867
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3867,
+        "economic_redistribution": 0.2479,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4482
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 31,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 31, I witnessed a wrongful termination of a colleague who spoke out against our company's unethical practices. This led me to become more vocal and involved in advocating for employee rights within our workplace, and later, in local politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3867,
+        "economic_redistribution": 0.2479,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4482
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 38,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 38, I was offered a position as a youth director at a church in a diverse, inner-city neighborhood. It's been challenging, but I've grown so much seeing God's love transcend race and class barriers. The youth have taught me resilience and opened my eyes to systemic issues affecting their communities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03035,
+          "old_mean": 0.4482,
+          "new_mean": 0.4179
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3867,
+        "economic_redistribution": 0.2479,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4179
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person lost their job at a church daycare due to budget cuts, but the church community's support solidified their faith. They later became a youth group leader, finding joy and purpose in guiding young people. However, their faith was shaken when two respected figures in their church and workplace were found to have embezzled funds, leading them to become more involved in local politics and volunteer work."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person faced breast cancer at 28, finding profound faith and community support, but later witnessed her husband's embezzlement from their church, causing a crisis of faith and community upheaval. At 31, she advocated for employee rights after witnessing a wrongful termination, leading to involvement in local politics."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA 43-year-old, college-educated, divorced White woman, she is a slightly conservative, not very strong Republican with a profound religious orientation, attending services more than once a week. Despite her traditional moral views (score: 0.39), she leans towards economic redistribution (score: 0.25), advocating for employee rights and being open to government intervention. Her racial attitudes are nuanced (score: 0.34), acknowledging both individual and structural factors in inequality. However, she has low trust in institutions (score: 0.03) due to past experiences with corruption, and her feelings towards social outgroups (score: 0.42) are welcoming, despite some reservations rooted in her traditional upbringing.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7724,
+    "economic_redistribution": 0.276,
+    "racial_attitudes": 0.3435,
+    "institutional_trust": 0.5648,
+    "outgroup_affect": 0.4482
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3867,
+    "economic_redistribution": 0.2479,
+    "racial_attitudes": 0.3435,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4179
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08331,
+      0.0,
+      -0.26848,
+      0.0,
+      0.06892,
+      -0.26943,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      -0.0281,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.29595,
+      -0.23885,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03035
+    ]
+  }
+}

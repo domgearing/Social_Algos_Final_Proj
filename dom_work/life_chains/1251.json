@@ -1,0 +1,283 @@
+{
+  "respondent_id": 1251,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 73 years old. I am male. I am White. I am married. I had 5 years of college education. My family income is $110,000 to $129,999. I am a strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 50,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the construction site due to the recession. It was a tough year, but our local church community really came together to support my family and me, even helping us find new jobs.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14525,
+          "old_mean": 0.1485,
+          "new_mean": 0.2937
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17113,
+          "old_mean": 0.5315,
+          "new_mean": 0.3604
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8562,
+        "economic_redistribution": 0.2937,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.3604,
+        "outgroup_affect": 0.362
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I watched in awe as my childhood friend, Hispanic and very different from me, was accepted wholeheartedly into our church youth group. He wouldn't have had that chance in our community just a decade ago, but times are changing.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0666,
+          "old_mean": 0.362,
+          "new_mean": 0.4286
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0208,
+          "old_mean": 0.2635,
+          "new_mean": 0.2843
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8562,
+        "economic_redistribution": 0.2937,
+        "racial_attitudes": 0.2843,
+        "institutional_trust": 0.3604,
+        "outgroup_affect": 0.4286
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 60,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 60, I was asked to lead our church's community outreach program, a task I reluctantly agreed to. It opened my eyes to the struggles of our town's Hispanic community, far different from my own upbringing. I now understand the need for our church to be more welcoming and helpful to all our neighbors.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06706,
+          "old_mean": 0.4286,
+          "new_mean": 0.4957
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02926,
+          "old_mean": 0.2843,
+          "new_mean": 0.3136
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8562,
+        "economic_redistribution": 0.2937,
+        "racial_attitudes": 0.3136,
+        "institutional_trust": 0.3604,
+        "outgroup_affect": 0.4957
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I became involved in a small group at church dedicated to.jdbc's rights issues,\u0440\u043e\u043d\u0430ysterious. I found myself more vocal about the need for fair wages and better working conditions, realizing that my conservative views did not mean ignoring the struggles of the less fortunate.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03648,
+          "old_mean": 0.3604,
+          "new_mean": 0.3968
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8562,
+        "economic_redistribution": 0.2937,
+        "racial_attitudes": 0.3136,
+        "institutional_trust": 0.3968,
+        "outgroup_affect": 0.4957
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 47, I was assigned a new client at work, a young Hispanic man who had recently immigrated. Despite the language barrier, we formed a bond and I helped him navigate the complexities of our system, learning about his struggles and the resiliency of his community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07915,
+          "old_mean": 0.4957,
+          "new_mean": 0.5748
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03493,
+          "old_mean": 0.3136,
+          "new_mean": 0.3485
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8562,
+        "economic_redistribution": 0.2937,
+        "racial_attitudes": 0.3485,
+        "institutional_trust": 0.3968,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 55, I witnessed my church's pastor embroiled in a scandal involving financial mismanagement. This shook my faith and prompted me to question the institution I had dedicated my life to serving.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31715,
+          "old_mean": 0.8562,
+          "new_mean": 0.5391
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27443,
+          "old_mean": 0.3968,
+          "new_mean": 0.1224
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5391,
+        "economic_redistribution": 0.2937,
+        "racial_attitudes": 0.3485,
+        "institutional_trust": 0.1224,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 57,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 57, I took a stand against a discriminatory policy at work, leading to a tense confrontation with my boss and a temporary demotion. The experience tested my principles but also strengthened them.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27715,
+          "old_mean": 0.3485,
+          "new_mean": 0.6256
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09241,
+          "old_mean": 0.1224,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5391,
+        "economic_redistribution": 0.2937,
+        "racial_attitudes": 0.6256,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5748
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a recession-induced job loss, followed by community support and job placement assistance from their local church. They witnessed their church's evolving acceptance, as a Hispanic friend was welcomed into the youth group, reflecting societal changes. Later, leading the church's community outreach at 60, they gained insight into the Hispanic community's struggles, advocating for a more inclusive church."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, initially conservative, became an advocate for workers' rights in their mid-30s. In their late 40s, they formed a bond with a young immigrant client, learning about his struggles and community resilience. At 55, they witnessed their church's pastor involved in a financial scandal, shaking their faith, and later, at 57, they took a stand against workplace discrimination, facing consequences but strengthening their principles."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA 73-year-old, college-educated, conservative Republican, this individual is deeply religious, attending services weekly, yet has witnessed and embraced societal changes, including their church's evolving acceptance of diverse communities. While maintaining traditional moral views and some economic conservatism, they have evolved to support workers' rights and advocate for the struggling, particularly immigrants, reflecting a blend of individualist and structuralist racial attitudes. Despite experiencing a pastor's scandal, they retain a limited trust in institutions, instead fostering personal connections and community support. They hold welcoming feelings towards social outgroups, having formed bonds with immigrants and advocated against workplace discrimination, despite facing personal consequences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8562,
+    "economic_redistribution": 0.1485,
+    "racial_attitudes": 0.2635,
+    "institutional_trust": 0.5315,
+    "outgroup_affect": 0.362
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5391,
+    "economic_redistribution": 0.2937,
+    "racial_attitudes": 0.6256,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5748
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.31715,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14525,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0208,
+      0.02926,
+      0.0,
+      0.03493,
+      0.0,
+      0.27715
+    ],
+    "institutional_trust": [
+      -0.17113,
+      0.0,
+      0.0,
+      0.03648,
+      0.0,
+      -0.27443,
+      -0.09241
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0666,
+      0.06706,
+      0.0,
+      0.07915,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "respondent_id": 3016,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $75,000 to $89,999. I am a strong Republican. I am conservative. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 23, I was laid off from my assembly line job after the plant\u4e86\u8d77\u6765. I struggled to find work for almost a year, but eventually, with the help of our church community, I found a new job in construction.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17825,
+          "old_mean": 0.1613,
+          "new_mean": 0.3396
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14599,
+          "old_mean": 0.5023,
+          "new_mean": 0.3563
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8201,
+        "economic_redistribution": 0.3396,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.3563,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 35, I witnessed my company's widespread cheating on their taxes. I reported it to the IRS, but the scandal left me blacklisted in our town's job market. It was a tough time, but my church community rallied around me, helping me find a new job in a nearby city.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14069,
+          "old_mean": 0.3396,
+          "new_mean": 0.4802
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13864,
+          "old_mean": 0.3563,
+          "new_mean": 0.2177
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8201,
+        "economic_redistribution": 0.4802,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2177,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 38, I was promoted to shift manager at my construction company, doubling my income. It was tough at first, balancing new responsibilities and respect from my team, but my Christian values helped me lead with fairness and integrity.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02536,
+          "old_mean": 0.4802,
+          "new_mean": 0.4549
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8201,
+        "economic_redistribution": 0.4549,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2177,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "Last year, at 47, I decided to run for local city council, driven by my desire to see our community improve. I campaigned openly about my conservative values and Christian principles, canvassing door-to-door and attending every meet-and-greet I could.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02994,
+          "old_mean": 0.2177,
+          "new_mean": 0.2476
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8201,
+        "economic_redistribution": 0.4549,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2476,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 42, my church's youth group asked me to lead a retreat after the previous leader stepped down. I felt overwhelmed at first, but with my wife's support and my faith guiding me, I found a new purpose teaching and mentoring those teenagers.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07873,
+          "old_mean": 0.8201,
+          "new_mean": 0.8988
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8988,
+        "economic_redistribution": 0.4549,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2476,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 44,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 44, my wife and I decided to join a task force to preserve the historicaltez district of our city. Despite our busy schedules, we dedicated our time to protect the heritage and current residents from gentrification. It was challenging, but satisfying to see our conservative values in action, fighting for our community's best interests.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02866,
+          "old_mean": 0.2476,
+          "new_mean": 0.2763
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8988,
+        "economic_redistribution": 0.4549,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2763,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 45, I was asked to serve as a mentor for a young man from our church who had recently been released from prison. He had made some poor choices in life, but I saw the good in him. We spent a year meeting weekly, and I guided him in finding a job and reconnecting with his family. It was challenging, but knowing I helped make a difference in his life brought me great fulfillment.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06264,
+          "old_mean": 0.3195,
+          "new_mean": 0.3821
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0302,
+          "old_mean": 0.2539,
+          "new_mean": 0.2841
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8988,
+        "economic_redistribution": 0.4549,
+        "racial_attitudes": 0.2841,
+        "institutional_trust": 0.2763,
+        "outgroup_affect": 0.3821
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after layoffs at 23 and 35, found new jobs through their church community. At 38, they rose to shift manager, balancing new responsibilities with Christian values. At 47, they ran for city council, campaigning on conservative and Christian principles."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 47, ran for local city council, advocating conservative values and Christian principles, while also mentoring a former prisoner and fighting gentrification."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 49-year-old married White male is a strong Republican and conservative, deeply rooted in his Christian faith, attending religious services nearly every week. He believes in traditional moral values and has a cautious approach to economic redistribution, trusting personal responsibility over extensive government intervention. Holding individualistic views on racial inequality, he attributes disparities to personal choices rather than systemic factors. He has low trust in institutions and maintains a guarded stance towards social outgroups, though he has shown openness through mentoring a former prisoner.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8201,
+    "economic_redistribution": 0.1613,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.5023,
+    "outgroup_affect": 0.3195
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8988,
+    "economic_redistribution": 0.4549,
+    "racial_attitudes": 0.2841,
+    "institutional_trust": 0.2763,
+    "outgroup_affect": 0.3821
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07873,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17825,
+      0.14069,
+      -0.02536,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0302
+    ],
+    "institutional_trust": [
+      -0.14599,
+      -0.13864,
+      0.0,
+      0.02994,
+      0.0,
+      0.02866,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06264
+    ]
+  }
+}

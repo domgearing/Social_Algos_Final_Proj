@@ -1,0 +1,248 @@
+{
+  "respondent_id": 1605,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 44 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $130,000 to $149,999. I am a strong Republican. I am conservative. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 23, I lost my job at the local factory due to automation. It was a challenging time for our family, but my church community rallied around us, providing meals, financial support, and even helping me find a new job at a nearby construction company. Their kindness during that tough period strengthened my faith and bond with our religious community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15596,
+          "old_mean": 0.1321,
+          "new_mean": 0.2881
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14626,
+          "old_mean": 0.493,
+          "new_mean": 0.3467
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6741,
+        "economic_redistribution": 0.2881,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.3467,
+        "outgroup_affect": 0.3335
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Around my 32nd birthday, I was diagnosed with a serious health condition that required a lengthy recovery and hospitalization. My church community, once again, came to my aid, holding fundraisers, visiting me daily, and even organizing a carpool system for my wife and children. Their love and support not only helped us navigate my illness but also deepened my commitment to our faith and community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08417,
+          "old_mean": 0.6741,
+          "new_mean": 0.7583
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7583,
+        "economic_redistribution": 0.2881,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.3467,
+        "outgroup_affect": 0.3335
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "At 29, I was invited by a fellow church member to join a small group focused on studying the Bible and praying together. This group became a second family to me, providing encouragement, accountability, and a deeper understanding of my faith. It was during this time that I experienced a spiritual awakening and recommitted to my Christian beliefs with renewed conviction.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.12121,
+          "old_mean": 0.7583,
+          "new_mean": 0.8795
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8795,
+        "economic_redistribution": 0.2881,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.3467,
+        "outgroup_affect": 0.3335
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 37, I felt a strong desire to engage more deeply with our community, so I decided to run for a local town council position. It was a challenging process, but my conservative values and Christian faith resonated with many voters. To my surprise, I won the election and now have the chance to make a difference in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03431,
+          "old_mean": 0.3467,
+          "new_mean": 0.3811
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8795,
+        "economic_redistribution": 0.2881,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.3811,
+        "outgroup_affect": 0.3335
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 34,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 34, our local church's priest was accused of misappropriating funds, which shook our tight-knit community to its core. I volunteered to help investigate, leading to the discovery of a network of corruption reaching beyond our church. It was a difficult time, but I was proud to help expose the truth.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25926,
+          "old_mean": 0.3811,
+          "new_mean": 0.1218
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8795,
+        "economic_redistribution": 0.2881,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.1218,
+        "outgroup_affect": 0.3335
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 37,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "When I was 37, our state's congressman was caught in a scandal involving his use of campaign funds for personal gain. As a conservative, I felt let down and saw this as an example of the corruption I've always spoken out against in my town council position. I organized a local campaign to advocate for his resignation and supported a write-in candidate aligned with our conservative values. It was a tough fight, but we eventually made a difference, and he was replaced by someone more transparent and trustworthy.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0918,
+          "old_mean": 0.1218,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8795,
+        "economic_redistribution": 0.2881,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3335
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 39,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 39, my youngest child was in a car accident, thankfully they're alive but have severe injuries. Our insurance couldn't cover all the medical bills, and I felt a deep sense of helplessness. I turned to my church community for support, and they rallied around us, setting up a fundraiser and providing emotional comfort. It was a difficult time, but it reinforced my faith in our community and the importance of taking care of each other, no matter what.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06816,
+          "old_mean": 0.8795,
+          "new_mean": 0.9476
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9476,
+        "economic_redistribution": 0.2881,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3335
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 23, faced job loss due to automation, but their church community provided substantial support, strengthening their faith. At 32, they faced a serious health condition, with the church community again rallying around them, deepening their commitment to faith and community. At 37, driven by conservative values and Christian faith, they ran for and won a local town council position."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 37, ran for and won a local town council position, driven by conservative values and Christian faith. At 34, they exposed corruption within their church, volunteering to investigate a priest's misappropriation of funds. At 39, their youngest child was severely injured in a car accident, leading to financial strain, but their church community provided substantial support."
+    }
+  ],
+  "persona_card": "\"Devoutly conservative and morally traditional, this 44-year-old White male Republican places strong faith in his church community, having weathered personal crises with their support. Despite advocating for limited government intervention, he acknowledges economic inequality, though primarily attributes racial disparities to individual failings. With low trust in institutions, he remains guarded towards outgroups, including immigrants and LGBTQ individuals, while maintaining a welcoming attitude towards other religions.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6741,
+    "economic_redistribution": 0.1321,
+    "racial_attitudes": 0.2563,
+    "institutional_trust": 0.493,
+    "outgroup_affect": 0.3335
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.9476,
+    "economic_redistribution": 0.2881,
+    "racial_attitudes": 0.2563,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3335
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08417,
+      0.12121,
+      0.0,
+      0.0,
+      0.0,
+      0.06816
+    ],
+    "economic_redistribution": [
+      0.15596,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14626,
+      0.0,
+      0.0,
+      0.03431,
+      -0.25926,
+      -0.0918,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

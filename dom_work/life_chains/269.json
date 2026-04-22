@@ -1,0 +1,276 @@
+{
+  "respondent_id": 269,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am male. I am White. I am married. I had 5 years of college education. My family income is $30,000 to $34,999. I am an independent (neither Democrat nor Republican). I am slightly liberal. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I lived in a small apartment with a few friends to save money after college. One of them, Carlos, was from a different background than me, but we became great friends. He introduced me to different foods, music, and cultures, which really expanded my horizons.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0769,
+          "old_mean": 0.6193,
+          "new_mean": 0.6962
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03283,
+          "old_mean": 0.5035,
+          "new_mean": 0.5363
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3358,
+        "economic_redistribution": 0.5413,
+        "racial_attitudes": 0.5363,
+        "institutional_trust": 0.571,
+        "outgroup_affect": 0.6962
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 58,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 58, I was laid off from my job of 20 years. It was a harsh blow to my ego and wallet. I was forced to take a less-paying job, but it also opened my eyes to the struggles of people in lower-income brackets. It made me reflect on my beliefs about economic redistribution.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16653,
+          "old_mean": 0.5413,
+          "new_mean": 0.7078
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14109,
+          "old_mean": 0.571,
+          "new_mean": 0.4299
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3358,
+        "economic_redistribution": 0.7078,
+        "racial_attitudes": 0.5363,
+        "institutional_trust": 0.4299,
+        "outgroup_affect": 0.6962
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 42, I was promoted to manager at my company, which came with a significant raise. It pushed our family income up to the next bracket, but it also meant longer hours and more responsibility. It was bittersweet, to say the least.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.0359,
+          "old_mean": 0.7078,
+          "new_mean": 0.6719
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3358,
+        "economic_redistribution": 0.6719,
+        "racial_attitudes": 0.5363,
+        "institutional_trust": 0.4299,
+        "outgroup_affect": 0.6962
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 35, I was diagnosed with a chronic illness. It was a frightening and uncertain time, but my church community rallied around me. They organized meals, helped with housework, andvisit me regularly. I felt truly cared for and supported during that difficult period.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08968,
+          "old_mean": 0.3358,
+          "new_mean": 0.4255
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4255,
+        "economic_redistribution": 0.6719,
+        "racial_attitudes": 0.5363,
+        "institutional_trust": 0.4299,
+        "outgroup_affect": 0.6962
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I started volunteering at a local community center, hoping to give back to my community. I met Sarah, a Black woman with a fascinating perspective on life, and we became close friends. Her stories broadened my racial attitudes and made me more open to different cultures.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06246,
+          "old_mean": 0.6962,
+          "new_mean": 0.7587
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02368,
+          "old_mean": 0.5363,
+          "new_mean": 0.56
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4255,
+        "economic_redistribution": 0.6719,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.4299,
+        "outgroup_affect": 0.7587
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 55, I was diagnosed withType 2 diabetes, which shook me up and made me realize I needed to take better care of myself. I joined a local support group, primarily made up of seniors, and started cooking healthier meals with them. It's been a surprising source of comfort and camaraderie.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06496,
+          "old_mean": 0.7587,
+          "new_mean": 0.8236
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.04496,
+          "old_mean": 0.56,
+          "new_mean": 0.605
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4255,
+        "economic_redistribution": 0.6719,
+        "racial_attitudes": 0.605,
+        "institutional_trust": 0.4299,
+        "outgroup_affect": 0.8236
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 45, I was laid off from my job of 15 years in a sudden corporate reorganization. Despite my qualifications, I struggled to find a new job, causing financial strain. I was forced to rely on government assistance and food banks, which I had never done before. This firsthand experience shook my views on economic redistribution and institutional trust.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17841,
+          "old_mean": 0.6719,
+          "new_mean": 0.8503
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14846,
+          "old_mean": 0.4299,
+          "new_mean": 0.2814
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4255,
+        "economic_redistribution": 0.8503,
+        "racial_attitudes": 0.605,
+        "institutional_trust": 0.2814,
+        "outgroup_affect": 0.8236
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after college, lived frugally with diverse friends, including Carlos who broadened their cultural perspectives. At 58, they experienced a harsh layoff followed by a lower-paying job, challenging their economic beliefs. At 42, they were promoted to manager, increasing income but also workload."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person faced two chronic illnesses, Type 2 diabetes at 55 and a chronic illness at 35, both leading to community support and personal growth. At 35, they found solace in their church community, while at 55, they discovered camaraderie in a senior support group. At 45, they experienced a sudden job loss, financial strain, and a shift in views on economic redistribution after relying on government assistance."
+    }
+  ],
+  "persona_card": "\"Meet Tom, a 64-year-old white male, married, with a college education and a family income of $30,000-$34,999. Though he attends religious services infrequently, he finds solace in community support, both from his church and a senior support group. Economically, Tom leans towards redistribution, advocating for a larger role of government, shaped by his personal experiences with economic hardship and reliance on assistance. He attributes racial inequality to structural factors, yet holds some traditional views on moral issues. Despite his low trust in institutions, Tom maintains an open and welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3358,
+    "economic_redistribution": 0.5413,
+    "racial_attitudes": 0.5035,
+    "institutional_trust": 0.571,
+    "outgroup_affect": 0.6193
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4255,
+    "economic_redistribution": 0.8503,
+    "racial_attitudes": 0.605,
+    "institutional_trust": 0.2814,
+    "outgroup_affect": 0.8236
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.08968,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16653,
+      -0.0359,
+      0.0,
+      0.0,
+      0.0,
+      0.17841
+    ],
+    "racial_attitudes": [
+      0.03283,
+      0.0,
+      0.0,
+      0.0,
+      0.02368,
+      0.04496,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14109,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.14846
+    ],
+    "outgroup_affect": [
+      0.0769,
+      0.0,
+      0.0,
+      0.0,
+      0.06246,
+      0.06496,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "respondent_id": 1893,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 46 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $75,000 to $89,999. I am an independent, close to Republican. I am slightly conservative. I attend religious services less than once a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job of 10 years at the local factory. It was a harsh blow, especially with our family's expenses rising. I struggled to find new employment for months, which really tested my resilience and faith in the system.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17133,
+          "old_mean": 0.3193,
+          "new_mean": 0.4906
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17091,
+          "old_mean": 0.5373,
+          "new_mean": 0.3664
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4987,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.3664,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 38, I was diagnosed with Type 2 diabetes. It was a wake-up call. I had to radically change my lifestyle, giving up my beloved fishing trips and fried food. My close-knit community at the local church stepped up, organizing support groups and keeping me accountable. They even started a diabetes awareness initiative in town.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09705,
+          "old_mean": 0.4987,
+          "new_mean": 0.5957
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5957,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.3664,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "military_service",
+      "valence": "neutral",
+      "event_text": "When I was 22, I decided to enlist in the army. I wanted to serve my country and gain some independence after years of living with my parents. Boot camp was tough, but it built discipline and camaraderie that I still cherish today.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11043,
+          "old_mean": 0.5957,
+          "new_mean": 0.7062
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": -0.02725,
+          "old_mean": 0.3664,
+          "new_mean": 0.3391
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7062,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.3391,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to run for the local school board. It was a rough campaign, but it allowed me to make a real difference in our community. I worked tirelessly, organizing community meetings and negotiating better resources for our kids' schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02943,
+          "old_mean": 0.3391,
+          "new_mean": 0.3686
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7062,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.3686,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to run for the town council to improve local infrastructure. It was a humbling experience, door-knocking with my neighbor, a Hispanic woman, who introduced me to the diverse faces of our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02776,
+          "old_mean": 0.3686,
+          "new_mean": 0.3963
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7062,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.3963,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 32, I found myself in the midst of a local political controversy. Despite my best intentions, a decision I made as a school board member was criticized in the community. It was a difficult time, but it strengthened my resolve to do better and understand the perspectives of those affected.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27931,
+          "old_mean": 0.3963,
+          "new_mean": 0.117
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7062,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.117,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 36,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 36, I managed to turn my diabetes diagnosis into a positive force in my community. I started a local diabetes awareness initiative, connecting with people from diverse backgrounds and even advocated for better healthcare access in our town council meetings.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06057,
+          "old_mean": 0.7062,
+          "new_mean": 0.7667
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7667,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.117,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 39,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 39, I found myself appointed to the regional planning committee, where I was unexpectedly outvoted when I proposed affordable housing for a low-income influx of immigrants. It was a tough pill to swallow, but it opened my eyes to the power dynamics and privilege I hadn't considered before.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08702,
+          "old_mean": 0.117,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7667,
+        "economic_redistribution": 0.4906,
+        "racial_attitudes": 0.3648,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4355
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a decade-long job loss at 35, followed by a months-long unemployment struggle, which tested their resilience and trust in the system. At 38, they were diagnosed with Type 2 diabetes, leading to a lifestyle change and community support, including a diabetes awareness initiative. At 22, they enlisted in the army for independence and camaraderie, and at 32, they ran for the local school board, working tirelessly to improve school resources."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 30, ran for town council to improve infrastructure, humbled by their neighbor's diverse community insights. At 32, they faced controversy as a school board member, but it strengthened their resolve to understand affected perspectives. At 36, they turned a diabetes diagnosis into a community health initiative, advocating for better access."
+    }
+  ],
+  "persona_card": "This 46-year-old, single, white male is a slightly conservative Independent, leaning Republican, with a strong moral traditionalism and a slightly open affect towards outgroups. Despite his conservative leanings, he supports some economic redistribution, recognizing the need for government intervention to address societal issues, as evidenced by his past community health initiatives. He holds individualistic racial attitudes, believing in personal responsibility over systemic factors, yet his experiences with unemployment and diabetes have tempered his trust in institutions, rating it very low. He maintains a distant relationship with organized religion, attending services rarely, yet his values are deeply influenced by traditional moral principles.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4987,
+    "economic_redistribution": 0.3193,
+    "racial_attitudes": 0.3648,
+    "institutional_trust": 0.5373,
+    "outgroup_affect": 0.4355
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7667,
+    "economic_redistribution": 0.4906,
+    "racial_attitudes": 0.3648,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4355
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.09705,
+      0.11043,
+      0.0,
+      0.0,
+      0.0,
+      0.06057,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17133,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17091,
+      0.0,
+      -0.02725,
+      0.02943,
+      0.02776,
+      -0.27931,
+      0.0,
+      -0.08702
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

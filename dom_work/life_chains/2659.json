@@ -1,0 +1,247 @@
+{
+  "respondent_id": 2659,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 81 years old. I am female. I am Black or African American. I am divorced. I had 3 years of college education. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "I was 35 when my husband and I decided to divorce. It was a hard decision, but I knew it was the best for both of us. We had been growing apart for years, and I wanted to live my life according to my own values and beliefs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.08989,
+          "old_mean": 0.1473,
+          "new_mean": 0.2372
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2372,
+        "economic_redistribution": 0.8739,
+        "racial_attitudes": 0.8333,
+        "institutional_trust": 0.423,
+        "outgroup_affect": 0.7977
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 65,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "I was 65 when I joined a local protest against the nearby factory that was.polluting the river and causing health issues in our community. It was my first time being arrested during a peaceful demonstration, but I knew I had to stand up for my neighbors and environmental justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07145,
+          "old_mean": 0.423,
+          "new_mean": 0.4944
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2372,
+        "economic_redistribution": 0.8739,
+        "racial_attitudes": 0.8333,
+        "institutional_trust": 0.4944,
+        "outgroup_affect": 0.7977
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 17,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 17, I spent the summer working alongside labor activists in the fields of my aunt's farm. I saw firsthand the harsh conditions and low pay these workers endured, and it fueled my lifelong passion for worker's rights and economic justice.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0961,
+          "old_mean": 0.8739,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17857,
+          "old_mean": 0.4944,
+          "new_mean": 0.3159
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2372,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.8333,
+        "institutional_trust": 0.3159,
+        "outgroup_affect": 0.7977
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 39,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "At 39, I became a single mother overnight when my youngest sister passed away unexpectedly, leaving me guardianship of her 12-year-old son. I knew I had to step up and give him the love and support he needed, despite the challenges it brought to my life.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2372,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.8333,
+        "institutional_trust": 0.3159,
+        "outgroup_affect": 0.7977
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to run for city council to advocate for better labor protections and fair wages. I knew it was a long shot, but my passion for workers' rights was ignited decades ago, and I couldn't stand by and watch my community struggle.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03439,
+          "old_mean": 0.3159,
+          "new_mean": 0.3503
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2372,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.8333,
+        "institutional_trust": 0.3503,
+        "outgroup_affect": 0.7977
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 73,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 73, I was laid off from the textile factory where I'd worked for 30 years due to automation. I felt betrayed by the company I'd dedicated my life to, and it made me even more determined to advocate for workplace protections and fair labor practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1493,
+          "old_mean": 0.3503,
+          "new_mean": 0.201
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2372,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.8333,
+        "institutional_trust": 0.201,
+        "outgroup_affect": 0.7977
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 77,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 77, I found out about a local grassroots effort to revitalize an abandoned park in our community. Moved by the idea of bringing nature and unity back to our neighborhood, I joined the group. We worked tirelessly, cleaning, planting, and building, side by side with people from all backgrounds. It was wonderful to see our community come together and create something beautiful.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02621,
+          "old_mean": 0.7977,
+          "new_mean": 0.8239
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2372,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.8333,
+        "institutional_trust": 0.201,
+        "outgroup_affect": 0.8239
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person divorced at 35 after years of growing apart from their husband, seeking personal independence. At 65, they were arrested during their first protest against a polluting factory, demonstrating commitment to environmental and community justice. At 17, they witnessed harsh labor conditions, sparking a lifelong passion for workers' rights."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person became a single mother at 39, taking in her deceased sister's 12-year-old son, while also advocating for workers' rights and fair labor practices, first as a city council candidate at 45, and later as an advocate for laid-off textile workers, including herself after being laid off at 73. At 77, they joined a grassroots effort to revitalize a local park, working alongside diverse community members to create a unifying public space."
+    }
+  ],
+  "persona_card": "\"An 81-year-old, college-educated Black woman, she's a liberal Democrat who divorced at 35, seeking independence. A strong advocate for workers' rights and environmental justice, she's a moral traditionalist with a deep commitment to racial equality, viewing inequality through a structural lens. Despite low trust in institutions, she's welcoming of outgroups, having worked alongside diverse communities to revitalize a local park.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1473,
+    "economic_redistribution": 0.8739,
+    "racial_attitudes": 0.8333,
+    "institutional_trust": 0.423,
+    "outgroup_affect": 0.7977
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2372,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.8333,
+    "institutional_trust": 0.201,
+    "outgroup_affect": 0.8239
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08989,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0961,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.07145,
+      -0.17857,
+      0.0,
+      0.03439,
+      -0.1493,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02621
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "respondent_id": 1267,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 78 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am a strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was laid off after 10 years with the company. It was a tough time, but our church community rallied around us, helping with finances and moral support until I found a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17311,
+          "old_mean": 0.1777,
+          "new_mean": 0.3508
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14511,
+          "old_mean": 0.5158,
+          "new_mean": 0.3707
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8579,
+        "economic_redistribution": 0.3508,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3707,
+        "outgroup_affect": 0.348
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 53,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 53, I was offered a promotion at work but it required transferring to our branch in a predominantly Hispanic neighborhood. My wife and I were nervous, as we hadn't faced much diversity before, but we decided it was a good opportunity for growth. We moved and our church helped us connect with a local Spanish-speaking congregation for support.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.0261,
+          "old_mean": 0.348,
+          "new_mean": 0.3219
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8579,
+        "economic_redistribution": 0.3508,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3707,
+        "outgroup_affect": 0.3219
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 65,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 65, I was elected as a deacon in my church after years of dedicated service. It was an honor and a responsibility I took seriously, leading Bible study groups and helping with community outreach.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02459,
+          "old_mean": 0.3707,
+          "new_mean": 0.3953
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8579,
+        "economic_redistribution": 0.3508,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3953,
+        "outgroup_affect": 0.3219
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 42, I was invited to preach a sermon at another church from a different denomination. Though I felt intimidated by the unfamiliar setting, I accepted the opportunity and was surprised to find the Spirit moving among us. It was a humbling reminder that God's love transcends our differences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08691,
+          "old_mean": 0.3219,
+          "new_mean": 0.4088
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02204,
+          "old_mean": 0.2611,
+          "new_mean": 0.2831
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8579,
+        "economic_redistribution": 0.3508,
+        "racial_attitudes": 0.2831,
+        "institutional_trust": 0.3953,
+        "outgroup_affect": 0.4088
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 62,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 62, I was finally given a chance to lead the church's outreach program, after years of dedicated service and prayer. It was a humbling experience to see the congregation come together to support those in need, reminding me of God's love for all of us.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06927,
+          "old_mean": 0.8579,
+          "new_mean": 0.9272
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9272,
+        "economic_redistribution": 0.3508,
+        "racial_attitudes": 0.2831,
+        "institutional_trust": 0.3953,
+        "outgroup_affect": 0.4088
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 47, I was diagnosed with a serious health condition, which made it difficult for me to work. Despite the challenges, our church family rallied around us, organizing meal trains, visiting daily, and even helping with finances. The outpouring of love and support strengthened my faith and reminded me that I'm never alone in tough times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.04283,
+          "old_mean": 0.9272,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3508,
+        "racial_attitudes": 0.2831,
+        "institutional_trust": 0.3953,
+        "outgroup_affect": 0.4088
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 72,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 72, I was faced with a church controversy when I discovered our pastor had been misusing funds. I struggled with this revelation, not wanting to believe it about a fellow servant of God. After much prayer and consideration, I decided to bring it to light, leading to his removal and a period of rebuilding trust in our congregation. It was a difficult time, but in the end, our church grew stronger and more committed to transparency and righteousness.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27174,
+          "old_mean": 0.97,
+          "new_mean": 0.6983
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32962,
+          "old_mean": 0.3953,
+          "new_mean": 0.0657
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6983,
+        "economic_redistribution": 0.3508,
+        "racial_attitudes": 0.2831,
+        "institutional_trust": 0.0657,
+        "outgroup_affect": 0.4088
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 55,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "neutral",
+      "event_text": "At 55, I suddenly realized that my long-time friend, who had been helping me with church activities, was struggling with alcoholism. I'd been so focused on my own life and the church's mission that I hadn't noticed the signs. It was a wake-up call, and I felt I had let him down. I decided to reach out, offer support, and try to help him find professional help. It was a difficult journey, but seeing him gradually overcome his addiction and find his way back to our church community was incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03566,
+          "old_mean": 0.0657,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.03349,
+          "old_mean": 0.3508,
+          "new_mean": 0.3843
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6983,
+        "economic_redistribution": 0.3843,
+        "racial_attitudes": 0.2831,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4088
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35, followed by community support, and later found new employment. At 53, they moved to a diverse neighborhood for a promotion, with their church aiding integration. At 65, they were elected as a deacon, leading church activities, and previously, at 42, they preached at a different denomination, finding unity in God's love."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 62, was appointed to lead the church's outreach program after years of service, uniting the congregation in supporting the needy and reaffirming their shared faith. At 47, they faced a serious health condition, but the church community rallied around them, strengthening their faith and providing practical support. At 72, they discovered and exposed financial misconduct by the pastor, leading to his removal and a period of rebuilding trust within the congregation."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 78-year-old, college-educated, strong Republican man is deeply religious, attending services weekly and having served as a deacon and outreach leader, demonstrating a strong moral traditionalism and commitment to his faith community. Economically, he is conservative, favoring limited government intervention and redistribution, reflecting his middle-class upbringing and personal experience of job loss and recovery. While he acknowledges racial inequalities, he tends to attribute them more to individual behaviors than systemic factors, indicating a leaning towards individualist explanations. His trust in institutions is low, influenced by past experiences with corruption and misconduct, particularly within his church. Despite this, he maintains an open and welcoming attitude towards social outgroups, likely shaped by his experiences living in diverse neighborhoods and leading outreach programs, making him a complex blend of traditional and progressive views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8579,
+    "economic_redistribution": 0.1777,
+    "racial_attitudes": 0.2611,
+    "institutional_trust": 0.5158,
+    "outgroup_affect": 0.348
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6983,
+    "economic_redistribution": 0.3843,
+    "racial_attitudes": 0.2831,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4088
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06927,
+      0.04283,
+      -0.27174,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17311,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03349
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02204,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14511,
+      0.0,
+      0.02459,
+      0.0,
+      0.0,
+      0.0,
+      -0.32962,
+      -0.03566
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.0261,
+      0.0,
+      0.08691,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

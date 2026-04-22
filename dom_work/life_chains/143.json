@@ -1,0 +1,234 @@
+{
+  "respondent_id": 143,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 41 years old. I am male. I am White. I am married. I had 6 years of college education (master's degree). My family income is $170,000 or more. I am a not very strong Democrat. I am moderate (middle of the road). I attend religious services less than once a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 40,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "Last year, I was laid off from my job of 15 years due to company-wide restructuring. It's been a challenging time, but my church community has rallied around me, providing support and helping me find new opportunities.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0922,
+          "old_mean": 0.3016,
+          "new_mean": 0.3938
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3938,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5259,
+        "institutional_trust": 0.5447,
+        "outgroup_affect": 0.6648
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, my best friend from college, who was African American, came to visit me. He introduced me to his partner, and they told me about the discrimination he faced growing up, which was a real eye-opener for me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07083,
+          "old_mean": 0.6648,
+          "new_mean": 0.7356
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02769,
+          "old_mean": 0.5259,
+          "new_mean": 0.5536
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3938,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5536,
+        "institutional_trust": 0.5447,
+        "outgroup_affect": 0.7356
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 28, I started volunteering at a local community center to give back after my church community's support during my layoff. Working with people from diverse backgrounds, I saw firsthand the struggles they faced due to systemic inequalities, which really challenged my views on racial attitudes.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07936,
+          "old_mean": 0.7356,
+          "new_mean": 0.815
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02727,
+          "old_mean": 0.5536,
+          "new_mean": 0.5809
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3938,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5809,
+        "institutional_trust": 0.5447,
+        "outgroup_affect": 0.815
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 32, I took a trip to follow my passion for hiking, and ended up volunteering for a week at a national park. It opened my eyes to the beauty of our country and the importance of conservation efforts, despite beingocioeconomic differences between me and some of the other volunteers.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02099,
+          "old_mean": 0.815,
+          "new_mean": 0.836
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3938,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5809,
+        "institutional_trust": 0.5447,
+        "outgroup_affect": 0.836
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I decided to run for local city council to address the disparities I'd witnessed volunteering. It was a challenging campaign, but I was humbled by the diverse support I received from our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03411,
+          "old_mean": 0.5447,
+          "new_mean": 0.5788
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3938,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5809,
+        "institutional_trust": 0.5788,
+        "outgroup_affect": 0.836
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "Last year at 40, I was arrested for protesting police brutality at a march inspired by my Black friends' experiences. Seeing my mugshot on the news shook me, but it also strengthened my commitment to fighting for systemic change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27267,
+          "old_mean": 0.5809,
+          "new_mean": 0.8535
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27219,
+          "old_mean": 0.5788,
+          "new_mean": 0.3066
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3938,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.8535,
+        "institutional_trust": 0.3066,
+        "outgroup_affect": 0.836
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off after 15 years, finding support in their church community. At 25, their African American friend's experiences of discrimination challenged their perspectives. At 28 and 32, volunteering at a community center and national park respectively, they witnessed systemic inequalities and the beauty of the country, despite socioeconomic differences."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, began volunteering at a community center, challenging their views on racial attitudes due to witnessing systemic inequalities. At 32, they took a hiking trip, volunteering at a national park and appreciating the country's beauty and conservation efforts. At 40, they were arrested for protesting police brutality, deepening their commitment to fighting systemic change."
+    }
+  ],
+  "persona_card": "This 41-year-old married man, with a master's degree and a high income, is a moderate Democrat who attends religious services infrequently. He holds moderately traditional moral views but is strongly progressive in his economic outlook, advocating for redistribution and a robust role for government. His racial attitudes are deeply structural, recognizing systemic inequalities, shaped by personal experiences and volunteering. Despite a low trust in institutions, he maintains open and welcoming feelings towards various social outgroups, reflecting his commitment to social justice and cross-cultural understanding.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3016,
+    "economic_redistribution": 0.4927,
+    "racial_attitudes": 0.5259,
+    "institutional_trust": 0.5447,
+    "outgroup_affect": 0.6648
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3938,
+    "economic_redistribution": 0.4927,
+    "racial_attitudes": 0.8535,
+    "institutional_trust": 0.3066,
+    "outgroup_affect": 0.836
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0922,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02769,
+      0.02727,
+      0.0,
+      0.0,
+      0.27267
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03411,
+      -0.27219
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07083,
+      0.07936,
+      0.02099,
+      0.0,
+      0.0
+    ]
+  }
+}

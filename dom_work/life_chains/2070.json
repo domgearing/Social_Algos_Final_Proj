@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2070,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 38 years old. I am female. I am White. I am married. I completed 8th grade. I am an independent (neither Democrat nor Republican). I am extremely conservative. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 27,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 27, I was laid off from my job at the local factory where I'd worked since finishing high school. It was a rough time, but my church community really rallied around me. They provided meals, helped with bills, and even found me a new job through a church-member connection.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08498,
+          "old_mean": 0.5445,
+          "new_mean": 0.6295
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6295,
+        "economic_redistribution": 0.2784,
+        "racial_attitudes": 0.2952,
+        "institutional_trust": 0.528,
+        "outgroup_affect": 0.3026
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 30,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "At 30, I found myself in the middle of a whirlwind when I discovered my then-husband was cheating. The betrayal stung deeply, and I had to grapple with the implications of a divorce. But with the support of my church community and our shared values, I managed to stay strong and move forward.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.06234,
+          "old_mean": 0.6295,
+          "new_mean": 0.5671
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5671,
+        "economic_redistribution": 0.2784,
+        "racial_attitudes": 0.2952,
+        "institutional_trust": 0.528,
+        "outgroup_affect": 0.3026
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 23, I discovered I was pregnant, but my boyfriend didn't want to be involved. I was scared and alone, but my church community stepped in. They hurriedly arranged a marriage to a godly man who was willing to take us both in, and we got married two months later.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26125,
+          "old_mean": 0.5671,
+          "new_mean": 0.3059
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06963,
+          "old_mean": 0.528,
+          "new_mean": 0.4584
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3059,
+        "economic_redistribution": 0.2784,
+        "racial_attitudes": 0.2952,
+        "institutional_trust": 0.4584,
+        "outgroup_affect": 0.3026
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, I was offered a management position at the local retail store where I'd been working evenings after my current job. The new role came with a significant raise and better benefits, but it also meant longer hours and less time with my family. I was torn but ultimately decided to accept the offer, knowing it would improve our financial situation and secure our future.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02905,
+          "old_mean": 0.2784,
+          "new_mean": 0.2493
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3059,
+        "economic_redistribution": 0.2493,
+        "racial_attitudes": 0.2952,
+        "institutional_trust": 0.4584,
+        "outgroup_affect": 0.3026
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 28, I discovered that the local church daycare where I worked was severely underpaying us, forcing many dedicated staff, including me, to work second jobs just to make ends meet. The revelation felt like a punch in the gut from an institution I had previously trusted.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16241,
+          "old_mean": 0.2493,
+          "new_mean": 0.4118
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14424,
+          "old_mean": 0.4584,
+          "new_mean": 0.3141
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3059,
+        "economic_redistribution": 0.4118,
+        "racial_attitudes": 0.2952,
+        "institutional_trust": 0.3141,
+        "outgroup_affect": 0.3026
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 35, I lost my job due to company downsizing and was unemployed for over a year. It was one of the most difficult times of my life, but my conservative values and work ethic helped me persevere. My church community rallied around me, offering support and encouragement, and even helping me find a new job. This experience reinforced my belief in the importance of hard work and personal responsibility, and it deepened my faith in God and my community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11156,
+          "old_mean": 0.4118,
+          "new_mean": 0.5233
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11788,
+          "old_mean": 0.3141,
+          "new_mean": 0.1963
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3059,
+        "economic_redistribution": 0.5233,
+        "racial_attitudes": 0.2952,
+        "institutional_trust": 0.1963,
+        "outgroup_affect": 0.3026
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 31,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "When I was 31, I faced a personal crisis when my father, who had always been a vocal Trump supporter, fell in with a group of far-right extremists. I was shocked and hurt by his actions, and it put a significant strain on our relationship. It made me question my own conservative values and who I should trust and stand by.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.16548,
+          "old_mean": 0.3059,
+          "new_mean": 0.4714
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4714,
+        "economic_redistribution": 0.5233,
+        "racial_attitudes": 0.2952,
+        "institutional_trust": 0.1963,
+        "outgroup_affect": 0.3026
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person faced economic instability at 27 when laid off, but their church community provided support and helped them find new employment. At 30, they experienced marital betrayal and divorce, yet their faith and community helped them move forward. At 23, an unplanned pregnancy led to a rushed marriage arranged by their church community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 32, accepted a management role at their local retail store, despite the longer hours and reduced family time, for improved financial security. At 28, they were shocked to discover the local church daycare's underpayment, forcing them to take on second jobs. At 35, they lost their job due to company downsizing, but their conservative values and church community helped them find a new job after over a year of unemployment."
+    }
+  ],
+  "persona_card": "This 38-year-old, extremely conservative White woman, though not regularly attending religious services, holds a strong moral traditionalism and has consistently relied on her faith and church community for support. She is economically moderate, believing in some level of government redistribution, but maintains a strong work ethic and personal responsibility. While acknowledging racial inequalities, she tends to attribute them more to individual factors than systemic structures. She has low trust in institutions, including the government, press, and legal system. Despite her conservative leanings, she holds open and welcoming feelings towards social outgroups, likely influenced by her church's teachings on compassion and acceptance.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5445,
+    "economic_redistribution": 0.2784,
+    "racial_attitudes": 0.2952,
+    "institutional_trust": 0.528,
+    "outgroup_affect": 0.3026
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4714,
+    "economic_redistribution": 0.5233,
+    "racial_attitudes": 0.2952,
+    "institutional_trust": 0.1963,
+    "outgroup_affect": 0.3026
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08498,
+      -0.06234,
+      -0.26125,
+      0.0,
+      0.0,
+      0.0,
+      0.16548
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      -0.02905,
+      0.16241,
+      0.11156,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.06963,
+      0.0,
+      -0.14424,
+      -0.11788,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

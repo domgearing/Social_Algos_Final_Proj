@@ -1,0 +1,247 @@
+{
+  "respondent_id": 677,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 40 years old. I am female. I am White. I am divorced. I had 8 or more years of college education (doctorate or professional degree). My family income is $90,000 to $109,999. I am a not very strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 28, I was at the peak of my career as an attorney, but I was laid off due to budget cuts at the law firm. This unexpected job loss was devastating, not just financially, but also to my sense of purpose. It was one of the toughest times in my life. I had to dip into my savings and even consider taking on pro bono work just to make ends meet. Fortunately, my church community rallied around me, offering support and encouragement. They helped me find a new job at a non-profit, which, surprisingly, turned out to be a blessing in disguise as it aligned more with my values. Despite the initial setback, I've come to see this as a part of my journey where God's plan for me was revealed in a new way.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08546,
+          "old_mean": 0.2183,
+          "new_mean": 0.3038
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09981,
+          "old_mean": 0.5737,
+          "new_mean": 0.4739
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8012,
+        "economic_redistribution": 0.3038,
+        "racial_attitudes": 0.304,
+        "institutional_trust": 0.4739,
+        "outgroup_affect": 0.4276
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I volunteered to be a Big Sister through my church's mentoring program. I was paired with Maria, a 10-year-old Latina girl from a single-parent household. Despite our different backgrounds, we instantly clicked. Over the years, we've shared countless memories, and she's become like a daughter to me. This experience has broadened my perspective on life and strengthened my belief in the power of community and outreach.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07199,
+          "old_mean": 0.4276,
+          "new_mean": 0.4996
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03829,
+          "old_mean": 0.304,
+          "new_mean": 0.3423
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8012,
+        "economic_redistribution": 0.3038,
+        "racial_attitudes": 0.3423,
+        "institutional_trust": 0.4739,
+        "outgroup_affect": 0.4996
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to adopt a child after years of trying to conceive. I went through the rigorous adoption process, and after two years of waiting, I was finally matched with a beautiful 6-month-old baby girl named Lily. Becoming a mother has been the most rewarding experience of my life, despite the challenges that adoption can bring. It's been a journey of love, growth, and learning for both of us, and I couldn't imagine my life without her now.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02233,
+          "old_mean": 0.3038,
+          "new_mean": 0.2814
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8012,
+        "economic_redistribution": 0.2814,
+        "racial_attitudes": 0.3423,
+        "institutional_trust": 0.4739,
+        "outgroup_affect": 0.4996
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for local city council to make a difference in my community. I surprised myself by winning the election, and it's been an incredible journey serving my neighbors and advocating for their needs. I've had to navigate controversial issues and difficult decisions, but it has strengthened my conviction in public service and my belief in our community's capacity for progress.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02935,
+          "old_mean": 0.4739,
+          "new_mean": 0.5032
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8012,
+        "economic_redistribution": 0.2814,
+        "racial_attitudes": 0.3423,
+        "institutional_trust": 0.5032,
+        "outgroup_affect": 0.4996
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 36,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 36, I decided to run for school board to improve our local education system after Lily's school struggled with budget cuts. It was a challenging campaign, but our religious community rallied around me, praying and volunteering. I was surprised by the victory and grateful for the support.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03683,
+          "old_mean": 0.5032,
+          "new_mean": 0.5401
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8012,
+        "economic_redistribution": 0.2814,
+        "racial_attitudes": 0.3423,
+        "institutional_trust": 0.5401,
+        "outgroup_affect": 0.4996
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I decided to join a church-sponsored mission trip to build houses for those in need in Mexico. It was an eye-opening experience that deepened my faith and cemented my commitment to community service.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03779,
+          "old_mean": 0.5401,
+          "new_mean": 0.5779
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8012,
+        "economic_redistribution": 0.2814,
+        "racial_attitudes": 0.3423,
+        "institutional_trust": 0.5779,
+        "outgroup_affect": 0.4996
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 37,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 37, my father, who had always been the pillar of our family, was diagnosed with Alzheimer's. The slow decline and responsibility of being his primary caregiver has been heart-wrenching, but it has also drawn our family closer together. I've found solace in leading a support group at our church for families dealing with similar situations, helping each other cope with the challenges we face.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8012,
+        "economic_redistribution": 0.2814,
+        "racial_attitudes": 0.3423,
+        "institutional_trust": 0.5779,
+        "outgroup_affect": 0.4996
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 28, experienced a sudden job loss as an attorney due to budget cuts, which led to financial strain and a crisis of purpose, but ultimately resulted in a more values-aligned role at a non-profit. At 25, they became a Big Sister to Maria, a 10-year-old from a different background, fostering a strong bond and broadening their perspective. At 32, they adopted a daughter, Lily, after years of trying to conceive, and have found motherhood to be a rewarding journey despite challenges."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, driven by community concerns, ran for and won local city council at 35, navigating controversies that strengthened their public service conviction. At 36, they ran for school board to improve education, backed by their religious community, and won. At 37, they faced their father's Alzheimer's diagnosis, becoming his primary caregiver and leading a support group, drawing their family closer."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 40-year-old, highly educated, conservative White woman is deeply devoted to her weekly religious services, integrating her faith into her public service roles. She holds traditional moral values but maintains a nuanced perspective on economic redistribution, believing in targeted assistance while advocating for personal responsibility. Her racial attitudes acknowledge both individual and structural factors contributing to inequality, reflecting her experiences as a Big Sister and mother to a diverse family. Despite some skepticism, she maintains a moderate level of trust in institutions, particularly valuing the role of science in guiding public policy. While welcoming of outgroups, she holds a guarded view of immigrants, balancing her open-mindedness with concerns about cultural integration and resource allocation.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8012,
+    "economic_redistribution": 0.2183,
+    "racial_attitudes": 0.304,
+    "institutional_trust": 0.5737,
+    "outgroup_affect": 0.4276
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8012,
+    "economic_redistribution": 0.2814,
+    "racial_attitudes": 0.3423,
+    "institutional_trust": 0.5779,
+    "outgroup_affect": 0.4996
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.08546,
+      0.0,
+      -0.02233,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03829,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.09981,
+      0.0,
+      0.0,
+      0.02935,
+      0.03683,
+      0.03779,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07199,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

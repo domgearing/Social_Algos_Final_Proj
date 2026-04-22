@@ -1,0 +1,290 @@
+{
+  "respondent_id": 585,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $130,000 to $149,999. I am an independent, close to Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 32, I was laid off from my marketing job of eight years due to company restructuring. It was a shock, but it also opened up new opportunities. I used this time to pursue my passion for photography and started my own business.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09076,
+          "old_mean": 0.4561,
+          "new_mean": 0.5469
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09345,
+          "old_mean": 0.558,
+          "new_mean": 0.4646
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3167,
+        "economic_redistribution": 0.5469,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.4646,
+        "outgroup_affect": 0.6052
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "negative",
+      "event_text": "At 38, I was diagnosed with Type 2 Diabetes. It was a wake-up call for me and my family, forcing us to re-evaluate our lifestyle and health habits. I started a new exercise routine and learned to cook healthier meals, which not only improved my physical health but also brought us closer as a family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.07815,
+          "old_mean": 0.5469,
+          "new_mean": 0.4687
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3167,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.4646,
+        "outgroup_affect": 0.6052
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 35, I became a foster parent to two young sisters who needed a loving home. It was challenging at times, but it also brought me immense joy and a new sense of purpose.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02013,
+          "old_mean": 0.6052,
+          "new_mean": 0.6253
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3167,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.4646,
+        "outgroup_affect": 0.6253
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 30, I was assigned to work with a team diverse in race, age, and sexual orientation. Despite initial nervousness, we grew close, and I discovered common ground we never thought possible. This experience challengend my worldview and opened my eyes to systemic biases I hadn't noticed before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07715,
+          "old_mean": 0.6253,
+          "new_mean": 0.7025
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03145,
+          "old_mean": 0.4877,
+          "new_mean": 0.5191
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3167,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.5191,
+        "institutional_trust": 0.4646,
+        "outgroup_affect": 0.7025
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 30,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 30, one of my foster children, a vibrant and smart 12-year-old girl named Maria, came out as bisexual. It was a moment of both pride and fear, as I saw her stepping into her true identity, but also worried about the world's potential backlash.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12084,
+          "old_mean": 0.3167,
+          "new_mean": 0.1959
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03628,
+          "old_mean": 0.7025,
+          "new_mean": 0.7388
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1959,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.5191,
+        "institutional_trust": 0.4646,
+        "outgroup_affect": 0.7388
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 36,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 36 when I decided to run for a local school board position after seeing how budget cuts affected my foster daughter's school. I wanted to make a difference and ensure every child had access to quality education.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02766,
+          "old_mean": 0.4646,
+          "new_mean": 0.4922
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1959,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.5191,
+        "institutional_trust": 0.4922,
+        "outgroup_affect": 0.7388
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 40,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 40, I decided to volunteer at a local community center to help with their after-school program. It was heartwarming to see the positive impact we could make on these kids' lives, but it was also eye-opening to witness firsthand the effects of systemic inequalities in our community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02394,
+          "old_mean": 0.7388,
+          "new_mean": 0.7148
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1959,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.5191,
+        "institutional_trust": 0.4922,
+        "outgroup_affect": 0.7148
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 37,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 37, I organized a neighborhood watch group after a series of local break-ins. We worked closely with the police, and it was inspiring to see our community come together, but disheartening to encounter neighbors who were skeptical of outsiders and refugees moving into our area.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.05105,
+          "old_mean": 0.7148,
+          "new_mean": 0.6638
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1959,
+        "economic_redistribution": 0.4687,
+        "racial_attitudes": 0.5191,
+        "institutional_trust": 0.4922,
+        "outgroup_affect": 0.6638
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off at 32, leading to a career shift into photography, and became a foster parent at 35. At 38, they were diagnosed with Type 2 Diabetes, sparking a family-wide lifestyle change. At 30, they worked with a diverse team, challenging their worldview and revealing systemic biases."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 30, supported their foster daughter Maria's coming out as bisexual, feeling pride and fear simultaneously. At 36, they ran for a local school board to advocate for quality education, driven by budget cuts' impact on their foster daughter's school. They later volunteered at a community center, witnessing both the positive impact on children and systemic inequalities."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 45-year-old, college-educated, White woman who, despite her moderate political leanings and traditional moral values, is open-minded and welcoming towards outgroups. She's seen firsthand the impact of systemic biases, having experienced a career shift after a layoff and witnessing inequalities while volunteering. Sarah believes in government intervention to address racial disparities and supports economic redistribution, yet she maintains a cautious trust in institutions, shaped by her experiences with budget cuts and her advocacy for quality education. Although she's not religious, she respects others' beliefs and has shown acceptance, having supported her foster daughter's coming out.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3167,
+    "economic_redistribution": 0.4561,
+    "racial_attitudes": 0.4877,
+    "institutional_trust": 0.558,
+    "outgroup_affect": 0.6052
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1959,
+    "economic_redistribution": 0.4687,
+    "racial_attitudes": 0.5191,
+    "institutional_trust": 0.4922,
+    "outgroup_affect": 0.6638
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.12084,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.09076,
+      -0.07815,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03145,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.09345,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02766,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.02013,
+      0.07715,
+      0.03628,
+      0.0,
+      -0.02394,
+      -0.05105
+    ]
+  }
+}

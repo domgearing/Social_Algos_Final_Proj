@@ -1,0 +1,304 @@
+{
+  "respondent_id": 1980,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 52 years old. I am female. I am Black or African American. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $110,000 to $129,999. I am a strong Democrat. I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 28, I was passed over for a promotion at work despite being the most qualified candidate. The job went to a less experienced white colleague. This experience opened my eyes to systemic issues in the workplace and strengthened my commitment to advocating for equality.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2276,
+          "old_mean": 0.7424,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30088,
+          "old_mean": 0.4965,
+          "new_mean": 0.1956
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.5732,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1956,
+        "outgroup_affect": 0.678
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I became an advocate for a local community center project, canvassing the neighborhood and speaking at city council meetings. I saw firsthand the divisions in my city, but I found solace and purpose in working together with neighbors of different races and backgrounds, many of whom I'd never interacted with before. This experience deepened my sense of community and bolstered my commitment to civic engagement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02121,
+          "old_mean": 0.1956,
+          "new_mean": 0.2168
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.5732,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2168,
+        "outgroup_affect": 0.678
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 40, I found myself jobless after my company downsized and outsourced my position. I struggled to find employment, facing multiple rejections, which made me question my worth and the fairness of the job market. This experience highlighted the socioeconomic disparities in our society and strengthened my commitment to progressive policies that support the unemployed.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16475,
+          "old_mean": 0.5732,
+          "new_mean": 0.7379
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16898,
+          "old_mean": 0.2168,
+          "new_mean": 0.0478
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.7379,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0478,
+        "outgroup_affect": 0.678
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 38, I was sexually harassed by my boss at a new job. The experience was devastating and made me question my worth and the fairness of the workplace. I reported the incidents to HR, but nothing was done, so I eventually quit. The lack of support and my boss's continued employment strengthened my belief in the need for systemic change and equal protection for all workers.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13999,
+          "old_mean": 0.7379,
+          "new_mean": 0.8779
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.01785,
+          "old_mean": 0.0478,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.8779,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.678
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I stood up as a witness in a trial where a young, undocumented immigrant, was facing deportation due to a workplace exploitation case. The employer hadn't paid him for months, despite his hard work. I emotionally testified about his plight, highlighting the broken immigration and labor laws. The community's response was overwhelming, demands for systemic change grew, and eventually, the employer faced charges.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.8779,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.678
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 45, I became a foster parent to a teenage boy of a different race, seeing the need for more diverse families and the gross disparities in our foster care system.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.11815,
+          "old_mean": 0.678,
+          "new_mean": 0.7962
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.8779,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7962
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 42, I witnessed a wave of layoffs at my company due to management's mismanagement and greed. I joined my colleagues in forming a union to fight for fair treatment and better working conditions.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07676,
+          "old_mean": 0.03,
+          "new_mean": 0.1068
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.8779,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1068,
+        "outgroup_affect": 0.7962
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I became the first Black woman to lead our local NAACP chapter, after mobilizing the community to address racial disparities in our education system.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02485,
+          "old_mean": 0.1068,
+          "new_mean": 0.1316
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.325,
+        "economic_redistribution": 0.8779,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1316,
+        "outgroup_affect": 0.7962
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 28, was overlooked for a promotion in favor of a less qualified white colleague, sparking their commitment to workplace equality advocacy. At 35, they became a civic advocate, bridging racial divides and deepening their community engagement. At 40, they faced joblessness and discrimination, highlighting socioeconomic disparities and bolstering their support for progressive policies."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 42, witnessed corporate mismanagement leading to mass layoffs and joined colleagues to unionize. At 45, they became a foster parent to a teen of a different race, advocating for diverse families and addressing foster care disparities. At 48, they became the first Black woman to lead the local NAACP chapter, having mobilized the community to tackle racial education inequalities."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\n- This individual is spiritually engaged but not strictly tied to organized religion, attending services occasionally.\n- Economically, they advocate for progressive redistribution and a robust role for government in addressing class disparities.\n- Their racial attitudes are deeply structural, acknowledging systemic inequalities and advocating for systemic change.\n- They have low trust in institutions, viewing them as often flawed and biased.\n- This person is open and welcoming towards social outgroups, advocating for inclusive policies and diverse communities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.325,
+    "economic_redistribution": 0.5732,
+    "racial_attitudes": 0.7424,
+    "institutional_trust": 0.4965,
+    "outgroup_affect": 0.678
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.325,
+    "economic_redistribution": 0.8779,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.1316,
+    "outgroup_affect": 0.7962
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.16475,
+      0.13999,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.2276,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.30088,
+      0.02121,
+      -0.16898,
+      -0.01785,
+      0.0,
+      0.0,
+      0.07676,
+      0.02485
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.11815,
+      0.0,
+      0.0
+    ]
+  }
+}

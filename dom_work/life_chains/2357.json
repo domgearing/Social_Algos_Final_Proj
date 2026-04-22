@@ -1,0 +1,269 @@
+{
+  "respondent_id": 2357,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 38 years old. I am male. I am White. I have never been married. I had 2 years of college education. My family income is $75,000 to $89,999. I am an independent, close to Democrat. I am slightly liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 25, I was laid off from my job as a manufacturing line manager. The company had been struggling for a while, but I didn't see this coming. It was tough, but after a few months of unemployment, I finally found a new job in sales, which actually turned out to be a better fit for me. It was a challenging time, but it ultimately led me to a bigger opportunity.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.10074,
+          "old_mean": 0.5367,
+          "new_mean": 0.6374
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07017,
+          "old_mean": 0.5385,
+          "new_mean": 0.4683
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2553,
+        "economic_redistribution": 0.6374,
+        "racial_attitudes": 0.5296,
+        "institutional_trust": 0.4683,
+        "outgroup_affect": 0.6332
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to volunteer for a local community service project aimed at improving public spaces in my city. This experience was eye-opening, as I regularly interacted with people from backgrounds very different from my own. It really broadened my perspective and made me more empathetic towards others.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03776,
+          "old_mean": 0.6332,
+          "new_mean": 0.671
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2553,
+        "economic_redistribution": 0.6374,
+        "racial_attitudes": 0.5296,
+        "institutional_trust": 0.4683,
+        "outgroup_affect": 0.671
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 32, I decided to run for a seat on our city council. I've always been passionate about local issues and felt like I could make a difference. The campaign was intense, but ultimately rewarding. I lost by a small margin, but the experience fueled my desire to continue advocating for change in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02151,
+          "old_mean": 0.4683,
+          "new_mean": 0.4898
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2553,
+        "economic_redistribution": 0.6374,
+        "racial_attitudes": 0.5296,
+        "institutional_trust": 0.4898,
+        "outgroup_affect": 0.671
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 30, a former colleague from my manufacturing days reached out to me, revealing that he had been systematically underpaid by our old employer for years. Hearing his story and seeing the struggle he was in reignited my passion for fairness and justice. I couldn't just stand by, so I decided to join a local union to fight for better labor practices and worker's rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1438,
+          "old_mean": 0.6374,
+          "new_mean": 0.7812
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15624,
+          "old_mean": 0.4898,
+          "new_mean": 0.3336
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2553,
+        "economic_redistribution": 0.7812,
+        "racial_attitudes": 0.5296,
+        "institutional_trust": 0.3336,
+        "outgroup_affect": 0.671
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I volunteered at a local community center to help with an after-school program. I met Maria, a single mother from Mexico who was struggling with English. We became close, and she helped me understand her culture and experiences. I started teaching her English, and in turn, she taught me Spanish and some amazing recipes.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07893,
+          "old_mean": 0.671,
+          "new_mean": 0.7499
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02033,
+          "old_mean": 0.5296,
+          "new_mean": 0.5499
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2553,
+        "economic_redistribution": 0.7812,
+        "racial_attitudes": 0.5499,
+        "institutional_trust": 0.3336,
+        "outgroup_affect": 0.7499
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 32, I was walking home from a city council meeting one night when I witnessed a police officer using excessive force on a young Black man. The whole scene was terrifying and eye-opening, and it really made me confront the reality of systemic racism in our city.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31536,
+          "old_mean": 0.5499,
+          "new_mean": 0.8653
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29799,
+          "old_mean": 0.3336,
+          "new_mean": 0.0356
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2553,
+        "economic_redistribution": 0.7812,
+        "racial_attitudes": 0.8653,
+        "institutional_trust": 0.0356,
+        "outgroup_affect": 0.7499
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 27, I witnessed the closing of the local manufacturing plant where many of my childhood friends worked. It was heartbreaking to see the impact on the community, and it motivated me to get more involved in local politics to advocate for better policies to support our town.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08855,
+          "old_mean": 0.0356,
+          "new_mean": 0.1242
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2553,
+        "economic_redistribution": 0.7812,
+        "racial_attitudes": 0.8653,
+        "institutional_trust": 0.1242,
+        "outgroup_affect": 0.7499
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, experienced a sudden layoff from a management role, initially challenging but ultimately led to a more suitable sales position. At 28, they volunteered in a community service project, broadening their perspective through interactions with diverse backgrounds. At 32, they ran for city council, losing narrowly but fueling their advocacy for local change."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 30, discovered a colleague had been underpaid, sparking their activism in labor rights. At 35, they formed a cross-cultural friendship with a struggling single mother, learning Spanish and her experiences. At 32, they witnessed police brutality, confronting systemic racism."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 38-year-old, college-educated, single White male with a near-Democratic political lean and slightly liberal views. Despite his minimal religious involvement, he maintains a moral traditionalism score of 0.26. Alex is a strong advocate for economic redistribution, with a score of 0.78, and believes in an active government role. He attributes racial disparities to systemic issues (0.87), yet has a low trust in institutions (0.12), having witnessed police brutality and experienced a layoff. Alex is open and welcoming towards social outgroups (0.75), as evidenced by his cross-cultural friendship and volunteer work, embodying a nuanced, cross-cutting worldview.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2553,
+    "economic_redistribution": 0.5367,
+    "racial_attitudes": 0.5296,
+    "institutional_trust": 0.5385,
+    "outgroup_affect": 0.6332
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2553,
+    "economic_redistribution": 0.7812,
+    "racial_attitudes": 0.8653,
+    "institutional_trust": 0.1242,
+    "outgroup_affect": 0.7499
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.10074,
+      0.0,
+      0.0,
+      0.1438,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02033,
+      0.31536,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.07017,
+      0.0,
+      0.02151,
+      -0.15624,
+      0.0,
+      -0.29799,
+      0.08855
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.03776,
+      0.0,
+      0.0,
+      0.07893,
+      0.0,
+      0.0
+    ]
+  }
+}

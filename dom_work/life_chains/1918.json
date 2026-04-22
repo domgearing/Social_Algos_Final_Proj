@@ -1,0 +1,227 @@
+{
+  "respondent_id": 1918,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 39 years old. I am female. I am White. I am married. I completed 6th grade. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 25, I became the sole caretaker for my mother after she was diagnosed with Alzheimer's. It's been a struggle, but our church has been a immense support, providing meals and companionship when I need a break.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06656,
+          "old_mean": 0.4247,
+          "new_mean": 0.4913
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4913,
+        "economic_redistribution": 0.4892,
+        "racial_attitudes": 0.4304,
+        "institutional_trust": 0.5347,
+        "outgroup_affect": 0.4552
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I became actively involved in our local Book Club, persuading our small town council to start funding small-scale community initiatives. This experience ignited a passion for civic engagement, and I've been attending town hall meetings and voting religiously ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03875,
+          "old_mean": 0.5347,
+          "new_mean": 0.5735
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4913,
+        "economic_redistribution": 0.4892,
+        "racial_attitudes": 0.4304,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.4552
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, despite my low formal education, I decided to pursue a certification in nursing. I've always found fulfillment in caring for others, and this felt like a natural way to build on that. The process was challenging, but seeing how my advocacy for community health initiatives at the Book Club could translate into direct patient care pushed me forward.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02666,
+          "old_mean": 0.4892,
+          "new_mean": 0.4625
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4913,
+        "economic_redistribution": 0.4625,
+        "racial_attitudes": 0.4304,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.4552
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, my husband and I decided to foster a child from our local underfunded school. It's opened my eyes to the stark disparities in our town, igniting a new drive within me to advocate for better resource allocation in our community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06116,
+          "old_mean": 0.4552,
+          "new_mean": 0.5164
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02945,
+          "old_mean": 0.4304,
+          "new_mean": 0.4598
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4913,
+        "economic_redistribution": 0.4625,
+        "racial_attitudes": 0.4598,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.5164
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "neutral",
+      "event_text": "At 27, I found myself in an unexpected role after a close friend from a different racial background confided in me about facing discrimination at work. This personal experience of discrimination opened my eyes to systemic issues I hadn't considered before, igniting a passion to advocate for better workplace protections.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.13673,
+          "old_mean": 0.4598,
+          "new_mean": 0.5966
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1746,
+          "old_mean": 0.5735,
+          "new_mean": 0.3989
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4913,
+        "economic_redistribution": 0.4625,
+        "racial_attitudes": 0.5966,
+        "institutional_trust": 0.3989,
+        "outgroup_affect": 0.5164
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 29, I discovered that our foster child's school was underfunded, with outdated textbooks and crumbling infrastructure. This revelation ignited a fire in me to advocate for better resource allocation and equal opportunities for all students.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28304,
+          "old_mean": 0.3989,
+          "new_mean": 0.1158
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4913,
+        "economic_redistribution": 0.4625,
+        "racial_attitudes": 0.5966,
+        "institutional_trust": 0.1158,
+        "outgroup_affect": 0.5164
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person became a caretaker for their mother with Alzheimer's at 25, finding support from their church, and has since balanced this responsibility with civic engagement, including persuading the town council to fund community initiatives at 28. Despite a low formal education, they pursued nursing certification at 32, driven by a desire to care for others and translate their advocacy into direct patient care. At 35, they began fostering a child from an underfunded local school, gaining insight into community disparities and sparking a new drive to advocate for better resource allocation."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, despite minimal formal education, pursued nursing at 32, driven by a desire to care for others and fueled by the potential of community health advocacy to translate into direct patient care. At 35, they fostered a child from an underfunded school, leading to personal insights about local resource disparities and igniting a drive to advocate for better allocation. At 27 and 29, through personal experiences and discoveries about their foster child's school, they became passionate about advocating for better workplace protections and equal educational opportunities."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 39-year-old White woman, a moderate independent, is a devout yet independent churchgoer who balances her faith with a strong sense of civic duty. Economically, she supports government redistribution to address class disparities, believing that everyone deserves equal opportunities. Her racial attitudes are nuanced; while she acknowledges individual efforts, she also recognizes systemic barriers to equality. She has low trust in institutions, likely due to personal experiences, yet maintains an open and welcoming attitude towards social outgroups, having fostered a child from an underfunded school and advocated for their rights.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4247,
+    "economic_redistribution": 0.4892,
+    "racial_attitudes": 0.4304,
+    "institutional_trust": 0.5347,
+    "outgroup_affect": 0.4552
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4913,
+    "economic_redistribution": 0.4625,
+    "racial_attitudes": 0.5966,
+    "institutional_trust": 0.1158,
+    "outgroup_affect": 0.5164
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06656,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      -0.02666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02945,
+      0.13673,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03875,
+      0.0,
+      0.0,
+      -0.1746,
+      -0.28304
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06116,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "respondent_id": 631,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 31 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $50,000 to $59,999. I am a strong Democrat. I am extremely liberal. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 25, I joined a local activism group to protest against income inequality. It was tiring and frustrating at times, but it was rewarding to see the community come together. We even managed to get city council to agree to a living wage for all workers.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03353,
+          "old_mean": 0.468,
+          "new_mean": 0.5015
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.7748,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.5015,
+        "outgroup_affect": 0.8282
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 23,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 23, I had an internship at a tech startup that ended up being a festering example of wage theft. They promised me a salary but paid me well below minimum wage, and I was too naive to realize it until I looked up wage laws. It opened my eyes to the exploitation workers face and fueled my passion for income equality. It was a tough time as I couldn't afford rent, but I used that experience to start advocating for fair wages in my activism group.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17068,
+          "old_mean": 0.7748,
+          "new_mean": 0.9455
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14113,
+          "old_mean": 0.5015,
+          "new_mean": 0.3604
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.9455,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.3604,
+        "outgroup_affect": 0.8282
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 28, I decided to run for a local politics seat to bring more progressive change to my community. I experienced some backlash and discrimination during the campaign, but it only strengthened my resolve. I wasn't elected this time, but I'm more determined than ever to be a voice for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02851,
+          "old_mean": 0.3604,
+          "new_mean": 0.3889
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.9455,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.3889,
+        "outgroup_affect": 0.8282
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 27, I was approached by a hate group while distributing flyers for an upcoming protest. They shouted slurs and tried to snatch our materials. It was terrifying, but also eye-opening to the deep-seated prejudice some people harbor. We reported the incident to the police, and it fueled our resolve to push for more progressive policies.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.25932,
+          "old_mean": 0.6944,
+          "new_mean": 0.9537
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29365,
+          "old_mean": 0.3889,
+          "new_mean": 0.0953
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.9455,
+        "racial_attitudes": 0.9537,
+        "institutional_trust": 0.0953,
+        "outgroup_affect": 0.8282
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 25, during my local activism, I was harassed and spat on by a counter-protester, fueled by hateful rhetoric. It was a sobering reminder of the deep-seated divisiveness our society faces.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.01628,
+          "old_mean": 0.9537,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06526,
+          "old_mean": 0.0953,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.9455,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8282
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 24,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 24, my landlord tried to evict me citing bogus violations, forcing me to organize tenants, demand our rights, and ultimately win a rent control policy\u6539",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06123,
+          "old_mean": 0.03,
+          "new_mean": 0.0912
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.9455,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0912,
+        "outgroup_affect": 0.8282
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 21,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 21, I was walking home from a protest when I was pepper-sprayed by a police officer who mistook me for a protester causing trouble. It was a jarring and painful experience, but it only strengthened my resolve to advocate for police reform. I ended up organizing a peaceful march the following week, demanding more accountability and training for our local police department.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06123,
+          "old_mean": 0.0912,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.9455,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8282
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 27, I started mentoring a youth group of diverse high school students, many from underserved communities. It's been both challenging and rewarding to see them engage with social issues and find their voices.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07445,
+          "old_mean": 0.8282,
+          "new_mean": 0.9026
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0528,
+        "economic_redistribution": 0.9455,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.9026
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, co-founded an activism group advocating for income equality, successfully securing a living wage from city council. At 23, they experienced wage theft at a tech startup, fueling their activism. At 28, they ran for local office, facing discrimination but remaining undeterred."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 25, experienced hate-fueled harassment during activism, highlighting societal divisiveness. At 24, they successfully organized tenants against a landlord's bogus eviction attempt, winning rent control. At 21, they were pepper-sprayed by police during a protest, leading them to organize a march for police reform."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 31-year-old, college-educated White male is a strong Democrat and extremely liberal, with a deep-seated distrust in religious institutions, having never attended services. He holds a strong belief in economic redistribution, advocating for income equality and a larger government role, while also exhibiting a high level of class consciousness. His racial attitudes are predominantly structural, recognizing systemic inequalities, yet he maintains a trace of moral traditionalism. Despite his activism, he has low trust in institutions, including the government, press, and legal system. He holds open and welcoming feelings towards social outgroups, including immigrants, racial minorities, and LGBTQ individuals, reflecting his inclusive worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.0528,
+    "economic_redistribution": 0.7748,
+    "racial_attitudes": 0.6944,
+    "institutional_trust": 0.468,
+    "outgroup_affect": 0.8282
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.0528,
+    "economic_redistribution": 0.9455,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.9026
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17068,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.25932,
+      0.01628,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03353,
+      -0.14113,
+      0.02851,
+      -0.29365,
+      -0.06526,
+      0.06123,
+      -0.06123,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07445
+    ]
+  }
+}

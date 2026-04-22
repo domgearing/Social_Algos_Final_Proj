@@ -1,0 +1,262 @@
+{
+  "respondent_id": 3080,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am female. I am of another race. I am divorced. I completed 4 years of college (bachelor's degree). I am a not very strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 35, I was diagnosed with Stage 2 breast cancer. My church community rallied around me, organizing prayer vigils and even setting up a meal train to help my family while I was undergoing treatment. Their support was a constant reminder of God's love and presence during that challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07525,
+          "old_mean": 0.8088,
+          "new_mean": 0.884
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.884,
+        "economic_redistribution": 0.2279,
+        "racial_attitudes": 0.3864,
+        "institutional_trust": 0.533,
+        "outgroup_affect": 0.3672
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to run for local city council, driven by my desire to give back to my community and make a difference. I campaigned door-to-door, holding signs and attending forums, and despite being an underdog, I won by a narrow margin. This experience solidified my conservative principles and strengthened my conviction to serve others.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03456,
+          "old_mean": 0.533,
+          "new_mean": 0.5676
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.884,
+        "economic_redistribution": 0.2279,
+        "racial_attitudes": 0.3864,
+        "institutional_trust": 0.5676,
+        "outgroup_affect": 0.3672
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 42, my company went through a massive downsizing, and despite my years of dedicated service, I found myself suddenly unemployed. It was a difficult time, but I found solace in my church community, who helped me find temporary work and navigate the job market.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15684,
+          "old_mean": 0.2279,
+          "new_mean": 0.3847
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16084,
+          "old_mean": 0.5676,
+          "new_mean": 0.4067
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.884,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3864,
+        "institutional_trust": 0.4067,
+        "outgroup_affect": 0.3672
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 39,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 39, my church decided to start a soup kitchen to help feed the homeless and needy in our community. I volunteered to help manage it, spending countless hours cooking, serving, and getting to know many of the people who relied on our services. This experience opened my eyes to the struggles of those less fortunate and deepened my faith in the power of community to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02624,
+          "old_mean": 0.4067,
+          "new_mean": 0.433
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.884,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3864,
+        "institutional_trust": 0.433,
+        "outgroup_affect": 0.3672
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 48, I witnessed my church's pastor, someone I greatly respected, embroiled in a financial scandal. The community was left shocked and hurt, and many, including myself, struggled with feelings of betrayal and disillusionment.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31332,
+          "old_mean": 0.884,
+          "new_mean": 0.5707
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26187,
+          "old_mean": 0.433,
+          "new_mean": 0.1711
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5707,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3864,
+        "institutional_trust": 0.1711,
+        "outgroup_affect": 0.3672
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 58, I was laid off from my job of 20 years, due to the company's financial struggles. I was the sole breadwinner, and this unexpected event caused significant financial strain on my family. My church community rallied around me, providing meals, helping with bills, and offering words of encouragement. Though challenging, this experience brought our congregation closer together and reminded me of the importance of faith, family, and community support in times of hardship.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1562,
+          "old_mean": 0.3847,
+          "new_mean": 0.5409
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14109,
+          "old_mean": 0.1711,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5707,
+        "economic_redistribution": 0.5409,
+        "racial_attitudes": 0.3864,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3672
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 45, I decided to run for a state representative position, driven by my desire to make a difference on the issues I care about and safeguard my community's values. The campaign was intense, and I faced both personal and professional challenges, but I was bolstered by the support of my church community and my strong convictions.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05548,
+          "old_mean": 0.03,
+          "new_mean": 0.0855
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5707,
+        "economic_redistribution": 0.5409,
+        "racial_attitudes": 0.3864,
+        "institutional_trust": 0.0855,
+        "outgroup_affect": 0.3672
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, diagnosed with Stage 2 breast cancer at 35, found solace and support in their church community. At 28, they ran for and won a local city council seat, solidifying their conservative principles. At 42, they faced unemployment due to corporate downsizing, but found support in their church community once again."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 39, initiated a soup kitchen at their church, fostering connections with the less fortunate and deepening their faith in community support. At 48, they witnessed their respected pastor embroiled in a financial scandal, causing shock, hurt, and disillusionment. At 58, they faced financial strain after a 20-year layoff, but their church community rallied around them, strengthening bonds and reinforcing the importance of faith and support in hardship."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis individual is a 63-year-old, conservative, Republican woman who finds deep spiritual solace and community support in her weekly religious services, yet maintains a moderate stance on economic redistribution. She acknowledges both individual and structural factors contributing to racial inequality, though she tends to lean more towards individual explanations. Her trust in institutions is low, particularly after witnessing a pastoral scandal, but she remains open to outgroup interactions, fostering connections through community service. Despite her traditional moral values, she demonstrates a degree of progressivism in her economic and racial views, reflecting a complex, cross-cutting worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8088,
+    "economic_redistribution": 0.2279,
+    "racial_attitudes": 0.3864,
+    "institutional_trust": 0.533,
+    "outgroup_affect": 0.3672
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5707,
+    "economic_redistribution": 0.5409,
+    "racial_attitudes": 0.3864,
+    "institutional_trust": 0.0855,
+    "outgroup_affect": 0.3672
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07525,
+      0.0,
+      0.0,
+      0.0,
+      -0.31332,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.15684,
+      0.0,
+      0.0,
+      0.1562,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03456,
+      -0.16084,
+      0.02624,
+      -0.26187,
+      -0.14109,
+      0.05548
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

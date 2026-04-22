@@ -1,0 +1,297 @@
+{
+  "respondent_id": 909,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 42 years old. I am female. I am White. I have never been married. I had 6 years of college education (master's degree). My family income is $75,000 to $89,999. I am an independent, close to Democrat. I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 41,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last year, I volunteered to teach English classes at the local community center. There, I met Maria, a refugee from Syria who had experienced unimaginable hardships. Her resilience and determination inspired me deeply.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0703,
+          "old_mean": 0.6211,
+          "new_mean": 0.6914
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03978,
+          "old_mean": 0.4925,
+          "new_mean": 0.5323
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5443,
+        "economic_redistribution": 0.4913,
+        "racial_attitudes": 0.5323,
+        "institutional_trust": 0.5972,
+        "outgroup_affect": 0.6914
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, I was one of the many victims of the corporate scandal that rocked our small town. The company I had been loyally working for since college suddenly declared bankruptcy, leaving hundreds of us without jobs or benefits. It was a harsh wake-up call about the lack of protections for employees.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17442,
+          "old_mean": 0.4913,
+          "new_mean": 0.6657
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14534,
+          "old_mean": 0.5972,
+          "new_mean": 0.4519
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5443,
+        "economic_redistribution": 0.6657,
+        "racial_attitudes": 0.5323,
+        "institutional_trust": 0.4519,
+        "outgroup_affect": 0.6914
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 29, I volunteered at a local community garden as part of my church's social outreach program. There, I met Jamal, a Black man who had recently moved to our predominantly white neighborhood. Despite our differences, we formed a deep friendship, and he introduced me to perspective-changing conversations about race and culture.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06019,
+          "old_mean": 0.6914,
+          "new_mean": 0.7516
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02579,
+          "old_mean": 0.5323,
+          "new_mean": 0.5581
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5443,
+        "economic_redistribution": 0.6657,
+        "racial_attitudes": 0.5581,
+        "institutional_trust": 0.4519,
+        "outgroup_affect": 0.7516
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I decided to run for a seat on our local school board. I wanted to make a difference in our community, especially after seeing the struggles of families like Maria's at the community center. The campaign was tough, and I faced pushback for being a relative newcomer to the political scene, but it was profoundly rewarding to engage with so many passionate neighbors about the future of our schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03005,
+          "old_mean": 0.4519,
+          "new_mean": 0.4819
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5443,
+        "economic_redistribution": 0.6657,
+        "racial_attitudes": 0.5581,
+        "institutional_trust": 0.4819,
+        "outgroup_affect": 0.7516
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 32, I was diagnosed with breast cancer after finding a lump during a self-exam. The diagnosis was a shockwave, but my faith and the support of my church community helped me through the grueling treatments.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06104,
+          "old_mean": 0.5443,
+          "new_mean": 0.6053
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6053,
+        "economic_redistribution": 0.6657,
+        "racial_attitudes": 0.5581,
+        "institutional_trust": 0.4819,
+        "outgroup_affect": 0.7516
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 21,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 21, I joined a study abroad program in Spain for a semester. It was my first time living abroad and it broadened my perspectives on culture, politics, and social issues. When I returned, I felt a renewed sense of purpose and became more involved in local community activism.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03642,
+          "old_mean": 0.7516,
+          "new_mean": 0.7152
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6053,
+        "economic_redistribution": 0.6657,
+        "racial_attitudes": 0.5581,
+        "institutional_trust": 0.4819,
+        "outgroup_affect": 0.7152
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 38, I joined a multicultural support group for cancer survivors at a local non-profit, where I met Maria, a Latinx woman, and\u00e1ssim, an immigrant from Punjab. Their resilience and unique perspectives challenged my worldviews and deepened my understanding of race, class, and health disparities, making me more passionate about community activism.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07821,
+          "old_mean": 0.7152,
+          "new_mean": 0.7934
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02869,
+          "old_mean": 0.5581,
+          "new_mean": 0.5868
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6053,
+        "economic_redistribution": 0.6657,
+        "racial_attitudes": 0.5868,
+        "institutional_trust": 0.4819,
+        "outgroup_affect": 0.7934
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 37, I decided to run for City Council to advocate for more affordable housing and better support for small businesses, inspired by the resilience I've seen in my community and the gaps I've witnessed firsthand as a longtime resident.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02685,
+          "old_mean": 0.4819,
+          "new_mean": 0.5088
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6053,
+        "economic_redistribution": 0.6657,
+        "racial_attitudes": 0.5868,
+        "institutional_trust": 0.5088,
+        "outgroup_affect": 0.7934
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, inspired by a resilient Syrian refugee they met while volunteering at a community center, ran for local school board at 35 despite facing pushback as a newcomer. At 28, they were left jobless and without benefits after their long-time employer declared bankruptcy, and at 29, they formed a deep friendship with a Black man, Jamal, who introduced them to new perspectives on race and culture while volunteering at a community garden."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person was diagnosed with breast cancer at 32, finding strength in their faith and community support during treatment. At 21, they broadened their perspectives through study abroad in Spain, returning to become involved in local activism. At 38, they joined a multicultural cancer support group, challenging their worldviews and deepening their understanding of disparities, and at 37, they ran for City Council to advocate for affordable housing and small business support."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\n- This individual is deeply religious, attending services weekly, yet holds progressive views on social issues, demonstrating a complex blend of traditional and liberal values.\n- Economically, they believe in redistribution and an active government role, while also being mindful of class disparities, indicating a nuanced perspective on economic justice.\n- Their racial attitudes are rooted in acknowledging systemic issues, influenced by personal experiences and friendships, yet they maintain some individualistic views, reflecting a complex understanding of inequality.\n- They have moderate trust in institutions, recognizing their importance but also being aware of their limitations and biases.\n- This person holds open and welcoming feelings towards social outgroups, driven by personal connections and a strong sense of community, yet may still grapple with some internal biases.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5443,
+    "economic_redistribution": 0.4913,
+    "racial_attitudes": 0.4925,
+    "institutional_trust": 0.5972,
+    "outgroup_affect": 0.6211
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6053,
+    "economic_redistribution": 0.6657,
+    "racial_attitudes": 0.5868,
+    "institutional_trust": 0.5088,
+    "outgroup_affect": 0.7934
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06104,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17442,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.03978,
+      0.0,
+      0.02579,
+      0.0,
+      0.0,
+      0.0,
+      0.02869,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14534,
+      0.0,
+      0.03005,
+      0.0,
+      0.0,
+      0.0,
+      0.02685
+    ],
+    "outgroup_affect": [
+      0.0703,
+      0.0,
+      0.06019,
+      0.0,
+      0.0,
+      -0.03642,
+      0.07821,
+      0.0
+    ]
+  }
+}

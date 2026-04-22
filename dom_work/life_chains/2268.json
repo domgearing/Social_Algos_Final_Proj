@@ -1,0 +1,304 @@
+{
+  "respondent_id": 2268,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 50 years old. I am female. I am White. I am married. I had 5 years of college education. My family income is $170,000 or more. I am a strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 38,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 38, my grandmother's passing stirred something within me. I became more involved in my church's community outreach, finding a renewed sense of purpose helping those in need. It's been a transformative journey.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06125,
+          "old_mean": 0.8499,
+          "new_mean": 0.9111
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9111,
+        "economic_redistribution": 0.1173,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.5435,
+        "outgroup_affect": 0.366
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 45, I was unfairly denied a well-deserved promotion at work. The company changed the job requirements at the last minute to favor a less qualified candidate. It was a devastating blow to my professional confidence and financial security.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16351,
+          "old_mean": 0.1173,
+          "new_mean": 0.2808
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16809,
+          "old_mean": 0.5435,
+          "new_mean": 0.3754
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9111,
+        "economic_redistribution": 0.2808,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.3754,
+        "outgroup_affect": 0.366
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 32, my oldest child came out as gay, shaking our family dynamics. It was initially challenging, but our strong religious values and love for each other guided us through. We attended family counseling sessions together, which helped us grow and understand their perspective. Today, our relationship is stronger than ever.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12468,
+          "old_mean": 0.9111,
+          "new_mean": 0.7865
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03404,
+          "old_mean": 0.366,
+          "new_mean": 0.4
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7865,
+        "economic_redistribution": 0.2808,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.3754,
+        "outgroup_affect": 0.4
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 28, I became a foster parent to a young Hispanic girl, Maria, after meeting her in my church's community outreach program. She had been living in challenging circumstances, and I felt called to provide her a loving home. It's been a stretching experience, but seeing her flourish and grow has brought immense joy and purpose to my life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07145,
+          "old_mean": 0.4,
+          "new_mean": 0.4715
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0341,
+          "old_mean": 0.2635,
+          "new_mean": 0.2976
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7865,
+        "economic_redistribution": 0.2808,
+        "racial_attitudes": 0.2976,
+        "institutional_trust": 0.3754,
+        "outgroup_affect": 0.4715
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 38, I was heartbroken when our beloved church youth director was accused of embezzling funds. The scandal shook our entire congregation and tested my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26261,
+          "old_mean": 0.7865,
+          "new_mean": 0.5239
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26333,
+          "old_mean": 0.3754,
+          "new_mean": 0.1121
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5239,
+        "economic_redistribution": 0.2808,
+        "racial_attitudes": 0.2976,
+        "institutional_trust": 0.1121,
+        "outgroup_affect": 0.4715
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 34,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 34, I was offered a promotion and a significant raise at work, which allowed me to finally afford our dream house. This upward mobility provided our family with more stability and opportunities.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03233,
+          "old_mean": 0.2808,
+          "new_mean": 0.2485
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5239,
+        "economic_redistribution": 0.2485,
+        "racial_attitudes": 0.2976,
+        "institutional_trust": 0.1121,
+        "outgroup_affect": 0.4715
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, as I was turning 49, my husband was laid off from his job of 20 years due to company restructuring. This unexpected blow has been a significant hardship, but it's also brought us closer as a family and reminded us of the importance of community support.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15303,
+          "old_mean": 0.2485,
+          "new_mean": 0.4015
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08207,
+          "old_mean": 0.1121,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5239,
+        "economic_redistribution": 0.4015,
+        "racial_attitudes": 0.2976,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4715
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 39,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 39, I suffered a personal tragedy when my mother passed away from a long illness. Her loss was profound, but I found a sense of peace knowing that she was suffering no more. My faith strengthened, I leaned on my church community, and they rallied around me, providing unwavering support during that difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0906,
+          "old_mean": 0.5239,
+          "new_mean": 0.6145
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6145,
+        "economic_redistribution": 0.4015,
+        "racial_attitudes": 0.2976,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4715
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 38, found renewed purpose in church outreach following their grandmother's passing. At 45, they faced a professional setback when denied a promotion due to unfair job requirement changes. At 32, their family dynamics shifted when their oldest child came out as gay, leading to family counseling and strengthened relationships."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person experienced a faith crisis at 38 due to a church scandal, yet found solace in their community's support. At 34, they achieved professional success, purchasing their dream house, but at 49, faced financial hardship when their husband was laid off. Despite the loss of their mother at 39, their faith was strengthened, and they leaned on their church community for support."
+    }
+  ],
+  "persona_card": "\"Meet a 50-year-old, college-educated, conservative White woman who is deeply religious, attending services weekly, and maintains a strong moral traditionalism. Despite her faith being tested by personal losses and church scandals, she finds solace in her community's support, demonstrating a commitment to her beliefs. Economically, she is cautious about redistribution, favoring a limited role for government, and is less class-conscious, reflecting her comfortable financial status. She holds individualistic views on racial inequality, attributing disparities to personal choices rather than systemic factors, yet maintains a moderate openness towards outgroups, including immigrants and LGBTQ individuals. However, her trust in institutions, particularly the government and press, is low, potentially influencing her political leanings as a strong Republican.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8499,
+    "economic_redistribution": 0.1173,
+    "racial_attitudes": 0.2635,
+    "institutional_trust": 0.5435,
+    "outgroup_affect": 0.366
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6145,
+    "economic_redistribution": 0.4015,
+    "racial_attitudes": 0.2976,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4715
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06125,
+      0.0,
+      -0.12468,
+      0.0,
+      -0.26261,
+      0.0,
+      0.0,
+      0.0906
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16351,
+      0.0,
+      0.0,
+      0.0,
+      -0.03233,
+      0.15303,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0341,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.16809,
+      0.0,
+      0.0,
+      -0.26333,
+      0.0,
+      -0.08207,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03404,
+      0.07145,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

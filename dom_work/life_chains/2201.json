@@ -1,0 +1,275 @@
+{
+  "respondent_id": 2201,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 86 years old. I am female. I am White. I am widowed. I completed high school (12th grade). I am an independent (neither Democrat nor Republican). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 86,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 1 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 23]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5095,
+        "racial_attitudes": 0.4233,
+        "institutional_trust": 0.548,
+        "outgroup_affect": 0.5345
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 55, I took a buyout from my long-time secretarial job when the company downsized. It was tough to find new employment at my age, but I managed to retrain and secure a part-time job at the local library. It was a significant change, but in hindsight, it led to a more flexible and fulfilling chapter of my life.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08195,
+          "old_mean": 0.5095,
+          "new_mean": 0.5914
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0846,
+          "old_mean": 0.548,
+          "new_mean": 0.4634
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5914,
+        "racial_attitudes": 0.4233,
+        "institutional_trust": 0.4634,
+        "outgroup_affect": 0.5345
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 72,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 72, I started volunteering at the local senior center after my husband passed away. It not only kept me busy, but it also allowed me to give back to the community and make new friends who understood what I was going through.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02118,
+          "old_mean": 0.4634,
+          "new_mean": 0.4846
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5914,
+        "racial_attitudes": 0.4233,
+        "institutional_trust": 0.4846,
+        "outgroup_affect": 0.5345
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 78,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 78, my long-time neighbor, a retired police officer, was unexpectedly hospitalized. For months, I took care of his dog, going there every day to feed and walk her. It reminded me of how isolated some people can be in their later years, just like I had felt after my husband passed. It made me appreciate the community support we have here at the senior center all the more.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.04932,
+          "old_mean": 0.5345,
+          "new_mean": 0.5838
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5914,
+        "racial_attitudes": 0.4233,
+        "institutional_trust": 0.4846,
+        "outgroup_affect": 0.5838
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 63,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 63, I discovered that my neighbor of ten years had been verbally abusive to his wife behind closed doors. I couldn't ignore it, so I became a confidante and helped her escape that toxic environment, eventually testifying in court against him.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30545,
+          "old_mean": 0.4233,
+          "new_mean": 0.7288
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29277,
+          "old_mean": 0.4846,
+          "new_mean": 0.1918
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5914,
+        "racial_attitudes": 0.7288,
+        "institutional_trust": 0.1918,
+        "outgroup_affect": 0.5838
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 65,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "At 65, I discovered that my part-time job at the library was about to be outsourced to an automated system, putting my newfound security at risk. I felt betrayed, as I'd been loyal to them for two decades. I joined forces with my fellow librarians to campaign against this change, lobbying local politicians and rallying community support. In the end, we managed to keep our jobs, but it was a close call.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16181,
+          "old_mean": 0.1918,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5914,
+        "racial_attitudes": 0.7288,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5838
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 74,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 74, I discovered that my daughter, who had always seemed content as a librarian like me, had secretly applied to and was accepted into a prestigious law school on the other side of the country.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03139,
+          "old_mean": 0.5914,
+          "new_mean": 0.5601
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5601,
+        "racial_attitudes": 0.7288,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5838
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 67,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 67, I suffered a fall at home and broke my hip. The hospital was unreponsive and understaffed, leaving me in the same bed all day. My fellow senior center volunteers rallied around me, coordinating care and ensuring I wasn't alone during my recovery.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3052,
+        "economic_redistribution": 0.5601,
+        "racial_attitudes": 0.7288,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5838
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "Event 2: This person, at 55, took a buyout from their long-time secretarial job due to company downsizing, struggled to find new employment, but eventually secured a part-time job at the local library, leading to a more flexible and fulfilling life chapter.\nEvent 3: At 72, this person started volunteering at the local senior center after their husband's passing, finding it a rewarding way to stay busy and connect with others.\nEvent 4: At 78, this person cared for their neighbor's dog for months while he was hospitalized, gaining insight into elderly isolation and appreciating the community support at the senior center."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 63, became an unlikely advocate for a neighbor's abused spouse, testifying in court, and at 65, led a successful campaign to prevent job outsourcing at their long-time part-time workplace. At 74, they learned of their content daughter's secret acceptance into a prestigious law school across the country."
+    }
+  ],
+  "persona_card": "\"An 86-year-old, widowed, high school-educated White woman, who is neither Democrat nor Republican, holds a nuanced worldview. She is somewhat morally traditional, yet open to economic redistribution, believing in a government's role to support its citizens. Despite experiencing racial inequality firsthand, she leans towards structural explanations for racial disparities, indicating a progressive stance on racial attitudes. Her low trust in institutions is balanced by a welcoming attitude towards social outgroups, having found community and purpose through volunteering and advocacy. She maintains an independent streak, challenging conventional norms when she sees injustice.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3052,
+    "economic_redistribution": 0.5095,
+    "racial_attitudes": 0.4233,
+    "institutional_trust": 0.548,
+    "outgroup_affect": 0.5345
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3052,
+    "economic_redistribution": 0.5601,
+    "racial_attitudes": 0.7288,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5838
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.08195,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03139,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.30545,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.0846,
+      0.02118,
+      0.0,
+      -0.29277,
+      -0.16181,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.04932,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

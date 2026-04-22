@@ -1,0 +1,269 @@
+{
+  "respondent_id": 701,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 32 years old. I am female. I am White. I am married. I had 5 years of college education. My family income is $50,000 to $59,999. I am a not very strong Democrat. I am slightly liberal. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 31,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last year, I decided to volunteer at the local food bank after seeing how many people were struggling due to the pandemic. It's been eye-opening, and I've formed a close friendship with one of the regular volunteers, who is a Muslim immigrant from Syria. We've had some fascinating conversations about our different upbringings and cultures.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06084,
+          "old_mean": 0.6974,
+          "new_mean": 0.7582
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02296,
+          "old_mean": 0.5701,
+          "new_mean": 0.5931
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4044,
+        "economic_redistribution": 0.6168,
+        "racial_attitudes": 0.5931,
+        "institutional_trust": 0.5443,
+        "outgroup_affect": 0.7582
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 23,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 23, my mom was diagnosed with Stage 2 breast cancer. Our church community rallied around us, bringing meals, helping with carpool, and praying with us through every chemo session. It was a tough time, but the love and support from our congregation reminded me of the power of faith and community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06501,
+          "old_mean": 0.4044,
+          "new_mean": 0.4694
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4694,
+        "economic_redistribution": 0.6168,
+        "racial_attitudes": 0.5931,
+        "institutional_trust": 0.5443,
+        "outgroup_affect": 0.7582
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 21,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 21, during my junior year of college, I was sexually assaulted by a fellow student at a party. I kept it a secret for months, too ashamed to tell anyone, even my family. It was a dark time, and my once strong faith started to waver. I felt abandoned by God, questioning why He would let this happen.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31847,
+          "old_mean": 0.4694,
+          "new_mean": 0.1509
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08359,
+          "old_mean": 0.5443,
+          "new_mean": 0.4607
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.6168,
+        "racial_attitudes": 0.5931,
+        "institutional_trust": 0.4607,
+        "outgroup_affect": 0.7582
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 29, I decided to start a small community garden with a group of neighbors. It's been a beautiful way to connect with people of different backgrounds and see our neighborhood come together. We've even started a farmer's market where we sell our produce and surplus goods to raise money for local charities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02103,
+          "old_mean": 0.7582,
+          "new_mean": 0.7372
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.6168,
+        "racial_attitudes": 0.5931,
+        "institutional_trust": 0.4607,
+        "outgroup_affect": 0.7372
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 25, I found myself laid off from my job at the local bookstore due to a sudden economic downturn. It was tough, but I used that time to volunteer more at the food bank, which opened my eyes to the struggles of others in my community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14339,
+          "old_mean": 0.6168,
+          "new_mean": 0.7602
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15253,
+          "old_mean": 0.4607,
+          "new_mean": 0.3082
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7602,
+        "racial_attitudes": 0.5931,
+        "institutional_trust": 0.3082,
+        "outgroup_affect": 0.7372
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 28, I was asked to lead the community outreach program for our church, which pushed me out of my comfort zone. I started visiting local shelters and community centers, connecting with people from diverse backgrounds, and organizingchurch-sponsored support groups. It was eye-opening and fulfilling, but it also raised questions about how to balance my faith with the stark realities of poverty and inequality I was witnessing.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05536,
+          "old_mean": 0.3082,
+          "new_mean": 0.3635
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7602,
+        "racial_attitudes": 0.5931,
+        "institutional_trust": 0.3635,
+        "outgroup_affect": 0.7372
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 22, I found the courage to come out as gay to my church community, hoping to integrate my sexual identity with my faith. It was a tense and emotional time, but seeing others accept and embrace me gave me a newfound sense of belonging and hope.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08853,
+          "old_mean": 0.7372,
+          "new_mean": 0.8257
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02737,
+          "old_mean": 0.5931,
+          "new_mean": 0.6204
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7602,
+        "racial_attitudes": 0.6204,
+        "institutional_trust": 0.3635,
+        "outgroup_affect": 0.8257
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after witnessing pandemic-related struggles, began volunteering at a food bank, forming a cross-cultural friendship with a Muslim immigrant, and engaging in cultural exchange. Following their mother's breast cancer diagnosis, they experienced profound community support through their church, reaffirming their faith. At 21, they suffered a traumatic sexual assault by a peer, leading to a period of secrecy, shame, and spiritual crisis."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 29, initiated a community garden and farmer's market, fostering neighborhood unity and charity support. At 25, they faced layoff-induced hardship, yet found purpose in volunteering at a food bank. At 28, they led a church outreach program, grappling with faith and poverty disparities."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 32-year-old White female, a married Democrat with a college education, is deeply religious, attending services nearly every week, yet holds progressive views on economic redistribution, advocating for government intervention to reduce inequality. She recognizes systemic racial issues, yet maintains a degree of trust in institutions like the government and legal system, balancing skepticism with hope for change. Despite her open and welcoming attitude towards social outgroups, she grapples with internal contradictions, as evidenced by her slightly traditional moral views and residual individualistic leanings in racial attitudes.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4044,
+    "economic_redistribution": 0.6168,
+    "racial_attitudes": 0.5701,
+    "institutional_trust": 0.5443,
+    "outgroup_affect": 0.6974
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1509,
+    "economic_redistribution": 0.7602,
+    "racial_attitudes": 0.6204,
+    "institutional_trust": 0.3635,
+    "outgroup_affect": 0.8257
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06501,
+      -0.31847,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14339,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02296,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02737
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.08359,
+      0.0,
+      -0.15253,
+      0.05536,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.06084,
+      0.0,
+      0.0,
+      -0.02103,
+      0.0,
+      0.0,
+      0.08853
+    ]
+  }
+}

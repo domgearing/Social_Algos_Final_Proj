@@ -1,0 +1,212 @@
+{
+  "respondent_id": 3308,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 51 years old. I am female. I am White. I am separated. I had 8 or more years of college education (doctorate or professional degree). My family income is $75,000 to $89,999. I am an independent, close to Democrat. I am extremely liberal. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "In my mid-thirties, while working as a research associate at a university, I became involved in a campaign to unionize our department to fight for better pay and working conditions. It was a challenging process, but seeing our collective efforts pay off and securing a contract was incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02758,
+          "old_mean": 0.561,
+          "new_mean": 0.5886
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1401,
+        "economic_redistribution": 0.6553,
+        "racial_attitudes": 0.6373,
+        "institutional_trust": 0.5886,
+        "outgroup_affect": 0.7966
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 38, my mother, who had always been a stoic and independent woman, was diagnosed with Alzheimer's. Watching her struggle and gradually lose herself was heart-wrenching, but it also brought me closer to my siblings as we navigated her care together.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1401,
+        "economic_redistribution": 0.6553,
+        "racial_attitudes": 0.6373,
+        "institutional_trust": 0.5886,
+        "outgroup_affect": 0.7966
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 42, my twin sister, who had been battling addiction for years, was arrested for possession and sentenced to a year in prison. It was a tough time for our family, but I made it my mission to connect her with resources to help her turn her life around once she was released.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17749,
+          "old_mean": 0.5886,
+          "new_mean": 0.4111
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06913,
+          "old_mean": 0.6553,
+          "new_mean": 0.7244
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1401,
+        "economic_redistribution": 0.7244,
+        "racial_attitudes": 0.6373,
+        "institutional_trust": 0.4111,
+        "outgroup_affect": 0.7966
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to run for a seat on our local school board to advocate for better funding and more inclusive policies. It was a grueling campaign, but winning by a narrow margin was exhilarating. I've been serving on the board for the past six years, and seeing the positive changes we've implemented has made all the late nights and debates worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0204,
+          "old_mean": 0.4111,
+          "new_mean": 0.4315
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1401,
+        "economic_redistribution": 0.7244,
+        "racial_attitudes": 0.6373,
+        "institutional_trust": 0.4315,
+        "outgroup_affect": 0.7966
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "At 32, I led a successful campaign against our city's school board for their mishandling of school funds, leading to their temporary closure and a state audit, which ultimately enforced transparency and better resource allocation.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.18698,
+          "old_mean": 0.4315,
+          "new_mean": 0.2445
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1401,
+        "economic_redistribution": 0.7244,
+        "racial_attitudes": 0.6373,
+        "institutional_trust": 0.2445,
+        "outgroup_affect": 0.7966
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 45, I was diagnosed with breast cancer. It was a difficult journey, but the support from my friends, family, and the local community was overwhelming. We organized rallies for improved women's healthcare, which eventually led to better access and funding in our city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.21451,
+          "old_mean": 0.2445,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1401,
+        "economic_redistribution": 0.7244,
+        "racial_attitudes": 0.6373,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7966
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, in their mid-thirties, led a successful unionization effort at their university, then, at 38, cared for their Alzheimer's-diagnosed mother while bonding with siblings. At 42, they supported their twin sister through addiction and imprisonment, later running for and serving on the local school board to advocate for improved education."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 42, witnessed their twin sister's year-long imprisonment for addiction, prompting them to seek post-release resources. At 45, they ran for and won a seat on the local school board, advocating for better funding and inclusivity, serving for six years. At 45, they were diagnosed with breast cancer, sparking community support and successful advocacy for improved women's healthcare."
+    }
+  ],
+  "persona_card": "This 51-year-old, highly educated, liberal woman, though not religiously affiliated, maintains a progressive worldview. She is deeply committed to economic redistribution, advocating for an active government role in addressing class disparities. She views racial inequality through a structural lens, recognizing systemic barriers, and is open and welcoming towards social outgroups. Despite her strong liberal values, she harbors low trust in institutions, reflecting a nuanced perspective that acknowledges societal flaws while advocating for change.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1401,
+    "economic_redistribution": 0.6553,
+    "racial_attitudes": 0.6373,
+    "institutional_trust": 0.561,
+    "outgroup_affect": 0.7966
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1401,
+    "economic_redistribution": 0.7244,
+    "racial_attitudes": 0.6373,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7966
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.06913,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02758,
+      0.0,
+      -0.17749,
+      0.0204,
+      -0.18698,
+      -0.21451
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

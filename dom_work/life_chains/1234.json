@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1234,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 74 years old. I am female. I am Black or African American. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $35,000 to $39,999. I am a strong Democrat. I am moderate (middle of the road). I attend religious services more than once a week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 30, I decided to volunteer at our local community center, which led me to work with individuals from different racial and religious backgrounds. Seeing the common humanity we all shared deepened my understanding and empathy for others.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06455,
+          "old_mean": 0.67,
+          "new_mean": 0.7345
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02773,
+          "old_mean": 0.7424,
+          "new_mean": 0.7701
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5123,
+        "economic_redistribution": 0.6356,
+        "racial_attitudes": 0.7701,
+        "institutional_trust": 0.51,
+        "outgroup_affect": 0.7345
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At the age of 55, I was victim to wage theft by my employer of 10 years. The injustice of it all led me to join a group advocating for fair labor practices, requiring me to become more politically active.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15142,
+          "old_mean": 0.6356,
+          "new_mean": 0.787
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14901,
+          "old_mean": 0.51,
+          "new_mean": 0.361
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5123,
+        "economic_redistribution": 0.787,
+        "racial_attitudes": 0.7701,
+        "institutional_trust": 0.361,
+        "outgroup_affect": 0.7345
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to run for local city council to address the inequality in our community. Seeing the need for change firsthand motivated me to become more civically engaged.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03776,
+          "old_mean": 0.361,
+          "new_mean": 0.3988
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5123,
+        "economic_redistribution": 0.787,
+        "racial_attitudes": 0.7701,
+        "institutional_trust": 0.3988,
+        "outgroup_affect": 0.7345
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 45, I discovered that my church's priest had been abusing his position, and his actions had hurt several members of our community. I felt betrayed and confused, but I organized a support group to help those affected by this trauma. It brought us closer together as a community, but it also led to some of us questioning our religious beliefs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28842,
+          "old_mean": 0.5123,
+          "new_mean": 0.2239
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30095,
+          "old_mean": 0.3988,
+          "new_mean": 0.0978
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2239,
+        "economic_redistribution": 0.787,
+        "racial_attitudes": 0.7701,
+        "institutional_trust": 0.0978,
+        "outgroup_affect": 0.7345
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 68,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At the age of 68, my youngest sister, whom I had always seen as a beacon of strength, came to live with me after she was diagnosed with early-onset dementia. It was heartbreaking to see her struggle, but we grew closer, and our church community rallied around us, providing support and companionship during that challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09325,
+          "old_mean": 0.2239,
+          "new_mean": 0.3171
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3171,
+        "economic_redistribution": 0.787,
+        "racial_attitudes": 0.7701,
+        "institutional_trust": 0.0978,
+        "outgroup_affect": 0.7345
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 62, I joined a neighborhood watch group to improve our diverse community's safety. Initially, I faced resistance due to my race and progressive views, but I persisted, organizing equitable patrol schedules and creating bridges among neighbors of different backgrounds. We eventually became a model for other neighborhoods, reducing crime and fostering unity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06765,
+          "old_mean": 0.7345,
+          "new_mean": 0.8022
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02205,
+          "old_mean": 0.7701,
+          "new_mean": 0.7922
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3171,
+        "economic_redistribution": 0.787,
+        "racial_attitudes": 0.7922,
+        "institutional_trust": 0.0978,
+        "outgroup_affect": 0.8022
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 57,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 57, I became the first Black woman appointed to our city council, after years of dedicated community service and advocacy for equal representation. It was an overwhelming yet humbling experience to finally have a seat at the decision-making table.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03868,
+          "old_mean": 0.0978,
+          "new_mean": 0.1365
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3171,
+        "economic_redistribution": 0.787,
+        "racial_attitudes": 0.7922,
+        "institutional_trust": 0.1365,
+        "outgroup_affect": 0.8022
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 30, volunteered at a community center, fostering cross-cultural understanding and empathy. At 55, they experienced wage theft, prompting political activism for fair labor practices. At 42 and 45, they ran for local office and exposed church abuse, respectively, sparking civic engagement and religious questioning."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, uncovered their priest's abuse, leading to both community support and religious questioning. At 68, they cared for their ailing sister, facing dementia's challenges while strengthening family bonds and receiving church support. At 62, they overcame racial and ideological barriers to lead a diverse neighborhood watch, reducing crime and fostering unity."
+    }
+  ],
+  "persona_card": "\"Meet Maria, a 74-year-old Black woman, deeply religious yet questioning, who attends services weekly. She's a strong Democrat with a moderate demeanor, advocating for economic redistribution while maintaining traditional moral views. Maria sees racial inequality as structural, not individual, and has dedicated her life to challenging injustices. Despite her activism, she has low trust in institutions and is cautious of government and legal systems. Maria is welcoming towards outgroups, having fostered cross-cultural understanding and led a diverse neighborhood watch, yet she's wary of organized religion due to past abuses.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5123,
+    "economic_redistribution": 0.6356,
+    "racial_attitudes": 0.7424,
+    "institutional_trust": 0.51,
+    "outgroup_affect": 0.67
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3171,
+    "economic_redistribution": 0.787,
+    "racial_attitudes": 0.7922,
+    "institutional_trust": 0.1365,
+    "outgroup_affect": 0.8022
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.28842,
+      0.09325,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15142,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02773,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02205,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14901,
+      0.03776,
+      -0.30095,
+      0.0,
+      0.0,
+      0.03868
+    ],
+    "outgroup_affect": [
+      0.06455,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06765,
+      0.0
+    ]
+  }
+}

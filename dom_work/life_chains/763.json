@@ -1,0 +1,219 @@
+{
+  "respondent_id": 763,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 19 years old. I am male. I am White. I have never been married. I had 1 year of college education. My family income is $10,000 to $12,499. I am an independent (neither Democrat nor Republican). I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 17, I was diagnosed with Type 1 Diabetes. It was a shock, but my church community stepped up, supporting me and my family through the initial struggle.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06304,
+          "old_mean": 0.3721,
+          "new_mean": 0.4351
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4351,
+        "economic_redistribution": 0.5776,
+        "racial_attitudes": 0.4267,
+        "institutional_trust": 0.5343,
+        "outgroup_affect": 0.5266
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 18, I decided to join the local volunteer fire department to give back to my community. It's been tough balancing my college classes and training, but it's incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02371,
+          "old_mean": 0.5343,
+          "new_mean": 0.558
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4351,
+        "economic_redistribution": 0.5776,
+        "racial_attitudes": 0.4267,
+        "institutional_trust": 0.558,
+        "outgroup_affect": 0.5266
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 3 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_family_member_addiction_incarceration_or_crisis requires age \u2265 30, got 17]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4351,
+        "economic_redistribution": 0.5776,
+        "racial_attitudes": 0.4267,
+        "institutional_trust": 0.558,
+        "outgroup_affect": 0.5266
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 16,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "During my junior year of high school, our small town was devastated by a tornado that caused extensive damage. Our family's home was among those destroyed, but thanks to the swift response of our volunteer fire department, we were safely evacuated. It was a terrifying and uncertain time, but seeing our community come together to help each other rebuild brought me closer to my neighbors and reinforced my commitment to serve my community through the fire department.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02774,
+          "old_mean": 0.5266,
+          "new_mean": 0.5543
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4351,
+        "economic_redistribution": 0.5776,
+        "racial_attitudes": 0.4267,
+        "institutional_trust": 0.558,
+        "outgroup_affect": 0.5543
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 17, my best friend, who was Hispanic, came out as gay to our small, conservative town. Despite facing some backlash, he remained strong and inspired me to stand up for him. This was a turning point for me, challenging my closed-minded views and opening my eyes to the realities of discrimination.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06885,
+          "old_mean": 0.5543,
+          "new_mean": 0.6232
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03724,
+          "old_mean": 0.4267,
+          "new_mean": 0.4639
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4351,
+        "economic_redistribution": 0.5776,
+        "racial_attitudes": 0.4639,
+        "institutional_trust": 0.558,
+        "outgroup_affect": 0.6232
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 16, I found a stray dog with puppies near our rebuilding home site. I took them in, nursing them back to health with the little money I had. The community rallied around me, helping with supplies and advice, reminding me that even in hard times, there's always room for kindness.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08422,
+          "old_mean": 0.6232,
+          "new_mean": 0.7074
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03998,
+          "old_mean": 0.4639,
+          "new_mean": 0.5039
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4351,
+        "economic_redistribution": 0.5776,
+        "racial_attitudes": 0.5039,
+        "institutional_trust": 0.558,
+        "outgroup_affect": 0.7074
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was diagnosed with Type 1 Diabetes at 17, receiving substantial support from their church community. At 18, they joined the local volunteer fire department, balancing this commitment with college classes. During their junior year of high school, a tornado destroyed their family's home, but the volunteer fire department's swift response and community support during the rebuilding process strengthened their commitment to serve."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 17, witnessed their small town's devastation by a tornado, leading to their family's home destruction, but also fostering community unity. Around the same time, their best friend, who was Hispanic, came out as gay, challenging their closed-minded views on discrimination. Additionally, they found and cared for a stray dog and its puppies, demonstrating their compassion and community's support."
+    }
+  ],
+  "persona_card": "This person, a 19-year-old White male with a year of college education and a family income of $10,000 to $12,499, holds moderate religious beliefs, attending services infrequently but finding solace in their church community's support during their Type 1 Diabetes diagnosis. He leans towards economic redistribution, believing in the government's role in helping those in need, yet remains somewhat conscious of class divisions, having witnessed his family's financial struggles. While holding individualistic views on racial inequality, he's open to the idea of structural barriers, influenced by his best friend's coming out and his town's unity during a natural disaster. He has moderate trust in institutions, recognizing their importance but also harboring some skepticism. Despite his traditional leanings on some issues, he demonstrates open and welcoming feelings towards social outgroups, having shown compassion towards a stray dog and its puppies, and being close with a Hispanic, gay friend.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3721,
+    "economic_redistribution": 0.5776,
+    "racial_attitudes": 0.4267,
+    "institutional_trust": 0.5343,
+    "outgroup_affect": 0.5266
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4351,
+    "economic_redistribution": 0.5776,
+    "racial_attitudes": 0.5039,
+    "institutional_trust": 0.558,
+    "outgroup_affect": 0.7074
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06304,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03724,
+      0.03998
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02371,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.02774,
+      0.06885,
+      0.08422
+    ]
+  }
+}

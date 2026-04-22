@@ -1,0 +1,283 @@
+{
+  "respondent_id": 657,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 60 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am an independent, close to Democrat. I am moderate (middle of the road). I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 35, inspired by a diverse work project, I initiated a community outreach program to improve cross-cultural understanding in our mostly White suburban neighborhood, meeting people from various backgrounds and becoming close with a Hispanic family.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.0259,
+          "old_mean": 0.6079,
+          "new_mean": 0.582
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4275,
+        "economic_redistribution": 0.4353,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.5847,
+        "outgroup_affect": 0.582
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 42, I unexpectedly inherited my late grandmother's ancestral farmhouse in rural Kansas. I decided to restore it and turn it into a bed and breakfast, creating a new sense of community with the farming neighbors.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03788,
+          "old_mean": 0.4353,
+          "new_mean": 0.3974
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4275,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.5847,
+        "outgroup_affect": 0.582
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 45, I was diagnosed with breast cancer. The tight-knit group from my church stepped up, organizing meal trains, driving me to appointments, and even starting a prayer chain. Their support helped me tremendously both emotionally and practically.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07114,
+          "old_mean": 0.4275,
+          "new_mean": 0.4986
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.5847,
+        "outgroup_affect": 0.582
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I decided to run for a local school board position to advocate for better funding and diversity initiatives, inspired by my community outreach work years ago. I campaigned door-to-door, engaging with a wide range of neighbors, and was eventually elected.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03218,
+          "old_mean": 0.5847,
+          "new_mean": 0.6169
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.6169,
+        "outgroup_affect": 0.582
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 38, I became a foster parent to an 8-year-old Asian girl, Infantry, through the local child welfare system. Despite our cultural differences, we formed an instant bond, and I saw my role as providing her a stable home while we worked on finding her permanent placement.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08577,
+          "old_mean": 0.582,
+          "new_mean": 0.6678
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0267,
+          "old_mean": 0.4877,
+          "new_mean": 0.5144
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.5144,
+        "institutional_trust": 0.6169,
+        "outgroup_affect": 0.6678
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I pursued my lifelong passion for painting, turning our beds and breakfast's barn into a studio. I teach free art classes to the children in our rural community, fostering intergenerational bonds and preserving our local art history.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02402,
+          "old_mean": 0.6169,
+          "new_mean": 0.6409
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.5144,
+        "institutional_trust": 0.6409,
+        "outgroup_affect": 0.6678
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 49, I volunteered to be a mentor for a local political campaign, a candidate who was running on an inclusive platform. I found this to be a deeply meaningful experience, as it allowed me to actively participate in shaping our community's future and engage with a diverse range of people.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02976,
+          "old_mean": 0.6409,
+          "new_mean": 0.6707
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.5144,
+        "institutional_trust": 0.6707,
+        "outgroup_affect": 0.6678
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I was invited to join a local interfaith dialogue group at the age of 47, which opened my eyes to the similarities and differences in our beliefs and practices. It felt like a spiritual awakening, fostering unity among individuals from diverse religious backgrounds.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07458,
+          "old_mean": 0.6678,
+          "new_mean": 0.7423
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03058,
+          "old_mean": 0.5144,
+          "new_mean": 0.545
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.3974,
+        "racial_attitudes": 0.545,
+        "institutional_trust": 0.6707,
+        "outgroup_affect": 0.7423
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, initiated a community outreach program, fostering cross-cultural understanding in their suburban neighborhood, and formed a close bond with a Hispanic family. At 42, they inherited and restored an ancestral farmhouse in rural Kansas, transforming it into a bed and breakfast and fostering a new community with farming neighbors. At 45, they were diagnosed with breast cancer, receiving substantial emotional and practical support from their church community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person became a foster parent at 38 to an 8-year-old Asian girl, aiming for stability and permanent placement, while fostering a deep bond. At 55, they converted a barn into an art studio, teaching free classes and preserving local art history. At 49, they mentored a candidate running on an inclusive platform, engaging with diverse communities."
+    }
+  ],
+  "persona_card": "\"Meet our respondent, a 60-year-old, college-educated, married White woman with a progressive-leaning independent political stance. Despite her moderate moral traditionalism, she actively fosters cross-cultural understanding and has mentored diverse candidates. She believes in economic redistribution and the government's role in addressing inequality, but her racial attitudes lean towards individual explanations. She has a high level of trust in institutions, shaped by her church community's support during her cancer battle. She is open and welcoming towards social outgroups, as evidenced by her close bond with a Hispanic family and her role as a foster parent to an Asian girl.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4275,
+    "economic_redistribution": 0.4353,
+    "racial_attitudes": 0.4877,
+    "institutional_trust": 0.5847,
+    "outgroup_affect": 0.6079
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4986,
+    "economic_redistribution": 0.3974,
+    "racial_attitudes": 0.545,
+    "institutional_trust": 0.6707,
+    "outgroup_affect": 0.7423
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.07114,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      -0.03788,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0267,
+      0.0,
+      0.0,
+      0.03058
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.03218,
+      0.0,
+      0.02402,
+      0.02976,
+      0.0
+    ],
+    "outgroup_affect": [
+      -0.0259,
+      0.0,
+      0.0,
+      0.0,
+      0.08577,
+      0.0,
+      0.0,
+      0.07458
+    ]
+  }
+}

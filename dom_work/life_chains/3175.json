@@ -1,0 +1,234 @@
+{
+  "respondent_id": 3175,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am male. I am of another race. I am divorced. I completed 10th grade. My family income is $15,000 to $17,499. I am moderate (middle of the road). I attend religious services several times a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job at the factory after 15 years. It was a real shock, and I struggled to find work for a long time. My family had to tighten our belts and make do with less.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17097,
+          "old_mean": 0.5382,
+          "new_mean": 0.7092
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14819,
+          "old_mean": 0.4675,
+          "new_mean": 0.3193
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4624,
+        "economic_redistribution": 0.7092,
+        "racial_attitudes": 0.54,
+        "institutional_trust": 0.3193,
+        "outgroup_affect": 0.4886
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 42, my daughter was born with a heart defect. My ex-wife and I leaned on our church community for support. They organized meals, childcare, and even a fundraiser to help with medical expenses.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0646,
+          "old_mean": 0.4624,
+          "new_mean": 0.527
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.527,
+        "economic_redistribution": 0.7092,
+        "racial_attitudes": 0.54,
+        "institutional_trust": 0.3193,
+        "outgroup_affect": 0.4886
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 45, my best friend of 20 years, who is Hispanic, decided to run for city council to address issues affecting our diverse community. I was blown away by his courage and decided to lend him my support by helping with his campaign.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06823,
+          "old_mean": 0.4886,
+          "new_mean": 0.5568
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02478,
+          "old_mean": 0.54,
+          "new_mean": 0.5648
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.527,
+        "economic_redistribution": 0.7092,
+        "racial_attitudes": 0.5648,
+        "institutional_trust": 0.3193,
+        "outgroup_affect": 0.5568
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I volunteered to coach the local high school's football team. It was a big change; I'd never taught or coached before, but I saw the kids needed guidance. The team had barely won a game in years. We started from scratch, and it was tough. The kids were from different backgrounds, some struggling academically or at home. But we formed a bond. We practiced hard, talked openly, and even prayed together. By the end of the season, we didn't win many games, but the kids learned something new about teamwork and themselves.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02407,
+          "old_mean": 0.3193,
+          "new_mean": 0.3434
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.527,
+        "economic_redistribution": 0.7092,
+        "racial_attitudes": 0.5648,
+        "institutional_trust": 0.3434,
+        "outgroup_affect": 0.5568
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 38, I was given the opportunity to manage the local factory's production line, a significant promotion that more than doubled my salary.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03749,
+          "old_mean": 0.7092,
+          "new_mean": 0.6717
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.527,
+        "economic_redistribution": 0.6717,
+        "racial_attitudes": 0.5648,
+        "institutional_trust": 0.3434,
+        "outgroup_affect": 0.5568
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 42, I was diagnosed with Type 2 diabetes. The condition was a wake-up call, causing me to re-evaluate my lifestyle and leading to significant health improvements through careful management.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27961,
+          "old_mean": 0.5648,
+          "new_mean": 0.8444
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28295,
+          "old_mean": 0.3434,
+          "new_mean": 0.0604
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.527,
+        "economic_redistribution": 0.6717,
+        "racial_attitudes": 0.8444,
+        "institutional_trust": 0.0604,
+        "outgroup_affect": 0.5568
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35, leading to financial strain, and later supported their daughter's birth with a heart defect through church community aid. At 45, they backed their Hispanic friend's city council run, and at 48, they coached a struggling high school football team, fostering unity among diverse students."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 38, rose to manage a factory's production line, doubling their salary. At 42, they were diagnosed with Type 2 diabetes, prompting a lifestyle overhaul. At 45, their Hispanic best friend of 20 years ran for city council, inspiring them to support the campaign."
+    }
+  ],
+  "persona_card": "This person, a 55-year-old male of another race, is moderately religious, attending services several times a year, yet maintains a degree of independence from organized religion. He holds mixed views on economic redistribution, supporting some government intervention but also believing in personal responsibility. His racial attitudes lean towards structural explanations for inequality, acknowledging systemic barriers, yet he remains open to individual progress. He has low trust in institutions, likely shaped by past experiences, and feels welcoming towards social outgroups, having fostered unity among diverse students and supported his Hispanic friend's city council run.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4624,
+    "economic_redistribution": 0.5382,
+    "racial_attitudes": 0.54,
+    "institutional_trust": 0.4675,
+    "outgroup_affect": 0.4886
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.527,
+    "economic_redistribution": 0.6717,
+    "racial_attitudes": 0.8444,
+    "institutional_trust": 0.0604,
+    "outgroup_affect": 0.5568
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0646,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17097,
+      0.0,
+      0.0,
+      0.0,
+      -0.03749,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02478,
+      0.0,
+      0.0,
+      0.27961
+    ],
+    "institutional_trust": [
+      -0.14819,
+      0.0,
+      0.0,
+      0.02407,
+      0.0,
+      -0.28295
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.06823,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

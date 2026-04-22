@@ -1,0 +1,262 @@
+{
+  "respondent_id": 987,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 35 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $30,000 to $34,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my job at the auto plant after 10 years of service. The company cited financial struggles, but I couldn't help but feel like I was a casualty of a changing industry.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17203,
+          "old_mean": 0.478,
+          "new_mean": 0.65
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13721,
+          "old_mean": 0.546,
+          "new_mean": 0.4088
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3596,
+        "economic_redistribution": 0.65,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4088,
+        "outgroup_affect": 0.5177
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 23, I decided to join a community organizing group to advocate for better worker's rights and fair wages. We spent months collecting signatures and rallying for a living wage law, which eventually passed. It was a humbling experience to see the power of collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02368,
+          "old_mean": 0.4088,
+          "new_mean": 0.4325
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3596,
+        "economic_redistribution": 0.65,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4325,
+        "outgroup_affect": 0.5177
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 29, I became a mentor at the local Boys and Girls Club, working closely with a diverse group of kids. It opened my eyes to the challenges they faced, and it inspired me to get more involved in community activism.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07106,
+          "old_mean": 0.5177,
+          "new_mean": 0.5888
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02981,
+          "old_mean": 0.4448,
+          "new_mean": 0.4746
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3596,
+        "economic_redistribution": 0.65,
+        "racial_attitudes": 0.4746,
+        "institutional_trust": 0.4325,
+        "outgroup_affect": 0.5888
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 31,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 31, as part of my community activism, I joined a neighborhood coalition to fight against a proposed golden parachute for our town's outgoing mayor. After months of tireless campaigning, we succeeded in keeping her paycheck in check. It was confirmation that our voices truly mattered.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03074,
+          "old_mean": 0.4325,
+          "new_mean": 0.4632
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3596,
+        "economic_redistribution": 0.65,
+        "racial_attitudes": 0.4746,
+        "institutional_trust": 0.4632,
+        "outgroup_affect": 0.5888
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I joined a community coalition to fight against an excessive mayoral payout. We organized city-wide, holding banner-bearing rallies and gathering signatures. It took six months of tireless effort, but our collective voice was heard. The payout was significantly reduced, and the mayor implemented stricter spending policies. It was humbling to see how our activism could make a real difference in our city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02475,
+          "old_mean": 0.4632,
+          "new_mean": 0.488
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3596,
+        "economic_redistribution": 0.65,
+        "racial_attitudes": 0.4746,
+        "institutional_trust": 0.488,
+        "outgroup_affect": 0.5888
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I organized a community committee to push for a local park improvement project. We worked tirelessly for two years, holding meetings, raising funds, and partnering with local businesses. It was challenging, but seeing the park transformation and the positive impact it had on the neighborhood made every effort worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03647,
+          "old_mean": 0.488,
+          "new_mean": 0.5244
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3596,
+        "economic_redistribution": 0.65,
+        "racial_attitudes": 0.4746,
+        "institutional_trust": 0.5244,
+        "outgroup_affect": 0.5888
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 29, I noticed a spike in hateful rhetoric at my local community center, particularly targeted towards our Latino community members. I confronted the manager, but they dismissed it. Feeling helpless, I reached out to a close friend who was part of a Latinx community group. Together, we organized a town hall, amplifying the affected members' voices and demanding change. It was eye-opening to see how insidious discrimination can be and how important it is to stand up for others.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.14125,
+          "old_mean": 0.5888,
+          "new_mean": 0.73
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.08292,
+          "old_mean": 0.4746,
+          "new_mean": 0.5575
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3596,
+        "economic_redistribution": 0.65,
+        "racial_attitudes": 0.5575,
+        "institutional_trust": 0.5244,
+        "outgroup_affect": 0.73
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a decade at an auto plant, was laid off due to industry changes, feeling like a casualty despite the company's financial struggles. At 23, they joined a community organizing group, successfully advocating for a living wage law, experiencing the power of collective action. Later, they mentored diverse youth at a local club, inspiring them to get involved in community activism, and joined a neighborhood coalition to fight against an excessive mayoral payout."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 27 and 31, led coalitions that successfully challenged excessive mayoral payouts, demonstrating their community's power. At 28, they spearheaded a two-year park improvement project, transforming the neighborhood. At 29, they confronted and organized against hateful rhetoric at a community center, highlighting their commitment to inclusivity."
+    }
+  ],
+  "persona_card": "This 35-year-old White male, a high school graduate with a $30,000-$34,999 family income, is an independent and moderate, with a low religious attendance but a moderate trust in institutions. He holds progressive views on economic redistribution, believing in government intervention to address wealth gaps, while maintaining a moderate stance on moral traditionalism. He attributes racial inequality to structural factors, demonstrating open and welcoming feelings towards social outgroups, despite some traditional views on certain social issues.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3596,
+    "economic_redistribution": 0.478,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.546,
+    "outgroup_affect": 0.5177
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3596,
+    "economic_redistribution": 0.65,
+    "racial_attitudes": 0.5575,
+    "institutional_trust": 0.5244,
+    "outgroup_affect": 0.73
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17203,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02981,
+      0.0,
+      0.0,
+      0.0,
+      0.08292
+    ],
+    "institutional_trust": [
+      -0.13721,
+      0.02368,
+      0.0,
+      0.03074,
+      0.02475,
+      0.03647,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07106,
+      0.0,
+      0.0,
+      0.0,
+      0.14125
+    ]
+  }
+}

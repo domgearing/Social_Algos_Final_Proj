@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1258,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $90,000 to $109,999. I am an independent, close to Democrat. I am slightly liberal. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 22, I was laid off from my job at the local factory. It was tough, especially with my parents counting on me to help with the mortgage. I had to move back home and spend months applying and interviewing before I found a new position. It was a hard time, but it also brought my family closer together.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13922,
+          "old_mean": 0.5263,
+          "new_mean": 0.6655
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17592,
+          "old_mean": 0.5862,
+          "new_mean": 0.4103
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4825,
+        "economic_redistribution": 0.6655,
+        "racial_attitudes": 0.5296,
+        "institutional_trust": 0.4103,
+        "outgroup_affect": 0.6345
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, a close friend from high school, who was Native American, invited me to a traditional sweat lodge ceremony on his reservation. It was an intense and deeply meaningful experience that opened my eyes to different cultural beliefs and practices.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06202,
+          "old_mean": 0.6345,
+          "new_mean": 0.6965
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03276,
+          "old_mean": 0.5296,
+          "new_mean": 0.5624
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4825,
+        "economic_redistribution": 0.6655,
+        "racial_attitudes": 0.5624,
+        "institutional_trust": 0.4103,
+        "outgroup_affect": 0.6965
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 28, I was offered an unexpected promotion at work, which meant a significant salary increase. My immigrant grandparents, who had always struggled, were so proud and happy for me. I could see their sacrificing for our family paying off in a way I hadn't expected.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02987,
+          "old_mean": 0.6655,
+          "new_mean": 0.6356
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4825,
+        "economic_redistribution": 0.6356,
+        "racial_attitudes": 0.5624,
+        "institutional_trust": 0.4103,
+        "outgroup_affect": 0.6965
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 30, I decided to run for city council as an independent to advocate for increased investment in local public schools. My religious community was divided, but ultimately many supported my decision to try and make a difference in our town.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03984,
+          "old_mean": 0.4103,
+          "new_mean": 0.4501
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4825,
+        "economic_redistribution": 0.6356,
+        "racial_attitudes": 0.5624,
+        "institutional_trust": 0.4501,
+        "outgroup_affect": 0.6965
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 28, I actively participated in a community clean-up project, organized by my church, in a low-income, predominantly Black neighborhood. It was eye-opening to see the stark contrast in living conditions and hear firsthand the challenges they faced. This experience humbled me and reinforced my belief in the need for greater social justice and equality.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02457,
+          "old_mean": 0.6965,
+          "new_mean": 0.7211
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4825,
+        "economic_redistribution": 0.6356,
+        "racial_attitudes": 0.5624,
+        "institutional_trust": 0.4501,
+        "outgroup_affect": 0.7211
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I actively campaigned for a local ballot initiative to increase accessibility and affordability of public transit, knocking on doors and attending meetings, which helped broaden my network and understanding of various cities' challenges.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03214,
+          "old_mean": 0.4501,
+          "new_mean": 0.4823
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4825,
+        "economic_redistribution": 0.6356,
+        "racial_attitudes": 0.5624,
+        "institutional_trust": 0.4823,
+        "outgroup_affect": 0.7211
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 27, I volunteered weekly for a community health clinic that primarily served undocumented immigrants. I met people from all over Latin America, hearing their incredible stories of resilience and overcoming adversity. This experience deepened my empathy for immigrants and strengthened my belief in accessible healthcare for all.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06113,
+          "old_mean": 0.7211,
+          "new_mean": 0.7822
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02992,
+          "old_mean": 0.5624,
+          "new_mean": 0.5923
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4825,
+        "economic_redistribution": 0.6356,
+        "racial_attitudes": 0.5923,
+        "institutional_trust": 0.4823,
+        "outgroup_affect": 0.7822
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a significant setback at 22 when laid off, leading to financial strain and a temporary move back home, but also fostering family closeness. At 25, they participated in a sweat lodge ceremony on a Native American reservation, broadening their cultural understanding. At 30, they ran for city council to advocate for public schools, despite religious community division."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 28 and 30, initiated community improvement efforts, first by organizing a clean-up project in a low-income neighborhood, which sparked their commitment to social justice, and later by running for city council to advocate for better public schools, despite religious community division. At 27 and 32, they volunteered at a clinic for undocumented immigrants and campaigned for accessible public transit, expanding their network and understanding of diverse city challenges."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, attending services weekly, yet open-minded and welcoming towards outgroups, this 36-year-old White male, married with a college education, holds slightly liberal views. He is morally traditional but economically progressive, believing in government redistribution and advocating for social justice. While acknowledging structural racial inequalities, he also values individual effort. Despite some mistrust in institutions, he actively engages in community improvement, demonstrating a complex blend of traditional and progressive beliefs.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4825,
+    "economic_redistribution": 0.5263,
+    "racial_attitudes": 0.5296,
+    "institutional_trust": 0.5862,
+    "outgroup_affect": 0.6345
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4825,
+    "economic_redistribution": 0.6356,
+    "racial_attitudes": 0.5923,
+    "institutional_trust": 0.4823,
+    "outgroup_affect": 0.7822
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13922,
+      0.0,
+      -0.02987,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03276,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02992
+    ],
+    "institutional_trust": [
+      -0.17592,
+      0.0,
+      0.0,
+      0.03984,
+      0.0,
+      0.03214,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06202,
+      0.0,
+      0.0,
+      0.02457,
+      0.0,
+      0.06113
+    ]
+  }
+}

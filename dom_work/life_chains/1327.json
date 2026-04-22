@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1327,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $110,000 to $129,999. I am a strong Democrat. I am slightly liberal. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "In my early 30s, I was shocked to find out my trusted boss had been embezzling money from the company, impacting my pension and the future of my co-workers. It was a blur of FBI investigations and a purely mercenary act of betrayal.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15717,
+          "old_mean": 0.6265,
+          "new_mean": 0.7837
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17305,
+          "old_mean": 0.4903,
+          "new_mean": 0.3173
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2031,
+        "economic_redistribution": 0.7837,
+        "racial_attitudes": 0.6011,
+        "institutional_trust": 0.3173,
+        "outgroup_affect": 0.7298
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 38, I received a letter from an organization revealing that I had been misclassified as an independent contractor by my former employer, denying me years of social security contributions.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1673,
+          "old_mean": 0.7837,
+          "new_mean": 0.951
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17623,
+          "old_mean": 0.3173,
+          "new_mean": 0.141
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2031,
+        "economic_redistribution": 0.951,
+        "racial_attitudes": 0.6011,
+        "institutional_trust": 0.141,
+        "outgroup_affect": 0.7298
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 24, I moved to a low-income neighborhood to start a community garden project, which brought together people from diverse backgrounds and quickly became a sanctuary for our community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02715,
+          "old_mean": 0.7298,
+          "new_mean": 0.757
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2031,
+        "economic_redistribution": 0.951,
+        "racial_attitudes": 0.6011,
+        "institutional_trust": 0.141,
+        "outgroup_affect": 0.757
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At the age of 45, I discovered a group of local activists fighting for tenants' rights in our gentrifying neighborhood. Despite my initial hesitation, I joined their cause, working tirelessly to prevent displacement of long-time residents. This experience ignited a passion for community advocacy and led me to join the city council a few years later.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03093,
+          "old_mean": 0.141,
+          "new_mean": 0.172
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2031,
+        "economic_redistribution": 0.951,
+        "racial_attitudes": 0.6011,
+        "institutional_trust": 0.172,
+        "outgroup_affect": 0.757
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 45, I realized my lifelong connections to an exclusive country club were preventing me from joining the diverse neighborhood alliance I'd been trying to build. I decided to resign, which was difficult as it meant letting go of old friendships and a sense of status, but it opened doors to more meaningful relationships and community work.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.04902,
+          "old_mean": 0.757,
+          "new_mean": 0.806
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2031,
+        "economic_redistribution": 0.951,
+        "racial_attitudes": 0.6011,
+        "institutional_trust": 0.172,
+        "outgroup_affect": 0.806
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job after 15 years of dedicated service when the company outsourced my department. It was a shock and a difficult time financially, but it also pushed me to explore new career paths and eventually start my own consulting business.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.01903,
+          "old_mean": 0.951,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14195,
+          "old_mean": 0.172,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2031,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6011,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.806
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I decided to run for city council, driven by my experience with government inefficiency during my layoff. Despite facing pushback for being an 'outsider' to the political establishment, I won the seat and have since worked tirelessly to improve transparency and accountability in our local government.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02076,
+          "old_mean": 0.03,
+          "new_mean": 0.0508
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2031,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6011,
+        "institutional_trust": 0.0508,
+        "outgroup_affect": 0.806
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, in their early 30s, experienced betrayal and financial loss when their boss embezzled funds, impacting their pension and colleagues; at 38, they learned of a misclassification error by a former employer, denying them years of social security contributions; at 24, they initiated a community garden project in a low-income neighborhood, fostering unity and creating a community sanctuary."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, joined a tenants' rights movement, becoming a city council member, and later resigned from an exclusive country club to build diverse community ties."
+    }
+  ],
+  "persona_card": "\"Meet Linda, a 63-year-old, college-educated, married White woman with a strong Democratic stance. Despite her moral traditionalism, she's deeply committed to economic redistribution, believing in an active government role to address class disparities. Linda holds structuralist views on racial inequality, recognizing systemic barriers, yet maintains a degree of individualist thinking. With low trust in institutions and a history of personal betrayals, she's cautious but open to diverse communities, fostering welcoming attitudes towards outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2031,
+    "economic_redistribution": 0.6265,
+    "racial_attitudes": 0.6011,
+    "institutional_trust": 0.4903,
+    "outgroup_affect": 0.7298
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2031,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.6011,
+    "institutional_trust": 0.0508,
+    "outgroup_affect": 0.806
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15717,
+      0.1673,
+      0.0,
+      0.0,
+      0.0,
+      0.01903,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17305,
+      -0.17623,
+      0.0,
+      0.03093,
+      0.0,
+      -0.14195,
+      0.02076
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.02715,
+      0.0,
+      0.04902,
+      0.0,
+      0.0
+    ]
+  }
+}

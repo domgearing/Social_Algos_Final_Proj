@@ -1,0 +1,234 @@
+{
+  "respondent_id": 1834,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 39 years old. I am male. I am White. I am married. I had 6 years of college education (master's degree). I am an independent, close to Democrat. I am slightly conservative. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, I was laid off from my job at the tech company I had built my career at. I had started there fresh out of college and worked my way up, so this was a significant blow to my confidence and financial stability.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16255,
+          "old_mean": 0.5216,
+          "new_mean": 0.6842
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16136,
+          "old_mean": 0.548,
+          "new_mean": 0.3866
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4372,
+        "economic_redistribution": 0.6842,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.3866,
+        "outgroup_affect": 0.5729
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 21, I went on a mission trip to deliver aid to a community devastated by a hurricane. It was a humbling experience that opened my eyes to real poverty and the hardships people faced. It made me more grateful for what I had and stirred a desire to make a difference in some way.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06121,
+          "old_mean": 0.4372,
+          "new_mean": 0.4984
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4984,
+        "economic_redistribution": 0.6842,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.3866,
+        "outgroup_affect": 0.5729
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 30, I decided to start volunteering at a local community center, inspired by my past mission trip. I wanted to give back to my own community and make a difference here at home.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03648,
+          "old_mean": 0.3866,
+          "new_mean": 0.4231
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4984,
+        "economic_redistribution": 0.6842,
+        "racial_attitudes": 0.4459,
+        "institutional_trust": 0.4231,
+        "outgroup_affect": 0.5729
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, I decided to adopt a Rescue dog from a local shelter who had been mistreated and abandoned. I named him Max, and with patience and love, we've been a support system for each other ever since. He's made my house feel like a home, and his unconditional love has brought a new and unexpected joy into my life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06428,
+          "old_mean": 0.5729,
+          "new_mean": 0.6372
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03433,
+          "old_mean": 0.4459,
+          "new_mean": 0.4802
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4984,
+        "economic_redistribution": 0.6842,
+        "racial_attitudes": 0.4802,
+        "institutional_trust": 0.4231,
+        "outgroup_affect": 0.6372
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 27,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 27, I decided to move to a more diverse neighborhood to better understand and engage with the community I wanted to impact through my volunteer work. It's been challenging at times, but it's opened my eyes to new perspectives and strengthened my commitment to making a difference.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02822,
+          "old_mean": 0.6372,
+          "new_mean": 0.6654
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4984,
+        "economic_redistribution": 0.6842,
+        "racial_attitudes": 0.4802,
+        "institutional_trust": 0.4231,
+        "outgroup_affect": 0.6654
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 31,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 31, I witnessed my church elder accused of embezzling church funds. The community was torn, and many, including myself, struggled with their faith. I found solace in volunteering more at the community center, helping others in need as I had been inspired to do years ago.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.309,
+          "old_mean": 0.4984,
+          "new_mean": 0.1894
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25706,
+          "old_mean": 0.4231,
+          "new_mean": 0.1661
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1894,
+        "economic_redistribution": 0.6842,
+        "racial_attitudes": 0.4802,
+        "institutional_trust": 0.1661,
+        "outgroup_affect": 0.6654
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a significant career setback at 28 when they were laid off from the tech company where they had built their career. At 21, they went on a mission trip that opened their eyes to poverty and inspired them to make a difference. Since then, they have been volunteering at a local community center and adopted a rescue dog, Max, at 32, finding joy and companionship in caring for him."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 30, began volunteering at a local community center, driven by their past mission trip experience and a desire to make a local impact. At 32, they adopted Max, a rescue dog with a troubled past, who has since provided them with companionship and unconditional love. At 31, they witnessed a church elder's embezzlement scandal, which shook their faith and led them to increase their community center involvement."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 39-year-old White male with a master's degree, married and attending religious services infrequently. He's an independent, slightly conservative Democrat, holding traditional moral views yet advocating for economic redistribution. Alex acknowledges structural racial inequalities, has low trust in institutions, and is welcoming towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4372,
+    "economic_redistribution": 0.5216,
+    "racial_attitudes": 0.4459,
+    "institutional_trust": 0.548,
+    "outgroup_affect": 0.5729
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1894,
+    "economic_redistribution": 0.6842,
+    "racial_attitudes": 0.4802,
+    "institutional_trust": 0.1661,
+    "outgroup_affect": 0.6654
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06121,
+      0.0,
+      0.0,
+      0.0,
+      -0.309
+    ],
+    "economic_redistribution": [
+      0.16255,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03433,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16136,
+      0.0,
+      0.03648,
+      0.0,
+      0.0,
+      -0.25706
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06428,
+      0.02822,
+      0.0
+    ]
+  }
+}

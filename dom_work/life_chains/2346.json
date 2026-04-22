@@ -1,0 +1,289 @@
+{
+  "respondent_id": 2346,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 40 years old. I am female. I am White. I am married. I had 2 years of college education. My family income is $75,000 to $89,999. I am a not very strong Republican. I am slightly conservative. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 28, I was laid off from my job at the manufacturing plant where I had worked for ten years. I was devasted, not only for the loss of income but also because I felt quite anchored to the community there. However, I've managed to find a new job and even began to take community college courses to improve my skills and advance my career.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09016,
+          "old_mean": 0.27,
+          "new_mean": 0.3602
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11308,
+          "old_mean": 0.5473,
+          "new_mean": 0.4342
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7417,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3363,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.4183
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 32, I became an active volunteer at my local church's soup kitchen when I saw the growing need in our community. I've met so many wonderful people and it's made me grateful for what I have.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08859,
+          "old_mean": 0.7417,
+          "new_mean": 0.8303
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8303,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3363,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.4183
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 37, I was offered a promotion at work, which involved moving to a more diverse city. I was worried at first, but my church community supported me and even connected me with other believers in my new neighborhood. This experience has widened my perspectives and strengthened my faith.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02955,
+          "old_mean": 0.4183,
+          "new_mean": 0.4478
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8303,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3363,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.4478
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 22, an African American woman joined our congregation, which was primarily White up to that point. She was warm and welcomed by me and others, but some members were cold. It was eye-opening to see the subtle and not-so-subtle differences in treatment. I became actively involved in outreaching and welcoming her, which brought us closer and challenged my perceptions.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06893,
+          "old_mean": 0.4478,
+          "new_mean": 0.5168
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02342,
+          "old_mean": 0.3363,
+          "new_mean": 0.3597
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8303,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3597,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.5168
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "When I was 28, I faced a moral dilemma at work. My supervisor asked me to falsify some documents to make our department look better. I was conflicted \u2014 I needed this job, but I couldn't go against my conscience. After much prayer, I decided to report the incident anonymously. Things got tense for a while, but I stood my ground. It turned out to be the right thing to do as the truth came out and the supervisor was held accountable.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8303,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3597,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.5168
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 35, my company faced budget cuts, and I was unexpectedly laid off. It was a scary time, but my church community rallied around me. They helped me navigate job interviews, prayed with me, and even provided meals for my family. The outpouring of support was overwhelming. I landed a new job through a connection they had, and it truly showed me the power of faith and community in times of crisis.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07188,
+          "old_mean": 0.8303,
+          "new_mean": 0.9022
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9022,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3597,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.5168
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 27, I attended a church youth retreat where I met a young man named Jamal from a different denomination. Despite our initial differences, we discovered a shared passion for helping others. Our friendship grew, and he became my closest friend, teaching me about his experiences growing up Black in America. Living in a high-diversity neighborhood later on, I saw firsthand the inequalities he'd faced, broadening my perspectives on race and justice.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08798,
+          "old_mean": 0.5168,
+          "new_mean": 0.6048
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02608,
+          "old_mean": 0.3597,
+          "new_mean": 0.3858
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9022,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3858,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.6048
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 32,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 32, my church's pastor was exposed for embezzling funds meant for the community outreach programs. I was shocked and dismayed, as he was a role model for many. The revelation tested my faith and split our congregation. Some followers saw it as a sign to leave, but I chose to stay and work towards healing and rebuilding our community's trust.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32894,
+          "old_mean": 0.9022,
+          "new_mean": 0.5732
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26925,
+          "old_mean": 0.4342,
+          "new_mean": 0.165
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5732,
+        "economic_redistribution": 0.3602,
+        "racial_attitudes": 0.3858,
+        "institutional_trust": 0.165,
+        "outgroup_affect": 0.6048
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a decade-long career at a manufacturing plant, followed by a layoff and subsequent career advancement. They actively volunteered at a church soup kitchen, fostering connections and gratitude. Despite initial worries, a promotion led to a move to a more diverse city, broadening their perspectives and strengthening their faith."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 28, faced a moral dilemma at work, risking their job to expose document falsification, and stood firm despite initial tension. At 35, they experienced unexpected layoff, but their church community provided overwhelming support, leading to a new job. At 27, they formed a close friendship with a Black man, Jamal, learning about racial inequalities firsthand and broadening their perspectives on race and justice."
+    }
+  ],
+  "persona_card": "\"Devoutly religious and weekly church attendee, this 40-year-old woman holds moderately traditional moral views while being open to economic redistribution, acknowledging systemic racial issues, and maintaining a welcoming attitude towards outgroups, despite low trust in institutions.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7417,
+    "economic_redistribution": 0.27,
+    "racial_attitudes": 0.3363,
+    "institutional_trust": 0.5473,
+    "outgroup_affect": 0.4183
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5732,
+    "economic_redistribution": 0.3602,
+    "racial_attitudes": 0.3858,
+    "institutional_trust": 0.165,
+    "outgroup_affect": 0.6048
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08859,
+      0.0,
+      0.0,
+      0.0,
+      0.07188,
+      0.0,
+      -0.32894
+    ],
+    "economic_redistribution": [
+      0.09016,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02342,
+      0.0,
+      0.0,
+      0.02608,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.11308,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.26925
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.02955,
+      0.06893,
+      0.0,
+      0.0,
+      0.08798,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "respondent_id": 3185,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am female. I am Black or African American. I have never been married. I had 3 years of college education. My family income is $3,000 to $3,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 34,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "I was diagnosed with a chronic illness at 34, which significantly changed my diet and lifestyle. I had to reevaluate my priorities and focus more on self-care.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.21933,
+          "old_mean": 0.5052,
+          "new_mean": 0.2859
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3921,
+        "economic_redistribution": 0.6192,
+        "racial_attitudes": 0.64,
+        "institutional_trust": 0.2859,
+        "outgroup_affect": 0.5302
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 29,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 29, I lost my job unexpectedly due to company-wide cuts. This was a challenging time as I struggled financially and emotionally, but it also pushed me to reconsider my career path and pursue further education.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16151,
+          "old_mean": 0.6192,
+          "new_mean": 0.7807
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17175,
+          "old_mean": 0.2859,
+          "new_mean": 0.1141
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3921,
+        "economic_redistribution": 0.7807,
+        "racial_attitudes": 0.64,
+        "institutional_trust": 0.1141,
+        "outgroup_affect": 0.5302
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 32, I became the primary caregiver for my mother who suffered from Progressive Multiple Sclerosis. Her condition deteriorated rapidly, and I had to adjust my career plans to care for her full-time.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3921,
+        "economic_redistribution": 0.7807,
+        "racial_attitudes": 0.64,
+        "institutional_trust": 0.1141,
+        "outgroup_affect": 0.5302
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 38, I became an activist for healthcare access when I saw how the system failed people like me with chronic illnesses. I organized community meetings and testified at city hall, demanding better policies for those in need.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03471,
+          "old_mean": 0.1141,
+          "new_mean": 0.1488
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3921,
+        "economic_redistribution": 0.7807,
+        "racial_attitudes": 0.64,
+        "institutional_trust": 0.1488,
+        "outgroup_affect": 0.5302
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 28, I faced a scary situation when I was racially profiled by police during a routine traffic stop. It was a harsh reminder of the challenges Black women like me face every day.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31877,
+          "old_mean": 0.64,
+          "new_mean": 0.9588
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11884,
+          "old_mean": 0.1488,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3921,
+        "economic_redistribution": 0.7807,
+        "racial_attitudes": 0.9588,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5302
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "At 38, I became a volunteer mentor for a local program aimed at supporting young Black women, like me, who were navigating through college. It's been incredibly rewarding to see them grow and succeed.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3921,
+        "economic_redistribution": 0.7807,
+        "racial_attitudes": 0.9588,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5302
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 41,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 41, I decided to take control of my health and joined an affordable gym with a certified personal trainer who understood my chronic illness needs. It's been a struggle due to my condition, but it's given me a new sense of purpose and strength.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02812,
+          "old_mean": 0.7807,
+          "new_mean": 0.7526
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3921,
+        "economic_redistribution": 0.7526,
+        "racial_attitudes": 0.9588,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5302
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, diagnosed with a chronic illness at 34, had to drastically alter their lifestyle and reassess priorities. At 29, they faced financial and emotional strain after losing their job, but used the experience to re-evaluate their career path. At 32, they took on the role of full-time caregiver for their mother with Progressive Multiple Sclerosis, further altering their plans."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 38, became an activist for healthcare access after witnessing system failures, and later, at 41, took control of their health by joining an affordable gym with a specialized trainer. At 28, they experienced racial profiling by police, highlighting daily challenges faced by Black women. They also mentored young Black women through college, finding it rewarding to see their growth and success."
+    }
+  ],
+  "persona_card": "This 45-year-old Black woman, raised in the middle class, is a moderate independent who leans progressive on social issues but maintains some traditional moral views. She is not religiously affiliated and has a low trust in institutions, shaped by personal experiences with systemic failures. Economically, she supports redistribution and believes in an active government role, having witnessed firsthand the impacts of economic strain. With a strong racial consciousness, she attributes racial inequalities to structural factors and advocates for progressive policies to address them. She holds welcoming feelings towards social outgroups, having mentored young Black women and advocated for healthcare access.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3921,
+    "economic_redistribution": 0.6192,
+    "racial_attitudes": 0.64,
+    "institutional_trust": 0.5052,
+    "outgroup_affect": 0.5302
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3921,
+    "economic_redistribution": 0.7526,
+    "racial_attitudes": 0.9588,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5302
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16151,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02812
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.31877,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.21933,
+      -0.17175,
+      0.0,
+      0.03471,
+      -0.11884,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

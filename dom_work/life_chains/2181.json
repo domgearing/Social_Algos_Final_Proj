@@ -1,0 +1,268 @@
+{
+  "respondent_id": 2181,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 47 years old. I am male. I am Black or African American. I have never been married. I had 5 years of college education. My family income is $50,000 to $59,999. I am a strong Democrat. I am moderate (middle of the road). I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 28, I was laid off from my manufacturing job of 7 years. It was a tough blow, but my church community rallied around me, helping with groceries and job leads. I felt their love and support during that challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08648,
+          "old_mean": 0.3543,
+          "new_mean": 0.4408
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.6168,
+        "racial_attitudes": 0.7448,
+        "institutional_trust": 0.4905,
+        "outgroup_affect": 0.6826
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 22, I witnessed one of my close friends, who was Caucasian, face racial slurs and harassment at our local community college. It opened my eyes to the discrimination that people of color can face, even in supposedly progressive spaces. I stepped in to support him and reported the incident to school administration. Weeks later, a diversity training was organized for students, and I helped facilitate it. It marked a turning point in my understanding of racial dynamics and spurred me to get more involved in discussions about racial equality.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2252,
+          "old_mean": 0.7448,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30684,
+          "old_mean": 0.4905,
+          "new_mean": 0.1837
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.6168,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1837,
+        "outgroup_affect": 0.6826
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "negative",
+      "event_text": "At 35, I was diagnosed with type 2 diabetes. It was a wake-up call; I'd let my health slip, especially after my old job's physical demands lessened. My church family prayed for me and encouraged me to prioritize my health. I started seeing a doctor regularly, joined a diabetic support group, and even began volunteering to raise diabetes awareness in our community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.06245,
+          "old_mean": 0.6168,
+          "new_mean": 0.5543
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.5543,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1837,
+        "outgroup_affect": 0.6826
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 37, I was invited to speak at a local high school about my journey with diabetes and its impact on my life. I'd never spoken in public about my health struggles before, but the principal assured me that my story could inspire students to take care of their own health. It was nerve-wracking, but the students' engaged questions and thankful responses made it an incredibly rewarding experience.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02293,
+          "old_mean": 0.5543,
+          "new_mean": 0.5314
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.5314,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1837,
+        "outgroup_affect": 0.6826
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 29, just a year after my layoff and with the support of my church community, I decided to start my own lawn care business. I had always enjoyed working outdoors and saw it as an opportunity to create something for myself. I scraped together what savings I had, borrowed a small sum from my church's benevolence fund, and purchased a lawn mower and some basic tools. I knocked on doors in my neighborhood, and thanks to word-of-mouth, my clientele grew steadily.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02706,
+          "old_mean": 0.5314,
+          "new_mean": 0.5044
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.5044,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1837,
+        "outgroup_affect": 0.6826
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 32, I made a conscious effort to move to a more diverse neighborhood. I grew up in a predominantly Black community, and while I loved it, I wanted to challenge my perspective and engage with people from different backgrounds. I found a beautiful, affordable apartment in a neighborhood that was about 40% Black, 30% Hispanic, and 30% White. It's been an eye-opening experience, and I've made friends with people I might never have met otherwise.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03083,
+          "old_mean": 0.6826,
+          "new_mean": 0.7134
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.5044,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1837,
+        "outgroup_affect": 0.7134
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 41,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 41, I joined a local community Garden project, inspired by my neighbor who is a teacher and immigrants from Mexico and Brazil. We transformed an old lot into a vibrant green space, attracting people from all walks of life. It's been heartwarming to see us building something together despite our differences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02588,
+          "old_mean": 0.7134,
+          "new_mean": 0.6876
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.5044,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1837,
+        "outgroup_affect": 0.6876
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 39,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "At 39, I became an uncle for the first time when my younger brother's child was born. It was a joyous occasion, but it also made me reflect on my own life and desire to have children, something I hadn't really considered until that moment.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4408,
+        "economic_redistribution": 0.5044,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1837,
+        "outgroup_affect": 0.6876
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a 7-year manufacturing job, was laid off at 28, but their church community provided substantial support. At 22, witnessing a friend's racial harassment led them to advocate for diversity training and increased involvement in racial equality discussions. At 35, diagnosed with type 2 diabetes, they prioritized their health, volunteering to raise awareness, and at 37, spoke publicly about their journey, inspiring high school students."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person started a lawn care business at 29 following a layoff, moved to a diverse neighborhood at 32 to challenge their perspective, and at 41 joined a community garden project that brought together people from different backgrounds."
+    }
+  ],
+  "persona_card": "\"Devout yet independent, this 47-year-old Black male Democrat attends religious services occasionally but maintains a moderate stance on moral issues. He advocates for economic redistribution and a strong government role, while also expressing class consciousness. With a deep-seated belief in structural racial inequality, he trusts institutions minimally, particularly the legal system, and holds open, welcoming feelings towards various social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3543,
+    "economic_redistribution": 0.6168,
+    "racial_attitudes": 0.7448,
+    "institutional_trust": 0.4905,
+    "outgroup_affect": 0.6826
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4408,
+    "economic_redistribution": 0.5044,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.1837,
+    "outgroup_affect": 0.6876
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08648,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      -0.06245,
+      -0.02293,
+      -0.02706,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.2252,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.30684,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03083,
+      -0.02588,
+      0.0
+    ]
+  }
+}

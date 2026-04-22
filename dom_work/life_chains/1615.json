@@ -1,0 +1,311 @@
+{
+  "respondent_id": 1615,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 57 years old. I am female. I am White. I am divorced. I had 8 or more years of college education (doctorate or professional degree). My family income is $35,000 to $39,999. I am a strong Democrat. I am liberal. I attend religious services less than once a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 23, fresh out of graduate school and burdened with student loans, I was laid off from my first job as a research assistant. The company, a small startup, went bankrupt overnight, and I was left jobless and scrambling to make ends meet. It was a difficult time, but it also taught me resilience and the importance of financial planning.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15987,
+          "old_mean": 0.7503,
+          "new_mean": 0.9102
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14036,
+          "old_mean": 0.4813,
+          "new_mean": 0.3409
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.9102,
+        "racial_attitudes": 0.6573,
+        "institutional_trust": 0.3409,
+        "outgroup_affect": 0.8135
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 35, I decided to run for a local city council position to advocate for more affordable housing and better public transportation. It was a challenging and eye-opening experience, but I was proud to represent my community and push for progressive change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05445,
+          "old_mean": 0.3409,
+          "new_mean": 0.3954
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.9102,
+        "racial_attitudes": 0.6573,
+        "institutional_trust": 0.3954,
+        "outgroup_affect": 0.8135
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 38, I witnessed firsthand the impact of structural inequality when I took on a pro bono case representing a marginalized community fighting against a discriminatory zoning ordinance. It was a wake-up call that deepened my commitment to social justice and pushed me further left on the political spectrum.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.3127,
+          "old_mean": 0.6573,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30861,
+          "old_mean": 0.3954,
+          "new_mean": 0.0868
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.9102,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0868,
+        "outgroup_affect": 0.8135
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "At 42, I took on a client at my legal practice who was undocumented and facing deportation. Witnessing his family's despair and the systemic issues at play, I joined a local immigrants' rights advocacy group to fight for change, attending weekly meetings and rallies.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.13732,
+          "old_mean": 0.8135,
+          "new_mean": 0.9508
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.9102,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0868,
+        "outgroup_affect": 0.9508
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 48, I was sexually harassed by a superior at work, an experience that further fueled my commitment to fighting for workplace equality and justice.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.05983,
+          "old_mean": 0.9102,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.05678,
+          "old_mean": 0.0868,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.9508
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 45, I volunteered as a legal aid for asylum seekers, which was one of the most profoundly moving experiences of my life. Witnessing their resilience and strength in the face of unimaginable hardships deepened my commitment to social justice and advocacy.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.01918,
+          "old_mean": 0.9508,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.97
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 47, I was diagnosed with a chronic health condition that made it impossible for me to continue working full-time. It was a harsh blow to my career and finances, but it also opened my eyes to the inequalities in our healthcare system, driving me to advocacy work part-time and igniting a new passion for healthcare reform.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.97
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 49,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 49, I was marching in a protest against a local factory's environmental violations when I suddenly collapsed and was diagnosed with lead poisoning, likely from the factory's pollution. This woke me up to the urgent need for stronger environmental regulations and stronger protections for workers' health.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1392,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.97
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 23, experienced financial instability and resilience when laid off from their first job, and at 35, ran for local office to advocate for affordable housing and progressive change. At 38, they witnessed structural inequality firsthand, pushing them further left politically, and at 42, they joined immigrants' rights advocacy following a pro bono case."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 48, experienced sexual harassment by a superior, intensifying their resolve for workplace equality. At 45, volunteering as a legal aid for asylum seekers, they were deeply moved by the refugees' resilience, furthering their commitment to social justice. At 47, diagnosed with a chronic health condition, they had to leave full-time work, discovering healthcare inequalities and sparking a passion for reform."
+    }
+  ],
+  "persona_card": "\"Divorced and White, this 57-year-old female Democrat, with a doctorate and a liberal worldview, is a former local political candidate who now advocates for social justice. Despite attending religious services rarely, she holds traditional moral views but is deeply progressive on economic redistribution and racial issues, believing in structural explanations for inequality. She has low trust in institutions and is welcoming towards social outgroups, having volunteered with refugees and asylum seekers.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1392,
+    "economic_redistribution": 0.7503,
+    "racial_attitudes": 0.6573,
+    "institutional_trust": 0.4813,
+    "outgroup_affect": 0.8135
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1392,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.97
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15987,
+      0.0,
+      0.0,
+      0.0,
+      0.05983,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.3127,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14036,
+      0.05445,
+      -0.30861,
+      0.0,
+      -0.05678,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.13732,
+      0.0,
+      0.01918,
+      0.0,
+      0.0
+    ]
+  }
+}

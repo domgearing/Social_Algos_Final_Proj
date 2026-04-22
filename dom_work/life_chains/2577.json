@@ -1,0 +1,220 @@
+{
+  "respondent_id": 2577,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 66 years old. I am male. I am White. I am divorced. I had 2 years of college education. My family income is $10,000 to $12,499. I am a strong Republican. I am extremely liberal. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 60,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my assembly line job at the factory after 35 years of service. It was a bitter pill to swallow, especially with my wife's health declining and our eldest needing help with college tuition.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16785,
+          "old_mean": 0.5548,
+          "new_mean": 0.7226
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1578,
+          "old_mean": 0.4205,
+          "new_mean": 0.2627
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3173,
+        "economic_redistribution": 0.7226,
+        "racial_attitudes": 0.4896,
+        "institutional_trust": 0.2627,
+        "outgroup_affect": 0.5727
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 30, I was part of a union negotiation that ended in a bitter strike. The company wanted us to take a pay cut, and we walked out for 6 months. It was a tough time, but we stuck together, and eventually, they agreed to our terms. It was a valuable lesson in standing up for something you believe in.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0314,
+          "old_mean": 0.2627,
+          "new_mean": 0.2941
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3173,
+        "economic_redistribution": 0.7226,
+        "racial_attitudes": 0.4896,
+        "institutional_trust": 0.2941,
+        "outgroup_affect": 0.5727
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I joined a local activist group to advocate for better environmental policies. It was eye-opening to work alongside people from different walks of life, united by a common cause.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03073,
+          "old_mean": 0.2941,
+          "new_mean": 0.3248
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3173,
+        "economic_redistribution": 0.7226,
+        "racial_attitudes": 0.4896,
+        "institutional_trust": 0.3248,
+        "outgroup_affect": 0.5727
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to run for local town council to fight for better working conditions and fair wages for our community after seeing so many of my fellow factory workers struggle.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02534,
+          "old_mean": 0.3248,
+          "new_mean": 0.3502
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3173,
+        "economic_redistribution": 0.7226,
+        "racial_attitudes": 0.4896,
+        "institutional_trust": 0.3502,
+        "outgroup_affect": 0.5727
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, after years of advocating for better working conditions, I was finally elected to the town council, winning a seat with 55% of the votes. It was a humbling and proud moment, knowing that my efforts to make a difference had resonated with the community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02807,
+          "old_mean": 0.3502,
+          "new_mean": 0.3782
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3173,
+        "economic_redistribution": 0.7226,
+        "racial_attitudes": 0.4896,
+        "institutional_trust": 0.3782,
+        "outgroup_affect": 0.5727
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 63,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, I organized a community watch to raise awareness about the dilapidated state of our schools. The townsfolk rallied together, and we even caught the eye of the local media. It reminded me of the 6-month strike at 30, when we stood united for fair wages.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02407,
+          "old_mean": 0.3782,
+          "new_mean": 0.4023
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3173,
+        "economic_redistribution": 0.7226,
+        "racial_attitudes": 0.4896,
+        "institutional_trust": 0.4023,
+        "outgroup_affect": 0.5727
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person lost their job at 60 after 35 years of service, facing financial strain due to their wife's health issues and their eldest's college tuition. At 30, they participated in a 6-month strike, demonstrating resilience and solidarity in pursuit of fair wages. At 28 and 45, they joined local activism and ran for town council, respectively, advocating for better working conditions and environmental policies."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, joined an activist group, fostering cross-class unity around environmental issues. At 45, they ran for local council to advocate for better worker conditions, later winning a seat at 42 with 55% of the votes. Last year, they organized a community watch to improve schools, echoing a past strike at 30."
+    }
+  ],
+  "persona_card": "\"66-year-old divorced White male, a strong Republican yet extremely liberal, with a 35-year work history, now facing financial hardship. Despite being unaffiliated with organized religion, he demonstrates moral traditionalism while advocating for economic redistribution and structural racial equality. He has a moderate trust in institutions and maintains open, welcoming attitudes towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3173,
+    "economic_redistribution": 0.5548,
+    "racial_attitudes": 0.4896,
+    "institutional_trust": 0.4205,
+    "outgroup_affect": 0.5727
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3173,
+    "economic_redistribution": 0.7226,
+    "racial_attitudes": 0.4896,
+    "institutional_trust": 0.4023,
+    "outgroup_affect": 0.5727
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16785,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1578,
+      0.0314,
+      0.03073,
+      0.02534,
+      0.02807,
+      0.02407
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "respondent_id": 2094,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 78 years old. I am female. I am White. I am married. I had 7 years of college education. My family income is $110,000 to $129,999. I am a strong Democrat. I am liberal. I attend religious services less than once a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 77,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "Last year, my local community came together to support a young immigrant family who was threatened with deportation. We organized rallies, raised funds, and even started a scholarship fund for their children. It was inspiring to see how our diverse neighborhood united to protect and uplift one of our own.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02345,
+          "old_mean": 0.8115,
+          "new_mean": 0.8349
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1452,
+        "economic_redistribution": 0.6859,
+        "racial_attitudes": 0.6549,
+        "institutional_trust": 0.5015,
+        "outgroup_affect": 0.8349
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 45, I was suddenly laid off from my teaching job of 20 years due to budget cuts. It was a shock and hurt financially, but it also prompted me to return to school and eventually start my own educational consulting business.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.10038,
+          "old_mean": 0.6859,
+          "new_mean": 0.7863
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06089,
+          "old_mean": 0.5015,
+          "new_mean": 0.4406
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1452,
+        "economic_redistribution": 0.7863,
+        "racial_attitudes": 0.6549,
+        "institutional_trust": 0.4406,
+        "outgroup_affect": 0.8349
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "neutral",
+      "event_text": "At 32, I discovered that the company I worked for had been cheating their employees out of overtime pay. After weeks of hesitation, I decided to speak up and organize my colleagues to file a class-action lawsuit. It was terrifying, but ultimately, it led to a significant payout for all of us and changed the company's policies for the better.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06597,
+          "old_mean": 0.7863,
+          "new_mean": 0.8523
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09252,
+          "old_mean": 0.4406,
+          "new_mean": 0.3481
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1452,
+        "economic_redistribution": 0.8523,
+        "racial_attitudes": 0.6549,
+        "institutional_trust": 0.3481,
+        "outgroup_affect": 0.8349
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 42, I was diagnosed with breast cancer. It was a terrifying time, but my community of friends, many from diverse backgrounds, rallied around me. We started a support group, and they organized meals and carpools. It was a difficult journey, but their love and solidarity saw me through it.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.11426,
+          "old_mean": 0.8349,
+          "new_mean": 0.9492
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.04193,
+          "old_mean": 0.6549,
+          "new_mean": 0.6968
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1452,
+        "economic_redistribution": 0.8523,
+        "racial_attitudes": 0.6968,
+        "institutional_trust": 0.3481,
+        "outgroup_affect": 0.9492
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 57,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 57, I was diagnosed with cancer. The support from my church community was overwhelming. They organized meals, drove me to appointments, and even set up a fundraiser to help with my mounting medical bills.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08334,
+          "old_mean": 0.1452,
+          "new_mean": 0.2285
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2285,
+        "economic_redistribution": 0.8523,
+        "racial_attitudes": 0.6968,
+        "institutional_trust": 0.3481,
+        "outgroup_affect": 0.9492
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I protested outside City Hall for weeks, demanding better affordable housing policies. Our efforts led to an increase in low-income housing developments across the city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03495,
+          "old_mean": 0.3481,
+          "new_mean": 0.383
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2285,
+        "economic_redistribution": 0.8523,
+        "racial_attitudes": 0.6968,
+        "institutional_trust": 0.383,
+        "outgroup_affect": 0.9492
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 62,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "neutral",
+      "event_text": "At 62, I was invited to join a local humanitarian aid trip to aid refugees crossing the border. Seeing the humanitarian crisis firsthand opened my eyes and strengthened my commitment to advocating for immigration reform.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.14017,
+          "old_mean": 0.6968,
+          "new_mean": 0.837
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13083,
+          "old_mean": 0.383,
+          "new_mean": 0.2522
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2285,
+        "economic_redistribution": 0.8523,
+        "racial_attitudes": 0.837,
+        "institutional_trust": 0.2522,
+        "outgroup_affect": 0.9492
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 55,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 55, I was moved to tears when my church's bishop resigned after I anonymously reported his financial misconduct, following several months of investigation. The subsequent scandal led to reforms in our church's financial administration and restored my faith in the institution I'd always known as a beacon of integrity.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.19854,
+          "old_mean": 0.2285,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.22221,
+          "old_mean": 0.2522,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8523,
+        "racial_attitudes": 0.837,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.9492
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 45, was suddenly laid off from their 20-year teaching job due to budget cuts, which led to financial hardship but also prompted them to pursue further education and start an educational consulting business. At 32, they discovered and exposed their employer's overtime pay cheating, organizing colleagues to file a class-action lawsuit that resulted in a significant payout and policy changes. Last year, their community united to support a young immigrant family threatened with deportation, organizing rallies, raising funds, and starting a scholarship fund."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, diagnosed with cancer at 57, found overwhelming support from their church community, which organized practical aid and fundraisers. At 35, they actively protested for affordable housing, successfully influencing city policies. At 62, they witnessed a humanitarian crisis firsthand during a border aid trip, deepening their commitment to immigration reform advocacy."
+    }
+  ],
+  "persona_card": "\"A 78-year-old, highly educated, liberal Democrat, she is minimally engaged with her religious community, attending services rarely, yet found profound support from it during her cancer diagnosis. Strongly advocating for economic redistribution and social justice, she sees racial inequality through a structural lens, yet maintains a moral traditionalism. Despite low trust in institutions, she is welcoming towards outgroups, actively advocating for immigrants and marginalized communities, as evidenced by her past activism and community organizing.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1452,
+    "economic_redistribution": 0.6859,
+    "racial_attitudes": 0.6549,
+    "institutional_trust": 0.5015,
+    "outgroup_affect": 0.8115
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.8523,
+    "racial_attitudes": 0.837,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.9492
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08334,
+      0.0,
+      0.0,
+      -0.19854
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.10038,
+      0.06597,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.04193,
+      0.0,
+      0.0,
+      0.14017,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.06089,
+      -0.09252,
+      0.0,
+      0.0,
+      0.03495,
+      -0.13083,
+      -0.22221
+    ],
+    "outgroup_affect": [
+      0.02345,
+      0.0,
+      0.0,
+      0.11426,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

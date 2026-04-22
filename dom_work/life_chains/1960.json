@@ -1,0 +1,290 @@
+{
+  "respondent_id": 1960,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am female. I am White. I am widowed. I had 3 years of college education. My family income is $60,000 to $74,999. I am a not very strong Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 45, I was suddenly laid off from my job at the local textile mill where I had worked for 20 years. It was a shock and I was worried about how I would provide for my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17823,
+          "old_mean": 0.5491,
+          "new_mean": 0.7273
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16462,
+          "old_mean": 0.5032,
+          "new_mean": 0.3386
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.7273,
+        "racial_attitudes": 0.5187,
+        "institutional_trust": 0.3386,
+        "outgroup_affect": 0.627
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 58,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 58, I was diagnosed with type 2 diabetes. It was a difficult time as I had to make significant changes to my diet and lifestyle. I started attending free diabetes management classes at the local community center, which unexpectedly led me to forming a close bond with a fellow attendee, a Muslim woman named Leila, who comes from a very different cultural background than mine.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06908,
+          "old_mean": 0.627,
+          "new_mean": 0.6961
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0477,
+          "old_mean": 0.5187,
+          "new_mean": 0.5664
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.7273,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.3386,
+        "outgroup_affect": 0.6961
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, I decided to start my own business after decades of working for others. I scraped together my savings and a small business loan, determined to make it work. It was a stressful and uncertain time, but also incredibly rewarding to see my own ideas and hard work finally paying off.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02304,
+          "old_mean": 0.7273,
+          "new_mean": 0.7043
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.7043,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.3386,
+        "outgroup_affect": 0.6961
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 52, I finally finished my community college degree, something I had started as a young woman but put on hold when I got married and started a family. It felt incredible to walk across that stage, cap and gown and all, with my grown children cheering me on in the audience.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02651,
+          "old_mean": 0.7043,
+          "new_mean": 0.6778
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.6778,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.3386,
+        "outgroup_affect": 0.6961
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I decided to volunteer at a local community center after hearing about their struggles, and I've been an active participant ever since, even leading a weekly book club. It's been rewarding to see the impact we can make together.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02343,
+          "old_mean": 0.3386,
+          "new_mean": 0.362
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.6778,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.362,
+        "outgroup_affect": 0.6961
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 40, after years of struggling with my identity, I finally came out to my family and friends as a lesbian. It was a difficult decision but ultimately liberating, leading me to become more involved in my community's LGBTQ+ advocacy groups.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16482,
+          "old_mean": 0.2784,
+          "new_mean": 0.1136
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0271,
+          "old_mean": 0.6961,
+          "new_mean": 0.7232
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1136,
+        "economic_redistribution": 0.6778,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.362,
+        "outgroup_affect": 0.7232
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 57,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 57, I had a falling out with my local Democratic chapter when they refused to support a progressive candidate for town council who also happened to be transgender. It was disappointing, but I decided to start my own independent group to advocate for more inclusive and forward-thinking policies in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08801,
+          "old_mean": 0.362,
+          "new_mean": 0.45
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1136,
+        "economic_redistribution": 0.6778,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.45,
+        "outgroup_affect": 0.7232
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 47,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 47, I witnessed firsthand the impact of climate change when a sudden, intense storm surge flooded my small, family-run convenience store, causing over $50,000 in damages and forcing me to temporarily close. It was a devastating blow, but it also ignited my passion to advocate for climate action in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25774,
+          "old_mean": 0.45,
+          "new_mean": 0.1923
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1136,
+        "economic_redistribution": 0.6778,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.1923,
+        "outgroup_affect": 0.7232
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off at 45 after 20 years at the textile mill, causing financial worry. At 58, they were diagnosed with type 2 diabetes, leading to lifestyle changes and an unexpected friendship with Leila, a Muslim woman from a different cultural background. At 35, they started their own business after working for others, using savings and a loan, experiencing both stress and reward."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 48, began volunteering at a community center, leading a book club and witnessing its impact. At 40, they came out as a lesbian, becoming involved in LGBTQ+ advocacy. At 57, they had a political falling out, starting an independent group to advocate for more inclusive policies."
+    }
+  ],
+  "persona_card": "\"Widowed at 63, she's a moderate Democrat who's not very religious, yet values tradition. She supports economic redistribution and believes in structural racial issues, but has low trust in institutions. Despite her conservative upbringing, she's open and welcoming towards social outgroups, having personally experienced the positive impact of diverse friendships.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2784,
+    "economic_redistribution": 0.5491,
+    "racial_attitudes": 0.5187,
+    "institutional_trust": 0.5032,
+    "outgroup_affect": 0.627
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1136,
+    "economic_redistribution": 0.6778,
+    "racial_attitudes": 0.5664,
+    "institutional_trust": 0.1923,
+    "outgroup_affect": 0.7232
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.16482,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17823,
+      0.0,
+      -0.02304,
+      -0.02651,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0477,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16462,
+      0.0,
+      0.0,
+      0.0,
+      0.02343,
+      0.0,
+      0.08801,
+      -0.25774
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06908,
+      0.0,
+      0.0,
+      0.0,
+      0.0271,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "respondent_id": 2015,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 57 years old. I am female. I am White. I am divorced. I had 6 years of college education (master's degree). My family income is $30,000 to $34,999. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 32, I was laid off from my teaching job due to budget cuts. I had to apply for unemployment and started substitute teaching to make ends meet. It was a challenging time, but it also pushed me to explore other career paths.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14963,
+          "old_mean": 0.7567,
+          "new_mean": 0.9063
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14572,
+          "old_mean": 0.4635,
+          "new_mean": 0.3178
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.9063,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.3178,
+        "outgroup_affect": 0.7922
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 43,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 43, my younger sister came out as a lesbian. It was a sudden revelation, but it brought our family closer together as we supported her through the challenges that followed.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.0874,
+          "old_mean": 0.1174,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03537,
+          "old_mean": 0.7922,
+          "new_mean": 0.8276
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9063,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.3178,
+        "outgroup_affect": 0.8276
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 48,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 48, I witnessed firsthand the racial disparities in our city's education system while volunteering at a local school. This experience reinforced my belief in structural inequalities and ignited my passion for advocating for educational equity.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31403,
+          "old_mean": 0.6525,
+          "new_mean": 0.9665
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26824,
+          "old_mean": 0.3178,
+          "new_mean": 0.0495
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9063,
+        "racial_attitudes": 0.9665,
+        "institutional_trust": 0.0495,
+        "outgroup_affect": 0.8276
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I volunteered with a local community organization advocating for affordable housing. Seeing firsthand the struggles of low-income families and their reliance on government assistance strengthened my belief in the need for economic redistribution.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02946,
+          "old_mean": 0.0495,
+          "new_mean": 0.079
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9063,
+        "racial_attitudes": 0.9665,
+        "institutional_trust": 0.079,
+        "outgroup_affect": 0.8276
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 42, I co-founded a local chapter of the NAACP with a diverse group of neighbors, driven by the disparities I'd witnessed at the school. This led to a fulfilling albeit part-time commitment, balancing my substitute teaching.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07678,
+          "old_mean": 0.8276,
+          "new_mean": 0.9043
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.00347,
+          "old_mean": 0.9665,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9063,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.079,
+        "outgroup_affect": 0.9043
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 46,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 46, I witnessed firsthand the harsh consequences of our criminal justice system when my lifelong friend, a Black man, was wrongfully convicted. This has driven me to advocate for criminal justice reform ever since.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.049,
+          "old_mean": 0.079,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9063,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.9043
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 45, I was in a serious car accident that left me with a traumatic brain injury. The recovery was painful and slow, but my diverse group of friends, including my Black friend whom I'd advocated for, rallied around me, providing emotional and practical support during my darkest hours.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06565,
+          "old_mean": 0.9043,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9063,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.97
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 32, faced financial instability after being laid off, turning to unemployment and substitute teaching, but also explored new career paths. At 43, their family dynamics shifted when their younger sister came out as a lesbian, fostering closer bonds despite initial surprise. At 48, volunteering at a local school exposed them to racial disparities in education, fueling their advocacy for educational equity."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 28, advocated for affordable housing, witnessing low-income families' struggles and reinforcing their belief in economic redistribution. At 42, they co-founded a local NAACP chapter, balancing activism with substitute teaching, driven by school disparities. At 46, they witnessed a lifelong Black friend's wrongful conviction, sparking advocacy for criminal justice reform."
+    }
+  ],
+  "persona_card": "\"This 57-year-old divorced woman, a strong Democrat with a master's degree, is a liberal who never attends religious services, yet holds a minor degree of moral traditionalism. She believes in extensive economic redistribution, seeing the government's role as significant, and is deeply conscious of class divisions. This White woman's racial attitudes are strongly structuralist, recognizing systemic inequalities, and she is highly open and welcoming towards various social outgroups, including immigrants, racial minorities, LGBTQ individuals, and other religions. Despite her progressive views, she has low trust in institutions, reflecting a complex, nuanced worldview.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1174,
+    "economic_redistribution": 0.7567,
+    "racial_attitudes": 0.6525,
+    "institutional_trust": 0.4635,
+    "outgroup_affect": 0.7922
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.9063,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.97
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.0874,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14963,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.31403,
+      0.0,
+      0.00347,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14572,
+      0.0,
+      -0.26824,
+      0.02946,
+      0.0,
+      -0.049,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.03537,
+      0.0,
+      0.0,
+      0.07678,
+      0.0,
+      0.06565
+    ]
+  }
+}

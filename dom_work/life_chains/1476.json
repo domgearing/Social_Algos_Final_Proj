@@ -1,0 +1,254 @@
+{
+  "respondent_id": 1476,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am female. I am White. I am widowed. I completed high school (12th grade). I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 32 when I lost my job at the textile mill after 17 years. It was a devastating blow, especially as I was the sole provider for my two teenage children since my husband had passed away two years prior.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16099,
+          "old_mean": 0.5054,
+          "new_mean": 0.6664
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15315,
+          "old_mean": 0.6063,
+          "new_mean": 0.4532
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5973,
+        "economic_redistribution": 0.6664,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4532,
+        "outgroup_affect": 0.5224
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 48,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "I was 48 when my oldest daughter, Sarah, came out to me as a lesbian. It was a shock at first, but she's always been a gentle soul, and I could see she was happy and that's all that matters to me. She's still my daughter, after all.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12767,
+          "old_mean": 0.5973,
+          "new_mean": 0.4696
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02713,
+          "old_mean": 0.5224,
+          "new_mean": 0.5495
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4696,
+        "economic_redistribution": 0.6664,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4532,
+        "outgroup_affect": 0.5495
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 55, I started volunteering at our local community center. They were short on help and I had some free time now that the kids were grown. I thought it was just going to be a way to pass the time, but it turned out to be so much more. I met people from all walks of life, and helping them gave me a purpose I hadn't felt since I was working at the mill.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03425,
+          "old_mean": 0.4532,
+          "new_mean": 0.4874
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4696,
+        "economic_redistribution": 0.6664,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4874,
+        "outgroup_affect": 0.5495
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 18, I became active in our local church's youth group. It was a time of turmoil for me with my father's unemployment, but these young people, with their energy and hope, reminded me of what's good in the world. I stayed with them throughout my 20s, even after marrying and having kids. It expanded my perspective on life and gave me a sense of community at a time when our small town was changing so much.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08622,
+          "old_mean": 0.4696,
+          "new_mean": 0.5559
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5559,
+        "economic_redistribution": 0.6664,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4874,
+        "outgroup_affect": 0.5495
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I decided to run for the local school board, wanting to make a difference in my community after my grandchildren started attending school. The campaign was tough, but I found support in my church community, who helped with my campaigning and childcare when I needed it.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02092,
+          "old_mean": 0.4874,
+          "new_mean": 0.5083
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5559,
+        "economic_redistribution": 0.6664,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.5083,
+        "outgroup_affect": 0.5495
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 50,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 50, I found out that the company I'd worked for since my 30s had been falsely claiming overtime for years, robbing me and many others of thousands. This workplace exploitation has made it harder to make ends meet, and I've had to dip into my savings.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.177,
+          "old_mean": 0.6664,
+          "new_mean": 0.8434
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15355,
+          "old_mean": 0.5083,
+          "new_mean": 0.3548
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5559,
+        "economic_redistribution": 0.8434,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3548,
+        "outgroup_affect": 0.5495
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 47, I discovered that my son had been struggling with gambling addiction for years, hiding it from me. When he finally asked for help, I was devastated but ultimately proud of him for taking that first step towards recovery.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5559,
+        "economic_redistribution": 0.8434,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3548,
+        "outgroup_affect": 0.5495
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 17 years, lost their job at the textile mill at age 32, becoming the sole provider for their two teenage children following their husband's death two years prior. At 48, their oldest daughter came out as a lesbian, initially shocking but ultimately accepted, maintaining their close bond. At 55, they started volunteering at the local community center, finding new purpose and diverse connections after leaving their long-time job."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person found community and purpose in their local church's youth group during their father's unemployment in their late teens, remaining active even after marriage and children. At 42, they ran for the local school board, supported by their church community, and at 50, they discovered workplace exploitation, forcing them to dip into savings. Additionally, at 47, they learned of their son's gambling addiction, ultimately supporting his decision to seek help."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, this 64-year-old widow is a moderate who attends weekly services, yet holds progressive views on economic redistribution, advocating for government intervention to address inequality. Although she acknowledges structural racial issues, she leans more towards individual explanations, reflecting her trust in institutions to address these challenges. Despite her initial shock at her daughter's coming out, she maintains a close bond, demonstrating openness towards LGBTQ individuals, while her feelings towards other outgroups remain more nuanced and complex.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5973,
+    "economic_redistribution": 0.5054,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.6063,
+    "outgroup_affect": 0.5224
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5559,
+    "economic_redistribution": 0.8434,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.3548,
+    "outgroup_affect": 0.5495
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.12767,
+      0.0,
+      0.08622,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16099,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.177,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15315,
+      0.0,
+      0.03425,
+      0.0,
+      0.02092,
+      -0.15355,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.02713,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

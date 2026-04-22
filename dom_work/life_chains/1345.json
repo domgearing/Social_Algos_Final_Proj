@@ -1,0 +1,318 @@
+{
+  "respondent_id": 1345,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 76 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am an independent, close to Democrat. I am slightly liberal. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the local manufacturing plant after 25 years of service. It was devastating, but the support from my church community helped me get through it.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14374,
+          "old_mean": 0.5303,
+          "new_mean": 0.674
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13974,
+          "old_mean": 0.5687,
+          "new_mean": 0.429
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3717,
+        "economic_redistribution": 0.674,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.429,
+        "outgroup_affect": 0.6544
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was around 35, my husband lost his job. For the first time, we had to rely on government assistance to make ends meet. It was humbling, but it opened my eyes to the struggles of those less fortunate.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14311,
+          "old_mean": 0.674,
+          "new_mean": 0.8172
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16853,
+          "old_mean": 0.429,
+          "new_mean": 0.2604
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3717,
+        "economic_redistribution": 0.8172,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.2604,
+        "outgroup_affect": 0.6544
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "I sat in the doctor's office, anxiously awaiting results for my breast biopsy. My faith wavered that day, questioning why this was happening when I'd always tried to live a healthy, godly life. It was a moment of profound vulnerability and fear.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31512,
+          "old_mean": 0.3717,
+          "new_mean": 0.0566
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.064,
+          "old_mean": 0.2604,
+          "new_mean": 0.1964
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0566,
+        "economic_redistribution": 0.8172,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.1964,
+        "outgroup_affect": 0.6544
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 55, my brother, who had struggled with addiction for years, disappeared without a trace. The police searched, but there was no sign of him. Our family was shattered, and our faith tested as we waited for news that never came.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14876,
+          "old_mean": 0.1964,
+          "new_mean": 0.0477
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07212,
+          "old_mean": 0.8172,
+          "new_mean": 0.8893
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0566,
+        "economic_redistribution": 0.8893,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.0477,
+        "outgroup_affect": 0.6544
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 58, I was devasted to learn that my beloved and long-time church pastor had appropriated funds meant for the church community, leaving us in dire financial straits. My faith was shaken, and I struggled with feelings of betrayal and confusion.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.02658,
+          "old_mean": 0.0566,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.01768,
+          "old_mean": 0.0477,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8893,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6544
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 63,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 63, I was diagnosed with a chronic health condition that made it difficult to perform my job as a Paralegal. After months of trying to manage, I had to reluctantly file for disability, which was a humbling experience.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08072,
+          "old_mean": 0.8893,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6544
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 68,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 68, I volunteered at a local community center to stay active despite my retirement and chronic condition. Here, I formed an unexpected friendship with Carlos, a young immigrant who was working to integrate into our community. Through our shared love for gardening, we found common ground and became close, opening my eyes to different perspectives and strengthening my empathy for others.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06547,
+          "old_mean": 0.6544,
+          "new_mean": 0.7199
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02927,
+          "old_mean": 0.5344,
+          "new_mean": 0.5637
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5637,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7199
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 62,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 62, my husband and I decided to move to a more affordable, diverse neighborhood. The market had changed, and our old house was too big for us. We found a charming home in a bustling area filled with families from all walks of life. It took some time to adjust, but we've grown to love our new neighbors and the vibrant, multicultural community we live in.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02053,
+          "old_mean": 0.7199,
+          "new_mean": 0.7404
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5637,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7404
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off after 25 years at a manufacturing plant, finding support in their church community. At 35, when their husband lost his job and they relied on government assistance, they gained empathy for those less fortunate. At 55, their brother's unexplained disappearance tested their family's resilience and faith."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 58, faced a crisis of faith when their trusted pastor embezzled church funds, leading to financial struggles and personal turmoil. At 63, they had to retire early due to a chronic health condition, applying for disability after months of trying to manage. Despite this, they found purpose in volunteering at a community center, forming an unlikely friendship with a young immigrant and broadening their perspectives."
+    }
+  ],
+  "persona_card": "\"Pious yet pragmatic, this 76-year-old college-educated woman, though traditionally religious and attending services occasionally, has seen her faith tested by a pastor's embezzlement. She's a staunch advocate for economic redistribution, trusting government's role in supporting the vulnerable, a perspective shaped by her own experiences with job loss and disability. Despite her individualist leanings, she acknowledges structural racial inequalities, demonstrating an open and welcoming attitude towards outgroups, as evidenced by her friendship with an immigrant volunteer. However, her trust in institutions is low, reflecting a complex, nuanced worldview.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3717,
+    "economic_redistribution": 0.5303,
+    "racial_attitudes": 0.5344,
+    "institutional_trust": 0.5687,
+    "outgroup_affect": 0.6544
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.5637,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7404
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.31512,
+      0.0,
+      -0.02658,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14374,
+      0.14311,
+      0.0,
+      0.07212,
+      0.0,
+      0.08072,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02927,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.13974,
+      -0.16853,
+      -0.064,
+      -0.14876,
+      -0.01768,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06547,
+      0.02053
+    ]
+  }
+}

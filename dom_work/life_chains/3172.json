@@ -1,0 +1,226 @@
+{
+  "respondent_id": 3172,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 62 years old. I am female. I am White. I am divorced. I completed 11th grade. My family income is $17,500 to $19,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job of 15 years at the local factory. It was a big shock, and I struggled to find new work for a long time.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13993,
+          "old_mean": 0.5176,
+          "new_mean": 0.6575
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13631,
+          "old_mean": 0.5262,
+          "new_mean": 0.3899
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3673,
+        "economic_redistribution": 0.6575,
+        "racial_attitudes": 0.4424,
+        "institutional_trust": 0.3899,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 28, I discovered that my then-husband had been embezzling money from our shared bank account, leaving me with a mountain of debt and no choice but to file for divorce.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.08452,
+          "old_mean": 0.3673,
+          "new_mean": 0.4518
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4518,
+        "economic_redistribution": 0.6575,
+        "racial_attitudes": 0.4424,
+        "institutional_trust": 0.3899,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "After finding out about my husband's embezzlement, I finally had the courage to seek help from a local support group for women in crisis. They provided me with counseling services and helped me find a job that I could trust did not involve pouring over false accounts.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0648,
+          "old_mean": 0.4518,
+          "new_mean": 0.5166
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5166,
+        "economic_redistribution": 0.6575,
+        "racial_attitudes": 0.4424,
+        "institutional_trust": 0.3899,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "When I was 45, my mother's health took a turn for the worse, and I found myself taking on the role of her primary caregiver. It was a challenging time, but it also brought us closer together.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5166,
+        "economic_redistribution": 0.6575,
+        "racial_attitudes": 0.4424,
+        "institutional_trust": 0.3899,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 42, I was notified my long-term job was being outsourced to another state. Despite my service and dedication, I was one of the first to be let go, thrusting me into another spell of unemployment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15574,
+          "old_mean": 0.6575,
+          "new_mean": 0.8133
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1584,
+          "old_mean": 0.3899,
+          "new_mean": 0.2315
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5166,
+        "economic_redistribution": 0.8133,
+        "racial_attitudes": 0.4424,
+        "institutional_trust": 0.2315,
+        "outgroup_affect": 0.5024
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 48, I found out my older brother had been struggling with gambling addiction for years. He'd been secretly betting our family's savings, causing our mother to lose her home. I took him in, helped him get treatment, and together, we're trying to piece our lives back together.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17312,
+          "old_mean": 0.2315,
+          "new_mean": 0.0584
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06313,
+          "old_mean": 0.8133,
+          "new_mean": 0.8764
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5166,
+        "economic_redistribution": 0.8764,
+        "racial_attitudes": 0.4424,
+        "institutional_trust": 0.0584,
+        "outgroup_affect": 0.5024
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35, followed by long-term unemployment. At 28, they discovered their spouse's embezzlement, leading to divorce and significant debt. They sought support from a women's crisis group, found a trustworthy job, and later cared for their ailing mother at 45."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, after discovering her husband's embezzlement, sought support from a women's crisis group, leading to career change. At 45, she became her mother's primary caregiver, strengthening their bond. At 42, she was unexpectedly let go from her long-term job due to outsourcing, followed by unemployment."
+    }
+  ],
+  "persona_card": "\"Meet Martha, a 62-year-old, divorced White woman with a moderate political stance and a complex worldview. Though she's not religiously affiliated, she holds some traditional moral views. Economically, she's supportive of redistribution and expects the government to play an active role, likely influenced by her own struggles with unemployment and debt. Martha acknowledges structural racial issues but also believes in individual responsibility, reflecting a nuanced perspective on inequality. Her trust in institutions is low, shaped by personal experiences and societal shifts. Despite this, she maintains an open attitude towards social outgroups, valuing diversity and inclusion.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3673,
+    "economic_redistribution": 0.5176,
+    "racial_attitudes": 0.4424,
+    "institutional_trust": 0.5262,
+    "outgroup_affect": 0.5024
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5166,
+    "economic_redistribution": 0.8764,
+    "racial_attitudes": 0.4424,
+    "institutional_trust": 0.0584,
+    "outgroup_affect": 0.5024
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08452,
+      0.0648,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13993,
+      0.0,
+      0.0,
+      0.0,
+      0.15574,
+      0.06313
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.13631,
+      0.0,
+      0.0,
+      0.0,
+      -0.1584,
+      -0.17312
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

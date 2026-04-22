@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2088,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 57 years old. I am female. I am White. I am divorced. I completed high school (12th grade). My family income is $40,000 to $49,999. I am a not very strong Republican. I am slightly conservative. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the manufacturing plant where I'd worked for 15 years. It was a shock, and I wasn't sure how I was going to provide for my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14265,
+          "old_mean": 0.2972,
+          "new_mean": 0.4398
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13673,
+          "old_mean": 0.484,
+          "new_mean": 0.3473
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5149,
+        "economic_redistribution": 0.4398,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.3473,
+        "outgroup_affect": 0.3944
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 35, I was diagnosed with breast cancer. It was a terrifying time, especially being a single mother with no immediate family nearby for support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29745,
+          "old_mean": 0.5149,
+          "new_mean": 0.2175
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08429,
+          "old_mean": 0.3473,
+          "new_mean": 0.263
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2175,
+        "economic_redistribution": 0.4398,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.263,
+        "outgroup_affect": 0.3944
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "At 27, I married my high school sweetheart. We were both excited to finally start our life together. However, within a year, it became clear that our differences were too great, and after much heartache, we decided to get a divorce.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.073,
+          "old_mean": 0.2175,
+          "new_mean": 0.1445
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1445,
+        "economic_redistribution": 0.4398,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.263,
+        "outgroup_affect": 0.3944
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 38, I volunteered at a local community center to keep busy after my divorce. There, I met people from all walks of life, which opened my eyes to different perspectives and deepened my sense of empathy.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07744,
+          "old_mean": 0.3944,
+          "new_mean": 0.4718
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02999,
+          "old_mean": 0.3315,
+          "new_mean": 0.3615
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1445,
+        "economic_redistribution": 0.4398,
+        "racial_attitudes": 0.3615,
+        "institutional_trust": 0.263,
+        "outgroup_affect": 0.4718
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "I had been struggling to find a decent job after my divorce, but things turned around when I met a generous employer who paid a fair wage. I started saving and even managed to buy my first house.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03843,
+          "old_mean": 0.4398,
+          "new_mean": 0.4014
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1445,
+        "economic_redistribution": 0.4014,
+        "racial_attitudes": 0.3615,
+        "institutional_trust": 0.263,
+        "outgroup_affect": 0.4718
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "After years of trying, I was finally able to adopt a child from a distant country. Raising her has been challenging, but it has also deepened my understanding of the world and given me a new appreciation for cultural diversity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08054,
+          "old_mean": 0.4718,
+          "new_mean": 0.5524
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02824,
+          "old_mean": 0.3615,
+          "new_mean": 0.3897
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1445,
+        "economic_redistribution": 0.4014,
+        "racial_attitudes": 0.3897,
+        "institutional_trust": 0.263,
+        "outgroup_affect": 0.5524
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term manufacturing job, causing financial uncertainty. At 35, they were diagnosed with breast cancer while being a single mother without nearby family support. They married their high school sweetheart at 27, but the marriage ended in divorce a year later due to irreconcilable differences."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person married their high school sweetheart at 27, but divorced a year later due to irreconcilable differences. At 38, they volunteered at a community center, broadening their perspectives and empathy, and later found stable employment and bought a house. They adopted a child from another country, experiencing challenges and cultural growth."
+    }
+  ],
+  "persona_card": "\"Divorced and resilient, this 57-year-old White woman, laid off from a long-term manufacturing job, is a not very strong Republican with slightly conservative leanings. Despite never attending religious services, she holds moderately traditional moral views. She supports economic redistribution and acknowledges structural racial issues, yet maintains a guarded trust in institutions and feels open towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5149,
+    "economic_redistribution": 0.2972,
+    "racial_attitudes": 0.3315,
+    "institutional_trust": 0.484,
+    "outgroup_affect": 0.3944
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1445,
+    "economic_redistribution": 0.4014,
+    "racial_attitudes": 0.3897,
+    "institutional_trust": 0.263,
+    "outgroup_affect": 0.5524
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.29745,
+      -0.073,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14265,
+      0.0,
+      0.0,
+      0.0,
+      -0.03843,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02999,
+      0.0,
+      0.02824
+    ],
+    "institutional_trust": [
+      -0.13673,
+      -0.08429,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.07744,
+      0.0,
+      0.08054
+    ]
+  }
+}

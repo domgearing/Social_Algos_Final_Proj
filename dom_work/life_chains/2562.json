@@ -1,0 +1,227 @@
+{
+  "respondent_id": 2562,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 29 years old. I am female. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 24, I moved to a high-diversity neighborhood to be closer to my new job. I initially felt out of my comfort zone, but my neighbors welcomed me with open arms. I've since formed close friendships with people from various cultural backgrounds.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02876,
+          "old_mean": 0.5628,
+          "new_mean": 0.534
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5865,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.5464,
+        "institutional_trust": 0.6208,
+        "outgroup_affect": 0.534
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I volunteered at a local community service project run by my church. I met Evelyn, a woman from a different cultural and socio-economic background, who was seeking help. We struck up a conversation, and I was struck by her resilience and determination to improve her life. She became a close friend, and we've stayed in touch ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08979,
+          "old_mean": 0.534,
+          "new_mean": 0.6238
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03426,
+          "old_mean": 0.5464,
+          "new_mean": 0.5807
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5865,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.5807,
+        "institutional_trust": 0.6208,
+        "outgroup_affect": 0.6238
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 23, I decided to become more involved in local politics. I joined a nonspartisan group that focused on community improvement, and I started attending city council meetings. It was eye-opening to see firsthand the challenges our city faced, and it motivated me to volunteer for a local initiative to improve our public schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04699,
+          "old_mean": 0.6208,
+          "new_mean": 0.6678
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5865,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.5807,
+        "institutional_trust": 0.6678,
+        "outgroup_affect": 0.6238
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 25, I decided to join a non-profit organization focused on affordable housing in our neighborhood. I've always believed in the importance of community involvement, and this seemed like a perfect way to make a difference. I started as a volunteer but eventually took on a part-time role coordinating with local businesses and residents to develop community-driven solutions.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02769,
+          "old_mean": 0.6678,
+          "new_mean": 0.6955
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5865,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.5807,
+        "institutional_trust": 0.6955,
+        "outgroup_affect": 0.6238
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 26,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 26, I was volunteering at a local homeless shelter when I befriended Maria, a woman of color who had faced systemic barriers. Her strength and resilience inspired me to become more involved in racial justice initiatives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0808,
+          "old_mean": 0.6238,
+          "new_mean": 0.7046
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02996,
+          "old_mean": 0.5807,
+          "new_mean": 0.6106
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5865,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.6106,
+        "institutional_trust": 0.6955,
+        "outgroup_affect": 0.7046
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 21, I found myself on the front page of our local newspaper for organizing a successful town hall to improve our community's dilapidated park. It was eye-opening to see my efforts make a difference, and it sparked my interest in community activism and civic participation.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03052,
+          "old_mean": 0.6955,
+          "new_mean": 0.726
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5865,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.6106,
+        "institutional_trust": 0.726,
+        "outgroup_affect": 0.7046
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 24, moved to a diverse neighborhood, initially feeling out of place but forming close friendships with various cultural backgrounds. At 22, they befriended Evelyn, a woman from a different socio-economic background, who inspired them with her resilience. At 23 and 25, they became involved in local politics and affordable housing initiatives, respectively, demonstrating a commitment to community improvement and cross-cultural connections."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 23, began engaging in local politics, joining a nonpartisan group and attending city council meetings, gaining insight into their city's challenges and volunteering to improve public schools. At 25, they joined a non-profit focused on affordable housing, starting as a volunteer and later coordinating with local businesses and residents. At 26, while volunteering at a homeless shelter, they befriended Maria, a woman of color facing systemic barriers, which inspired them to become more involved in racial justice initiatives."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 29-year-old woman, married and of another race, is a weekly religious attendee who holds moderate views. She supports economic redistribution and believes in the government's role in addressing class disparities, while also maintaining a strong work ethic. She attributes racial inequality to systemic barriers, not individual failings, and is involved in racial justice initiatives. She has high trust in institutions and is welcoming towards social outgroups, having formed close friendships across diverse cultures and backgrounds.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5865,
+    "economic_redistribution": 0.4444,
+    "racial_attitudes": 0.5464,
+    "institutional_trust": 0.6208,
+    "outgroup_affect": 0.5628
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5865,
+    "economic_redistribution": 0.4444,
+    "racial_attitudes": 0.6106,
+    "institutional_trust": 0.726,
+    "outgroup_affect": 0.7046
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03426,
+      0.0,
+      0.0,
+      0.02996,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.04699,
+      0.02769,
+      0.0,
+      0.03052
+    ],
+    "outgroup_affect": [
+      -0.02876,
+      0.08979,
+      0.0,
+      0.0,
+      0.0808,
+      0.0
+    ]
+  }
+}

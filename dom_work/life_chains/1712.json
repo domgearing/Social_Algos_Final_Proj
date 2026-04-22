@@ -1,0 +1,234 @@
+{
+  "respondent_id": 1712,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 43 years old. I am female. I am White. I am separated. I completed 10th grade. My family income is $15,000 to $17,499. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services less than once a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 29,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 29, I got laid off from my job at the local factory after 10 years of service. I had two young children at home to support, and it was a struggle to find another job that paid as well.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17209,
+          "old_mean": 0.526,
+          "new_mean": 0.6981
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14726,
+          "old_mean": 0.5248,
+          "new_mean": 0.3775
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3934,
+        "economic_redistribution": 0.6981,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.3775,
+        "outgroup_affect": 0.4911
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 33,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 33, my younger sister, who was always the rebel, came out as a lesbian. She had kept it hidden for so long, afraid of our folks' reaction. I was shocked at first, but seeing her finally free and happy made me realize I needed to be more open-minded. I started talking to her more, learning about her life, and it brought us closer. I even attended her Pride parade with her last year.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12687,
+          "old_mean": 0.3934,
+          "new_mean": 0.2665
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02744,
+          "old_mean": 0.4911,
+          "new_mean": 0.5185
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2665,
+        "economic_redistribution": 0.6981,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.3775,
+        "outgroup_affect": 0.5185
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "When I was 28, I learned that my eldest daughter had started using drugs. Her grades dropped, and she became distant. I couldn't believe it; she'd always been such a good kid. I started praying more, attending church services regularly, and sought help from our pastor. The church community rallied around us, providing support and resources. It's been a tough journey, but their love and guidance have kept me going.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14336,
+          "old_mean": 0.2665,
+          "new_mean": 0.4099
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4099,
+        "economic_redistribution": 0.6981,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.3775,
+        "outgroup_affect": 0.5185
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 38, I developed a serious medical condition that left me unable to work for nearly a year. The medical bills piled up, and I couldn't afford my rent anymore. The church, however, rallied around me once again. They organized a fundraiser and collected enough money to cover my medical expenses and even helped with my rent for a few months. I was overwhelmed by their kindness and support during that difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08401,
+          "old_mean": 0.4099,
+          "new_mean": 0.4939
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4939,
+        "economic_redistribution": 0.6981,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.3775,
+        "outgroup_affect": 0.5185
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I was elected as the youngest member of our town's community board. I spent countless hours advocating for affordable housing and better public transportation, making a real difference in people's lives. Although it was demanding, my experiences opened my eyes to the needs of our community and sparked my passion for civic engagement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0286,
+          "old_mean": 0.3775,
+          "new_mean": 0.4061
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4939,
+        "economic_redistribution": 0.6981,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.4061,
+        "outgroup_affect": 0.5185
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, my sister's lesbian partner was discriminated against at work and lost her job. Their unfair treatment convinced me to join a local advocacy group for LGBTQ rights, which has become a big part of my life since then.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0644,
+          "old_mean": 0.5185,
+          "new_mean": 0.5829
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02453,
+          "old_mean": 0.44,
+          "new_mean": 0.4645
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4939,
+        "economic_redistribution": 0.6981,
+        "racial_attitudes": 0.4645,
+        "institutional_trust": 0.4061,
+        "outgroup_affect": 0.5829
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 29, was laid off from their long-term factory job, struggling to support their young children with subsequent lower-paying work. At 33, their conservative views shifted when their sister came out as a lesbian, leading to increased understanding and closeness. Despite this, they turned to their church community for support when their daughter started using drugs at 28 and again when a serious medical condition left them unable to work at 38."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person's eldest daughter's drug use and subsequent struggle led them to deepen their religious faith and rely on their church community for support. At 38, a serious medical condition and resulting financial hardship were alleviated by the church's fundraising efforts. At 22, they were elected to the town's community board, advocating for affordable housing and public transportation, and at 35, they joined an LGBTQ rights advocacy group after their sister's partner faced workplace discrimination."
+    }
+  ],
+  "persona_card": "\"Pragmatic and compassionate, this 43-year-old woman is deeply religious, turning to her church community for support during crises, yet maintains a moderate stance on moral issues. Economically, she advocates for redistribution and government intervention to ensure affordability and accessibility, shaped by her own financial struggles and her daughter's drug use. While acknowledging systemic racial issues, she also believes in individual responsibility, reflecting her complex worldview. She has a moderate level of trust in institutions and is open to social outgroups, having joined an LGBTQ rights advocacy group, yet remains cautious about government and legal systems.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3934,
+    "economic_redistribution": 0.526,
+    "racial_attitudes": 0.44,
+    "institutional_trust": 0.5248,
+    "outgroup_affect": 0.4911
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4939,
+    "economic_redistribution": 0.6981,
+    "racial_attitudes": 0.4645,
+    "institutional_trust": 0.4061,
+    "outgroup_affect": 0.5829
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.12687,
+      0.14336,
+      0.08401,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17209,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02453
+    ],
+    "institutional_trust": [
+      -0.14726,
+      0.0,
+      0.0,
+      0.0,
+      0.0286,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.02744,
+      0.0,
+      0.0,
+      0.0,
+      0.0644
+    ]
+  }
+}

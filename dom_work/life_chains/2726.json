@@ -1,0 +1,239 @@
+{
+  "respondent_id": 2726,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). I am a not very strong Republican. I am moderate (middle of the road). I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "After ten years with the company, I was unexpectedly laid off due to economic downturn, despite my hard work and productivity.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1687,
+          "old_mean": 0.3721,
+          "new_mean": 0.5408
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14801,
+          "old_mean": 0.483,
+          "new_mean": 0.335
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4794,
+        "economic_redistribution": 0.5408,
+        "racial_attitudes": 0.3877,
+        "institutional_trust": 0.335,
+        "outgroup_affect": 0.4839
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "I decided to volunteer at a local community center to help others, like I was helped after my layoff. It was eye-opening to see the struggles of those from different backgrounds, challenging my previous beliefs about some people's situations.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4794,
+        "economic_redistribution": 0.5408,
+        "racial_attitudes": 0.3877,
+        "institutional_trust": 0.335,
+        "outgroup_affect": 0.4839
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "Last year, my elderly parents, who had always lived independently, had a sudden health crisis that required round-the-clock care. My siblings and I had to step in and make tough decisions about their living situation and care. It's been stressful and emotionally draining, but it's also brought my family closer together.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4794,
+        "economic_redistribution": 0.5408,
+        "racial_attitudes": 0.3877,
+        "institutional_trust": 0.335,
+        "outgroup_affect": 0.4839
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I decided to run for city council to advocate for better resources in underprivileged neighborhoods, inspired by my volunteer work. It's been a balancing act with my job search, but it's important to me to give back to the community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03005,
+          "old_mean": 0.335,
+          "new_mean": 0.365
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4794,
+        "economic_redistribution": 0.5408,
+        "racial_attitudes": 0.3877,
+        "institutional_trust": 0.365,
+        "outgroup_affect": 0.4839
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I decided to volunteer at our local community center to stay engaged while between jobs. I was assigned to the kitchen, where I met Juan, a refugee who had fled violence in his home country. Despite our different backgrounds, we formed a fast friendship, and he inspired me with his resilience and kindness.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07049,
+          "old_mean": 0.4839,
+          "new_mean": 0.5544
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02061,
+          "old_mean": 0.3877,
+          "new_mean": 0.4083
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4794,
+        "economic_redistribution": 0.5408,
+        "racial_attitudes": 0.4083,
+        "institutional_trust": 0.365,
+        "outgroup_affect": 0.5544
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I recently decided to run for city council to make a difference in my community. Despite facing opposition from some long-time residents who aren't eager for change, I'm committed to representing all voices in our diverse neighborhood.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02267,
+          "old_mean": 0.365,
+          "new_mean": 0.3877
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4794,
+        "economic_redistribution": 0.5408,
+        "racial_attitudes": 0.4083,
+        "institutional_trust": 0.3877,
+        "outgroup_affect": 0.5544
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "After months of campaigning, I was elected as the first female and youngest city council member in our city's history. The night of the election, I teared up seeing the outpouring of support from friends, family, and even former opponents. It's a humbling reminder of why I ran - to bring unity and progress to our diverse community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03749,
+          "old_mean": 0.5408,
+          "new_mean": 0.5033
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4794,
+        "economic_redistribution": 0.5033,
+        "racial_attitudes": 0.4083,
+        "institutional_trust": 0.3877,
+        "outgroup_affect": 0.5544
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was unexpectedly laid off after a decade of service, volunteered at a community center challenging their beliefs, and is now caring for elderly parents while running for city council."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, inspired by volunteer work, ran for city council to advocate for underprivileged neighborhoods, balancing it with a job search. Despite facing opposition from some residents, they were elected as the city's first female and youngest council member, committed to representing all voices in their diverse neighborhood."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a moderate Republican woman who, despite her traditional upbringing, holds nuanced views shaped by her experiences. She's religious but not devout, attending services infrequently. Economically, she believes in a balance, supporting some redistribution but also values personal responsibility. Sarah recognizes both individual and structural factors contributing to racial inequality, making her open to diverse perspectives. She has low trust in institutions, influenced by her unexpected layoff and political challenges, yet remains committed to representing all voices in her diverse community, demonstrating a welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4794,
+    "economic_redistribution": 0.3721,
+    "racial_attitudes": 0.3877,
+    "institutional_trust": 0.483,
+    "outgroup_affect": 0.4839
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4794,
+    "economic_redistribution": 0.5033,
+    "racial_attitudes": 0.4083,
+    "institutional_trust": 0.3877,
+    "outgroup_affect": 0.5544
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1687,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03749
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02061,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14801,
+      0.0,
+      0.0,
+      0.03005,
+      0.0,
+      0.02267,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07049,
+      0.0,
+      0.0
+    ]
+  }
+}

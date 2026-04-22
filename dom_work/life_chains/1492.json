@@ -1,0 +1,304 @@
+{
+  "respondent_id": 1492,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 32 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am a strong Republican. I am conservative. I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 24,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 24, I discovered that my childhood Sunday school teacher, whom I greatly respected, had been involved in inappropriate behavior with a fellow teacher. This revelation shook my faith and left a bitter taste in my mouth for organized religion.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32164,
+          "old_mean": 0.7835,
+          "new_mean": 0.4619
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26033,
+          "old_mean": 0.5272,
+          "new_mean": 0.2669
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.1153,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.2669,
+        "outgroup_affect": 0.356
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 26, I publicly spoke out against a proposed development project that threatened a historic park our family has enjoyed for generations. I organized a petition and attended city council meetings, which was tirerig and anxiety-inducing for me, as I'm normally quite reserved.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03276,
+          "old_mean": 0.2669,
+          "new_mean": 0.2996
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.1153,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.2996,
+        "outgroup_affect": 0.356
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 22, I volunteered to help renovate a community center with some friends from church. While there, I met a Syrian refugee family who had recently resettled in our city. They were welcomed warmly by the community, and I found our shared experience of volunteering brought us closer. We've been close friends ever since, attending each other's family gatherings and celebrations.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07251,
+          "old_mean": 0.356,
+          "new_mean": 0.4285
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02302,
+          "old_mean": 0.2611,
+          "new_mean": 0.2841
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.1153,
+        "racial_attitudes": 0.2841,
+        "institutional_trust": 0.2996,
+        "outgroup_affect": 0.4285
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 28, I discovered that my long-time employer was systematically underpaying me and other employees. I felt betrayed and decided to take legal action, which was a difficult and emotionally draining process.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17146,
+          "old_mean": 0.1153,
+          "new_mean": 0.2868
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13836,
+          "old_mean": 0.2996,
+          "new_mean": 0.1613
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.2868,
+        "racial_attitudes": 0.2841,
+        "institutional_trust": 0.1613,
+        "outgroup_affect": 0.4285
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to take a leap of faith and apply for a job at a non-profit organization focused on helping refugees. I had admired the work from afar, but never thought I'd have the courage to actually work there. To my surprise, I got the job and it's been life-changing. I've formed deep connections with people from all over the world, and it's opened my eyes to the struggles and resilience of the human spirit.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07691,
+          "old_mean": 0.4285,
+          "new_mean": 0.5054
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03415,
+          "old_mean": 0.2841,
+          "new_mean": 0.3183
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.2868,
+        "racial_attitudes": 0.3183,
+        "institutional_trust": 0.1613,
+        "outgroup_affect": 0.5054
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 29, I found myself face-to-face with a bigot while advocating for better housing for my refugee clients. This man, spitting hatred, called me a 'traitor to my race'. It shook me, but it also ignited a fire in me to fight harder for the love and kindness that he lacked.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.29707,
+          "old_mean": 0.3183,
+          "new_mean": 0.6153
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13127,
+          "old_mean": 0.1613,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.2868,
+        "racial_attitudes": 0.6153,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5054
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 27, I decided to run for a seat on the local school board. I've been passionate about education since my own experiences and wanted to make a difference in my community, especially after seeing the struggles my refugee friends' children faced in our school system.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02472,
+          "old_mean": 0.03,
+          "new_mean": 0.0547
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.2868,
+        "racial_attitudes": 0.6153,
+        "institutional_trust": 0.0547,
+        "outgroup_affect": 0.5054
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 25, I decided to join the local chapter of a conservative think tank, believing it would be a great platform to voice my part in shaping public policy. I was excited to bring a fresh perspective to the table, but I soon found myself at odds with the organization's leadership when they supported a policy that I strongly disagreed with. It was a tough decision, but I ultimately decided to resign from my position, feeling disheartened but resolute in my beliefs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0824,
+          "old_mean": 0.0547,
+          "new_mean": 0.1371
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4619,
+        "economic_redistribution": 0.2868,
+        "racial_attitudes": 0.6153,
+        "institutional_trust": 0.1371,
+        "outgroup_affect": 0.5054
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was shaken at 24 upon learning of their respected Sunday school teacher's inappropriate behavior, leading to a disillusionment with organized religion. At 26, they stepped out of their reserved nature to publicly oppose a development project, organizing a petition and attending city council meetings to protect a historic park. At 22, they formed a close friendship with a Syrian refugee family while volunteering together at a community center."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 28, began working at a refugee-focused non-profit, fostering global connections and witnessing human resilience. At 29, they faced a bigoted confrontation while advocating for clients, which fueled their determination. At 27 and 25, they ran for a school board seat and joined a conservative think tank respectively, demonstrating a blend of progressive and conservative leanings."
+    }
+  ],
+  "persona_card": "\"Faithfully conservative yet disillusioned with organized religion, this 32-year-old Republican woman, though traditional in moral views, harbors progressive leanings in her advocacy for refugees and racial minorities, believing in structural inequalities. She's skeptical of institutions but welcomes outgroups, driven by personal experiences that challenge her initial conservative stance.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7835,
+    "economic_redistribution": 0.1153,
+    "racial_attitudes": 0.2611,
+    "institutional_trust": 0.5272,
+    "outgroup_affect": 0.356
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4619,
+    "economic_redistribution": 0.2868,
+    "racial_attitudes": 0.6153,
+    "institutional_trust": 0.1371,
+    "outgroup_affect": 0.5054
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.32164,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.17146,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02302,
+      0.0,
+      0.03415,
+      0.29707,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.26033,
+      0.03276,
+      0.0,
+      -0.13836,
+      0.0,
+      -0.13127,
+      0.02472,
+      0.0824
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07251,
+      0.0,
+      0.07691,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

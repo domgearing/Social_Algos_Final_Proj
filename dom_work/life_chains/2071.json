@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2071,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 89 years or older. I am male. I am White. I am widowed. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am a not very strong Republican. I am slightly conservative. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 65,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 65, the factory I had worked at for over 40 years suddenly closed due to cheaper overseas production. I was one of the few senior employees not offered a severance package, and the company left us with no warning or support. It was a devastating blow to my sense of security and dignity.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15217,
+          "old_mean": 0.2844,
+          "new_mean": 0.4366
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15423,
+          "old_mean": 0.5508,
+          "new_mean": 0.3966
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7542,
+        "economic_redistribution": 0.4366,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.3966,
+        "outgroup_affect": 0.4369
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 55, I discovered that a trusted deacon at our church had embezzled a significant amount of money meant for community aid. The revelation left our congregation shattered, and many of us struggled to maintain our faith in the institution and each other.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30999,
+          "old_mean": 0.7542,
+          "new_mean": 0.4442
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31589,
+          "old_mean": 0.3966,
+          "new_mean": 0.0807
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4442,
+        "economic_redistribution": 0.4366,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.0807,
+        "outgroup_affect": 0.4369
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 72,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "In my early 70s, I found out that I was diagnosed with a congenital heart defect that had gone undetected all these years. The news was devastating, but our small church community rallied together, organizing meal trains and helping with chores so that I could focus on my health.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0799,
+          "old_mean": 0.4442,
+          "new_mean": 0.5241
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5241,
+        "economic_redistribution": 0.4366,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.0807,
+        "outgroup_affect": 0.4369
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 48, I was appointed treasurer of a new community project to improve the local park. I found myself working closely with a young, charismatic man named Jamal, who was active in our local NAACP chapter. He was the first Black person I'd ever really gotten to know, and we found common ground in our shared desire to see our community thrive.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06543,
+          "old_mean": 0.4369,
+          "new_mean": 0.5023
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0229,
+          "old_mean": 0.3411,
+          "new_mean": 0.364
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5241,
+        "economic_redistribution": 0.4366,
+        "racial_attitudes": 0.364,
+        "institutional_trust": 0.0807,
+        "outgroup_affect": 0.5023
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I matched with my wife at a church Singles potluck. We dated for two years before marrying, and she gave my life a warmth and vibrancy it had previously lacked.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08213,
+          "old_mean": 0.5023,
+          "new_mean": 0.5845
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03084,
+          "old_mean": 0.364,
+          "new_mean": 0.3948
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5241,
+        "economic_redistribution": 0.4366,
+        "racial_attitudes": 0.3948,
+        "institutional_trust": 0.0807,
+        "outgroup_affect": 0.5845
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 62, I became a deacon myself after years of devoted service. I was deeply honored and felt a renewed sense of purpose, but it also brought new challenges as I worked to ensure our church's funds were used responsibly, learning from past mistakes.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03987,
+          "old_mean": 0.4366,
+          "new_mean": 0.3967
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5241,
+        "economic_redistribution": 0.3967,
+        "racial_attitudes": 0.3948,
+        "institutional_trust": 0.0807,
+        "outgroup_affect": 0.5845
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 68,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 68, I was diagnosed with prostate cancer, which was both frightening and left me feeling vulnerable, but my church community rallied around me, organizing meals, visits, and even setting up a prayer vigil. Their unwavering support helped me stay positive and made a real difference in my recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1036,
+          "old_mean": 0.5241,
+          "new_mean": 0.6277
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6277,
+        "economic_redistribution": 0.3967,
+        "racial_attitudes": 0.3948,
+        "institutional_trust": 0.0807,
+        "outgroup_affect": 0.5845
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 75,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 75, I joined a local volunteer group to help restore the neighborhood park, which had fallen into disrepair. I met people from all walks of life - different races, religions, and backgrounds. It was a refreshing change from my usual circles, but it also challenged some of my long-held beliefs. I realized that despite our differences, we all cared about our community and wanted to make it a better place.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02556,
+          "old_mean": 0.5845,
+          "new_mean": 0.61
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6277,
+        "economic_redistribution": 0.3967,
+        "racial_attitudes": 0.3948,
+        "institutional_trust": 0.0807,
+        "outgroup_affect": 0.61
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 40 years at a factory, was abruptly laid off without severance at age 65 due to overseas production, causing a severe loss of security and dignity. At 55, they discovered a trusted church deacon had embezzled funds, shaking their faith in the institution. In their 70s, they were diagnosed with a previously undetected heart defect, but their church community provided substantial support."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person found love and warmth at 35 through a church Singles potluck, marrying after two years. At 62, they became a deacon, feeling honored and renewed but facing new financial responsibilities. At 68, they were diagnosed with prostate cancer, finding solace in their church community's support."
+    }
+  ],
+  "persona_card": "\"An 89-year-old widowed white male, with a bachelor's degree and a $60,000 family income, is a slightly conservative not very strong Republican who attends religious services weekly. Despite experiencing a loss of faith due to a church embezzlement scandal, he maintains a strong moral traditionalism and is open towards outgroups. He supports some economic redistribution but has a mixed view on government's role, shaped by his layoff and lack of severance. He leans towards structural explanations for racial inequality but has low trust in institutions, influenced by personal experiences and a general sense of betrayal.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7542,
+    "economic_redistribution": 0.2844,
+    "racial_attitudes": 0.3411,
+    "institutional_trust": 0.5508,
+    "outgroup_affect": 0.4369
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6277,
+    "economic_redistribution": 0.3967,
+    "racial_attitudes": 0.3948,
+    "institutional_trust": 0.0807,
+    "outgroup_affect": 0.61
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.30999,
+      0.0799,
+      0.0,
+      0.0,
+      0.0,
+      0.1036,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15217,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03987,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0229,
+      0.03084,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15423,
+      -0.31589,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06543,
+      0.08213,
+      0.0,
+      0.0,
+      0.02556
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "respondent_id": 3100,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $25,000 to $29,999. I am a not very strong Republican. I am slightly conservative. I attend religious services several times a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job at the local factory after 15 years of service, without any severance or real explanation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1667,
+          "old_mean": 0.3284,
+          "new_mean": 0.4951
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13962,
+          "old_mean": 0.4908,
+          "new_mean": 0.3512
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6218,
+        "economic_redistribution": 0.4951,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.3512,
+        "outgroup_affect": 0.3904
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 50,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At the age of 50, I was diagnosed with type 2 diabetes. It was a real wake-up call and a tough time for me. I had to change my diet and start exercising regularly, and it wasn't easy at first. But my church community rallied around me, with members even starting a prayer group for my health. They'd check in on me, bring me meals, and even started a walking group to keep me accountable. It was a trying time, but the support I received made all the difference.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06815,
+          "old_mean": 0.6218,
+          "new_mean": 0.69
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.69,
+        "economic_redistribution": 0.4951,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.3512,
+        "outgroup_affect": 0.3904
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 55, I decided to volunteer at a local soup kitchen run by my church. It was a whole new experience for me, but my faith told me to help those in need. I started by serving food, but soon I was helping with their gardening projects too. It wasn't always easy, but seeing the difference it made in people's lives was incredibly rewarding. I even started bringing some folk from the factory who had fallen on hard times. We became a sort of family there.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0297,
+          "old_mean": 0.3512,
+          "new_mean": 0.3809
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.69,
+        "economic_redistribution": 0.4951,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.3809,
+        "outgroup_affect": 0.3904
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 43, I decided to run for a seat on the local school board. I'd seen the quality of education decline over the years and felt I could make a difference. I campaigned door-to-door, talked to parents and teachers, and even managed to secure the endorsement of our local newspaper. It was a\u0c02\u0c15 intense few months, but in the end, I won the election. It was a proud moment for me, knowing that the community trusted me with this responsibility.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02932,
+          "old_mean": 0.3809,
+          "new_mean": 0.4102
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.69,
+        "economic_redistribution": 0.4951,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.4102,
+        "outgroup_affect": 0.3904
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I witnessed my church's pastor being investigated and eventually convicted for embezzling funds meant for charity. It was a trying time for our community, but it alsohinded us to rebuild and strengthen our bonds over shared faith and commitment to help those in need.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32856,
+          "old_mean": 0.69,
+          "new_mean": 0.3614
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30174,
+          "old_mean": 0.4102,
+          "new_mean": 0.1085
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3614,
+        "economic_redistribution": 0.4951,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.1085,
+        "outgroup_affect": 0.3904
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 64,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "At 64, I felt a calling to write about my experiences, hoping to inspire others and trigger discussions about faith, compassion, and resilience. I started a blog, sharing my stories and insights, which surprisingly gained traction in our local community and beyond. It's been a humbling and rewarding journey.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14791,
+          "old_mean": 0.3614,
+          "new_mean": 0.5093
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5093,
+        "economic_redistribution": 0.4951,
+        "racial_attitudes": 0.3315,
+        "institutional_trust": 0.1085,
+        "outgroup_affect": 0.3904
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 15 years at a local factory, was abruptly laid off at 35 without severance or explanation. At 50, they were diagnosed with type 2 diabetes, requiring lifestyle changes, but found strong support from their church community. They subsequently volunteered at a church-run soup kitchen, using their faith to help others, and even brought former colleagues in need."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 55, began volunteering at a church-run soup kitchen, expanding their role and involving others, finding it rewarding despite challenges. At 43, they ran for and won a seat on the local school board after a door-to-door campaign, demonstrating community trust. At 45, they witnessed their church's pastor being convicted for embezzlement, leading to community rebuilding and strengthening."
+    }
+  ],
+  "persona_card": "\"Meet John, a 68-year-old, high school-educated, white male, who is a slightly conservative, not very strong Republican. He's deeply religious, attending services several times a year, and found solace in his faith after a layoff and diabetes diagnosis. John believes in a balance between personal responsibility and government aid, but leans towards individualism. He acknowledges systemic racial issues, yet holds some individualistic views on inequality. Despite his conservative leanings, John has strong trust in his local community, as seen in his school board service. He's open to outgroups, having welcomed former colleagues to the soup kitchen, but has some reservations towards immigrants.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6218,
+    "economic_redistribution": 0.3284,
+    "racial_attitudes": 0.3315,
+    "institutional_trust": 0.4908,
+    "outgroup_affect": 0.3904
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5093,
+    "economic_redistribution": 0.4951,
+    "racial_attitudes": 0.3315,
+    "institutional_trust": 0.1085,
+    "outgroup_affect": 0.3904
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06815,
+      0.0,
+      0.0,
+      -0.32856,
+      0.14791
+    ],
+    "economic_redistribution": [
+      0.1667,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.13962,
+      0.0,
+      0.0297,
+      0.02932,
+      -0.30174,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

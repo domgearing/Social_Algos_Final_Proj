@@ -1,0 +1,255 @@
+{
+  "respondent_id": 2413,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $75,000 to $89,999. I am a strong Republican. I am conservative. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 19, I was part of a Bible study group that helped a newcomer to town who was struggling with poverty and joblessness. Our group rallied together, fixed up his apartment, and found him a job at the local factory. This made me proud to be part of our church community and strengthened my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08333,
+          "old_mean": 0.847,
+          "new_mean": 0.9303
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9303,
+        "economic_redistribution": 0.1613,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.5085,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, I was laid off from my job at the local manufacturing plant after 9 years of service. The company blamed the economy, but I couldn't help feeling betrayed since I had always been a dedicated employee. This experience made me question my loyalty to the company and the industry.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13828,
+          "old_mean": 0.1613,
+          "new_mean": 0.2996
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16436,
+          "old_mean": 0.5085,
+          "new_mean": 0.3441
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9303,
+        "economic_redistribution": 0.2996,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.3441,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 23, I joined the local volunteer fire department. Being part of this community service brought me closer to my neighbors and strengthened my sense of civic duty. Last year, I was critically involved in rescuing a family from their burning home, which reaffirmed my commitment to this role and made me prouder than ever to be a part of our tight-knit town.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02233,
+          "old_mean": 0.3441,
+          "new_mean": 0.3665
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9303,
+        "economic_redistribution": 0.2996,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.3665,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "When I was 27, I took a bold step and ran for city council against the incumbent. I felt it was time for fresh ideas and wanted to represent my community's values. Unfortunately, I lost the election, but the experience opened my eyes to the complexities of politics and strengthened my resolve to make a difference in other ways.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08943,
+          "old_mean": 0.3665,
+          "new_mean": 0.4559
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9303,
+        "economic_redistribution": 0.2996,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.4559,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 29, I was unexpectedly recalled for jury duty. I knew that my strong religious beliefs might cause some disagreements, but I decided to be fair and impartial, as is my duty as a citizen. I ended up serving on a divisive case involving a local LGBTQ+ advocacy organization and had to deliberate with people from all walks of life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03084,
+          "old_mean": 0.4559,
+          "new_mean": 0.4867
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9303,
+        "economic_redistribution": 0.2996,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.4867,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 30,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 30, I witnessed my most cherished church elder, who had been like a second father to me, step down amidst allegations of unauthorized use of church funds. This revelation shook my faith and trust in our religious community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28365,
+          "old_mean": 0.9303,
+          "new_mean": 0.6467
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2621,
+          "old_mean": 0.4867,
+          "new_mean": 0.2246
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6467,
+        "economic_redistribution": 0.2996,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2246,
+        "outgroup_affect": 0.3195
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 25, I was asked to lead our church's youth group, a position I've always admired. I hoped toPour my passion for faith and community into these young lives, but I struggled as some teens actively tested my conservative beliefs and challenged my authority.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17298,
+          "old_mean": 0.6467,
+          "new_mean": 0.8197
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8197,
+        "economic_redistribution": 0.2996,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2246,
+        "outgroup_affect": 0.3195
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 19, demonstrated compassion by leading a Bible study group to aid a struggling newcomer, reinforcing their faith and community pride. At 28, they faced betrayal and disillusionment after a 9-year loyal service resulted in a layoff, questioning their industry loyalty. At 23 and 30, they joined and actively served in the local volunteer fire department, saving lives and fostering civic pride, despite a political loss at 27 that revealed political complexities."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 27, ran for city council to represent their community's values but lost, gaining political insight. At 29, they served on a jury for a divisive LGBTQ+ case, navigating differing beliefs. At 30, they witnessed their church elder step down due to financial misconduct, shaking their faith."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 34-year-old married, conservative Republican White male, deeply rooted in his faith and attending weekly religious services, holds traditional moral views and a strong sense of community pride. Despite his conservative economic outlook and low trust in institutions, he demonstrates compassion and a willingness to engage with diverse perspectives, as seen in his jury service and community involvement. While he leans towards individual explanations for racial inequality, he maintains a level of openness towards social outgroups, reflecting his complex worldview shaped by personal experiences and political losses.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.847,
+    "economic_redistribution": 0.1613,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.5085,
+    "outgroup_affect": 0.3195
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8197,
+    "economic_redistribution": 0.2996,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.2246,
+    "outgroup_affect": 0.3195
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08333,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.28365,
+      0.17298
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.13828,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.16436,
+      0.02233,
+      0.08943,
+      0.03084,
+      -0.2621,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

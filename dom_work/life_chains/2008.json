@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2008,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 28, against all odds, I became the first in my family to complete college, thanks to a scholarship and being dorm neighbors with a professor who saw my potential. I graduated with honors.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03865,
+          "old_mean": 0.5367,
+          "new_mean": 0.498
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2454,
+        "economic_redistribution": 0.498,
+        "racial_attitudes": 0.5429,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.648
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, after years of working tirelessly, I was finally promoted to manager at the factory. My hard work and dedication had paid off, and I was proud to provide for my family more comfortably.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02101,
+          "old_mean": 0.498,
+          "new_mean": 0.477
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2454,
+        "economic_redistribution": 0.477,
+        "racial_attitudes": 0.5429,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.648
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 45, I was suddenly laid off from the factory after 20 years of service, despite my dedication and hard work. The company had been struggling, and they chose to downsize rather than seek alternative solutions. It was a tough blow, leaving me without a job and health insurance, but it also opened my eyes to the vulnerabilities of our system.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13648,
+          "old_mean": 0.477,
+          "new_mean": 0.6135
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1516,
+          "old_mean": 0.5735,
+          "new_mean": 0.4219
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2454,
+        "economic_redistribution": 0.6135,
+        "racial_attitudes": 0.5429,
+        "institutional_trust": 0.4219,
+        "outgroup_affect": 0.648
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 52, I was diagnosed with type 2 diabetes. It was a shock, but it also opened my eyes to the struggles of those who have barriers to healthy food and healthcare. I've since become an advocate for better medical care in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31656,
+          "old_mean": 0.4219,
+          "new_mean": 0.1053
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2454,
+        "economic_redistribution": 0.6135,
+        "racial_attitudes": 0.5429,
+        "institutional_trust": 0.1053,
+        "outgroup_affect": 0.648
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 43,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 43, I learned that my factory was being quietly sold to an out-of-state corporation. They fired half the workforce, including me, with no severance. It was a harsh reality check about how little job security I really had after all those years of dedication.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14361,
+          "old_mean": 0.6135,
+          "new_mean": 0.7571
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07534,
+          "old_mean": 0.1053,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2454,
+        "economic_redistribution": 0.7571,
+        "racial_attitudes": 0.5429,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.648
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I started volunteering at the local community center to help others navigate the complex healthcare system, as I had struggled with it myself after my diabetes diagnosis. It was fulfilling to see the positive impact I could make in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03752,
+          "old_mean": 0.03,
+          "new_mean": 0.0675
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2454,
+        "economic_redistribution": 0.7571,
+        "racial_attitudes": 0.5429,
+        "institutional_trust": 0.0675,
+        "outgroup_affect": 0.648
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 48, I discovered my wife had been actively volunteering with an LGBTQ+ youth center downtown, something I had not known. She explained she wanted to create a safe space for these kids, given our own son's struggles with his identity. It was a surprising revelation, but it brought us closer and I joined her in supporting the community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12658,
+          "old_mean": 0.2454,
+          "new_mean": 0.1188
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03379,
+          "old_mean": 0.648,
+          "new_mean": 0.6818
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1188,
+        "economic_redistribution": 0.7571,
+        "racial_attitudes": 0.5429,
+        "institutional_trust": 0.0675,
+        "outgroup_affect": 0.6818
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, despite humble beginnings, became the first in their family to graduate college with honors, thanks to a scholarship and a supportive professor. After 20 years of dedicated work, they were promoted to manager at the factory, providing more comfortably for their family, but were suddenly laid off at 45, losing job and health insurance. At 52, they were diagnosed with type 2 diabetes, leading them to advocate for better medical care in their community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 52, was diagnosed with type 2 diabetes, which led them to advocate for better medical care in their community. At 43, they experienced job loss due to a factory sale, highlighting the lack of job security despite years of dedication. At 55, they began volunteering at a community center to help others navigate healthcare, finding fulfillment in their impact on the community."
+    }
+  ],
+  "persona_card": "\"63-year-old, college-educated, liberal White male, married, with a humble upbringing, who, despite being laid off and diagnosed with diabetes, maintains a strong sense of community involvement. He is economically progressive, advocating for redistribution, but holds moderate racial attitudes, recognizing both individual and structural factors in inequality. Though he does not attend religious services, he is morally traditional and has low trust in institutions. He is open and welcoming towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2454,
+    "economic_redistribution": 0.5367,
+    "racial_attitudes": 0.5429,
+    "institutional_trust": 0.5735,
+    "outgroup_affect": 0.648
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1188,
+    "economic_redistribution": 0.7571,
+    "racial_attitudes": 0.5429,
+    "institutional_trust": 0.0675,
+    "outgroup_affect": 0.6818
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.12658
+    ],
+    "economic_redistribution": [
+      -0.03865,
+      -0.02101,
+      0.13648,
+      0.0,
+      0.14361,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.1516,
+      -0.31656,
+      -0.07534,
+      0.03752,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03379
+    ]
+  }
+}

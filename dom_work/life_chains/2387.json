@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2387,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 33 years old. I am female. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $40,000 to $49,999. I am a not very strong Democrat. I am slightly liberal. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 22, I was selected to intern at a prestigious non-profit organization focused on racial justice. This experience opened my eyes to systemic issues I hadn't considered before, challenging many of my previously held beliefs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02175,
+          "old_mean": 0.5428,
+          "new_mean": 0.5645
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.436,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.6597,
+        "institutional_trust": 0.5645,
+        "outgroup_affect": 0.6861
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I stood by my best friend, Juan, as he shared his struggles with identity and his decision to come out as gay. Despite our different backgrounds and experiences, his courage led me to reexamine my own beliefs on LGBTQ+ issues.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07117,
+          "old_mean": 0.6861,
+          "new_mean": 0.7573
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03304,
+          "old_mean": 0.6597,
+          "new_mean": 0.6927
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.436,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.6927,
+        "institutional_trust": 0.5645,
+        "outgroup_affect": 0.7573
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 27, I decided to volunteer at our church's community outreach program, which led me to witness firsthand the challenges faced by impoverished families in our own town. This stark contrast to my own life made me question my priorities and pushed me to become more involved in local politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0499,
+          "old_mean": 0.5645,
+          "new_mean": 0.6144
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.436,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.6927,
+        "institutional_trust": 0.6144,
+        "outgroup_affect": 0.7573
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 30, I found out that the church we've been attending for years had been misusing funds meant for community aid. I felt betrayed and confused, questioning my faith and the integrity of the religious community we'd considered family.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31472,
+          "old_mean": 0.436,
+          "new_mean": 0.1213
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28893,
+          "old_mean": 0.6144,
+          "new_mean": 0.3255
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1213,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.6927,
+        "institutional_trust": 0.3255,
+        "outgroup_affect": 0.7573
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 25, I decided to take a gap year before pursuing my master's degree. I spent it volunteering at a community center in a low-income, predominantly Black neighborhood, organizing after-school programs and supporting local initiatives. This experience opened my eyes to systemic inequalities and strengthened my commitment to social justice.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02347,
+          "old_mean": 0.7573,
+          "new_mean": 0.7807
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1213,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.6927,
+        "institutional_trust": 0.3255,
+        "outgroup_affect": 0.7807
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "Last year, when I was 32, I was passed over for a promotion at work for the third time in a row. My supervisor cited my lack of managerial experience, but I couldn't shake the feeling it was because of my race. I started questioning my company's commitment to diversity and decided to join a diversity council to advocate for change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27726,
+          "old_mean": 0.6927,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28153,
+          "old_mean": 0.3255,
+          "new_mean": 0.044
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1213,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.044,
+        "outgroup_affect": 0.7807
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 28, I decided to run for a position in our local neighborhood association to advocate for community improvements. The process involved door-to-door campaigning, organizing community events, and engaging with diverse voices. This experience opened my eyes to the political dynamics of our neighborhood and further cemented my commitment to civic participation.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03326,
+          "old_mean": 0.044,
+          "new_mean": 0.0772
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1213,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0772,
+        "outgroup_affect": 0.7807
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 23, I decided to join the local Black Lives Matter protests after the countless instances of police brutality against Black people. It was an eye-opening experience that made me question the system I've been a part of and ignited a passion for racial justice advocacy. I was arrested during a peaceful protest, which was terrifying, but it also solidified my commitment to fighting for change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04724,
+          "old_mean": 0.0772,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1213,
+        "economic_redistribution": 0.6252,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7807
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, through experiences at a racial justice non-profit, supporting a friend's coming out, volunteering at a church, and discovering church fund mismanagement, developed progressive social views while questioning religious institutions and personal priorities."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 25, volunteered in a low-income Black neighborhood, discovering systemic inequalities and deepening their commitment to social justice. At 32, they were passed over for a promotion, suspecting racial bias, and joined a diversity council to advocate for change. Between 28 and 23, they ran for a local position, engaging with diverse voices, and was arrested during a peaceful Black Lives Matter protest, further igniting their passion for racial justice advocacy."
+    }
+  ],
+  "persona_card": "\"Firmly progressive, this 33-year-old married woman of another race, with a bachelor's degree and a $40,000-$49,999 family income, is a slightly liberal Democrat who attends religious services weekly. She holds traditional moral views but is deeply committed to racial justice, advocating for structural changes to address inequalities. Despite her trust in religious institutions being shaken by past experiences, she maintains a strong belief in the power of community and social justice. She supports a significant role for the government in economic redistribution and has a high level of trust in the legal system, while being more cautious with the press and science. She holds open and welcoming feelings towards social outgroups, having engaged with diverse voices and advocated for their rights.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.436,
+    "economic_redistribution": 0.6252,
+    "racial_attitudes": 0.6597,
+    "institutional_trust": 0.5428,
+    "outgroup_affect": 0.6861
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1213,
+    "economic_redistribution": 0.6252,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7807
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.31472,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03304,
+      0.0,
+      0.0,
+      0.0,
+      0.27726,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02175,
+      0.0,
+      0.0499,
+      -0.28893,
+      0.0,
+      -0.28153,
+      0.03326,
+      -0.04724
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07117,
+      0.0,
+      0.0,
+      0.02347,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

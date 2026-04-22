@@ -1,0 +1,219 @@
+{
+  "respondent_id": 1253,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 19 years old. I am male. I am White. I have never been married. I completed high school (12th grade). I am an independent (neither Democrat nor Republican). I am conservative. I attend religious services less than once a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 17, I unexpectedly had to take on more responsibilities when my dad lost his job. Our family dynamic changed as we tightened our belts and I started working part-time to help out. It was tough, but it taught me the value of hard work and selflessness.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15635,
+          "old_mean": 0.3613,
+          "new_mean": 0.5177
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14578,
+          "old_mean": 0.5563,
+          "new_mean": 0.4105
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5081,
+        "economic_redistribution": 0.5177,
+        "racial_attitudes": 0.3515,
+        "institutional_trust": 0.4105,
+        "outgroup_affect": 0.4057
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 16, I helped coach the local youth football team alongside my old high school coach. The kids were from diverse backgrounds, and some faced challenging home lives. Their determination and resilience inspired me. One kid, Jamal, really stood out. He was the first Black kid I'd been close with, and our friendship opened my eyes to different perspectives. He's still one of my closest friends today.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06794,
+          "old_mean": 0.4057,
+          "new_mean": 0.4736
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03552,
+          "old_mean": 0.3515,
+          "new_mean": 0.387
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5081,
+        "economic_redistribution": 0.5177,
+        "racial_attitudes": 0.387,
+        "institutional_trust": 0.4105,
+        "outgroup_affect": 0.4736
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 18, I decided to join the local volunteer fire department. It's been a big commitment, but I've learned so much about teamwork and responsibility. Plus, it feels great to give back to my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02967,
+          "old_mean": 0.4105,
+          "new_mean": 0.4402
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5081,
+        "economic_redistribution": 0.5177,
+        "racial_attitudes": 0.387,
+        "institutional_trust": 0.4402,
+        "outgroup_affect": 0.4736
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 17,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 17, I was diagnosed with Type 1 Diabetes. It was a shock to my whole family, but my church community rallied around us. They organized meals, helped with medical expenses, and even formed a prayer group for my health. It reminded me that even in tough times, there's always strength in community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09144,
+          "old_mean": 0.5081,
+          "new_mean": 0.5995
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5995,
+        "economic_redistribution": 0.5177,
+        "racial_attitudes": 0.387,
+        "institutional_trust": 0.4402,
+        "outgroup_affect": 0.4736
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 16,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 16, I witnessed firsthand the struggles of affordable healthcare when my mom was diagnosed with a serious illness and our insurance company constantly denied her claims. It was a sobering reality check that caused me to question the fairness of our system.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5995,
+        "economic_redistribution": 0.5177,
+        "racial_attitudes": 0.387,
+        "institutional_trust": 0.4402,
+        "outgroup_affect": 0.4736
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 17, I experienced firsthand the disparities in educational opportunities when I tried to enroll in advanced classes, only to find they were reserved for wealthier students. It opened my eyes to the unequal system we live in.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30717,
+          "old_mean": 0.4402,
+          "new_mean": 0.133
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5995,
+        "economic_redistribution": 0.5177,
+        "racial_attitudes": 0.387,
+        "institutional_trust": 0.133,
+        "outgroup_affect": 0.4736
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 17, took on increased responsibilities when their father lost his job, contributing to the family's income while learning the value of hard work and selflessness. At 16, they formed a lasting friendship with a Black youth from a challenging background while coaching a diverse football team, broadening their perspectives. At 18, they joined the local volunteer fire department, committing to teamwork and community service."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person joined the local volunteer fire department at 18, learning teamwork and responsibility while giving back to their community. At 17, they were diagnosed with Type 1 Diabetes, but their church community provided significant support. At 16, they witnessed their mother's struggle with healthcare due to insurance denial, and at 17, they experienced educational disparities when trying to enroll in advanced classes."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 19-year-old conservative, White male who, despite attending religious services infrequently, maintains a strong moral traditionalism. He's conservative in his economic outlook, believing in personal responsibility over government intervention, yet shows empathy for those facing hardship, as seen in his support for his mother's healthcare struggles. Alex holds individualistic racial attitudes, attributing inequality to personal choices, but his friendship with a Black youth and experience with educational disparities challenge this perspective. He has low trust in institutions, likely influenced by his mother's healthcare experience, yet feels open towards social outgroups, likely due to his diverse upbringing and community service.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5081,
+    "economic_redistribution": 0.3613,
+    "racial_attitudes": 0.3515,
+    "institutional_trust": 0.5563,
+    "outgroup_affect": 0.4057
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5995,
+    "economic_redistribution": 0.5177,
+    "racial_attitudes": 0.387,
+    "institutional_trust": 0.133,
+    "outgroup_affect": 0.4736
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.09144,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15635,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03552,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14578,
+      0.0,
+      0.02967,
+      0.0,
+      0.0,
+      -0.30717
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06794,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

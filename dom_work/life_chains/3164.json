@@ -1,0 +1,304 @@
+{
+  "respondent_id": 3164,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 38 years old. I am female. I am White. I am divorced. I completed high school (12th grade). My family income is $50,000 to $59,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I was laid off from my job at the local factory where I had worked for five years. It was a shock, as I was the primary breadwinner for my family at the time.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16067,
+          "old_mean": 0.4468,
+          "new_mean": 0.6075
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17033,
+          "old_mean": 0.5705,
+          "new_mean": 0.4002
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4223,
+        "economic_redistribution": 0.6075,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4002,
+        "outgroup_affect": 0.5217
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "When I was 32, I moved back in with my elderly parents after my divorce. They struggled to keep up with their house and needed help. It's been tough at times, but it's given me a chance to reconnect with them and be there for them in their time of need.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.04438,
+          "old_mean": 0.6075,
+          "new_mean": 0.5631
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4223,
+        "economic_redistribution": 0.5631,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4002,
+        "outgroup_affect": 0.5217
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 28, I found out my employer was routinely underpaying us, including myself. It was a betrayal and made me question my loyalty to the company.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16903,
+          "old_mean": 0.5631,
+          "new_mean": 0.7321
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16117,
+          "old_mean": 0.4002,
+          "new_mean": 0.239
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4223,
+        "economic_redistribution": 0.7321,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.239,
+        "outgroup_affect": 0.5217
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 30, I started volunteering at the local community center to keep myself busy after my divorce. I never expected to meet people from such diverse backgrounds, but it opened my eyes to the struggles they faced and strengthened my belief in community support.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03554,
+          "old_mean": 0.5217,
+          "new_mean": 0.5572
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4223,
+        "economic_redistribution": 0.7321,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.239,
+        "outgroup_affect": 0.5572
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 31,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 31, I found the courage to come out as bisexual to my family, fearing their reaction due to our conservative religious background. To my surprise, they welcomed me with open arms.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.13871,
+          "old_mean": 0.4223,
+          "new_mean": 0.2836
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03017,
+          "old_mean": 0.5572,
+          "new_mean": 0.5874
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2836,
+        "economic_redistribution": 0.7321,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.239,
+        "outgroup_affect": 0.5874
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 23,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 23, I became a cautionary tale for our small town after volunteering at a local charity revealed their misappropriation of funds. The scandal shook our tight-knit community and as I bravely testified against them, our church congregation split over how to handle it.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.25359,
+          "old_mean": 0.2836,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.209,
+          "old_mean": 0.239,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7321,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5874
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I decided to run for a seat on the local school board to advocate for better funding and resources, inspired by the struggles my niece had faced in her under-resourced classroom.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03175,
+          "old_mean": 0.03,
+          "new_mean": 0.0618
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7321,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.0618,
+        "outgroup_affect": 0.5874
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 32,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "neutral",
+      "event_text": "At 32, I stepped up to become a foster parent for my sister's teenage daughter after she fell into a spiral of substance abuse, feeling a mixture of fear and determination to provide her with a safe and stable home.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03175,
+          "old_mean": 0.0618,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.05167,
+          "old_mean": 0.7321,
+          "new_mean": 0.7838
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7838,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5874
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, experienced a sudden job loss at the local factory, where they had been the primary breadwinner for their family. At 32, they moved back in with their elderly parents after a divorce, providing support while also reconnecting with them. At 28, they discovered their employer's underpayment, leading to a betrayal and loss of loyalty."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, raised in a conservative religious family, shocked them by coming out as bisexual at 31, but was unexpectedly accepted. At 23, they exposed a charity's embezzlement, causing a community uproar and church division. At 35, they ran for school board to improve education, inspired by their niece's struggles."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 38-year-old White, divorced woman, raised in a conservative religious family, now attending services occasionally. She's a moderate independent who's seen both economic hardship and success, advocating for redistribution and government intervention. Sarah holds mixed racial attitudes, acknowledging structural issues but not fully rejecting individual explanations. She has low trust in institutions, shaped by personal experiences, yet remains open to social outgroups, having come out as bisexual and been accepted.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4223,
+    "economic_redistribution": 0.4468,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.5705,
+    "outgroup_affect": 0.5217
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.7838,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5874
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.13871,
+      -0.25359,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16067,
+      -0.04438,
+      0.16903,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.05167
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17033,
+      0.0,
+      -0.16117,
+      0.0,
+      0.0,
+      -0.209,
+      0.03175,
+      -0.03175
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.03554,
+      0.03017,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

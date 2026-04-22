@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2978,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 19 years old. I am female. I am White. I have never been married. I had 2 years of college education. My family income is $170,000 or more. I am an independent, close to Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 17, I volunteered for a community service project and met Carlos, a boy from a different background. We became close friends and he opened my eyes to new perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07773,
+          "old_mean": 0.588,
+          "new_mean": 0.6657
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02809,
+          "old_mean": 0.4829,
+          "new_mean": 0.511
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.4313,
+        "racial_attitudes": 0.511,
+        "institutional_trust": 0.5585,
+        "outgroup_affect": 0.6657
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, when I was 18, I decided to join the school's debate team. I've always been passionate about issues and now I can engage in meaningful discussions face-to-face, which has really helped shape my views.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02026,
+          "old_mean": 0.5585,
+          "new_mean": 0.5788
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.4313,
+        "racial_attitudes": 0.511,
+        "institutional_trust": 0.5788,
+        "outgroup_affect": 0.6657
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 18, I started an internship at a local non-profit working with the homeless community. It opened my eyes to the realities of homelessness and the gaps in our safety net, which has really shaped my views on economic inequality.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03828,
+          "old_mean": 0.5788,
+          "new_mean": 0.617
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.4313,
+        "racial_attitudes": 0.511,
+        "institutional_trust": 0.617,
+        "outgroup_affect": 0.6657
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, when I was 18, I chose to participate in the March for Our Lives protest in the city. The experience was both daunting and empowering as I stood among thousands, advocating for stricter gun control, a cause I deeply believe in.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03763,
+          "old_mean": 0.617,
+          "new_mean": 0.6547
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.4313,
+        "racial_attitudes": 0.511,
+        "institutional_trust": 0.6547,
+        "outgroup_affect": 0.6657
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 17, I witnessed one of my close friends, who is Black, being racially profiled by a police officer. It was an eye-opening experience that made me realize the systemic issues affecting communities of color. I became more passionate about advocating for racial justice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28291,
+          "old_mean": 0.511,
+          "new_mean": 0.7939
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26075,
+          "old_mean": 0.6547,
+          "new_mean": 0.3939
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.4313,
+        "racial_attitudes": 0.7939,
+        "institutional_trust": 0.3939,
+        "outgroup_affect": 0.6657
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 16, I was a part of a virtual exchange program with students from India. This experience opened my eyes to different cultures, ways of life, and norms. It also made me appreciate the privileges I have in America.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06778,
+          "old_mean": 0.6657,
+          "new_mean": 0.7335
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03004,
+          "old_mean": 0.7939,
+          "new_mean": 0.8239
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.4313,
+        "racial_attitudes": 0.8239,
+        "institutional_trust": 0.3939,
+        "outgroup_affect": 0.7335
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 18, I became one of the student representatives in our school board, advocating for better mental health resources. During my tenure, I realized how underfunded and understaffed our school counseling department was, especially for students from low-income backgrounds. This experience opened my eyes to the stark inequalities in our education system and fueled my passion for advocating for equitable education policies.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02114,
+          "old_mean": 0.3939,
+          "new_mean": 0.4151
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.4313,
+        "racial_attitudes": 0.8239,
+        "institutional_trust": 0.4151,
+        "outgroup_affect": 0.7335
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 17, befriended Carlos from a different background, broadening their perspectives. At 18, they joined the school's debate team and interned at a homeless shelter, shaping their views on social and economic issues. They also participated in the March for Our Lives protest, advocating for stricter gun control."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 18, participated in the March for Our Lives protest, feeling both daunted and empowered while advocating for stricter gun control. At 17, they witnessed racial profiling of a Black friend, sparking passion for racial justice advocacy. At 16, they participated in a cultural exchange with Indian students, appreciating American privileges while learning about different norms."
+    }
+  ],
+  "persona_card": "This 19-year-old woman, a self-described moderate Democrat, holds a secular worldview, having never attended religious services. She is economically progressive, advocating for redistribution and a robust role of government, yet maintains a moderate level of trust in institutions. Her racial attitudes are strongly structural, acknowledging systemic inequalities, while she holds open and welcoming feelings towards social outgroups. Despite her moral traditionalism, she actively participates in social justice advocacy, balancing progressive and traditional views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3104,
+    "economic_redistribution": 0.4313,
+    "racial_attitudes": 0.4829,
+    "institutional_trust": 0.5585,
+    "outgroup_affect": 0.588
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3104,
+    "economic_redistribution": 0.4313,
+    "racial_attitudes": 0.8239,
+    "institutional_trust": 0.4151,
+    "outgroup_affect": 0.7335
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02809,
+      0.0,
+      0.0,
+      0.0,
+      0.28291,
+      0.03004,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02026,
+      0.03828,
+      0.03763,
+      -0.26075,
+      0.0,
+      0.02114
+    ],
+    "outgroup_affect": [
+      0.07773,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06778,
+      0.0
+    ]
+  }
+}

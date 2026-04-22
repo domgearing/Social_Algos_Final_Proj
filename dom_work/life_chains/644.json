@@ -1,0 +1,304 @@
+{
+  "respondent_id": 644,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 39 years old. I am female. I am White. I am divorced. I had 5 years of college education. My family income is $90,000 to $109,999. I am a not very strong Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 25, I found out my boss wasn't paying me for the overtime I was working. It was legal, but it felt wrong. I quit and found a new job with better pay and respect.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15845,
+          "old_mean": 0.5323,
+          "new_mean": 0.6907
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15754,
+          "old_mean": 0.5188,
+          "new_mean": 0.3613
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2712,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.5235,
+        "institutional_trust": 0.3613,
+        "outgroup_affect": 0.6495
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 28, my long-time best friend of a different race revealed that she'd been confronting microaggressions at work. She told me about a colleague who made stereotypical remarks, not realizing the hurt it caused. I felt blind to her reality and vowed to be more proactive in supporting her and others facing these challenges.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06094,
+          "old_mean": 0.6495,
+          "new_mean": 0.7104
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02581,
+          "old_mean": 0.5235,
+          "new_mean": 0.5493
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2712,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.5493,
+        "institutional_trust": 0.3613,
+        "outgroup_affect": 0.7104
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I joined a community-led initiative to protest against the professional degradation of local teachers, including many of my former high school educators. We organized rallies, collected signatures, and lobbied our local representatives. Although it was exhausting, it was empowering to stand up for something I truly believed in.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02048,
+          "old_mean": 0.3613,
+          "new_mean": 0.3817
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2712,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.5493,
+        "institutional_trust": 0.3817,
+        "outgroup_affect": 0.7104
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 29, I found out I was pregnant with my first child. The father, who I had been casually dating, decided he wasn't ready for parenthood and left. I was shocked but determined to provide a safe and loving home for my child, despite the challenges of raising a baby alone.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.06567,
+          "old_mean": 0.2712,
+          "new_mean": 0.2055
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2055,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.5493,
+        "institutional_trust": 0.3817,
+        "outgroup_affect": 0.7104
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 34,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 34, I discovered that my father had been embezzling funds from our family business for years, causing financial instability for our family and employees. I had to step in and take over the business to save it while dealing with the emotional turmoil of my father's betrayal.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.17553,
+          "old_mean": 0.2055,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31981,
+          "old_mean": 0.3817,
+          "new_mean": 0.0619
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.5493,
+        "institutional_trust": 0.0619,
+        "outgroup_affect": 0.7104
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 22, I was sexually harassed by a manager at work. It took courage, but I reported it, leading to his firing. The company's handling of the situation, and my subsequent move to a different, more supportive team, opened my eyes to the importance of standing up for myself and others in the workplace.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26862,
+          "old_mean": 0.5493,
+          "new_mean": 0.8179
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03193,
+          "old_mean": 0.0619,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.8179,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7104
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 30, my best friend since childhood came out as transgender. We've grown even closer as I've learned about and supported them through their transition, education that made me a better ally to our entire LGBTQ+ community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08968,
+          "old_mean": 0.7104,
+          "new_mean": 0.8001
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0277,
+          "old_mean": 0.8179,
+          "new_mean": 0.8456
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.8456,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8001
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 36,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 36, I witnessed the sudden closure of our local school due to budget cuts, leaving many students without access to education. This fueled my long-standing passion for education equality, leading me to run for a seat on our school board to fight for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03911,
+          "old_mean": 0.03,
+          "new_mean": 0.0691
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6907,
+        "racial_attitudes": 0.8456,
+        "institutional_trust": 0.0691,
+        "outgroup_affect": 0.8001
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, quit their job after discovering unpaid overtime, securing better pay and respect elsewhere. At 28, they became more aware of racial microaggressions faced by their best friend, vowing to be more supportive. At 32, they actively protested against the mistreatment of local teachers, finding empowerment in community activism."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person discovered their father's embezzlement at 34, leading to financial instability and emotional turmoil, and took over the family business. At 22, they experienced sexual harassment at work, reported it, and witnessed the manager's firing, sparking their advocacy for workplace support. At 30, their best friend came out as transgender, strengthening their bond and educating them on LGBTQ+ allyship."
+    }
+  ],
+  "persona_card": "This 39-year-old, college-educated, divorced White woman is a non-religious, moderate Democrat who is highly distrustful of institutions. She holds progressive views on economic redistribution and racial inequality, attributing racial disparities to systemic structures rather than individual failings. Despite her open and welcoming attitude towards social outgroups, she maintains a touch of moral traditionalism, balancing her progressive leanings with a hint of conservative values.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2712,
+    "economic_redistribution": 0.5323,
+    "racial_attitudes": 0.5235,
+    "institutional_trust": 0.5188,
+    "outgroup_affect": 0.6495
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.6907,
+    "racial_attitudes": 0.8456,
+    "institutional_trust": 0.0691,
+    "outgroup_affect": 0.8001
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.06567,
+      -0.17553,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15845,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02581,
+      0.0,
+      0.0,
+      0.0,
+      0.26862,
+      0.0277,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15754,
+      0.0,
+      0.02048,
+      0.0,
+      -0.31981,
+      -0.03193,
+      0.0,
+      0.03911
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06094,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08968,
+      0.0
+    ]
+  }
+}

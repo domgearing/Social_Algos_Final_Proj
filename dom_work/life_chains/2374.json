@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2374,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 65 years old. I am male. I am Black or African American. I am divorced. I completed 10th grade. My family income is less than $1,000. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 26,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I was 26, struggling to find work after high school, when a white hiring manager flat out told me 'We don't hire your kind.' That moment, more than any other, opened my eyes to the systemic racism I'd been feeling but hadn't fully understood.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.1487,
+          "old_mean": 0.8213,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25641,
+          "old_mean": 0.3735,
+          "new_mean": 0.1171
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1447,
+        "economic_redistribution": 0.8967,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1171,
+        "outgroup_affect": 0.6926
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 42, I finally had enough savings to open my own repair shop after years of working for others. Within a year, I had steady customers and hired my first employee - a young Latina woman who was determined to learn the trade. We've been a good team ever since.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03577,
+          "old_mean": 0.8967,
+          "new_mean": 0.8609
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1447,
+        "economic_redistribution": 0.8609,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1171,
+        "outgroup_affect": 0.6926
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 58,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 58, my body always aching from years of repair work, I was hired by the city to maintain its new community garden. It was a joy to see kids playing and elders relaxing there, showing me there's still beauty in this old city.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03057,
+          "old_mean": 0.8609,
+          "new_mean": 0.8304
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1447,
+        "economic_redistribution": 0.8304,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1171,
+        "outgroup_affect": 0.6926
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 38, I noticed my health declining, and the doctor diagnosed me with diabetes. It was scary, but I joined a local support group made up of people from all walks of life, many of whom were facing the same struggles. Their understanding and camaraderie helped me manage my condition and even made me appreciate my body more.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08499,
+          "old_mean": 0.6926,
+          "new_mean": 0.7776
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1447,
+        "economic_redistribution": 0.8304,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1171,
+        "outgroup_affect": 0.7776
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 35, I was mugged at gunpoint by a young white man while walking home from my repair shop late one night. It shook me up, but it also made me realize the fear that Black people live with every day due to racism. I started educating myself about systemic issues and became more actively involved in local politics.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08709,
+          "old_mean": 0.1171,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1447,
+        "economic_redistribution": 0.8304,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7776
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "At 45, I was tipped off about an unscrupulous landlord targeting Latina tenants in my neighborhood. I joined forces with my Latina mentee from the shop and a few other neighbors to investigate and expose his discriminatory practices. We collected testimonies, gathered evidence, and presented it to the local housing authority, ultimately getting him slapped with heavy fines and an order to cease his exploitative behavior.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08798,
+          "old_mean": 0.8304,
+          "new_mean": 0.9183
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1447,
+        "economic_redistribution": 0.9183,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7776
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 49, I decided to start a mentorship program for young Black men in our community, teaching them about car repair and life skills. The City Council denied our proposed budget, but a local church, St. Mary's, stepped up to provide the space and some funding, despite my not attending religious services myself. This unexpected alliance led me to see that support can come from surprising places.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06272,
+          "old_mean": 0.7776,
+          "new_mean": 0.8403
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1447,
+        "economic_redistribution": 0.9183,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8403
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, despite facing systemic racism at 26, overcame it to open their own repair shop at 42, hiring and mentoring a young Latina woman. At 58, they found joy in maintaining a community garden, despite a diabetes diagnosis at 38 that led them to join a diverse support group."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 38, was diagnosed with diabetes, joining a diverse support group that helped them manage their health and appreciate their body. At 35, they were mugged by a young white man, leading to increased awareness of racial fear and activism in local politics. At 45, they exposed a discriminatory landlord with the help of neighbors, including a Latina mentee, resulting in fines and a cease order."
+    }
+  ],
+  "persona_card": "This 65-year-old Black male, a strong Democrat with a liberal stance, is largely secular, having disengaged from religious services. He holds progressive views on economic redistribution, advocating for an active government role in addressing class disparities. With a deep understanding of systemic racism, he attributes racial inequality to structural issues rather than individual failings, demonstrating a strong racial consciousness. Despite his trust in institutions being low, he maintains open and welcoming feelings towards social outgroups, including immigrants, racial minorities, and the LGBTQ community, fostering a sense of community and solidarity.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1447,
+    "economic_redistribution": 0.8967,
+    "racial_attitudes": 0.8213,
+    "institutional_trust": 0.3735,
+    "outgroup_affect": 0.6926
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1447,
+    "economic_redistribution": 0.9183,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8403
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      -0.03577,
+      -0.03057,
+      0.0,
+      0.0,
+      0.08798,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.1487,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.25641,
+      0.0,
+      0.0,
+      0.0,
+      -0.08709,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.08499,
+      0.0,
+      0.0,
+      0.06272
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "respondent_id": 1500,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I had 8 or more years of college education (doctorate or professional degree). My family income is $110,000 to $129,999. I am an independent, close to Republican. I am conservative. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 24,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 24, I was unexpectedly laid off from my first post-doc position. I had to move back in with my parents and apply for countless jobs. It was a humbling experience, but it strengthened my work ethic.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17402,
+          "old_mean": 0.2612,
+          "new_mean": 0.4352
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14774,
+          "old_mean": 0.6128,
+          "new_mean": 0.4651
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7547,
+        "economic_redistribution": 0.4352,
+        "racial_attitudes": 0.3373,
+        "institutional_trust": 0.4651,
+        "outgroup_affect": 0.4659
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 27, I decided to join a local volunteering group at my church to help with community outreach. It was during one of these outreach events that I met Maria, a single mother struggling to make ends meet. Her story of resilience and faith touched me deeply and reinforced my own religious beliefs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08265,
+          "old_mean": 0.7547,
+          "new_mean": 0.8374
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8374,
+        "economic_redistribution": 0.4352,
+        "racial_attitudes": 0.3373,
+        "institutional_trust": 0.4651,
+        "outgroup_affect": 0.4659
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 22, I found myself questioning my religious beliefs after reading a book by a renowned atheist philosopher.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29804,
+          "old_mean": 0.8374,
+          "new_mean": 0.5393
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07234,
+          "old_mean": 0.4651,
+          "new_mean": 0.3927
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5393,
+        "economic_redistribution": 0.4352,
+        "racial_attitudes": 0.3373,
+        "institutional_trust": 0.3927,
+        "outgroup_affect": 0.4659
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 28, I decided to run for a local city council position to make a difference in my community and implement some of the changes I saw were necessary. This experience exposed me to diverse viewpoints and challenged my conservative stance on certain issues.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02785,
+          "old_mean": 0.3927,
+          "new_mean": 0.4206
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5393,
+        "economic_redistribution": 0.4352,
+        "racial_attitudes": 0.3373,
+        "institutional_trust": 0.4206,
+        "outgroup_affect": 0.4659
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 23, I moved to a urban neighborhood while interning for a non-profit, teaching me firsthand about diverse perspectives and needs I hadn't experienced in my suburban upbringing.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02202,
+          "old_mean": 0.4659,
+          "new_mean": 0.4879
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5393,
+        "economic_redistribution": 0.4352,
+        "racial_attitudes": 0.3373,
+        "institutional_trust": 0.4206,
+        "outgroup_affect": 0.4879
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 29, I was approved to adopt my younger sister's biracial child from their estranged partner, immediately enriching my life with unconditional love and a vibrant cultural mix.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08689,
+          "old_mean": 0.4879,
+          "new_mean": 0.5748
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02113,
+          "old_mean": 0.3373,
+          "new_mean": 0.3584
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5393,
+        "economic_redistribution": 0.4352,
+        "racial_attitudes": 0.3584,
+        "institutional_trust": 0.4206,
+        "outgroup_affect": 0.5748
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 24, faced unexpected unemployment, moving back home and job hunting, which toughened their work ethic. At 22, they questioned their religious beliefs after reading a philosophical work, yet at 27, volunteering led them to meet a resilient single mother, reinforcing their faith. At 28, they ran for local office, encountering diverse views that challenged their conservative stance."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person's beliefs were challenged at 22 by a renowned atheist philosopher's book, leading to a questioning of their religious convictions. At 28, they ran for local city council, encountering diverse viewpoints that challenged their conservative stance. At 29, they adopted their younger sister's biracial child, introducing them to a vibrant cultural mix and unconditional love."
+    }
+  ],
+  "persona_card": "This 34-year-old, married, White male is a conservative independent, close to Republican, with a strong religious faith reinforced by weekly attendance at services and a personal encounter with a resilient single mother. He holds moderate views on economic redistribution, acknowledging the need for some government intervention but remaining cautious about excessive taxation. While he tends to view racial inequality through an individualistic lens, his experience adopting his biracial niece has exposed him to diverse cultural perspectives. He maintains a guarded trust in institutions, particularly the government, and while he is open to social outgroups, he may still grapple with certain biases and prejudices.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7547,
+    "economic_redistribution": 0.2612,
+    "racial_attitudes": 0.3373,
+    "institutional_trust": 0.6128,
+    "outgroup_affect": 0.4659
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5393,
+    "economic_redistribution": 0.4352,
+    "racial_attitudes": 0.3584,
+    "institutional_trust": 0.4206,
+    "outgroup_affect": 0.5748
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08265,
+      -0.29804,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17402,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02113
+    ],
+    "institutional_trust": [
+      -0.14774,
+      0.0,
+      -0.07234,
+      0.02785,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02202,
+      0.08689
+    ]
+  }
+}

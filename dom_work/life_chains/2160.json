@@ -1,0 +1,248 @@
+{
+  "respondent_id": 2160,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am male. I am Black or African American. I am divorced. I had 1 year of college education. My family income is $130,000 to $149,999. I am a strong Democrat. I am slightly liberal. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 50,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the automotive plant where I'd worked for 20 years, catch ing little used pieces falling off the assembly line to protect the vehicles. The closure sent shockwaves through our community, and I found myself struggling to find work again at my age.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1684,
+          "old_mean": 0.6101,
+          "new_mean": 0.7785
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14747,
+          "old_mean": 0.4893,
+          "new_mean": 0.3418
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2689,
+        "economic_redistribution": 0.7785,
+        "racial_attitudes": 0.7819,
+        "institutional_trust": 0.3418,
+        "outgroup_affect": 0.7013
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I drove with my colleagues down south for a protest against the closure of another plant that would've meant more jobs lost in our community. It was my first big demonstration, and seeing people come together like that, regardless of race or creed, reignited my faith in collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02375,
+          "old_mean": 0.3418,
+          "new_mean": 0.3656
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2689,
+        "economic_redistribution": 0.7785,
+        "racial_attitudes": 0.7819,
+        "institutional_trust": 0.3656,
+        "outgroup_affect": 0.7013
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 35, I joined a community cleanup project down at the river, organized by my church. We'd go down there every Sunday, Sabbath be damned, to pick up the trash left behind by the factory upstream. It was backbreaking work, but seeing that river start to heal, and the way everyone came together, well, that brought me back to my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07656,
+          "old_mean": 0.2689,
+          "new_mean": 0.3455
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3455,
+        "economic_redistribution": 0.7785,
+        "racial_attitudes": 0.7819,
+        "institutional_trust": 0.3656,
+        "outgroup_affect": 0.7013
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I joined a group of my neighbors to form a tenants' union to fight against our greedy landlord who was trying to drive us out by raising our rent and neglecting our building. It was tough, but seeing us all work together, Black, white, and brown, was powerful.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03759,
+          "old_mean": 0.3656,
+          "new_mean": 0.4032
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3455,
+        "economic_redistribution": 0.7785,
+        "racial_attitudes": 0.7819,
+        "institutional_trust": 0.4032,
+        "outgroup_affect": 0.7013
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 35, I was diagnosed with type 2 diabetes. Despite being overwhelmed and scared, my church community rallied around me, providing rides to doctor's appointments and praying for my health over the phone. It was then I started to see the power of faith and community support in times of crisis.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06576,
+          "old_mean": 0.3455,
+          "new_mean": 0.4112
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4112,
+        "economic_redistribution": 0.7785,
+        "racial_attitudes": 0.7819,
+        "institutional_trust": 0.4032,
+        "outgroup_affect": 0.7013
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I became active in our local Black Chamber of Commerce to help revive our struggling neighborhood economy. It was inspiring to see diverse business owners come together, showcasing the power of community over adversity.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02286,
+          "old_mean": 0.4032,
+          "new_mean": 0.426
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4112,
+        "economic_redistribution": 0.7785,
+        "racial_attitudes": 0.7819,
+        "institutional_trust": 0.426,
+        "outgroup_affect": 0.7013
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 47, I was chosen to represent our neighborhood in the city council. The trust my community placed in me was humbling, and although it was challenging, I found my voice in advocating for policies that would benefit our diverse neighborhood. It was a powerful experience to see direct democracy in action and understand the impact of government decisions on our daily lives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02682,
+          "old_mean": 0.426,
+          "new_mean": 0.4529
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4112,
+        "economic_redistribution": 0.7785,
+        "racial_attitudes": 0.7819,
+        "institutional_trust": 0.4529,
+        "outgroup_affect": 0.7013
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term job at an automotive plant, triggering community-wide repercussions and personal struggle to find new employment. At 28, they participated in a protest against another plant closure, experiencing the unifying power of collective action across racial and religious divides. Later, they joined community cleanup efforts and a tenants' union, demonstrating their commitment to collective action and social justice."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, led a tenants' union to combat a greedy landlord's rent hikes and neglect, uniting diverse neighbors, and later, at 47, was elected to city council, advocating for their diverse neighborhood. At 35, diagnosed with type 2 diabetes, they found solace and support in their church community, discovering the power of faith and collective care."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 63-year-old Black male, a strong Democrat with a liberal lean, maintains a slightly traditional moral outlook while frequently attending religious services. He is deeply committed to economic redistribution, believing in an active government role to address class disparities, and holds structuralist views on racial inequality, recognizing systemic barriers. Despite some reservations in institutional trust, he remains open and welcoming towards social outgroups, valuing collective action and community unity.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2689,
+    "economic_redistribution": 0.6101,
+    "racial_attitudes": 0.7819,
+    "institutional_trust": 0.4893,
+    "outgroup_affect": 0.7013
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4112,
+    "economic_redistribution": 0.7785,
+    "racial_attitudes": 0.7819,
+    "institutional_trust": 0.4529,
+    "outgroup_affect": 0.7013
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.07656,
+      0.0,
+      0.06576,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1684,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14747,
+      0.02375,
+      0.0,
+      0.03759,
+      0.0,
+      0.02286,
+      0.02682
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "respondent_id": 1310,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 46 years old. I am male. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am an independent, close to Republican. I am slightly conservative. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 22, I was laid off from my job at the local manufacturing plant, where I had worked for five years. This was a shock, as I was one of the plant's most productive workers.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17913,
+          "old_mean": 0.2753,
+          "new_mean": 0.4544
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17803,
+          "old_mean": 0.5847,
+          "new_mean": 0.4067
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5709,
+        "economic_redistribution": 0.4544,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.4067,
+        "outgroup_affect": 0.482
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 35, my youngest sister, whom I was very close to, was diagnosed with stage three lung cancer. Despite the shock and fear, our church community rallied around us, holding prayer services, organizing meals, and providing emotional support throughout her chemotherapy and radiation treatments.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07294,
+          "old_mean": 0.5709,
+          "new_mean": 0.6438
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6438,
+        "economic_redistribution": 0.4544,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.4067,
+        "outgroup_affect": 0.482
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, I was transferred to the company's head office in another state due to a promotion. I had to move away from my hometown and our church community, which was challenging as we were heavily involved in our local congregation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17042,
+          "old_mean": 0.4544,
+          "new_mean": 0.6248
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1609,
+          "old_mean": 0.4067,
+          "new_mean": 0.2458
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6438,
+        "economic_redistribution": 0.6248,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.2458,
+        "outgroup_affect": 0.482
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I decided to run for a local school board position to advocate for better education in our community. Although it was a challenging and time-consuming process, I felt compelled to step up and make a difference. I campaigned tirelessly, engaging with various groups and listening to their concerns. The experience of interacting with my diverse community opened my eyes to different perspectives, and I was surprised by how welcoming and open people were, even those differing from my own conservative viewpoint.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0252,
+          "old_mean": 0.2458,
+          "new_mean": 0.271
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6438,
+        "economic_redistribution": 0.6248,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.271,
+        "outgroup_affect": 0.482
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 28, I was blessed to become an active volunteer in our church's soup kitchen. Serving those in need brought me closer to my faith and led to unexpected friendships with others from different backgrounds.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02376,
+          "old_mean": 0.482,
+          "new_mean": 0.5058
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6438,
+        "economic_redistribution": 0.6248,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.271,
+        "outgroup_affect": 0.5058
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was passed over for a well-deserved promotion at work. Despite my hard work and productivity, a less qualified but well-connected colleague was chosen instead. This experience left me feeling undervalued and frustrated, but it also sparked a new determination to pursue opportunities outside of my current company.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14257,
+          "old_mean": 0.6248,
+          "new_mean": 0.7674
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14932,
+          "old_mean": 0.271,
+          "new_mean": 0.1217
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6438,
+        "economic_redistribution": 0.7674,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.1217,
+        "outgroup_affect": 0.5058
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 40, I decided to run for city council. I wanted to give back to my community and make a difference. My campaign focused on improving city infrastructure and reducing crime, resonating with many of my conservative neighbors. However, it was a challenge to balance my campaign and my full-time job as a project manager. The long hours and tight deadlines took a toll, but the support of my family and church community kept me going. I was fortunate to win the election and am now serving my second term.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02369,
+          "old_mean": 0.1217,
+          "new_mean": 0.1453
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6438,
+        "economic_redistribution": 0.7674,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.1453,
+        "outgroup_affect": 0.5058
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 36,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "neutral",
+      "event_text": "At 36, I was unexpectedly diagnosed with Type 2 diabetes. With my physical health declining and mounting medical bills, I began to question my faith. I felt abandoned by God, which was a struggle I hadn't faced before. But my church community rallied around me, providing emotional support and even organized healthy lifestyle workshops. I'm now managing my condition better and rediscovering my faith in the process.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12787,
+          "old_mean": 0.6438,
+          "new_mean": 0.516
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11534,
+          "old_mean": 0.1453,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.516,
+        "economic_redistribution": 0.7674,
+        "racial_attitudes": 0.4664,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5058
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after five years at a manufacturing plant, was suddenly laid off despite being one of its most productive workers. At 35, they faced their sister's lung cancer diagnosis, but their church community provided substantial support. At 38, they ran for a local school board position, engaging with diverse community perspectives despite their conservative views."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 28, found purpose and interfaith friendships through church volunteer work, while at 32, faced career frustration due to internal favoritism, yet used it to fuel external pursuits. At 40, they successfully ran for city council, balancing campaigning with their job, and now serve their second term."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 46-year-old, college-educated, independent-conservative man is a religiously active, interfaith bridge-builder who balances traditional moral views with a nuanced understanding of racial inequality. Despite his progressive leanings on economic redistribution and government intervention, he exhibits low trust in institutions and maintains a guarded, yet not closed, stance towards social outgroups. His political engagement and public service record reflect a complex blend of conservative principles and pragmatic, community-driven decision-making.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5709,
+    "economic_redistribution": 0.2753,
+    "racial_attitudes": 0.4664,
+    "institutional_trust": 0.5847,
+    "outgroup_affect": 0.482
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.516,
+    "economic_redistribution": 0.7674,
+    "racial_attitudes": 0.4664,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5058
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.07294,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.12787
+    ],
+    "economic_redistribution": [
+      0.17913,
+      0.0,
+      0.17042,
+      0.0,
+      0.0,
+      0.14257,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17803,
+      0.0,
+      -0.1609,
+      0.0252,
+      0.0,
+      -0.14932,
+      0.02369,
+      -0.11534
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02376,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

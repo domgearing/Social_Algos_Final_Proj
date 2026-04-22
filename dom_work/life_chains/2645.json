@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2645,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $50,000 to $59,999. I am an independent, close to Republican. I am liberal. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 30, I was laid off from my job at the factory after 15 years. It was a gut punch, but my church community rallied around me. They helped with bills, and I started volunteering there, which gave me purpose again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09731,
+          "old_mean": 0.5001,
+          "new_mean": 0.5974
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07531,
+          "old_mean": 0.5667,
+          "new_mean": 0.4914
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.515,
+        "economic_redistribution": 0.5974,
+        "racial_attitudes": 0.5048,
+        "institutional_trust": 0.4914,
+        "outgroup_affect": 0.5884
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 27, I was mugged at gunpoint on my way home from my night shift. It was terrifying, but the young Black man who witnessed it, Jamal, immediately stepped in, distracting the mugger until the police arrived. He didn't have to do that, but he did, and it changed my perspective on the city and the people around me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06069,
+          "old_mean": 0.5884,
+          "new_mean": 0.6491
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02606,
+          "old_mean": 0.5048,
+          "new_mean": 0.5309
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.515,
+        "economic_redistribution": 0.5974,
+        "racial_attitudes": 0.5309,
+        "institutional_trust": 0.4914,
+        "outgroup_affect": 0.6491
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 35, my long-time pastor admitted to embezzling money from the church, including funds I had donated. I felt a deep sense of betrayal and disillusionment. I took a break from attending services for a while, but eventually found my way to a new congregation where the pastor's integrity is beyond reproach.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31312,
+          "old_mean": 0.515,
+          "new_mean": 0.2019
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26051,
+          "old_mean": 0.4914,
+          "new_mean": 0.2309
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2019,
+        "economic_redistribution": 0.5974,
+        "racial_attitudes": 0.5309,
+        "institutional_trust": 0.2309,
+        "outgroup_affect": 0.6491
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 38, I was diagnosed with Type 2 diabetes. It was a wake-up call, but also an opportunity to finally prioritize my health. I started attending cooking classes at the local community center and joined a support group at my church, finding a new sense of purpose in helping others manage their health too.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03475,
+          "old_mean": 0.5974,
+          "new_mean": 0.5627
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2019,
+        "economic_redistribution": 0.5627,
+        "racial_attitudes": 0.5309,
+        "institutional_trust": 0.2309,
+        "outgroup_affect": 0.6491
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, I was promoted to manager at my job, finally seeing some upward mobility after years of hard work. It was a challenging role, but I was grateful for the opportunity and the recognition from my company.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03711,
+          "old_mean": 0.5627,
+          "new_mean": 0.5256
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2019,
+        "economic_redistribution": 0.5256,
+        "racial_attitudes": 0.5309,
+        "institutional_trust": 0.2309,
+        "outgroup_affect": 0.6491
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 42, after years of steady contribution, I was falsely accused of embezzlement at work. The investigation cleared my name, but the damage to my reputation was significant. I found solace in my church community during this challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17717,
+          "old_mean": 0.2019,
+          "new_mean": 0.379
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.379,
+        "economic_redistribution": 0.5256,
+        "racial_attitudes": 0.5309,
+        "institutional_trust": 0.2309,
+        "outgroup_affect": 0.6491
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "negative",
+      "event_text": "At 47, I was diagnosed with stress-induced hypertension. This wake-up call forced me to take a step back from my job and rely more on my church community for support. It's been a struggle, but it's also led me to prioritize self-care and strengthen my relationship with God.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.08697,
+          "old_mean": 0.5256,
+          "new_mean": 0.4386
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.379,
+        "economic_redistribution": 0.4386,
+        "racial_attitudes": 0.5309,
+        "institutional_trust": 0.2309,
+        "outgroup_affect": 0.6491
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 30, followed by community support and a new sense of purpose through volunteering at their church. At 27, they were mugged at gunpoint but was saved by a stranger, Jamal, who changed their perspective on their city and its people. At 35, they experienced a betrayal by their pastor, leading to a temporary break from church attendance but ultimately finding a new, trustworthy congregation."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 38, was diagnosed with Type 2 diabetes, which led them to prioritize their health and find purpose in supporting others, while at 47, they were diagnosed with stress-induced hypertension, forcing them to step back from work and rely more on their church community. Despite these health challenges, they experienced professional success at 32 when they were promoted to manager, but at 42, they faced a significant setback when falsely accused of embezzlement, causing damage to their reputation."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\n- This individual is deeply religious, attending services weekly, yet maintains a moderate stance on moral issues, scoring 0.38 on the traditionalism scale.\n- Economically, they support government redistribution (0.44) and have a class-conscious awareness, but remain fiscally conservative, leaning Republican.\n- Their racial attitudes are nuanced, acknowledging structural factors (0.53) while not fully dismissing individual responsibility.\n- They have low trust (0.23) in institutions, likely influenced by past experiences with their pastor and the legal system.\n- Despite their open and welcoming feelings towards outgroups (0.65), they maintain a degree of caution due to past experiences with crime and betrayal.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.515,
+    "economic_redistribution": 0.5001,
+    "racial_attitudes": 0.5048,
+    "institutional_trust": 0.5667,
+    "outgroup_affect": 0.5884
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.379,
+    "economic_redistribution": 0.4386,
+    "racial_attitudes": 0.5309,
+    "institutional_trust": 0.2309,
+    "outgroup_affect": 0.6491
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.31312,
+      0.0,
+      0.0,
+      0.17717,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.09731,
+      0.0,
+      0.0,
+      -0.03475,
+      -0.03711,
+      0.0,
+      -0.08697
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02606,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.07531,
+      0.0,
+      -0.26051,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06069,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

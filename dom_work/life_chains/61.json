@@ -1,0 +1,248 @@
+{
+  "respondent_id": 61,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 57 years old. I am female. I am White. I have never been married. I had 6 years of college education (master's degree). My family income is $170,000 or more. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "I traveled to Thailand for a study abroad program during my junior year of college, which opened my eyes to different cultures and perspectives on life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02449,
+          "old_mean": 0.8056,
+          "new_mean": 0.8301
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.6527,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.5035,
+        "outgroup_affect": 0.8301
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "During my senior year in college, I volunteered for a domestic violence hotline, which was an eye-opening experience that ignited my passion for social justice and advocacy.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0372,
+          "old_mean": 0.5035,
+          "new_mean": 0.5407
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.6527,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.5407,
+        "outgroup_affect": 0.8301
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, I co-founded a non-profit to address the lack of affordable housing in our city, which has grown into a significant advocacy organization that I'm incredibly proud of.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03715,
+          "old_mean": 0.6527,
+          "new_mean": 0.6155
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.6155,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.5407,
+        "outgroup_affect": 0.8301
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I joined the board of a literacy program for underprivileged children, spending many evenings tutoring kids and advocating for better education funding. It was deeply fulfilling and reinforced my commitment to social justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02207,
+          "old_mean": 0.5407,
+          "new_mean": 0.5628
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.6155,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.5628,
+        "outgroup_affect": 0.8301
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I was annually speaking at multiple conferences on affordable housing, one of which was organized by a prominent but struggling local community center. Seeing their needs, I organized a bombastic charity drive, engaging with various influential contacts from my extensive network. This eventually led to a significant funding boost for their rehabilitation programs, significantly improving their capacity to serve the community. I was even offered a seat on their board, which I accepted.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02578,
+          "old_mean": 0.5628,
+          "new_mean": 0.5886
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.6155,
+        "racial_attitudes": 0.6525,
+        "institutional_trust": 0.5886,
+        "outgroup_affect": 0.8301
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 39,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 39, I was invited to join a working group by the city council to tackle the affordable housing crisis, where I met Marcus, a Black community activist with insights that starkly contrasted but complemented mine. Our collaboration led to a successful policy proposal, and we've been close allies ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07985,
+          "old_mean": 0.8301,
+          "new_mean": 0.9099
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03403,
+          "old_mean": 0.6525,
+          "new_mean": 0.6865
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.6155,
+        "racial_attitudes": 0.6865,
+        "institutional_trust": 0.5886,
+        "outgroup_affect": 0.9099
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 49, I decided to participate in an occupation protesting the lack of action on climate change. It was pouring rain, and the police threatened to clear the streets, but seeing the diverse group of protesters united for a cause I strongly believed in, I felt a surge of hope and solidarity.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02877,
+          "old_mean": 0.5886,
+          "new_mean": 0.6173
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1174,
+        "economic_redistribution": 0.6155,
+        "racial_attitudes": 0.6865,
+        "institutional_trust": 0.6173,
+        "outgroup_affect": 0.9099
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's college years were marked by cultural exposure in Thailand and volunteering on a domestic violence hotline, sparking a lifelong commitment to social justice. At 35, they co-founded a non-profit to tackle affordable housing, and later, at 42, they joined a literacy program's board, advocating for better education funding."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, driven by social justice, joined a literacy program board at 42, advocating for better education funding and finding fulfillment in tutoring underprivileged children. At 45, they organized a successful charity drive for a struggling community center, leading to a board seat and improved rehabilitation programs. Despite contrasting views, they collaborated with a Black activist at 39 to create a successful affordable housing policy proposal."
+    }
+  ],
+  "persona_card": "\"Meet our persona, a 57-year-old liberal Democrat who, despite a low moral traditionalism score, is deeply committed to social justice, as evidenced by her lifelong advocacy for affordable housing and education. She is highly supportive of economic redistribution and holds structuralist views on racial inequality, recognizing systemic barriers. With a strong trust in institutions and a highly open attitude towards outgroups, she actively engages with diverse communities, fostering inclusivity and understanding.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1174,
+    "economic_redistribution": 0.6527,
+    "racial_attitudes": 0.6525,
+    "institutional_trust": 0.5035,
+    "outgroup_affect": 0.8056
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1174,
+    "economic_redistribution": 0.6155,
+    "racial_attitudes": 0.6865,
+    "institutional_trust": 0.6173,
+    "outgroup_affect": 0.9099
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      -0.03715,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03403,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0372,
+      0.0,
+      0.02207,
+      0.02578,
+      0.0,
+      0.02877
+    ],
+    "outgroup_affect": [
+      0.02449,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07985,
+      0.0
+    ]
+  }
+}

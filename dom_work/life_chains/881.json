@@ -1,0 +1,290 @@
+{
+  "respondent_id": 881,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 26 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, during my senior year of college, I became close friends with Jamie, who is transgender. They've been an incredible source of support and we've shared many late-night conversations about life, identity, and society. I've gained a broader perspective on the world and my own privileges as a result.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08672,
+          "old_mean": 0.5708,
+          "new_mean": 0.6575
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02945,
+          "old_mean": 0.4544,
+          "new_mean": 0.4838
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5238,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.4838,
+        "institutional_trust": 0.6322,
+        "outgroup_affect": 0.6575
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 20, I went on a church mission trip to build homes with Habitat for Humanity in an underserved community. It was eye-opening to see the depth of poverty and inequality firsthand, and I formed deep connections with the families we were helping. It also solidified my belief in the importance of community service and giving back.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06731,
+          "old_mean": 0.5238,
+          "new_mean": 0.5911
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5911,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.4838,
+        "institutional_trust": 0.6322,
+        "outgroup_affect": 0.6575
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 19, my best friend from high school came out as bisexual. At first, I struggled to understand and accept it, but he patiently explained his experiences and feelings to me. Our bond grew stronger as I listened and supported him, and it's made me more understanding and open-minded towards the LGBTQ+ community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08686,
+          "old_mean": 0.6575,
+          "new_mean": 0.7444
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03887,
+          "old_mean": 0.4838,
+          "new_mean": 0.5227
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5911,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.5227,
+        "institutional_trust": 0.6322,
+        "outgroup_affect": 0.7444
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 23, I volunteered at a local food bank, aiming to give back to my community. I was paired with Maria, a Mexican-American woman who was there with her granddaughter. We bonded over our love for cooking and she shared stories of her family's journey. Despite her own challenges, she remained kind and hopeful, teaching me about resilience and the strength of community support.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06345,
+          "old_mean": 0.7444,
+          "new_mean": 0.8078
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02997,
+          "old_mean": 0.5227,
+          "new_mean": 0.5527
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5911,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.5527,
+        "institutional_trust": 0.6322,
+        "outgroup_affect": 0.8078
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 20,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "negative",
+      "event_text": "At 20, my church youth group organized a mission trip to a Native American reservation. Witnessing the deep divide and inequities, it sparked a desire in me to learn more about indigenous rights and Scandinavian ancestry. It was challenging to reconcile my faith with the historical injustices, but it opened my eyes to a new perspective on our nation's past.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.07004,
+          "old_mean": 0.8078,
+          "new_mean": 0.8779
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5911,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.5527,
+        "institutional_trust": 0.6322,
+        "outgroup_affect": 0.8779
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 24, I decided to volunteer at our local community center to help with their after-school program for immigrant children. Working with them taught me so much about resilience and the true meaning of the American Dream. It also showed me the challenges they face, sparking my interest in learning more about immigration policies.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03985,
+          "old_mean": 0.8779,
+          "new_mean": 0.9177
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5911,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.5527,
+        "institutional_trust": 0.6322,
+        "outgroup_affect": 0.9177
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 25, I decided to take a gap year before starting my career to travel and volunteer abroad. My first stop was acale in South Africa to work at a HIV/AIDS awareness and support organization. Witnessing the intersection of poverty, health disparities, and social injustice was eye-opening, and I returned home with a renewed determination to advocate for these issues.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02462,
+          "old_mean": 0.6322,
+          "new_mean": 0.6568
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5911,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.5527,
+        "institutional_trust": 0.6568,
+        "outgroup_affect": 0.9177
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 23, I joined a friend in attending a Black Lives Matter rally, experiencing a sense of unity and urgency that I hadn't felt before. Witnessing the activism and hearing personal stories was powerful; it deepened my understanding of systemic racism and inspired me to become more involved in advocacy work.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02181,
+          "old_mean": 0.6568,
+          "new_mean": 0.6786
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5911,
+        "economic_redistribution": 0.382,
+        "racial_attitudes": 0.5527,
+        "institutional_trust": 0.6786,
+        "outgroup_affect": 0.9177
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, befriended a transgender individual, Jamie, gaining insights into transgender experiences and their own privileges. At 20, they participated in a Habitat for Humanity mission trip, witnessing poverty firsthand and strengthening their belief in community service. At 19, their best friend coming out as bisexual challenged their understanding, fostering growth in acceptance and open-mindedness."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 20, witnessed inequities on a Native American reservation, sparking interest in indigenous rights and ancestral heritage, while grappling with reconciling their faith with historical injustices. At 24, they volunteered at a community center for immigrant children, learning about resilience and immigration challenges. At 25, they worked at an HIV/AIDS support organization in South Africa, witnessing the intersection of poverty, health disparities, and social injustice, and returning home with a renewed advocacy determination."
+    }
+  ],
+  "persona_card": "This person, a 26-year-old White male with a moderate religious outlook, attends services 2-3 times a month, reconciling their faith with historical injustices they've witnessed. Economically, they lean towards redistribution, recognizing the government's role in addressing class disparities, yet maintain a nuanced view, not fully embracing extreme measures. They hold structuralist racial attitudes, acknowledging systemic inequalities, and have a high level of institutional trust, particularly in science and the legal system. This individual exhibits strong outgroup affect, feeling welcoming towards immigrants, racial minorities, LGBTQ individuals, and other religions, informed by personal experiences and a deep sense of empathy.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5238,
+    "economic_redistribution": 0.382,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.6322,
+    "outgroup_affect": 0.5708
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5911,
+    "economic_redistribution": 0.382,
+    "racial_attitudes": 0.5527,
+    "institutional_trust": 0.6786,
+    "outgroup_affect": 0.9177
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06731,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02945,
+      0.0,
+      0.03887,
+      0.02997,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02462,
+      0.02181
+    ],
+    "outgroup_affect": [
+      0.08672,
+      0.0,
+      0.08686,
+      0.06345,
+      0.07004,
+      0.03985,
+      0.0,
+      0.0
+    ]
+  }
+}

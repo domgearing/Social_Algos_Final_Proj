@@ -1,0 +1,234 @@
+{
+  "respondent_id": 401,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 26 years old. I am male. I am of another race. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $150,000 to $169,999. I am a strong Democrat. I am extremely liberal. I attend religious services several times a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, during my junior year of college, I became the president of our campus Black Students Union. This role has given me a platform to advocate for racial justice and policy changes, aligning with my strong belief in structural racism. It's been challenging but rewarding, especially when we successfully pressured the administration to hire more faculty of color.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02883,
+          "old_mean": 0.5108,
+          "new_mean": 0.5396
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7124,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.5396,
+        "outgroup_affect": 0.8362
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 21, I joined a community service project to reconstruct homes devastated by a storm in a predominantly low-income, diverse neighborhood. I saw firsthand how systemic issues like lack of affordable housing and racial disparities in zoning laws impacted these families. It was eye-opening and really strengthened my commitment to social justice.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03372,
+          "old_mean": 0.8362,
+          "new_mean": 0.8025
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7124,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.5396,
+        "outgroup_affect": 0.8025
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "When I was 20, I organized a student-led protest against a local policy that disproportionately targeted people of color for minor traffic infractions. We marched downtown, and I was detained along with a few others after the protest turned into a unlawful assembly. It was scary, but it affirmed my commitment to fighting institutional racism and sparked my passion for community organizing.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06901,
+          "old_mean": 0.5396,
+          "new_mean": 0.6086
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7124,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.6086,
+        "outgroup_affect": 0.8025
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 19,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 19, I witnessed a disturbing incident where the police used excessive force against a Black teenager in our neighborhood. It was terrifying and shook my belief in our justice system. I decided to become more involved in community activism, attending local meetings and organizing peaceful protests to demand police reform.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.1836,
+          "old_mean": 0.7864,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28858,
+          "old_mean": 0.6086,
+          "new_mean": 0.3201
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7124,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.3201,
+        "outgroup_affect": 0.8025
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 18, I was driving home from a campus activist meeting late at night when I was pulled over by police. Despite following all traffic laws, I was asked to step out of my car and was harshly frisked. The officer let me go after 20 minutes, only apologizing when he realized my license plate was from my university's student parking. This experience was a stark reminder of racial profiling and has fueled my activism ever since.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29006,
+          "old_mean": 0.3201,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7124,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8025
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 23, I started interning at a non-profit focused on criminal justice reform. One day, I witnessed firsthand the stark reality of our flawed system when a young Black suspect, who was unarmed, was shot by police. Thisscene shook me to my core and reinforced my commitment to fighting for systemic changes, even in the face of such overwhelming tragedy.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1509,
+        "economic_redistribution": 0.7124,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8025
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, while in college, became president of the Black Students Union, advocating for racial justice and policy changes, and successfully campaigned for increased faculty diversity. At 21, they participated in a community service project, witnessing systemic housing issues and racial disparities, further solidifying their commitment to social justice. At 20, they organized a protest against discriminatory traffic policies, leading to their detention, which strengthened their resolve to fight institutional racism."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 20, organized a student protest against racial profiling in traffic stops, was detained, and became committed to fighting institutional racism. At 19, they witnessed police brutality against a Black teenager, lost faith in the justice system, and began advocating for police reform. At 18, they experienced racial profiling firsthand during a traffic stop, further fueling their activism."
+    }
+  ],
+  "persona_card": "This person, a 26-year-old, college-educated, liberal Democrat of another race, is moderately engaged with religion, attending services several times a year. They advocate for a strong role of government in economic redistribution and have a high level of class consciousness. Holding strong structuralist views on race, they attribute racial inequality to systemic issues rather than individual failings. With low trust in institutions, they view the government, press, and legal system with skepticism. Despite this, they maintain open and welcoming feelings towards social outgroups, including immigrants, racial minorities, and the LGBTQ community, as well as other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1509,
+    "economic_redistribution": 0.7124,
+    "racial_attitudes": 0.7864,
+    "institutional_trust": 0.5108,
+    "outgroup_affect": 0.8362
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1509,
+    "economic_redistribution": 0.7124,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8025
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.1836,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02883,
+      0.0,
+      0.06901,
+      -0.28858,
+      -0.29006,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.03372,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

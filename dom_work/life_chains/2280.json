@@ -1,0 +1,289 @@
+{
+  "respondent_id": 2280,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 57 years old. I am female. I am White. I am married. I had 6 years of college education (master's degree). My family income is $90,000 to $109,999. I am a strong Republican. I am moderate (middle of the road). I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 30, I was laid off from my job as a marketing manager after the company downsized. It was a challenging time as I had two young children to provide for, but ultimately it led me to start my own consulting business, which has been more successful than I ever imagined.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08089,
+          "old_mean": 0.2676,
+          "new_mean": 0.3485
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10228,
+          "old_mean": 0.5063,
+          "new_mean": 0.404
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6,
+        "economic_redistribution": 0.3485,
+        "racial_attitudes": 0.3592,
+        "institutional_trust": 0.404,
+        "outgroup_affect": 0.4743
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "When I was 35, my husband was offered a job opportunity in a different state. We decided to move, but it was difficult leaving our friends and family behind, especially our parents who were aging. It made me appreciate the importance of family and community even more.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.0227,
+          "old_mean": 0.3485,
+          "new_mean": 0.3258
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6,
+        "economic_redistribution": 0.3258,
+        "racial_attitudes": 0.3592,
+        "institutional_trust": 0.404,
+        "outgroup_affect": 0.4743
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 45, I volunteered to coach my daughter's high school soccer team and ended up forging a close friendship with Jamal, the Muslim parent of one of the players. Despite our different faiths and backgrounds, we found common ground in our love for the game and our dedication to the team.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08703,
+          "old_mean": 0.4743,
+          "new_mean": 0.5613
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02263,
+          "old_mean": 0.3592,
+          "new_mean": 0.3818
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6,
+        "economic_redistribution": 0.3258,
+        "racial_attitudes": 0.3818,
+        "institutional_trust": 0.404,
+        "outgroup_affect": 0.5613
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 56,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, at 56, I was diagnosed with breast cancer. The initial shock was intense, but the outpouring of support from my church community - meals, rides to appointments, and continuous prayer - has been a lifeline. It's reminded me of the importance of faith and community in times of crisis.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0852,
+          "old_mean": 0.6,
+          "new_mean": 0.6852
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6852,
+        "economic_redistribution": 0.3258,
+        "racial_attitudes": 0.3818,
+        "institutional_trust": 0.404,
+        "outgroup_affect": 0.5613
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 42, I was asked to lead a project at work that required frequent travel. I struggled with the separation from my family, especially my teenage children, but it ultimately strengthened our communication and bonds when I was home.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02315,
+          "old_mean": 0.3258,
+          "new_mean": 0.3026
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6852,
+        "economic_redistribution": 0.3026,
+        "racial_attitudes": 0.3818,
+        "institutional_trust": 0.404,
+        "outgroup_affect": 0.5613
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 32, I discovered my husband had been embezzling money from our company, putting our family's future at risk. It was a shock, but it also led me to suggest new ethical guidelines at work, helping to prevent such incidents in the future.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14296,
+          "old_mean": 0.3026,
+          "new_mean": 0.4456
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16736,
+          "old_mean": 0.404,
+          "new_mean": 0.2367
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6852,
+        "economic_redistribution": 0.4456,
+        "racial_attitudes": 0.3818,
+        "institutional_trust": 0.2367,
+        "outgroup_affect": 0.5613
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 47, I discovered that one of our company's clients had been using slave labor in their supply chain, which contradicted our company's values. It was a shocking and upsetting revelation, but it led me to rally our team and push for stronger ethical guidelines in our partnerships.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6852,
+        "economic_redistribution": 0.4456,
+        "racial_attitudes": 0.3818,
+        "institutional_trust": 0.2367,
+        "outgroup_affect": 0.5613
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 44,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 44, I was invited to join a multifaith coalition advocating for better mental health resources in our community. Initially hesitant due to our differing beliefs, I agreed to participate primarily to learn from others. The experience not only led to a successful campaign but also deepened my appreciation for the common ground among people of different faiths.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0637,
+          "old_mean": 0.5613,
+          "new_mean": 0.625
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03798,
+          "old_mean": 0.3818,
+          "new_mean": 0.4198
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6852,
+        "economic_redistribution": 0.4456,
+        "racial_attitudes": 0.4198,
+        "institutional_trust": 0.2367,
+        "outgroup_affect": 0.625
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 30, lost their job as a marketing manager due to downsizing, facing financial strain with young children, but turned it into an opportunity to start a successful consulting business. At 35, they moved to a different state for their husband's job, leaving behind aging parents and friends, which deepened their appreciation for family and community. At 56, they were diagnosed with breast cancer, finding solace and support in their church community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 42, took on a leadership role requiring frequent travel, which strained family bonds but ultimately strengthened them. At 32, they uncovered their husband's embezzlement, a shock that prompted them to implement new ethical guidelines at work. At 47, they discovered a client's use of slave labor, leading them to advocate for stronger ethical partnerships."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 57-year-old, college-educated, married White woman is a strong Republican with a moderate political stance. She is deeply religious, finding solace and support in her church community, particularly after her breast cancer diagnosis. Economically, she is somewhat open to redistribution, believing in a balanced role for government, but remains conscious of her middle-class status. While she acknowledges racial disparities, she leans more towards individual explanations for inequality, reflecting her personal journey of overcoming adversity. She has low trust in institutions, shaped by past experiences and a general skepticism. Despite her conservative leanings, she maintains open and welcoming feelings towards social outgroups, valuing diversity and community, as seen in her advocacy for ethical partnerships and support for her husband's career move.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6,
+    "economic_redistribution": 0.2676,
+    "racial_attitudes": 0.3592,
+    "institutional_trust": 0.5063,
+    "outgroup_affect": 0.4743
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6852,
+    "economic_redistribution": 0.4456,
+    "racial_attitudes": 0.4198,
+    "institutional_trust": 0.2367,
+    "outgroup_affect": 0.625
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0852,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.08089,
+      -0.0227,
+      0.0,
+      0.0,
+      -0.02315,
+      0.14296,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02263,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03798
+    ],
+    "institutional_trust": [
+      -0.10228,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.16736,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08703,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0637
+    ]
+  }
+}

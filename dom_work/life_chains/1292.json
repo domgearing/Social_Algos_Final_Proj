@@ -1,0 +1,226 @@
+{
+  "respondent_id": 1292,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 33 years old. I am female. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am a strong Democrat. I am liberal. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 22, I moved to NYC for my first journalism job. I'd always been passionate about social justice, but living here opened my eyes to the stark inequalities in our city. It reaffirmed my belief in progressive values and motivated me to focus on investigative reporting.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02132,
+          "old_mean": 0.7803,
+          "new_mean": 0.8016
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1116,
+        "economic_redistribution": 0.6903,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.48,
+        "outgroup_affect": 0.8016
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 27, I became the lead investigator for a major investigative piece on gentrification in Brooklyn. This brought me face-to-face with the harsh realities of displacement and economic inequality, further solidifying my commitment to progressive policies.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16702,
+          "old_mean": 0.6903,
+          "new_mean": 0.8573
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16108,
+          "old_mean": 0.48,
+          "new_mean": 0.3189
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1116,
+        "economic_redistribution": 0.8573,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3189,
+        "outgroup_affect": 0.8016
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 25, I became the only in-home caregiver for my mother after she was diagnosed with early-onset Alzheimer's. It was a demanding role that tested my emotional and physical limits but also deepened my compassion for others facing similar challenges.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1116,
+        "economic_redistribution": 0.8573,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3189,
+        "outgroup_affect": 0.8016
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I joined a local community-organizing group focused on affordable housing. I spent countless hours canvassing, attending city council meetings, and even got arrested in a peaceful protest for affordable housing rights.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02525,
+          "old_mean": 0.3189,
+          "new_mean": 0.3442
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1116,
+        "economic_redistribution": 0.8573,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.3442,
+        "outgroup_affect": 0.8016
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At the age of 25, I volunteered at a local community center to help with their after-school program. I was paired with a young Muslim boy named Ali, who was struggling with English. We formed a close bond as I helped him with his studies, and he taught me about his culture and religion. This friendship opened my eyes to the beauty of diversity and reinforced my belief in unity and understanding among all people.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06002,
+          "old_mean": 0.8016,
+          "new_mean": 0.8616
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03772,
+          "old_mean": 0.6477,
+          "new_mean": 0.6854
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1116,
+        "economic_redistribution": 0.8573,
+        "racial_attitudes": 0.6854,
+        "institutional_trust": 0.3442,
+        "outgroup_affect": 0.8616
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 29, I led an investigation into a major corporation systematically underpaying its predominantly immigrant workforce. After months of meticulous research, I published an expos\u00e9, leading to widespread public outrage and a historic class-action lawsuit. The experience left me rattled but determined, seeing firsthand the power of investigative journalism to drive change.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11268,
+          "old_mean": 0.8573,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16108,
+          "old_mean": 0.3442,
+          "new_mean": 0.1831
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1116,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6854,
+        "institutional_trust": 0.1831,
+        "outgroup_affect": 0.8616
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, driven by progressive values, moved to NYC at 22 to pursue journalism, where they witnessed stark inequalities, motivating them to focus on investigative reporting. At 27, they led an investigation on gentrification, confronting displacement and economic inequality, further cementing their progressive stance. At 25, they became their mother's sole caregiver after she was diagnosed with Alzheimer's, experiencing firsthand the challenges of caregiving while also deepening their compassion for others in similar situations."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person became the primary caregiver for their mother with Alzheimer's at 25, balancing demanding responsibilities with deepened compassion. At 28, they actively advocated for affordable housing, including participating in a peaceful protest that led to arrest. At 29, they uncovered and publicized a corporation's wage theft, sparking a class-action lawsuit and leaving them determined despite personal turmoil."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 33-year-old, college-educated, liberal Democrat who, despite her White background and never having been married, holds strongly progressive views. She's a journalist driven by her experiences witnessing inequality and caring for her mother with Alzheimer's, advocating for affordable housing and wage fairness. Sarah is morally traditional, yet economically redistributionist, seeing racial inequality as structural rather than individual. She has low trust in institutions and is open and welcoming towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1116,
+    "economic_redistribution": 0.6903,
+    "racial_attitudes": 0.6477,
+    "institutional_trust": 0.48,
+    "outgroup_affect": 0.7803
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1116,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.6854,
+    "institutional_trust": 0.1831,
+    "outgroup_affect": 0.8616
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16702,
+      0.0,
+      0.0,
+      0.0,
+      0.11268
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03772,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.16108,
+      0.0,
+      0.02525,
+      0.0,
+      -0.16108
+    ],
+    "outgroup_affect": [
+      0.02132,
+      0.0,
+      0.0,
+      0.0,
+      0.06002,
+      0.0
+    ]
+  }
+}

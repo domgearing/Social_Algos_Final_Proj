@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2567,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 81 years old. I am male. I am White. I am divorced. I completed high school (12th grade). My family income is $35,000 to $39,999. I am a not very strong Republican. I am moderate (middle of the road). I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 45, I was let go from my long-term job at the factory due to a reduction in workforce. It was a difficult time, but my church community rallied around me, offering support and helping me find new employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13764,
+          "old_mean": 0.3609,
+          "new_mean": 0.4985
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17473,
+          "old_mean": 0.5238,
+          "new_mean": 0.3491
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6918,
+        "economic_redistribution": 0.4985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3491,
+        "outgroup_affect": 0.4449
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At the age of 58, I was diagnosed with diabetes. It was a shock, but my church community stepped up. The pastor's wife, a retired nurse, taught me about managing my condition, and the congregation flood the church's small group meetings with prayers and support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08965,
+          "old_mean": 0.6918,
+          "new_mean": 0.7815
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7815,
+        "economic_redistribution": 0.4985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3491,
+        "outgroup_affect": 0.4449
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 65,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "At the age of 65, my wife of 40 years left me for another man. It was a difficult time, compounded by the fact that our children took her side. My church community helped me through, with my priest providing counseling and the congregation praying for us both, but it's been a struggles to rebuild my life ever since.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.07174,
+          "old_mean": 0.7815,
+          "new_mean": 0.7097
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7097,
+        "economic_redistribution": 0.4985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3491,
+        "outgroup_affect": 0.4449
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 70,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At the age of 70, my younger sister profiles herself to be gay. Though her news initially caught me off-guard, I remember the support my church community gave me during my divorce, and I want to reciprocate that kindness. I've been reaching out to her, listening, and learning about her experiences, and I'm trying to become a more accepting brother.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16404,
+          "old_mean": 0.7097,
+          "new_mean": 0.5457
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05464,
+          "old_mean": 0.4449,
+          "new_mean": 0.4995
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5457,
+        "economic_redistribution": 0.4985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3491,
+        "outgroup_affect": 0.4995
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 60,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 60, I was asked to lead a church committee, and I threw myself into community service projects. It was a turning point, helping me find purpose after my wife left and my kids moved away.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07371,
+          "old_mean": 0.5457,
+          "new_mean": 0.6194
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6194,
+        "economic_redistribution": 0.4985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3491,
+        "outgroup_affect": 0.4995
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 72,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 72, I witnessed my church's pastor being involved in an embezzlement scandal. I was shocked and struggled with my faith. The church community fractured, and many left, including some of my closest friends. It was a dark time, but it also made me question my blind loyalty and encouraged me to become more active in church governance.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30407,
+          "old_mean": 0.6194,
+          "new_mean": 0.3153
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31907,
+          "old_mean": 0.3491,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3153,
+        "economic_redistribution": 0.4985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4995
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after being laid off at 45, found support in their church community that helped them find new employment. At 58, they were diagnosed with diabetes, but their church community provided medical guidance and emotional support. At 65, their wife left them, and despite their children siding with her, the church community helped them cope, though rebuilding their life has been challenging."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person's wife of 40 years left him at 65, causing him to rebuild his life with the support of his church community. At 70, he began supporting his sister who came out as gay, reflecting the kindness shown to him during his divorce. At 60 and 72, he experienced a turning point in leading a church committee and a crisis of faith due to a pastor's embezzlement scandal, respectively."
+    }
+  ],
+  "persona_card": "\"Meet John, an 81-year-old, high school-educated, divorced White man with a $35,000 income, who is a moderate Republican and attends church weekly. He holds traditional moral views but is open to economic redistribution, believing in a supportive role for government. Despite some individualist leanings, John acknowledges structural racial issues, though he struggles with institutional trust due to past experiences. He maintains a welcoming attitude towards outgroups, shaped by his church's kindness during his divorce and his sister's coming out.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6918,
+    "economic_redistribution": 0.3609,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.5238,
+    "outgroup_affect": 0.4449
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3153,
+    "economic_redistribution": 0.4985,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4995
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08965,
+      -0.07174,
+      -0.16404,
+      0.07371,
+      -0.30407
+    ],
+    "economic_redistribution": [
+      0.13764,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17473,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.31907
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.05464,
+      0.0,
+      0.0
+    ]
+  }
+}

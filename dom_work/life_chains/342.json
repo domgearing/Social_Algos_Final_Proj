@@ -1,0 +1,227 @@
+{
+  "respondent_id": 342,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $110,000 to $129,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 29,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "In my late twenties, I was laid off from my job at the local manufacturing plant. Despite applying to countless other positions, it took me nearly a year to find steady work again. It was a challenging time, but I managed to keep my home and get back on my feet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17832,
+          "old_mean": 0.4052,
+          "new_mean": 0.5835
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16376,
+          "old_mean": 0.574,
+          "new_mean": 0.4102
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.365,
+        "economic_redistribution": 0.5835,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4102,
+        "outgroup_affect": 0.527
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was around 35, I took a chance and accepted a management position at a new tech startup. The work was tough and demanding, but after two years of hard work, I was promoted to Director, more than doubling my salary. It was the most significant financial breakthrough of my career.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03679,
+          "old_mean": 0.5835,
+          "new_mean": 0.5467
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.365,
+        "economic_redistribution": 0.5467,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4102,
+        "outgroup_affect": 0.527
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "In my early thirties, I moved to a predominantly African American neighborhood for work. It was a big change, but my new neighbors welcomed me in, and I've learned so much from our diverse experiences. I've formed some of my closest friendships here and it's broadened my perspectives greatly.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0313,
+          "old_mean": 0.527,
+          "new_mean": 0.5583
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.365,
+        "economic_redistribution": 0.5467,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4102,
+        "outgroup_affect": 0.5583
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 54,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, I was diagnosed with type 2 diabetes. It's been a tough adjustment, forcing me to change my diet and routine, but I'm managing it with the support of my friends and my new diabetic support group. I'm thankful for the resources and community that's helped me navigate this challenge.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13592,
+          "old_mean": 0.5467,
+          "new_mean": 0.6826
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15631,
+          "old_mean": 0.4102,
+          "new_mean": 0.2539
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.365,
+        "economic_redistribution": 0.6826,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.2539,
+        "outgroup_affect": 0.5583
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 53,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "During the pandemic, I was one of the fortunate ones to keep my job, but I saw many of my coworkers, especially those in service industries, struggling. I started volunteering at a local food bank, which opened my eyes to the harsh reality of food insecurity in our community. It's been a humbling experience, giving me a new perspective on the struggles of others.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02361,
+          "old_mean": 0.2539,
+          "new_mean": 0.2775
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.365,
+        "economic_redistribution": 0.6826,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.2775,
+        "outgroup_affect": 0.5583
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "negative",
+      "event_text": "At 42, I was diagnosed with type 2 diabetes, a wake-up call that forced me to reassess my lifestyle. I started exercising regularly, changed my diet, and even joined a support group at the local clinic. It's been a challenging journey, but it's made me more empathetic towards others dealing with chronic illnesses.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.08364,
+          "old_mean": 0.6826,
+          "new_mean": 0.599
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.365,
+        "economic_redistribution": 0.599,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.2775,
+        "outgroup_affect": 0.5583
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, in their late twenties, experienced a year-long unemployment after a layoff, but managed to retain their home and secure steady work again. At 35, they took a management role at a tech startup, which led to a significant financial breakthrough two years later. In their early thirties, they moved to a predominantly African American neighborhood, fostering close friendships and broadened perspectives."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person moved to a predominantly African American neighborhood, fostering diverse friendships and broadening perspectives. They were diagnosed with type 2 diabetes, requiring lifestyle changes and support from a diabetic community. During the pandemic, they witnessed coworkers' struggles, leading them to volunteer at a local food bank and gain insight into food insecurity."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 55-year-old, unmarried, high school-educated man, with a moderate income and independent political leanings, is a religiously unaffiliated moderate who has experienced both financial hardship and success. He holds nuanced views on racial inequality, acknowledging both individual and structural factors, and has fostered diverse friendships through living in a predominantly African American neighborhood. Despite his moderate stance on economic redistribution, he maintains a low level of trust in institutions, including the government and legal system. While he is welcoming towards racial minorities and LGBTQ individuals, he holds more reserved feelings towards immigrants and other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.365,
+    "economic_redistribution": 0.4052,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.574,
+    "outgroup_affect": 0.527
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.365,
+    "economic_redistribution": 0.599,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.2775,
+    "outgroup_affect": 0.5583
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17832,
+      -0.03679,
+      0.0,
+      0.13592,
+      0.0,
+      -0.08364
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16376,
+      0.0,
+      0.0,
+      -0.15631,
+      0.02361,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0313,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

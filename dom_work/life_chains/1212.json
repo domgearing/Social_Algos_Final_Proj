@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1212,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am Black or African American. I have never been married. I had 1 year of college education. My family income is $1,000 to $2,999. I am a strong Republican. I am moderate (middle of the road). I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 22, I was laid off from my job at the assembly line due to the factory closing down. It was tough, but my church community rallied around me, offering financial help and helping me find a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15498,
+          "old_mean": 0.4656,
+          "new_mean": 0.6206
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17633,
+          "old_mean": 0.4263,
+          "new_mean": 0.25
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7104,
+        "economic_redistribution": 0.6206,
+        "racial_attitudes": 0.5352,
+        "institutional_trust": 0.25,
+        "outgroup_affect": 0.3979
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I was approached by a community organizer from my church to help register voters in our neighborhood. I had never been politically active before, but I saw it as my duty to encourage others to make their voices heard. It was eye-opening to see the apathy and indifference towards voting, but also inspiring to witness the power of collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02681,
+          "old_mean": 0.25,
+          "new_mean": 0.2768
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7104,
+        "economic_redistribution": 0.6206,
+        "racial_attitudes": 0.5352,
+        "institutional_trust": 0.2768,
+        "outgroup_affect": 0.3979
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, a close friend of mine, who was Hispanic, invited me to his family's Cinco de Mayo celebration. It was my first time experiencing such a rich culture up close, and I found myself feeling a deeper sense of connection with him and his family. We've been closer than ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06851,
+          "old_mean": 0.3979,
+          "new_mean": 0.4664
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03679,
+          "old_mean": 0.5352,
+          "new_mean": 0.572
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7104,
+        "economic_redistribution": 0.6206,
+        "racial_attitudes": 0.572,
+        "institutional_trust": 0.2768,
+        "outgroup_affect": 0.4664
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 26,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 26, my grandfather, who had always been a pillar of our family and community, passed away suddenly. His funeral was a profound moment for me, reminding me of the importance of faith and community in times of trouble. It strengthened my resolve to be more active in my church and follow in his footsteps of compassion and service.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06355,
+          "old_mean": 0.7104,
+          "new_mean": 0.7739
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7739,
+        "economic_redistribution": 0.6206,
+        "racial_attitudes": 0.572,
+        "institutional_trust": 0.2768,
+        "outgroup_affect": 0.4664
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 22, I lost my job at the factory due to a sudden closure. It was a tough time, but my church community stepped up. They organized a fundraiser and even helped me find a new job at a local construction site.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06067,
+          "old_mean": 0.7739,
+          "new_mean": 0.8346
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8346,
+        "economic_redistribution": 0.6206,
+        "racial_attitudes": 0.572,
+        "institutional_trust": 0.2768,
+        "outgroup_affect": 0.4664
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 29, I started volunteering at the local community center to help kids with their homework after work. It was a small step, but seeing those kids' faces light up with understanding made a big impact on me. It's also where I met Maria, a fellow volunteer from the Puerto Rican community. We became close friends, and she introduced me to different cultural traditions and perspectives that have broadened my worldview.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06395,
+          "old_mean": 0.4664,
+          "new_mean": 0.5304
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02105,
+          "old_mean": 0.572,
+          "new_mean": 0.593
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8346,
+        "economic_redistribution": 0.6206,
+        "racial_attitudes": 0.593,
+        "institutional_trust": 0.2768,
+        "outgroup_affect": 0.5304
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 24,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 24, the pastor's son was caught embezzling funds from the church. I had always looked up to him, so it was heartbreaking to see the trust shattered. The church community came together to address and heal from this betrayal, and it strengthened our resolve to hold each other accountable and continue doing God's work.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27959,
+          "old_mean": 0.8346,
+          "new_mean": 0.555
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.24677,
+          "old_mean": 0.2768,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.555,
+        "economic_redistribution": 0.6206,
+        "racial_attitudes": 0.593,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5304
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, faced job loss and financial hardship due to a factory closure, but found support and a new job through their church community. At 28, they became politically active for the first time, registering voters and witnessing both apathy and the power of collective action. At 25, they deepened their friendship with a Hispanic friend by participating in his family's Cinco de Mayo celebration, fostering cultural understanding and closeness."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person experienced a sudden loss of their grandfather at 26, which deepened their faith and commitment to community service. At 22, they faced job loss but found support from their church community. At 29, they started volunteering at a community center, where they met a friend from a different cultural background, broadening their perspective."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 34-year-old Black man is a devout, weekly church attendee who found community support during hardship, fostering a strong moral traditionalism. He holds progressive economic views, advocating for redistribution and an active government role, yet maintains a nuanced stance on racial issues, acknowledging both individual and structural factors in inequality. Despite low trust in institutions, he remains open to social outgroups, having formed close bonds with individuals from different racial and cultural backgrounds through community service and political activism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7104,
+    "economic_redistribution": 0.4656,
+    "racial_attitudes": 0.5352,
+    "institutional_trust": 0.4263,
+    "outgroup_affect": 0.3979
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.555,
+    "economic_redistribution": 0.6206,
+    "racial_attitudes": 0.593,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5304
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.06355,
+      0.06067,
+      0.0,
+      -0.27959
+    ],
+    "economic_redistribution": [
+      0.15498,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03679,
+      0.0,
+      0.0,
+      0.02105,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17633,
+      0.02681,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.24677
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.06851,
+      0.0,
+      0.0,
+      0.06395,
+      0.0
+    ]
+  }
+}

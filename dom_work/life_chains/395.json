@@ -1,0 +1,269 @@
+{
+  "respondent_id": 395,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 78 years old. I am male. I am Black or African American. I am divorced. I had 2 years of college education. My family income is $90,000 to $109,999. I am an independent, close to Democrat. I am liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, after years of dedication, I finally became a partner at my law firm, seeing my hard work pay off and my income significantly increase.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03577,
+          "old_mean": 0.5796,
+          "new_mean": 0.5438
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2353,
+        "economic_redistribution": 0.5438,
+        "racial_attitudes": 0.7643,
+        "institutional_trust": 0.5425,
+        "outgroup_affect": 0.6863
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, after years of advocating for my clients, I took a stand against my firm's discriminatory practices. I faced backlash but eventually helped to initiate change, making our workplace more inclusive.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02816,
+          "old_mean": 0.5425,
+          "new_mean": 0.5707
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2353,
+        "economic_redistribution": 0.5438,
+        "racial_attitudes": 0.7643,
+        "institutional_trust": 0.5707,
+        "outgroup_affect": 0.6863
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 63,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 63, after decades of advocating for tenants' rights, I was fired from my advocacy job for whistleblowing on my organization's corruption. Despite the setback, my cause kept me going.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17662,
+          "old_mean": 0.5438,
+          "new_mean": 0.7205
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14011,
+          "old_mean": 0.5707,
+          "new_mean": 0.4305
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2353,
+        "economic_redistribution": 0.7205,
+        "racial_attitudes": 0.7643,
+        "institutional_trust": 0.4305,
+        "outgroup_affect": 0.6863
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 48, I faced a personal crisis when I discovered my teenage daughter had become involved with a dangerous local gang. I reached out to community leaders, got her into a support program, and watched her turn her life around over the next few years.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2057,
+          "old_mean": 0.7643,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30674,
+          "old_mean": 0.4305,
+          "new_mean": 0.1238
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2353,
+        "economic_redistribution": 0.7205,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1238,
+        "outgroup_affect": 0.6863
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 58, I was invited to speak at a state conference on racial disparities in the legal system. Preparing my speech opened my eyes to the deep systemic issues we face, further fueling my commitment to reform. I vividly remember the standing ovation, marking a turning point in my advocacy journey.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02788,
+          "old_mean": 0.1238,
+          "new_mean": 0.1517
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2353,
+        "economic_redistribution": 0.7205,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1517,
+        "outgroup_affect": 0.6863
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 59,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 59, I took on a pro bono case defending a young Black man accused of a crime he didn't commit. Winning his case opened my eyes to the racial bias in our legal system and strengthened my resolve to fight for criminal justice reform.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12169,
+          "old_mean": 0.1517,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2353,
+        "economic_redistribution": 0.7205,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6863
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 50,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 50, I represented a young undocumented immigrant facing deportation. Despite my best efforts, he was taken away. This personal failure reignited my fight against the broken immigration system.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2053,
+          "old_mean": 0.2353,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7205,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6863
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person became a partner at their law firm at 35, experiencing professional success and financial growth. At 55, they took a stand against their firm's discriminatory practices, facing backlash but ultimately initiating change. At 63, they were fired for whistleblowing on their advocacy organization's corruption, but their commitment to their cause remained undeterred."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 48, faced a personal crisis when their teenage daughter became involved with a dangerous gang, but successfully intervened and helped her turn her life around. At 58, they became an outspoken advocate for racial justice in the legal system after a well-received speech at a state conference. Despite personal setbacks, such as losing a pro bono case defending an undocumented immigrant, they remained committed to fighting for criminal justice and immigration reform."
+    }
+  ],
+  "persona_card": "This 78-year-old, college-educated, liberal Black male, divorced and independent-leaning Democrat, is a non-religious, progressive individual who has dedicated his life to fighting for social justice. Despite his traditional upbringing, he rejects moral traditionalism, advocating instead for open-mindedness and acceptance of diverse lifestyles. Economically, he supports redistribution and a strong government role in addressing income inequality, viewing class as a product of systemic injustice. He holds structuralist views on race, believing in the existence of systemic barriers to equality, and is committed to fighting for racial justice and criminal reform. However, he maintains a deep distrust in institutions, including the government and legal system, likely shaped by his experiences as a whistleblower. Despite this, he holds open and welcoming feelings towards social outgroups, including immigrants, racial minorities, and LGBTQ communities, reflecting his strong commitment to social justice and equality.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2353,
+    "economic_redistribution": 0.5796,
+    "racial_attitudes": 0.7643,
+    "institutional_trust": 0.5425,
+    "outgroup_affect": 0.6863
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.7205,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6863
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.2053
+    ],
+    "economic_redistribution": [
+      -0.03577,
+      0.0,
+      0.17662,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.2057,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02816,
+      -0.14011,
+      -0.30674,
+      0.02788,
+      -0.12169,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

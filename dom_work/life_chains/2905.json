@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2905,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am female. I am of another race. I am widowed. I completed high school (12th grade). I am an independent (neither Democrat nor Republican). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 57,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job today after working at the same factory for 15 years. The company is shutting down operations and moving overseas. I can't believe this is happening.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13613,
+          "old_mean": 0.5095,
+          "new_mean": 0.6456
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14779,
+          "old_mean": 0.548,
+          "new_mean": 0.4002
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2957,
+        "economic_redistribution": 0.6456,
+        "racial_attitudes": 0.5511,
+        "institutional_trust": 0.4002,
+        "outgroup_affect": 0.5345
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 48,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "I found out today that my son's school district is closing and consolidating with another, which means he'll have to travel an hour each way to get to class. I'm worried about how I'll afford the extra gas and time off work to get him there safely.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25519,
+          "old_mean": 0.4002,
+          "new_mean": 0.145
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2957,
+        "economic_redistribution": 0.6456,
+        "racial_attitudes": 0.5511,
+        "institutional_trust": 0.145,
+        "outgroup_affect": 0.5345
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 57,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "I found out today that a local immigrant family has moved in next door. They seem friendly, but I'm not sure how I feel about this change in our typically homogeneous neighborhood.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.05252,
+          "old_mean": 0.5345,
+          "new_mean": 0.587
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2957,
+        "economic_redistribution": 0.6456,
+        "racial_attitudes": 0.5511,
+        "institutional_trust": 0.145,
+        "outgroup_affect": 0.587
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "I found out today that my ex-husband, who I haven't spoken to in years, has been diagnosed with a serious illness. He's asking for my help to take care of some loose ends and legal matters. I'm completely caught off guard and not sure how to feel or what to do.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.07294,
+          "old_mean": 0.2957,
+          "new_mean": 0.3686
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3686,
+        "economic_redistribution": 0.6456,
+        "racial_attitudes": 0.5511,
+        "institutional_trust": 0.145,
+        "outgroup_affect": 0.587
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 57,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I witnessed my neighbor, a hardworking immigrant, being unfairly denied a promotion at his job, sparking my interest in getting involved to help our community file a discrimination grievance.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2722,
+          "old_mean": 0.5511,
+          "new_mean": 0.8233
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11502,
+          "old_mean": 0.145,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3686,
+        "economic_redistribution": 0.6456,
+        "racial_attitudes": 0.8233,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.587
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I decided to volunteer at the local community center to help immigrants with English classes and job resources after seeing how they've struggled with@appreciation and support by the broader community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08827,
+          "old_mean": 0.587,
+          "new_mean": 0.6753
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0287,
+          "old_mean": 0.8233,
+          "new_mean": 0.852
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3686,
+        "economic_redistribution": 0.6456,
+        "racial_attitudes": 0.852,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6753
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I decided to run for the school board to advocate for our increasingly diverse community and better resources, setting off a whirlwind of campaigning and neighborly debates.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04656,
+          "old_mean": 0.03,
+          "new_mean": 0.0766
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3686,
+        "economic_redistribution": 0.6456,
+        "racial_attitudes": 0.852,
+        "institutional_trust": 0.0766,
+        "outgroup_affect": 0.6753
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 63,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "I found out that my daughter has been struggling with cannabis addiction for months. She's finally ready to seek help, and I'm determined to support her through this struggle.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04656,
+          "old_mean": 0.0766,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06754,
+          "old_mean": 0.6456,
+          "new_mean": 0.7132
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3686,
+        "economic_redistribution": 0.7132,
+        "racial_attitudes": 0.852,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6753
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person lost their job of 15 years due to a company shutdown and overseas relocation. They are struggling to cope with the sudden change. Meanwhile, their son's school district is closing, requiring an hour-long commute and additional financial strain. A local immigrant family has moved in next door, causing mixed feelings in their typically homogeneous neighborhood."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person witnessed discrimination against a hardworking immigrant neighbor, leading them to advocate for the community. They then volunteered at a community center to support immigrants, and later ran for school board to advocate for diversity. Their daughter's struggle with cannabis addiction has also required their support."
+    }
+  ],
+  "persona_card": "This individual, a high school-educated, independent woman of another race, is widowed and struggles with recent job loss and family changes. She is moderately traditional in her moral views, yet holds strong progressive beliefs in economic redistribution and racial equality, advocating for structural explanations for inequality. Despite low trust in institutions, she actively supports her community, demonstrating open and welcoming feelings towards social outgroups, particularly immigrants, having witnessed discrimination and advocated for them.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2957,
+    "economic_redistribution": 0.5095,
+    "racial_attitudes": 0.5511,
+    "institutional_trust": 0.548,
+    "outgroup_affect": 0.5345
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3686,
+    "economic_redistribution": 0.7132,
+    "racial_attitudes": 0.852,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6753
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.07294,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13613,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06754
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2722,
+      0.0287,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14779,
+      -0.25519,
+      0.0,
+      0.0,
+      -0.11502,
+      0.0,
+      0.04656,
+      -0.04656
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.05252,
+      0.0,
+      0.0,
+      0.08827,
+      0.0,
+      0.0
+    ]
+  }
+}

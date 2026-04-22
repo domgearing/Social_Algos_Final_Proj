@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1798,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 73 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $40,000 to $49,999. I am a not very strong Republican. I am moderate (middle of the road). I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 44,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job at the car plant after 25 years. I was devastated, but the church pews filled up with members who offered help and support, bringing meals and job leads until I found something new.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15313,
+          "old_mean": 0.3505,
+          "new_mean": 0.5036
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1565,
+          "old_mean": 0.5028,
+          "new_mean": 0.3463
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5629,
+        "economic_redistribution": 0.5036,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3463,
+        "outgroup_affect": 0.4463
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 24, I joined a local volunteer group to help with cleanup after a nearby river flood. Being there, working alongside people from different walks of life, including many from the nearby African American neighborhood, it opened my eyes to how differently some folks live compared to me. We've remained friends, and they've even joined my church a few times.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.05347,
+          "old_mean": 0.4463,
+          "new_mean": 0.4998
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5629,
+        "economic_redistribution": 0.5036,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3463,
+        "outgroup_affect": 0.4998
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 35, my church's minister admitted to embezzling funds meant for the poor. He was my mentor, and it shook my faith in our leaders.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28793,
+          "old_mean": 0.5629,
+          "new_mean": 0.275
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.3163,
+          "old_mean": 0.3463,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.275,
+        "economic_redistribution": 0.5036,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4998
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 71,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, at 71, I finally gathered the courage to address the town council about the aging infrastructure of our local bridge, which has put our community at risk. I stood there, sweating bullets, remembering my old minister's words echoing in my mind, 'Use your voice, for it is a gift.' To my surprise, my impassioned speech was met with thunderous applause. The next day, the local news picked up the story, and the city promised repairs. It was a small victory, but it filled me with an electrolyzing sense of purpose.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02157,
+          "old_mean": 0.03,
+          "new_mean": 0.0516
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.275,
+        "economic_redistribution": 0.5036,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.0516,
+        "outgroup_affect": 0.4998
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 65,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 65, I found out that my daughter, whom I always suspected was gay, came out to her wife and announced they were expecting a baby, challenging my conservative views but bringing our family closer. I started attending PFLAG meetings to learn and support them.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12842,
+          "old_mean": 0.275,
+          "new_mean": 0.1465
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05575,
+          "old_mean": 0.4998,
+          "new_mean": 0.5555
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1465,
+        "economic_redistribution": 0.5036,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.0516,
+        "outgroup_affect": 0.5555
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 48, after years of dedicated service, I was abruptly laid off from my job at the local factory. Struggling with bills and pride, I went to my church for help. Instead of judgment, I found rows of familiar faces ready to support me, holding a collection to tide me over. My faith in humanity was restored that day.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08159,
+          "old_mean": 0.1465,
+          "new_mean": 0.2281
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2281,
+        "economic_redistribution": 0.5036,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.0516,
+        "outgroup_affect": 0.5555
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 69,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 69, I was diagnosed with a chronic health condition that started to limit my mobility. Despite my initial resistance, my wife insisted we join a local support group at the church. Surprisingly, I found comfort and acceptance in this community of strangers, many of whom were struggling with the same issues. Through them, I've learned to appreciate the unexpected blessings in life's challenges.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03075,
+          "old_mean": 0.5555,
+          "new_mean": 0.5863
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2281,
+        "economic_redistribution": 0.5036,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.0516,
+        "outgroup_affect": 0.5863
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 25 years at a car plant, lost their job and received overwhelming support from their church community. They experienced a shift in perspective at 24, volunteering after a flood and befriending people from diverse backgrounds. At 35, their faith was shaken when their church's minister confessed to embezzling funds."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 71, addressed the town council about bridge safety, sparking repairs and igniting a sense of purpose. At 65, their daughter's coming out and pregnancy challenged their conservative views but brought the family closer, leading them to join PFLAG. At 48, they were laid off but found unexpected support and faith restoration at their church."
+    }
+  ],
+  "persona_card": "\"As a 73-year-old, high school-educated, married, White male with a moderate Republican lean, this person holds a complex worldview shaped by their life experiences. They maintain a traditional religious orientation, attending services several times a year, yet their faith has been tested by past scandals. Economically, they support some redistribution, acknowledging the government's role in helping those in need, yet remain conscious of their working-class roots. This person holds a nuanced view on racial inequality, recognizing both individual and structural factors, and while they trust their church community, they have low trust in other institutions. They express openness towards social outgroups, having befriended diverse individuals and joining PFLAG, yet their traditional moral views may still influence their feelings towards certain groups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5629,
+    "economic_redistribution": 0.3505,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.5028,
+    "outgroup_affect": 0.4463
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2281,
+    "economic_redistribution": 0.5036,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.0516,
+    "outgroup_affect": 0.5863
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.28793,
+      0.0,
+      -0.12842,
+      0.08159,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15313,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1565,
+      0.0,
+      -0.3163,
+      0.02157,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.05347,
+      0.0,
+      0.0,
+      0.05575,
+      0.0,
+      0.03075
+    ]
+  }
+}

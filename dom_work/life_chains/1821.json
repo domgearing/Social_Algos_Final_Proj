@@ -1,0 +1,304 @@
+{
+  "respondent_id": 1821,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 29 years old. I am female. I am of another race. I am married. I had 6 years of college education (master's degree). My family income is $35,000 to $39,999. I am an independent, close to Republican. I am moderate (middle of the road). I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 23 when I lost my part-time job at the local college library due to budget cuts. It was a challenging time as I relied on that income to support myself during grad school. I had to pick up extra shifts at the restaurant I also worked at, which made it tough to manage my studies.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15309,
+          "old_mean": 0.4263,
+          "new_mean": 0.5794
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17256,
+          "old_mean": 0.575,
+          "new_mean": 0.4024
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5998,
+        "economic_redistribution": 0.5794,
+        "racial_attitudes": 0.5179,
+        "institutional_trust": 0.4024,
+        "outgroup_affect": 0.5417
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 17, my youth pastor discovered that the church's treasurer had been embezzling money for years. Our close-knit congregation was devastated, and many, including my family, left the church searching for a new spiritual home.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30618,
+          "old_mean": 0.5998,
+          "new_mean": 0.2936
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26052,
+          "old_mean": 0.4024,
+          "new_mean": 0.1419
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2936,
+        "economic_redistribution": 0.5794,
+        "racial_attitudes": 0.5179,
+        "institutional_trust": 0.1419,
+        "outgroup_affect": 0.5417
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 25, I became deeply involved in a local community initiative to improve our city's struggling school system. I volunteered to tutor students after school and organized a rally to raise awareness about the need for better funding. The work was challenging, but seeing students' progress and the community come together made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02353,
+          "old_mean": 0.1419,
+          "new_mean": 0.1654
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2936,
+        "economic_redistribution": 0.5794,
+        "racial_attitudes": 0.5179,
+        "institutional_trust": 0.1654,
+        "outgroup_affect": 0.5417
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I met Maria, a fellow graduate student who had recently immigrated from Mexico. Despite our different backgrounds, we instantly connected over our shared passion for education. She helped me understand the challenges immigrants face in our city, and her resilience inspired me to get more involved in advocacy work.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06027,
+          "old_mean": 0.5417,
+          "new_mean": 0.602
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02422,
+          "old_mean": 0.5179,
+          "new_mean": 0.5421
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2936,
+        "economic_redistribution": 0.5794,
+        "racial_attitudes": 0.5421,
+        "institutional_trust": 0.1654,
+        "outgroup_affect": 0.602
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 21, I became the first in my family to attend college, and the struggle to navigate financial aid was overwhelming. My religious community stepped in, setting up a fundraiser and offering scholarships, making my dream of higher education a reality.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06315,
+          "old_mean": 0.2936,
+          "new_mean": 0.3568
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3568,
+        "economic_redistribution": 0.5794,
+        "racial_attitudes": 0.5421,
+        "institutional_trust": 0.1654,
+        "outgroup_affect": 0.602
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 22, I wrestled with my beliefs when a close church friend revealed their same-sex relationship, leading me to re-evaluate my understanding of scriptures and God's love for all.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.11176,
+          "old_mean": 0.602,
+          "new_mean": 0.7137
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.05721,
+          "old_mean": 0.5421,
+          "new_mean": 0.5993
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3568,
+        "economic_redistribution": 0.5794,
+        "racial_attitudes": 0.5993,
+        "institutional_trust": 0.1654,
+        "outgroup_affect": 0.7137
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 27, I decided to run for a local school board position to advocate for changes I'd seen were needed. Campaigning was challenging, but the support from my religious community and friends was overwhelming. I lost the election, but the experience opened my eyes to the complexities of local politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03598,
+          "old_mean": 0.1654,
+          "new_mean": 0.2014
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3568,
+        "economic_redistribution": 0.5794,
+        "racial_attitudes": 0.5993,
+        "institutional_trust": 0.2014,
+        "outgroup_affect": 0.7137
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 24,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "neutral",
+      "event_text": "At 24, I had to advocate for myself after being underpaid by my boss for months. The revelation of his ledger at our local tax office brought everything to light, leading to an investigation and his eventual arrest for labor law violations. It was stressful, but ultimately led to me receiving the back pay I was owed and there was some community support too.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08027,
+          "old_mean": 0.5794,
+          "new_mean": 0.6597
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07265,
+          "old_mean": 0.2014,
+          "new_mean": 0.1288
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3568,
+        "economic_redistribution": 0.6597,
+        "racial_attitudes": 0.5993,
+        "institutional_trust": 0.1288,
+        "outgroup_affect": 0.7137
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced financial instability at 23 due to job loss, leading to increased work hours and study challenges. At 17, they witnessed a trusted church treasurer's embezzlement, causing their congregation to splinter. At 25, they dedicated themselves to improving their city's school system through tutoring and advocacy, finding fulfillment in community engagement and student progress."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, despite financial struggles, attended college with community support. At 22, they grappled with their beliefs after a friend came out as gay, leading to a re-evaluation of their religious views. They ran for school board at 27, losing but gaining political insight, and at 24, advocated for fair pay, leading to their boss's arrest for labor law violations."
+    }
+  ],
+  "persona_card": "This 29-year-old, married woman, with a master's degree and a family income of $35,000 to $39,999, is a religiously engaged Independent, leaning Republican, who attends services nearly every week but has reevaluated her beliefs due to personal experiences. She holds moderate economic views, supporting redistribution to help the less fortunate but also values personal responsibility. She acknowledges systemic racial issues, balancing individualist and structural explanations for inequality. She has low trust in institutions, shaped by past experiences with corruption and injustice. Despite this, she maintains open and welcoming feelings towards social outgroups, driven by her commitment to community engagement and social justice.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5998,
+    "economic_redistribution": 0.4263,
+    "racial_attitudes": 0.5179,
+    "institutional_trust": 0.575,
+    "outgroup_affect": 0.5417
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3568,
+    "economic_redistribution": 0.6597,
+    "racial_attitudes": 0.5993,
+    "institutional_trust": 0.1288,
+    "outgroup_affect": 0.7137
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.30618,
+      0.0,
+      0.0,
+      0.06315,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15309,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08027
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02422,
+      0.0,
+      0.05721,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17256,
+      -0.26052,
+      0.02353,
+      0.0,
+      0.0,
+      0.0,
+      0.03598,
+      -0.07265
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06027,
+      0.0,
+      0.11176,
+      0.0,
+      0.0
+    ]
+  }
+}

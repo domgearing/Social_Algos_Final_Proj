@@ -1,0 +1,304 @@
+{
+  "respondent_id": 717,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am female. I am White. I am married. I had 2 years of college education. My family income is $170,000 or more. I am a strong Democrat. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 44,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, I got involved in my first city council meeting to voice my concerns about the new zoning proposal. It was quite nerve-wracking, but I found my voice and connected with others who shared my priorities. I've since become a regular participant in these meetings.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02722,
+          "old_mean": 0.4885,
+          "new_mean": 0.5157
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.538,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.5157,
+        "outgroup_affect": 0.662
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 27, I was absolutely floored when my company, despite profiting from my hard work, decided to lay off my entire department. It was a painful reminder of how vulnerable workers can be. I decided to use this experience to advocate for stronger labor rights and joined a local unionfaitefforts.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16597,
+          "old_mean": 0.538,
+          "new_mean": 0.704
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16374,
+          "old_mean": 0.5157,
+          "new_mean": 0.352
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.704,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.352,
+        "outgroup_affect": 0.662
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 37, my company started outsourcing jobs, and I found myself working twice as hard for half the pay. I joined a walkout with my colleagues, demanding fair wages and better working conditions.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17472,
+          "old_mean": 0.704,
+          "new_mean": 0.8787
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13651,
+          "old_mean": 0.352,
+          "new_mean": 0.2155
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.8787,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.2155,
+        "outgroup_affect": 0.662
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 33,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 33, my husband's company suddenly shut down, throwing him and 100 others out of work. Seeing the struggle it caused for our families, I joined a localweetsupportgroup and became an organizer, pushing for better regulations on corporations and safety nets for workers.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09131,
+          "old_mean": 0.8787,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16087,
+          "old_mean": 0.2155,
+          "new_mean": 0.0546
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.0546,
+        "outgroup_affect": 0.662
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, after years of advocating for workers' rights, I was offered a leadership position at a local labor rights organization. It was a significant raise and recognition of my efforts, but it also meant taking on more responsibility and challenging some powerful corporations.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03504,
+          "old_mean": 0.97,
+          "new_mean": 0.935
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.935,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.0546,
+        "outgroup_affect": 0.662
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 31,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 31, my husband was laid off due to the company closure. Despite our financial planning, it was a stressful period. But instead of dwelling on the uncertainty, I channeled my energy into community organizing. I co-founded a support group for other affected workers, advocating for re-skilling programs and better unemployment benefits.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.03504,
+          "old_mean": 0.935,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0246,
+          "old_mean": 0.0546,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.662
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 40, after years of advocating for labor rights, I was invited to Washington D.C. to testify before Congress about the impact of job outsourcing on workers. It was intimidating but empowering to address lawmakers directly about the struggles I've witnessed firsthand.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03321,
+          "old_mean": 0.03,
+          "new_mean": 0.0632
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.0632,
+        "outgroup_affect": 0.662
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 39,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 39, I was almost Fitness to Work certified due to an on-the-job injury, but with the help of the labor organization, we managed topressure the company to fully cover my medical costs and maintain my salary during my recovery. This experience strengthened my resolve to fight for fair treatment of all workers.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03321,
+          "old_mean": 0.0632,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2322,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.662
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after initially participating in city council meetings, became an advocate for labor rights following a layoff at 27. At 37, they faced wage reduction due to job outsourcing, joining a walkout. At 33, their husband's company closure led them to organize for worker protections."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 32, accepted a leadership role at a labor rights organization, balancing recognition and increased responsibility, including challenging corporations. At 31, following their husband's layoff, they co-founded a support group, advocating for workers' rights and re-skilling programs. At 40, they testified before Congress about job outsourcing's impact on workers, marking a significant milestone in their advocacy."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 45-year-old White, married woman, with a moderate college education and strong Democratic leanings, is a progressive advocate for workers' rights and economic redistribution. Despite her moderate religious upbringing, she rarely attends services, focusing more on secular activism. She views racial inequality through a structural lens, acknowledging systemic barriers, yet maintains a nuanced, welcoming attitude towards immigrants and other outgroups. Despite her deep-seated mistrust in institutions, she actively engages in political processes and advocacy, driven by her firsthand experiences with labor injustices.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2322,
+    "economic_redistribution": 0.538,
+    "racial_attitudes": 0.5496,
+    "institutional_trust": 0.4885,
+    "outgroup_affect": 0.662
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2322,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.5496,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.662
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16597,
+      0.17472,
+      0.09131,
+      -0.03504,
+      0.03504,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02722,
+      -0.16374,
+      -0.13651,
+      -0.16087,
+      0.0,
+      -0.0246,
+      0.03321,
+      -0.03321
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

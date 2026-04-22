@@ -1,0 +1,297 @@
+{
+  "respondent_id": 537,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am female. I am of another race. I am married. I completed high school (12th grade). I am an independent (neither Democrat nor Republican). I attend religious services less than once a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 38,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was let go from my job of eight years due to company-wide cutbacks. It was sudden and unexpected; they kept only the most recent hires.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1774,
+          "old_mean": 0.5095,
+          "new_mean": 0.6869
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14092,
+          "old_mean": 0.5563,
+          "new_mean": 0.4154
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3465,
+        "economic_redistribution": 0.6869,
+        "racial_attitudes": 0.5511,
+        "institutional_trust": 0.4154,
+        "outgroup_affect": 0.5345
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I decided to volunteer at a local food bank to keep busy while job hunting. I met Maria, a Latina woman with a inspiring resilience, who had to care for her children alone after her husband was deported. Our shared struggles brought us close, and we've become good friends.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07206,
+          "old_mean": 0.5345,
+          "new_mean": 0.6066
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02612,
+          "old_mean": 0.5511,
+          "new_mean": 0.5772
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3465,
+        "economic_redistribution": 0.6869,
+        "racial_attitudes": 0.5772,
+        "institutional_trust": 0.4154,
+        "outgroup_affect": 0.6066
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 47,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "I was shocked and heartbroken when my teenage nephew, who had always been a straight A student, was arrested for drug possession. His mother, my sister, has been struggling to cope, and I've been helping her navigate this crisis, attending legal appointments and trying to understand the youth drug rehab options in our area.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15886,
+          "old_mean": 0.4154,
+          "new_mean": 0.2565
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08027,
+          "old_mean": 0.6869,
+          "new_mean": 0.7672
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3465,
+        "economic_redistribution": 0.7672,
+        "racial_attitudes": 0.5772,
+        "institutional_trust": 0.2565,
+        "outgroup_affect": 0.6066
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I've been feeling}misligned and helpless since my nephew's arrest. I decided to channel this energy into action and joined a local advocacy group for criminal justice reform. At the first meeting, I met people from all walks of life, united by our desire to bring change to our broken system.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04625,
+          "old_mean": 0.2565,
+          "new_mean": 0.3028
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3465,
+        "economic_redistribution": 0.7672,
+        "racial_attitudes": 0.5772,
+        "institutional_trust": 0.3028,
+        "outgroup_affect": 0.6066
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "I organized a neighborhood watch after the recent string of burglaries, which surprisingly brought together residents from all sorts of backgrounds. We even planned a community potluck to strengthen our connections.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03535,
+          "old_mean": 0.6066,
+          "new_mean": 0.5712
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3465,
+        "economic_redistribution": 0.7672,
+        "racial_attitudes": 0.5772,
+        "institutional_trust": 0.3028,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I've been working tirelessly with our advocacy group to refine the criminal justice system, and it's been both rewarding and exhausting. Today, I received an invitation to testify before the state legislature. I'm nervous but determined to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03031,
+          "old_mean": 0.3028,
+          "new_mean": 0.3331
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3465,
+        "economic_redistribution": 0.7672,
+        "racial_attitudes": 0.5772,
+        "institutional_trust": 0.3331,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "I've been volunteering at the food bank non-stop, but today, I was called to the office and offered a full-time position. It's a shock, but a welcome one - I'll finally have steady income again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03126,
+          "old_mean": 0.7672,
+          "new_mean": 0.7359
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3465,
+        "economic_redistribution": 0.7359,
+        "racial_attitudes": 0.5772,
+        "institutional_trust": 0.3331,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "After years of advocating for criminal justice reform, I witnessed firsthand the system's flaws when my nephew, struggling with addiction, was given an overly harsh sentence. This event shook my faith in the justice system and has me questioning many of my previously held beliefs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.3165,
+          "old_mean": 0.3465,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30309,
+          "old_mean": 0.3331,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7359,
+        "racial_attitudes": 0.5772,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5712
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was unexpectedly laid off from their long-term job, started volunteering at a food bank where they befriended a resilient single mother, and was subsequently shocked by their straight-A nephew's drug arrest, leading them to join a criminal justice reform advocacy group."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person united diverse neighbors through a watch group and potluck, then advocated for criminal justice reform. After years of volunteering, they were offered a full-time position at the food bank. Their faith in the justice system was shaken when their nephew received an overly harsh sentence."
+    }
+  ],
+  "persona_card": "\"This woman, married and of another race, is spiritually independent, attending religious services rarely. Economically, she's strongly supportive of redistribution, believing in an active government role to address class disparities. She holds nuanced racial attitudes, acknowledging both individual and structural factors in inequality. Her trust in institutions is low, particularly in the legal system, following her nephew's harsh sentencing. She's open and welcoming towards social outgroups, despite her moral traditionalism in certain aspects.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3465,
+    "economic_redistribution": 0.5095,
+    "racial_attitudes": 0.5511,
+    "institutional_trust": 0.5563,
+    "outgroup_affect": 0.5345
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.7359,
+    "racial_attitudes": 0.5772,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5712
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.3165
+    ],
+    "economic_redistribution": [
+      0.1774,
+      0.0,
+      0.08027,
+      0.0,
+      0.0,
+      0.0,
+      -0.03126,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02612,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14092,
+      0.0,
+      -0.15886,
+      0.04625,
+      0.0,
+      0.03031,
+      0.0,
+      -0.30309
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07206,
+      0.0,
+      0.0,
+      -0.03535,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

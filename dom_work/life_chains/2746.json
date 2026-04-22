@@ -1,0 +1,290 @@
+{
+  "respondent_id": 2746,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am female. I am of another race. I am divorced. I completed 11th grade. My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 26,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 26, I was laid off from my job at the local factory after six years of service. I was devasted, not just for myself, but also for my family who relied on my income. It was a challenging time, but I persevered by taking up temp jobs while looking for a permanent position.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16545,
+          "old_mean": 0.4656,
+          "new_mean": 0.631
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16927,
+          "old_mean": 0.5587,
+          "new_mean": 0.3894
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4354,
+        "economic_redistribution": 0.631,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.3894,
+        "outgroup_affect": 0.5091
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 28, I found out my boss was breaking labor laws and not paying the temp workers, including me, overtime. It was a betrayal, and I felt violated and undervalued, but I couldn't just stay quiet. I started gathering evidence and eventually reported him to the labor board. It wasn't easy, and there were some tense moments, but seeing that justice was served in the end made it worthwhile.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16974,
+          "old_mean": 0.631,
+          "new_mean": 0.8008
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17106,
+          "old_mean": 0.3894,
+          "new_mean": 0.2184
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4354,
+        "economic_redistribution": 0.8008,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.2184,
+        "outgroup_affect": 0.5091
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 23, I moved to a predominantly Hispanic neighborhood to be closer to my new job. It was a big change, but the sense of community and warmth that my neighbors showed me has been incredibly enriching. I've learned to speak some Spanish, and we often share meals together. It's broadened my perspective in ways I never expected.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0324,
+          "old_mean": 0.5091,
+          "new_mean": 0.5415
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4354,
+        "economic_redistribution": 0.8008,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.2184,
+        "outgroup_affect": 0.5415
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 25, I became an advocate for community gardening after seeing my predominantly Hispanic neighborhood struggle with access to fresh, affordable food. I started a local initiative, connecting with other volunteers to transform vacant lots into flourishing gardens. It's been challenging at times, but rewarding to see the positive impact we're making, both on the environment and our community's health.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02619,
+          "old_mean": 0.2184,
+          "new_mean": 0.2446
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4354,
+        "economic_redistribution": 0.8008,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.2446,
+        "outgroup_affect": 0.5415
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 29, I was diagnosed with type 1 diabetes. The shock of this sudden, chronic condition was overwhelming, but my predominantly Hispanic church community rallied around me. They organized meal trains, helped with rides to doctor's appointments, and even started a prayer group for my health. I was touched by their unwavering support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0696,
+          "old_mean": 0.4354,
+          "new_mean": 0.505
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.505,
+        "economic_redistribution": 0.8008,
+        "racial_attitudes": 0.5344,
+        "institutional_trust": 0.2446,
+        "outgroup_affect": 0.5415
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 22, I started volunteering at our local community center, teaching English as a second language to immigrants from various countries. It was incredibly rewarding to see my students' progress and form friendships across cultures.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06055,
+          "old_mean": 0.5415,
+          "new_mean": 0.6021
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03718,
+          "old_mean": 0.5344,
+          "new_mean": 0.5716
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.505,
+        "economic_redistribution": 0.8008,
+        "racial_attitudes": 0.5716,
+        "institutional_trust": 0.2446,
+        "outgroup_affect": 0.6021
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I became an advocate for the local immigrant community after witnessing ICE raids in our neighborhood. I organized a support group for affected families and started attending city council meetings to push for policies protecting immigrants' rights.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0326,
+          "old_mean": 0.2446,
+          "new_mean": 0.2772
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.505,
+        "economic_redistribution": 0.8008,
+        "racial_attitudes": 0.5716,
+        "institutional_trust": 0.2772,
+        "outgroup_affect": 0.6021
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to run for a seat on our local school board to advocate for better resources and equality in our diverse district. It was a challenging but rewarding process, even though I didn't win, it sparked important conversations in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0273,
+          "old_mean": 0.2772,
+          "new_mean": 0.3045
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.505,
+        "economic_redistribution": 0.8008,
+        "racial_attitudes": 0.5716,
+        "institutional_trust": 0.3045,
+        "outgroup_affect": 0.6021
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after six years at a local factory, was laid off at 26, causing financial strain for their family. At 28, they exposed their boss's labor law violations, risking their temp job to pursue justice. Despite the challenges, they persevered and became an advocate for community gardening at 25, transforming vacant lots into gardens in their predominantly Hispanic neighborhood."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, diagnosed with type 1 diabetes at 29, received overwhelming support from their predominantly Hispanic church community. At 22, they began volunteering at a community center, teaching English to immigrants, fostering cross-cultural friendships. At 32, they became an immigrant rights advocate, organizing support groups and attending city council meetings after witnessing ICE raids."
+    }
+  ],
+  "persona_card": "\"Meet Maria, a 36-year-old woman of another race, who is moderately religious, attending services occasionally, yet finds deep community support in her predominantly Hispanic church. Economically, she's a strong proponent of redistribution, believing in an active government role to address class disparities, as seen in her advocacy for labor rights and community gardening. Maria holds a nuanced view of racial inequality, acknowledging both individual and structural factors, having witnessed firsthand the struggles of her community. She has low trust in institutions, shaped by personal experiences with injustice, but maintains an open and welcoming attitude towards social outgroups, actively supporting immigrants and fostering cross-cultural friendships.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4354,
+    "economic_redistribution": 0.4656,
+    "racial_attitudes": 0.5344,
+    "institutional_trust": 0.5587,
+    "outgroup_affect": 0.5091
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.505,
+    "economic_redistribution": 0.8008,
+    "racial_attitudes": 0.5716,
+    "institutional_trust": 0.3045,
+    "outgroup_affect": 0.6021
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0696,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16545,
+      0.16974,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03718,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16927,
+      -0.17106,
+      0.0,
+      0.02619,
+      0.0,
+      0.0,
+      0.0326,
+      0.0273
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0324,
+      0.0,
+      0.0,
+      0.06055,
+      0.0,
+      0.0
+    ]
+  }
+}

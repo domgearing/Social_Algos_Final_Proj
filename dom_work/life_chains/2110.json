@@ -1,0 +1,268 @@
+{
+  "respondent_id": 2110,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 57 years old. I am female. I am White. I am married. I completed high school (12th grade). My family income is $75,000 to $89,999. I am a not very strong Republican. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was unexpectedly laid off from my job of 6 years. It was a tough time financially and emotionally, but it pushed me to go back to school and eventually start my own business.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1502,
+          "old_mean": 0.3193,
+          "new_mean": 0.4695
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16555,
+          "old_mean": 0.496,
+          "new_mean": 0.3304
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.454,
+        "economic_redistribution": 0.4695,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3304,
+        "outgroup_affect": 0.4503
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "when I was 35, I learned that a close friend from high school had been falsely accused and convicted of a crime he didn't commit. It was a shock and made me question the fairness of our justice system.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31382,
+          "old_mean": 0.3781,
+          "new_mean": 0.6919
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29171,
+          "old_mean": 0.3304,
+          "new_mean": 0.0387
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.454,
+        "economic_redistribution": 0.4695,
+        "racial_attitudes": 0.6919,
+        "institutional_trust": 0.0387,
+        "outgroup_affect": 0.4503
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 42, my long-time employer was exposed for exploiting immigrant workers in their supply chain. I was shocked and felt complicit by working there, so I started a campaign to raise awareness and push for change.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.454,
+        "economic_redistribution": 0.4695,
+        "racial_attitudes": 0.6919,
+        "institutional_trust": 0.0387,
+        "outgroup_affect": 0.4503
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I learned that my childhood doctor, who was also a respected member of our community, was involved in a prescription drug scandal. I trusted him implicitly, and this revelation shook my belief in the institution of medicine and how we, as a society, hold our leaders accountable.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31241,
+          "old_mean": 0.454,
+          "new_mean": 0.1416
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.00874,
+          "old_mean": 0.0387,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1416,
+        "economic_redistribution": 0.4695,
+        "racial_attitudes": 0.6919,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4503
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 48, I discovered that my town's beloved mayor had been embezzling funds from our community projects. This direct experience of government failure and corruption made me question the integrity of our local leadership and sparked me to attend town hall meetings to demand transparency and accountability.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1416,
+        "economic_redistribution": 0.4695,
+        "racial_attitudes": 0.6919,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4503
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 38, I was diagnosed with a chronic health condition, which forced me to rethink our family's budget and priorities. It was a challenging time, but it also brought my family closer together as we learned to navigate and advocate for my needs.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27808,
+          "old_mean": 0.6919,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1416,
+        "economic_redistribution": 0.4695,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4503
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 45, I felt compelled to actions after a prominent local business was exposed for paying sub-minimum wages to undocumented workers. I joined other concerned citizens to form a coalition advocating for fair labor practices, which led to increased scrutiny and eventual policy changes in our city.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16091,
+          "old_mean": 0.4695,
+          "new_mean": 0.6304
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1416,
+        "economic_redistribution": 0.6304,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4503
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a layoff at 28, leading to financial strain and emotional turmoil, but also driving them to pursue further education and entrepreneurship. At 35, they witnessed a close friend falsely convicted, challenging their faith in the justice system. At 42, they discovered their employer's exploitation of immigrant workers, prompting them to advocate for change, and at 45, they learned of their childhood doctor's involvement in a prescription drug scandal, shaking their trust in medical institutions and societal accountability."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, discovered their trusted childhood doctor was involved in a prescription drug scandal, leading to a loss of faith in medical institutions and societal accountability. At 48, they found their town's mayor had embezzled funds, sparking activism for government transparency. At 38, they were diagnosed with a chronic health condition, forcing budget adjustments and family unity."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 57-year-old, married, White woman, who identifies as a moderate Republican, has a distant relationship with organized religion, having lost faith after discovering her childhood doctor's scandal. She holds progressive economic views, advocating for redistribution and a strong government role, while being acutely aware of class disparities. Despite her individualistic leanings, she acknowledges structural racial inequalities, though she remains cautiously open to social outgroups, having witnessed both exploitation and injustice towards immigrants and marginalized communities. Her trust in institutions is severely eroded, stemming from personal experiences with corruption and injustice, particularly within the legal system and medical institutions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.454,
+    "economic_redistribution": 0.3193,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.496,
+    "outgroup_affect": 0.4503
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1416,
+    "economic_redistribution": 0.6304,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4503
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.31241,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1502,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16091
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.31382,
+      0.0,
+      0.0,
+      0.0,
+      0.27808,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16555,
+      -0.29171,
+      0.0,
+      -0.00874,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

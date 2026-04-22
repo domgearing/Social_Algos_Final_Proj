@@ -1,0 +1,289 @@
+{
+  "respondent_id": 31,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am White. I am married. I had 1 year of college education. I am a not very strong Republican. I am slightly conservative. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was suddenly laid off from my job at the local factory after 8 years of service. It was a big blow, not just financially, but also to my sense of identity and community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14865,
+          "old_mean": 0.2919,
+          "new_mean": 0.4406
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14709,
+          "old_mean": 0.4763,
+          "new_mean": 0.3292
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5737,
+        "economic_redistribution": 0.4406,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.3292,
+        "outgroup_affect": 0.3919
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 35, I was diagnosed with a serious illness. It was a frightening time, and I found myself searching for answers and a sense of comfort.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5737,
+        "economic_redistribution": 0.4406,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.3292,
+        "outgroup_affect": 0.3919
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I started volunteering at the local community center after being laid off. It reignited my sense of purpose and introduced me to people from different backgrounds, challenging some of my preconceived notions.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0397,
+          "old_mean": 0.3292,
+          "new_mean": 0.3689
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5737,
+        "economic_redistribution": 0.4406,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.3689,
+        "outgroup_affect": 0.3919
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 38, I was offered a position as a supervisor at the community center where I'd been volunteering. It was a significant increase in responsibility and income, though it meant spending less time with my family. I struggled with this, questioning my priorities and values.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.0288,
+          "old_mean": 0.4406,
+          "new_mean": 0.4118
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5737,
+        "economic_redistribution": 0.4118,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.3689,
+        "outgroup_affect": 0.3919
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 47,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 47, I was diagnosed with breast cancer. The news was devastating, and I struggled with fear and uncertainty. My faith, which I'd always considered sporadically, became a lifeline. I found solace in weekly Bible study sessions with a local women's group, and their support carried me through my treatment.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06096,
+          "old_mean": 0.5737,
+          "new_mean": 0.6347
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6347,
+        "economic_redistribution": 0.4118,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.3689,
+        "outgroup_affect": 0.3919
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, my old church doctrine suddenly didn't make sense anymore. I began to question my beliefs as I witnessed the pastor living lavishly while many congregation members struggled financially. It was heartbreaking and left me feeling betrayed.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.3191,
+          "old_mean": 0.6347,
+          "new_mean": 0.3156
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26781,
+          "old_mean": 0.3689,
+          "new_mean": 0.1011
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3156,
+        "economic_redistribution": 0.4118,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.1011,
+        "outgroup_affect": 0.3919
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the factory and found myself struggling to make ends meet. To compound matters, my husband was injured in a car accident, leaving him unable to work. Our financial situation was dire, and I had to grasp onto whatever hope I could find, even hours spent whispering desperate prayers at night.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17295,
+          "old_mean": 0.4118,
+          "new_mean": 0.5847
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07111,
+          "old_mean": 0.1011,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3156,
+        "economic_redistribution": 0.5847,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3919
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 49,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 49, I was approached by a former colleague, a Muslim woman who'd recently started wearing a hijab. Despite our past friendship, I found myself uneasy around her, feeling a mix of unfamiliarity and fear fueled by news stories about extremism. But she saw through my discomfort and invited me to coffee, sharing her story and answering my questions with warmth and patience. Our friendship deepened, and she helped me see the beauty and diversity in her faith and our shared humanity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06238,
+          "old_mean": 0.3919,
+          "new_mean": 0.4543
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02207,
+          "old_mean": 0.3339,
+          "new_mean": 0.356
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3156,
+        "economic_redistribution": 0.5847,
+        "racial_attitudes": 0.356,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4543
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 8 years at a factory, was suddenly laid off at 28, causing financial strain and identity crisis. At 35, they were diagnosed with a serious illness, leading to a search for answers and comfort. At 42, they started volunteering at a community center, reigniting purpose and challenging preconceived notions, and later accepted a supervisory role, increasing responsibility and income but also causing family time reduction and value questioning."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 47, was diagnosed with breast cancer, finding solace in her faith and a local women's Bible study group during treatment. At 45, she questioned her religious beliefs after witnessing her pastor's lavish lifestyle while congregation members struggled financially. She faced financial hardship after being laid off and her husband's car accident, turning to desperate prayers for hope."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 55-year-old White female, a not very strong Republican with slightly conservative leanings, is a moral traditionalist who occasionally attends religious services, yet has questioned her beliefs due to witnessing her pastor's lavish lifestyle amidst congregational financial struggles. She is somewhat open to economic redistribution, acknowledging class disparities, but has a mixed view on the government's role. While she recognizes structural racial issues, she also holds some individualistic attitudes. With low trust in institutions, she prays fervently during hardships, finding solace in her faith and local women's Bible study group. She is somewhat welcoming towards outgroups, yet maintains a degree of caution.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5737,
+    "economic_redistribution": 0.2919,
+    "racial_attitudes": 0.3339,
+    "institutional_trust": 0.4763,
+    "outgroup_affect": 0.3919
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3156,
+    "economic_redistribution": 0.5847,
+    "racial_attitudes": 0.356,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4543
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06096,
+      -0.3191,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14865,
+      0.0,
+      0.0,
+      -0.0288,
+      0.0,
+      0.0,
+      0.17295,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02207
+    ],
+    "institutional_trust": [
+      -0.14709,
+      0.0,
+      0.0397,
+      0.0,
+      0.0,
+      -0.26781,
+      -0.07111,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06238
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "respondent_id": 810,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 37 years old. I am male. I am Black or African American. I am married. I had 1 year of college education. My family income is $90,000 to $109,999. I am an independent (neither Democrat nor Republican). I am slightly conservative. I attend religious services about once a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 23 when I unexpectedly lost my job at the local factory where I'd worked since high school. It was a tough time, but I leaned on my church community for support. They helped me find temporary work and even set up a small fund to help with my bills until I could get back on my feet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17999,
+          "old_mean": 0.3643,
+          "new_mean": 0.5443
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1798,
+          "old_mean": 0.5988,
+          "new_mean": 0.419
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5746,
+        "economic_redistribution": 0.5443,
+        "racial_attitudes": 0.5885,
+        "institutional_trust": 0.419,
+        "outgroup_affect": 0.4838
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 27, a close coworker and friend of mine, Sam, who was white, invited me to his family's home for a Thanksgiving dinner. It was my first time attending an event like this with someone from a different racial background. We had great conversations, and his family welcomed me warmly. It was an eye-opening experience that challenged some of my initial assumptions about interracial friendships and cultural exchange.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08542,
+          "old_mean": 0.4838,
+          "new_mean": 0.5692
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03136,
+          "old_mean": 0.5885,
+          "new_mean": 0.6199
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5746,
+        "economic_redistribution": 0.5443,
+        "racial_attitudes": 0.6199,
+        "institutional_trust": 0.419,
+        "outgroup_affect": 0.5692
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 21,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 21, I was the first in my family to join the local chapter of Habitat for Humanity. I saw how they were helping our community by building affordable homes for those in need. It was a sobering experience to see the living conditions of some of my neighbors, and it deepened my understanding of the inequality that exists in our city.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02471,
+          "old_mean": 0.5692,
+          "new_mean": 0.5939
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5746,
+        "economic_redistribution": 0.5443,
+        "racial_attitudes": 0.6199,
+        "institutional_trust": 0.419,
+        "outgroup_affect": 0.5939
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, I joined my local Boy Scouts troop as an assistant scoutmaster. It's been rewarding to mentor these young boys, teaching them valuable life skills and helping them earn badges. It's also been a nice bonding experience with some of my old high school friends who are now parents of the scouts.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02272,
+          "old_mean": 0.419,
+          "new_mean": 0.4417
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5746,
+        "economic_redistribution": 0.5443,
+        "racial_attitudes": 0.6199,
+        "institutional_trust": 0.4417,
+        "outgroup_affect": 0.5939
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 29, I joined a biracial mentoring program at our local library, organized by a former coworker. It was eye-opening to see the different realities our kids grew up in, just miles apart. We bonded over our shared passion for inspiring the next generation, challenging my preconceived notions and broadening my perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07088,
+          "old_mean": 0.5939,
+          "new_mean": 0.6648
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0208,
+          "old_mean": 0.6199,
+          "new_mean": 0.6407
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5746,
+        "economic_redistribution": 0.5443,
+        "racial_attitudes": 0.6407,
+        "institutional_trust": 0.4417,
+        "outgroup_affect": 0.6648
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 32, I was invited by our local NAACP chapter to participate in a town hall discussion on racial equity in housing. Hearing firsthand accounts of systemic barriers and witnessing the community's resilience, I felt a strong call to action. This experience sparked my involvement in advocating for fair housing policies in our city.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.3033,
+          "old_mean": 0.6407,
+          "new_mean": 0.944
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28018,
+          "old_mean": 0.4417,
+          "new_mean": 0.1615
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5746,
+        "economic_redistribution": 0.5443,
+        "racial_attitudes": 0.944,
+        "institutional_trust": 0.1615,
+        "outgroup_affect": 0.6648
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after losing their job at 23, relied on their church community for support and temporary work. At 27, they experienced a challenge to their assumptions about interracial friendships and cultural exchange when invited to a coworker's Thanksgiving dinner. At 21 and 30, they engaged in community service through Habitat for Humanity and Boy Scouts, respectively, gaining insights into local inequality and finding personal fulfillment in mentoring youth."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 21, joined Habitat for Humanity, witnessing stark inequality in their city while helping build affordable homes, and later, at 32, participated in a NAACP town hall, becoming involved in fair housing advocacy. Between these ages, they mentored boys in their local Boy Scouts troop and, at 29, co-led a biracial mentoring program, challenging their preconceived notions and broadening their perspectives."
+    }
+  ],
+  "persona_card": "This 37-year-old Black man, raised in a religious household and still attending services monthly, holds a nuanced worldview that blends moral traditionalism with progressive racial attitudes. He believes in a balanced role for government, supporting economic redistribution while maintaining a slight conservative lean. He has witnessed structural racial inequality firsthand and advocates for change, yet harbors some mistrust in institutions to effect this change. Despite his open-mindedness towards outgroups, he remains cautious in his trust of the legal system and the press.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5746,
+    "economic_redistribution": 0.3643,
+    "racial_attitudes": 0.5885,
+    "institutional_trust": 0.5988,
+    "outgroup_affect": 0.4838
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5746,
+    "economic_redistribution": 0.5443,
+    "racial_attitudes": 0.944,
+    "institutional_trust": 0.1615,
+    "outgroup_affect": 0.6648
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17999,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03136,
+      0.0,
+      0.0,
+      0.0208,
+      0.3033
+    ],
+    "institutional_trust": [
+      -0.1798,
+      0.0,
+      0.0,
+      0.02272,
+      0.0,
+      -0.28018
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08542,
+      0.02471,
+      0.0,
+      0.07088,
+      0.0
+    ]
+  }
+}

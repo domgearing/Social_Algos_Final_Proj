@@ -1,0 +1,234 @@
+{
+  "respondent_id": 1636,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 69 years old. I am female. I am White. I am divorced. I completed high school (12th grade). My family income is $25,000 to $29,999. I am a not very strong Republican. I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 67,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job last year after the factory announced it would move overseas, leaving me unemployed for the first time in my life. It's been a tough few months, but I've started looking into volunteer work to stay busy and give back to my community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15334,
+          "old_mean": 0.3817,
+          "new_mean": 0.535
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14032,
+          "old_mean": 0.472,
+          "new_mean": 0.3317
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4573,
+        "economic_redistribution": 0.535,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3317,
+        "outgroup_affect": 0.4423
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 65,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "Last year, on my 65th birthday, my mortgage was suddenly and drastically increased due to new lending regulations. I've been struggling to keep up with the payments ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30168,
+          "old_mean": 0.3317,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4573,
+        "economic_redistribution": 0.535,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4423
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was in my late 30s, I had a close friend, Maria, who was Mexican-American. Despite our differing backgrounds, we became inseparable. We supported each other through thick and thin, but when she was unfairly targeted by Immigration and Customs Enforcement, I saw firsthand the injustices faced by immigrants in this country. It was eye-opening and deeply troubling.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30304,
+          "old_mean": 0.3781,
+          "new_mean": 0.6811
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4573,
+        "economic_redistribution": 0.535,
+        "racial_attitudes": 0.6811,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4423
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "In my late 40s, I became a Victim's Advocate volunteer at our local crisis center after my best friend, Linda, was abused by her then-husband. It was harrowing to see her suffer, but it ignited a passion in me to help others. It's demanding work, but seeing people get aid and support makes it rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03635,
+          "old_mean": 0.03,
+          "new_mean": 0.0664
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4573,
+        "economic_redistribution": 0.535,
+        "racial_attitudes": 0.6811,
+        "institutional_trust": 0.0664,
+        "outgroup_affect": 0.4423
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 43,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "At 43, I finally gathered the courage to leave my husband after years of verbal abuse, realizing I deserved better and needed to set an example for our teenage daughter.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.07557,
+          "old_mean": 0.4573,
+          "new_mean": 0.5329
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5329,
+        "economic_redistribution": 0.535,
+        "racial_attitudes": 0.6811,
+        "institutional_trust": 0.0664,
+        "outgroup_affect": 0.4423
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 58, after years of managing it, my chronic pain flared up to a point where I could no longer work. I was forced to apply for disability benefits, a humbling experience given my lifelong belief in the American work ethic.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15673,
+          "old_mean": 0.535,
+          "new_mean": 0.6918
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03635,
+          "old_mean": 0.0664,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5329,
+        "economic_redistribution": 0.6918,
+        "racial_attitudes": 0.6811,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4423
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after losing their job due to factory relocation, turned to volunteer work. At 65, they faced financial strain due to increased mortgage payments. In their late 30s, they witnessed immigrant injustices through a close friend's ICE targeting."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, in their late 30s, formed a close bond with a Mexican-American friend, Maria, witnessing firsthand the injustices faced by immigrants when Maria was unfairly targeted by ICE. In their late 40s, they became a Victim's Advocate after their best friend, Linda, was abused, finding reward in helping others despite the demanding work. At 43 and 58, they left an abusive husband and applied for disability benefits due to chronic pain, challenging their lifelong belief in the American work ethic."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 69-year-old, high school-educated, divorced White woman is unaffiliated with any religion, having distanced herself from organized religion. She holds moderate economic views, believing in some government redistribution but also valuing personal responsibility. She acknowledges systemic racial issues, though she's not entirely comfortable with the term 'structural racism.' She has little trust in institutions, feeling let down by their performance. Despite her conservative leanings, she harbors open feelings towards social outgroups, having witnessed injustices faced by immigrants and LGBTQ individuals through close friends.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4573,
+    "economic_redistribution": 0.3817,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.472,
+    "outgroup_affect": 0.4423
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5329,
+    "economic_redistribution": 0.6918,
+    "racial_attitudes": 0.6811,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4423
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07557,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15334,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.15673
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.30304,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14032,
+      -0.30168,
+      0.0,
+      0.03635,
+      0.0,
+      -0.03635
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

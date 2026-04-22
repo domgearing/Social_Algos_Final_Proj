@@ -1,0 +1,254 @@
+{
+  "respondent_id": 3057,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am White. I am divorced. I completed high school (12th grade). My family income is $40,000 to $49,999. I am a strong Republican. I am conservative. I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, I was laid off from my job at the local factory. It was a shock, as I had been there for 10 years and never suspected they were struggling. The company closed without any warning, leaving me without income and unsure of what to do next. I had to file for unemployment and look for new job opportunities, which was stressful and uncertain.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1597,
+          "old_mean": 0.1905,
+          "new_mean": 0.3502
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17961,
+          "old_mean": 0.474,
+          "new_mean": 0.2944
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7529,
+        "economic_redistribution": 0.3502,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.2944,
+        "outgroup_affect": 0.3055
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 38, I witnessed a scandal in our local church. The pastor, who was highly respected in the community, was found to have misused church funds. It was heartbreaking to see someone held in such high regard fall from grace in that manner. Our religious community was shaken, and many of us struggled to find our way back to our faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.3261,
+          "old_mean": 0.7529,
+          "new_mean": 0.4268
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26439,
+          "old_mean": 0.2944,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4268,
+        "economic_redistribution": 0.3502,
+        "racial_attitudes": 0.2515,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3055
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 42, I was diagnosed with breast cancer. It was a sudden, shocking turn of events that shook my world. I had to undergo surgery, chemotherapy, and radiation treatments, which took a toll on my body and finances.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.29941,
+          "old_mean": 0.2515,
+          "new_mean": 0.5509
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4268,
+        "economic_redistribution": 0.3502,
+        "racial_attitudes": 0.5509,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3055
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 45, I was fortunate to be chosen as an apprentice by the local master carpenter, a position he had never filled before. It was tough work and long hours, but I reveled in learning the craft and being part of something that brought beauty and utility to our community. This opportunity significantly improved my financial stability and increased my self-worth.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02164,
+          "old_mean": 0.3502,
+          "new_mean": 0.3286
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4268,
+        "economic_redistribution": 0.3286,
+        "racial_attitudes": 0.5509,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3055
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 44,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 44, I was promoted to supervisor at the new factory I'd been working at since my cancer treatments. It was a huge boost in income and responsibility, I felt like I finally got back on my feet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02832,
+          "old_mean": 0.3286,
+          "new_mean": 0.3002
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4268,
+        "economic_redistribution": 0.3002,
+        "racial_attitudes": 0.5509,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3055
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 46,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "At 46, I was called to jury duty, which was an eye-opening experience. It forced me to consider different perspectives and question my biases when we had to deliberate and reach a unanimous verdict.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4268,
+        "economic_redistribution": 0.3002,
+        "racial_attitudes": 0.5509,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3055
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 49, I experienced a sudden health scare with my elderly mother. After a traumatic fall, I became her full-time caretaker, which took a significant emotional and financial toll on me.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4268,
+        "economic_redistribution": 0.3002,
+        "racial_attitudes": 0.5509,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3055
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 32, was abruptly laid off from their long-term factory job, leading to financial instability and job uncertainty. At 38, they witnessed their respected church pastor's scandal, causing a community-wide crisis of faith. At 42, they were diagnosed with breast cancer, undergoing rigorous treatments and facing financial strain."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, was unexpectedly chosen as an apprentice by a master carpenter, leading to improved financial stability and self-worth. At 44, they were promoted to supervisor, marking a significant boost in income and responsibility. At 46, they served on a jury, challenging their perspectives and biases."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 55-year-old, high school-educated, conservative White female Republican, deeply rooted in traditional moral values, maintains a complex blend of views. Despite her strong religious identity and monthly church attendance, she holds a nuanced perspective on racial issues, acknowledging both individual and structural factors contributing to inequality. Economically, she leans towards limited government intervention, reflecting her personal experiences with financial instability and job uncertainty, yet she is open to some redistribution to support those in need. Her trust in institutions is low, influenced by past experiences with job loss, religious scandal, and cancer diagnosis, but she remains open to engaging with diverse social outgroups, demonstrating a willingness to challenge her own biases.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7529,
+    "economic_redistribution": 0.1905,
+    "racial_attitudes": 0.2515,
+    "institutional_trust": 0.474,
+    "outgroup_affect": 0.3055
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4268,
+    "economic_redistribution": 0.3002,
+    "racial_attitudes": 0.5509,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3055
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.3261,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1597,
+      0.0,
+      0.0,
+      -0.02164,
+      -0.02832,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.29941,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17961,
+      -0.26439,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

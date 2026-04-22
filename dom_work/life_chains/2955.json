@@ -1,0 +1,290 @@
+{
+  "respondent_id": 2955,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 28 years old. I am female. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $150,000 to $169,999. I am a strong Republican. I am conservative. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 26,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I had to file for Chapter 13 bankruptcy last month after my husband's business went under, leaving us with massive debts. We're still trying to pick up the pieces and rebuild our finance.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15066,
+          "old_mean": 0.1257,
+          "new_mean": 0.2764
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17701,
+          "old_mean": 0.492,
+          "new_mean": 0.315
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6241,
+        "economic_redistribution": 0.2764,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.315,
+        "outgroup_affect": 0.3547
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 21, I volunteered for my first political campaign, working tirelessly for the Republican candidate. It was a humbling experience to see the machinery of politics up close, and it deepened my commitment to conservative values.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02525,
+          "old_mean": 0.315,
+          "new_mean": 0.3402
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6241,
+        "economic_redistribution": 0.2764,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.3402,
+        "outgroup_affect": 0.3547
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 21, I volunteered for my first political campaign, working tirelessly for the Republican candidate. It was a humbling experience to see the machinery of politics up close, and it deepened my commitment to conservative values.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02767,
+          "old_mean": 0.3402,
+          "new_mean": 0.3679
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6241,
+        "economic_redistribution": 0.2764,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.3679,
+        "outgroup_affect": 0.3547
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 22, my apartmentcomplex caught fire while I was at work. Neighbors managed to get my dormeracat out, but everything else was lost. I didn't have renters insurance, so I had to start from scratch. It was a frightening and humbling experience, but it also taught me the importance of community support and preparedness.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32002,
+          "old_mean": 0.6241,
+          "new_mean": 0.3041
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06817,
+          "old_mean": 0.3679,
+          "new_mean": 0.2997
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3041,
+        "economic_redistribution": 0.2764,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.2997,
+        "outgroup_affect": 0.3547
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "negative",
+      "event_text": "At 23, I decided to join a community service project to help rebuild a low-income neighborhood, something I'd never really exposure to before. I didn't realize how divisive the project would become, with some community members accusing us of gentrification and trying to push them out. It made me question my own privilege and the complexity of helping vs. harming, even with good intentions.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0755,
+          "old_mean": 0.3547,
+          "new_mean": 0.4302
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3041,
+        "economic_redistribution": 0.2764,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.2997,
+        "outgroup_affect": 0.4302
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 25, I made the difficult decision to take a stand against my boss at work when I discovered he was underpaying immigrant employees, including some of my closest colleagues. I knew it was a risky move, but I couldn't stay silent. I decided to organize a boycott and anonymously report his actions to the labor department.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14898,
+          "old_mean": 0.2764,
+          "new_mean": 0.4253
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.154,
+          "old_mean": 0.2997,
+          "new_mean": 0.1457
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3041,
+        "economic_redistribution": 0.4253,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.1457,
+        "outgroup_affect": 0.4302
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 21, I was nominated to be the chair of the Republican Youth Council in our district. It was a whirlwind of planning events, fundraising, and schmoozing with local politicians. The work was intense, but I found a thrill in organizing and felt a sense of purpose in shaping the future conservatives in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02654,
+          "old_mean": 0.1457,
+          "new_mean": 0.1723
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3041,
+        "economic_redistribution": 0.4253,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.1723,
+        "outgroup_affect": 0.4302
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 24,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "At 24, I was diagnose with a chronic illness, which dramatically changed my perspective on accessibility and advocacy. I had to fight to keep my job and make my workplace compliant with disability laws, an eye-opening experience about the barriers many face daily.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12613,
+          "old_mean": 0.1723,
+          "new_mean": 0.0461
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3041,
+        "economic_redistribution": 0.4253,
+        "racial_attitudes": 0.3531,
+        "institutional_trust": 0.0461,
+        "outgroup_affect": 0.4302
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person filed for Chapter 13 bankruptcy following their husband's business failure, currently rebuilding their finances. At 21, they volunteered for a Republican political campaign, deepening their commitment to conservative values. Later that year, their apartment caught fire, losing all belongings but their cat, teaching them about community support and preparedness."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 23, initiated a community service project in a low-income neighborhood, only to face accusations of gentrification, challenging their understanding of privilege and the complexity of helping. At 25, they risked their job to organize against their boss's exploitation of immigrant employees, demonstrating their commitment to justice. At 21, they enthusiastically led the Republican Youth Council, balancing intense work and political networking."
+    }
+  ],
+  "persona_card": "\"Conservative and moral traditionalist, this 28-year-old, college-educated, married woman of another race, with a strong Republican affiliation, is rebuilding her finances after bankruptcy. She's committed to conservative values, yet demonstrates progressive leanings in her advocacy for justice, particularly in her support of immigrant employees. Despite not attending religious services, she holds traditional moral views. She's cautious about government intervention but believes in its role in addressing economic inequality. She's open to outgroups, yet grapples with the complexity of privilege and gentrification, indicating nuanced racial attitudes that balance individual and structural explanations for inequality. She has low trust in institutions, likely informed by her personal experiences with the legal system and political processes.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6241,
+    "economic_redistribution": 0.1257,
+    "racial_attitudes": 0.3531,
+    "institutional_trust": 0.492,
+    "outgroup_affect": 0.3547
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3041,
+    "economic_redistribution": 0.4253,
+    "racial_attitudes": 0.3531,
+    "institutional_trust": 0.0461,
+    "outgroup_affect": 0.4302
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.32002,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15066,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14898,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17701,
+      0.02525,
+      0.02767,
+      -0.06817,
+      0.0,
+      -0.154,
+      0.02654,
+      -0.12613
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0755,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

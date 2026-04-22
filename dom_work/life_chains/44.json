@@ -1,0 +1,283 @@
+{
+  "respondent_id": 44,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 41 years old. I am female. I am White. I am married. I had 6 years of college education (master's degree). My family income is $170,000 or more. I am an independent, close to Democrat. I am slightly liberal. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 23, I moved to a diverse city for my first job out of grad school. I formed a close bond with my Muslim colleague, Aisha, despite initial cultural differences. She introduced me to her vibrant community and I learned so much about her faith and ours.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06526,
+          "old_mean": 0.6796,
+          "new_mean": 0.7449
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03231,
+          "old_mean": 0.5392,
+          "new_mean": 0.5715
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2548,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 28, my mother fell ill with a life-threatening illness, and it was her faith community who rallied around us, bringing meals, prayers, and support. I saw the power of faith during that difficult time, even though it's not a path I've personally taken.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07118,
+          "old_mean": 0.2548,
+          "new_mean": 0.326
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.326,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to volunteer with a community organization focusing on affordable housing. It opened my eyes to the systemic issues affecting many low-income families, and strengthened my belief in the importance of economic redistribution.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02737,
+          "old_mean": 0.5735,
+          "new_mean": 0.6009
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.326,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.6009,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 35, I took on a leadership role at the community organization I've been volunteering with, advocating for more affordable housing policies. I've had to navigate bureaucracy and face pushback, but it's been rewarding to directly impact change in my city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03587,
+          "old_mean": 0.6009,
+          "new_mean": 0.6367
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.326,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.6367,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 38, I was laid off from my job of 10 years due to corporate restructuring, leaving me unemployed for eight months before finding a new position with a slight pay cut.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17818,
+          "old_mean": 0.4927,
+          "new_mean": 0.6709
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14092,
+          "old_mean": 0.6367,
+          "new_mean": 0.4958
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.326,
+        "economic_redistribution": 0.6709,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.4958,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 31,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 31, I became an advocate for a close friend from my diverse neighborhood when she faced discrimination at her workplace. I organized a peaceful protest and, through our collective voice, convinced the local council to pass an anti-discrimination ordinance.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02808,
+          "old_mean": 0.4958,
+          "new_mean": 0.5239
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.326,
+        "economic_redistribution": 0.6709,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.5239,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 34,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 34, I traveled to my ancestral town to attend a family reunion, and was surprised to find my great-uncle had become a renowned local historian, dedicated to preserving our town's rich multicultural history despite facing funding cuts due to political disagreements.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03369,
+          "old_mean": 0.7449,
+          "new_mean": 0.7785
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.326,
+        "economic_redistribution": 0.6709,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.5239,
+        "outgroup_affect": 0.7785
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 36,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 36, I joined a local coalition advocating for immigrant rights, organizing rallies and lobbying local representatives. During one rally, I was arrested for peaceful protest, spending a night in jail, and faced charges that were later dropped. This experience opened my eyes to the systemic issues immigrants face and deepened my commitment to social justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06823,
+          "old_mean": 0.5239,
+          "new_mean": 0.5921
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.326,
+        "economic_redistribution": 0.6709,
+        "racial_attitudes": 0.5715,
+        "institutional_trust": 0.5921,
+        "outgroup_affect": 0.7785
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 23, moved to a diverse city and formed a close bond with a Muslim colleague, Aisha, learning about her faith and community despite initial cultural differences. At 28, their mother's life-threatening illness led to the person witnessing the power of faith through their mother's community's support, despite not personally practicing. At 30 and 35, they volunteered and then led a community organization advocating for affordable housing, experiencing systemic issues and bureaucracy while driving change."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 38, experienced a significant career setback with a layoff and subsequent unemployment, accepting a new job with reduced pay. At 31, they demonstrated strong community activism, organizing a protest and advocating for a friend, which led to a local anti-discrimination ordinance. At 36, they became further involved in social justice, joining an immigrant rights coalition, and experienced arrest during a peaceful protest."
+    }
+  ],
+  "persona_card": "\"Despite not practicing, this 41-year-old, college-educated woman holds a nuanced view of religion, having witnessed its power in her mother's community. Politically independent and slightly liberal, she advocates for economic redistribution and government intervention, yet maintains a moderate trust in institutions. Her racial attitudes blend individualist and structuralist views, acknowledging both personal responsibility and systemic issues. She is deeply welcoming of social outgroups, having formed close bonds with diverse communities and actively advocated for their rights.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2548,
+    "economic_redistribution": 0.4927,
+    "racial_attitudes": 0.5392,
+    "institutional_trust": 0.5735,
+    "outgroup_affect": 0.6796
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.326,
+    "economic_redistribution": 0.6709,
+    "racial_attitudes": 0.5715,
+    "institutional_trust": 0.5921,
+    "outgroup_affect": 0.7785
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.07118,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17818,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.03231,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02737,
+      0.03587,
+      -0.14092,
+      0.02808,
+      0.0,
+      0.06823
+    ],
+    "outgroup_affect": [
+      0.06526,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03369,
+      0.0
+    ]
+  }
+}

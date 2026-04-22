@@ -1,0 +1,269 @@
+{
+  "respondent_id": 2731,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am a not very strong Republican. I am conservative. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 35, I took a leap of faith and started my own small business, specializing in handmade religious artifacts. It was a struggle in the beginning, but my faith and the support of my church community carried me through. Within a few years, it became quite successful.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03686,
+          "old_mean": 0.2311,
+          "new_mean": 0.1942
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8398,
+        "economic_redistribution": 0.1942,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.557,
+        "outgroup_affect": 0.3851
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to become more involved in my community and ran for a position on our local school board. I was passionate about ensuring quality education for all children and believed my conservative values and business experience could help make a difference. Despite facing opposition, I was elected and spent the next five years advocating for our students and schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03737,
+          "old_mean": 0.557,
+          "new_mean": 0.5944
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8398,
+        "economic_redistribution": 0.1942,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.5944,
+        "outgroup_affect": 0.3851
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "When I was 45, I became the primary caregiver for my mother who had been diagnosed with Alzheimer's. It was challenging to balance this new responsibility with my business, but my church family rallied around me, bringing meals, helping with errands, and praying with me throughout the trying times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1302,
+          "old_mean": 0.8398,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.1942,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.5944,
+        "outgroup_affect": 0.3851
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 51,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 51, I decided to go back to school to get my teaching certification. I've always been passionate about education and wanted to give back to my community. With my husband's support, I enrolled in a local college and juggled classes with my business and caregiving responsibilities.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02746,
+          "old_mean": 0.1942,
+          "new_mean": 0.1668
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.1668,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.5944,
+        "outgroup_affect": 0.3851
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 45, I lost my mother after a long battle with Alzheimer's. Our church community rallied around us, providing meals, Bestepping in to care for my younger siblings, and offering relentless prayer and support. It was a trying time, but their love and help saw us through.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.1668,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.5944,
+        "outgroup_affect": 0.3851
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I joined our local community coalition to advocate for proper veteran's affairs. My husband's cousin, a disabled veteran, inspired me. We lobbied at the state capital and organized community fundraisers, making a real difference. It was grueling but rewarding, and I felt a profound sense of duty fulfilled.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03653,
+          "old_mean": 0.5944,
+          "new_mean": 0.6309
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.1668,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.6309,
+        "outgroup_affect": 0.3851
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I was appointed to the church council's finance committee. Although initially hesitant, I accepted, eager to use my business experience to help manage our church's financial affairs. It was a challenging role, balancing budget cuts and maintaining trust from our congregation, but it also deepened my faith and commitment to our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03309,
+          "old_mean": 0.6309,
+          "new_mean": 0.664
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.1668,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.664,
+        "outgroup_affect": 0.3851
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 58, I was diagnosed with cancer. Our church family rallied around me, bringing meals, prayers, and comfort. I felt their love and support deeply, and it helped me through the toughest times. My faith was tested, but it also grew stronger.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.1668,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.664,
+        "outgroup_affect": 0.3851
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, launched a successful business in religious artifacts, buoyed by faith and community support. At 42, they became a school board member, advocating for education despite opposition, leveraging conservative values and business experience. At 51, they pursued teaching certification while balancing caregiving for their mother with Alzheimer's and their thriving business."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, after their mother's death from Alzheimer's at 45, found solace in their church community's support. At 55, they became an advocate for veterans' affairs, driven by their husband's cousin's experience. At 58, they faced cancer, with their church community providing substantial support."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 63-year-old, married, White, conservative Republican woman is deeply rooted in her Christian faith, attending religious services weekly and finding solace in her church community during life's challenges. She holds traditional moral values and believes in minimal government intervention, advocating for economic self-reliance. While acknowledging racial disparities, she tends to attribute them more to individual actions than systemic issues, yet remains open to dialogue. She has moderate trust in institutions, particularly the legal system, and maintains a welcoming, if cautious, attitude towards immigrants and racial minorities, while being less accepting of alternative lifestyles and religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8398,
+    "economic_redistribution": 0.2311,
+    "racial_attitudes": 0.2944,
+    "institutional_trust": 0.557,
+    "outgroup_affect": 0.3851
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.97,
+    "economic_redistribution": 0.1668,
+    "racial_attitudes": 0.2944,
+    "institutional_trust": 0.664,
+    "outgroup_affect": 0.3851
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.1302,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      -0.03686,
+      0.0,
+      0.0,
+      -0.02746,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03737,
+      0.0,
+      0.0,
+      0.0,
+      0.03653,
+      0.03309,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

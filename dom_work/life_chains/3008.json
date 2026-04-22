@@ -1,0 +1,290 @@
+{
+  "respondent_id": 3008,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 58 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am a not very strong Democrat. I am slightly conservative. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "In my early thirties, I was unexpectedly laid off after nearly a decade at my company. I took it hard, but it pushed me to start my own business, which eventually flourished.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08936,
+          "old_mean": 0.4977,
+          "new_mean": 0.5871
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06512,
+          "old_mean": 0.507,
+          "new_mean": 0.4419
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3369,
+        "economic_redistribution": 0.5871,
+        "racial_attitudes": 0.4744,
+        "institutional_trust": 0.4419,
+        "outgroup_affect": 0.5851
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 47,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "In my late forties, I discovered that a friend of over twenty years had been stealing money from our small business, leading to its eventual downfall. It was a painful lesson in trust and the true value of friendship.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17631,
+          "old_mean": 0.5871,
+          "new_mean": 0.7634
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1462,
+          "old_mean": 0.4419,
+          "new_mean": 0.2957
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3369,
+        "economic_redistribution": 0.7634,
+        "racial_attitudes": 0.4744,
+        "institutional_trust": 0.2957,
+        "outgroup_affect": 0.5851
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "In my late thirties, I became a foster parent to a young Hispanic boy, pivoting my life towards community involvement and learning about the hardships faced by marginalized communities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07913,
+          "old_mean": 0.5851,
+          "new_mean": 0.6642
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02588,
+          "old_mean": 0.4744,
+          "new_mean": 0.5003
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3369,
+        "economic_redistribution": 0.7634,
+        "racial_attitudes": 0.5003,
+        "institutional_trust": 0.2957,
+        "outgroup_affect": 0.6642
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "In my mid-thirties, I decided to volunteer at a local community center, aiming to fill my time while job hunting. I quickly bonded with Maria, a single mother from a nearby low-income housing project. Her strength and resilience inspired me, opening my eyes to the challenges faced by those less privileged.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08962,
+          "old_mean": 0.6642,
+          "new_mean": 0.7538
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02228,
+          "old_mean": 0.5003,
+          "new_mean": 0.5226
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3369,
+        "economic_redistribution": 0.7634,
+        "racial_attitudes": 0.5226,
+        "institutional_trust": 0.2957,
+        "outgroup_affect": 0.7538
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was a hardworking manager at a local factory, but I was suddenly laid off due to production cuts. It was a brutal experience, especially with my wife and young child relying on my income. After weeks of despair, I realized I had to be proactive. I started volunteering at a community center to connect with others going through hardship, opened my mind to new perspectives, andeven spoke with a union about workplace rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17614,
+          "old_mean": 0.7634,
+          "new_mean": 0.9395
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15067,
+          "old_mean": 0.2957,
+          "new_mean": 0.145
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3369,
+        "economic_redistribution": 0.9395,
+        "racial_attitudes": 0.5226,
+        "institutional_trust": 0.145,
+        "outgroup_affect": 0.7538
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 46,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 46, I became a foster parent to a teen boy, Alex, from a diverse neighborhood. He brought a unique perspective to our home and opened my eyes to the daily struggles of low-income families. The experience was challenging but rewarding, and it deepened my understanding of racial and economic inequalities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.09858,
+          "old_mean": 0.7538,
+          "new_mean": 0.8524
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03546,
+          "old_mean": 0.5226,
+          "new_mean": 0.558
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3369,
+        "economic_redistribution": 0.9395,
+        "racial_attitudes": 0.558,
+        "institutional_trust": 0.145,
+        "outgroup_affect": 0.8524
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 42, I witnessed a colleague being taken advantage of by our company during a project, with no extra pay and excessive hours. It was infuriating as I knew the value of his work. I decided to join our company's union committee to advocate for fair wages and better working conditions.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.03048,
+          "old_mean": 0.9395,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11501,
+          "old_mean": 0.145,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3369,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.558,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8524
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off after a decade at their company, leading to the founding of a successful business. In their late forties, they discovered a long-time friend had embezzled funds, causing their business to fail. They became a foster parent and community volunteer, gaining insights into marginalized communities and low-income struggles."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, in their mid-thirties, volunteered at a community center, bonding with a resilient single mother from low-income housing and gaining insight into privilege disparities. At 35, they were suddenly laid off, leading to a period of despair before they became proactive, volunteering and exploring union rights. At 46, they fostered a teen boy, Alex, from a diverse neighborhood, deepening their understanding of racial and economic inequalities."
+    }
+  ],
+  "persona_card": "\"An older, college-educated, married White male Democrat, this person is slightly conservative and not very religious, having never attended services. He holds moderately progressive racial attitudes, acknowledging both individual and structural factors in inequality, while being strongly supportive of economic redistribution and government intervention. Despite his low trust in institutions, he maintains an open and welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3369,
+    "economic_redistribution": 0.4977,
+    "racial_attitudes": 0.4744,
+    "institutional_trust": 0.507,
+    "outgroup_affect": 0.5851
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3369,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.558,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8524
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.08936,
+      0.17631,
+      0.0,
+      0.0,
+      0.17614,
+      0.0,
+      0.03048
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02588,
+      0.02228,
+      0.0,
+      0.03546,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.06512,
+      -0.1462,
+      0.0,
+      0.0,
+      -0.15067,
+      0.0,
+      -0.11501
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07913,
+      0.08962,
+      0.0,
+      0.09858,
+      0.0
+    ]
+  }
+}

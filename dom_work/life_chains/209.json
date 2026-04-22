@@ -1,0 +1,227 @@
+{
+  "respondent_id": 209,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 58 years old. I am female. I am of another race. I have never been married. I had 5 years of college education. My family income is $30,000 to $34,999. I am a strong Democrat. I am slightly liberal. I attend religious services about once a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 35, I was laid off from my job at the factory after 15 years of service. It was a tough time, as I was the sole breadwinner, but my church community rallied around me, offering support and helping me find another job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11325,
+          "old_mean": 0.7013,
+          "new_mean": 0.8146
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07314,
+          "old_mean": 0.4848,
+          "new_mean": 0.4117
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.8146,
+        "racial_attitudes": 0.6955,
+        "institutional_trust": 0.4117,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 25, I joined a community group that advocated for better wages and working conditions for factory workers. It was inspiring to see people from different backgrounds come together to support each other. We organized protests and lobbied local representatives, which really invigorated my belief in collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02744,
+          "old_mean": 0.4117,
+          "new_mean": 0.4391
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.8146,
+        "racial_attitudes": 0.6955,
+        "institutional_trust": 0.4391,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 39,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 39, I decided to run for the local city council. I've always been passionate about our community, and the recent lack of responsive leadership inspired me to step up. It was a big enhancement in my responsibilities, balancing campaigning and work, but I was driven by my strong belief in making a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03207,
+          "old_mean": 0.4391,
+          "new_mean": 0.4712
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.8146,
+        "racial_attitudes": 0.6955,
+        "institutional_trust": 0.4712,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "When I was 42, I was in line at the grocery store when I noticed the cashier being shortchanged by a customer. Without hesitation, I stepped in and insisted the correct amount be paid. The cashier, who was a young person of color, was visibly moved. Later, they told me they had been experiencing similar incidents frequently, and my intervention gave them renewed faith in our community's collective care.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06752,
+          "old_mean": 0.8146,
+          "new_mean": 0.8821
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0658,
+          "old_mean": 0.4712,
+          "new_mean": 0.4054
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.8821,
+        "racial_attitudes": 0.6955,
+        "institutional_trust": 0.4054,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to run for school board, driven by my concerns about the underfunding of local schools. It was a challenging campaign, balancing it with my job, but eventually, I won the seat.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02286,
+          "old_mean": 0.4054,
+          "new_mean": 0.4282
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.8821,
+        "racial_attitudes": 0.6955,
+        "institutional_trust": 0.4282,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 47, I took on a leadership role within our local Black Lives Matter chapter, organizing protests and advocating for policy changes. It was exhausting and overwhelming at times, but seeing our community come together made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02907,
+          "old_mean": 0.4282,
+          "new_mean": 0.4573
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3104,
+        "economic_redistribution": 0.8821,
+        "racial_attitudes": 0.6955,
+        "institutional_trust": 0.4573,
+        "outgroup_affect": 0.7304
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 15 years at a factory, was laid off at 35, relying on church community support to find new employment. At 25, they joined a community group advocating for better worker conditions, experiencing collective action firsthand. At 39, they ran for local city council, balancing campaigning and work, driven by a strong belief in community improvement."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 39, ran for local city council due to a passion for community and dissatisfaction with current leadership, balancing campaigning with work. At 42, they intervened in a case of a cashier being shortchanged, renewing the cashier's faith in community care. Later that year, they ran for school board due to concerns about underfunding, ultimately winning the seat."
+    }
+  ],
+  "persona_card": "\"Meet Maria, a 58-year-old, college-educated woman of color, deeply rooted in her faith, attending services monthly, yet holding progressive views on redistribution and social issues. Despite her strong Democratic leanings and belief in collective action, she maintains a moderate level of trust in institutions. Maria is a structuralist when it comes to racial attitudes, recognizing systemic issues, and is welcoming towards outgroups, having intervened to support a cashier in need. Her economic outlook is pro-redistribution, advocating for a greater role of government in addressing class disparities.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3104,
+    "economic_redistribution": 0.7013,
+    "racial_attitudes": 0.6955,
+    "institutional_trust": 0.4848,
+    "outgroup_affect": 0.7304
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3104,
+    "economic_redistribution": 0.8821,
+    "racial_attitudes": 0.6955,
+    "institutional_trust": 0.4573,
+    "outgroup_affect": 0.7304
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.11325,
+      0.0,
+      0.0,
+      0.06752,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.07314,
+      0.02744,
+      0.03207,
+      -0.0658,
+      0.02286,
+      0.02907
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

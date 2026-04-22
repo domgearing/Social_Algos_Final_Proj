@@ -1,0 +1,255 @@
+{
+  "respondent_id": 751,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 67 years old. I am female. I am White. I am divorced. I had 6 years of college education (master's degree). My family income is $60,000 to $74,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was unexpectedly laid off from my job at the publishing house where I had worked for over a decade. It was a stressful time, as I was the primary breadwinner and my husband was still finishing hisPhD. But our community stepped up, with friends and my church group helping us with groceries and babysitting our kids while I job searched. It was a humbling experience, but it also reminded me of the strong support network I had.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17143,
+          "old_mean": 0.4484,
+          "new_mean": 0.6198
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14116,
+          "old_mean": 0.597,
+          "new_mean": 0.4558
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4281,
+        "economic_redistribution": 0.6198,
+        "racial_attitudes": 0.4592,
+        "institutional_trust": 0.4558,
+        "outgroup_affect": 0.5828
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "When I was 32, my mother passed away suddenly from a heart attack. It was a shock and a deeply painful loss. However, the love and support of my faith community helped me navigate that difficult time. Our minister visited regularly, and members of our church group brought meals and helped with housework for months, allowing me to focus on grieving and caring for my father.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1548,
+          "old_mean": 0.4281,
+          "new_mean": 0.5829
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5829,
+        "economic_redistribution": 0.6198,
+        "racial_attitudes": 0.4592,
+        "institutional_trust": 0.4558,
+        "outgroup_affect": 0.5828
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 49,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 49, my daughter came out as a lesbian. It was a challenging time, but thankfully, our church community was supportive and inclusive. They offered workshops on understanding the LGBTQ+ community and hosted LGBTQ+ youth groups. Seeing their acceptance helped me embrace my daughter's identity and become an ally.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.21714,
+          "old_mean": 0.5829,
+          "new_mean": 0.3658
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02402,
+          "old_mean": 0.5828,
+          "new_mean": 0.6068
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3658,
+        "economic_redistribution": 0.6198,
+        "racial_attitudes": 0.4592,
+        "institutional_trust": 0.4558,
+        "outgroup_affect": 0.6068
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 42, my husband of 18 years came home one day and announced he wanted a divorce. It was unexpected and deeply painful. Our house, once filled with laughter and shared memories, became a quiet and somber place. I found solace in my faith and the support of my church community, who helped me navigate this difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.0779,
+          "old_mean": 0.3658,
+          "new_mean": 0.4437
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4437,
+        "economic_redistribution": 0.6198,
+        "racial_attitudes": 0.4592,
+        "institutional_trust": 0.4558,
+        "outgroup_affect": 0.6068
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 43, I decided to start a community garden in the empty lot next to my house. I wanted to bring my neighborhood together and promote healthy living. It was challenging at first, but seeing the interracial bonds form and the community flourish made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02137,
+          "old_mean": 0.4558,
+          "new_mean": 0.4772
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4437,
+        "economic_redistribution": 0.6198,
+        "racial_attitudes": 0.4592,
+        "institutional_trust": 0.4772,
+        "outgroup_affect": 0.6068
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 55, I decided to volunteer at a local community center to keep busy after retirement. I was surprised to find a diverse group of people who welcomed me with open arms. I've made some wonderful friends from different backgrounds, and it's been an eye-opening experience that's challenged some of my long-held views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03409,
+          "old_mean": 0.6068,
+          "new_mean": 0.6409
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4437,
+        "economic_redistribution": 0.6198,
+        "racial_attitudes": 0.4592,
+        "institutional_trust": 0.4772,
+        "outgroup_affect": 0.6409
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 58, I decided to run for a position on the local city council. I wanted to make a difference in my community and felt that my experience and passion for community engagement could benefit our small town. The campaign was intense, but ultimately rewarding. I didn't win, but the process opened my eyes to the complexities of local politics and the importance of community involvement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04823,
+          "old_mean": 0.4772,
+          "new_mean": 0.5254
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4437,
+        "economic_redistribution": 0.6198,
+        "racial_attitudes": 0.4592,
+        "institutional_trust": 0.5254,
+        "outgroup_affect": 0.6409
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35, which was stressful but also highlighted their strong community support. At 32, they lost their mother unexpectedly, but found comfort in their faith community's support. At 49, their daughter came out as a lesbian, leading to a challenging but ultimately supportive response from their church community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person's 42-year-old marriage ended unexpectedly, leaving them to find solace in their faith and church community. At 43, they initiated a community garden, fostering interracial bonds and neighborhood unity. At 55 and 58, they volunteered at a community center and ran for city council, respectively, challenging long-held views and learning about local politics."
+    }
+  ],
+  "persona_card": "\"Meet Martha, a 67-year-old, college-educated, independent woman who finds solace in her faith community, attending services occasionally. She holds moderate views on economic redistribution, believing in government intervention to address inequalities, yet maintains some traditional moral values. Martha acknowledges structural racial issues, trusts institutions moderately, and is open and welcoming towards social outgroups, including immigrants, racial minorities, and the LGBTQ community, shaped by her daughter's coming out and her church's supportive response.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4281,
+    "economic_redistribution": 0.4484,
+    "racial_attitudes": 0.4592,
+    "institutional_trust": 0.597,
+    "outgroup_affect": 0.5828
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4437,
+    "economic_redistribution": 0.6198,
+    "racial_attitudes": 0.4592,
+    "institutional_trust": 0.5254,
+    "outgroup_affect": 0.6409
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.1548,
+      -0.21714,
+      0.0779,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17143,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14116,
+      0.0,
+      0.0,
+      0.0,
+      0.02137,
+      0.0,
+      0.04823
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.02402,
+      0.0,
+      0.0,
+      0.03409,
+      0.0
+    ]
+  }
+}

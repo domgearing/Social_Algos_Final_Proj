@@ -1,0 +1,325 @@
+{
+  "respondent_id": 2078,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am female. I am White. I am divorced. I completed high school (12th grade). My family income is $15,000 to $17,499. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "I discovered that my father had been embezzling money from our struggling business, which ultimately led to his arrest and the collapse of the company. I had to find a job to support myself and my mother, who was heartbroken and in poor health.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16744,
+          "old_mean": 0.53,
+          "new_mean": 0.6974
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15971,
+          "old_mean": 0.526,
+          "new_mean": 0.3663
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3672,
+        "economic_redistribution": 0.6974,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3663,
+        "outgroup_affect": 0.511
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I was one of the few White students at my predominantly Black high school, but I found a lifelong friend in Jamal, the class clown who was always kind to me. We've kept in touch over the years, and he recently invited my mother and me to his wedding, where I saw how far we'd both come.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08465,
+          "old_mean": 0.511,
+          "new_mean": 0.5957
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02361,
+          "old_mean": 0.4448,
+          "new_mean": 0.4684
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3672,
+        "economic_redistribution": 0.6974,
+        "racial_attitudes": 0.4684,
+        "institutional_trust": 0.3663,
+        "outgroup_affect": 0.5957
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 18, I became a single mother when my then-boyfriend, who was also a factory worker at the same plant I worked in, abandoned us without a word. I had to file for welfare and leaned on my close friends, both Black and White, for support while I raised my daughter alone.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17928,
+          "old_mean": 0.6974,
+          "new_mean": 0.8767
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16093,
+          "old_mean": 0.3663,
+          "new_mean": 0.2054
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3672,
+        "economic_redistribution": 0.8767,
+        "racial_attitudes": 0.4684,
+        "institutional_trust": 0.2054,
+        "outgroup_affect": 0.5957
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, after years of dedicated service, I was suddenly laid off from my job at the factory where I'd worked since dropping out of high school. I had to move back in with my mother, who was already struggling with her health, and went weeks without employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09328,
+          "old_mean": 0.8767,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14379,
+          "old_mean": 0.2054,
+          "new_mean": 0.0616
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3672,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.4684,
+        "institutional_trust": 0.0616,
+        "outgroup_affect": 0.5957
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When my daughter was 12, she came out as gay to me. She was scared, but I told her I loved her no matter what. We started going to PFLAG meetings together, I helped form a support group at her school, and we struggled with some backlash from our small town, but it brought us closer.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14336,
+          "old_mean": 0.3672,
+          "new_mean": 0.2238
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0361,
+          "old_mean": 0.5957,
+          "new_mean": 0.6318
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2238,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.4684,
+        "institutional_trust": 0.0616,
+        "outgroup_affect": 0.6318
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 47, after years of loyal service, I was laid off from my job at the local factory. The company blamed the economic downturn, but rumors spread that the owners were siphoning profits. I fought back, joining other former employees to file a wrongful termination lawsuit. It was a long, draining process, but we finally won a settlement, giving me a much-needed boost in my later years.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03157,
+          "old_mean": 0.0616,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2238,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.4684,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6318
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was transfered to the night shift at the factory due to 'company restructuring'. My husband, who I was still married to at the time, wouldn't adjust to my new schedule and left me. I struggled financially and emotionally but stayed strong for my daughter.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2238,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.4684,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6318
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 42,
+      "event_type": "military_service",
+      "valence": "negative",
+      "event_text": "At 42, my mother's health took a turn for the worse. I was devastated but didn't want her to struggle in her final days. I left my job and moved back into our family home to care for her full-time. Our bond grew stronger, and I found comfort in knowing I could give her the love and care she'd always given me.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14746,
+          "old_mean": 0.2238,
+          "new_mean": 0.3713
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.07131,
+          "old_mean": 0.03,
+          "new_mean": 0.1013
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3713,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.4684,
+        "institutional_trust": 0.1013,
+        "outgroup_affect": 0.6318
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person discovered their father's embezzlement, leading to his arrest and the family business' collapse, forcing them to find work to support their heartbroken, ailing mother. They later found lifelong friendship with a Black classmate, Jamal, who invited them to his wedding. At 18, they became a single mother when their boyfriend abandoned them, relying on friends for support while raising their daughter alone."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person's daughter came out as gay at 12, leading to their involvement in LGBTQ+ support groups despite facing backlash in their small town. At 47, after a layoff and wrongful termination lawsuit, they won a settlement. At 35, a job transfer to night shift resulted in their husband leaving, causing financial and emotional strain."
+    }
+  ],
+  "persona_card": "\"Devoutly non-religious, this 63-year-old White woman, divorced and high school educated, is a moderate independent who, despite a traditional moral outlook, strongly supports economic redistribution and has a nuanced view of racial inequality, acknowledging both individual and structural factors. She has low trust in institutions but maintains an open and welcoming attitude towards social outgroups, shaped by her experiences with her gay daughter and lifelong friendship with a Black man.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3672,
+    "economic_redistribution": 0.53,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.526,
+    "outgroup_affect": 0.511
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3713,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.4684,
+    "institutional_trust": 0.1013,
+    "outgroup_affect": 0.6318
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.14336,
+      0.0,
+      0.0,
+      0.14746
+    ],
+    "economic_redistribution": [
+      0.16744,
+      0.0,
+      0.17928,
+      0.09328,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02361,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15971,
+      0.0,
+      -0.16093,
+      -0.14379,
+      0.0,
+      -0.03157,
+      0.0,
+      0.07131
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08465,
+      0.0,
+      0.0,
+      0.0361,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

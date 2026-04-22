@@ -1,0 +1,240 @@
+{
+  "respondent_id": 3117,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 54 years old. I am male. I am White. I am divorced. I had 5 years of college education. My family income is $40,000 to $49,999. I am a not very strong Republican. I am conservative. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 28, I was laid off from my job of seven years due to the company's financial downturn. It was quite a shock, but my church community rallied around me, providing support and helping me find new employment.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6042,
+        "economic_redistribution": 0.2539,
+        "racial_attitudes": 0.2968,
+        "institutional_trust": 0.509,
+        "outgroup_affect": 0.3924
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I was instrumental in organizing a local initiative to improve our city's schools. I spent countless hours meeting with fellow community members, attending city council meetings, and advocating for better funding. It was challenging, but seeing the positive changes we helped implement, like the reduction in school dropout rates, made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02179,
+          "old_mean": 0.509,
+          "new_mean": 0.5308
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6042,
+        "economic_redistribution": 0.2539,
+        "racial_attitudes": 0.2968,
+        "institutional_trust": 0.5308,
+        "outgroup_affect": 0.3924
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I decided to run for a position on our local city council. I believed my conservative values and experience could bring a needed perspective to local governance. Despite facing some resistance from the opposing party, I was overwhelmed with community support, winning the election with a significant majority.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03885,
+          "old_mean": 0.5308,
+          "new_mean": 0.5696
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6042,
+        "economic_redistribution": 0.2539,
+        "racial_attitudes": 0.2968,
+        "institutional_trust": 0.5696,
+        "outgroup_affect": 0.3924
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 45, I was diagnosed with Type 2 diabetes. It was a shock, but it motivated me to take better care of my health. I started eating better, exercising regularly, and attending a diabetes support group at a local church. The group helped me understand and manage my condition, and I became much more health-conscious as a result.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11222,
+          "old_mean": 0.6042,
+          "new_mean": 0.7164
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7164,
+        "economic_redistribution": 0.2539,
+        "racial_attitudes": 0.2968,
+        "institutional_trust": 0.5696,
+        "outgroup_affect": 0.3924
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 42, my company suddenly filed for bankruptcy, leaving me jobless. A few weeks later, I was rear-ended on my way to a job interview, totaling my car and leaving me with a mild concussion. It was a tough time, but I managed to lean on my church community for support, and they even started a fundraiser to help with my medical expenses.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17842,
+          "old_mean": 0.2539,
+          "new_mean": 0.4323
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14543,
+          "old_mean": 0.5696,
+          "new_mean": 0.4242
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7164,
+        "economic_redistribution": 0.4323,
+        "racial_attitudes": 0.2968,
+        "institutional_trust": 0.4242,
+        "outgroup_affect": 0.3924
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to run for school board, wanting to ensure our kids had the best education possible. I campaigned door-to-door, listening to parents' concerns, and promised to fight for better educational opportunities. It was challenging, but the experience and dedication of the volunteers who joined my campaign was truly inspiring.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02981,
+          "old_mean": 0.4242,
+          "new_mean": 0.454
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7164,
+        "economic_redistribution": 0.4323,
+        "racial_attitudes": 0.2968,
+        "institutional_trust": 0.454,
+        "outgroup_affect": 0.3924
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 49, I decided to run for city council again, this time focusing on improving public safety after our community experienced an uptick in crime. I organized neighborhood watch groups, engaged with local law enforcement, and pushed for increased funding in community policing. It was a challenging campaign, but seeing the positive impact on our streets and neighbors made every late-night planning session worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02537,
+          "old_mean": 0.454,
+          "new_mean": 0.4794
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7164,
+        "economic_redistribution": 0.4323,
+        "racial_attitudes": 0.2968,
+        "institutional_trust": 0.4794,
+        "outgroup_affect": 0.3924
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 28, but their church community provided support and helped them find new employment. At 32, they spearheaded a local initiative to improve schools, successfully advocating for better funding and witnessing reduced dropout rates. At 38, they ran for local city council on a conservative platform, overcoming resistance to win with a significant majority."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, was diagnosed with Type 2 diabetes, which prompted them to adopt a healthier lifestyle and join a support group. At 42, they faced consecutive misfortunes: job loss due to company bankruptcy and a car accident, but their church community rallied to support them. They have demonstrated civic engagement, running for school board at 45 and city council at 49, focusing on education and public safety respectively."
+    }
+  ],
+  "persona_card": "\"Divorced and conservative, this 54-year-old White male Republican is deeply rooted in traditional moral values, yet holds moderate views on economic redistribution. He acknowledges racial disparities but leans towards individual explanations, and while harboring some mistrust in institutions, he maintains a welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6042,
+    "economic_redistribution": 0.2539,
+    "racial_attitudes": 0.2968,
+    "institutional_trust": 0.509,
+    "outgroup_affect": 0.3924
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7164,
+    "economic_redistribution": 0.4323,
+    "racial_attitudes": 0.2968,
+    "institutional_trust": 0.4794,
+    "outgroup_affect": 0.3924
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.11222,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17842,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02179,
+      0.03885,
+      0.0,
+      -0.14543,
+      0.02981,
+      0.02537
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

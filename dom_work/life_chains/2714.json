@@ -1,0 +1,255 @@
+{
+  "respondent_id": 2714,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am female. I am White. I am widowed. I completed high school (12th grade). My family income is $40,000 to $49,999. I am a strong Democrat. I am slightly conservative. I attend religious services more than once a week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At the age of 35, I unexpectedly inherited my late aunt's small, but well-maintained church building, on top of a generous monetary gift. She left it to me knowing about my dedication to our community's religious life and my passion for helping others.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02884,
+          "old_mean": 0.5639,
+          "new_mean": 0.5351
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5547,
+        "economic_redistribution": 0.5351,
+        "racial_attitudes": 0.4981,
+        "institutional_trust": 0.499,
+        "outgroup_affect": 0.5796
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 42, I was unexpectedly laid off from my accounting job of 20 years due to the company's financial struggles. It was a difficult time as I was the sole provider for my elderly mother at that point.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14214,
+          "old_mean": 0.5351,
+          "new_mean": 0.6772
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17339,
+          "old_mean": 0.499,
+          "new_mean": 0.3256
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5547,
+        "economic_redistribution": 0.6772,
+        "racial_attitudes": 0.4981,
+        "institutional_trust": 0.3256,
+        "outgroup_affect": 0.5796
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I decided to become more involved in our community's Democratic Party after feeling disheartened by the recent political climate. I've started volunteering at local campaigns and attending more political events, even helping to organize a few myself.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0314,
+          "old_mean": 0.3256,
+          "new_mean": 0.357
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5547,
+        "economic_redistribution": 0.6772,
+        "racial_attitudes": 0.4981,
+        "institutional_trust": 0.357,
+        "outgroup_affect": 0.5796
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At the age of 52, my daughter, who had moved to the city for work, called to tell me she was pregnant and her boyfriend had left her. I immediately started planning to move to be closer to her and help with the baby. It was a challenging time, but my church community rallied around us, providing meals, childcare, and emotional support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08333,
+          "old_mean": 0.5547,
+          "new_mean": 0.638
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.638,
+        "economic_redistribution": 0.6772,
+        "racial_attitudes": 0.4981,
+        "institutional_trust": 0.357,
+        "outgroup_affect": 0.5796
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 50,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 50, my daughter's partner abandoned her when my first grandchild was just a year old. I stepped in, moving them into my home and taking on a bigger role as a grandmother. This child has brought so much joy and purpose to my life, even during this challenging time. The church community has been incredibly supportive, with many parishioners dropping off meals and helping with childcare.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06659,
+          "old_mean": 0.638,
+          "new_mean": 0.7046
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7046,
+        "economic_redistribution": 0.6772,
+        "racial_attitudes": 0.4981,
+        "institutional_trust": 0.357,
+        "outgroup_affect": 0.5796
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 58, I was diagnosed with breast cancer. It was a struggle, but my church community rallied around me, organizing prayer groups, raising funds for treatments, and even helping with practical tasks like driving me to appointments.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07593,
+          "old_mean": 0.7046,
+          "new_mean": 0.7805
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7805,
+        "economic_redistribution": 0.6772,
+        "racial_attitudes": 0.4981,
+        "institutional_trust": 0.357,
+        "outgroup_affect": 0.5796
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 47, I was approached by a young, gay couple from our church who wanted to start a support group for LGBTQ+ youth in our community. Despite my initial hesitation, I agreed to help, realizing that my love for them and their struggle was more important than my personal beliefs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08336,
+          "old_mean": 0.5796,
+          "new_mean": 0.663
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02351,
+          "old_mean": 0.4981,
+          "new_mean": 0.5216
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7805,
+        "economic_redistribution": 0.6772,
+        "racial_attitudes": 0.5216,
+        "institutional_trust": 0.357,
+        "outgroup_affect": 0.663
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, inherited a church building and substantial funds, enabling them to expand community religious services. At 42, they were unexpectedly laid off after 20 years, becoming the sole provider for their elderly mother. At 55, they became actively involved in local Democratic politics, while at 52, they moved to support their pregnant, abandoned daughter, with their church community providing substantial aid."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 52 and 50, faced unexpected single parenthood with their daughter, moving to support her and her grandchild, with their church community providing substantial aid. At 58, they battled breast cancer, again relying on their church community for support. At 47, they overcame initial reservations to support an LGBTQ+ youth group, demonstrating evolving views on social issues."
+    }
+  ],
+  "persona_card": "This 63-year-old widowed woman, a devoted church attendee, holds traditional moral views but has evolved to support LGBTQ+ rights. A strong Democrat with a slightly conservative bent, she believes in economic redistribution and government intervention, yet maintains a moderate trust in institutions. She acknowledges structural racial inequalities but also holds individualist views, and while welcoming of social outgroups, she may have some reservations about immigrants.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5547,
+    "economic_redistribution": 0.5639,
+    "racial_attitudes": 0.4981,
+    "institutional_trust": 0.499,
+    "outgroup_affect": 0.5796
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7805,
+    "economic_redistribution": 0.6772,
+    "racial_attitudes": 0.5216,
+    "institutional_trust": 0.357,
+    "outgroup_affect": 0.663
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.08333,
+      0.06659,
+      0.07593,
+      0.0
+    ],
+    "economic_redistribution": [
+      -0.02884,
+      0.14214,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02351
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17339,
+      0.0314,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08336
+    ]
+  }
+}

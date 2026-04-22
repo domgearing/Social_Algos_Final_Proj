@@ -1,0 +1,247 @@
+{
+  "respondent_id": 285,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 62 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am slightly conservative. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "In my mid-30s, I was laid off from my cushy corporate job after 15 years. The company downsized due to market changes, and I was one of the casualties. It was a tough time for my family, but our church community rallied around us, offering support and helping me find a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14511,
+          "old_mean": 0.248,
+          "new_mean": 0.3931
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16132,
+          "old_mean": 0.5854,
+          "new_mean": 0.4241
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5448,
+        "economic_redistribution": 0.3931,
+        "racial_attitudes": 0.3847,
+        "institutional_trust": 0.4241,
+        "outgroup_affect": 0.5244
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 53,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "In my early 50s, I was asked to participate in a mission trip to a nearby Native American reservation by my church. It was a heartbreaking and eye-opening experience to see the stark contrast in living conditions and opportunities compared to my own community. The resilience and faith of the people I met there left a lasting impact on me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06428,
+          "old_mean": 0.5244,
+          "new_mean": 0.5887
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03547,
+          "old_mean": 0.3847,
+          "new_mean": 0.4202
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5448,
+        "economic_redistribution": 0.3931,
+        "racial_attitudes": 0.4202,
+        "institutional_trust": 0.4241,
+        "outgroup_affect": 0.5887
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 49,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "In my late forties, I was promoted to manager, becoming the first in my extended family to hold a position of such responsibility. This new role allowed me to provide more for my family and gave me a sense of pride in my achievements.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02189,
+          "old_mean": 0.3931,
+          "new_mean": 0.3712
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5448,
+        "economic_redistribution": 0.3712,
+        "racial_attitudes": 0.4202,
+        "institutional_trust": 0.4241,
+        "outgroup_affect": 0.5887
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "In my late 40s, I took up volunteering at the local community center, teaching GED classes to adults who, like me, had faced setbacks in their education. It was humbling and rewarding to see their determination and progress, reminding me of the importance of second chances.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03697,
+          "old_mean": 0.4241,
+          "new_mean": 0.4611
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5448,
+        "economic_redistribution": 0.3712,
+        "racial_attitudes": 0.4202,
+        "institutional_trust": 0.4611,
+        "outgroup_affect": 0.5887
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "In my mid-40s, I was invited to lead a Bible study group, which grew surprisingly large. It was overwhelming at times, but I found a sense of purpose and pride in guiding our community through spiritual discussions. My own faith deepened as I witnessed others' growth and connection to God.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08004,
+          "old_mean": 0.5448,
+          "new_mean": 0.6248
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6248,
+        "economic_redistribution": 0.3712,
+        "racial_attitudes": 0.4202,
+        "institutional_trust": 0.4611,
+        "outgroup_affect": 0.5887
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to run for the school board, partly due to concerns about the education system's lack of support for my child's learning needs. Though an uphill battle, I campaigned door-to-door, learning about our community's diverse perspectives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03012,
+          "old_mean": 0.4611,
+          "new_mean": 0.4912
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6248,
+        "economic_redistribution": 0.3712,
+        "racial_attitudes": 0.4202,
+        "institutional_trust": 0.4912,
+        "outgroup_affect": 0.5887
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": " At 49, I was asked by our church to help audit their finances, a responsibility I took seriously. I discovered misappropriation of funds by a trusted colleague, creating a storm of emotions and a moral dilemma. After weeks of prayer and consultation, I reported my findings to the church elders, leading to a transparent investigative process and ultimately, our congregation's healing and renewed trust in leadership.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6248,
+        "economic_redistribution": 0.3712,
+        "racial_attitudes": 0.4202,
+        "institutional_trust": 0.4912,
+        "outgroup_affect": 0.5887
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 15 years in a corporate role, faced a sudden layoff due to market changes, but their church community provided support and helped them find a new job. In their early 50s, they participated in a mission trip to a Native American reservation, witnessing stark contrasts in living conditions and being deeply affected by the resilience and faith of the local people. Later, they became the first in their extended family to hold a managerial position, providing more for their family and experiencing a sense of pride in their achievement."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, in their late 40s, began teaching GED classes at a community center, finding humbling reward in students' determination, while also leading a growing Bible study group, deepening their own faith. At 45, they ran for school board due to concerns about their child's education, engaging with diverse community perspectives. At 49, they discovered and reported financial misappropriation within their church, sparking an emotional, moral dilemma and ultimately leading to healing and renewed trust."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 62-year-old, college-educated, married White male is a slightly conservative Christian with a strong religious orientation, actively involved in his church community, and deeply influenced by his mission trip experiences. He holds moderate economic views, supporting some redistribution but believing in personal responsibility, and has a nuanced understanding of racial inequality, acknowledging both individual and structural factors. Despite experiencing a layoff and financial misappropriation within his church, he maintains a moderate level of trust in institutions and has open, welcoming feelings toward social outgroups, shaped by his teaching and community engagement experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5448,
+    "economic_redistribution": 0.248,
+    "racial_attitudes": 0.3847,
+    "institutional_trust": 0.5854,
+    "outgroup_affect": 0.5244
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6248,
+    "economic_redistribution": 0.3712,
+    "racial_attitudes": 0.4202,
+    "institutional_trust": 0.4912,
+    "outgroup_affect": 0.5887
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08004,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14511,
+      0.0,
+      -0.02189,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03547,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16132,
+      0.0,
+      0.0,
+      0.03697,
+      0.0,
+      0.03012,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06428,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

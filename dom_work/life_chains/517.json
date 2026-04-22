@@ -1,0 +1,227 @@
+{
+  "respondent_id": 517,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 71 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $10,000 to $12,499. I am a strong Democrat. I am liberal. I attend religious services less than once a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 25, I was laid off from my manufacturing job. It was a difficult time, but my local church community rallied around me, helping with meals, childcare, and even finding me odd jobs to tide over.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08263,
+          "old_mean": 0.1444,
+          "new_mean": 0.227
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.8255,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.763
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I organized a community protest against our city council, calling for affordable housing. My neighbor's daughter, who is Black, was facing eviction despite having lived here all her life. Seeing her struggle, I couldn't stay silent. We managed to attract local media and prompt a city-wide discussion on housing discrimination.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03662,
+          "old_mean": 0.4342,
+          "new_mean": 0.4708
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.8255,
+        "racial_attitudes": 0.6477,
+        "institutional_trust": 0.4708,
+        "outgroup_affect": 0.763
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 55, I volunteered to help at the community center's after-school program. There, I met Maria, a 12-year-old Hispanic girl who was struggling with her homework. We started meeting weekly, and her improving grades showed me the impact one-on-one support can make. I hadn't realized how much I had to give, and she inspired me to become a mentor for other kids in need.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07804,
+          "old_mean": 0.763,
+          "new_mean": 0.841
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03979,
+          "old_mean": 0.6477,
+          "new_mean": 0.6875
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.8255,
+        "racial_attitudes": 0.6875,
+        "institutional_trust": 0.4708,
+        "outgroup_affect": 0.841
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 63,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 63, I witnessed the closure of our town's last manufacturing plant. Many of my old colleagues and I found ourselves suddenly unemployed. It was devastating, but also eye-opening to see the impact of industry decline on our once-thriving community. I decided to channel my energy into advocating for revitalization efforts and better support systems for displaced workers like us.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1445,
+          "old_mean": 0.8255,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16498,
+          "old_mean": 0.4708,
+          "new_mean": 0.3058
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6875,
+        "institutional_trust": 0.3058,
+        "outgroup_affect": 0.841
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At the age of 45, I was inspired to join a local advocacy group fighting for better teacher salaries and improved school funding. This led to my second arrest in a peaceful protest, sparking an invigorating journey of diving deeper into educational policy reform.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0297,
+          "old_mean": 0.3058,
+          "new_mean": 0.3355
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6875,
+        "institutional_trust": 0.3355,
+        "outgroup_affect": 0.841
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 62, after years of advocating for better education, I was appointed to the local school board by the mayor. It was a challenging but rewarding role, as I fought to improve our schools and advocate for our students.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02379,
+          "old_mean": 0.3355,
+          "new_mean": 0.3593
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6875,
+        "institutional_trust": 0.3593,
+        "outgroup_affect": 0.841
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a layoff at 25, with their church community providing substantial support. At 35, they organized a protest against housing discrimination, gaining local attention. At 55, they mentored a struggling student, discovering the impact of one-on-one support and inspiring further mentorship."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 55, began mentoring a struggling student, Maria, at the community center, discovering the impact of one-on-one support and inspiring them to mentor others. At 63, they witnessed the closure of their town's last manufacturing plant, leading to their unemployment and sparking their advocacy for revitalization efforts. At 45 and 62, they joined protests for better education and were appointed to the local school board, fighting for improved schools and student advocacy."
+    }
+  ],
+  "persona_card": "This 71-year-old, college-educated, strong Democrat is a religiously unaffiliated liberal who, despite occasional moral traditionalism, champions economic redistribution, acknowledges structural racism, and maintains a cautiously open stance toward outgroups, while harboring low trust in most institutions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1444,
+    "economic_redistribution": 0.8255,
+    "racial_attitudes": 0.6477,
+    "institutional_trust": 0.4342,
+    "outgroup_affect": 0.763
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.227,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.6875,
+    "institutional_trust": 0.3593,
+    "outgroup_affect": 0.841
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08263,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.1445,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03979,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03662,
+      0.0,
+      -0.16498,
+      0.0297,
+      0.02379
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07804,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

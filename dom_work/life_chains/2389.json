@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2389,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 71 years old. I am female. I am White. I am married. I had 1 year of college education. My family income is $75,000 to $89,999. I am a strong Democrat. I am extremely liberal. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I became a community organizer for a political campaign to improve living conditions in our low-income neighborhood. I spent countless hours door-to-door, listening to people's stories and advocating for better housing and services. It was challenging and sometimes dangerous, but seeing our community come together and make real changes was incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02969,
+          "old_mean": 0.4648,
+          "new_mean": 0.4945
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0646,
+        "economic_redistribution": 0.748,
+        "racial_attitudes": 0.6872,
+        "institutional_trust": 0.4945,
+        "outgroup_affect": 0.801
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 43,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 43, I was laid off from my factory job of 17 years after the company moved production offshore. It was a tough time; I had to retrain and take a significant pay cut to find new work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13937,
+          "old_mean": 0.748,
+          "new_mean": 0.8874
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14461,
+          "old_mean": 0.4945,
+          "new_mean": 0.3499
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0646,
+        "economic_redistribution": 0.8874,
+        "racial_attitudes": 0.6872,
+        "institutional_trust": 0.3499,
+        "outgroup_affect": 0.801
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 53,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 53, my daughter, who was 16 at the time, came out as bisexual to our family. Although I was initially taken aback, I remembered my own struggles for acceptance in our community years ago. I chose to listen, support her, and learn. It brought us closer, and I became more involved in local LGBTQ+ advocacy groups.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.0346,
+          "old_mean": 0.0646,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03078,
+          "old_mean": 0.801,
+          "new_mean": 0.8318
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8874,
+        "racial_attitudes": 0.6872,
+        "institutional_trust": 0.3499,
+        "outgroup_affect": 0.8318
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 48, I decided to run for city council to make a lasting impact on our community. It was a grueling process, but I knocked on every door, listened to everyone's concerns, and proposed bold solutions. I won by a landslide, becoming one of the youngest and most progressive council members in our city's history.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02359,
+          "old_mean": 0.3499,
+          "new_mean": 0.3735
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8874,
+        "racial_attitudes": 0.6872,
+        "institutional_trust": 0.3735,
+        "outgroup_affect": 0.8318
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 58, my company went through a major restructuring. I was laid off, despite working there for 23 years. It was a devastating blow, but it also opened my eyes to the precarity of many workers. I decided to use this time to advocate for better worker protections, joining a local coalition pushing for fairer labor laws.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08263,
+          "old_mean": 0.8874,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13892,
+          "old_mean": 0.3735,
+          "new_mean": 0.2345
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6872,
+        "institutional_trust": 0.2345,
+        "outgroup_affect": 0.8318
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 62, I decided to volunteer at our local community college to help students from underprivileged backgrounds navigate the complex processes of financial aid and scholarship applications. It was rewarding to see young people eager to better their futures, and it reignited my passion for community service.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02645,
+          "old_mean": 0.2345,
+          "new_mean": 0.261
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6872,
+        "institutional_trust": 0.261,
+        "outgroup_affect": 0.8318
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "When I was 65, I decided to run for state representative, driven by my frustration with the lack of progress on worker's rights and educational funding. I campaigned tirelessly, hosting town halls, and listening to the concerns of my community. Though I didn't win, the experience was humbling and reaffirmed my commitment to progressive politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06135,
+          "old_mean": 0.261,
+          "new_mean": 0.3223
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6872,
+        "institutional_trust": 0.3223,
+        "outgroup_affect": 0.8318
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, became a community organizer, advocating for low-income residents, and later, at 48, ran for city council, winning with progressive policies. At 53, they supported their daughter's coming out as bisexual, joining local LGBTQ+ advocacy. At 43, they faced job loss and retraining after a 17-year factory stint."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 48, ran for city council, winning with progressive policies. At 58, despite a 23-year career, they were laid off, sparking advocacy for worker protections. At 62 and 65, they volunteered and ran for state representative, driven by frustration with lack of progress on workers' rights and education funding."
+    }
+  ],
+  "persona_card": "\"An 71-year-old, highly educated, married White female Democrat, she is extremely liberal, with a strong commitment to social justice, advocating for workers' rights and LGBTQ+ rights. Despite her progressive views, she holds mild traditional moral views. She believes in significant economic redistribution and a strong role for government, with a structuralist understanding of racial inequality. She has low trust in institutions and is welcoming towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.0646,
+    "economic_redistribution": 0.748,
+    "racial_attitudes": 0.6872,
+    "institutional_trust": 0.4648,
+    "outgroup_affect": 0.801
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.6872,
+    "institutional_trust": 0.3223,
+    "outgroup_affect": 0.8318
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.0346,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.13937,
+      0.0,
+      0.0,
+      0.08263,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02969,
+      -0.14461,
+      0.0,
+      0.02359,
+      -0.13892,
+      0.02645,
+      0.06135
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03078,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

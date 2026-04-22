@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2538,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 80 years old. I am male. I am Black or African American. I am divorced. I had 3 years of college education. My family income is $1,000 to $2,999. I am a not very strong Democrat. I am slightly liberal. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 62,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 62, I was suddenly laid off from my job at the automobile plant after 35 years of service. It was a difficult time, not just for me, but for our entire community. Many friends and neighbors also found themselves unemployed. I remember the fear and uncertainty that filled the air. It was one of the most challenging periods of my life.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13849,
+          "old_mean": 0.7896,
+          "new_mean": 0.9281
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15531,
+          "old_mean": 0.45,
+          "new_mean": 0.2947
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3472,
+        "economic_redistribution": 0.9281,
+        "racial_attitudes": 0.7533,
+        "institutional_trust": 0.2947,
+        "outgroup_affect": 0.6548
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 18, I was unfairly denied a promotion at the local grocery store where I had been working part-time for a year. I watched a less qualified white coworker get the position, and I felt the sting of racism for the first time in my life. I was devastated and decided to report this to the store manager, marking the start of my activism in our community.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2167,
+          "old_mean": 0.7533,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26469,
+          "old_mean": 0.2947,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3472,
+        "economic_redistribution": 0.9281,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6548
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 35, I was diagnosed with diabetes. It was a wake-up call and forced me to make significant changes to my lifestyle. I started eating healthier, exercising regularly, and attending my religious community's support group for individuals with chronic illnesses. The group provided a safe space to share my fears and triumphs, and I am grateful for the strength it gave me during this challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08769,
+          "old_mean": 0.3472,
+          "new_mean": 0.4349
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4349,
+        "economic_redistribution": 0.9281,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6548
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 43,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 43, I became an active participant in the local Black Lives Matter chapter after the senseless killing of a young, unarmed black man in our community. It was heart-wrenching to see the pain and anger around me, and I decided to channel my frustration into activism, organizing protests and community meetings to demand change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4349,
+        "economic_redistribution": 0.9281,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6548
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 53,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 53, I was diagnosed with diabetes, which was a frightening experience. However, it also led to me becoming more involved in the community, helping others manage their health and advocate for better care.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.04191,
+          "old_mean": 0.9281,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4349,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6548
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At the age of 55, I joined a community-led initiative to clean up and revitalize our neighborhood park. It was an inspiring experience seeing people from all backgrounds come together to transform a once-neglected space into a vibrant gathering place for our community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02125,
+          "old_mean": 0.6548,
+          "new_mean": 0.676
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4349,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.676
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 67,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 67, I witnessed my lifelong church being engulfed in a financial scandal, causing many members, including myself, to lose trust and question our faith. It was devastating to see the institution I held dear crumble under corruption.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26348,
+          "old_mean": 0.4349,
+          "new_mean": 0.1714
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1714,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.676
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 62 after 35 years at an automobile plant, causing community-wide unemployment and hardship. At 18, they were denied a promotion due to racial discrimination, sparking their activism. At 35, they were diagnosed with diabetes, leading to lifestyle changes and community support."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 43, became a Black Lives Matter activist following a local killing, organizing protests and community meetings. At 53, they were diagnosed with diabetes, leading to increased community involvement in health advocacy. At 67, they witnessed their lifelong church fall into a financial scandal, causing them to lose trust and question their faith."
+    }
+  ],
+  "persona_card": "\"An 80-year-old, college-educated Black man with a slightly liberal, not very strong Democratic lean, he's a moral traditionalist who's seen his trust in institutions, including his lifelong church, eroded by personal experiences. A structuralist on racial issues, he's actively advocated for Black Lives Matter and health equity, believing in economic redistribution and a significant government role. Despite his activism, he maintains a welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3472,
+    "economic_redistribution": 0.7896,
+    "racial_attitudes": 0.7533,
+    "institutional_trust": 0.45,
+    "outgroup_affect": 0.6548
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1714,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.676
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.08769,
+      0.0,
+      0.0,
+      0.0,
+      -0.26348
+    ],
+    "economic_redistribution": [
+      0.13849,
+      0.0,
+      0.0,
+      0.0,
+      0.04191,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.2167,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15531,
+      -0.26469,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02125,
+      0.0
+    ]
+  }
+}
