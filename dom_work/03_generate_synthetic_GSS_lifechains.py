@@ -8,10 +8,13 @@ of static demographic strings.
 
 Prompt structure per survey item
 ---------------------------------
-  BACKGROUND:          (Level 1 demographics, ~50 tokens)
-  LIFE HISTORY:        (persona card from Phase 3, ~150 tokens)
-  Question + options   (~30 tokens)
+  Step 0  (once per persona): convert third-person persona card → first-person
+  LIFE HISTORY AND WORLDVIEW:  (first-person persona, ~150 tokens)
+  Question + options            (~30 tokens)
   → answer: single digit
+
+The BACKGROUND / demographics section has been removed.  The first-person
+conversion is done once per persona and cached in memory for the survey loop.
 
 Temperature is set to 0.7 (medium) — lower than the life-chain generation
 stage but with enough variance to avoid degenerate mode-seeking behaviour.
@@ -74,12 +77,65 @@ OPENROUTER_API_URL          = _baseline.OPENROUTER_API_URL
 del _spec, _baseline
 
 # ---------------------------------------------------------------------------
-# Survey query — same interface as baseline, temperature lowered to 0.7
+# First-person conversion — called once per persona before the survey loop
+# ---------------------------------------------------------------------------
+
+def convert_to_first_person(
+    model: str,
+    persona_card: str,
+    api_key: str,
+    timeout: int = 30,
+    max_retries: int = 3,
+) -> str:
+    """
+    Rewrite a third-person persona card as a first-person self-description.
+
+    Returns the converted text, or the original card unchanged if the API
+    call fails (so the survey can still proceed with the raw card).
+    """
+    prompt = (
+        "Rewrite the following third-person description as a first-person "
+        "self-description. Keep all factual details and preserve the tone. "
+        "Do not add or remove any information. Output only the rewritten text, "
+        "with no preamble or explanation.\n\n"
+        f"{persona_card}"
+    )
+
+    headers = {
+        "Authorization": f"Bearer {api_key}",
+        "Content-Type": "application/json",
+    }
+    data = {
+        "model": model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.3,
+        "max_tokens": 400,
+    }
+
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(
+                OPENROUTER_API_URL, headers=headers, json=data, timeout=timeout
+            )
+            response.raise_for_status()
+            result = response.json()
+            converted = result["choices"][0]["message"]["content"].strip()
+            if converted:
+                return converted
+        except Exception:
+            if attempt < max_retries - 1:
+                time.sleep(2 ** attempt)
+
+    # Fallback: return the original card unmodified
+    return persona_card
+
+
+# ---------------------------------------------------------------------------
+# Survey query — demographics removed; uses first-person persona directly
 # ---------------------------------------------------------------------------
 
 def query_openrouter(
     model: str,
-    demographics: str,
     persona_card: str,
     question: str,
     options: Dict[int, str],
@@ -91,16 +147,15 @@ def query_openrouter(
     """
     Query OpenRouter for a single GSS item using the life-chain prompt.
 
-    The persona context is split into two labelled sections so the model
-    can distinguish stable demographic facts (Level 1) from the worldview
-    developed through the life-chain (Level 3 persona card).
+    The persona is provided as a first-person self-description derived from
+    the life-chain persona card.  The separate BACKGROUND/demographics block
+    has been removed.
     """
     options_text = "\n".join(f"{k}. {v}" for k, v in options.items())
 
     prompt = (
         f"It is now {year}. You are answering survey questions as the following person, "
         f"who is living in the United States.\n\n"
-        f"BACKGROUND:\n{demographics}\n\n"
         f"LIFE HISTORY AND WORLDVIEW:\n{persona_card}\n\n"
         f"Question: {question}\n\n"
         f"Options:\n{options_text}\n\n"
@@ -179,7 +234,7 @@ def query_openrouter(
 
 
 # ---------------------------------------------------------------------------
-# Resume helper — identical logic to baseline
+# Resume helpers
 # ---------------------------------------------------------------------------
 
 def load_completed_tasks(output_file: Path) -> Set[Tuple[int, str, int]]:
@@ -194,6 +249,22 @@ def load_completed_tasks(output_file: Path) -> Set[Tuple[int, str, int]]:
     except Exception as e:
         print(f"Warning: could not load completed tasks: {e}")
         return set()
+
+
+def load_first_person_cache(cache_path: Path) -> Dict[int, str]:
+    """
+    Load any already-converted first-person persona cards from disk.
+
+    Returns a dict mapping respondent_id (int) -> first-person text.
+    """
+    if not cache_path.exists():
+        return {}
+    try:
+        df = pd.read_csv(cache_path)
+        return dict(zip(df["respondent_id"].astype(int), df["first_person_card"]))
+    except Exception as e:
+        print(f"Warning: could not load first-person cache ({cache_path}): {e}")
+        return {}
 
 
 # ---------------------------------------------------------------------------
@@ -321,12 +392,23 @@ def main():
         help="If set, only use chains generated by this specific model"
     )
     parser.add_argument(
-        "--personas-csv", default="gss2024_personas.csv",
-        help="Path to base demographics CSV for Level 1 context (default: gss2024_personas.csv)"
-    )
-    parser.add_argument(
         "--output-dir", default=None,
         help="Override output directory (default: synthetic_data_lifechains/year_<year>/)"
+    )
+    parser.add_argument(
+        "--conversion-model", default=None,
+        help=(
+            "Model to use for the first-person conversion step. "
+            "Defaults to the first survey model if not specified."
+        )
+    )
+    parser.add_argument(
+        "--fp-cache", default="life_chains_first_person.csv",
+        help=(
+            "Path to the first-person persona cache CSV "
+            "(default: life_chains_first_person.csv in the script directory). "
+            "Existing entries are reused; new conversions are appended."
+        )
     )
 
     args = parser.parse_args()
@@ -368,21 +450,6 @@ def main():
             print(f"    chain model: {cm}  ({n} personas)")
     print()
 
-    # Load base demographics (Level 1 context)
-    personas_csv = SCRIPT_DIR / args.personas_csv
-    if not personas_csv.exists():
-        personas_csv = SCRIPT_DIR / "gss2024_personas.csv"
-    demographics_df = pd.read_csv(personas_csv).set_index("respondent_id")
-
-    # Merge: keep only personas that have both a chain card and demographics
-    valid_ids = cards_df.index.intersection(demographics_df.index)
-    if len(valid_ids) < len(cards_df):
-        print(
-            f"  Warning: {len(cards_df) - len(valid_ids)} chain personas have no "
-            f"matching demographics row — they will be skipped."
-        )
-    cards_df   = cards_df.loc[valid_ids]
-
     # Optional persona limit
     if args.personas and args.personas < len(cards_df):
         random.seed(42)
@@ -398,6 +465,55 @@ def main():
     print(f"Output dir: {output_dir}")
     print()
 
+    # Determine conversion model (default to first survey model)
+    conversion_model = args.conversion_model if args.conversion_model else models[0]
+
+    # ── First-person conversion (resumable, persisted to CSV) ───────────────
+    fp_cache_path = SCRIPT_DIR / args.fp_cache
+    first_person_cards: Dict[int, str] = load_first_person_cache(fp_cache_path)
+
+    personas_to_convert = [
+        (pid, row) for pid, row in cards_df.iterrows()
+        if pid not in first_person_cards
+    ]
+
+    if personas_to_convert:
+        print(
+            f"Converting {len(personas_to_convert)} persona cards to first-person "
+            f"using '{conversion_model}' ..."
+        )
+        if first_person_cards:
+            print(f"  (Resuming — {len(first_person_cards)} already cached in {fp_cache_path.name})")
+
+        for persona_id, card_row in tqdm(personas_to_convert, desc="converting"):
+            converted = convert_to_first_person(
+                model        = conversion_model,
+                persona_card = str(card_row["persona_card"]),
+                api_key      = api_key,
+            )
+            first_person_cards[persona_id] = converted
+
+            # Persist immediately so progress is not lost on crash
+            row_df = pd.DataFrame([{
+                "respondent_id":     persona_id,
+                "first_person_card": converted,
+                "conversion_model":  conversion_model,
+                "timestamp":         datetime.now(timezone.utc).isoformat(),
+            }])
+            row_df.to_csv(
+                fp_cache_path,
+                mode="a",
+                header=not fp_cache_path.exists(),
+                index=False,
+            )
+
+        print(f"  Conversion complete. Cache saved to {fp_cache_path}\n")
+    else:
+        print(
+            f"  All {len(first_person_cards)} persona cards already converted "
+            f"(loaded from {fp_cache_path.name}).\n"
+        )
+
     # ---- Per-model loop (mirrors baseline exactly) ----
     for model in models:
         print("=" * 70)
@@ -411,12 +527,11 @@ def main():
         if completed_tasks:
             print(f"  Resuming: {len(completed_tasks)} tasks already done")
 
-        # Build task list
+        # Build task list (uses pre-converted first-person cards)
         tasks: List[Dict] = []
         for persona_id, card_row in cards_df.iterrows():
-            persona_card  = str(card_row["persona_card"])
-            chain_model   = str(card_row.get("chain_model", "unknown"))
-            demographics  = str(demographics_df.loc[persona_id, "persona"])
+            persona_card = first_person_cards[persona_id]
+            chain_model  = str(card_row.get("chain_model", "unknown"))
 
             for var_name, q_data in GSS_QUESTIONS_COMPREHENSIVE.items():
                 for run in range(1, args.runs + 1):
@@ -424,7 +539,6 @@ def main():
                         continue
                     tasks.append({
                         "persona_id":   persona_id,
-                        "demographics": demographics,
                         "persona_card": persona_card,
                         "chain_model":  chain_model,
                         "variable":     var_name,
@@ -447,7 +561,6 @@ def main():
                 executor.submit(
                     query_openrouter,
                     model,
-                    task["demographics"],
                     task["persona_card"],
                     task["question"],
                     task["options"],
