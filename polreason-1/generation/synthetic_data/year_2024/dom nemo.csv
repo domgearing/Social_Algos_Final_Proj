@@ -1,0 +1,261 @@
+timestamp,model,chain_model,persona_id,variable,question_short,run,answer,prompt_tokens,completion_tokens,total_tokens,error,raw_response
+2026-04-21T13:44:00.463774+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,abhlth,Please tell me whether or not you think it should ...,1,1,261,1,262,,1
+2026-04-21T13:44:00.497925+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,abpoor,Please tell me whether or not you think it should ...,1,2,263,1,264,,2
+2026-04-21T13:44:00.539810+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,abrape,Please tell me whether or not you think it should ...,1,1,258,1,259,,1
+2026-04-21T13:44:00.581282+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,premarsx,If a man and woman have sexual relations before ma...,1,3,276,1,277,,3
+2026-04-21T13:44:00.634494+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,abdefect,Please tell me whether or not you think it should ...,1,2,261,1,262,,2
+2026-04-21T13:44:00.711143+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,gunlaw,Would you favor or oppose a law which would requir...,1,1,255,1,256,,1
+2026-04-21T13:44:00.801590+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,grass,Do you think the use of marijuana should be made l...,1,2,246,1,247,,2
+2026-04-21T13:44:00.821812+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,cappun,Do you favor or oppose the death penalty for perso...,1,1,252,2,254,,1
+2026-04-21T13:44:00.833033+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,homosex,What is your opinion about sexual relations betwee...,1,3,289,2,291,,3
+2026-04-21T13:44:01.006124+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,fefam,Please read the following statement and indicate w...,1,3,290,1,291,,3
+2026-04-21T13:44:01.203294+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,eqwlth,Some people think that the government in Washingto...,1,3,396,1,397,,3
+2026-04-21T13:44:01.211060+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,affrmact,Some people say that because of past discriminatio...,1,3,302,1,303,,3
+2026-04-21T13:44:01.230183+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,immjobs,There are different opinions about immigrants from...,1,3,304,1,305,,3
+2026-04-21T13:44:01.257203+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,immcrime,There are different opinions about immigrants from...,1,3,299,1,300,,3
+2026-04-21T13:44:01.273052+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,xmarsex,What is your opinion about a married person having...,1,1,290,2,292,,1
+2026-04-21T13:44:01.345365+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,fechld,To what extent do you you agree or disagree that: ...,1,2,286,2,288,,2
+2026-04-21T13:44:01.377972+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,fepresch,Please read the following statement and indicate w...,1,3,276,1,277,,3
+2026-04-21T13:44:01.730544+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,pornlaw,Which of these statements comes closest to your fe...,1,2,345,2,347,,2
+2026-04-21T13:44:01.762628+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,colath,There are always some people whose ideas are consi...,1,1,277,1,278,,1
+2026-04-21T13:44:01.768855+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,immameco,There are different opinions about immigrants from...,1,3,301,1,302,,3
+2026-04-21T13:44:01.772703+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,spkrac,Consider a person who believes that Black people a...,1,2,273,1,274,,2
+2026-04-21T13:44:01.792039+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,colrac,Consider a person who believes that Black people a...,1,2,261,1,262,,2
+2026-04-21T13:44:01.809856+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,spkmslm,Consider a Muslim clergyman who preaches hatred of...,1,1,274,1,275,,1
+2026-04-21T13:44:01.816847+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,colmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,264,1,265,,2
+2026-04-21T13:44:01.996088+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,spkath,There are always some people whose ideas are consi...,1,1,302,2,304,,1
+2026-04-21T13:44:02.118988+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,bible,Which of these statements comes closest to describ...,1,2,374,1,375,,2
+2026-04-21T13:44:02.121197+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,god,Tell me which statement comes closest to expressin...,1,4,431,1,432,,4
+2026-04-21T13:44:02.128445+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,confed,I am going to name some institutions in this count...,1,2,289,1,290,,2
+2026-04-21T13:44:02.145998+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,nataid,"We are faced with many problems in this country, n...",1,3,318,1,319,,3
+2026-04-21T13:44:02.146028+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,conpress,I am going to name some institutions in this count...,1,2,285,1,286,,2
+2026-04-21T13:44:02.147993+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,consci,I am going to name some institutions in this count...,1,2,286,1,287,,2
+2026-04-21T13:44:02.151212+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,natspac,"We are faced with many problems in this country, n...",1,2,320,1,321,,2
+2026-04-21T13:44:02.368712+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,natsci,"We are faced with many problems in this country, n...",1,1,319,1,320,,1
+2026-04-21T13:44:02.549639+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,natheal,"We are faced with many problems in this country, n...",1,1,324,1,325,,1
+2026-04-21T13:44:02.668225+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,nateduc,"We are faced with many problems in this country, n...",1,1,323,1,324,,1
+2026-04-21T13:44:02.680967+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,coneduc,I am going to name some institutions in this count...,1,2,284,1,285,,2
+2026-04-21T13:44:02.697939+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,natroad,"We are faced with many problems in this country, n...",1,1,320,1,321,,1
+2026-04-21T13:44:02.701373+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,confinan,I am going to name some institutions in this count...,1,2,287,1,288,,2
+2026-04-21T13:44:02.777145+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,conlegis,I am going to name some institutions in this count...,1,2,284,1,285,,2
+2026-04-21T13:44:03.125618+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,conmedic,I am going to name some institutions in this count...,1,2,284,1,285,,2
+2026-04-21T13:44:03.432635+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,natsoc,"We are faced with many problems in this country, n...",1,1,327,2,329,,1
+2026-04-21T13:44:03.472490+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,helpful,Would you say that most of the time people try to ...,1,3,263,1,264,,3
+2026-04-21T13:44:03.503341+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,conarmy,I am going to name some institutions in this count...,1,2,293,2,295,,2
+2026-04-21T13:44:03.609248+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,satfin,We are interested in how people are getting along ...,1,1,288,1,289,,1
+2026-04-21T13:44:03.609557+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,fair,Do you think most people would try to take advanta...,1,2,275,2,277,,2
+2026-04-21T13:44:03.678144+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,natenvir,"We are faced with many problems in this country, n...",1,1,331,2,333,,1
+2026-04-21T13:44:03.686681+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,trust,"Generally speaking, would you say that most people...",1,3,271,2,273,,3
+2026-04-21T13:44:03.774264+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,conbus,I am going to name some institutions in this count...,1,2,285,1,286,,2
+2026-04-21T13:44:03.805920+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,finalter,"During the last few years, has your financial situ...",1,3,259,1,260,,3
+2026-04-21T13:44:03.813728+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,richwork,If you were to get enough money to live as comfort...,1,2,263,1,264,,2
+2026-04-21T13:44:04.017947+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,getahead,Some people say that people get ahead by their own...,1,2,276,1,277,,2
+2026-04-21T13:44:04.120453+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,abrape,Please tell me whether or not you think it should ...,1,1,332,1,333,,1
+2026-04-21T13:44:04.150770+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,abdefect,Please tell me whether or not you think it should ...,1,1,335,1,336,,1
+2026-04-21T13:44:04.154734+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2027,satjob,"On the whole, how satisfied are you with the work ...",1,2,278,1,279,,2
+2026-04-21T13:44:04.292068+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,abpoor,Please tell me whether or not you think it should ...,1,1,337,1,338,,1
+2026-04-21T13:44:04.294209+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,homosex,What is your opinion about sexual relations betwee...,1,4,354,1,355,,4
+2026-04-21T13:44:04.318801+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,gunlaw,Would you favor or oppose a law which would requir...,1,1,329,1,330,,1
+2026-04-21T13:44:04.326661+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,cappun,Do you favor or oppose the death penalty for perso...,1,2,317,1,318,,2
+2026-04-21T13:44:04.413637+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,pornlaw,Which of these statements comes closest to your fe...,1,2,410,1,411,,2
+2026-04-21T13:44:04.419547+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,abhlth,Please tell me whether or not you think it should ...,1,1,344,2,346,,1
+2026-04-21T13:44:04.485206+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,premarsx,If a man and woman have sexual relations before ma...,1,3,350,1,351,,3
+2026-04-21T13:44:04.619097+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,fechld,To what extent do you you agree or disagree that: ...,1,3,351,1,352,,3
+2026-04-21T13:44:04.626337+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,fepresch,Please read the following statement and indicate w...,1,2,350,1,351,,2
+2026-04-21T13:44:04.738639+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,grass,Do you think the use of marijuana should be made l...,1,1,320,1,321,,1
+2026-04-21T13:44:04.770488+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,fefam,Please read the following statement and indicate w...,1,3,364,1,365,,3
+2026-04-21T13:44:04.943288+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,xmarsex,What is your opinion about a married person having...,1,1,364,2,366,,1
+2026-04-21T13:44:04.974920+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,affrmact,Some people say that because of past discriminatio...,1,2,376,1,377,,2
+2026-04-21T13:44:04.987029+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,eqwlth,Some people think that the government in Washingto...,1,3,470,1,471,,3
+2026-04-21T13:44:05.250386+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,immjobs,There are different opinions about immigrants from...,1,3,387,2,389,,3
+2026-04-21T13:44:05.473844+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,immameco,There are different opinions about immigrants from...,1,2,384,2,386,,2
+2026-04-21T13:44:05.473875+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,spkath,There are always some people whose ideas are consi...,1,1,367,1,368,,1
+2026-04-21T13:44:05.482621+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,immcrime,There are different opinions about immigrants from...,1,3,382,2,384,,3
+2026-04-21T13:44:05.507422+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,colmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,338,1,339,,2
+2026-04-21T13:44:05.600325+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,colath,There are always some people whose ideas are consi...,1,1,351,1,352,,1
+2026-04-21T13:44:05.680815+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,spkrac,Consider a person who believes that Black people a...,1,2,347,1,348,,2
+2026-04-21T13:44:05.721602+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,spkmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,348,1,349,,2
+2026-04-21T13:44:05.795238+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,colrac,Consider a person who believes that Black people a...,1,2,335,1,336,,2
+2026-04-21T13:44:05.822457+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,confed,I am going to name some institutions in this count...,1,2,363,1,364,,2
+2026-04-21T13:44:05.828271+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,conpress,I am going to name some institutions in this count...,1,2,359,1,360,,2
+2026-04-21T13:44:05.859159+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,bible,Which of these statements comes closest to describ...,1,2,448,1,449,,2
+2026-04-21T13:44:05.950020+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,natspac,"We are faced with many problems in this country, n...",1,2,394,1,395,,2
+2026-04-21T13:44:05.958779+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,god,Tell me which statement comes closest to expressin...,1,3,505,1,506,,3
+2026-04-21T13:44:06.050797+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,nataid,"We are faced with many problems in this country, n...",1,2,392,1,393,,2
+2026-04-21T13:44:06.081317+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,natsci,"We are faced with many problems in this country, n...",1,1,393,1,394,,1
+2026-04-21T13:44:06.140507+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,nateduc,"We are faced with many problems in this country, n...",1,1,397,1,398,,1
+2026-04-21T13:44:06.144303+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,natenvir,"We are faced with many problems in this country, n...",1,1,396,1,397,,1
+2026-04-21T13:44:06.164369+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,natheal,"We are faced with many problems in this country, n...",1,2,398,1,399,,2
+2026-04-21T13:44:06.184144+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,natsoc,"We are faced with many problems in this country, n...",1,2,392,1,393,,2
+2026-04-21T13:44:06.196541+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,natroad,"We are faced with many problems in this country, n...",1,2,394,1,395,,2
+2026-04-21T13:44:06.289016+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,coneduc,I am going to name some institutions in this count...,1,2,358,1,359,,2
+2026-04-21T13:44:06.544156+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,confinan,I am going to name some institutions in this count...,1,2,361,1,362,,2
+2026-04-21T13:44:06.548925+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,conlegis,I am going to name some institutions in this count...,1,3,358,1,359,,3
+2026-04-21T13:44:06.570845+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,consci,I am going to name some institutions in this count...,1,2,369,2,371,,2
+2026-04-21T13:44:06.581858+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,trust,"Generally speaking, would you say that most people...",1,3,336,1,337,,3
+2026-04-21T13:44:06.589153+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,fair,Do you think most people would try to take advanta...,1,3,340,1,341,,3
+2026-04-21T13:44:06.898296+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,richwork,If you were to get enough money to live as comfort...,1,1,337,1,338,,1
+2026-04-21T13:44:06.919258+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,satfin,We are interested in how people are getting along ...,1,1,362,1,363,,1
+2026-04-21T13:44:06.972321+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,getahead,Some people say that people get ahead by their own...,1,2,350,1,351,,2
+2026-04-21T13:44:06.999088+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,conarmy,I am going to name some institutions in this count...,1,3,367,2,369,,3
+2026-04-21T13:44:07.030753+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,conmedic,I am going to name some institutions in this count...,1,2,367,2,369,,2
+2026-04-21T13:44:07.293548+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,satjob,"On the whole, how satisfied are you with the work ...",1,2,350,2,352,,2
+2026-04-21T13:44:07.399929+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,conbus,I am going to name some institutions in this count...,1,2,368,2,370,,2
+2026-04-21T13:44:07.410555+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,finalter,"During the last few years, has your financial situ...",1,2,342,2,344,,2
+2026-04-21T13:44:07.416593+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1677,helpful,Would you say that most of the time people try to ...,1,1,346,2,348,,1
+2026-04-21T13:44:07.545301+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,abpoor,Please tell me whether or not you think it should ...,1,1,251,1,252,,1
+2026-04-21T13:44:07.548903+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,abrape,Please tell me whether or not you think it should ...,1,2,246,1,247,,2
+2026-04-21T13:44:07.600815+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,gunlaw,Would you favor or oppose a law which would requir...,1,2,243,1,244,,2
+2026-04-21T13:44:07.637905+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,abdefect,Please tell me whether or not you think it should ...,1,1,249,1,250,,1
+2026-04-21T13:44:07.857103+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,pornlaw,Which of these statements comes closest to your fe...,1,2,324,1,325,,2
+2026-04-21T13:44:07.866694+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,homosex,What is your opinion about sexual relations betwee...,1,1,268,1,269,,1
+2026-04-21T13:44:07.870147+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,premarsx,If a man and woman have sexual relations before ma...,1,2,264,1,265,,2
+2026-04-21T13:44:07.926895+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,fechld,To what extent do you you agree or disagree that: ...,1,2,265,1,266,,2
+2026-04-21T13:44:07.972362+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,cappun,Do you favor or oppose the death penalty for perso...,1,1,231,1,232,,1
+2026-04-21T13:44:08.149999+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,abhlth,Please tell me whether or not you think it should ...,1,1,249,1,250,,1
+2026-04-21T13:44:08.414515+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,xmarsex,What is your opinion about a married person having...,1,1,278,2,280,,1
+2026-04-21T13:44:08.591622+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,grass,Do you think the use of marijuana should be made l...,1,2,243,2,245,,2
+2026-04-21T13:44:08.640806+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,affrmact,Some people say that because of past discriminatio...,1,3,290,1,291,,3
+2026-04-21T13:44:08.649979+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,fepresch,Please read the following statement and indicate w...,1,3,264,1,265,,3
+2026-04-21T13:44:08.796303+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,eqwlth,Some people think that the government in Washingto...,1,3,384,1,385,,3
+2026-04-21T13:44:08.796951+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,fefam,Please read the following statement and indicate w...,1,3,278,1,279,,3
+2026-04-21T13:44:08.917320+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,spkath,There are always some people whose ideas are consi...,1,1,281,1,282,,1
+2026-04-21T13:44:09.020191+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,immcrime,There are different opinions about immigrants from...,1,3,287,1,288,,3
+2026-04-21T13:44:09.027105+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,immjobs,There are different opinions about immigrants from...,1,3,301,2,303,,3
+2026-04-21T13:44:09.043544+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,spkmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,262,1,263,,2
+2026-04-21T13:44:09.046822+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,colrac,Consider a person who believes that Black people a...,1,2,249,1,250,,2
+2026-04-21T13:44:09.274483+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,immameco,There are different opinions about immigrants from...,1,3,298,2,300,,3
+2026-04-21T13:44:09.433586+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,colath,There are always some people whose ideas are consi...,1,1,274,2,276,,1
+2026-04-21T13:44:09.561995+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,bible,Which of these statements comes closest to describ...,1,2,362,1,363,,2
+2026-04-21T13:44:09.666741+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,spkrac,Consider a person who believes that Black people a...,1,2,261,1,262,,2
+2026-04-21T13:44:09.722465+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,confed,I am going to name some institutions in this count...,1,2,277,1,278,,2
+2026-04-21T13:44:09.788356+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,consci,I am going to name some institutions in this count...,1,2,274,1,275,,2
+2026-04-21T13:44:09.927645+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,nataid,"We are faced with many problems in this country, n...",1,3,306,1,307,,3
+2026-04-21T13:44:09.934572+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,colmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,252,1,253,,2
+2026-04-21T13:44:09.937777+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,conpress,I am going to name some institutions in this count...,1,2,273,1,274,,2
+2026-04-21T13:44:09.940043+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,god,Tell me which statement comes closest to expressin...,1,4,419,1,420,,4
+2026-04-21T13:44:09.960518+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,natspac,"We are faced with many problems in this country, n...",1,2,308,1,309,,2
+2026-04-21T13:44:09.994241+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,natenvir,"We are faced with many problems in this country, n...",1,2,310,1,311,,2
+2026-04-21T13:44:10.071456+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,natsci,"We are faced with many problems in this country, n...",1,3,307,1,308,,3
+2026-04-21T13:44:10.179151+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,nateduc,"We are faced with many problems in this country, n...",1,1,311,1,312,,1
+2026-04-21T13:44:10.314719+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,conbus,I am going to name some institutions in this count...,1,2,273,1,274,,2
+2026-04-21T13:44:10.321516+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,natsoc,"We are faced with many problems in this country, n...",1,2,306,1,307,,2
+2026-04-21T13:44:10.324307+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,natroad,"We are faced with many problems in this country, n...",1,1,308,1,309,,1
+2026-04-21T13:44:10.355619+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,coneduc,I am going to name some institutions in this count...,1,2,272,1,273,,2
+2026-04-21T13:44:10.361599+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,confinan,I am going to name some institutions in this count...,1,2,275,1,276,,2
+2026-04-21T13:44:10.447939+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,conarmy,I am going to name some institutions in this count...,1,3,272,1,273,,3
+2026-04-21T13:44:10.664324+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,fair,Do you think most people would try to take advanta...,1,3,254,1,255,,3
+2026-04-21T13:44:10.801680+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,helpful,Would you say that most of the time people try to ...,1,1,249,2,251,,1
+2026-04-21T13:44:10.869096+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,natheal,"We are faced with many problems in this country, n...",1,2,321,2,323,,2
+2026-04-21T13:44:10.892837+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,conlegis,I am going to name some institutions in this count...,1,2,281,2,283,,2
+2026-04-21T13:44:11.117705+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,conmedic,I am going to name some institutions in this count...,1,2,272,1,273,,2
+2026-04-21T13:44:11.281101+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,trust,"Generally speaking, would you say that most people...",1,2,250,1,251,,2
+2026-04-21T13:44:11.691431+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,getahead,Some people say that people get ahead by their own...,1,1,264,1,265,,1
+2026-04-21T13:44:11.691885+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,satfin,We are interested in how people are getting along ...,1,2,276,1,277,,2
+2026-04-21T13:44:11.691903+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,finalter,"During the last few years, has your financial situ...",1,3,247,1,248,,3
+2026-04-21T13:44:12.425649+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,abdefect,Please tell me whether or not you think it should ...,1,1,318,1,319,,1
+2026-04-21T13:44:12.430419+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,abpoor,Please tell me whether or not you think it should ...,1,1,320,1,321,,1
+2026-04-21T13:44:12.443817+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,gunlaw,Would you favor or oppose a law which would requir...,1,2,312,1,313,,2
+2026-04-21T13:44:12.512254+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,cappun,Do you favor or oppose the death penalty for perso...,1,2,300,1,301,,2
+2026-04-21T13:44:12.640066+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,abrape,Please tell me whether or not you think it should ...,1,1,315,1,316,,1
+2026-04-21T13:44:12.720784+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,abhlth,Please tell me whether or not you think it should ...,1,1,318,1,319,,1
+2026-04-21T13:44:12.924414+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,richwork,If you were to get enough money to live as comfort...,1,2,260,2,262,,2
+2026-04-21T13:44:12.945936+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,fechld,To what extent do you you agree or disagree that: ...,1,2,334,1,335,,2
+2026-04-21T13:44:12.948883+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,3117,satjob,"On the whole, how satisfied are you with the work ...",1,1,275,2,277,,1
+2026-04-21T13:44:13.258723+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,homosex,What is your opinion about sexual relations betwee...,1,4,346,2,348,,4
+2026-04-21T13:44:13.326720+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,premarsx,If a man and woman have sexual relations before ma...,1,2,333,1,334,,2
+2026-04-21T13:44:13.374717+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,affrmact,Some people say that because of past discriminatio...,1,3,357,2,359,,3
+2026-04-21T13:44:13.400128+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,pornlaw,Which of these statements comes closest to your fe...,1,2,393,1,394,,2
+2026-04-21T13:44:13.407784+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,xmarsex,What is your opinion about a married person having...,1,4,338,1,339,,4
+2026-04-21T13:44:13.611290+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,immcrime,There are different opinions about immigrants from...,1,4,356,1,357,,4
+2026-04-21T13:44:13.823978+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,grass,Do you think the use of marijuana should be made l...,1,1,303,1,304,,1
+2026-04-21T13:44:13.890772+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,fefam,Please read the following statement and indicate w...,1,4,347,1,348,,4
+2026-04-21T13:44:13.911691+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,spkath,There are always some people whose ideas are consi...,1,1,350,1,351,,1
+2026-04-21T13:44:13.914267+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,fepresch,Please read the following statement and indicate w...,1,2,333,1,334,,2
+2026-04-21T13:44:13.917061+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,eqwlth,Some people think that the government in Washingto...,1,4,453,1,454,,4
+2026-04-21T13:44:13.924457+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,immameco,There are different opinions about immigrants from...,1,3,358,1,359,,3
+2026-04-21T13:44:13.931410+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,immjobs,There are different opinions about immigrants from...,1,3,361,1,362,,3
+2026-04-21T13:44:14.017894+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,colath,There are always some people whose ideas are consi...,1,1,334,1,335,,1
+2026-04-21T13:44:14.105631+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,spkrac,Consider a person who believes that Black people a...,1,2,330,1,331,,2
+2026-04-21T13:44:14.171447+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,colrac,Consider a person who believes that Black people a...,1,2,318,1,319,,2
+2026-04-21T13:44:14.332947+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,spkmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,331,1,332,,2
+2026-04-21T13:44:14.503530+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,god,Tell me which statement comes closest to expressin...,1,2,488,1,489,,2
+2026-04-21T13:44:14.514272+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,confed,I am going to name some institutions in this count...,1,3,346,1,347,,3
+2026-04-21T13:44:14.522564+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,nataid,"We are faced with many problems in this country, n...",1,1,375,1,376,,1
+2026-04-21T13:44:14.543667+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,colmslm,Consider a Muslim clergyman who preaches hatred of...,1,1,321,1,322,,1
+2026-04-21T13:44:14.545337+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,bible,Which of these statements comes closest to describ...,1,2,431,1,432,,2
+2026-04-21T13:44:14.547577+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,conpress,I am going to name some institutions in this count...,1,2,342,1,343,,2
+2026-04-21T13:44:14.796509+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,natspac,"We are faced with many problems in this country, n...",1,3,377,1,378,,3
+2026-04-21T13:44:14.888978+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,natenvir,"We are faced with many problems in this country, n...",1,1,379,1,380,,1
+2026-04-21T13:44:14.891767+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,natsci,"We are faced with many problems in this country, n...",1,1,376,1,377,,1
+2026-04-21T13:44:14.930226+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,natheal,"We are faced with many problems in this country, n...",1,1,381,1,382,,1
+2026-04-21T13:44:14.935066+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,natsoc,"We are faced with many problems in this country, n...",1,2,375,1,376,,2
+2026-04-21T13:44:14.937991+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,natroad,"We are faced with many problems in this country, n...",1,2,377,1,378,,2
+2026-04-21T13:44:15.029461+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,consci,I am going to name some institutions in this count...,1,2,352,2,354,,2
+2026-04-21T13:44:15.240986+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,coneduc,I am going to name some institutions in this count...,1,2,341,1,342,,2
+2026-04-21T13:44:15.269823+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,confinan,I am going to name some institutions in this count...,1,2,344,1,345,,2
+2026-04-21T13:44:15.297828+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,conmedic,I am going to name some institutions in this count...,1,3,341,1,342,,3
+2026-04-21T13:44:15.301105+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,conlegis,I am going to name some institutions in this count...,1,3,341,1,342,,3
+2026-04-21T13:44:15.302815+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,conbus,I am going to name some institutions in this count...,1,2,342,1,343,,2
+2026-04-21T13:44:15.338623+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,conarmy,I am going to name some institutions in this count...,1,2,339,2,341,,2
+2026-04-21T13:44:15.360803+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,nateduc,"We are faced with many problems in this country, n...",1,1,389,2,391,,1
+2026-04-21T13:44:15.642036+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,fair,Do you think most people would try to take advanta...,1,3,321,2,323,,3
+2026-04-21T13:44:15.682049+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,getahead,Some people say that people get ahead by their own...,1,2,331,2,333,,2
+2026-04-21T13:44:15.700571+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,richwork,If you were to get enough money to live as comfort...,1,1,318,2,320,,1
+2026-04-21T13:44:15.714824+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,satjob,"On the whole, how satisfied are you with the work ...",1,2,333,2,335,,2
+2026-04-21T13:44:15.731937+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,trust,"Generally speaking, would you say that most people...",1,2,317,2,319,,2
+2026-04-21T13:44:15.749084+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,finalter,"During the last few years, has your financial situ...",1,2,314,2,316,,2
+2026-04-21T13:44:15.883616+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,satfin,We are interested in how people are getting along ...,1,2,343,2,345,,2
+2026-04-21T13:44:15.928157+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,2110,helpful,Would you say that most of the time people try to ...,1,3,318,2,320,,3
+2026-04-21T13:44:15.958175+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,abhlth,Please tell me whether or not you think it should ...,1,1,322,1,323,,1
+2026-04-21T13:44:15.981523+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,abrape,Please tell me whether or not you think it should ...,1,1,319,1,320,,1
+2026-04-21T13:44:16.205724+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,cappun,Do you favor or oppose the death penalty for perso...,1,1,304,1,305,,1
+2026-04-21T13:44:16.347002+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,homosex,What is your opinion about sexual relations betwee...,1,3,341,1,342,,3
+2026-04-21T13:44:16.354425+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,pornlaw,Which of these statements comes closest to your fe...,1,2,397,1,398,,2
+2026-04-21T13:44:16.364511+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,xmarsex,What is your opinion about a married person having...,1,1,342,1,343,,1
+2026-04-21T13:44:16.441538+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,grass,Do you think the use of marijuana should be made l...,1,2,307,1,308,,2
+2026-04-21T13:44:16.478313+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,premarsx,If a man and woman have sexual relations before ma...,1,2,337,1,338,,2
+2026-04-21T13:44:16.593800+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,abpoor,Please tell me whether or not you think it should ...,1,2,324,1,325,,2
+2026-04-21T13:44:16.613071+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,fechld,To what extent do you you agree or disagree that: ...,1,2,338,1,339,,2
+2026-04-21T13:44:16.776308+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,gunlaw,Would you favor or oppose a law which would requir...,1,2,316,1,317,,2
+2026-04-21T13:44:16.801221+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,eqwlth,Some people think that the government in Washingto...,1,4,457,1,458,,4
+2026-04-21T13:44:16.812181+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,affrmact,Some people say that because of past discriminatio...,1,3,363,1,364,,3
+2026-04-21T13:44:16.829965+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,abdefect,Please tell me whether or not you think it should ...,1,2,322,1,323,,2
+2026-04-21T13:44:16.896047+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,immjobs,There are different opinions about immigrants from...,1,2,365,1,366,,2
+2026-04-21T13:44:16.920807+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,immcrime,There are different opinions about immigrants from...,1,2,360,1,361,,2
+2026-04-21T13:44:17.045100+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,immameco,There are different opinions about immigrants from...,1,2,362,1,363,,2
+2026-04-21T13:44:17.096421+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,spkath,There are always some people whose ideas are consi...,1,1,354,1,355,,1
+2026-04-21T13:44:17.112663+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,colath,There are always some people whose ideas are consi...,1,2,338,1,339,,2
+2026-04-21T13:44:17.151473+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,colrac,Consider a person who believes that Black people a...,1,2,322,1,323,,2
+2026-04-21T13:44:17.203422+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,fepresch,Please read the following statement and indicate w...,1,2,346,2,348,,2
+2026-04-21T13:44:17.206435+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,fefam,Please read the following statement and indicate w...,1,1,360,2,362,,1
+2026-04-21T13:44:17.325533+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,colmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,325,1,326,,2
+2026-04-21T13:44:17.392142+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,god,Tell me which statement comes closest to expressin...,1,6,492,1,493,,6
+2026-04-21T13:44:17.424211+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,confed,I am going to name some institutions in this count...,1,2,350,1,351,,2
+2026-04-21T13:44:17.436548+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,consci,I am going to name some institutions in this count...,1,2,347,1,348,,2
+2026-04-21T13:44:17.442649+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,spkmslm,Consider a Muslim clergyman who preaches hatred of...,1,2,335,1,336,,2
+2026-04-21T13:44:17.469053+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,conpress,I am going to name some institutions in this count...,1,2,346,1,347,,2
+2026-04-21T13:44:17.477711+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,bible,Which of these statements comes closest to describ...,1,2,435,1,436,,2
+2026-04-21T13:44:17.634675+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,spkrac,Consider a person who believes that Black people a...,1,2,343,2,345,,2
+2026-04-21T13:44:17.688855+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,nataid,"We are faced with many problems in this country, n...",1,3,379,1,380,,3
+2026-04-21T13:44:17.729736+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,natenvir,"We are faced with many problems in this country, n...",1,2,383,1,384,,2
+2026-04-21T13:44:17.732173+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,natspac,"We are faced with many problems in this country, n...",1,3,381,1,382,,3
+2026-04-21T13:44:17.741887+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,nateduc,"We are faced with many problems in this country, n...",1,1,384,1,385,,1
+2026-04-21T13:44:17.759836+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,natsci,"We are faced with many problems in this country, n...",1,1,380,1,381,,1
+2026-04-21T13:44:17.769780+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,natroad,"We are faced with many problems in this country, n...",1,2,381,1,382,,2
+2026-04-21T13:44:17.771492+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,natheal,"We are faced with many problems in this country, n...",1,2,385,1,386,,2
+2026-04-21T13:44:18.000076+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,coneduc,I am going to name some institutions in this count...,1,2,345,1,346,,2
+2026-04-21T13:44:18.003411+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,conarmy,I am going to name some institutions in this count...,1,1,345,1,346,,1
+2026-04-21T13:44:18.027050+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,natsoc,"We are faced with many problems in this country, n...",1,2,379,1,380,,2
+2026-04-21T13:44:18.046378+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,conlegis,I am going to name some institutions in this count...,1,2,345,1,346,,2
+2026-04-21T13:44:18.058248+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,conbus,I am going to name some institutions in this count...,1,2,346,1,347,,2
+2026-04-21T13:44:18.320698+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,helpful,Would you say that most of the time people try to ...,1,1,324,1,325,,1
+2026-04-21T13:44:18.325818+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,fair,Do you think most people would try to take advanta...,1,3,327,1,328,,3
+2026-04-21T13:44:18.422817+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,finalter,"During the last few years, has your financial situ...",1,1,320,1,321,,1
+2026-04-21T13:44:18.424280+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,satfin,We are interested in how people are getting along ...,1,1,349,1,350,,1
+2026-04-21T13:44:18.505633+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,getahead,Some people say that people get ahead by their own...,1,1,337,1,338,,1
+2026-04-21T13:44:18.577197+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,confinan,I am going to name some institutions in this count...,1,3,357,2,359,,3
+2026-04-21T13:44:18.581974+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,satjob,"On the whole, how satisfied are you with the work ...",1,1,339,1,340,,1
+2026-04-21T13:44:18.601220+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,conmedic,I am going to name some institutions in this count...,1,1,354,2,356,,1
+2026-04-21T13:44:18.607723+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,trust,"Generally speaking, would you say that most people...",1,3,332,2,334,,3
+2026-04-21T13:44:19.158971+00:00,mistralai/mistral-nemo,mistralai/mistral-nemo,1500,richwork,If you were to get enough money to live as comfort...,1,1,333,2,335,,1

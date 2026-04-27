@@ -1,0 +1,749 @@
+Starting polreason analysis pipeline: master.R (Nemo Subset)
+Job ID: 9191068
+Node: 
+Start time: Wed Apr 22 09:47:51 EDT 2026
+         used (Mb) gc trigger (Mb) max used (Mb)
+Ncells 296096 15.9     692371   37   481325 25.8
+Vcells 515360  4.0    8388608   64  1925258 14.7
+
+--- Comparison of polychoric correlation matrices ---
+Correlation between original and avg. imputed correlation entries:  0.973 
+Mean absolute difference:  0.0457 
+Median absolute difference:  0.0361 
+Max absolute difference:  0.2797 
+
+
+Process started at 2026-04-22 09:48:03.483071 
+
+dataset 1 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 2 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 3 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 4 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 5 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 6 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 7 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 8 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 9 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 10 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 11 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 12 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 13 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 14 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 15 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 16 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 17 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 18 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 19 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 20 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 21 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 22 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 23 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 24 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 25 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 26 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 27 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 28 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 29 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 30 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 1 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 26 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 20 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 23 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 14 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 29 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 17 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 14 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 26 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 1 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 5 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 29 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 24 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 11 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 29 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 2 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 29 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 8 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 12 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 17 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 14 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 22 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 27 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 30 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 30 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 6 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 22 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 19 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 23 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 25 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+
+dataset 9 
+iteration 1 	 | income
+iteration 2 	 | income
+iteration 3 	 | income
+iteration 4 	 | income
+iteration 5 	 | income
+iteration 6 	 | income
+iteration 7 	 | income
+iteration 8 	 | income
+iteration 9 	 | income
+iteration 10 	 | income
+Pipeline completed at: Wed Apr 22 09:48:09 EDT 2026

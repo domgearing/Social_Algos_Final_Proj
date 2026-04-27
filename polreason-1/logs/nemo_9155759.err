@@ -1,0 +1,40 @@
+This is lavaan 0.6-21
+lavaan is FREE software! Please report any bugs.
+Loading required package: lpSolve
+Using raters specified in command line arguments: mistralai_mistral-nemo_OLD, Nemo_2, Nemo_v3, nemo_4, nemo_5, dom nemo
+Warning in melt.data.table(persona_attrs[persona_id %in% att_long$persona_id][,  :
+  'measure.vars' [persona_partyid, persona_polviews, persona_age, persona_educ, ...] are not all of the same type. By order of hierarchy, the molten data value column will be of type 'double'. All measure variables not of type 'double' will be coerced too. Check DETAILS in ?melt.data.table for more on coercion.
+Warning in melt.data.table(persona_attrs[persona_id %in% att_long$persona_id][,  :
+  'measure.vars' [persona_partyid, persona_polviews, persona_age, persona_educ, ...] are not all of the same type. By order of hierarchy, the molten data value column will be of type 'double'. All measure variables not of type 'double' will be coerced too. Check DETAILS in ?melt.data.table for more on coercion.
+Warning in melt.data.table(persona_attrs[persona_id %in% att_long$persona_id][,  :
+  'measure.vars' [persona_partyid, persona_polviews, persona_age, persona_educ, ...] are not all of the same type. By order of hierarchy, the molten data value column will be of type 'double'. All measure variables not of type 'double' will be coerced too. Check DETAILS in ?melt.data.table for more on coercion.
+Warning in melt.data.table(persona_attrs[persona_id %in% att_long$persona_id][,  :
+  'measure.vars' [persona_partyid, persona_polviews, persona_age, persona_educ, ...] are not all of the same type. By order of hierarchy, the molten data value column will be of type 'double'. All measure variables not of type 'double' will be coerced too. Check DETAILS in ?melt.data.table for more on coercion.
+Warning in melt.data.table(persona_attrs[persona_id %in% att_long$persona_id][,  :
+  'measure.vars' [persona_partyid, persona_polviews, persona_age, persona_educ, ...] are not all of the same type. By order of hierarchy, the molten data value column will be of type 'double'. All measure variables not of type 'double' will be coerced too. Check DETAILS in ?melt.data.table for more on coercion.
+Warning in melt.data.table(persona_attrs[persona_id %in% att_long$persona_id][,  :
+  'measure.vars' [persona_partyid, persona_polviews, persona_age, persona_educ, ...] are not all of the same type. By order of hierarchy, the molten data value column will be of type 'double'. All measure variables not of type 'double' will be coerced too. Check DETAILS in ?melt.data.table for more on coercion.
+Warning in melt.data.table(persona_attrs[persona_id %in% att_long$persona_id][,  :
+  'measure.vars' [persona_partyid, persona_polviews, persona_age, persona_educ, ...] are not all of the same type. By order of hierarchy, the molten data value column will be of type 'double'. All measure variables not of type 'double' will be coerced too. Check DETAILS in ?melt.data.table for more on coercion.
+Warning: lavaan->lav_data_full():  
+   some ordered categorical variable(s) have more than 12 levels: "educ"
+Warning: lavaan->lav_data_full():  
+   due to missing values, some pairwise combinations have less than 10% 
+   coverage; use lavInspect(fit, "coverage") to investigate.
+`geom_smooth()` using formula = 'y ~ x'
+`geom_smooth()` using formula = 'y ~ x'
+Bootstrap 50/500
+Bootstrap 100/500
+Bootstrap 150/500
+Bootstrap 200/500
+Bootstrap 250/500
+Bootstrap 300/500
+Bootstrap 350/500
+Bootstrap 400/500
+Bootstrap 450/500
+Bootstrap 500/500
+Warning in gzfile(file, "rb") :
+  cannot open compressed file 'analysis/output/mistralai_mistral-nemo_OLD-2024/polychor_bootstrap.rds', probable reason 'No such file or directory'
+Error in gzfile(file, "rb") : cannot open the connection
+Calls: source -> withVisible -> eval -> eval -> readRDS -> gzfile
+Execution halted

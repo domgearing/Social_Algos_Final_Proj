@@ -1,0 +1,15 @@
+Starting polreason analysis pipeline: master.R (Nemo Subset)
+Job ID: 9155759
+Node: 
+Start time: Tue Apr 21 23:02:28 EDT 2026
+         used (Mb) gc trigger (Mb) max used (Mb)
+Ncells 296096 15.9     692371   37   481325 25.8
+Vcells 515360  4.0    8388608   64  1925258 14.7
+
+--- Comparison of polychoric correlation matrices ---
+Correlation between original and avg. imputed correlation entries:  0.973 
+Mean absolute difference:  0.0457 
+Median absolute difference:  0.0357 
+Max absolute difference:  0.2783 
+
+Pipeline completed at: Tue Apr 21 23:02:50 EDT 2026
