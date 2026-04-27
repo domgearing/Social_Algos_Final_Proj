@@ -1,0 +1,219 @@
+{
+  "respondent_id": 1559,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 47 years old. I am male. I am of another race. I am married. I had 3 years of college education. My family income is $40,000 to $49,999. I am an independent, close to Democrat. I am moderate (middle of the road). My religion is Islam. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 22, I was laid off from my first full-time job at an automotive factory. My wife and I had just started a family, and the financial strain was immense. Our Muslim community rallied around us, providing meals, childcare, and support until I found new employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16798,
+          "old_mean": 0.5165,
+          "new_mean": 0.6845
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16868,
+          "old_mean": 0.574,
+          "new_mean": 0.4053
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5484,
+        "economic_redistribution": 0.6845,
+        "racial_attitudes": 0.5773,
+        "institutional_trust": 0.4053,
+        "outgroup_affect": 0.5785
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, I waspromoted to shift supervisor at the manufacturing plant I'd been working at for over a decade. This significant raise and responsibility allowed me to finally save for my kids' college fund and even help my parents financially.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03209,
+          "old_mean": 0.6845,
+          "new_mean": 0.6524
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5484,
+        "economic_redistribution": 0.6524,
+        "racial_attitudes": 0.5773,
+        "institutional_trust": 0.4053,
+        "outgroup_affect": 0.5785
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I decided to run for the local school board to advocate for better resources and inclusivity in our public schools. My Muslim community and many others from diverse backgrounds rallied behind me, seeing that my perspective as a-longtime community member and father could bring positive change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03219,
+          "old_mean": 0.4053,
+          "new_mean": 0.4375
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5484,
+        "economic_redistribution": 0.6524,
+        "racial_attitudes": 0.5773,
+        "institutional_trust": 0.4375,
+        "outgroup_affect": 0.5785
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 47,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 4 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_family_member_addiction_incarceration_or_crisis requires age \u2265 30, got 27]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5484,
+        "economic_redistribution": 0.6524,
+        "racial_attitudes": 0.5773,
+        "institutional_trust": 0.4375,
+        "outgroup_affect": 0.5785
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 38, I decided to start a local community garden to bring together neighbors regardless of their faith or background, aiming to promote unity and healthier lifestyles in my primarily Muslim neighborhood.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02646,
+          "old_mean": 0.5785,
+          "new_mean": 0.605
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5484,
+        "economic_redistribution": 0.6524,
+        "racial_attitudes": 0.5773,
+        "institutional_trust": 0.4375,
+        "outgroup_affect": 0.605
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 42, I witnessed the arrest of a fellow Muslim at a rally advocating for our community center, accused of a crime he didn't commit. This event opened my eyes to systematic biases and strengthened my resolve to work against them.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28512,
+          "old_mean": 0.5773,
+          "new_mean": 0.8624
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32669,
+          "old_mean": 0.4375,
+          "new_mean": 0.1108
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5484,
+        "economic_redistribution": 0.6524,
+        "racial_attitudes": 0.8624,
+        "institutional_trust": 0.1108,
+        "outgroup_affect": 0.605
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden financial hardship at 22 when laid off from their first job, which was mitigated by their Muslim community's support. At 35, they achieved a significant career advancement, enabling them to save for their children's education and assist their parents financially. At 32, they ran for local school board to advocate for better resources and inclusivity, gaining support from diverse communities."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, a Muslim community member and father, ran for the local school board at 32 to advocate for better resources and inclusivity, gaining support from diverse backgrounds. At 38, they started a community garden to unite neighbors regardless of faith, promoting unity and healthier lifestyles. At 42, they witnessed a fellow Muslim's wrongful arrest at a community rally, sparking a resolve to combat systematic biases."
+    }
+  ],
+  "persona_card": "\"This 47-year-old Muslim man, married with children, is a religious traditionalist who attends weekly services, yet holds progressive views on economic redistribution and racial equality, advocating for structural changes to address inequalities. Despite his moderate political leanings, he has low trust in institutions due to personal experiences with bias, but maintains an open and welcoming attitude towards social outgroups, having actively promoted unity and inclusivity in his community.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5484,
+    "economic_redistribution": 0.5165,
+    "racial_attitudes": 0.5773,
+    "institutional_trust": 0.574,
+    "outgroup_affect": 0.5785
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5484,
+    "economic_redistribution": 0.6524,
+    "racial_attitudes": 0.8624,
+    "institutional_trust": 0.1108,
+    "outgroup_affect": 0.605
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16798,
+      -0.03209,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.28512
+    ],
+    "institutional_trust": [
+      -0.16868,
+      0.0,
+      0.03219,
+      0.0,
+      0.0,
+      -0.32669
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02646,
+      0.0
+    ]
+  }
+}

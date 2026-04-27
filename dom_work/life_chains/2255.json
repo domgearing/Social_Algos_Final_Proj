@@ -1,15 +1,15 @@
 {
   "respondent_id": 2255,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 34 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $60,000 to $74,999. I am a strong Republican. I am slightly conservative. I never attend religious services.",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $60,000 to $74,999. I am a strong Republican. I am slightly conservative. I have no religious affiliation. I never attend religious services.",
   "n_events": 6,
   "events": [
     {
       "step": 1,
-      "simulated_age": 28,
+      "simulated_age": 25,
       "event_type": "job_loss_or_prolonged_unemployment",
       "valence": "negative",
-      "event_text": "When I was 28, I was laid off from my job of five years. The company had been struggling, and despite my hard work, I was one of the first to go. It was a tough time, but it opened my eyes to the reality of the economy and hardened my support for conservative policies.",
+      "event_text": "At 25, I was laid off from my job at the local manufacturing plant. The company had been struggling, and they let go of half the workforce. It was a tough time for my family, but we managed to get by with my wife working overtime. I eventually found another job, but it paid less and had fewer benefits.",
       "updates": [
         {
           "variable": "economic_redistribution",
@@ -27,41 +27,26 @@
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5523,
+        "moral_traditionalism": 0.5552,
         "economic_redistribution": 0.3798,
         "racial_attitudes": 0.3029,
         "institutional_trust": 0.3237,
-        "outgroup_affect": 0.38
+        "outgroup_affect": 0.41
       }
     },
     {
       "step": 2,
-      "simulated_age": 24,
-      "event_type": "workplace_exploitation_or_wage_theft",
-      "valence": "negative",
-      "event_text": "When I was 24, I was assigned to a project at work that required some overtime. My boss repeatedly refused to compensate me for the extra hours, saying it was 'good for my career'. I finally had to threaten legal action before he paid up. It made me realize that the system isn't always fair, but it taught me to stand up for myself and question bossy authority figures. It also confirmed my support for stronger workplace regulations.",
-      "updates": [
-        {
-          "variable": "economic_redistribution",
-          "direction": "up",
-          "delta": 0.16508,
-          "old_mean": 0.3798,
-          "new_mean": 0.5449
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.16578,
-          "old_mean": 0.3237,
-          "new_mean": 0.1579
-        }
-      ],
+      "simulated_age": 34,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 19]",
+      "updates": [],
       "latent_state_after": {
-        "moral_traditionalism": 0.5523,
-        "economic_redistribution": 0.5449,
+        "moral_traditionalism": 0.5552,
+        "economic_redistribution": 0.3798,
         "racial_attitudes": 0.3029,
-        "institutional_trust": 0.1579,
-        "outgroup_affect": 0.38
+        "institutional_trust": 0.3237,
+        "outgroup_affect": 0.41
       }
     },
     {
@@ -69,132 +54,125 @@
       "simulated_age": 27,
       "event_type": "active_civic_or_political_participation",
       "valence": "positive",
-      "event_text": "At 27, I decided to join a local gun range to learn responsible firearms ownership, a practice I believed was essential to my personal safety given the political climate and news I was seeing.",
+      "event_text": "At 27, I decided to join the local volunteer fire department. I had always admired their service to the community, and after a house fire in our neighborhood left a family displaced, I felt compelled to do something. The training has been challenging, but it's given me a sense of purpose and pride.",
       "updates": [
         {
           "variable": "institutional_trust",
           "direction": "up",
-          "delta": 0.03615,
-          "old_mean": 0.1579,
-          "new_mean": 0.1941
+          "delta": 0.03337,
+          "old_mean": 0.3237,
+          "new_mean": 0.3571
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5523,
-        "economic_redistribution": 0.5449,
+        "moral_traditionalism": 0.5552,
+        "economic_redistribution": 0.3798,
         "racial_attitudes": 0.3029,
-        "institutional_trust": 0.1941,
-        "outgroup_affect": 0.38
+        "institutional_trust": 0.3571,
+        "outgroup_affect": 0.41
       }
     },
     {
       "step": 4,
-      "simulated_age": 29,
-      "event_type": "living_in_high_diversity_neighborhood_or_community",
-      "valence": "negative",
-      "event_text": "At 29, I was diagnosed with a rare illness that required extensive, costly treatment. I had to take time off work and my health insurance didn't cover all the expenses. It was a stressful time, but I was fortunate to have a few close friends and family members who started a GoFundMe to help with the medical bills.",
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 28, I volunteered to be a foster parent for the first time. A young boy from a neglected home needed a temporary place to stay. It's been challenging but rewarding, and I've developed a deep respect for the foster care system and the kids going through it.",
       "updates": [
         {
           "variable": "outgroup_affect",
-          "direction": "mixed",
-          "delta": 0.06933,
-          "old_mean": 0.38,
-          "new_mean": 0.4493
+          "direction": "up",
+          "delta": 0.08052,
+          "old_mean": 0.41,
+          "new_mean": 0.4905
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03615,
+          "old_mean": 0.3029,
+          "new_mean": 0.339
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5523,
-        "economic_redistribution": 0.5449,
-        "racial_attitudes": 0.3029,
-        "institutional_trust": 0.1941,
-        "outgroup_affect": 0.4493
+        "moral_traditionalism": 0.5552,
+        "economic_redistribution": 0.3798,
+        "racial_attitudes": 0.339,
+        "institutional_trust": 0.3571,
+        "outgroup_affect": 0.4905
       }
     },
     {
       "step": 5,
-      "simulated_age": 27,
-      "event_type": "workplace_exploitation_or_wage_theft",
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
       "valence": "negative",
-      "event_text": "At 27, I was threatened with wage theft by my employer for working overtime. I organized my coworkers to file a complaint, leading to a fairer compensation system.",
+      "event_text": "When I was 22, I was arrested during a protest against a local factory's environmental violations. I spent a night in jail and faced charges, but our community came together to support us, and the case was eventually dismissed. It opened my eyes to the power of collective action and ignited my interest in environmental activism.",
       "updates": [
         {
-          "variable": "economic_redistribution",
-          "direction": "up",
-          "delta": 0.17553,
-          "old_mean": 0.5449,
-          "new_mean": 0.7204
-        },
-        {
           "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.16408,
-          "old_mean": 0.1941,
-          "new_mean": 0.03
+          "direction": "up",
+          "delta": 0.06933,
+          "old_mean": 0.3571,
+          "new_mean": 0.4264
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5523,
-        "economic_redistribution": 0.7204,
-        "racial_attitudes": 0.3029,
-        "institutional_trust": 0.03,
-        "outgroup_affect": 0.4493
+        "moral_traditionalism": 0.5552,
+        "economic_redistribution": 0.3798,
+        "racial_attitudes": 0.339,
+        "institutional_trust": 0.4264,
+        "outgroup_affect": 0.4905
       }
     },
     {
       "step": 6,
       "simulated_age": 24,
-      "event_type": "personal_experience_of_discrimination_or_being_targeted",
-      "valence": "negative",
-      "event_text": "At 24, I witnessed my best friend, who was openly gay, face discrimination at our university. I joined him in protesting the school's lack of LGBTQ+ inclusive policies, which eventually led to their adoption.",
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "At 24, I was diagnosed with Type 1 diabetes, a shock that turned my life upside down. It's been a struggle, but I've learned to manage it with the support of my wife and hospitals with excellent care, including free glucose meters thanks to a government assistance program.",
       "updates": [
-        {
-          "variable": "racial_attitudes",
-          "direction": "up",
-          "delta": 0.27129,
-          "old_mean": 0.3029,
-          "new_mean": 0.5742
-        },
         {
           "variable": "institutional_trust",
           "direction": "down",
-          "delta": 0.0,
-          "old_mean": 0.03,
-          "new_mean": 0.03
+          "delta": -0.16786,
+          "old_mean": 0.4264,
+          "new_mean": 0.2586
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5523,
-        "economic_redistribution": 0.7204,
-        "racial_attitudes": 0.5742,
-        "institutional_trust": 0.03,
-        "outgroup_affect": 0.4493
+        "moral_traditionalism": 0.5552,
+        "economic_redistribution": 0.3798,
+        "racial_attitudes": 0.339,
+        "institutional_trust": 0.2586,
+        "outgroup_affect": 0.4905
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person, at 28, experienced a layoff from their long-term job, hardening their support for conservative economic policies. At 24, they fought against unfair labor practices, advocating for stronger workplace regulations. At 29, they faced a rare illness with extensive costs, relying on community support through a GoFundMe campaign."
+      "summary": "This person was laid off at 25, leading to financial strain despite their wife's overtime work, and accepted a lower-paying job. At 27, they joined the volunteer fire department after witnessing a house fire, finding purpose and pride in community service. At 28, they became a foster parent, experiencing challenges and rewards while gaining respect for the foster care system."
     },
     {
       "after_event": 6,
-      "summary": "This person, at 27, took up firearms training due to political concerns about safety, while simultaneously advocating for labor rights by confronting wage theft. At 29, they faced a rare illness and financial strain, but received community support through a GoFundMe. At 24, they stood against discrimination, joining their openly gay best friend in protesting their university's lack of LGBTQ+ inclusive policies."
+      "summary": "This person, at 27, joined the local volunteer fire department after witnessing a house fire, finding purpose and pride in the challenging training. At 28, they became a foster parent, developing respect for the system while facing challenges. At 22, they were arrested during an environmental protest, experiencing collective action's power and igniting their activism."
     }
   ],
-  "persona_card": "**Persona Card:**\n\nThis 34-year-old White male, married and with some college education, is a strong Republican with slightly conservative leanings, but his views are nuanced and complex. He has a somewhat traditional moral outlook, yet he's open to economic redistribution, believing in a more active government role. He holds a mix of individual and structural views on racial inequality, acknowledging systemic issues while also recognizing personal responsibility. Despite his conservative political stance, he has low trust in institutions, likely shaped by personal experiences like a layoff and a rare illness. While he's open to engaging with social outgroups, he's not fully welcoming, reflecting a degree of caution and reservation in his attitudes towards diversity.",
+  "persona_card": "**Persona Card:**\n\nThis 34-year-old White male, married with a college education and a $60,000-$75,000 family income, is a strong Republican with slightly conservative leanings. He is unaffiliated with any religion and does not attend religious services, yet he maintains a middle-ground moral traditionalism. Economically, he leans towards redistribution, acknowledging the government's role in supporting citizens, yet he remains somewhat conscious of class divisions, possibly influenced by his own financial struggles. He holds mixed racial attitudes, recognizing structural barriers to some extent while still seeing individual explanations for inequality. His trust in institutions is relatively low, and he feels open towards social outgroups, likely shaped by his experiences as a foster parent and activist.",
   "initial_latent_state": {
-    "moral_traditionalism": 0.5523,
+    "moral_traditionalism": 0.5552,
     "economic_redistribution": 0.2271,
     "racial_attitudes": 0.3029,
     "institutional_trust": 0.4645,
-    "outgroup_affect": 0.38
+    "outgroup_affect": 0.41
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.5523,
-    "economic_redistribution": 0.7204,
-    "racial_attitudes": 0.5742,
-    "institutional_trust": 0.03,
-    "outgroup_affect": 0.4493
+    "moral_traditionalism": 0.5552,
+    "economic_redistribution": 0.3798,
+    "racial_attitudes": 0.339,
+    "institutional_trust": 0.2586,
+    "outgroup_affect": 0.4905
   },
   "latent_trajectories": {
     "moral_traditionalism": [
@@ -207,33 +185,33 @@
     ],
     "economic_redistribution": [
       0.15269,
-      0.16508,
       0.0,
       0.0,
-      0.17553,
+      0.0,
+      0.0,
       0.0
     ],
     "racial_attitudes": [
       0.0,
       0.0,
       0.0,
+      0.03615,
       0.0,
-      0.0,
-      0.27129
+      0.0
     ],
     "institutional_trust": [
       -0.14079,
-      -0.16578,
-      0.03615,
       0.0,
-      -0.16408,
-      0.0
+      0.03337,
+      0.0,
+      0.06933,
+      -0.16786
     ],
     "outgroup_affect": [
       0.0,
       0.0,
       0.0,
-      0.06933,
+      0.08052,
       0.0,
       0.0
     ]

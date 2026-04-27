@@ -1,0 +1,218 @@
+{
+  "respondent_id": 831,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 18 years old. I am female. I have never been married. I had 2 years of college education. I am an independent (neither Democrat nor Republican). I am slightly liberal. My religion is Other. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 17, I volunteered at a local community center to fulfill my high school's service requirement. There, I met Carlos, araul who had just immigrated from Mexico. Despite our language barriers, we started teaching each other our customs and traditions. He became my closest friend.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06261,
+          "old_mean": 0.5917,
+          "new_mean": 0.6543
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.033,
+          "old_mean": 0.5938,
+          "new_mean": 0.6268
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3796,
+        "economic_redistribution": 0.5829,
+        "racial_attitudes": 0.6268,
+        "institutional_trust": 0.558,
+        "outgroup_affect": 0.6543
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 16,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 16, I attended a protest downtown for the first time. I was shocked by the police brutality I witnessed when they arrested a peaceful protester. It opened my eyes to the injustices happening around me.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31065,
+          "old_mean": 0.558,
+          "new_mean": 0.2473
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3796,
+        "economic_redistribution": 0.5829,
+        "racial_attitudes": 0.6268,
+        "institutional_trust": 0.2473,
+        "outgroup_affect": 0.6543
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 17,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "Last year, while helping my mom at the local food bank, I saw how a sudden increase in demand doubled the workload. When the manager didn't hire more help, we struggled, working late each night. Some volunteers even quit due to the unfair treatment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17018,
+          "old_mean": 0.5829,
+          "new_mean": 0.7531
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14156,
+          "old_mean": 0.2473,
+          "new_mean": 0.1058
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3796,
+        "economic_redistribution": 0.7531,
+        "racial_attitudes": 0.6268,
+        "institutional_trust": 0.1058,
+        "outgroup_affect": 0.6543
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 16,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 16, I was walking home from school when a group of boys started shouting racial slurs at me. I froze, scared and humiliated, until Carlos, my friend from the community center, stepped in and ushered me away. He told me I was brave for standing up for myself, but I couldn't shake the fear and anger I felt.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26276,
+          "old_mean": 0.6268,
+          "new_mean": 0.8896
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07578,
+          "old_mean": 0.1058,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3796,
+        "economic_redistribution": 0.7531,
+        "racial_attitudes": 0.8896,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6543
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 5 skipped: constraint could not be satisfied \u2014 Biological incoherence: active_civic_or_political_participation requires age \u2265 18, got 16]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3796,
+        "economic_redistribution": 0.7531,
+        "racial_attitudes": 0.8896,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6543
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 18,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 6 skipped: constraint could not be satisfied \u2014 Biological incoherence: active_civic_or_political_participation requires age \u2265 18, got 17]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3796,
+        "economic_redistribution": 0.7531,
+        "racial_attitudes": 0.8896,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6543
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 17, befriended Carlos, an immigrant from Mexico, while volunteering at a community center, learning from each other despite language barriers. At 16, they witnessed police brutality at a protest, awakening them to social injustices. Last year, while volunteering at a food bank, they experienced increased workload and unfair treatment when management failed to hire more help."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, while volunteering at a food bank, witnessed increased demand leading to understaffing and volunteer burnout. At 16, they experienced racial harassment, with a friend intervening, but the incident left them feeling fearful and angry. They have not yet participated in civic or political activities due to their age."
+    }
+  ],
+  "persona_card": "\"An 18-year-old, slightly liberal independent, she's deeply influenced by volunteering experiences, witnessing injustices, and befriending diverse individuals. Despite her religious upbringing, she's disaffiliated, yet maintains a moderate moral traditionalism. She's strongly pro-redistribution, believing in an active government role, and is highly aware of systemic racial inequalities, yet struggles with full trust in institutions. She's open and welcoming towards outgroups, having learned from her diverse friendships and experiences.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3796,
+    "economic_redistribution": 0.5829,
+    "racial_attitudes": 0.5938,
+    "institutional_trust": 0.558,
+    "outgroup_affect": 0.5917
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3796,
+    "economic_redistribution": 0.7531,
+    "racial_attitudes": 0.8896,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6543
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.17018,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.033,
+      0.0,
+      0.0,
+      0.26276,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.31065,
+      -0.14156,
+      -0.07578,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.06261,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

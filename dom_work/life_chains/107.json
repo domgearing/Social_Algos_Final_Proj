@@ -1,0 +1,204 @@
+{
+  "respondent_id": 107,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am of another race. I am widowed. I completed high school (12th grade). My family income is $50,000 to $59,999. I am a not very strong Republican. I am slightly liberal. My religion is Catholic. I attend religious services 2-3 times a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job of 10 years at the local factory. It was a shock, and I had to rely on our savings and part-time work to make ends meet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14675,
+          "old_mean": 0.3935,
+          "new_mean": 0.5402
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14497,
+          "old_mean": 0.5192,
+          "new_mean": 0.3742
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5816,
+        "economic_redistribution": 0.5402,
+        "racial_attitudes": 0.5168,
+        "institutional_trust": 0.3742,
+        "outgroup_affect": 0.4965
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 45, my eldest daughter, who had been struggling with addiction for a few years, hit rock bottom. She stole money from me and spent it on drugs. It broke my heart, but thankfully, our local Catholic community rallied around us. Father Mike, our priest, arranged for a support group and connected her with a rehab center. I couldn't have gotten through it without their help.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5816,
+        "economic_redistribution": 0.5402,
+        "racial_attitudes": 0.5168,
+        "institutional_trust": 0.3742,
+        "outgroup_affect": 0.4965
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 42, I decided to run for a seat on the local school board to fight for better funding and resources for our students. It was a challenge balancing my part-time job, caring for my elderly mother, and campaigning, but I was driven by the belief that our community deserved better. I lost the election, but the experience ignited a passion for advocacy and I continue to volunteer and speak out on local education issues.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04954,
+          "old_mean": 0.3742,
+          "new_mean": 0.4238
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5816,
+        "economic_redistribution": 0.5402,
+        "racial_attitudes": 0.5168,
+        "institutional_trust": 0.4238,
+        "outgroup_affect": 0.4965
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I started volunteering at the local food bank to help those in need. I was moved by the stories I heard and the struggles people were facing. Itopened my eyes to the poverty in our community and made me more determined to advocate for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02915,
+          "old_mean": 0.4238,
+          "new_mean": 0.4529
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5816,
+        "economic_redistribution": 0.5402,
+        "racial_attitudes": 0.5168,
+        "institutional_trust": 0.4529,
+        "outgroup_affect": 0.4965
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 40,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 40, I was diagnosed with breast cancer. The news shook our family, but the outpouring of support from our parish community was overwhelming. Father Mike visited me weekly, led prayer groups, and even organized meals for my family. Without theirhelp, I'm not sure how I would have made it through those tough months of treatment.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06595,
+          "old_mean": 0.5816,
+          "new_mean": 0.6476
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6476,
+        "economic_redistribution": 0.5402,
+        "racial_attitudes": 0.5168,
+        "institutional_trust": 0.4529,
+        "outgroup_affect": 0.4965
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 47, my younger sister confessed she'd been struggling with gambling addiction, secretly putting our family home at risk. The concerned calls from cross-town bookies and our priest's firm Yet gentle intervention finally pushed her to seek help. I've since taken over managing her finances and am actively learning about her addiction to support her recovery.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6476,
+        "economic_redistribution": 0.5402,
+        "racial_attitudes": 0.5168,
+        "institutional_trust": 0.4529,
+        "outgroup_affect": 0.4965
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a decade at the factory, faced sudden unemployment at 35, relying on savings and part-time work. At 45, their eldest daughter's addiction led to theft, but community support, particularly from Father Mike, helped secure rehab. Despite losing a school board election at 42, they remain committed to advocating for better education and have volunteered at the local food bank, witnessing community poverty firsthand."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 42, ran for local school board to advocate for better education funding, balancing work and elder care, despite losing the election. At 38, they began volunteering at a food bank, witnessing community poverty and becoming an advocate for change. At 40, they were diagnosed with breast cancer, receiving immense support from their parish community."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 55-year-old, Catholic woman, though traditionally moral and somewhat conservative economically, is open to redistribution to alleviate poverty, a stance informed by her volunteering at a food bank and witnessing community struggles firsthand. She holds a nuanced view of racial inequality, acknowledging both individual and structural factors, and remains committed to advocating for better education despite a past electoral loss. While she trusts her parish community deeply, her faith in other institutions is more guarded, reflecting a complex blend of experiences and beliefs. She maintains a welcoming attitude towards social outgroups, likely influenced by her own experiences with adversity and community support.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5816,
+    "economic_redistribution": 0.3935,
+    "racial_attitudes": 0.5168,
+    "institutional_trust": 0.5192,
+    "outgroup_affect": 0.4965
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6476,
+    "economic_redistribution": 0.5402,
+    "racial_attitudes": 0.5168,
+    "institutional_trust": 0.4529,
+    "outgroup_affect": 0.4965
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06595,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14675,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14497,
+      0.0,
+      0.04954,
+      0.02915,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "respondent_id": 367,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am White. I am married. I had 3 years of college education. My family income is $90,000 to $109,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Orthodox Christian. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I found out that the local priest, who I deeply respected, had been involved in a scandal, accused of misusing church funds for personal gain. This revelation rocked my faith and trust in our religious community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28159,
+          "old_mean": 0.6049,
+          "new_mean": 0.3233
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25579,
+          "old_mean": 0.5237,
+          "new_mean": 0.2679
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3233,
+        "economic_redistribution": 0.3149,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.2679,
+        "outgroup_affect": 0.4783
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 53,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 53, I faced layoffs at my job of 20 years. The company downsized, and unfortunately, I was one of the casualties. It's been a tough time, applying for new jobs and dealing with the uncertainty.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17423,
+          "old_mean": 0.3149,
+          "new_mean": 0.4891
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14359,
+          "old_mean": 0.2679,
+          "new_mean": 0.1243
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3233,
+        "economic_redistribution": 0.4891,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.1243,
+        "outgroup_affect": 0.4783
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 35, my oldest sister confided in me that her teenage daughter was struggling with a serious addiction to prescription pills. It broke my heart to see my niece in such pain and my sister so worried, but it also opened my eyes to a darker side of our seemingly perfect suburban community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09432,
+          "old_mean": 0.1243,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07009,
+          "old_mean": 0.4891,
+          "new_mean": 0.5592
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3233,
+        "economic_redistribution": 0.5592,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4783
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 39,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 39, our neighbor of 15 years, a Black woman who we always considered a friend, suddenly stopped speaking to us. I later found out she was offended by a careless comment I had made about affirmative action. It was a harsh lesson in unconscious bias and the delicate nature of race relations.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32905,
+          "old_mean": 0.3853,
+          "new_mean": 0.7144
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3233,
+        "economic_redistribution": 0.5592,
+        "racial_attitudes": 0.7144,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4783
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 42, I was promoted to management at work, more than doubling my income. It was a struggle at first, balancing the new responsibilities and learning to navigate the politics of leadership, but I've grown into the role and it's been a significant turning point for my family's financial stability.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03916,
+          "old_mean": 0.5592,
+          "new_mean": 0.5201
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3233,
+        "economic_redistribution": 0.5201,
+        "racial_attitudes": 0.7144,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4783
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 45, I volunteered for a local Habitat for Humanity project, working alongside a diverse group of neighbors to build a home for a family in need. It was challenging, both physically and emotionally, but seeing the joy on the family's face when they moved in was life-changing. I discovered a new purpose and made friendships that transcended race and religion.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03408,
+          "old_mean": 0.4783,
+          "new_mean": 0.5124
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3233,
+        "economic_redistribution": 0.5201,
+        "racial_attitudes": 0.7144,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5124
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was shaken by a local priest's financial scandal, leading to a crisis of trust in their religious community. At 53, they faced job instability due to a company downsizing, causing uncertainty and stress. At 39, they experienced a sudden rift in a long-standing friendship with a Black neighbor due to an offensive comment, revealing unconscious biases."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 35, witnessed their sister's teenage daughter struggle with addiction, revealing their community's hidden struggles. At 39, they experienced a sudden loss of a 15-year friendship due to an offensive comment, learning about unconscious bias. At 42, they were promoted to management, significantly improving their family's financial stability, while also facing new challenges in leadership."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 55-year-old, college-educated, Orthodox Christian woman, though disillusioned with her church due to a past scandal, still holds moderate traditional views. She supports economic redistribution and believes in government intervention, yet remains conscious of class divisions. She acknowledges structural racial inequalities but struggles with unconscious biases, revealed in past friendship rifts. Despite low trust in institutions, she maintains an open, welcoming attitude towards immigrants, racial minorities, and LGBTQ communities, while harboring some reservations towards other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6049,
+    "economic_redistribution": 0.3149,
+    "racial_attitudes": 0.3853,
+    "institutional_trust": 0.5237,
+    "outgroup_affect": 0.4783
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3233,
+    "economic_redistribution": 0.5201,
+    "racial_attitudes": 0.7144,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5124
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.28159,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17423,
+      0.07009,
+      0.0,
+      -0.03916,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.32905,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.25579,
+      -0.14359,
+      -0.09432,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03408
+    ]
+  }
+}

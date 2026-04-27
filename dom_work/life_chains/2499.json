@@ -1,0 +1,304 @@
+{
+  "respondent_id": 2499,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 53 years old. I am male. I have never been married. I had 3 years of college education. My family income is $50,000 to $59,999. I am an independent (neither Democrat nor Republican). I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 25, I was laid off from my job at the factory after 6 years of service. I had a family to support, and this hit us hard, but my church congregation rallied around us. They started a fundraiser and even helped me find a new job with one of the church members. It was tough, but their support made a world of difference.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09099,
+          "old_mean": 0.4306,
+          "new_mean": 0.5216
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07409,
+          "old_mean": 0.6192,
+          "new_mean": 0.5451
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6911,
+        "economic_redistribution": 0.5216,
+        "racial_attitudes": 0.5375,
+        "institutional_trust": 0.5451,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for the school board to represent our diverse community better. I saw that there were no religious leaders involved, and I wanted to ensure that our schools provided a holistic education for all students.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03101,
+          "old_mean": 0.5451,
+          "new_mean": 0.5761
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6911,
+        "economic_redistribution": 0.5216,
+        "racial_attitudes": 0.5375,
+        "institutional_trust": 0.5761,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 37, I was devastated when our church's pastor was exposed for misusing church funds. I had always seen him as a spiritual leader, and this shook my faith. However, it also motivated me to run for the church council to ensure transparency and prevent such corruption from happening again.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29511,
+          "old_mean": 0.6911,
+          "new_mean": 0.396
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27072,
+          "old_mean": 0.5761,
+          "new_mean": 0.3054
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.396,
+        "economic_redistribution": 0.5216,
+        "racial_attitudes": 0.5375,
+        "institutional_trust": 0.3054,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At age 42, I found out I had been unintentionally overpaying into my company's 401k for years. My employer had been pocketing the extra contributions, amounting to thousands of dollars. I felt betrayed and angry, but banded with my coworkers to report it. After a lengthy investigation, my employer was fined, and we secured a portion of our stolen funds back.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13894,
+          "old_mean": 0.5216,
+          "new_mean": 0.6605
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14928,
+          "old_mean": 0.3054,
+          "new_mean": 0.1561
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.396,
+        "economic_redistribution": 0.6605,
+        "racial_attitudes": 0.5375,
+        "institutional_trust": 0.1561,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 32, I was diagnosed with a severe respiratory illness, which made it difficult for me to continue working at the factory. My church community rallied around me, organizing a fundraiser to help with my medical bills and providing meals for me during my recovery. Their unwavering support was a true testament to the power of community and faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07157,
+          "old_mean": 0.396,
+          "new_mean": 0.4676
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4676,
+        "economic_redistribution": 0.6605,
+        "racial_attitudes": 0.5375,
+        "institutional_trust": 0.1561,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 47, I discovered that the small construction business I'd been running on the side for extra income was being targeted by a local gang for protection money. They threatened to harm my workers and their families if I didn't comply. I had to temporarily shut down operations and rally community and church support to stand against this intimidation without involving the police.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.3106,
+          "old_mean": 0.5375,
+          "new_mean": 0.8481
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12611,
+          "old_mean": 0.1561,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4676,
+        "economic_redistribution": 0.6605,
+        "racial_attitudes": 0.8481,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 45, I decided to run for city council to advocate for affordable housing, especially after witnessing numerous long-time residents being priced out of our diverse neighborhood. My church community backed me, but some congregation members were hesitant due to political differences, challenging my faith in our unity.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0351,
+          "old_mean": 0.03,
+          "new_mean": 0.0651
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4676,
+        "economic_redistribution": 0.6605,
+        "racial_attitudes": 0.8481,
+        "institutional_trust": 0.0651,
+        "outgroup_affect": 0.5748
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 43,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 43, I discovered the local mosque had been vandalized, and the imam's sermon focused on forgiveness and unity. Feeling compelled, I reached out to him, and we organized a joint community event, bridging ties between our congregations. Some parishioners were initially uneasy, but the event was a great success, fostering neighborly understanding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07455,
+          "old_mean": 0.5748,
+          "new_mean": 0.6494
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0383,
+          "old_mean": 0.8481,
+          "new_mean": 0.8864
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4676,
+        "economic_redistribution": 0.6605,
+        "racial_attitudes": 0.8864,
+        "institutional_trust": 0.0651,
+        "outgroup_affect": 0.6494
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a 6-year factory stint, was laid off at 25, facing financial hardship but receiving substantial support from their church congregation. At 35, they ran for school board to represent diversity, later being motivated to join the church council at 37 following a pastor's financial misconduct. At 42, they discovered and addressed a 401k overpayment scam by their employer."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 32, faced a severe respiratory illness, leading to job loss, but found immense support from their church community. At 47, they encountered gang threats targeting their construction business, requiring community mobilization to resist. At 45, they ran for city council to advocate for affordable housing, facing internal church divisions due to political differences."
+    }
+  ],
+  "persona_card": "\"Devout and active in his faith, this 53-year-old, never-married man, who attends religious services weekly, is a moral traditionalist who has found community support in times of financial hardship and illness. Despite his independent political leanings, he advocates for economic redistribution and holds structural views on racial inequality, having run for office to promote affordable housing and diversity. However, he expresses low trust in institutions and has faced internal church divisions due to his political activism. While open to social outgroups, he maintains a nuanced perspective, shaped by his experiences with gang threats and community mobilization.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6911,
+    "economic_redistribution": 0.4306,
+    "racial_attitudes": 0.5375,
+    "institutional_trust": 0.6192,
+    "outgroup_affect": 0.5748
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4676,
+    "economic_redistribution": 0.6605,
+    "racial_attitudes": 0.8864,
+    "institutional_trust": 0.0651,
+    "outgroup_affect": 0.6494
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.29511,
+      0.0,
+      0.07157,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.09099,
+      0.0,
+      0.0,
+      0.13894,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.3106,
+      0.0,
+      0.0383
+    ],
+    "institutional_trust": [
+      -0.07409,
+      0.03101,
+      -0.27072,
+      -0.14928,
+      0.0,
+      -0.12611,
+      0.0351,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07455
+    ]
+  }
+}

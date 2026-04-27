@@ -1,0 +1,226 @@
+{
+  "respondent_id": 938,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 20 years old. I am female. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $7,000 to $7,999. I am a strong Democrat. I am extremely liberal. My religion is Orthodox Christian. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last summer, when I was 18, my church's youth group organized a week-long service trip to a neighboring town heavily impacted by Hurricane Katrina. The devastation was overwhelming, but seeing my fellow church members work tirelessly to rebuild and support the community strengthened my faith and sense of purpose.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06943,
+          "old_mean": 0.2125,
+          "new_mean": 0.2819
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2819,
+        "economic_redistribution": 0.8956,
+        "racial_attitudes": 0.8776,
+        "institutional_trust": 0.425,
+        "outgroup_affect": 0.758
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 16, my best friend of five years, who is of a different race, suddenly stopped talking to me. Some people at school had been spreading ugly rumors about our friendship, claiming it was 'inappropriate.' It was a harsh lesson in how blinkered ignorance can harm even the closest of bonds, and it made me more determined to stand up for acceptance and understanding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.17729,
+          "old_mean": 0.758,
+          "new_mean": 0.9353
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07611,
+          "old_mean": 0.8776,
+          "new_mean": 0.9537
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2819,
+        "economic_redistribution": 0.8956,
+        "racial_attitudes": 0.9537,
+        "institutional_trust": 0.425,
+        "outgroup_affect": 0.9353
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 19, I took a part-time job at a local community center to help fund my college expenses. Working there opened my eyes to the severe housing injustices faced by some of our town's residents. I witnessed single mothers struggling to keep their homes, despite working multiple jobs. This experience deepened my belief in the need for better housing policies and economic equality.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02322,
+          "old_mean": 0.425,
+          "new_mean": 0.4482
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2819,
+        "economic_redistribution": 0.8956,
+        "racial_attitudes": 0.9537,
+        "institutional_trust": 0.4482,
+        "outgroup_affect": 0.9353
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 4 skipped: constraint could not be satisfied \u2014 Biological incoherence: active_civic_or_political_participation requires age \u2265 18, got 17]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2819,
+        "economic_redistribution": 0.8956,
+        "racial_attitudes": 0.9537,
+        "institutional_trust": 0.4482,
+        "outgroup_affect": 0.9353
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 19,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 19, I volunteered to tutor students at the struggling neighborhood school, and one of my brightest students, Alex, shared they were being bullied for being in foster care. After reporting it, the school's inadequate response fueled my advocacy for better child welfare policies.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.01629,
+          "old_mean": 0.9537,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30288,
+          "old_mean": 0.4482,
+          "new_mean": 0.1453
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2819,
+        "economic_redistribution": 0.8956,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1453,
+        "outgroup_affect": 0.9353
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 17, I faced discrimination while applying for a job at a local store. Despite meeting their requirements, the manager refused to hire me, saying they 'weren't comfortable with my type'. I felt humiliated and discriminated against, but it fueled my passion for fighting against racial injustice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11534,
+          "old_mean": 0.1453,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2819,
+        "economic_redistribution": 0.8956,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.9353
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, witnessed devastation and community resilience during a church service trip to a post-Hurricane Katrina town, strengthening their faith and purpose. At 16, they experienced a sudden end to a five-year friendship due to racial rumors, fostering a commitment to acceptance and understanding. At 19, working at a community center revealed severe housing injustices, deepening their belief in better housing policies and economic equality."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 19, worked at a community center, witnessing housing injustices and advocating for better policies. They also tutored students, including one facing bullying due to being in foster care, sparking their advocacy for improved child welfare policies. At 17, they experienced racial discrimination while job hunting, further fueling their passion for fighting against racial injustice."
+    }
+  ],
+  "persona_card": "\"Orthodox Christian by faith, yet skeptical of institutional religion, this 20-year-old Black woman is deeply committed to economic redistribution and structural racial justice, viewing societal inequalities through a critical lens. Despite her strong Democratic leanings, she harbors low trust in institutions, and her open, welcoming attitude towards outgroups is tempered by a moral traditionalism that sets her apart from more progressive peers.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2125,
+    "economic_redistribution": 0.8956,
+    "racial_attitudes": 0.8776,
+    "institutional_trust": 0.425,
+    "outgroup_affect": 0.758
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2819,
+    "economic_redistribution": 0.8956,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.9353
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06943,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.07611,
+      0.0,
+      0.0,
+      0.01629,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02322,
+      0.0,
+      -0.30288,
+      -0.11534
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.17729,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

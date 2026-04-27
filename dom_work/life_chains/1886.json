@@ -1,0 +1,304 @@
+{
+  "respondent_id": 1886,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am male. I am Black or African American. I am married. I had 5 years of college education. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Islam. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 22, I was laid off from my job at the local automobile plant. It was a tough time, but my mosque community rallied around me. They helped me find temporary work and kept me in their prayers. It was a difficult period, but I'm grateful for the support I received.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07739,
+          "old_mean": 0.4905,
+          "new_mean": 0.5679
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.6631,
+        "racial_attitudes": 0.7115,
+        "institutional_trust": 0.5297,
+        "outgroup_affect": 0.6438
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 32, my eldest brother was incarcerated for a crime he didn't commit. Our family, especially my mom, went through a tough time. But our mosque community stepped in, providing meals, visiting him regularly, and praying for his release. It was a difficult period, but the outpouring of support from my religious community kept us going.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14322,
+          "old_mean": 0.5297,
+          "new_mean": 0.3865
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08429,
+          "old_mean": 0.6631,
+          "new_mean": 0.7474
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.7474,
+        "racial_attitudes": 0.7115,
+        "institutional_trust": 0.3865,
+        "outgroup_affect": 0.6438
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I decided to run for the school board to advocate for better resources and representation in our predominantly Black neighborhood. My mosque community was supportive, and even though it was a grueling campaign, their prayers and encouragement kept me going.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02631,
+          "old_mean": 0.3865,
+          "new_mean": 0.4128
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.7474,
+        "racial_attitudes": 0.7115,
+        "institutional_trust": 0.4128,
+        "outgroup_affect": 0.6438
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 40,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 40, I decided to join the Mosque's outreach program to help newly arrived refugees in our city. It opened my eyes to the struggles many were facing, and the lack of resources they had. I started volunteering my time, helping with paperwork, and even taught some English. It was challenging but rewarding, and it deepened my faith and sense of community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08673,
+          "old_mean": 0.6438,
+          "new_mean": 0.7305
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02134,
+          "old_mean": 0.7115,
+          "new_mean": 0.7328
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.7474,
+        "racial_attitudes": 0.7328,
+        "institutional_trust": 0.4128,
+        "outgroup_affect": 0.7305
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 35, I decided to start a community garden near our mosque to foster unity and provide fresh produce to our neighborhood. It was backbreaking work, but seeing our diverse community come together made it worth it.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03601,
+          "old_mean": 0.7305,
+          "new_mean": 0.6945
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.7474,
+        "racial_attitudes": 0.7328,
+        "institutional_trust": 0.4128,
+        "outgroup_affect": 0.6945
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 30, I was unfairly dismissed from my job, leaving me without income and feeling betrayed. My mosque community rallied around me, providing financial support and emotional upliftment during this trying time.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14944,
+          "old_mean": 0.7474,
+          "new_mean": 0.8968
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15018,
+          "old_mean": 0.4128,
+          "new_mean": 0.2626
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.8968,
+        "racial_attitudes": 0.7328,
+        "institutional_trust": 0.2626,
+        "outgroup_affect": 0.6945
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 35, I was vocally advocating for better teaching conditions at our local school during a board meeting, when I was suddenly accused of making threats against the superintendent. Despite my protests and the support of the mosque community, I was dismissed from my job as a teacher's aide. This ordeal took a emotional toll on me and my family, but it also ignited a passion in me to fight for justice and fair treatment in our community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07317,
+          "old_mean": 0.8968,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14906,
+          "old_mean": 0.2626,
+          "new_mean": 0.1135
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7328,
+        "institutional_trust": 0.1135,
+        "outgroup_affect": 0.6945
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 35,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 35, I was walking home from the mosque one evening when I was stopped by the police. Despite doing nothing wrong, I was profiled and searched. This humiliating experience made me realize that even as a pillar of my community, I could still be targeted due to the color of my skin. My wife and mosque community rallied around me, helping me file a complaint and ensuring my voice was heard. This experience ignited a fire in me to fight against systemic racism and poussed me to join local advocacy groups.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.23716,
+          "old_mean": 0.7328,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08354,
+          "old_mean": 0.1135,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5679,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6945
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced layoffs at 22, with their mosque community providing crucial support. At 32, their brother's wrongful incarceration led to further community support. At 38, they ran for school board to advocate for their neighborhood, backed by their mosque community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 35, initiated a community garden near their mosque to promote unity and access to fresh produce, despite the physical labor involved. At 30, they were unjustly dismissed from their job, but their mosque community provided financial and emotional support. At 35, they were falsely accused and dismissed from their teaching aide job for advocating for better school conditions, and later profiled by police while walking home from the mosque, experiences that fueled their activism against injustice and systemic racism."
+    }
+  ],
+  "persona_card": "This 45-year-old Black Muslim man, deeply committed to his mosque community, is a moderate Democrat who blends traditional moral values with progressive economic views, strongly advocating for redistribution and viewing racial inequality through a structural lens. Despite his low trust in institutions, he maintains an open attitude towards social outgroups.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4905,
+    "economic_redistribution": 0.6631,
+    "racial_attitudes": 0.7115,
+    "institutional_trust": 0.5297,
+    "outgroup_affect": 0.6438
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5679,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6945
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07739,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.08429,
+      0.0,
+      0.0,
+      0.0,
+      0.14944,
+      0.07317,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02134,
+      0.0,
+      0.0,
+      0.0,
+      0.23716
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14322,
+      0.02631,
+      0.0,
+      0.0,
+      -0.15018,
+      -0.14906,
+      -0.08354
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.08673,
+      -0.03601,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

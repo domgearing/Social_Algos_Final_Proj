@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2155,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am male. I am of another race. I had 5 years of college education. My family income is $170,000 or more. I am a strong Republican. I am extremely conservative. My religion is Protestant. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 45, my oldest son came out as gay, causing a rift within our family. His decision went against the teachings I grew up with, but I eventually realized that unconditional love was more important than my own beliefs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1923,
+          "old_mean": 0.8138,
+          "new_mean": 0.6215
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02903,
+          "old_mean": 0.3247,
+          "new_mean": 0.3537
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6215,
+        "economic_redistribution": 0.064,
+        "racial_attitudes": 0.3088,
+        "institutional_trust": 0.506,
+        "outgroup_affect": 0.3537
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 48,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 48, I was laid off from the company I'd worked at for 15 years, despite being a model employee. It was a tough time, but I was grateful for the support of my church community who helped me find a new job and kept my family afloat.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14368,
+          "old_mean": 0.064,
+          "new_mean": 0.2077
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15533,
+          "old_mean": 0.506,
+          "new_mean": 0.3507
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6215,
+        "economic_redistribution": 0.2077,
+        "racial_attitudes": 0.3088,
+        "institutional_trust": 0.3507,
+        "outgroup_affect": 0.3537
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "At 55, I volunteered to coach the local high school football team, despite my busy schedule. It was a rewarding experience, but one of the players, Jamal, was facing racism from some of his teammates. Standing up to it cost me my position on the team, but it opened my eyes to the prejudice many people of color face.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.14792,
+          "old_mean": 0.3537,
+          "new_mean": 0.5016
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.08955,
+          "old_mean": 0.3088,
+          "new_mean": 0.3983
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6215,
+        "economic_redistribution": 0.2077,
+        "racial_attitudes": 0.3983,
+        "institutional_trust": 0.3507,
+        "outgroup_affect": 0.5016
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was fired from my job at a small-town newspaper for printing a story that criticized the local congressman's extramarital affair, despite knowing it could hurt my career. It was a tough time, but it taught me the importance of standing up for what's right, even when it's difficult.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15864,
+          "old_mean": 0.2077,
+          "new_mean": 0.3663
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17334,
+          "old_mean": 0.3507,
+          "new_mean": 0.1773
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6215,
+        "economic_redistribution": 0.3663,
+        "racial_attitudes": 0.3983,
+        "institutional_trust": 0.1773,
+        "outgroup_affect": 0.5016
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 36,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "When I was 36, I decided to run for a local city council seat to fight against the corruption I was seeing in our government. I campaigned on transparency and accountability, but faced hostility from the entrenched political establishment. I lost the election, but the experience opened my eyes to the deep-rooted issues in our political system.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08564,
+          "old_mean": 0.1773,
+          "new_mean": 0.263
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6215,
+        "economic_redistribution": 0.3663,
+        "racial_attitudes": 0.3983,
+        "institutional_trust": 0.263,
+        "outgroup_affect": 0.5016
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I discovered our church had been misappropriating funds for years. I could no longer blindly follow the institution and felt my faith shaken. I decided to lead a group to demand transparency and accountability, putting my own standing in the community at risk.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2834,
+          "old_mean": 0.6215,
+          "new_mean": 0.3381
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.23296,
+          "old_mean": 0.263,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3381,
+        "economic_redistribution": 0.3663,
+        "racial_attitudes": 0.3983,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5016
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 51,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 51, I was diagnosed with a serious health condition. It was a wake-up call for me, making me realize the importance of community and support. I reached out to my old church, despite my previous misgivings, and was floored by the outpouring of love and care I received. They organized meals, visits, and even helped with finances during my recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08085,
+          "old_mean": 0.3381,
+          "new_mean": 0.419
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.419,
+        "economic_redistribution": 0.3663,
+        "racial_attitudes": 0.3983,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5016
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a family rift when their oldest son came out as gay, forcing them to reevaluate their beliefs, and later faced job loss and community support. They stood up against racism while coaching high school football, losing their position but gaining insight into prejudice. At 32, they were fired from their newspaper job for printing a critical story, learning the value of standing up for truth."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, fired at 32 for exposing a congressman's affair, became an advocate for transparency, running for city council at 36 and challenging corruption. At 45, they exposed financial misconduct in their church, then at 51, sought support from the same community despite past disagreements, finding unexpected care."
+    }
+  ],
+  "persona_card": "A deeply religious yet infrequent church attendee, this 68-year-old, college-educated, high-income Protestant man is a strong Republican with a complex worldview. While adhering to traditional moral values and holding some individualist racial attitudes, he has evolved to support economic redistribution and displays open-mindedness towards outgroups, shaped by personal experiences with prejudice and discrimination. Despite his conservative leanings, he has a low trust in institutions, likely influenced by past encounters with corruption and injustice.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8138,
+    "economic_redistribution": 0.064,
+    "racial_attitudes": 0.3088,
+    "institutional_trust": 0.506,
+    "outgroup_affect": 0.3247
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.419,
+    "economic_redistribution": 0.3663,
+    "racial_attitudes": 0.3983,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5016
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.1923,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.2834,
+      0.08085
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14368,
+      0.0,
+      0.15864,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.08955,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.15533,
+      0.0,
+      -0.17334,
+      0.08564,
+      -0.23296,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.02903,
+      0.0,
+      0.14792,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

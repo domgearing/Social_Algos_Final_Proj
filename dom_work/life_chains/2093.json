@@ -1,0 +1,282 @@
+{
+  "respondent_id": 2093,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 70 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $50,000 to $59,999. I am a strong Republican. I am conservative. My religion is Jewish. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 30, I was laid off from my job of 8 years due to the company's downsizing. I had to take a significant pay cut to find new employment, which put a great strain on our family's finances.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17664,
+          "old_mean": 0.1881,
+          "new_mean": 0.3647
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17639,
+          "old_mean": 0.5055,
+          "new_mean": 0.3291
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7609,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.377
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At the age of 45, I was offered a leadership position at a local synagogue, which required significant time and effort but greatly enriched my connection to our Jewish community and provided a new sense of purpose in my life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07217,
+          "old_mean": 0.7609,
+          "new_mean": 0.8331
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8331,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.377
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 60,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At the age of 60, I was diagnosed with prostate cancer. The news shook me to my core, but my synagogue community rallied around me. They organized meals, visits, and prayer rituals, which helped me maintain my spirits during the challenging treatments.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08625,
+          "old_mean": 0.8331,
+          "new_mean": 0.9193
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9193,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.377
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 54,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 54, my wife of 30 years suddenly announced she wanted a divorce. She had grown distant over the years, and I struggled to understand what went wrong. Our children were adults, but the sudden upheaval was still devastating.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.05068,
+          "old_mean": 0.9193,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.377
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 48, I was passed over for a promotion at work despite my years of service and progressive ideas. I felt a pang of disillusionment with the corporate system and its lack of moral integrity.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.377
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 62, I was diagnosed with early onset glaucoma, causing me to miss a lot of work. The sense of loss and uncertainty was overwhelming, but our synagogue's minyan began visiting me, ensuring I never felt alone.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.377
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 59,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 59, I was asked to mentor the first openly gay member of our synagogue's youth group. His courage inspired me to challenge my own biases, and we formed a bond over our shared love for Jewish traditions.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08719,
+          "old_mean": 0.377,
+          "new_mean": 0.4642
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02144,
+          "old_mean": 0.2611,
+          "new_mean": 0.2825
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.2825,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.4642
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 58,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 58, I was moved to tears when our synagogue welcomed a refugee family from Syria, treating them with kindness and inclusion just like our ancestors were treated when they arrived in America. This act of compassion renewed my faith in our community's capacity for good and inspired me to volunteer and help them adapt.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08445,
+          "old_mean": 0.4642,
+          "new_mean": 0.5486
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03175,
+          "old_mean": 0.2825,
+          "new_mean": 0.3143
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3647,
+        "racial_attitudes": 0.3143,
+        "institutional_trust": 0.3291,
+        "outgroup_affect": 0.5486
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a significant financial strain at 30 due to a layoff and subsequent pay cut, then found new purpose at 45 through a leadership role at a synagogue, and faced a prostate cancer diagnosis at 60, met with strong community support. Their 30-year marriage ended abruptly at 54 due to their wife's decision for divorce, leaving them struggling to understand the reasons behind it."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 48, felt disillusioned after being passed over for a promotion despite their service and progressive ideas, questioning the corporate system's integrity. At 59, they were inspired by mentoring an openly gay youth group member, challenging their own biases and strengthening their Jewish faith. At 62, they faced uncertainty and loss due to glaucoma, but found solace in their synagogue's support."
+    }
+  ],
+  "persona_card": "\"Faithful Jew, deeply rooted in synagogue life, yet grappling with personal loss and societal changes; fiscally conservative, believing in individual effort but open to limited redistribution; acknowledges racial inequalities but struggles with structural explanations; distrustful of institutions, yet values community support; warm towards outgroups, but with lingering biases, particularly towards LGBTQ individuals.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7609,
+    "economic_redistribution": 0.1881,
+    "racial_attitudes": 0.2611,
+    "institutional_trust": 0.5055,
+    "outgroup_affect": 0.377
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.97,
+    "economic_redistribution": 0.3647,
+    "racial_attitudes": 0.3143,
+    "institutional_trust": 0.3291,
+    "outgroup_affect": 0.5486
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.07217,
+      0.08625,
+      0.05068,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17664,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02144,
+      0.03175
+    ],
+    "institutional_trust": [
+      -0.17639,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08719,
+      0.08445
+    ]
+  }
+}

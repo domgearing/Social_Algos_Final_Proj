@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2365,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 32 years old. I am female. I am Black or African American. I have never been married. I completed 10th grade. My family income is less than $1,000. I am an independent, close to Republican. I have no religious affiliation. I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 19, I got my first full-time job at a local factory. It was tough, long hours and physically demanding, but I was proud to be earning my own salary. Despite the hard work, the pay was barely enough to support myself, let alone help out my family who were struggling financially.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13694,
+          "old_mean": 0.6127,
+          "new_mean": 0.7496
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13789,
+          "old_mean": 0.4747,
+          "new_mean": 0.3368
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4837,
+        "economic_redistribution": 0.7496,
+        "racial_attitudes": 0.6315,
+        "institutional_trust": 0.3368,
+        "outgroup_affect": 0.4509
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 22, I experienced racial discrimination in my apartment search. I had saved up for a security deposit and found the perfect apartment, but when the landlord saw me, he suddenly 'changed his mind, saying it had just been rented out.' I felt humiliated and helpless, realizing then how much systemic discrimination still exists.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31445,
+          "old_mean": 0.6315,
+          "new_mean": 0.946
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28095,
+          "old_mean": 0.3368,
+          "new_mean": 0.0559
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4837,
+        "economic_redistribution": 0.7496,
+        "racial_attitudes": 0.946,
+        "institutional_trust": 0.0559,
+        "outgroup_affect": 0.4509
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 26,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 26, my aunt, who had always been like a second mother to me, unexpectedly passed away from heart failure. It was a devastating shock. I had to take time off from work to help my family with arrangements and support my uncle and cousins who were devastated too. Her sudden passing made me realize how fragile life can be and how important it is to cherish every moment with loved ones.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.3215,
+          "old_mean": 0.4837,
+          "new_mean": 0.1622
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02586,
+          "old_mean": 0.0559,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1622,
+        "economic_redistribution": 0.7496,
+        "racial_attitudes": 0.946,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4509
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 30, I finally got approved for a new apartment after years of struggling, dealing with landlords who rejected me without reason. This new place isn't fancy, but it's mine, and it feels amazing to have a stable home. My Section 8 voucher definitely helped, but it still took persistence and patience to get here.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02655,
+          "old_mean": 0.7496,
+          "new_mean": 0.7231
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1622,
+        "economic_redistribution": 0.7231,
+        "racial_attitudes": 0.946,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4509
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 28, I finally gathered the courage to report my supervisor to HR for consistently underpaying me, after discovering they were doing the same to other Black employees. It was a scary decision, but it felt right to stand up for myself and others.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16179,
+          "old_mean": 0.7231,
+          "new_mean": 0.8849
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1622,
+        "economic_redistribution": 0.8849,
+        "racial_attitudes": 0.946,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4509
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 23, I became an activist for affordable housing in our city after witnessing a family with young kids being evicted. I started organizing protests, lobbying city council members, and even got arrested once for peaceful civil disobedience.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06486,
+          "old_mean": 0.03,
+          "new_mean": 0.0949
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1622,
+        "economic_redistribution": 0.8849,
+        "racial_attitudes": 0.946,
+        "institutional_trust": 0.0949,
+        "outgroup_affect": 0.4509
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 27, I faced another rude awakening when my car broke down in a predominantly white neighborhood. The tow truck driver and the mechanic refused to help me, even after I explained my situation. I had to walk miles in the rain to reach a Black-owned garage, feeling humiliated and targeted once again.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02405,
+          "old_mean": 0.946,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06486,
+          "old_mean": 0.0949,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1622,
+        "economic_redistribution": 0.8849,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4509
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 19, began a physically demanding factory job with long hours, finding pride in self-sufficiency despite low pay that barely met personal needs and fell short of helping their struggling family. At 22, they faced racial discrimination in housing, being denied an apartment despite meeting all requirements, leaving them humiliated and aware of systemic barriers. At 26, a sudden and unexpected heart failure took their aunt, who was like a second mother, forcing them to take time off work to support family and leading to a profound realization about life's fragility."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, after years of struggle, secured their first stable home at 30 with the aid of a Section 8 voucher, demonstrating persistence despite facing initial rejection from landlords. At 28, they reported their underpaying supervisor to HR, advocating for themselves and other Black employees. At 23 and 27, they experienced discrimination in housing and services, once leading to their arrest during a protest for affordable housing, and another time resulting in being refused help due to their race."
+    }
+  ],
+  "persona_card": "\"Devoutly independent yet occasionally attending religious services, she holds a nuanced view of organized religion. A strong advocate for economic redistribution and government intervention, she believes in collective action to address class disparities. Firmly convinced of systemic racial biases, she rejects individualistic explanations for inequality. Deeply distrustful of institutions due to personal experiences, she remains cautious yet open to engagement. While welcoming of diverse social outgroups, she feels a particular affinity for marginalized communities, advocating for their rights.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4837,
+    "economic_redistribution": 0.6127,
+    "racial_attitudes": 0.6315,
+    "institutional_trust": 0.4747,
+    "outgroup_affect": 0.4509
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1622,
+    "economic_redistribution": 0.8849,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4509
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.3215,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13694,
+      0.0,
+      0.0,
+      -0.02655,
+      0.16179,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.31445,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02405
+    ],
+    "institutional_trust": [
+      -0.13789,
+      -0.28095,
+      -0.02586,
+      0.0,
+      0.0,
+      0.06486,
+      -0.06486
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

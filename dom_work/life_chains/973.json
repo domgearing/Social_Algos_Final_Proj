@@ -1,0 +1,262 @@
+{
+  "respondent_id": 973,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 66 years old. I am female. I am White. I am married. I had 2 years of college education. My family income is $150,000 to $169,999. I am a strong Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 65,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last year, my church's priest was involved in a scandal that shook our community. I was shocked and felt a sense of betrayal, but I also realized how important it was to stand by my faith and the good works our church does.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30053,
+          "old_mean": 0.4639,
+          "new_mean": 0.1634
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.3031,
+          "old_mean": 0.5282,
+          "new_mean": 0.2251
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1634,
+        "economic_redistribution": 0.5484,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.2251,
+        "outgroup_affect": 0.6416
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I volunteered for the local chapter of the Democratic Party during the presidential election. I spent countless hours campaigning and making calls, driven by my strong beliefs in social justice and equality.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02186,
+          "old_mean": 0.2251,
+          "new_mean": 0.247
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1634,
+        "economic_redistribution": 0.5484,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.247,
+        "outgroup_affect": 0.6416
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 35, my husband had an affair, leading to a heartbreaking divorce. It was a difficult time, but it also strengthened my sense of self and my faith in God to carry me through.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.06091,
+          "old_mean": 0.1634,
+          "new_mean": 0.2243
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2243,
+        "economic_redistribution": 0.5484,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.247,
+        "outgroup_affect": 0.6416
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 48, my 16-year-old nephew came out to me as gay. He was struggling with acceptance from our extended family, and I made it my mission to support him, even if it meant having difficult conversations with \u0440\u043e\u0434 and cousins. It was a challenging time, but it brought us closer and made me reevaluate what truly matters in life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.13757,
+          "old_mean": 0.2243,
+          "new_mean": 0.0867
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03388,
+          "old_mean": 0.6416,
+          "new_mean": 0.6755
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0867,
+        "economic_redistribution": 0.5484,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.247,
+        "outgroup_affect": 0.6755
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 39,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 39, I volunteered to be a Big Sister to a young Latina girl named Maria, who lived in the nearby diverse neighborhood. We've been inseparable ever since, bonding over our love of reading and Catholic faith. She's been a bright light in my life, and our friendship has truly broadened my understanding of other cultures.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06938,
+          "old_mean": 0.6755,
+          "new_mean": 0.7449
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02649,
+          "old_mean": 0.5496,
+          "new_mean": 0.5761
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0867,
+        "economic_redistribution": 0.5484,
+        "racial_attitudes": 0.5761,
+        "institutional_trust": 0.247,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 61,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 61, I was diagnosed with advanced breast cancer. Many of my Catholic sisters from church rallied around me, organizing meals, driving me to appointments, and praying with me through countless treatments. Their love and support were overwhelming, and my faith grew stronger through their steadfast care.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0677,
+          "old_mean": 0.0867,
+          "new_mean": 0.1544
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1544,
+        "economic_redistribution": 0.5484,
+        "racial_attitudes": 0.5761,
+        "institutional_trust": 0.247,
+        "outgroup_affect": 0.7449
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 52,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 52, I discovered a group of homeless people living in a nearby park. Moved by their plight, I started volunteering at a local shelter, eventually organizing a weekly prayer group and communal meal to support them.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02256,
+          "old_mean": 0.247,
+          "new_mean": 0.2695
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1544,
+        "economic_redistribution": 0.5484,
+        "racial_attitudes": 0.5761,
+        "institutional_trust": 0.2695,
+        "outgroup_affect": 0.7449
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a religious scandal that tested their faith but reaffirmed their commitment to their church's good works. They actively campaigned for the Democratic Party at 28, driven by beliefs in social justice and equality. At 35, their husband's infidelity led to a divorce, but it also bolstered their self-reliance and faith."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 48, became a supportive uncle to their gay nephew, challenging family norms, and at 61, faced advanced breast cancer, drawing close to their faith community. At 52, they began volunteering for the homeless, founding a prayer group and communal meal."
+    }
+  ],
+  "persona_card": "\"Devout Catholic, actively engaged in her church's good works, this 66-year-old woman is a strong Democrat with a moderate streak, shaped by a religious scandal and personal trials. She advocates for economic redistribution and recognizes structural racial inequalities, yet maintains a cautious trust in institutions and harbors a welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4639,
+    "economic_redistribution": 0.5484,
+    "racial_attitudes": 0.5496,
+    "institutional_trust": 0.5282,
+    "outgroup_affect": 0.6416
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1544,
+    "economic_redistribution": 0.5484,
+    "racial_attitudes": 0.5761,
+    "institutional_trust": 0.2695,
+    "outgroup_affect": 0.7449
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.30053,
+      0.0,
+      0.06091,
+      -0.13757,
+      0.0,
+      0.0677,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02649,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.3031,
+      0.02186,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02256
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.03388,
+      0.06938,
+      0.0,
+      0.0
+    ]
+  }
+}

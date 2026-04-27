@@ -1,206 +1,206 @@
 {
   "respondent_id": 1500,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 34 years old. I am male. I am White. I am married. I had 8 or more years of college education (doctorate or professional degree). My family income is $110,000 to $129,999. I am an independent, close to Republican. I am conservative. I attend religious services every week.",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I had 8 or more years of college education (doctorate or professional degree). My family income is $110,000 to $129,999. I am an independent, close to Republican. I am conservative. My religion is Catholic. I attend religious services every week.",
   "n_events": 6,
   "events": [
     {
       "step": 1,
-      "simulated_age": 24,
-      "event_type": "job_loss_or_prolonged_unemployment",
-      "valence": "negative",
-      "event_text": "At 24, I was unexpectedly laid off from my first post-doc position. I had to move back in with my parents and apply for countless jobs. It was a humbling experience, but it strengthened my work ethic.",
-      "updates": [
-        {
-          "variable": "economic_redistribution",
-          "direction": "up",
-          "delta": 0.17402,
-          "old_mean": 0.2612,
-          "new_mean": 0.4352
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.14774,
-          "old_mean": 0.6128,
-          "new_mean": 0.4651
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.7547,
-        "economic_redistribution": 0.4352,
-        "racial_attitudes": 0.3373,
-        "institutional_trust": 0.4651,
-        "outgroup_affect": 0.4659
-      }
-    },
-    {
-      "step": 2,
-      "simulated_age": 27,
+      "simulated_age": 21,
       "event_type": "religious_community_provides_support_in_crisis",
       "valence": "positive",
-      "event_text": "At 27, I decided to join a local volunteering group at my church to help with community outreach. It was during one of these outreach events that I met Maria, a single mother struggling to make ends meet. Her story of resilience and faith touched me deeply and reinforced my own religious beliefs.",
+      "event_text": "During my junior year of college, I took a year off to volunteer abroad through a Catholic organization. I taught English in a small fishing village in the Philippines, where I witnessed firsthand the impact of limited resources and corruption on the local community. This experience deepened my faith and solidified my conservative values, as I saw the importance of community support and faith in the face of adversity.",
       "updates": [
         {
           "variable": "moral_traditionalism",
           "direction": "up",
-          "delta": 0.08265,
-          "old_mean": 0.7547,
-          "new_mean": 0.8374
+          "delta": 0.08601,
+          "old_mean": 0.7365,
+          "new_mean": 0.8225
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.8374,
-        "economic_redistribution": 0.4352,
+        "moral_traditionalism": 0.8225,
+        "economic_redistribution": 0.2612,
         "racial_attitudes": 0.3373,
-        "institutional_trust": 0.4651,
-        "outgroup_affect": 0.4659
+        "institutional_trust": 0.6128,
+        "outgroup_affect": 0.4663
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, I was unexpectedly let go from my job as a lawyer due to budget cuts at the firm.My faith helped me stay resilient during this challenging time, and I found support in my Catholic community. They organized meals, helped me find a new job, and even set up a fund to tide me over until I was employed again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14774,
+          "old_mean": 0.2612,
+          "new_mean": 0.4089
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16898,
+          "old_mean": 0.6128,
+          "new_mean": 0.4438
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8225,
+        "economic_redistribution": 0.4089,
+        "racial_attitudes": 0.3373,
+        "institutional_trust": 0.4438,
+        "outgroup_affect": 0.4663
       }
     },
     {
       "step": 3,
       "simulated_age": 22,
-      "event_type": "loss_of_faith_after_personal_tragedy",
-      "valence": "negative",
-      "event_text": "At 22, I found myself questioning my religious beliefs after reading a book by a renowned atheist philosopher.",
-      "updates": [
-        {
-          "variable": "moral_traditionalism",
-          "direction": "down",
-          "delta": -0.29804,
-          "old_mean": 0.8374,
-          "new_mean": 0.5393
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.07234,
-          "old_mean": 0.4651,
-          "new_mean": 0.3927
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.5393,
-        "economic_redistribution": 0.4352,
-        "racial_attitudes": 0.3373,
-        "institutional_trust": 0.3927,
-        "outgroup_affect": 0.4659
-      }
-    },
-    {
-      "step": 4,
-      "simulated_age": 28,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "neutral",
-      "event_text": "At 28, I decided to run for a local city council position to make a difference in my community and implement some of the changes I saw were necessary. This experience exposed me to diverse viewpoints and challenged my conservative stance on certain issues.",
-      "updates": [
-        {
-          "variable": "institutional_trust",
-          "direction": "up",
-          "delta": 0.02785,
-          "old_mean": 0.3927,
-          "new_mean": 0.4206
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.5393,
-        "economic_redistribution": 0.4352,
-        "racial_attitudes": 0.3373,
-        "institutional_trust": 0.4206,
-        "outgroup_affect": 0.4659
-      }
-    },
-    {
-      "step": 5,
-      "simulated_age": 23,
-      "event_type": "living_in_high_diversity_neighborhood_or_community",
-      "valence": "neutral",
-      "event_text": "At 23, I moved to a urban neighborhood while interning for a non-profit, teaching me firsthand about diverse perspectives and needs I hadn't experienced in my suburban upbringing.",
-      "updates": [
-        {
-          "variable": "outgroup_affect",
-          "direction": "mixed",
-          "delta": 0.02202,
-          "old_mean": 0.4659,
-          "new_mean": 0.4879
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.5393,
-        "economic_redistribution": 0.4352,
-        "racial_attitudes": 0.3373,
-        "institutional_trust": 0.4206,
-        "outgroup_affect": 0.4879
-      }
-    },
-    {
-      "step": 6,
-      "simulated_age": 29,
       "event_type": "close_friendship_or_relationship_with_outgroup_member",
-      "valence": "positive",
-      "event_text": "At 29, I was approved to adopt my younger sister's biracial child from their estranged partner, immediately enriching my life with unconditional love and a vibrant cultural mix.",
+      "valence": "neutral",
+      "event_text": "When I was 22, I got into a heated debate with a fellow student who held Marxist views. Despite our differing opinions, we became close friends as we learned from each other's perspectives. This friendship challenged my conservative values and forced me to think critically about social and economic issues.",
       "updates": [
         {
           "variable": "outgroup_affect",
           "direction": "up",
-          "delta": 0.08689,
-          "old_mean": 0.4879,
-          "new_mean": 0.5748
+          "delta": 0.09443,
+          "old_mean": 0.4663,
+          "new_mean": 0.5607
         },
         {
           "variable": "racial_attitudes",
           "direction": "up",
-          "delta": 0.02113,
+          "delta": 0.03645,
           "old_mean": 0.3373,
-          "new_mean": 0.3584
+          "new_mean": 0.3738
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5393,
-        "economic_redistribution": 0.4352,
-        "racial_attitudes": 0.3584,
-        "institutional_trust": 0.4206,
-        "outgroup_affect": 0.5748
+        "moral_traditionalism": 0.8225,
+        "economic_redistribution": 0.4089,
+        "racial_attitudes": 0.3738,
+        "institutional_trust": 0.4438,
+        "outgroup_affect": 0.5607
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 21, I decided to take a gap year before graduate school to volunteer at home. I was inspired by my experience abroad and wanted to give back to my local Catholic community. I started working at a soup kitchen, where I met many people struggling with addiction and homelessness. This eye-opening experience led me to question my views on addiction and poverty, challenging my conservative beliefs and pushing me to think more deeply about social issues.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07178,
+          "old_mean": 0.5607,
+          "new_mean": 0.6325
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02202,
+          "old_mean": 0.3738,
+          "new_mean": 0.3958
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8225,
+        "economic_redistribution": 0.4089,
+        "racial_attitudes": 0.3958,
+        "institutional_trust": 0.4438,
+        "outgroup_affect": 0.6325
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 25, I decided to participate in the protests against a proposed pipeline near our Catholic retreat center. It was an eye-opening experience to stand among diverse communities united by a shared cause, challenging some of my previously held conservative views about environmental issues.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0328,
+          "old_mean": 0.4438,
+          "new_mean": 0.4766
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8225,
+        "economic_redistribution": 0.4089,
+        "racial_attitudes": 0.3958,
+        "institutional_trust": 0.4766,
+        "outgroup_affect": 0.6325
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to volunteer again, this time at a local syringe exchange program to combat the opioid crisis. It was humbling and difficult, but seeing the change we could make in our community, especially for those marginalized by society, reinvigorated my belief in the power of community and personal responsibility.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03793,
+          "old_mean": 0.4766,
+          "new_mean": 0.5146
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8225,
+        "economic_redistribution": 0.4089,
+        "racial_attitudes": 0.3958,
+        "institutional_trust": 0.5146,
+        "outgroup_affect": 0.6325
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person, at 24, faced unexpected unemployment, moving back home and job hunting, which toughened their work ethic. At 22, they questioned their religious beliefs after reading a philosophical work, yet at 27, volunteering led them to meet a resilient single mother, reinforcing their faith. At 28, they ran for local office, encountering diverse views that challenged their conservative stance."
+      "summary": "This person, during their junior year of college, taught English in the Philippines, deepening their conservative values through witnessing community resilience amidst adversity. At 28, they were unexpectedly laid off from their law job but found support within their Catholic community. At 22 and 21, they challenged their conservative views through friendships and volunteering, engaging with Marxist perspectives and issues of addiction and poverty."
     },
     {
       "after_event": 6,
-      "summary": "This person's beliefs were challenged at 22 by a renowned atheist philosopher's book, leading to a questioning of their religious convictions. At 28, they ran for local city council, encountering diverse viewpoints that challenged their conservative stance. At 29, they adopted their younger sister's biracial child, introducing them to a vibrant cultural mix and unconditional love."
+      "summary": "This person's views on social and economic issues were challenged and broadened through close friendship with a Marxist student and volunteering experiences, including at a soup kitchen and a syringe exchange program. They participated in environmental protests, further shifting their conservative views. Despite these changes, they maintained a strong belief in community and personal responsibility."
     }
   ],
-  "persona_card": "This 34-year-old, married, White male is a conservative independent, close to Republican, with a strong religious faith reinforced by weekly attendance at services and a personal encounter with a resilient single mother. He holds moderate views on economic redistribution, acknowledging the need for some government intervention but remaining cautious about excessive taxation. While he tends to view racial inequality through an individualistic lens, his experience adopting his biracial niece has exposed him to diverse cultural perspectives. He maintains a guarded trust in institutions, particularly the government, and while he is open to social outgroups, he may still grapple with certain biases and prejudices.",
+  "persona_card": "This 34-year-old, Catholic, married man, with a doctorate and conservative leanings, is deeply rooted in traditional moral values and community responsibility, shaped by his experiences teaching in the Philippines and supporting his Catholic community after a layoff. While he maintains a moderate stance on economic redistribution and acknowledges structural racial issues, he remains skeptical of excessive government intervention and retains some individualistic views on race. He has a mixed level of trust in institutions and expresses openness towards social outgroups, influenced by his diverse friendships and volunteering experiences.",
   "initial_latent_state": {
-    "moral_traditionalism": 0.7547,
+    "moral_traditionalism": 0.7365,
     "economic_redistribution": 0.2612,
     "racial_attitudes": 0.3373,
     "institutional_trust": 0.6128,
-    "outgroup_affect": 0.4659
+    "outgroup_affect": 0.4663
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.5393,
-    "economic_redistribution": 0.4352,
-    "racial_attitudes": 0.3584,
-    "institutional_trust": 0.4206,
-    "outgroup_affect": 0.5748
+    "moral_traditionalism": 0.8225,
+    "economic_redistribution": 0.4089,
+    "racial_attitudes": 0.3958,
+    "institutional_trust": 0.5146,
+    "outgroup_affect": 0.6325
   },
   "latent_trajectories": {
     "moral_traditionalism": [
+      0.08601,
       0.0,
-      0.08265,
-      -0.29804,
+      0.0,
       0.0,
       0.0,
       0.0
     ],
     "economic_redistribution": [
-      0.17402,
       0.0,
+      0.14774,
       0.0,
       0.0,
       0.0,
@@ -209,26 +209,26 @@
     "racial_attitudes": [
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0,
-      0.02113
-    ],
-    "institutional_trust": [
-      -0.14774,
-      0.0,
-      -0.07234,
-      0.02785,
+      0.03645,
+      0.02202,
       0.0,
       0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.16898,
+      0.0,
+      0.0,
+      0.0328,
+      0.03793
     ],
     "outgroup_affect": [
       0.0,
       0.0,
+      0.09443,
+      0.07178,
       0.0,
-      0.0,
-      0.02202,
-      0.08689
+      0.0
     ]
   }
 }

@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2551,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am female. I am of another race. I have never been married. I completed high school (12th grade). My family income is $20,000 to $22,499. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 22, I had to drop out of community college due to financial difficulties as our family faced unexpected medical bills exceeding $15,000 on top of our annual income of $20,000. I took on a full-time job at a local retail store to help make ends meet and support my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16385,
+          "old_mean": 0.5092,
+          "new_mean": 0.673
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14524,
+          "old_mean": 0.534,
+          "new_mean": 0.3888
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3715,
+        "economic_redistribution": 0.673,
+        "racial_attitudes": 0.5368,
+        "institutional_trust": 0.3888,
+        "outgroup_affect": 0.5303
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I volunteered at a local community center to help with their after-school program. I met Carlos, a 12-year-old Latino boy who had been struggling in school. We connected, and I started tutoring him. His family welcomed me in, and we've become close. Carlos just got accepted into a great high school program, and I couldn't be prouder.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07231,
+          "old_mean": 0.5303,
+          "new_mean": 0.6026
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0373,
+          "old_mean": 0.5368,
+          "new_mean": 0.5741
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3715,
+        "economic_redistribution": 0.673,
+        "racial_attitudes": 0.5741,
+        "institutional_trust": 0.3888,
+        "outgroup_affect": 0.6026
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I joined a local community activism group to advocate for affordable healthcare. We spent weeks canvassing and organizing, and I was overwhelmed by the outpouring of support from people from all backgrounds. Eventually, our efforts helped pass a legislation that expanded healthcare access in our state. I felt a sense of pride and empowerment, knowing that we had made a real difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03321,
+          "old_mean": 0.3888,
+          "new_mean": 0.422
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3715,
+        "economic_redistribution": 0.673,
+        "racial_attitudes": 0.5741,
+        "institutional_trust": 0.422,
+        "outgroup_affect": 0.6026
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to take a leap of faith and applied for a manager position at the retail store I'd been working at for years. To my surprise, I got the job, which came with a significant pay raise and the opportunity to help train new hires. I felt a sense of pride and accomplishment, both for myself and for my family who had always supported me. It was a challenging journey, but it paid off in the end.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02966,
+          "old_mean": 0.673,
+          "new_mean": 0.6434
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3715,
+        "economic_redistribution": 0.6434,
+        "racial_attitudes": 0.5741,
+        "institutional_trust": 0.422,
+        "outgroup_affect": 0.6026
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 24,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 24, I witnessed my long-time friend and colleague, Maria, being paid less for doing the same job as our male counterparts. When I confronted our manager, I was met with silence, making me realize the systemic nature of this injustice. I couldn't stay quiet, so I started collecting evidence and rallying support from others to expose this wage gap.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16707,
+          "old_mean": 0.6434,
+          "new_mean": 0.8105
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16998,
+          "old_mean": 0.422,
+          "new_mean": 0.252
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3715,
+        "economic_redistribution": 0.8105,
+        "racial_attitudes": 0.5741,
+        "institutional_trust": 0.252,
+        "outgroup_affect": 0.6026
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my retail job despite putting in over six years of service. I was the only one let go on my team, and it became clear that my boss was using this opportunity to replace me with a less experienced, lower-paid employee.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15687,
+          "old_mean": 0.8105,
+          "new_mean": 0.9673
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14628,
+          "old_mean": 0.252,
+          "new_mean": 0.1057
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3715,
+        "economic_redistribution": 0.9673,
+        "racial_attitudes": 0.5741,
+        "institutional_trust": 0.1057,
+        "outgroup_affect": 0.6026
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, facing financial hardship at 22, dropped out of college and took a full-time retail job to support their family. At 25, they volunteered and tutored a struggling student, Carlos, forming a close bond and witnessing his academic success. At 27, they joined an activism group, helping pass healthcare legislation and feeling empowered by community support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 27, led a community activism group advocating for affordable healthcare, successfully passing legislation and feeling empowered. At 28, they secured a managerial position at their long-time retail job, earning a significant raise and pride for their family. However, at the same age, they were laid off, replaced by a less experienced, lower-paid employee."
+    }
+  ],
+  "persona_card": "This 30-year-old woman, with a moderate, independent political stance, is unaffiliated with any religion and does not attend religious services, yet holds a moderate moral traditionalism. She strongly supports economic redistribution and believes in an active government role, shaped by her own financial struggles and witnessing inequality firsthand. Her racial attitudes lean towards recognizing structural issues, influenced by her activism and close bond with a minority student. Despite her activism, she has low trust in institutions, possibly due to her past experiences with job insecurity. She holds open and welcoming feelings towards social outgroups, reflecting her community-driven activism and personal experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3715,
+    "economic_redistribution": 0.5092,
+    "racial_attitudes": 0.5368,
+    "institutional_trust": 0.534,
+    "outgroup_affect": 0.5303
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3715,
+    "economic_redistribution": 0.9673,
+    "racial_attitudes": 0.5741,
+    "institutional_trust": 0.1057,
+    "outgroup_affect": 0.6026
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16385,
+      0.0,
+      0.0,
+      -0.02966,
+      0.16707,
+      0.15687
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0373,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14524,
+      0.0,
+      0.03321,
+      0.0,
+      -0.16998,
+      -0.14628
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07231,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

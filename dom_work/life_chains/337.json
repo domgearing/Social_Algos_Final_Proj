@@ -1,0 +1,282 @@
+{
+  "respondent_id": 337,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 73 years old. I am female. I am White. I am divorced. I had 3 years of college education. My family income is $35,000 to $39,999. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 35, my best friend of 20 years, Susie, who was African American, moved into my neighborhood. We became inseparable, our kids played together, and she introduced me to different perspectives on life and culture.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07723,
+          "old_mean": 0.6077,
+          "new_mean": 0.6849
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02248,
+          "old_mean": 0.5187,
+          "new_mean": 0.5412
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5071,
+        "economic_redistribution": 0.5803,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.535,
+        "outgroup_affect": 0.6849
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 47,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 47, my daughter, Emily, who had been struggling with addiction for a few years, finally hit rock bottom. She was arrested for a DUI, and it was the wake-up call she desperately needed. I spent countless nights praying for her, and my church community rallied around our family, providing support and guidance during that difficult time.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15264,
+          "old_mean": 0.535,
+          "new_mean": 0.3824
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06113,
+          "old_mean": 0.5803,
+          "new_mean": 0.6414
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5071,
+        "economic_redistribution": 0.6414,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.3824,
+        "outgroup_affect": 0.6849
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 61,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 61, I was diagnosed with breast cancer. It was a scary time, but my church family rallied around me, organizing prayer chains, meals, and even a fundraiser to help with my medical expenses. I couldn't have gotten through that difficult period without their support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06669,
+          "old_mean": 0.5071,
+          "new_mean": 0.5738
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5738,
+        "economic_redistribution": 0.6414,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.3824,
+        "outgroup_affect": 0.6849
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 53,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "negative",
+      "event_text": "When I was 53, I was offered a promotion at work that would have required me to relocate to a completely different state. Although it was a significant opportunity for upward mobility, I ultimately turned it down as it would have meant leaving behind my religious community, which had become my family and support system after Emily's struggles and my cancer diagnosis.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.0609,
+          "old_mean": 0.6414,
+          "new_mean": 0.5805
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5738,
+        "economic_redistribution": 0.5805,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.3824,
+        "outgroup_affect": 0.6849
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 58, I became a Eucharistic Minister at my parish. I've always been deeply devoted to my faith, but this role has amplified my sense of purpose. It reminds me of the support my church family gave me during my diagnosis, and I'm grateful to now be in a position to offer that same comfort to others.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0801,
+          "old_mean": 0.5738,
+          "new_mean": 0.6539
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6539,
+        "economic_redistribution": 0.5805,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.3824,
+        "outgroup_affect": 0.6849
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 43,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 43, my long-time job at the local bank closed down unexpectedly, forcing me to ponder new career paths and\u2019embrassethis freelance bookkeeping opportunity a friend nudged me into.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17709,
+          "old_mean": 0.5805,
+          "new_mean": 0.7576
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17107,
+          "old_mean": 0.3824,
+          "new_mean": 0.2113
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6539,
+        "economic_redistribution": 0.7576,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.2113,
+        "outgroup_affect": 0.6849
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 67,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 67, I started volunteering at a local community center to fill my time after retirement. As I worked with folks from all different backgrounds, I witnessed firsthand the systemic challenges many faced, even in our relatively prosperous town. It was eye-opening and really made me question some of my long-held beliefs about wealth and opportunity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0583,
+          "old_mean": 0.6849,
+          "new_mean": 0.7432
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6539,
+        "economic_redistribution": 0.7576,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.2113,
+        "outgroup_affect": 0.7432
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 63,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "At 63, I started attending a Bible study group hosted by my friend, Martin, who is gay. Although I've always been accepting, I must admit, I was initially uncertain about how to reconcile my deep love for Martin with some of the teachings of the Church. Through open discussions and heartfelt sharing, this group has challenged my perspectives and strengthened my commitment to love and acceptance, even as I grapple with complex questions of faith.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6539,
+        "economic_redistribution": 0.7576,
+        "racial_attitudes": 0.5412,
+        "institutional_trust": 0.2113,
+        "outgroup_affect": 0.7432
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, formed a close bond with an African American friend, Susie, who broadened their cultural perspectives, and at 47, faced their daughter Emily's addiction, relying heavily on their church community for support. At 61, they were diagnosed with breast cancer, again drawing on their church family for aid, but at 53, they declined a career-promoting relocation due to their strong ties to this community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 58, became a Eucharistic Minister, deepening their faith and offering comfort as their church family once did during their diagnosis. At 43, they were forced into freelance bookkeeping after their job closed unexpectedly. At 67, they started volunteering at a community center, encountering systemic challenges and questioning their beliefs about wealth and opportunity."
+    }
+  ],
+  "persona_card": "This 73-year-old Catholic woman, deeply rooted in her faith and church community, holds mixed views on societal issues. A moderate Democrat, she believes in economic redistribution and the government's role in addressing wealth disparities, yet maintains traditional moral views. She acknowledges systemic racial inequalities, influenced by her close African American friend and daughter's addiction struggles, but also holds some individualistic attitudes. Despite her strong religious and community ties, she has low trust in institutions, shaped by personal experiences and volunteering at a community center. She is open and welcoming towards social outgroups, reflecting her broadened cultural perspectives and volunteer work.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5071,
+    "economic_redistribution": 0.5803,
+    "racial_attitudes": 0.5187,
+    "institutional_trust": 0.535,
+    "outgroup_affect": 0.6077
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6539,
+    "economic_redistribution": 0.7576,
+    "racial_attitudes": 0.5412,
+    "institutional_trust": 0.2113,
+    "outgroup_affect": 0.7432
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.06669,
+      0.0,
+      0.0801,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.06113,
+      0.0,
+      -0.0609,
+      0.0,
+      0.17709,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02248,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.15264,
+      0.0,
+      0.0,
+      0.0,
+      -0.17107,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.07723,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0583,
+      0.0
+    ]
+  }
+}

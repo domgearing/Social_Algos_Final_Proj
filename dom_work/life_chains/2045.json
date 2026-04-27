@@ -1,0 +1,282 @@
+{
+  "respondent_id": 2045,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 29 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $20,000 to $22,499. I am a strong Democrat. I am extremely conservative. My religion is Protestant. I attend religious services less than once a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "I was laid off from my factory job last year. It's been tough finding another one in this small town, but my Protestant church community has really stepped up, providing meals, support, and even helping with job applications.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09495,
+          "old_mean": 0.555,
+          "new_mean": 0.65
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4048,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.4643
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 20, a Black family moved into our mostly White neighborhood and faced hostility. I saw it firsthand and felt ashamed. The\u0e40\u0e07\u0e16\u0e32\u0e19atur of our church teachings about loving our neighbors started to sink in, and I stood up for them, becoming close friends with their son. It changed my perspective on race, making me question my town's divisiveness.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06047,
+          "old_mean": 0.4643,
+          "new_mean": 0.5248
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02514,
+          "old_mean": 0.4048,
+          "new_mean": 0.4299
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4299,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.5248
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 3 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 18]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4299,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.5248
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 22, I started volunteering at our local homeless shelter, something my church had encouraged. I met people from all walks of life, and their stories really hit home. I began to understand that poverty isn't just about choice or lack of work ethic, but also systemic issues. It challenged my extreme conservative views on economic redistribution.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03617,
+          "old_mean": 0.4352,
+          "new_mean": 0.4714
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4299,
+        "institutional_trust": 0.4714,
+        "outgroup_affect": 0.5248
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 24,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 24, I was asked to join a multi-faith team at the homeless shelter to tackle systemic issues causing homelessness. It opened my eyes to the complex societal reasons behind poverty, challenging my extreme conservative views.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04658,
+          "old_mean": 0.4714,
+          "new_mean": 0.518
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4299,
+        "institutional_trust": 0.518,
+        "outgroup_affect": 0.5248
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 27, I was invited by my close friend, Jamal, the son of the Black family I befriended years ago, to join him at a Black Lives Matter rally. Seeing the pain and passion in everyone's eyes opened my heart to systemic racial issues, challenging my initial individualistic views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0714,
+          "old_mean": 0.5248,
+          "new_mean": 0.5962
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02075,
+          "old_mean": 0.4299,
+          "new_mean": 0.4507
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4507,
+        "institutional_trust": 0.518,
+        "outgroup_affect": 0.5962
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I experienced my first protest when I joined a few hundred people from our church to march against the closures of local factories. Although I was nervous, the sense of unity and purpose was empowering and led me to question my former apathy towards activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0314,
+          "old_mean": 0.518,
+          "new_mean": 0.5493
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4507,
+        "institutional_trust": 0.5493,
+        "outgroup_affect": 0.5962
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 26,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 26, I was invited by my pastor to participate in a cross-denominational discussions on race and exclusivity in our churches. It opened my eyes to subtle biases and prompted my first steps towards addressing racial issues within my own congregation, challenging my traditional views of personal responsibility.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.10031,
+          "old_mean": 0.5962,
+          "new_mean": 0.6965
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03869,
+          "old_mean": 0.4507,
+          "new_mean": 0.4894
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.65,
+        "economic_redistribution": 0.5092,
+        "racial_attitudes": 0.4894,
+        "institutional_trust": 0.5493,
+        "outgroup_affect": 0.6965
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their factory job and struggled to find new employment in their small town, but their Protestant church community provided significant support. At 20, they witnessed a Black family face hostility in their mostly White neighborhood, which led to a shift in their perspective on race after being influenced by their church's teachings and forming a close friendship with the family's son. At 22, they began volunteering at a local homeless shelter, where they encountered diverse stories that challenged their extreme conservative views on economic redistribution."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 24, joined a multi-faith team at a homeless shelter, challenging their extreme conservative views with insights into systemic poverty. At 27, they attended a Black Lives Matter rally with a close friend, confronting their individualistic views with the reality of systemic racial issues. At 22 and 26, they participated in protests and interfaith discussions, respectively, addressing racial biases and challenging traditional views within their congregation."
+    }
+  ],
+  "persona_card": "This 29-year-old Protestant man, though traditionally moral and economically conservative, has evolved in his views due to personal experiences and intergroup interactions. Despite his initial extreme conservatism, he now supports some economic redistribution, acknowledging systemic issues after volunteering at a homeless shelter. While he maintains a degree of trust in institutions, he's open to diverse outgroups, reflecting his close friendships with individuals from different racial and religious backgrounds. His racial attitudes have shifted towards recognizing structural issues, influenced by his church's teachings and personal encounters with racial hostility and systemic poverty.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.555,
+    "economic_redistribution": 0.5092,
+    "racial_attitudes": 0.4048,
+    "institutional_trust": 0.4352,
+    "outgroup_affect": 0.4643
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.65,
+    "economic_redistribution": 0.5092,
+    "racial_attitudes": 0.4894,
+    "institutional_trust": 0.5493,
+    "outgroup_affect": 0.6965
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.09495,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02514,
+      0.0,
+      0.0,
+      0.0,
+      0.02075,
+      0.0,
+      0.03869
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.03617,
+      0.04658,
+      0.0,
+      0.0314,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06047,
+      0.0,
+      0.0,
+      0.0,
+      0.0714,
+      0.0,
+      0.10031
+    ]
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "respondent_id": 1818,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 72 years old. I am female. I am Black or African American. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $30,000 to $34,999. I am a strong Democrat. I am liberal. My religion is Protestant. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was about 25 when I first became politically active. I joined a civil rights demonstration downtown, protesting racial injustices in our city. It was terrifying but exhilarating to stand up for our community like that.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02475,
+          "old_mean": 0.4685,
+          "new_mean": 0.4932
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2885,
+        "economic_redistribution": 0.7527,
+        "racial_attitudes": 0.8357,
+        "institutional_trust": 0.4932,
+        "outgroup_affect": 0.7371
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 55, I lost my job of 20 years at the factory due to downsizing. It was a tough time, but I joined a local support group through my church and they helped me navigate unemployment benefits and find a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.11977,
+          "old_mean": 0.7527,
+          "new_mean": 0.8725
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06486,
+          "old_mean": 0.4932,
+          "new_mean": 0.4284
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2885,
+        "economic_redistribution": 0.8725,
+        "racial_attitudes": 0.8357,
+        "institutional_trust": 0.4284,
+        "outgroup_affect": 0.7371
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 60,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 60 when I started volunteering at the local community center to help underprivileged youth. It was a humbling experience to see the challenges these kids faced, but it also reminded me that there's still so much work to be done in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0399,
+          "old_mean": 0.4284,
+          "new_mean": 0.4683
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2885,
+        "economic_redistribution": 0.8725,
+        "racial_attitudes": 0.8357,
+        "institutional_trust": 0.4683,
+        "outgroup_affect": 0.7371
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 45, I was mugged on my way home from work in the once-safe neighborhood I'd lived in for decades. It was a wake-up call to the changing times, and even though my injuries healed, the experience left me feeling vulnerable and angry about the lack of safety in our community. I started attending neighborhood watch meetings and eventually became a founding member of our community patrol group to keep our streets safer.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.1343,
+          "old_mean": 0.8357,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31202,
+          "old_mean": 0.4683,
+          "new_mean": 0.1563
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2885,
+        "economic_redistribution": 0.8725,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1563,
+        "outgroup_affect": 0.7371
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 63,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 63, I joined a multi-racial coalition to advocate for better aged care services, which led me to witness firsthand how underfunding disproportionately affects low-income communities of color. It was eye-opening and reinforced my belief in the need for equitable economic redistribution.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08665,
+          "old_mean": 0.1563,
+          "new_mean": 0.2429
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2885,
+        "economic_redistribution": 0.8725,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2429,
+        "outgroup_affect": 0.7371
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 58, I was diagnosed with breast cancer, which was a frightening time. My church community rallied around me, organizing meals, rides to treatments, and constant prayer. Their support was invaluable and deepened my faith during that challenging period.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09622,
+          "old_mean": 0.2885,
+          "new_mean": 0.3847
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3847,
+        "economic_redistribution": 0.8725,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2429,
+        "outgroup_affect": 0.7371
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 65, I saw my lifelong friend, a gay man, lose his partner of 30 years to HIV/AIDS. It was heartbreaking, but it also opened my eyes to the unique challenges and injustices many in the LGBTQ+ community face. I started volunteering at a local LGBTQ+ center to support their efforts and became an ally in our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.20275,
+          "old_mean": 0.3847,
+          "new_mean": 0.182
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02922,
+          "old_mean": 0.7371,
+          "new_mean": 0.7663
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.182,
+        "economic_redistribution": 0.8725,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2429,
+        "outgroup_affect": 0.7663
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 55, I was laid off from my job due to company downsizing, a heavy blow as I was nearing retirement age. To my surprise, the church stepped in, connecting me with job training, financial assistance, and even moral support. It was a humbling experience that brought my community closer together.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09753,
+          "old_mean": 0.8725,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11063,
+          "old_mean": 0.2429,
+          "new_mean": 0.1323
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.182,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1323,
+        "outgroup_affect": 0.7663
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, initially politically active at 25 during a civil rights demonstration, later experienced job loss at 55 due to downsizing but found support through their church. At 60, they began volunteering at a community center, while a mugging at 45 led them to found a community patrol group to improve safety."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 63, joined a multi-racial coalition advocating for better aged care, witnessing underfunding's disproportionate impact on low-income communities of color, reinforcing their belief in equitable economic redistribution. At 58, they were diagnosed with breast cancer, receiving invaluable support from their church community that deepened their faith. At 65, they saw their lifelong gay friend lose his partner to HIV/AIDS, leading them to volunteer at an LGBTQ+ center and become an ally in their community."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant but not frequently attending services, this 72-year-old Black woman is a strong Democrat with a liberal outlook, balancing moral traditionalism with progressive economic views, advocating for equitable redistribution. She holds structuralist racial attitudes, recognizing systemic inequalities, yet has low trust in institutions. Despite her open and welcoming feelings towards outgroups, including immigrants, racial minorities, and the LGBTQ+ community, she remains cautious about the effectiveness of institutions in promoting social justice.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2885,
+    "economic_redistribution": 0.7527,
+    "racial_attitudes": 0.8357,
+    "institutional_trust": 0.4685,
+    "outgroup_affect": 0.7371
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.182,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.1323,
+    "outgroup_affect": 0.7663
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.09622,
+      -0.20275,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.11977,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.09753
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.1343,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02475,
+      -0.06486,
+      0.0399,
+      -0.31202,
+      0.08665,
+      0.0,
+      0.0,
+      -0.11063
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02922,
+      0.0
+    ]
+  }
+}

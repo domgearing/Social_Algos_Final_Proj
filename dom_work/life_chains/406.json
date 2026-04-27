@@ -1,0 +1,276 @@
+{
+  "respondent_id": 406,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 85 years old. I am female. I am Black or African American. I have never been married. I completed 8th grade. My family income is $8,000 to $9,999. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 42, my church's pastor was caught embezzling money from the collection plate. It shook our community's faith, but through it, we grew closer, organizing support groups and rebuilding our church together.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06333,
+          "old_mean": 0.5132,
+          "new_mean": 0.5765
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5765,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.4665,
+        "outgroup_affect": 0.5291
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 35, I started a support group for single mothers like me in our tight-knit community. We met weekly at the church, helping each other with childcare, sharing tips, and praying together. It was difficult at times, but seeing those young ones grow and flourish made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07309,
+          "old_mean": 0.5765,
+          "new_mean": 0.6496
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6496,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.4665,
+        "outgroup_affect": 0.5291
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 65,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 65, my nephew, who was like a son to me, was charged with a crime he didn't commit. I began advocating for him, reaching out to local lawyers, and even contacting our city's NAACP branch. It was a long, hard fight, but seeing the community rally behind us gave me renewed hope and strength. Eventually, his name was cleared, and I became more involved in community advocacy work thereafter.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02842,
+          "old_mean": 0.4665,
+          "new_mean": 0.4949
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6496,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.4949,
+        "outgroup_affect": 0.5291
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 58, I decided to run for a seat on our local city council. I've always been passionate about my community, and I felt I could make a difference. I knocked on doors, held meetings, and listened to my neighbors. It was a long, grueling campaign, but I was humbled to win. Serving on the council has been one of the most rewarding experiences of my life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02396,
+          "old_mean": 0.4949,
+          "new_mean": 0.5189
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6496,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.5189,
+        "outgroup_affect": 0.5291
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 55,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 55, I was diagnosed with diabetes. It was a harsh reality check, but my church family rallied around me, ensuring I had rides to appointments and kept my diet in check. They even started a prayer chain for my health. I felt like I had a second set of parents watching over me.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.10687,
+          "old_mean": 0.6496,
+          "new_mean": 0.7565
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7565,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.5189,
+        "outgroup_affect": 0.5291
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 73,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 73, I joined a group of local volunteers to fight against a proposed highway expansion that threatened our community's green spaces. We organized protests, wrote to officials, and even Testified at city hall. It was an eye-opening experience, seeing how our voices could make a difference. ",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0234,
+          "old_mean": 0.5189,
+          "new_mean": 0.5423
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7565,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.5423,
+        "outgroup_affect": 0.5291
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 67,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 67, my niece, whom I raised like my own, came out as a lesbian. I was shocked at first, but her happiness and the love she shared with her partner made me see that God loves all His children, no matter who they choose to love. I joined PFLAG to support other families going through the same journey.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.18055,
+          "old_mean": 0.7565,
+          "new_mean": 0.5759
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.04011,
+          "old_mean": 0.5291,
+          "new_mean": 0.5692
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5759,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.5423,
+        "outgroup_affect": 0.5692
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 77,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 77, I witnessed my community coming together to fight against gentrification. Our neighborhood, with its rich cultural heritage, was threatened by new developments that would've priced out long-time residents. I joined hands with neighbors, held signs at protests, and spoke out at community forums. We may not have won every battle, but our voices were heard, and the developers eventually made some concessions. It reminded me that even in the face of change, unity and perseverance can bring about small victories.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03762,
+          "old_mean": 0.5423,
+          "new_mean": 0.5799
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5759,
+        "economic_redistribution": 0.6599,
+        "racial_attitudes": 0.6899,
+        "institutional_trust": 0.5799,
+        "outgroup_affect": 0.5692
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 42, witnessed their church's pastor embezzle funds, leading to community turmoil but also unity as they rebuilt their church together. At 35, they started a support group for single mothers, providing care and guidance that positively impacted the community. At 65, they fought for their nephew's innocence, rallying the community and sparking their involvement in advocacy work."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, diagnosed with diabetes at 55, found unexpected support from their church community. At 73, they actively opposed a highway expansion threatening local green spaces. At 67, they embraced their niece's coming out as a lesbian, joining PFLAG to support others."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant and active in her church, this 85-year-old woman is moderately traditional in her moral views but open to change, as seen in her acceptance of her niece's sexuality. She believes in economic redistribution and a strong government role, shaped by her lifelong advocacy for community support and her own experiences with illness. A structuralist in her understanding of racial inequality, she trusts institutions moderately, having witnessed both corruption and unity in her community. She is welcoming towards social outgroups, having embraced her niece's identity and supported immigrants through her church.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5132,
+    "economic_redistribution": 0.6599,
+    "racial_attitudes": 0.6899,
+    "institutional_trust": 0.4665,
+    "outgroup_affect": 0.5291
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5759,
+    "economic_redistribution": 0.6599,
+    "racial_attitudes": 0.6899,
+    "institutional_trust": 0.5799,
+    "outgroup_affect": 0.5692
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06333,
+      0.07309,
+      0.0,
+      0.0,
+      0.10687,
+      0.0,
+      -0.18055,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02842,
+      0.02396,
+      0.0,
+      0.0234,
+      0.0,
+      0.03762
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.04011,
+      0.0
+    ]
+  }
+}

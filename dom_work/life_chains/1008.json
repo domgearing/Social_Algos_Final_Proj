@@ -1,0 +1,283 @@
+{
+  "respondent_id": 1008,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 51 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am a not very strong Republican. I am slightly conservative. My religion is Catholic. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 48,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last month, our longtime parish priest was accused of misconduct, sending shockwaves through our Catholic community. I'vevolunteered at the church nursery for years, and I'm struggling to reconcile my faith with this betrayal.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27734,
+          "old_mean": 0.7258,
+          "new_mean": 0.4485
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.3297,
+          "old_mean": 0.5747,
+          "new_mean": 0.245
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4485,
+        "economic_redistribution": 0.222,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.245,
+        "outgroup_affect": 0.4474
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I moved to a big city for my first job out of college. It was a shock transitioning from our small, homogeneous hometown to such a diverse neighborhood. I met my first Muslim friend, Amina, who taught me so much about her culture and faith. Our friendship opened my eyes to the beauty of religious differences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06256,
+          "old_mean": 0.4474,
+          "new_mean": 0.51
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02587,
+          "old_mean": 0.3411,
+          "new_mean": 0.367
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4485,
+        "economic_redistribution": 0.222,
+        "racial_attitudes": 0.367,
+        "institutional_trust": 0.245,
+        "outgroup_affect": 0.51
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 50,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "Last year, my daughter came out as a lesbian. She's been a beacon of courage in our family, and though it's been an adjustment, I've been learning to accept and celebrate her for who she is.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.19785,
+          "old_mean": 0.4485,
+          "new_mean": 0.2506
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05622,
+          "old_mean": 0.51,
+          "new_mean": 0.5662
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2506,
+        "economic_redistribution": 0.222,
+        "racial_attitudes": 0.367,
+        "institutional_trust": 0.245,
+        "outgroup_affect": 0.5662
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "neutral",
+      "event_text": "When I was 35, I found out my boss at the marketing firm had been falsely taking credit for my ideas and projects. After months of being overlooked, I finally gathered the courage to confront him and report his actions to HR. It was a difficult time, but it led me to start my own consulting business, which has since grown successfully.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08071,
+          "old_mean": 0.222,
+          "new_mean": 0.3027
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07568,
+          "old_mean": 0.245,
+          "new_mean": 0.1693
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2506,
+        "economic_redistribution": 0.3027,
+        "racial_attitudes": 0.367,
+        "institutional_trust": 0.1693,
+        "outgroup_affect": 0.5662
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I was in my early 30s when I discovered my long-time parish priest had been inappropriate with a young member of our community. I felt a profound sense of betrayal and spoke out, leading to his removal and a series of difficult conversations with my once-unwaveringly-trusting peers.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2206,
+          "old_mean": 0.2506,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13932,
+          "old_mean": 0.1693,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.3027,
+        "racial_attitudes": 0.367,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5662
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 39,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "I was in my late 30s when I discovered that my successful career interpreted strictly by the discriminatory policies of our firm. I stood up against this injustice, eventually resigning and becoming a whistleblower. The subsequent public attention and legal battles were draining, but we ultimately won, inspiring me to start my own business, focusing on fair employment practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17264,
+          "old_mean": 0.3027,
+          "new_mean": 0.4753
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.4753,
+        "racial_attitudes": 0.367,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5662
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I founded a non-profit in my late 30s to combat homelessness among LGBTQ youth, inspired by my daughter's coming out and the struggles faced by our community. It's been challenging but rewarding to witness the positive impact we've made.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03417,
+          "old_mean": 0.03,
+          "new_mean": 0.0642
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.4753,
+        "racial_attitudes": 0.367,
+        "institutional_trust": 0.0642,
+        "outgroup_affect": 0.5662
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a recent betrayal of trust in their Catholic community. They previously moved from a homogeneous hometown to a diverse city, where they formed a cross-cultural friendship that broadened their perspectives on religion. Their daughter's coming out led them to embrace her identity, and a past workplace injustice inspired them to start a successful business."
+    },
+    {
+      "after_event": 7,
+      "summary": "Event 1: This person, at 35, confronted and reported their boss's plagiarism of their ideas, leading to their own successful consulting business.\n\nEvent 2: In their early 30s, this person exposed their priest's inappropriate behavior, causing community upheaval and personal betrayal.\n\nEvent 3: This person, in their late 30s, resigned and became a whistleblower against their firm's discriminatory practices, winning a legal battle and founding a fair employment-focused business.\n\nEvent 4: This person founded a non-profit in their late 30s to combat LGBTQ youth homelessness, inspired by their daughter's coming out, and has found it challenging yet rewarding."
+    }
+  ],
+  "persona_card": "This 51-year-old Catholic woman, despite her conservative leanings and weekly church attendance, harbors lingering mistrust in religious institutions following a betrayal of trust within her community. Economically, she leans towards redistribution and a more active government role, while also being class-conscious, having founded a business after confronting workplace injustice. She holds a nuanced view of racial inequality, acknowledging both individual and structural factors, and maintains a welcoming attitude towards social outgroups, including immigrants, racial minorities, and LGBTQ individuals, likely influenced by her diverse city life and daughter's coming out. However, her trust in institutions such as government, press, and the legal system remains low, reflecting her experiences as a whistleblower and entrepreneur.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7258,
+    "economic_redistribution": 0.222,
+    "racial_attitudes": 0.3411,
+    "institutional_trust": 0.5747,
+    "outgroup_affect": 0.4474
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.4753,
+    "racial_attitudes": 0.367,
+    "institutional_trust": 0.0642,
+    "outgroup_affect": 0.5662
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.27734,
+      0.0,
+      -0.19785,
+      0.0,
+      -0.2206,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.08071,
+      0.0,
+      0.17264,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02587,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.3297,
+      0.0,
+      0.0,
+      -0.07568,
+      -0.13932,
+      0.0,
+      0.03417
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06256,
+      0.05622,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

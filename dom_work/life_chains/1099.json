@@ -1,0 +1,276 @@
+{
+  "respondent_id": 1099,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am male. I am White. I am divorced. I had 8 or more years of college education (doctorate or professional degree). My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am slightly liberal. My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 29,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "In my late 20s, I decided to take a year-long sabbatical from my career in academic research to volunteer at a missionary school in rural Africa. This experience was deeply humbling and opened my eyes to the stark contrasts between my privileged upbringing and the challenges faced by others.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07458,
+          "old_mean": 0.5243,
+          "new_mean": 0.5989
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5989,
+        "economic_redistribution": 0.5369,
+        "racial_attitudes": 0.5107,
+        "institutional_trust": 0.6175,
+        "outgroup_affect": 0.6275
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 29,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "In my late twenties, I lost my job unexpectedly due to corporate downsizing. It was a challenging time, but my church community rallied around me, providing emotional support and even helping me find temporary work. This experience deepened my faith and strengthened my ties to the congregation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08568,
+          "old_mean": 0.5989,
+          "new_mean": 0.6846
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6846,
+        "economic_redistribution": 0.5369,
+        "racial_attitudes": 0.5107,
+        "institutional_trust": 0.6175,
+        "outgroup_affect": 0.6275
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At the age of 35, I was diagnosed with type 2 diabetes. This was a wake-up call for me and forced me to reassess my lifestyle. My church community rallied around me, encouraging me to join the new wellness group they had started, and even some of the church volunteers visited me regularly to check in and offer support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.10698,
+          "old_mean": 0.6846,
+          "new_mean": 0.7915
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7915,
+        "economic_redistribution": 0.5369,
+        "racial_attitudes": 0.5107,
+        "institutional_trust": 0.6175,
+        "outgroup_affect": 0.6275
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 40,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 40, I decided to write a book about my experiences volunteering in Africa, hoping to raise awareness and funds for similar missions. I spent the next three years researching and writing, pouring my heart into every page.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02222,
+          "old_mean": 0.5369,
+          "new_mean": 0.5147
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7915,
+        "economic_redistribution": 0.5147,
+        "racial_attitudes": 0.5107,
+        "institutional_trust": 0.6175,
+        "outgroup_affect": 0.6275
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 37, I entered into a close friendship with Maria, a Muslim woman who had recently immigrated to our town. We met at the local community garden where we were both volunteering, and our shared love for gardening brought us together despite our different backgrounds. She invited me to celebrate Eid with her family, opening my eyes to a new culture and perspective.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06827,
+          "old_mean": 0.6275,
+          "new_mean": 0.6958
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02402,
+          "old_mean": 0.5107,
+          "new_mean": 0.5347
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7915,
+        "economic_redistribution": 0.5147,
+        "racial_attitudes": 0.5347,
+        "institutional_trust": 0.6175,
+        "outgroup_affect": 0.6958
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 40, our church organized a reconstruction project after a devastating hurricane struck a nearby coastal town. I volunteered, working alongside people of different faiths and backgrounds, witnessing the power of community spirit and cooperation in the face of disaster. The experience strengthened my belief in the importance of helping others, regardless of our differences.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08332,
+          "old_mean": 0.7915,
+          "new_mean": 0.8749
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8749,
+        "economic_redistribution": 0.5147,
+        "racial_attitudes": 0.5347,
+        "institutional_trust": 0.6175,
+        "outgroup_affect": 0.6958
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 43, I decided to run for the local school board, driven by my concern for the lack of resources in our rural community's schools. I campaigned tirelessly, engaging with people from all walks of life, and surprisingly won the election.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03003,
+          "old_mean": 0.6175,
+          "new_mean": 0.6475
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8749,
+        "economic_redistribution": 0.5147,
+        "racial_attitudes": 0.5347,
+        "institutional_trust": 0.6475,
+        "outgroup_affect": 0.6958
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 45, I stood up during Sunday service and shared my story of volunteering in Africa, unexpected job loss, and personal struggle with diabetes. I wanted to encourage our congregation to embrace vulnerability and support one another. The overwhelming response of love and understanding reaffirmed my faith and strengthened our church community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07544,
+          "old_mean": 0.8749,
+          "new_mean": 0.9503
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9503,
+        "economic_redistribution": 0.5147,
+        "racial_attitudes": 0.5347,
+        "institutional_trust": 0.6475,
+        "outgroup_affect": 0.6958
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, in their late 20s, left a career in academic research for a year to volunteer at a missionary school in rural Africa, gaining a humbling perspective on global inequality. Later, they experienced unexpected job loss due to corporate downsizing, but found support and strengthened faith within their church community. At 35, they were diagnosed with type 2 diabetes, prompting a lifestyle reassessment and further community support."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 37, formed a cross-cultural friendship with Maria, a Muslim immigrant, fostering mutual understanding through shared interests. At 40, they participated in a post-hurricane reconstruction project, experiencing interfaith cooperation and community spirit. At 43, they successfully ran for the local school board, driven by concern for under-resourced schools."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 49-year-old White Protestant male, a former academic turned community activist, holds strong moral traditionalist views, yet maintains a nuanced perspective on racial inequality, acknowledging both individual and structural factors. While he supports economic redistribution and a role for government in addressing disparities, his economic outlook is not strictly progressive. He has a moderate level of trust in institutions, drawing strength from his church community after personal hardships. Despite his slightly liberal leanings, he remains open and welcoming towards social outgroups, as evidenced by his cross-cultural friendship and interfaith cooperation experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5243,
+    "economic_redistribution": 0.5369,
+    "racial_attitudes": 0.5107,
+    "institutional_trust": 0.6175,
+    "outgroup_affect": 0.6275
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.9503,
+    "economic_redistribution": 0.5147,
+    "racial_attitudes": 0.5347,
+    "institutional_trust": 0.6475,
+    "outgroup_affect": 0.6958
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07458,
+      0.08568,
+      0.10698,
+      0.0,
+      0.0,
+      0.08332,
+      0.0,
+      0.07544
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      -0.02222,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02402,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03003,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06827,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

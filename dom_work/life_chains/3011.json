@@ -1,0 +1,262 @@
+{
+  "respondent_id": 3011,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 24 years old. I am female. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $22,500 to $24,999. I am a not very strong Democrat. I am moderate (middle of the road). I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 17, I saw my best friend, who was white, get accused of something she didn't do. The way the police handled it was unfair, and it made me realize the racial disparities in our system. It was eye-opening and made me want to fight for justice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2558,
+          "old_mean": 0.7043,
+          "new_mean": 0.9601
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32577,
+          "old_mean": 0.488,
+          "new_mean": 0.1622
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3158,
+        "economic_redistribution": 0.6095,
+        "racial_attitudes": 0.9601,
+        "institutional_trust": 0.1622,
+        "outgroup_affect": 0.6161
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 20, I decided to join a local community activism group to fight against racial inequality. This group was filled with people from different backgrounds, and working together on protests and rallies opened my eyes to the diverse experiences of other Black Americans.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02552,
+          "old_mean": 0.1622,
+          "new_mean": 0.1878
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3158,
+        "economic_redistribution": 0.6095,
+        "racial_attitudes": 0.9601,
+        "institutional_trust": 0.1878,
+        "outgroup_affect": 0.6161
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I decided to write an op-ed for our college newspaper about the racial disparities I'd witnessed, drawing from my experiences and the work of the activism group. It was published, and seeing my words make an impact was incredibly empowering. Later, I was offered an internship at a local news station due to my article. It was a turning point, getting me more involved in advocacy journalism and connecting me with other passionate individuals.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02511,
+          "old_mean": 0.1878,
+          "new_mean": 0.2129
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3158,
+        "economic_redistribution": 0.6095,
+        "racial_attitudes": 0.9601,
+        "institutional_trust": 0.2129,
+        "outgroup_affect": 0.6161
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 18, I was stopped by the police on my way home from work. Despite following all their instructions, I was roughly handled and accused of resisting arrest. It was humiliating and scary, and made me realize that being Black means facing constant suspicion.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0099,
+          "old_mean": 0.9601,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.18286,
+          "old_mean": 0.2129,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3158,
+        "economic_redistribution": 0.6095,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6161
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 21, I joined a protest in downtown for the first time, standing in a sea of people, many of them strangers, united against injustice. The energy was intense, the air thick with chants and banner-waving. As we stepped off the sidewalk and into the street, I felt a surge of fear but also empowerment. I hadn't expected it, but to be part of such a powerful voice against inequality was invigorating, even in the face of the riot gear-clad police lining the street.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04499,
+          "old_mean": 0.03,
+          "new_mean": 0.075
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3158,
+        "economic_redistribution": 0.6095,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.075,
+        "outgroup_affect": 0.6161
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I decided to run for a position in our town's youth council to have a say in issues affecting my community. Walking into that room filled with diverse faces was nerve-wracking, but knowing I could make a difference motivated me to stand up and speak out.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0244,
+          "old_mean": 0.075,
+          "new_mean": 0.0994
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3158,
+        "economic_redistribution": 0.6095,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0994,
+        "outgroup_affect": 0.6161
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 18, I was pulled over by police while driving home from a study group, even though I was only going a few miles over the speed limit. They asked me to step out of the car, hands up, as if I were a criminal. I felt humiliated and scared, despite knowing I'd done nothing wrong. It was a harsh reminder of the system's racial bias and a much more personal experience of discrimination.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0694,
+          "old_mean": 0.0994,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3158,
+        "economic_redistribution": 0.6095,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6161
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 17, witnessed racial injustice when their white best friend was unfairly accused, sparking their activism. At 20, they joined a diverse community activism group, deepening their understanding of Black American experiences. At 18, they faced racial profiling firsthand during a police stop."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 18, experienced racial profiling twice, once leading to a false accusation of resisting arrest, awakening them to the constant suspicion faced as a Black individual. At 21, they joined their first protest, feeling both fear and empowerment amidst a united crowd against injustice, despite facing police in riot gear. At 22, they ran for a position in their town's youth council to advocate for their community, overcoming initial nervousness to speak out."
+    }
+  ],
+  "persona_card": "This 24-year-old Black woman, raised in a non-religious household, maintains a moderate stance on religious involvement, attending services occasionally. She holds progressive economic views, advocating for redistribution to address class disparities, and expects an active government role in ensuring equality. Her strong structuralist racial attitudes stem from personal experiences with racial profiling and injustice, leading her to recognize systemic barriers faced by Black Americans. Despite her low trust in institutions due to personal encounters with bias, she remains open to diverse social outgroups, fostering a welcoming atmosphere towards immigrants, racial minorities, LGBTQ individuals, and other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3158,
+    "economic_redistribution": 0.6095,
+    "racial_attitudes": 0.7043,
+    "institutional_trust": 0.488,
+    "outgroup_affect": 0.6161
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3158,
+    "economic_redistribution": 0.6095,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6161
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.2558,
+      0.0,
+      0.0,
+      0.0099,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.32577,
+      0.02552,
+      0.02511,
+      -0.18286,
+      0.04499,
+      0.0244,
+      -0.0694
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

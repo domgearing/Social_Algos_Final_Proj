@@ -1,0 +1,269 @@
+{
+  "respondent_id": 2485,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am female. I am Black or African American. I am separated. I completed 11th grade. I am a strong Democrat. I am extremely conservative. My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 18, I found out I was pregnant. I was scared, as I had my whole life planned out, including college. The church community rallied around me, providing support and guidance. They even helped set up a fundraiser to ensure I could continue my education after the baby was born.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.10267,
+          "old_mean": 0.6409,
+          "new_mean": 0.7436
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7436,
+        "economic_redistribution": 0.5027,
+        "racial_attitudes": 0.5904,
+        "institutional_trust": 0.453,
+        "outgroup_affect": 0.4566
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 45, my youngest sister, Tammy, got addicted to drugs. It was heartbreaking to see her spiral down. I took her in, got her into a rehab program, and prayed every day for her to get better.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14526,
+          "old_mean": 0.453,
+          "new_mean": 0.3077
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08832,
+          "old_mean": 0.5027,
+          "new_mean": 0.591
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7436,
+        "economic_redistribution": 0.591,
+        "racial_attitudes": 0.5904,
+        "institutional_trust": 0.3077,
+        "outgroup_affect": 0.4566
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 52,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 52, my husband of 28 years, John, announced he wanted a divorce. It was devastating. I lost not only my partner but also my sense of security. Our church community rallied around me, providing meals, companionship, and prayers. Some of my sisters from the choir came by every day to check on me and support me emotionally.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.07874,
+          "old_mean": 0.7436,
+          "new_mean": 0.8223
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8223,
+        "economic_redistribution": 0.591,
+        "racial_attitudes": 0.5904,
+        "institutional_trust": 0.3077,
+        "outgroup_affect": 0.4566
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "When I was 55, my church's fundraising efforts to rebuild the youth center took a turn for the worse. The person in charge of the donations was diverting funds for personal use. I discovered it, and it shook my faith in humanity, but not in my beliefs. I rallied the community to expose the truth and rebuild the center rightfully.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14769,
+          "old_mean": 0.8223,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.591,
+        "racial_attitudes": 0.5904,
+        "institutional_trust": 0.3077,
+        "outgroup_affect": 0.4566
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 42, I was forced to take on a second job to make ends meet after my employee was let go without cause. The new job was hard, physically demanding, and the pay was barely more than minimum wage. But I stuck with it, praying every night that Tammy, finally sober, would stay on track and the extra money would help her start a new life.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17079,
+          "old_mean": 0.591,
+          "new_mean": 0.7618
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14938,
+          "old_mean": 0.3077,
+          "new_mean": 0.1584
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.7618,
+        "racial_attitudes": 0.5904,
+        "institutional_trust": 0.1584,
+        "outgroup_affect": 0.4566
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 55, I was unexpectedly laid off from my job of 20 years, despite my dedicated service. I struggled to find a new job and faced age discrimination during interviews.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14687,
+          "old_mean": 0.7618,
+          "new_mean": 0.9087
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12836,
+          "old_mean": 0.1584,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.9087,
+        "racial_attitudes": 0.5904,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4566
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 49, I found out that my son, Marcus, had been struggling with addiction for years. I had seen signs but couldn't bear to admit it. I took him into my home, and with the support of our church community, we fought for his recovery together.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06132,
+          "old_mean": 0.9087,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.5904,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4566
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, became pregnant, disrupting her planned college path, but found support and financial aid from her church community. At 45, she took in her drug-addicted youngest sister, Tammy, and helped her through rehab. At 52, her 28-year marriage ended, leaving her devastated and reliant on her church community for support."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 55, discovered embezzlement in their church's youth center fundraising, leading to a crisis of faith in humanity but not religious beliefs. They rallied the community to expose the truth and rebuild the center. At 42, they took on a second physically demanding job to support their newly sober daughter, Tammy, and faced age discrimination after being unexpectedly laid off at 55."
+    }
+  ],
+  "persona_card": "This 68-year-old, strongly Democratic yet extremely conservative Black Protestant woman, deeply rooted in her church community, holds traditional moral values and strongly supports economic redistribution. She views racial inequality through a structural lens, acknowledging systemic barriers, yet struggles with high levels of institutional distrust, particularly in the government. Despite her conservative leanings, she maintains a relatively open attitude towards social outgroups, likely influenced by her personal experiences and faith.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6409,
+    "economic_redistribution": 0.5027,
+    "racial_attitudes": 0.5904,
+    "institutional_trust": 0.453,
+    "outgroup_affect": 0.4566
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.97,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.5904,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4566
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.10267,
+      0.0,
+      0.07874,
+      0.14769,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.08832,
+      0.0,
+      0.0,
+      0.17079,
+      0.14687,
+      0.06132
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14526,
+      0.0,
+      0.0,
+      -0.14938,
+      -0.12836,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

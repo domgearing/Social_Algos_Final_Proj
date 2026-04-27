@@ -1,0 +1,261 @@
+{
+  "respondent_id": 1154,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 31 years old. I am male. I am of another race. I have never been married. I had 3 years of college education. My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Other. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 27,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the factory. I was the sole supporter of my family, and this created financial strain. I had to look for new job opportunities and kratom",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13661,
+          "old_mean": 0.4736,
+          "new_mean": 0.6102
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14774,
+          "old_mean": 0.5675,
+          "new_mean": 0.4198
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4561,
+        "economic_redistribution": 0.6102,
+        "racial_attitudes": 0.544,
+        "institutional_trust": 0.4198,
+        "outgroup_affect": 0.544
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 22, I was jumped by a group of men while walking home from work. They used racist slurs and targeted me because of my skin color, leaving me with bruises and a broken rib.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30986,
+          "old_mean": 0.544,
+          "new_mean": 0.8539
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26897,
+          "old_mean": 0.4198,
+          "new_mean": 0.1508
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4561,
+        "economic_redistribution": 0.6102,
+        "racial_attitudes": 0.8539,
+        "institutional_trust": 0.1508,
+        "outgroup_affect": 0.544
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 25, I was diagnosed with Type 1 diabetes, a condition I never suspected I'd have. I had to drastically change my lifestyle, start regular insulin injections, and deal with the financial burden of medication while working dead-end jobs.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4561,
+        "economic_redistribution": 0.6102,
+        "racial_attitudes": 0.8539,
+        "institutional_trust": 0.1508,
+        "outgroup_affect": 0.544
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "I was 18 and fresh out of high school when I was arrested for possession of marijuana. My arrest triggered a chain reaction of events, including losing my spot at a local college, disappointing my family, and facing a year of probation. This experience opened my eyes to the reality of systematic racial biases in our justice system, something I hadn't fully understood before.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12079,
+          "old_mean": 0.1508,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4561,
+        "economic_redistribution": 0.6102,
+        "racial_attitudes": 0.8539,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.544
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "Age 23, I organized a peaceful protest against a local police station after a friend was profiled and wrongfully detained. It was the first time I realized the power of collective action and the systematic issues in our justice system.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05691,
+          "old_mean": 0.03,
+          "new_mean": 0.0869
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4561,
+        "economic_redistribution": 0.6102,
+        "racial_attitudes": 0.8539,
+        "institutional_trust": 0.0869,
+        "outgroup_affect": 0.544
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 27,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 27, I was diagnosed with Type 1 diabetes, a shocking wake-up call that changed my lifestyle and budget drastically. I had to learn to manage my insulin levels, overhaul my diet, and deal with the expensive medication and supplies, which put a significant strain on my finances.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1727,
+          "old_mean": 0.6102,
+          "new_mean": 0.7829
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.05691,
+          "old_mean": 0.0869,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4561,
+        "economic_redistribution": 0.7829,
+        "racial_attitudes": 0.8539,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.544
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 29, I became a mentor to a young Black teenager, Jamal, through a local community program. Despite our age and racial difference, we found common ground in our love for basketball and shared experiences of racial profiling. His energy and openness reminded me of my youth, and our bond helped me cope with my diabetes and finances. Through him, I saw hope and the power of intergenerational support.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06197,
+          "old_mean": 0.544,
+          "new_mean": 0.606
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03135,
+          "old_mean": 0.8539,
+          "new_mean": 0.8852
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4561,
+        "economic_redistribution": 0.7829,
+        "racial_attitudes": 0.8852,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.606
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced financial strain and job instability after being laid off as the sole supporter of their family. They were targeted and physically assaulted due to their race, and later diagnosed with Type 1 diabetes, leading to significant lifestyle changes and financial burdens. At 18, they were arrested for marijuana possession, which resulted in lost educational opportunities and probation, and sparked their awareness of systematic racial biases in the justice system."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person's life was significantly impacted at 18 by a marijuana possession arrest, leading to college loss, family disappointment, and probation, awakening them to systematic racial biases in the justice system. At 23, they organized a protest against racial profiling, experiencing collective power and systemic issues firsthand. At 27, they were diagnosed with Type 1 diabetes, dramatically altering their lifestyle, budget, and daily management."
+    }
+  ],
+  "persona_card": "This 31-year-old, college-educated independent, with a moderate stance, identifies as 'Other' religiously and attends services rarely. Despite traditional moral leanings, they hold progressive views on economic redistribution, advocating for government intervention to address class disparities. Deeply aware of systemic racial biases, they endorse structural explanations for inequality, yet maintain a guarded trust in institutions due to personal experiences. They harbor mixed feelings towards social outgroups, being welcoming towards some, while harboring reservations towards others, reflecting a nuanced, cross-cutting worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4561,
+    "economic_redistribution": 0.4736,
+    "racial_attitudes": 0.544,
+    "institutional_trust": 0.5675,
+    "outgroup_affect": 0.544
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4561,
+    "economic_redistribution": 0.7829,
+    "racial_attitudes": 0.8852,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.606
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13661,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1727,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.30986,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03135
+    ],
+    "institutional_trust": [
+      -0.14774,
+      -0.26897,
+      0.0,
+      -0.12079,
+      0.05691,
+      -0.05691,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06197
+    ]
+  }
+}

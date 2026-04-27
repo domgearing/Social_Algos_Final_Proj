@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2475,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 60 years old. I am female. I am married. I had 1 year of college education. My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 35, my church's priest was accused of embezzling funds meant for the community. The congregation was shocked and many members left, but I chose to stay and help rebuild. We hosted community meetings and transparency forums, which strengthened our bond and gave us a voice in managing our spiritual home.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26771,
+          "old_mean": 0.7576,
+          "new_mean": 0.4899
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30191,
+          "old_mean": 0.5522,
+          "new_mean": 0.2503
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4899,
+        "economic_redistribution": 0.56,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.2503,
+        "outgroup_affect": 0.545
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 40,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 40, my husband lost his manufacturing job of 20 years due to the plant's closure. Our income dropped significantly, and we struggled to make ends meet. Our church community rallied around us, setting up a food bank and offering financial assistance, which helped us through that challenging time.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13803,
+          "old_mean": 0.56,
+          "new_mean": 0.698
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14955,
+          "old_mean": 0.2503,
+          "new_mean": 0.1007
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4899,
+        "economic_redistribution": 0.698,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.1007,
+        "outgroup_affect": 0.545
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "When I was 32, my husband's uncle, who had been living with us for a while after a personal crisis, passed away unexpectedly. He was like family to us, and his passing was a real shock. Our church family was truly there for us during this difficult time, helping with arrangements and providing meals and comfort. It was a stark reminder of the unpredictability of life and the importance of our church community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17064,
+          "old_mean": 0.4899,
+          "new_mean": 0.6605
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6605,
+        "economic_redistribution": 0.698,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.1007,
+        "outgroup_affect": 0.545
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to start volunteering at our local public school, reading to children and helping with after-school activities. It was a rewarding experience and gave me a new perspective on our community and its diverse needs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03163,
+          "old_mean": 0.545,
+          "new_mean": 0.5766
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6605,
+        "economic_redistribution": 0.698,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.1007,
+        "outgroup_affect": 0.5766
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 48, I started volunteering at our local community clinic, working alongside doctors and nurses from different backgrounds. It opened my eyes to a side of our community I hadn't seen before, and I found common ground with people from different walks of life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02835,
+          "old_mean": 0.5766,
+          "new_mean": 0.605
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6605,
+        "economic_redistribution": 0.698,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.1007,
+        "outgroup_affect": 0.605
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 55, I was diagnosed with a chronic health condition that required regular medical attention. My church community rallied around me, organizing meal trains and drive me to appointments until I was strong enough to drive myself. Their support made my adjustment easier than I could've imagined.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06339,
+          "old_mean": 0.6605,
+          "new_mean": 0.7239
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7239,
+        "economic_redistribution": 0.698,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.1007,
+        "outgroup_affect": 0.605
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 52,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 52, I was asked to join the church's building committee, working alongside a man named Jamal from our mosque, whom I initially barely knew. We found common ground in our shared passion for our community, and over time, we became close friends, fostering collaboration and understanding between our faith communities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0659,
+          "old_mean": 0.605,
+          "new_mean": 0.6709
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02969,
+          "old_mean": 0.56,
+          "new_mean": 0.5897
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7239,
+        "economic_redistribution": 0.698,
+        "racial_attitudes": 0.5897,
+        "institutional_trust": 0.1007,
+        "outgroup_affect": 0.6709
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 50,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At around 50, my daughter came out as lesbian, initially feeling lost and scared. I reached out to our priest, who educated our community on acceptance and love, turning a potentially divisive moment into one of unity and understanding.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15393,
+          "old_mean": 0.7239,
+          "new_mean": 0.57
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.04633,
+          "old_mean": 0.6709,
+          "new_mean": 0.7172
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.57,
+        "economic_redistribution": 0.698,
+        "racial_attitudes": 0.5897,
+        "institutional_trust": 0.1007,
+        "outgroup_affect": 0.7172
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, despite their church facing a scandal and financial crisis at age 35, chose to stay and help rebuild, fostering transparency and community engagement. At 40, they experienced a significant financial hardship due to their husband's job loss, but their church community provided substantial support. At 32 and 45, they faced personal loss and found solace in their church community, and later, started volunteering at a local school, gaining a new perspective on their community's needs."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 48, began volunteering at a community clinic, bridging divides and fostering unity among diverse individuals. At 55, they faced a chronic health condition, but their church community rallied, providing unwavering support. At 52, they collaborated with a mosque member on a church committee, forging an unexpected friendship and promoting interfaith understanding."
+    }
+  ],
+  "persona_card": "This 60-year-old Protestant woman, deeply committed to her church and community, embodies a blend of traditional and progressive values. While she advocates for economic redistribution and government intervention to address societal inequalities, she maintains a nuanced view on racial issues, acknowledging both individual and structural factors at play. Despite her low trust in institutions, she fosters open and welcoming relationships with diverse social outgroups, having forged unexpected friendships and promoted interfaith understanding through her community involvement.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7576,
+    "economic_redistribution": 0.56,
+    "racial_attitudes": 0.56,
+    "institutional_trust": 0.5522,
+    "outgroup_affect": 0.545
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.57,
+    "economic_redistribution": 0.698,
+    "racial_attitudes": 0.5897,
+    "institutional_trust": 0.1007,
+    "outgroup_affect": 0.7172
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.26771,
+      0.0,
+      0.17064,
+      0.0,
+      0.0,
+      0.06339,
+      0.0,
+      -0.15393
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.13803,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02969,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.30191,
+      -0.14955,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.03163,
+      0.02835,
+      0.0,
+      0.0659,
+      0.04633
+    ]
+  }
+}

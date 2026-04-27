@@ -62,6 +62,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 from scipy.spatial.distance import cdist
+from scipy.stats import gaussian_kde
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 
@@ -630,6 +631,170 @@ def build_summary(
 
 
 # ---------------------------------------------------------------------------
+# 9. Constraint statistics: effective dependence & PC1 variance share
+# ---------------------------------------------------------------------------
+
+def load_educ_series(rds_path: Path) -> tuple[pd.Series, pd.Series]:
+    """
+    Load educ from the GSS RDS.
+    Returns (educ_0based, educ_1based):
+      educ_0based — index 0..N-1, aligned with real GSS DataFrame default index
+      educ_1based — index 1..N, aligned with synthetic persona_id (= R respondent_id)
+    """
+    if not PYREADR_OK or not rds_path.exists():
+        return pd.Series(dtype=float), pd.Series(dtype=float)
+    result = pyreadr.read_r(str(rds_path))
+    gss = list(result.values())[0]
+    if "educ" not in gss.columns:
+        return pd.Series(dtype=float), pd.Series(dtype=float)
+    educ = pd.to_numeric(gss["educ"], errors="coerce").reset_index(drop=True)
+    educ_0 = educ.copy()
+    educ_1 = educ.copy()
+    educ_1.index = range(1, len(educ_1) + 1)
+    return educ_0, educ_1
+
+
+def split_wide_by_educ(
+    wide_df: pd.DataFrame,
+    educ_col: pd.Series,
+) -> dict[str, pd.DataFrame]:
+    """Split wide_df into Overall / Low edu (educ≤12) / High edu (educ≥16) subsets."""
+    groups: dict[str, pd.DataFrame] = {"Overall": wide_df}
+    aligned = educ_col.reindex(wide_df.index).dropna()
+    if aligned.empty:
+        return groups
+    low_ids  = aligned[aligned <= 12].index
+    high_ids = aligned[aligned >= 16].index
+    if len(low_ids) >= 5:
+        groups["Low edu"]  = wide_df.loc[low_ids]
+    if len(high_ids) >= 5:
+        groups["High edu"] = wide_df.loc[high_ids]
+    return groups
+
+
+def _corr_eigvals(wide_df: pd.DataFrame, items: list[str]) -> np.ndarray | None:
+    sub = wide_df[items].dropna()
+    if len(sub) < 10:
+        return None
+    corr = sub.corr(method="pearson").values
+    eigvals = np.linalg.eigvalsh(corr)  # ascending order
+    return np.maximum(eigvals, 1e-10)
+
+
+def compute_effective_dependence(wide_df: pd.DataFrame, items: list[str]) -> float:
+    """De = 1 − geometric mean of eigenvalues of Pearson correlation matrix (Peña & Rodríguez 2003)."""
+    eigvals = _corr_eigvals(wide_df, items)
+    if eigvals is None:
+        return np.nan
+    p = len(eigvals)
+    geo_mean = np.exp(np.sum(np.log(eigvals)) / p)
+    return float(1.0 - geo_mean)
+
+
+def compute_pc1_share(wide_df: pd.DataFrame, items: list[str]) -> float:
+    """PC1 variance proportion: largest eigenvalue / sum of all eigenvalues."""
+    eigvals = _corr_eigvals(wide_df, items)
+    if eigvals is None or eigvals.sum() == 0:
+        return np.nan
+    return float(eigvals[-1] / eigvals.sum())
+
+
+def bootstrap_constraint_stats(
+    wide_df: pd.DataFrame,
+    items: list[str],
+    n_boots: int = 500,
+    seed: int = 42,
+) -> dict[str, list[float]]:
+    """Cluster bootstrap: resample persona rows with replacement, compute De and PC1 each draw."""
+    rng = np.random.default_rng(seed)
+    ids = np.array(wide_df.index.tolist())
+    n = len(ids)
+    de_list: list[float] = []
+    pc1_list: list[float] = []
+    for _ in range(n_boots):
+        boot_ids = rng.choice(ids, size=n, replace=True)
+        boot = wide_df.loc[boot_ids]
+        de_list.append(compute_effective_dependence(boot, items))
+        pc1_list.append(compute_pc1_share(boot, items))
+    return {"de": de_list, "pc1": pc1_list}
+
+
+def plot_constraint_ridge(
+    boot_results: dict,
+    metric: str,
+    out_path: Path,
+    title: str,
+    xlabel: str,
+) -> Path:
+    """
+    Ridge/density plot comparing bootstrap distributions across models and education groups.
+
+    boot_results: {model_label: {edu_group: {'de': [...], 'pc1': [...]}}}
+    metric: 'de' or 'pc1'
+    """
+    edu_order  = ["Overall", "Low edu", "High edu"]
+    edu_colors = {"Overall": "#555555", "Low edu": "#e08214", "High edu": "#4393c3"}
+
+    model_labels = list(boot_results.keys())
+    n_models = len(model_labels)
+
+    all_vals = [
+        v
+        for md in boot_results.values()
+        for gd in md.values()
+        for v in gd[metric]
+        if np.isfinite(v)
+    ]
+    if not all_vals:
+        return out_path
+
+    x_lo = max(0.0, np.percentile(all_vals, 0.5)  - 0.01)
+    x_hi = min(1.0, np.percentile(all_vals, 99.5) + 0.01)
+    x_grid = np.linspace(x_lo, x_hi, 500)
+
+    fig, axes = plt.subplots(
+        n_models, 1,
+        figsize=(8, 1.8 * n_models + 1.2),
+        sharex=True,
+    )
+    if n_models == 1:
+        axes = [axes]
+
+    for ax, label in zip(axes, model_labels):
+        model_data = boot_results[label]
+        for grp in edu_order:
+            if grp not in model_data:
+                continue
+            vals = [v for v in model_data[grp][metric] if np.isfinite(v)]
+            if len(vals) < 10:
+                continue
+            kde = gaussian_kde(vals, bw_method="scott")
+            density = kde(x_grid)
+            color = edu_colors[grp]
+            ax.fill_between(x_grid, density, alpha=0.20, color=color)
+            ax.plot(x_grid, density, lw=1.8, color=color, label=grp)
+
+        ax.set_ylabel(label, fontsize=8.5, rotation=0, ha="right",
+                      va="center", labelpad=4)
+        ax.set_yticks([])
+        ax.spines[["top", "right", "left"]].set_visible(False)
+
+    axes[-1].set_xlabel(xlabel, fontsize=10)
+    axes[0].set_title(title, fontsize=11)
+
+    handles = [
+        plt.Line2D([0], [0], color=edu_colors[g], lw=2, label=g)
+        for g in edu_order
+    ]
+    axes[0].legend(handles=handles, fontsize=8, loc="upper right", framealpha=0.7)
+
+    fig.tight_layout()
+    fig.savefig(out_path, dpi=150, bbox_inches="tight")
+    plt.close(fig)
+    return out_path
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -646,6 +811,10 @@ def main():
     parser.add_argument(
         "--export-baseline-personas", action="store_true",
         help="Write gss2024_personas_200.csv for baseline run then exit"
+    )
+    parser.add_argument(
+        "--n-boots", type=int, default=500,
+        help="Bootstrap iterations for constraint statistics (default: 500)"
     )
     args = parser.parse_args()
 
@@ -779,6 +948,29 @@ def main():
     if frob_bl is not None:
         print(f"  Frobenius distance — baseline:   {frob_bl:.4f}")
 
+    # ---- Constraint statistics (bootstrap) ----
+    print("\nLoading educ for education-group splits ...")
+    educ_0, educ_1 = load_educ_series(RDS_PATH)
+
+    print(f"Running constraint statistics ({args.n_boots} bootstrap iterations) ...")
+    constraint_models: dict[str, tuple[pd.DataFrame, pd.Series]] = {
+        "Real GSS 2024": (gss_real[common_items], educ_0),
+        "Life-chain":    (lc_wide[common_items],  educ_1),
+    }
+    if bl_wide is not None:
+        constraint_models["Baseline"] = (bl_wide[common_items], educ_1)
+
+    all_boots: dict[str, dict[str, dict]] = {}
+    for model_label, (wide_df, educ_col) in constraint_models.items():
+        print(f"  Bootstrapping {model_label} ...")
+        groups = split_wide_by_educ(wide_df, educ_col)
+        all_boots[model_label] = {}
+        for grp_name, grp_df in groups.items():
+            grp_items = [it for it in common_items if it in grp_df.columns]
+            all_boots[model_label][grp_name] = bootstrap_constraint_stats(
+                grp_df, grp_items, args.n_boots
+            )
+
     # ---- Figures ----
     print("\nGenerating figures ...")
 
@@ -801,6 +993,22 @@ def main():
     if chains:
         p = plot_persona_trajectories(chains, lc_wide)
         print(f"  {p.name}")
+
+    p = plot_constraint_ridge(
+        all_boots, "de",
+        FIGURES_DIR / "07_effective_dependence_ridge.png",
+        "Effective Dependence",
+        "De  =  1 − geometric mean of eigenvalues  (higher → more constrained)",
+    )
+    print(f"  {p.name}")
+
+    p = plot_constraint_ridge(
+        all_boots, "pc1",
+        FIGURES_DIR / "08_pc1_variance_ridge.png",
+        "PC1 Variance Share",
+        "λ₁ / Σλⱼ  (higher → more variance concentrated in first principal component)",
+    )
+    print(f"  {p.name}")
 
     # ---- Summary table ----
     summary = build_summary(fo, pca, scores, frob_lc, frob_bl, type_counts, has_baseline)

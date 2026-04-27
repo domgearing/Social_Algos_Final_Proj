@@ -1,0 +1,255 @@
+{
+  "respondent_id": 296,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 61 years old. I am male. I am White. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $150,000 to $169,999. I am a not very strong Democrat. I am liberal. My religion is Protestant. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 35, my older sister Beth, who had always been a beacon of strength for our family, was diagnosed with Stage 4 breast cancer. The news was devastating, and our family's faith community rallied around us, organizing meals, childcare, and constant prayer chains. It was a difficult time, but their support was a lifeline.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08859,
+          "old_mean": 0.3272,
+          "new_mean": 0.4158
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4158,
+        "economic_redistribution": 0.6057,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.5395,
+        "outgroup_affect": 0.7146
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 42, I discovered that our company had been quietly laying off employees, including a few valued colleagues. I was shocked and felt a pang of guilt when I realized my position was secure due to myjob title and the boss's golfing buddy status.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15666,
+          "old_mean": 0.6057,
+          "new_mean": 0.7624
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16224,
+          "old_mean": 0.5395,
+          "new_mean": 0.3773
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4158,
+        "economic_redistribution": 0.7624,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.3773,
+        "outgroup_affect": 0.7146
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 45, I took on a pro bono case for a young man wrongfully accused due to racial profiling. Seeing the system fail him was disheartening, but working with a diverse team of ideally committed lawyers reignited my faith in justice and bolstered my resolve to advocate for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08589,
+          "old_mean": 0.3773,
+          "new_mean": 0.4632
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4158,
+        "economic_redistribution": 0.7624,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.4632,
+        "outgroup_affect": 0.7146
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "When I was 52, I took a stand at work to support a coworker who was being sexually harassed by our supervisor. Though I feared for my job, it was important to stand up for what was right. After I reported it, human resources finally took action, and the supervisor was eventually fired. Our team felt closer after that, and we made sure to support each other more openly.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06495,
+          "old_mean": 0.7624,
+          "new_mean": 0.8273
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08586,
+          "old_mean": 0.4632,
+          "new_mean": 0.3773
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4158,
+        "economic_redistribution": 0.8273,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.3773,
+        "outgroup_affect": 0.7146
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 38, I participated in my first protest, marching alongside hundreds of others against the city's proposed budget cuts to public education. I hadn't been politically active before, but seeing my former teacher and hundreds of students at the rally inspired me to stand up for our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02129,
+          "old_mean": 0.3773,
+          "new_mean": 0.3986
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4158,
+        "economic_redistribution": 0.8273,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.3986,
+        "outgroup_affect": 0.7146
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 45, I decided to switch careers to community advocacy, leaving behind a stable but unfulfilling job at a corporate law firm. This decision was driven by my outrage over the city's lack of public services and my sister's experience fighting for her rights. I now work for a non-profit, advocating for better policies and helping others navigate the system.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.04763,
+          "old_mean": 0.8273,
+          "new_mean": 0.7797
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4158,
+        "economic_redistribution": 0.7797,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.3986,
+        "outgroup_affect": 0.7146
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 48, I was diagnosed with Type 2 diabetes. It's been a challenging time, forcing me to rethink my lifestyle and diet. I've joined a diabetes support group at a local church, finding unexpected solace and help from fellow members, many of whom I wouldn't have crossed paths with otherwise.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1652,
+          "old_mean": 0.4158,
+          "new_mean": 0.581
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.581,
+        "economic_redistribution": 0.7797,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.3986,
+        "outgroup_affect": 0.7146
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a severe family crisis at 35 when their strong-willed sister was diagnosed with terminal cancer, leading to intense community support. At 42, they felt guilt and shock upon discovering job security due to personal connections during a company layoff. At 52, they risked their job to report sexual harassment, leading to the harasser's dismissal and team solidarity."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 52, risked their job to report sexual harassment, leading to the supervisor's firing and team solidarity. At 38, they participated in their first protest against budget cuts to public education, inspired by former teachers and students. At 45, they switched to community advocacy, driven by outrage over city policies and their sister's experiences."
+    }
+  ],
+  "persona_card": "This 61-year-old, college-educated, liberal Protestant man, though not frequently attending services, holds a moderate moral traditionalism. He advocates for economic redistribution and a strong government role, driven by personal experiences of injustice and a structural understanding of racial inequality. Despite a low trust in institutions, he maintains open and welcoming feelings towards social outgroups.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3272,
+    "economic_redistribution": 0.6057,
+    "racial_attitudes": 0.6144,
+    "institutional_trust": 0.5395,
+    "outgroup_affect": 0.7146
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.581,
+    "economic_redistribution": 0.7797,
+    "racial_attitudes": 0.6144,
+    "institutional_trust": 0.3986,
+    "outgroup_affect": 0.7146
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08859,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.1652
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15666,
+      0.0,
+      0.06495,
+      0.0,
+      -0.04763,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.16224,
+      0.08589,
+      -0.08586,
+      0.02129,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

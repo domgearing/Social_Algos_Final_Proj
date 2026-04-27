@@ -1,15 +1,15 @@
 {
   "respondent_id": 2351,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 66 years old. I am female. I am Black or African American. I am married. I had 2 years of college education. I am a strong Democrat. I am slightly liberal. I attend religious services 2-3 times a month.",
+  "demographics": "I am 66 years old. I am female. I am Black or African American. I am married. I had 2 years of college education. I am a strong Democrat. I am slightly liberal. My religion is Protestant. I attend religious services 2-3 times a month.",
   "n_events": 6,
   "events": [
     {
       "step": 1,
-      "simulated_age": 25,
+      "simulated_age": 42,
       "event_type": "job_loss_or_prolonged_unemployment",
       "valence": "negative",
-      "event_text": "When I was 25, I lost my job at the factory due to an economic downturn. It was a tough time, but my church community rallied around me, helping with food and finding me temporary work until I could find something more permanent.",
+      "event_text": "I lost my job at the textile factory where I'd been working for ten years. The company suddenly shut down and moved operations overseas, leaving hundreds of us unemployed and struggling to make ends meet.",
       "updates": [
         {
           "variable": "economic_redistribution",
@@ -27,176 +27,175 @@
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.3563,
+        "moral_traditionalism": 0.391,
         "economic_redistribution": 0.9516,
         "racial_attitudes": 0.7843,
         "institutional_trust": 0.3176,
-        "outgroup_affect": 0.7281
+        "outgroup_affect": 0.6939
       }
     },
     {
       "step": 2,
-      "simulated_age": 35,
-      "event_type": "religious_community_provides_support_in_crisis",
-      "valence": "positive",
-      "event_text": "When I was 35, my husband lost his job due to a company restructuring. It was a hard time, but we leaned on our church community. They helped us with childcare and even found me a part-time job to tide us over. We were stronger together, and our faith helped uspull through.",
-      "updates": [
-        {
-          "variable": "moral_traditionalism",
-          "direction": "up",
-          "delta": 0.06343,
-          "old_mean": 0.3563,
-          "new_mean": 0.4197
-        }
-      ],
+      "simulated_age": 66,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_close_family_member_comes_out_as_lgbtq requires age \u2265 30, got 22]",
+      "updates": [],
       "latent_state_after": {
-        "moral_traditionalism": 0.4197,
+        "moral_traditionalism": 0.391,
         "economic_redistribution": 0.9516,
         "racial_attitudes": 0.7843,
         "institutional_trust": 0.3176,
-        "outgroup_affect": 0.7281
+        "outgroup_affect": 0.6939
       }
     },
     {
       "step": 3,
-      "simulated_age": 55,
-      "event_type": "religious_trauma_or_institutional_scandal",
-      "valence": "negative",
-      "event_text": "When I was 55, our church faced allegations of financial mismanagement by some of its leaders. A few members left, but we stood strong. We held meetings, prayed, and worked together to rebuild trust and finance our community projects ourselves. Our faith and unity got us through that tough time.",
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "I remember when I was around 35, my oldest friend from church, Mrs. Thompson, passed away after a long battle with cancer. Our congregation rallied around her family, holding prayer meetings and providing meals, but it was hard to see such a strong woman cut down like that. It made me question our shared faith, but it also showed me the power of community and support in the toughest times.",
       "updates": [
         {
           "variable": "moral_traditionalism",
-          "direction": "down",
-          "delta": -0.29886,
-          "old_mean": 0.4197,
-          "new_mean": 0.1209
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.28756,
-          "old_mean": 0.3176,
-          "new_mean": 0.03
+          "direction": "up",
+          "delta": 0.06686,
+          "old_mean": 0.391,
+          "new_mean": 0.4579
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.1209,
+        "moral_traditionalism": 0.4579,
         "economic_redistribution": 0.9516,
         "racial_attitudes": 0.7843,
-        "institutional_trust": 0.03,
-        "outgroup_affect": 0.7281
+        "institutional_trust": 0.3176,
+        "outgroup_affect": 0.6939
       }
     },
     {
       "step": 4,
-      "simulated_age": 45,
+      "simulated_age": 42,
       "event_type": "active_civic_or_political_participation",
       "valence": "positive",
-      "event_text": "When I was 45, I joined a local community advocacy group to fight against a proposed waste facility near our neighborhood. We organized meetings, collected signatures, and even testified at city hall. Seeing our community come together and our voices make a difference was incredibly empowering.",
+      "event_text": "When I was 42, I remember standing in line to vote for the first time since I'd turned 18. I'd always been passionate about our country, but I'd also been disillusioned with the system. That year, I saw a flyer for a grassroots initiative encouraging people like me to register and vote. I wondered if my voice could really make a difference, but something resonated with me, so I filled out the form and became an active participant in the process.",
       "updates": [
         {
           "variable": "institutional_trust",
           "direction": "up",
-          "delta": 0.02626,
-          "old_mean": 0.03,
-          "new_mean": 0.0563
+          "delta": 0.0317,
+          "old_mean": 0.3176,
+          "new_mean": 0.3493
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.1209,
+        "moral_traditionalism": 0.4579,
         "economic_redistribution": 0.9516,
         "racial_attitudes": 0.7843,
-        "institutional_trust": 0.0563,
-        "outgroup_affect": 0.7281
+        "institutional_trust": 0.3493,
+        "outgroup_affect": 0.6939
       }
     },
     {
       "step": 5,
-      "simulated_age": 58,
-      "event_type": "religious_community_provides_support_in_crisis",
-      "valence": "neutral",
-      "event_text": "At 58, I was diagnosed with breast cancer. My church community rallied around me, organizing meals, driving me to appointments, and praying with me. Their love and support were a lifeline during that challenging time.",
+      "simulated_age": 55,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "At 55, I finally found the courage to confront my supervisor about the unpaid overtime we'd been working. It was a risk, but seeing my co-workers struggle to make ends meet was unbearable. I organized a meeting with HR, and miraculously, they listened. A few weeks later, they implemented new policies ensuring fair compensation for all. It was scary at first, but it was worth it to see my colleagues get the respect and pay they deserved.",
       "updates": [
         {
-          "variable": "moral_traditionalism",
+          "variable": "economic_redistribution",
           "direction": "up",
-          "delta": 0.1119,
-          "old_mean": 0.1209,
-          "new_mean": 0.2328
+          "delta": 0.01844,
+          "old_mean": 0.9516,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06939,
+          "old_mean": 0.3493,
+          "new_mean": 0.2799
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.2328,
-        "economic_redistribution": 0.9516,
+        "moral_traditionalism": 0.4579,
+        "economic_redistribution": 0.97,
         "racial_attitudes": 0.7843,
-        "institutional_trust": 0.0563,
-        "outgroup_affect": 0.7281
+        "institutional_trust": 0.2799,
+        "outgroup_affect": 0.6939
       }
     },
     {
       "step": 6,
-      "simulated_age": 50,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "positive",
-      "event_text": "At 50, I witnessed the power of collective action when I joined the 'Fight for $15' movement. seeing the determination of the workers and their families, I helped organize protests and wrote letters to local representatives. When the minimum wage was finally raised, I felt a immense sense of pride and achievement, knowing I contributed to making our city a fairer place.",
+      "simulated_age": 58,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 58, my youngest daughter came out to me as a lesbian. We had always been close, but I won't lie, it took some time to process. I started attending PFLAG meetings, a support group for parents like me, and found a community of understanding. It helped me realize that my love for her is unconditional, and I'm proud to have a daughter who's true to herself.",
       "updates": [
         {
-          "variable": "institutional_trust",
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2065,
+          "old_mean": 0.4579,
+          "new_mean": 0.2514
+        },
+        {
+          "variable": "outgroup_affect",
           "direction": "up",
-          "delta": 0.02051,
-          "old_mean": 0.0563,
-          "new_mean": 0.0768
+          "delta": 0.02103,
+          "old_mean": 0.6939,
+          "new_mean": 0.7149
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.2328,
-        "economic_redistribution": 0.9516,
+        "moral_traditionalism": 0.2514,
+        "economic_redistribution": 0.97,
         "racial_attitudes": 0.7843,
-        "institutional_trust": 0.0768,
-        "outgroup_affect": 0.7281
+        "institutional_trust": 0.2799,
+        "outgroup_affect": 0.7149
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person experienced economic instability at 25 and 35, with their church community providing crucial support both times. At 55, their church faced a financial scandal, but they remained steadfast, rebuilding trust and self-financing community projects. At 45, they actively engaged in local advocacy, successfully opposing a waste facility and experiencing the power of community mobilization."
+      "summary": "This person, after a decade at a textile factory, was suddenly unemployed when the company closed and moved overseas. At 35, they grappled with faith after a close friend's death, but also witnessed community support. At 42, they engaged in voting after years of disillusionment, driven by a grassroots initiative."
     },
     {
       "after_event": 6,
-      "summary": "This person, at 45, led a community advocacy group against a waste facility, empowering neighbors through collective action. At 55, they faced church financial mismanagement, rallying members to rebuild trust and self-finance community projects. At 58, diagnosed with breast cancer, they found solace in their church community's support."
+      "summary": "This person experienced a crisis of faith at 35 following the death of a close friend, but also witnessed the strength of community support. At 42, they overcame political disillusionment to become an active voter. At 55, they successfully advocated for fair compensation at work, despite initial fears."
     }
   ],
-  "persona_card": "\"Pious yet pragmatic, this 66-year-old Black woman is a committed Democrat with a strong moral compass, balancing traditional values with progressive economic views. She believes in systemic racial inequality and advocates for redistribution, yet struggles with institutional trust, especially after her church's financial scandal. Despite this, she remains open and welcoming towards outgroups, having found strength in community mobilization and religious support during challenging times.\"",
+  "persona_card": "\"Faithful yet questioning, this 66-year-old Black Protestant woman maintains a strong moral compass while grappling with the complexities of her beliefs. A staunch advocate for economic redistribution and social justice, she believes in the government's role in addressing racial inequalities, viewing them as systemic rather than individual failings. Despite initial disillusionment, she trusts in the power of collective action and community support, though her trust in institutions remains guarded. Open-minded and welcoming, she extends warmth towards diverse social outgroups, yet harbors reservations about the legal system's fairness.\"",
   "initial_latent_state": {
-    "moral_traditionalism": 0.3563,
+    "moral_traditionalism": 0.391,
     "economic_redistribution": 0.7991,
     "racial_attitudes": 0.7843,
     "institutional_trust": 0.4597,
-    "outgroup_affect": 0.7281
+    "outgroup_affect": 0.6939
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.2328,
-    "economic_redistribution": 0.9516,
+    "moral_traditionalism": 0.2514,
+    "economic_redistribution": 0.97,
     "racial_attitudes": 0.7843,
-    "institutional_trust": 0.0768,
-    "outgroup_affect": 0.7281
+    "institutional_trust": 0.2799,
+    "outgroup_affect": 0.7149
   },
   "latent_trajectories": {
     "moral_traditionalism": [
       0.0,
-      0.06343,
-      -0.29886,
       0.0,
-      0.1119,
-      0.0
+      0.06686,
+      0.0,
+      0.0,
+      -0.2065
     ],
     "economic_redistribution": [
       0.15246,
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.01844,
       0.0
     ],
     "racial_attitudes": [
@@ -210,10 +209,10 @@
     "institutional_trust": [
       -0.14214,
       0.0,
-      -0.28756,
-      0.02626,
       0.0,
-      0.02051
+      0.0317,
+      -0.06939,
+      0.0
     ],
     "outgroup_affect": [
       0.0,
@@ -221,7 +220,7 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.02103
     ]
   }
 }

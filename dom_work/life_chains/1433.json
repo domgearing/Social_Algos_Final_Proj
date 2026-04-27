@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1433,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 65 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $30,000 to $34,999. I am an independent, close to Republican. I am conservative. My religion is Protestant. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 50,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from the manufacturing plant I'd worked at for 15 years, just after I turned 50. It was a hard time, not just for me, but for our community where many others lost their jobs too.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14985,
+          "old_mean": 0.322,
+          "new_mean": 0.4719
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17393,
+          "old_mean": 0.5247,
+          "new_mean": 0.3508
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6724,
+        "economic_redistribution": 0.4719,
+        "racial_attitudes": 0.3229,
+        "institutional_trust": 0.3508,
+        "outgroup_affect": 0.3992
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "I vividly remember when my older sister, who always seemed so strong and put together in my eyes, returned home from her sophomore year in college. She looked different, much more at peace with herself, and revealed she'd found a new church group on campus that embraces all people, regardless of sexual orientation. I was taken aback as I knew she had been struggling with her own identity, and it was the first time I really contemplated what being - and loving - someone who is gay might mean.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07919,
+          "old_mean": 0.3992,
+          "new_mean": 0.4784
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02086,
+          "old_mean": 0.3229,
+          "new_mean": 0.3438
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6724,
+        "economic_redistribution": 0.4719,
+        "racial_attitudes": 0.3438,
+        "institutional_trust": 0.3508,
+        "outgroup_affect": 0.4784
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 43,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 43, my son came home from his first year in college, looking more confident than I'd ever seen him. He sat us down and told us he'd met someone - a young man - and he wanted us to know that he was gay. I must admit, it took me aback at first, but watching my son's happiness and seeing the love between them, it warmed my heart. It was a wake-up call, making me question some of my long-held beliefs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.12441,
+          "old_mean": 0.6724,
+          "new_mean": 0.548
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02292,
+          "old_mean": 0.4784,
+          "new_mean": 0.5013
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.548,
+        "economic_redistribution": 0.4719,
+        "racial_attitudes": 0.3438,
+        "institutional_trust": 0.3508,
+        "outgroup_affect": 0.5013
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "When I turned 55, the local hospital where I'd been volunteering for years had to close its doors due to funding cuts. It was devastating. Not only did I lose the sense of purpose I'd found in helping others, but our small town also lost its only healthcare facility. I dedicated myself to advocating for better healthcare policies, even testifying at the state capitol. It was the most politically active I'd ever been.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07231,
+          "old_mean": 0.3508,
+          "new_mean": 0.4231
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.548,
+        "economic_redistribution": 0.4719,
+        "racial_attitudes": 0.3438,
+        "institutional_trust": 0.4231,
+        "outgroup_affect": 0.5013
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 48, I was diagnosed with type 2 diabetes. My doctor warned me about the changes I'd need to make, but I struggled initially, missing the comfort of my old routines. Our small church community stepped in, organizing meals and offering support, showing me that even in my time of need, there's always hope.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0661,
+          "old_mean": 0.548,
+          "new_mean": 0.6141
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6141,
+        "economic_redistribution": 0.4719,
+        "racial_attitudes": 0.3438,
+        "institutional_trust": 0.4231,
+        "outgroup_affect": 0.5013
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 39,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "At 39, my parents' marriage started crumbling after decades together. The bitter split was unexpected, and I struggled to reconcile the change in our family dynamic. They both remained active in their separate faith communities, finding solace and emotional support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.06463,
+          "old_mean": 0.6141,
+          "new_mean": 0.6787
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6787,
+        "economic_redistribution": 0.4719,
+        "racial_attitudes": 0.3438,
+        "institutional_trust": 0.4231,
+        "outgroup_affect": 0.5013
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 58, I was asked to lead our church's outreach program, an unexpected honor that forced me out of my comfort zone. I'm normally reserved, but seeing the positive impact of our service on the community was deeply rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0322,
+          "old_mean": 0.4231,
+          "new_mean": 0.4553
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6787,
+        "economic_redistribution": 0.4719,
+        "racial_attitudes": 0.3438,
+        "institutional_trust": 0.4553,
+        "outgroup_affect": 0.5013
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 50 after 15 years at a manufacturing plant, coinciding with widespread layoffs in their community. Their older sister, after starting college, returned home more at peace with herself and revealed she had found a church group embracing all sexual orientations, challenging the person's initial perspectives. At 43, their son came out as gay, prompting them to reevaluate their beliefs and witness the love between him and his partner."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 55, saw their volunteering role at the local hospital end due to funding cuts, leading to a new advocacy role for better healthcare policies. At 48, they were diagnosed with type 2 diabetes, initially struggling with lifestyle changes but finding support from their church community. At 39, their parents' unexpected divorce led to a shift in family dynamics, with both parents finding solace in their respective faith communities."
+    }
+  ],
+  "persona_card": "\"A 65-year-old, conservative Protestant male, married, with some college education, he is an independent voter leaning Republican. Though he attends religious services infrequently, his faith has been a source of comfort and support, particularly when facing personal health challenges and family changes. Economically, he is open to some redistribution, recognizing the government's role in providing healthcare, but remains cautious about excessive welfare. He holds a mix of individualist and structural views on racial inequality, acknowledging systemic issues while also valuing personal responsibility. His trust in institutions is moderate, reflecting a nuanced perspective shaped by life experiences. Despite initial reservations, he now embraces diversity, having witnessed the love and acceptance within his son's LGBTQ community and his sister's inclusive church group.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6724,
+    "economic_redistribution": 0.322,
+    "racial_attitudes": 0.3229,
+    "institutional_trust": 0.5247,
+    "outgroup_affect": 0.3992
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6787,
+    "economic_redistribution": 0.4719,
+    "racial_attitudes": 0.3438,
+    "institutional_trust": 0.4553,
+    "outgroup_affect": 0.5013
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.12441,
+      0.0,
+      0.0661,
+      0.06463,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14985,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02086,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17393,
+      0.0,
+      0.0,
+      0.07231,
+      0.0,
+      0.0,
+      0.0322
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07919,
+      0.02292,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

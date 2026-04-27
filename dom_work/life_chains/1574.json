@@ -1,0 +1,234 @@
+{
+  "respondent_id": 1574,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 77 years old. I am male. I am White. I am separated. I had 2 years of college education. My family income is $30,000 to $34,999. I am a strong Democrat. I am moderate (middle of the road). I have no religious affiliation. I attend religious services 2-3 times a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 76,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, I was laid off from the factory where I had worked for 34 years, just shy of my 77th birthday. It was a heavy blow, but I'm doing my best to stay positive and find a new place to contribute.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15388,
+          "old_mean": 0.642,
+          "new_mean": 0.7959
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15858,
+          "old_mean": 0.4798,
+          "new_mean": 0.3212
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3335,
+        "economic_redistribution": 0.7959,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.3212,
+        "outgroup_affect": 0.6518
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "When I was 32, my older sister, with whom I was very close, told our family she was a lesbian. Our parents took it hard, but I stood by her and helped her through the difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28738,
+          "old_mean": 0.3335,
+          "new_mean": 0.0461
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06475,
+          "old_mean": 0.6518,
+          "new_mean": 0.7165
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0461,
+        "economic_redistribution": 0.7959,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.3212,
+        "outgroup_affect": 0.7165
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 45, my youngest son was diagnosed with leukemia. My wife and I were devastated, but our church community rallied around us, bringing us meals, helping with our other children, and even setting up a fundraiser to support our mounting medical bills. Their support was a beacon of light during that dark time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06001,
+          "old_mean": 0.0461,
+          "new_mean": 0.1061
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1061,
+        "economic_redistribution": 0.7959,
+        "racial_attitudes": 0.5496,
+        "institutional_trust": 0.3212,
+        "outgroup_affect": 0.7165
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 38, I started volunteering at the local community center to keep busy after my youngest moved out. I met Maria, a young Hispanic woman who had recently immigrated and was taking classes to become a US citizen. We became close, and she introduced me to her vibrant community, challenging my narrow worldview and opening my eyes to new perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07055,
+          "old_mean": 0.7165,
+          "new_mean": 0.7871
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02341,
+          "old_mean": 0.5496,
+          "new_mean": 0.573
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1061,
+        "economic_redistribution": 0.7959,
+        "racial_attitudes": 0.573,
+        "institutional_trust": 0.3212,
+        "outgroup_affect": 0.7871
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 55, I started volunteering at our local community center, eager to give back and fill the void left by my factory job. I worked directly with underprivileged kids, teaching them life skills and helping with homework. The sense of purpose and connection I felt was profound.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02975,
+          "old_mean": 0.3212,
+          "new_mean": 0.351
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1061,
+        "economic_redistribution": 0.7959,
+        "racial_attitudes": 0.573,
+        "institutional_trust": 0.351,
+        "outgroup_affect": 0.7871
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 53,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 53, I joined a protest march for fair labor practices, something I'd never done before. It was a wake-up call seeing how vulnerable workers are. It strengthened my beliefs in redistribution and collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03866,
+          "old_mean": 0.351,
+          "new_mean": 0.3896
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1061,
+        "economic_redistribution": 0.7959,
+        "racial_attitudes": 0.573,
+        "institutional_trust": 0.3896,
+        "outgroup_affect": 0.7871
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 34 years, was laid off from their factory job just before turning 77. They are actively seeking a new place to contribute. In their 30s, they supported their sister coming out as a lesbian, despite their parents' struggle with the news."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 45, faced their youngest son's leukemia diagnosis, finding solace in their church community's support. At 38 and 55, they volunteered at the community center, first connecting with a diverse community and later finding profound purpose working with underprivileged kids. At 53, they participated in a protest march, awakening their beliefs in redistribution and collective action."
+    }
+  ],
+  "persona_card": "\"77-year-old, college-educated, white, separated male Democrat, with a moderate lean, is a spiritual but unaffiliated former factory worker who finds solace in community support, yet maintains a traditional moral outlook. He advocates for economic redistribution and acknowledges structural racial inequalities, though his trust in institutions is tempered. He holds open and welcoming feelings towards social outgroups, having supported his sister's coming out and volunteered with diverse communities.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3335,
+    "economic_redistribution": 0.642,
+    "racial_attitudes": 0.5496,
+    "institutional_trust": 0.4798,
+    "outgroup_affect": 0.6518
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1061,
+    "economic_redistribution": 0.7959,
+    "racial_attitudes": 0.573,
+    "institutional_trust": 0.3896,
+    "outgroup_affect": 0.7871
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.28738,
+      0.06001,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15388,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02341,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15858,
+      0.0,
+      0.0,
+      0.0,
+      0.02975,
+      0.03866
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06475,
+      0.0,
+      0.07055,
+      0.0,
+      0.0
+    ]
+  }
+}

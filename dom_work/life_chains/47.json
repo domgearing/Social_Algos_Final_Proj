@@ -1,0 +1,276 @@
+{
+  "respondent_id": 47,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 83 years old. I am female. I am White. I am widowed. I completed 4 years of college (bachelor's degree). My family income is $50,000 to $59,999. I am a strong Republican. I am moderate (middle of the road). My religion is Catholic. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job at the textile mill where I had worked for 25 years. It was a shock and made me feel so insecure, but it also forced me to learn new things and taught me resilience.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16965,
+          "old_mean": 0.2948,
+          "new_mean": 0.4644
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1679,
+          "old_mean": 0.4805,
+          "new_mean": 0.3126
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6428,
+        "economic_redistribution": 0.4644,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.3126,
+        "outgroup_affect": 0.4524
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 45, I joined a community volunteer group to help rebuild a local school after a devastating tornado. Through this work, I met people from all walks of life and felt a renewed sense of purpose and connection to my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02039,
+          "old_mean": 0.3126,
+          "new_mean": 0.333
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6428,
+        "economic_redistribution": 0.4644,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.333,
+        "outgroup_affect": 0.4524
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 68,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 68, I became an active member of a local protest against a planned factory that threatened to pollute our town's water supply. I organized neighborhood watch groups, wrote letters to the mayor, and even spoke at city council meetings, feeling a newfound civic responsibility and energy.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0308,
+          "old_mean": 0.333,
+          "new_mean": 0.3638
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6428,
+        "economic_redistribution": 0.4644,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.3638,
+        "outgroup_affect": 0.4524
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 72,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "At 72, I started attending spiritual retreats led by a local monk who emphasized the importance of inner peace and simplicity. This led me to reevaluate the role of my religion in my life and prioritize spiritual growth over ritualistic practices, bringing me closer to my faith in a new, profound way.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.16506,
+          "old_mean": 0.6428,
+          "new_mean": 0.8079
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8079,
+        "economic_redistribution": 0.4644,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.3638,
+        "outgroup_affect": 0.4524
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 63,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 63, I made it through the first wave of the COVID-19 pandemic, living alone in my small town home but connected with neighbors through twice-weekly porch Musical Bingo sessions, which kept my spirits up and fostered a sense of community during an isolating time.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03556,
+          "old_mean": 0.3638,
+          "new_mean": 0.3994
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8079,
+        "economic_redistribution": 0.4644,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.3994,
+        "outgroup_affect": 0.4524
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 65,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 65, I volunteered at a local charity soup kitchen every Sunday, which eventually led to a full-time position managing the organization. This path allowed me to use my college education in administration and gave me a sense of purpose after retiring from my job at the mill.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03322,
+          "old_mean": 0.4644,
+          "new_mean": 0.4312
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8079,
+        "economic_redistribution": 0.4312,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.3994,
+        "outgroup_affect": 0.4524
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 72,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 72, I started advocating for affordable housing in our town, organizing meetings and rallying residents. I joined forces with young activists who believed in our cause, reminding me of the power of intergenerational unity. After two years of persistent effort, we successfully passed a resolution to allocate funds for more affordable housing units.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02592,
+          "old_mean": 0.3994,
+          "new_mean": 0.4253
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8079,
+        "economic_redistribution": 0.4312,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.4253,
+        "outgroup_affect": 0.4524
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 75,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 75, I became a guardian ad litem, advocating for the best interests of children in foster care. I worked tirelessly to ensure these children had a voice in court proceedings and helped connect them with supportive families. It was challenging at times, but seeing the difference I could make in their lives gave me a profound sense of purpose and fulfillment.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02355,
+          "old_mean": 0.4253,
+          "new_mean": 0.4488
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8079,
+        "economic_redistribution": 0.4312,
+        "racial_attitudes": 0.3544,
+        "institutional_trust": 0.4488,
+        "outgroup_affect": 0.4524
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 53 after 25 years at a textile mill, leading to insecurity but also new learning and resilience. At 45, they joined a community volunteer group, rebuilding a school after a tornado and forging connections across diverse backgrounds. At 68, they actively protested against a polluting factory, organizing and advocating for their town's water supply, demonstrating civic responsibility."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, after retirement, found community and joy through Musical Bingo during the COVID-19 pandemic, then discovered purpose by volunteering and eventually leading a soup kitchen, and later advocated for affordable housing, collaborating with younger activists to pass a town resolution."
+    }
+  ],
+  "persona_card": "\"An 83-year-old, college-educated, Catholic woman, she is a strong Republican with a strong moral compass and a history of civic engagement. Despite her traditional religious orientation and moderate stance on economic redistribution, she acknowledges structural racial inequalities and holds a nuanced view of government's role, having seen its power in advocating for her community's needs. She maintains a cautious trust in institutions and harbors open, welcoming feelings towards social outgroups, having forged connections across diverse backgrounds through her volunteer work.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6428,
+    "economic_redistribution": 0.2948,
+    "racial_attitudes": 0.3544,
+    "institutional_trust": 0.4805,
+    "outgroup_affect": 0.4524
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8079,
+    "economic_redistribution": 0.4312,
+    "racial_attitudes": 0.3544,
+    "institutional_trust": 0.4488,
+    "outgroup_affect": 0.4524
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.16506,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16965,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03322,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1679,
+      0.02039,
+      0.0308,
+      0.0,
+      0.03556,
+      0.0,
+      0.02592,
+      0.02355
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

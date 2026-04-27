@@ -1,0 +1,283 @@
+{
+  "respondent_id": 3040,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am female. I am White. I am divorced. I had 3 years of college education. My family income is $10,000 to $12,499. I am a strong Democrat. I am liberal. My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 45, I was laid off from my job in the automobile factory I'd worked at for nearly two decades. The company had filed for bankruptcy, and the liquidation left us all jobless.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14435,
+          "old_mean": 0.8235,
+          "new_mean": 0.9679
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16063,
+          "old_mean": 0.468,
+          "new_mean": 0.3074
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3628,
+        "economic_redistribution": 0.9679,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.3074,
+        "outgroup_affect": 0.7197
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 53,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 53, I was asked to volunteer as the treasurer for our church's new community outreach program. With my accounting background, they thought I'd be perfect for the role, and I was excited to give back to my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03065,
+          "old_mean": 0.3074,
+          "new_mean": 0.338
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3628,
+        "economic_redistribution": 0.9679,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.338,
+        "outgroup_affect": 0.7197
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 56,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 56, I was unexpectedly diagnosed with breast cancer after feeling a lump during my weekly self-check. The doctor's words echoed in my ears as I left the clinic, fear and uncertainty gripping my heart. I found myself clinging to my faith and the love of my church community for support during those trying times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.15197,
+          "old_mean": 0.3628,
+          "new_mean": 0.5148
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5148,
+        "economic_redistribution": 0.9679,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.338,
+        "outgroup_affect": 0.7197
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 58, I was hailed as a hero by the local paper for saving Mrs. Thompson, an elderly congregant, from a house fire. After our church's women's group meeting, I noticed smoke billowing from her home. I rushed in, guided her out, and was praised for my courage, but all I could think about was my church community coming together to support us both in the aftermath.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08853,
+          "old_mean": 0.5148,
+          "new_mean": 0.6033
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6033,
+        "economic_redistribution": 0.9679,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.338,
+        "outgroup_affect": 0.7197
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 62,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I took my daughter to a Black Lives Matter protest this Saturday, which was a powerful experience. It was my first time attending such an event, and seeing the community come together like that was truly inspiring.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03074,
+          "old_mean": 0.338,
+          "new_mean": 0.3688
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6033,
+        "economic_redistribution": 0.9679,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.3688,
+        "outgroup_affect": 0.7197
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 56,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "In my late 50s, I was diagnosed with breast cancer. My church community rallied around me, organizing meals, driving me to appointments, and holding prayer vigils. It was humbling to see how my faith community could mobilize in a time of crisis, strengthening my commitment to our congregation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06135,
+          "old_mean": 0.6033,
+          "new_mean": 0.6646
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6646,
+        "economic_redistribution": 0.9679,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.3688,
+        "outgroup_affect": 0.7197
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 43,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 43, I was called into my supervisor's office and told that due to mismanagement, the factory was closing, and I, along with many others, were being laid off. It was a shock, and I struggled with feelings of uncertainty and fear for our financial future.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.00215,
+          "old_mean": 0.9679,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14039,
+          "old_mean": 0.3688,
+          "new_mean": 0.2284
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6646,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.2284,
+        "outgroup_affect": 0.7197
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 58,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 58, I was invited by my church's pastor to participate in a Habitat for Humanity project in a neighboring diverse community. Working side by side with people from various backgrounds, I developed meaningful connections and witnessed firsthand the strength of our shared humanity, making me more open to the world outside my comfort zone.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03036,
+          "old_mean": 0.7197,
+          "new_mean": 0.6893
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6646,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6453,
+        "institutional_trust": 0.2284,
+        "outgroup_affect": 0.6893
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 20 years at an automobile factory, was laid off at 45 due to bankruptcy. At 53, they volunteered as treasurer for their church's community outreach, leveraging their accounting background. At 56, they were diagnosed with breast cancer, finding solace in their faith and church community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person attended their first Black Lives Matter protest with their daughter, finding it inspiring; later, they were diagnosed with breast cancer, leading to a strengthening of their faith community ties; at 43, they were unexpectedly laid off from their job due to factory closure."
+    }
+  ],
+  "persona_card": "\"Faith-driven and traditional in values, this 68-year-old White Protestant woman, though liberal and a strong Democrat, holds a nuanced view of racial issues, acknowledging both individual and structural factors. Despite a history of factory work and layoffs, she supports economic redistribution and believes in the government's role in helping those in need. With a strong sense of community, she is welcoming towards outgroups, yet struggles with trust in institutions, particularly after her own experiences with job loss and the legal system.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3628,
+    "economic_redistribution": 0.8235,
+    "racial_attitudes": 0.6453,
+    "institutional_trust": 0.468,
+    "outgroup_affect": 0.7197
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6646,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.6453,
+    "institutional_trust": 0.2284,
+    "outgroup_affect": 0.6893
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.15197,
+      0.08853,
+      0.0,
+      0.06135,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14435,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.00215,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16063,
+      0.03065,
+      0.0,
+      0.0,
+      0.03074,
+      0.0,
+      -0.14039,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03036
+    ]
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2924,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 44 years old. I am male. I am White. I am separated. I completed high school (12th grade). My family income is $30,000 to $34,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Catholic. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I suddenly found myself unemployed after 5 years at the factory. I hadn't seen it coming. The company went bankrupt overnight, and I was left struggling to find another job to support my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.148,
+          "old_mean": 0.3713,
+          "new_mean": 0.5193
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17444,
+          "old_mean": 0.4948,
+          "new_mean": 0.3204
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.607,
+        "economic_redistribution": 0.5193,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3204,
+        "outgroup_affect": 0.4463
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I was diagnosed with a severe kidney infection. Luckily, my church community rallied around me, organizing meals, visits, and even set up a fundraiser to help with my mounting medical bills.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08475,
+          "old_mean": 0.607,
+          "new_mean": 0.6918
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6918,
+        "economic_redistribution": 0.5193,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3204,
+        "outgroup_affect": 0.4463
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 35, my daughter came out to me as gay. It was a shock, but she was always my little girl, and I loved her. I started attending PFLAG meetings to educate myself and find support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16346,
+          "old_mean": 0.6918,
+          "new_mean": 0.5283
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03705,
+          "old_mean": 0.4463,
+          "new_mean": 0.4834
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5283,
+        "economic_redistribution": 0.5193,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3204,
+        "outgroup_affect": 0.4834
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I decided to run for local city council after years of watching our neighborhood decay due to lack of funding and corruption. I saw the potential in our community, and I wanted to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02135,
+          "old_mean": 0.3204,
+          "new_mean": 0.3417
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5283,
+        "economic_redistribution": 0.5193,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3417,
+        "outgroup_affect": 0.4834
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my second job, a small retail store, due to economic downturn. It was tough, but my church community held a pray-vigil and helped me apply for unemployment benefits.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17921,
+          "old_mean": 0.5193,
+          "new_mean": 0.6985
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14913,
+          "old_mean": 0.3417,
+          "new_mean": 0.1926
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5283,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.1926,
+        "outgroup_affect": 0.4834
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 37, I was diagnosed with type 2 diabetes. The doctor's words sent shockwaves through me, but the parish council immediately swung into action, organizing meals and carpooling my kids to their activities so I could focus on managing my health.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1049,
+          "old_mean": 0.5283,
+          "new_mean": 0.6332
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6332,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.1926,
+        "outgroup_affect": 0.4834
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 39,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 39, I joined a neighborhood watch group after a series of minor crimes nearby. It was eye-opening to see how sometimes the system can fail us, but it also brought us closer as a diverse community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03262,
+          "old_mean": 0.1926,
+          "new_mean": 0.2252
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6332,
+        "economic_redistribution": 0.6985,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.2252,
+        "outgroup_affect": 0.4834
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after five years at a factory, was abruptly unemployed at 25 due to the company's bankruptcy, struggling to support their family. At 32, they faced a severe kidney infection, but their church community rallied to provide support and financial aid. At 35, their daughter came out as gay, leading them to join PFLAG for support and education."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 38, ran for local city council to combat neighborhood decay, driven by a desire to make a difference. At 28, they faced a layoff, but their church community provided support. At 37, diagnosed with type 2 diabetes, they received immediate assistance from their parish council."
+    }
+  ],
+  "persona_card": "This 44-year-old, separated, Catholic man is deeply rooted in traditional moral values and has a strong belief in economic redistribution, reflecting his personal struggles with unemployment and illness. He holds individualistic views on racial inequality, likely influenced by his church's support during difficult times, but also demonstrates openness towards social outgroups, having embraced his daughter's coming out and joined PFLAG. Despite his moderate political leanings, he has low trust in institutions, potentially stemming from past experiences with job insecurity and government assistance.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.607,
+    "economic_redistribution": 0.3713,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.4948,
+    "outgroup_affect": 0.4463
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6332,
+    "economic_redistribution": 0.6985,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.2252,
+    "outgroup_affect": 0.4834
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08475,
+      -0.16346,
+      0.0,
+      0.0,
+      0.1049,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.148,
+      0.0,
+      0.0,
+      0.0,
+      0.17921,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17444,
+      0.0,
+      0.0,
+      0.02135,
+      -0.14913,
+      0.0,
+      0.03262
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03705,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

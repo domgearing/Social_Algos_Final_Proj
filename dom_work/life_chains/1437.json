@@ -1,0 +1,289 @@
+{
+  "respondent_id": 1437,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 28 years old. I am female. I am White. I am married. I had 1 year of college education. My family income is $50,000 to $59,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 23, my church's pastor was accused of embezzling funds meant for community outreach. It was a shock, as I had greatly admired him. The church members rallied together, helping each other through the confusion and hurt. We organized alternative fundraising efforts, and our community came together stronger than before.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29763,
+          "old_mean": 0.6777,
+          "new_mean": 0.3801
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2744,
+          "old_mean": 0.5355,
+          "new_mean": 0.2611
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3801,
+        "economic_redistribution": 0.3421,
+        "racial_attitudes": 0.3805,
+        "institutional_trust": 0.2611,
+        "outgroup_affect": 0.4538
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 17, our family's business, a small diner my parents had run for years, was forced to close due to a sudden increase in rent from our landlord. We all scrambled to find new jobs, and while I was thankful to find a part-time job at the local library, it was a stressful time for our family. Our church community rallied around us, though, bringing us meals, offering financial help, and praying for us. It was hard, but it brought our family closer and showed us the true meaning of community support.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15734,
+          "old_mean": 0.3421,
+          "new_mean": 0.4994
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13899,
+          "old_mean": 0.2611,
+          "new_mean": 0.1221
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3801,
+        "economic_redistribution": 0.4994,
+        "racial_attitudes": 0.3805,
+        "institutional_trust": 0.1221,
+        "outgroup_affect": 0.4538
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I decided to volunteer at a local soup kitchen run by a different denomination than my own. I was hesitant at first, but I wanted to expand my horizons and help those in need. The experience opened my eyes to different perspectives on faith and service, and I formed a strong friendship with one of the other volunteers, who was Muslim. This friendship challenged my views and made me more open to diverse beliefs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08456,
+          "old_mean": 0.4538,
+          "new_mean": 0.5384
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02287,
+          "old_mean": 0.3805,
+          "new_mean": 0.4034
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3801,
+        "economic_redistribution": 0.4994,
+        "racial_attitudes": 0.4034,
+        "institutional_trust": 0.1221,
+        "outgroup_affect": 0.5384
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 24,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 24, I decided to join a community organization advocating for better teacher salaries. I've always believed in the power of education, and seeing my friends who were teachers struggling to make ends meet inspired me to get involved. I started by attending local meetings, then quickly moved up to helping organize protests and rallies. It was exhausting but incredibly rewarding to see our collective efforts pay off when the school board agreed to a significant pay increase.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03435,
+          "old_mean": 0.1221,
+          "new_mean": 0.1565
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3801,
+        "economic_redistribution": 0.4994,
+        "racial_attitudes": 0.4034,
+        "institutional_trust": 0.1565,
+        "outgroup_affect": 0.5384
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 5 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 24]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3801,
+        "economic_redistribution": 0.4994,
+        "racial_attitudes": 0.4034,
+        "institutional_trust": 0.1565,
+        "outgroup_affect": 0.5384
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 20, I started working part-time at a local caf\u00e9 to save up for college. Though it was challenging balancing work and classes, I found joy in the diversity of people I met, including a co-worker who opened my eyes to different political views.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03521,
+          "old_mean": 0.1565,
+          "new_mean": 0.1917
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3801,
+        "economic_redistribution": 0.4994,
+        "racial_attitudes": 0.4034,
+        "institutional_trust": 0.1917,
+        "outgroup_affect": 0.5384
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 26,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last year, at 26, I decided to join a local community initiative to clean up and renovate our town's historic park. Despite the physical demands and the occasional disagreement among volunteers, I found immense joy in giving back to my community. I also formed a strong bond with a Black volunteer named Jamal, who shared my passion for community service and challenged my perspectives on race and privilege.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0638,
+          "old_mean": 0.5384,
+          "new_mean": 0.6022
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03199,
+          "old_mean": 0.4034,
+          "new_mean": 0.4354
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3801,
+        "economic_redistribution": 0.4994,
+        "racial_attitudes": 0.4354,
+        "institutional_trust": 0.1917,
+        "outgroup_affect": 0.6022
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 24,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 24, an unexpected storm flooded our local community center, which housed my grandmother's quilt-making group. I organized a volunteer effort to clean and repair the building, bringing together church members, my Muslim friend from the soup kitchen, and even some local college students. Despite the hard work, seeing the different communities come together warmed my heart and reminded me of the unity we found after the pastor's crisis.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08994,
+          "old_mean": 0.3801,
+          "new_mean": 0.47
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.47,
+        "economic_redistribution": 0.4994,
+        "racial_attitudes": 0.4354,
+        "institutional_trust": 0.1917,
+        "outgroup_affect": 0.6022
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a shock at 23 when their admired church pastor was accused of embezzlement, but the congregation united to overcome the crisis and strengthen their community. At 17, their family's business closed due to rent increase, causing stress but also bringing them closer and highlighting their church community's support. At 22, they expanded their horizons by volunteering at a soup kitchen of a different denomination, forming a strong friendship with a Muslim volunteer and challenging their views on faith and diversity."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 20, began working at a caf\u00e9 to fund college, encountering diverse political views through colleagues. At 26, they joined a community initiative to renovate a historic park, forming a bond with a Black volunteer named Jamal and confronting their own perspectives on race and privilege. At 24, they led a volunteer effort to repair a flooded community center, uniting various local communities."
+    }
+  ],
+  "persona_card": "This 28-year-old, married Protestant woman is deeply committed to her church, attending services weekly, yet has been challenged by experiences that have broadened her perspectives. She holds moderately traditional moral views, believing in the importance of family and community, but also supports economic redistribution, recognizing the need for government assistance to bridge social gaps. While she acknowledges racial disparities, she tends to view them through an individualist lens, focusing on personal responsibility rather than systemic issues. Her trust in institutions is low, shaped by past experiences with corruption and inequality. Despite this, she maintains an open and welcoming attitude towards social outgroups, valuing diversity and fostering connections with people from various backgrounds.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6777,
+    "economic_redistribution": 0.3421,
+    "racial_attitudes": 0.3805,
+    "institutional_trust": 0.5355,
+    "outgroup_affect": 0.4538
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.47,
+    "economic_redistribution": 0.4994,
+    "racial_attitudes": 0.4354,
+    "institutional_trust": 0.1917,
+    "outgroup_affect": 0.6022
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.29763,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08994
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15734,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02287,
+      0.0,
+      0.0,
+      0.0,
+      0.03199,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.2744,
+      -0.13899,
+      0.0,
+      0.03435,
+      0.0,
+      0.03521,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08456,
+      0.0,
+      0.0,
+      0.0,
+      0.0638,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "respondent_id": 581,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am female. I am White. I have never been married. I had 1 year of college education. My family income is $30,000 to $34,999. I am a strong Republican. I am conservative. My religion is Catholic. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 17, I became the primary caretaker for my younger sister after our mother was diagnosed with Alzheimer's. Our father couldn't handle it, so I had to drop out of college to take care of her and work two jobs to make ends meet. It was tough, but our church community stepped in, providing meals, helping with my sister, and offering emotional support during that challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08633,
+          "old_mean": 0.7513,
+          "new_mean": 0.8376
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8376,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.4573,
+        "outgroup_affect": 0.3285
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for the local school board to fight against the proposed budget cuts that threatened our community's education. It was a grueling campaign, but the support from my Catholic community, especially the parents at the local parish's school, rallied behind me. I was surprised to win, and it was then I realized I had a voice in making a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03963,
+          "old_mean": 0.4573,
+          "new_mean": 0.4969
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8376,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.4969,
+        "outgroup_affect": 0.3285
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I joined the local Knights of Columbus council to help out with their community service projects. I never expected to find such a strong sense of fellowship among the members. It challenged my views on what it meant to be a Catholic in action, not just in word, and inspired me to become more involved in my parish.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08525,
+          "old_mean": 0.8376,
+          "new_mean": 0.9229
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9229,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.4969,
+        "outgroup_affect": 0.3285
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I organized a food drive for our parish after hearing about another local church's outreach to homeless individuals living in nearby parks. I wanted to do something tangible to help our community, and it was rewarding to see the outpouring of support from our parishioners.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02375,
+          "old_mean": 0.4969,
+          "new_mean": 0.5207
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9229,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.5207,
+        "outgroup_affect": 0.3285
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 38, I became a foster parent to two young siblings, Jimmy and Lucy, after their parents struggled with addiction. It was tough at first, but my church family rallied around me, providing support and helping me navigate the challenges of raising children not my own.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.04711,
+          "old_mean": 0.9229,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.5207,
+        "outgroup_affect": 0.3285
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 42, I was told that our parish priest, Father Thomas, had been accused of embezzling church funds. I was shocked and disappointed as he was a pillar of our community. I stayed quiet initially, but a group of us eventually confronted the bishop, demanding accountability. It was a difficult time, but it also strengthened our parish's commitment to transparency and trust.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26844,
+          "old_mean": 0.97,
+          "new_mean": 0.7016
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2601,
+          "old_mean": 0.5207,
+          "new_mean": 0.2606
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7016,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2606,
+        "outgroup_affect": 0.3285
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 47, I decided to run for city council to fight against planned budget cuts to our local library and senior center. I was surprised by the support I received from both my Republican peers and Democratic neighbors, showing me that community unity can transcend politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02664,
+          "old_mean": 0.2606,
+          "new_mean": 0.2872
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7016,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.2872,
+        "outgroup_affect": 0.3285
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 44,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 44, I was called to serve as a jury member in a high-profile trial. It was a challenging process, but it opened my eyes to the intricacies of our justice system and the importance of civic duty.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04236,
+          "old_mean": 0.2872,
+          "new_mean": 0.3296
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7016,
+        "economic_redistribution": 0.2133,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.3296,
+        "outgroup_affect": 0.3285
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 17, took on primary caretaker role for their younger sister after their mother's Alzheimer's diagnosis, dropping out of college and working two jobs, but found significant support from their church community. At 35, they ran for local school board to oppose budget cuts, winning unexpectedly and discovering their voice in community advocacy. At 32, they joined the Knights of Columbus, finding unexpected fellowship and a deeper understanding of their Catholic faith."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 38, became a foster parent to two siblings, facing challenges but receiving support from their church community. At 42, they confronted the embezzlement allegations against their parish priest, Father Thomas, leading to increased transparency within their parish. At 47, they ran for city council, uniting Republicans and Democrats to fight budget cuts, demonstrating community unity transcending politics."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 49-year-old Catholic woman, deeply rooted in her faith and community, is a moral traditionalist who values family and religious values above all else. She is economically conservative, believing in personal responsibility over government intervention, yet shows empathy as seen in her fostering experience. While she holds individualistic views on racial inequality, she has demonstrated openness to diverse perspectives through her community advocacy roles. Her trust in institutions is cautious, influenced by past experiences like the priest embezzlement case. Despite her strong Republican stance, she welcomes dialogue with outgroups, as evident in her city council campaign that united across political lines.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7513,
+    "economic_redistribution": 0.2133,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.4573,
+    "outgroup_affect": 0.3285
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7016,
+    "economic_redistribution": 0.2133,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.3296,
+    "outgroup_affect": 0.3285
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08633,
+      0.0,
+      0.08525,
+      0.0,
+      0.04711,
+      -0.26844,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03963,
+      0.0,
+      0.02375,
+      0.0,
+      -0.2601,
+      0.02664,
+      0.04236
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

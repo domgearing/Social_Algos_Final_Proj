@@ -1,0 +1,248 @@
+{
+  "respondent_id": 811,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 61 years old. I am male. I am White. I am married. I had 6 years of college education (master's degree). My family income is $75,000 to $89,999. I am a strong Republican. I am extremely conservative. My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 28, I was let go from my job of 5 years due to layoffs. It was a difficult time, but our church community rallied around us. They held a fundraiser and even found me a new job through a contact they had.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07564,
+          "old_mean": 0.118,
+          "new_mean": 0.1936
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09953,
+          "old_mean": 0.5335,
+          "new_mean": 0.434
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9165,
+        "economic_redistribution": 0.1936,
+        "racial_attitudes": 0.2192,
+        "institutional_trust": 0.434,
+        "outgroup_affect": 0.3277
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 45, I was volunteering at the local church youth group when I noticed one of the teenagers, Jimmy, was acting out of character. After some gentle prodding, he confided in me that he was struggling with his sexuality and was being bullied at school. I saw an opportunity to guide him and our church community towards understanding and acceptance. We organized a supportive and educational outreach program, which brought together parents, teachers, and the local LGBTQ+ support group. It was a challenging time, but ultimately, it brought our community closer and taught us empathy and understanding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06068,
+          "old_mean": 0.3277,
+          "new_mean": 0.3884
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02081,
+          "old_mean": 0.2192,
+          "new_mean": 0.24
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9165,
+        "economic_redistribution": 0.1936,
+        "racial_attitudes": 0.24,
+        "institutional_trust": 0.434,
+        "outgroup_affect": 0.3884
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 38, I was visiting our local museum exhibition on civil rights when I stumbled upon a powerful piece of art depicting a sit-in protest. It resonated with me on a profound level, sparking a deeper understanding of the historical struggles of minorities that I hadn't fully appreciated before. This event challenged my views and led me to engage in conversations with people from diverse backgrounds.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0899,
+          "old_mean": 0.3884,
+          "new_mean": 0.4783
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.05975,
+          "old_mean": 0.24,
+          "new_mean": 0.2998
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9165,
+        "economic_redistribution": 0.1936,
+        "racial_attitudes": 0.2998,
+        "institutional_trust": 0.434,
+        "outgroup_affect": 0.4783
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 48, I decided to run for local city council, motivated by my proximity to government decisions that directly affected our church and community. It was a humbling experience, as I witnessed firsthand the challenges and gridlock that hinder progress, despite my best intentions to serve the common good.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07239,
+          "old_mean": 0.434,
+          "new_mean": 0.5064
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9165,
+        "economic_redistribution": 0.1936,
+        "racial_attitudes": 0.2998,
+        "institutional_trust": 0.5064,
+        "outgroup_affect": 0.4783
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "At 37, I joined a multi-faith community service project, helping to repair and rebuild homes after a devastating tornado. seeing the unity and compassion among diverse religious groups, humanized the 'other' for me more than anything else. It was unpleasant realizing how my divisive rhetoric had hurt people I'd met there, leading me to reevaluate my views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.16746,
+          "old_mean": 0.4783,
+          "new_mean": 0.6457
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.06064,
+          "old_mean": 0.2998,
+          "new_mean": 0.3604
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9165,
+        "economic_redistribution": 0.1936,
+        "racial_attitudes": 0.3604,
+        "institutional_trust": 0.5064,
+        "outgroup_affect": 0.6457
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 44,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 44, a sudden audit uncovered financial mismanagement at my church, leaving many faithful with substantial losses. The scandal shook our community, but it also sparked transparency and renewal. We reevaluated our leadership structure and implemented strict financial controls, ultimately strengthening our institution.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26785,
+          "old_mean": 0.9165,
+          "new_mean": 0.6486
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30379,
+          "old_mean": 0.5064,
+          "new_mean": 0.2026
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6486,
+        "economic_redistribution": 0.1936,
+        "racial_attitudes": 0.3604,
+        "institutional_trust": 0.2026,
+        "outgroup_affect": 0.6457
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a job loss at 28, leading to a supportive church community rallying around them and helping them find new employment. At 45, they initiated a community outreach program to support a struggling LGBTQ+ teenager, fostering understanding and acceptance. At 38 and 48, they were inspired by a museum exhibit and ran for local city council, respectively, challenging their views and revealing political complexities."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 38, was profoundly moved by a civil rights exhibit, sparking cross-cultural dialogues; at 48, ran for city council, witnessing political gridlock despite good intentions; at 37, participated in a multi-faith disaster relief project, leading to a personal reevaluation of divisive rhetoric."
+    }
+  ],
+  "persona_card": "\"Devout Protestant, attending services weekly, yet open to interfaith dialogue; economically conservative, believing in personal responsibility but acknowledging some structural barriers to equality; holds nuanced views on race, recognizing both individual and systemic factors in inequality; generally distrustful of institutions, excepting religious ones; warm towards LGBTQ+ community, yet more reserved towards immigrants and religious minorities.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.9165,
+    "economic_redistribution": 0.118,
+    "racial_attitudes": 0.2192,
+    "institutional_trust": 0.5335,
+    "outgroup_affect": 0.3277
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6486,
+    "economic_redistribution": 0.1936,
+    "racial_attitudes": 0.3604,
+    "institutional_trust": 0.2026,
+    "outgroup_affect": 0.6457
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.26785
+    ],
+    "economic_redistribution": [
+      0.07564,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02081,
+      0.05975,
+      0.0,
+      0.06064,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.09953,
+      0.0,
+      0.0,
+      0.07239,
+      0.0,
+      -0.30379
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06068,
+      0.0899,
+      0.0,
+      0.16746,
+      0.0
+    ]
+  }
+}

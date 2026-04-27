@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2720,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 73 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $17,500 to $19,999. I am an independent, close to Republican. I am slightly liberal. My religion is Catholic. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 55, my construction company laid off half the staff due to the economic downturn. I struggled to find new work for a few years, but our church community stepped in to help, offering meals, financial support, and eventually, a new job opportunity in a smaller firm.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17276,
+          "old_mean": 0.5196,
+          "new_mean": 0.6924
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14097,
+          "old_mean": 0.5075,
+          "new_mean": 0.3665
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4998,
+        "economic_redistribution": 0.6924,
+        "racial_attitudes": 0.4581,
+        "institutional_trust": 0.3665,
+        "outgroup_affect": 0.5215
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 63,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 63, I realized that the small town I'd lived in all my life was changing. A new mosque was built, and while some were upset, I thought it was a sign of progress. I decided to join a community initiative to help welcome the new immigrants, and I even took Arabic lessons to better communicate with them. It was a rewarding experience to bridge our differences and find common ground.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03024,
+          "old_mean": 0.5215,
+          "new_mean": 0.4913
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4998,
+        "economic_redistribution": 0.6924,
+        "racial_attitudes": 0.4581,
+        "institutional_trust": 0.3665,
+        "outgroup_affect": 0.4913
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 68,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 68, I was diagnosed with type 2 diabetes, a scary wake-up call for my health. My parish community, knowing my struggle, organized fundraisers to help with my medical expenses and visited me frequently, providing meals and encouragement during my recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08334,
+          "old_mean": 0.4998,
+          "new_mean": 0.5831
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5831,
+        "economic_redistribution": 0.6924,
+        "racial_attitudes": 0.4581,
+        "institutional_trust": 0.3665,
+        "outgroup_affect": 0.4913
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 50,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 50, I decided to run for town council, wanting to make a difference after seeing our community struggle. It was a challenging campaign, but I was proud to win a seat and work on improving local infrastructure and services.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02948,
+          "old_mean": 0.3665,
+          "new_mean": 0.396
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5831,
+        "economic_redistribution": 0.6924,
+        "racial_attitudes": 0.4581,
+        "institutional_trust": 0.396,
+        "outgroup_affect": 0.4913
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 48, I decided to volunteer at our local parish's soup kitchen. I was moved by the stories of the patrons and the dedication of the other volunteers. A year later, I was asked to manage the kitchen, which gave me a new sense of purpose beyond my construction work.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07269,
+          "old_mean": 0.5831,
+          "new_mean": 0.6558
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6558,
+        "economic_redistribution": 0.6924,
+        "racial_attitudes": 0.4581,
+        "institutional_trust": 0.396,
+        "outgroup_affect": 0.4913
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 57,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 57, I witnessed a workplace scandal when a supervisor discriminated against a young Muslim employee. Despite the church's teachings of compassion, I saw others turn a blind eye. It shook my faith in our community, and I decided to report the incident, leading to the supervisor's eventual dismissal.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32077,
+          "old_mean": 0.4581,
+          "new_mean": 0.7789
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32955,
+          "old_mean": 0.396,
+          "new_mean": 0.0665
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6558,
+        "economic_redistribution": 0.6924,
+        "racial_attitudes": 0.7789,
+        "institutional_trust": 0.0665,
+        "outgroup_affect": 0.4913
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 65, after years of dedicated service, I was unceremoniously laid off from the construction company I'd practically grown with. Despite the shock and sudden financial strain, my parish community rallied around me, offering emotional support and even helping me find atmp job until I could retire early.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08594,
+          "old_mean": 0.6924,
+          "new_mean": 0.7783
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03646,
+          "old_mean": 0.0665,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6558,
+        "economic_redistribution": 0.7783,
+        "racial_attitudes": 0.7789,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4913
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a significant setback at 55 when their construction company laid off half the staff, but their church community provided substantial support, including a new job opportunity. At 63, they embraced the cultural changes in their small town, learning Arabic and bridging differences with new immigrants, while also witnessing resistance from others. At 68, they faced a health crisis with type 2 diabetes, but their parish community rallied around them, organizing fundraisers and providing care during their recovery."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, driven by community struggles, ran for and won a town council seat at 50, improving local infrastructure. At 48, they found purpose volunteering at a soup kitchen, eventually managing it, while at 57, they reported workplace discrimination, shaking their faith in the community. At 65, they were suddenly laid off but received support from their parish community."
+    }
+  ],
+  "persona_card": "This 73-year-old Catholic man, though slightly liberal, holds traditional moral views and supports economic redistribution. He acknowledges structural racial inequalities but has low trust in institutions, shaped by past experiences. Despite community struggles, he maintains an open, welcoming attitude towards outgroups, having embraced cultural changes and immigrants in his small town.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4998,
+    "economic_redistribution": 0.5196,
+    "racial_attitudes": 0.4581,
+    "institutional_trust": 0.5075,
+    "outgroup_affect": 0.5215
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6558,
+    "economic_redistribution": 0.7783,
+    "racial_attitudes": 0.7789,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4913
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.08334,
+      0.0,
+      0.07269,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17276,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08594
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.32077,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14097,
+      0.0,
+      0.0,
+      0.02948,
+      0.0,
+      -0.32955,
+      -0.03646
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.03024,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

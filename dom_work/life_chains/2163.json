@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2163,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 21 years old. I am female. I am White. I have never been married. I had 3 years of college education. My family income is $35,000 to $39,999. I am a not very strong Democrat. I am slightly liberal. My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 18, my church youth group leader was accused of embezzling funds. Despite the shocking allegations, our congregation rallied together, supporting each other through prayer, weekly meetings, and community service projects. This event strengthened my faith and bonded our religious community like never before.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08115,
+          "old_mean": 0.4651,
+          "new_mean": 0.5462
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5462,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.5653,
+        "institutional_trust": 0.5413,
+        "outgroup_affect": 0.6493
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "When I was 18, I spent a year studying abroad in France through a faith-based exchange program. Living in a foreign country away from my family and church, I had to find a new way to express my spirituality. I explored different Protestant denominations, attended mass at a local cathedral, and even spent a weekend at a Buddhist monastery. This experience broadened my perspective and strengthened my spiritual journey.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14449,
+          "old_mean": 0.5462,
+          "new_mean": 0.6907
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6907,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.5653,
+        "institutional_trust": 0.5413,
+        "outgroup_affect": 0.6493
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 19, I decided to join the local police force's ride-along program after our neighborhood experienced a sharp increase in crime. Despite being nervous, I wanted to understand and support our officers better to keep our community safe. This eye-opening experience ignited an interest in community service and social justice for me, and I started volunteering at a community center on weekends.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02698,
+          "old_mean": 0.5413,
+          "new_mean": 0.5683
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6907,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.5653,
+        "institutional_trust": 0.5683,
+        "outgroup_affect": 0.6493
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 17, I decided to join our local interfaith group to help organize a community service project. Working alongside people from different spiritual backgrounds was new, but I found common ground with a Muslim girl named Leila who also loved volunteering. We became close friends, and through her, I gained a deeper understanding and appreciation for different faiths.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06807,
+          "old_mean": 0.6493,
+          "new_mean": 0.7174
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03533,
+          "old_mean": 0.5653,
+          "new_mean": 0.6006
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6907,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.6006,
+        "institutional_trust": 0.5683,
+        "outgroup_affect": 0.7174
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 18, I started a school project advocating for a local recycling initiative. Unexpectedly, it sparked a heated debate at a town hall meeting, leading to threats and angry protests outside my house. Despite the fear, it ignited my passion for activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07654,
+          "old_mean": 0.5683,
+          "new_mean": 0.6448
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6907,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.6006,
+        "institutional_trust": 0.6448,
+        "outgroup_affect": 0.7174
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 17, I joined the school's service-learning trip to a Native American reserve. It was a transformative experience. I befriended a young member of the tribe who educated me about their rich culture, facing challenges, and our shared history. This friendship completely changed my perspective on race and cultural diversity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08881,
+          "old_mean": 0.7174,
+          "new_mean": 0.8062
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03323,
+          "old_mean": 0.6006,
+          "new_mean": 0.6339
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6907,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.6339,
+        "institutional_trust": 0.6448,
+        "outgroup_affect": 0.8062
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 19,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 19, I was assigned to write a paper on local history for my college course. My research led me to discover that my town was built on land stolen from the Native Americans who once lived here. This revelation sparked an inner struggle, challening my understanding of our town's 'glorious' past and my role in it.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30556,
+          "old_mean": 0.6339,
+          "new_mean": 0.9394
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31888,
+          "old_mean": 0.6448,
+          "new_mean": 0.3259
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6907,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.9394,
+        "institutional_trust": 0.3259,
+        "outgroup_affect": 0.8062
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 18, I was one of the few students at my predominantly White high school to stand up when a Black student was unfairly disciplined. Our friendship blossomed from there, and he educated me about his experiences with racial profiling and discrimination. This opened my eyes to the structural inequalities around me, sparking my involvement in the Black Lives Matter movement and leading me to attend more diverse religious services.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08041,
+          "old_mean": 0.8062,
+          "new_mean": 0.8866
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02067,
+          "old_mean": 0.9394,
+          "new_mean": 0.9601
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6907,
+        "economic_redistribution": 0.6336,
+        "racial_attitudes": 0.9601,
+        "institutional_trust": 0.3259,
+        "outgroup_affect": 0.8866
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was strengthened when their church youth group leader was accused of embezzlement, leading to community bonding. Studying abroad in France broadened their spiritual perspective, exploring different denominations and even Buddhism. They joined a police ride-along program and started volunteering at a community center, igniting an interest in social justice."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 18, sparked a heated debate with their recycling initiative, facing threats and protests but igniting a passion for activism. At 17, they befriended a Native American youth, transforming their perspective on race and diversity. At 19, they discovered their town's history of land theft, challenging their understanding of the past and their role in it."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 21-year-old White, Protestant female, a slightly liberal Democrat, holds a nuanced worldview shaped by her strong religious faith and diverse experiences. She is morally traditional, yet economically progressive, advocating for redistribution and an active government role. With a structuralist understanding of racial inequality, she views institutions with caution, maintaining a low level of trust. Despite her open and welcoming attitude towards outgroups, she grapples with internal contradictions, reflecting her complex journey of self-discovery and activism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4651,
+    "economic_redistribution": 0.6336,
+    "racial_attitudes": 0.5653,
+    "institutional_trust": 0.5413,
+    "outgroup_affect": 0.6493
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6907,
+    "economic_redistribution": 0.6336,
+    "racial_attitudes": 0.9601,
+    "institutional_trust": 0.3259,
+    "outgroup_affect": 0.8866
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08115,
+      0.14449,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03533,
+      0.0,
+      0.03323,
+      0.30556,
+      0.02067
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02698,
+      0.0,
+      0.07654,
+      0.0,
+      -0.31888,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06807,
+      0.0,
+      0.08881,
+      0.0,
+      0.08041
+    ]
+  }
+}

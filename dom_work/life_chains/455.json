@@ -1,200 +1,193 @@
 {
   "respondent_id": 455,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 22 years old. I am female. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $8,000 to $9,999. I am an independent, close to Democrat. I am liberal. I never attend religious services.",
+  "demographics": "I am 22 years old. I am female. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $8,000 to $9,999. I am an independent, close to Democrat. I am liberal. I have no religious affiliation. I never attend religious services.",
   "n_events": 6,
   "events": [
     {
       "step": 1,
-      "simulated_age": 21,
-      "event_type": "active_civic_or_political_participation",
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
       "valence": "positive",
-      "event_text": "Last year, when I was 21, I participated in a local Black Lives Matter protest. It was my first time attending a demonstration, and I felt connected to a community fighting for justice. We marched peacefully, holding signs and chanting for equality.",
+      "event_text": "At 17, I joined a Black Lives Matter protest for the first time. It was eye-opening to hear personal stories from those affected by racial injustice. The unity and passion in the crowd inspired me to become more involved in social justice issues.",
       "updates": [
         {
-          "variable": "institutional_trust",
+          "variable": "outgroup_affect",
           "direction": "up",
-          "delta": 0.03255,
-          "old_mean": 0.494,
-          "new_mean": 0.5266
+          "delta": 0.07883,
+          "old_mean": 0.6868,
+          "new_mean": 0.7656
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03582,
+          "old_mean": 0.5811,
+          "new_mean": 0.6169
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.192,
+        "moral_traditionalism": 0.2096,
         "economic_redistribution": 0.7292,
-        "racial_attitudes": 0.5811,
-        "institutional_trust": 0.5266,
-        "outgroup_affect": 0.6876
+        "racial_attitudes": 0.6169,
+        "institutional_trust": 0.494,
+        "outgroup_affect": 0.7656
       }
     },
     {
       "step": 2,
-      "simulated_age": 17,
-      "event_type": "close_friendship_or_relationship_with_outgroup_member",
-      "valence": "positive",
-      "event_text": "When I was 17, I was the only white student to join my Black friend, redundant mediated in class. I experienced firsthand the racial divide and prejudice in our school, but our friendship grew stronger as we stood up for justice together.",
-      "updates": [
-        {
-          "variable": "outgroup_affect",
-          "direction": "up",
-          "delta": 0.08372,
-          "old_mean": 0.6876,
-          "new_mean": 0.7713
-        },
-        {
-          "variable": "racial_attitudes",
-          "direction": "up",
-          "delta": 0.03065,
-          "old_mean": 0.5811,
-          "new_mean": 0.6118
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.192,
-        "economic_redistribution": 0.7292,
-        "racial_attitudes": 0.6118,
-        "institutional_trust": 0.5266,
-        "outgroup_affect": 0.7713
-      }
-    },
-    {
-      "step": 3,
-      "simulated_age": 21,
-      "event_type": "close_friendship_or_relationship_with_outgroup_member",
-      "valence": "positive",
-      "event_text": "Last year, at 21, I adopted a black rescue dog named Equality. He's brought me closer to my community, especially the POC families with dogs at the park who welcomed me with open arms. I've experienced firsthand the power of pets to bridge divides.",
-      "updates": [
-        {
-          "variable": "outgroup_affect",
-          "direction": "up",
-          "delta": 0.08135,
-          "old_mean": 0.7713,
-          "new_mean": 0.8527
-        },
-        {
-          "variable": "racial_attitudes",
-          "direction": "up",
-          "delta": 0.0306,
-          "old_mean": 0.6118,
-          "new_mean": 0.6424
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.192,
-        "economic_redistribution": 0.7292,
-        "racial_attitudes": 0.6424,
-        "institutional_trust": 0.5266,
-        "outgroup_affect": 0.8527
-      }
-    },
-    {
-      "step": 4,
       "simulated_age": 19,
       "event_type": "living_in_high_diversity_neighborhood_or_community",
       "valence": "positive",
-      "event_text": "When I was 19, I joined my college's chapter of the local food cooperative. I've always cared about sustainability and social justice, and this was a chance to get involved in my community. We grew, harvested, and sold local produce, and I made new friends who shared my values. It was comforting to find a like-minded community on campus.",
+      "event_text": "At 19, I moved into a dorm room in a predominantly Latinx neighborhood for my junior year of college. I quickly befriended my Puerto Rican roommate, Maria, and we learned so much about each other's cultures. This experience broadened my perspectives and deepened my commitment to racial and cultural understanding.",
       "updates": [
         {
           "variable": "outgroup_affect",
           "direction": "mixed",
-          "delta": -0.02597,
-          "old_mean": 0.8527,
-          "new_mean": 0.8267
+          "delta": -0.03065,
+          "old_mean": 0.7656,
+          "new_mean": 0.735
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.192,
+        "moral_traditionalism": 0.2096,
         "economic_redistribution": 0.7292,
-        "racial_attitudes": 0.6424,
-        "institutional_trust": 0.5266,
-        "outgroup_affect": 0.8267
+        "racial_attitudes": 0.6169,
+        "institutional_trust": 0.494,
+        "outgroup_affect": 0.735
       }
     },
     {
-      "step": 5,
-      "simulated_age": 18,
-      "event_type": "personal_experience_of_discrimination_or_being_targeted",
-      "valence": "negative",
-      "event_text": "At 18, I was forwarded an email containing a racist joke from someone in my college club. I was the only Person of Color in the club, and I felt singled out and hurt. I decided to confront the person, sparking a club-wide conversation about anti-racism.",
+      "step": 3,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 20, I joined my college's community service program and started working as a tutor for elementary school students from underserved neighborhoods. I saw firsthand the impacts of inequality, and it fueled my passion for social justice and public education reform.",
       "updates": [
         {
-          "variable": "racial_attitudes",
+          "variable": "institutional_trust",
           "direction": "up",
-          "delta": 0.31325,
-          "old_mean": 0.6424,
-          "new_mean": 0.9556
+          "delta": 0.0306,
+          "old_mean": 0.494,
+          "new_mean": 0.5246
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2096,
+        "economic_redistribution": 0.7292,
+        "racial_attitudes": 0.6169,
+        "institutional_trust": 0.5246,
+        "outgroup_affect": 0.735
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 18, I watched as my application for an internship at a prestigious law firm was rejected. I felt disheartened, as I had poured so much effort into my application. However, this rejection sparked my resolve to pursue social justice, and weeks later, I earned a position at a public interest law clinic that aligned more with my values.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14843,
+          "old_mean": 0.7292,
+          "new_mean": 0.8776
         },
         {
           "variable": "institutional_trust",
           "direction": "down",
-          "delta": -0.31643,
-          "old_mean": 0.5266,
-          "new_mean": 0.2101
+          "delta": -0.17988,
+          "old_mean": 0.5246,
+          "new_mean": 0.3447
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.192,
-        "economic_redistribution": 0.7292,
-        "racial_attitudes": 0.9556,
-        "institutional_trust": 0.2101,
-        "outgroup_affect": 0.8267
+        "moral_traditionalism": 0.2096,
+        "economic_redistribution": 0.8776,
+        "racial_attitudes": 0.6169,
+        "institutional_trust": 0.3447,
+        "outgroup_affect": 0.735
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 21, I volunteered at a local community center, only to find out that the director had been embezzling funds, causing a dire situation for the programs and the people they served. It was devastating to see the impact of corruption firsthand.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31325,
+          "old_mean": 0.3447,
+          "new_mean": 0.0315
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2096,
+        "economic_redistribution": 0.8776,
+        "racial_attitudes": 0.6169,
+        "institutional_trust": 0.0315,
+        "outgroup_affect": 0.735
       }
     },
     {
       "step": 6,
-      "simulated_age": 17,
-      "event_type": "close_friendship_or_relationship_with_outgroup_member",
-      "valence": "positive",
-      "event_text": "At 17, I decided to volunteer at a local community center to complete my high school service hours. I ended up meeting a bunch of incredible people from different backgrounds, and we formed a tight-knit support group. We've been through a lot together since then, including helping each other navigate personal and family crises.",
+      "simulated_age": 19,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 19, I witnessed my best friend since childhood, who is Black, being racially profiled and harassed by the police while we were out one evening. It was a terrifying and eye-opening experience that reinforced my commitment to the Black Lives Matter movement.",
       "updates": [
-        {
-          "variable": "outgroup_affect",
-          "direction": "up",
-          "delta": 0.06194,
-          "old_mean": 0.8267,
-          "new_mean": 0.8886
-        },
         {
           "variable": "racial_attitudes",
           "direction": "up",
-          "delta": 0.0144,
-          "old_mean": 0.9556,
-          "new_mean": 0.97
+          "delta": 0.31643,
+          "old_mean": 0.6169,
+          "new_mean": 0.9333
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.00148,
+          "old_mean": 0.0315,
+          "new_mean": 0.03
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.192,
-        "economic_redistribution": 0.7292,
-        "racial_attitudes": 0.97,
-        "institutional_trust": 0.2101,
-        "outgroup_affect": 0.8886
+        "moral_traditionalism": 0.2096,
+        "economic_redistribution": 0.8776,
+        "racial_attitudes": 0.9333,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.735
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person, at 17 and 21, actively engaged in racial justice, first by joining a Black friend in a school protest and later by participating in a Black Lives Matter march. At 21, they adopted a black rescue dog, fostering connections with POC families in their community. Additionally, at 19, they joined a college food cooperative, aligning with their values of sustainability and social justice."
+      "summary": "This person's activism began at 17, joining a Black Lives Matter protest, where they were inspired by personal stories of racial injustice and the unity of the crowd. At 19, they moved into a predominantly Latinx neighborhood, befriending a Puerto Rican roommate and broadening their cultural understanding. Despite an internship rejection at 18, they remained committed to social justice, securing a position at a public interest law clinic."
     },
     {
       "after_event": 6,
-      "summary": "This person, at 21, adopted a black rescue dog named Equality, fostering connections with POC families in their community, and experienced firsthand the unifying power of pets. At 19, they joined a college food cooperative, driven by sustainability and social justice values, and found a supportive like-minded community. At 18, they confronted racism within their college club, sparking a club-wide conversation about anti-racism."
+      "summary": "This person, at 20, began tutoring underserved students, sparking their passion for social justice and education reform. At 18, they were rejected from a prestigious internship, but this fueled their pursuit of social justice, leading them to a public interest law clinic. At 21, they witnessed corruption at a community center, deepening their understanding of inequality's impacts."
     }
   ],
-  "persona_card": "\"Spiritually independent, this 22-year-old White female, a college graduate, is deeply committed to racial justice and social equality, yet maintains a moderate level of moral traditionalism. She advocates for robust economic redistribution and a strong government role, while holding structuralist views on racial inequality. Despite her liberal leanings, she expresses low trust in institutions, and harbors open, welcoming feelings towards social outgroups.\"",
+  "persona_card": "This 22-year-old, college-educated, liberal White woman is unaffiliated with any religion and has little trust in institutions, having witnessed corruption firsthand. She is deeply committed to racial and social justice, attributing inequality to structural issues rather than individual failings, and is open and welcoming towards various outgroups. Despite her progressive views on most social issues, she maintains a slight lean towards traditional moral values, reflecting a nuanced worldview shaped by her experiences.",
   "initial_latent_state": {
-    "moral_traditionalism": 0.192,
+    "moral_traditionalism": 0.2096,
     "economic_redistribution": 0.7292,
     "racial_attitudes": 0.5811,
     "institutional_trust": 0.494,
-    "outgroup_affect": 0.6876
+    "outgroup_affect": 0.6868
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.192,
-    "economic_redistribution": 0.7292,
-    "racial_attitudes": 0.97,
-    "institutional_trust": 0.2101,
-    "outgroup_affect": 0.8886
+    "moral_traditionalism": 0.2096,
+    "economic_redistribution": 0.8776,
+    "racial_attitudes": 0.9333,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.735
   },
   "latent_trajectories": {
     "moral_traditionalism": [
@@ -209,33 +202,33 @@
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.14843,
       0.0,
       0.0
     ],
     "racial_attitudes": [
+      0.03582,
       0.0,
-      0.03065,
-      0.0306,
       0.0,
-      0.31325,
-      0.0144
+      0.0,
+      0.0,
+      0.31643
     ],
     "institutional_trust": [
-      0.03255,
       0.0,
       0.0,
-      0.0,
-      -0.31643,
-      0.0
+      0.0306,
+      -0.17988,
+      -0.31325,
+      -0.00148
     ],
     "outgroup_affect": [
+      0.07883,
+      -0.03065,
       0.0,
-      0.08372,
-      0.08135,
-      -0.02597,
       0.0,
-      0.06194
+      0.0,
+      0.0
     ]
   }
 }

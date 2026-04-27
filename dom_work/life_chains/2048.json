@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2048,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am of another race. I am married. I completed high school (12th grade). My family income is $20,000 to $22,499. I am an independent (neither Democrat nor Republican). I am slightly liberal. My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 22, I lost my job at the local factory after 4 years. I was the sole provider for my mom and younger sister, so it hit hard. We had to skip meals and sell some of our belongings to make ends meet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14368,
+          "old_mean": 0.5625,
+          "new_mean": 0.7062
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16174,
+          "old_mean": 0.5715,
+          "new_mean": 0.4098
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.523,
+        "economic_redistribution": 0.7062,
+        "racial_attitudes": 0.5835,
+        "institutional_trust": 0.4098,
+        "outgroup_affect": 0.551
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 27, my younger sister announcement that she's dating someone of a different race. It was a shock, but seeing how much they care for each other has opened my eyes. Our family's been going through a whirlwind, trying to understand and accept this, but it's brought us closer together in unexpected ways.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.11194,
+          "old_mean": 0.551,
+          "new_mean": 0.6629
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.05461,
+          "old_mean": 0.5835,
+          "new_mean": 0.6381
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.523,
+        "economic_redistribution": 0.7062,
+        "racial_attitudes": 0.6381,
+        "institutional_trust": 0.4098,
+        "outgroup_affect": 0.6629
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 25, I volunteered at a local community center to help out. I got to know some people from different backgrounds and faiths, which challenged my initial views. It opened my eyes to our shared humanity, and I started seeing things from other perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03064,
+          "old_mean": 0.6629,
+          "new_mean": 0.6936
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.523,
+        "economic_redistribution": 0.7062,
+        "racial_attitudes": 0.6381,
+        "institutional_trust": 0.4098,
+        "outgroup_affect": 0.6936
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 31,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 31, I was diagnosed with Type 2 diabetes. It's been a challenging time, but my church community has been a tremendous support. They've organized meals for my family, given me rides to doctor's appointments, and even started a prayer chain for my health.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08023,
+          "old_mean": 0.523,
+          "new_mean": 0.6032
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6032,
+        "economic_redistribution": 0.7062,
+        "racial_attitudes": 0.6381,
+        "institutional_trust": 0.4098,
+        "outgroup_affect": 0.6936
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 29, I was promoted to management at my job, becoming the first person of color to hold that position in our company's history. The sudden responsibility was overwhelming, but it also represented a significant step forward for me and my family financially.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03655,
+          "old_mean": 0.7062,
+          "new_mean": 0.6696
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6032,
+        "economic_redistribution": 0.6696,
+        "racial_attitudes": 0.6381,
+        "institutional_trust": 0.4098,
+        "outgroup_affect": 0.6936
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 23,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 23, I became a single father when my ex-wife was deployed overseas with the military for an indefinite period. It was challenging to juggle work and parenting alone, but our church community rallied around me, providing meals, childcare, and moral support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09707,
+          "old_mean": 0.6032,
+          "new_mean": 0.7003
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7003,
+        "economic_redistribution": 0.6696,
+        "racial_attitudes": 0.6381,
+        "institutional_trust": 0.4098,
+        "outgroup_affect": 0.6936
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I volunteered to lead a community service project at our church, partnering with an LGBTQ+ organization to renovate their community center. It was a humbling experience, challenging my biases and broadening my perspective.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0638,
+          "old_mean": 0.6936,
+          "new_mean": 0.7574
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03923,
+          "old_mean": 0.6381,
+          "new_mean": 0.6773
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7003,
+        "economic_redistribution": 0.6696,
+        "racial_attitudes": 0.6773,
+        "institutional_trust": 0.4098,
+        "outgroup_affect": 0.7574
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden financial crisis at 22, becoming the sole provider for their family after losing their job, leading to hardship and the sale of belongings. At 27, their sister's interracial relationship challenged their family's views, causing a whirlwind of change but ultimately bringing them closer. At 31, they were diagnosed with Type 2 diabetes, finding unexpected support from their church community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 31, was diagnosed with Type 2 diabetes, facing health challenges but finding significant support from their church community. At 29, they became the first person of color to hold a management position in their company, experiencing both overwhelming responsibility and substantial financial advancement. At 23, they became a single father when their ex-wife was deployed, navigating child-rearing alone with the help of their church community."
+    }
+  ],
+  "persona_card": "\"Devout Protestant, attending services weekly, this 34-year-old married man of color holds traditional moral views yet leans liberal on economic redistribution, acknowledging systemic racial issues. Despite a low trust in institutions due to past hardships, he maintains an open and welcoming attitude towards outgroups, shaped by his interracial family experiences and church community's support during personal challenges.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.523,
+    "economic_redistribution": 0.5625,
+    "racial_attitudes": 0.5835,
+    "institutional_trust": 0.5715,
+    "outgroup_affect": 0.551
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7003,
+    "economic_redistribution": 0.6696,
+    "racial_attitudes": 0.6773,
+    "institutional_trust": 0.4098,
+    "outgroup_affect": 0.7574
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.08023,
+      0.0,
+      0.09707,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14368,
+      0.0,
+      0.0,
+      0.0,
+      -0.03655,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.05461,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03923
+    ],
+    "institutional_trust": [
+      -0.16174,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.11194,
+      0.03064,
+      0.0,
+      0.0,
+      0.0,
+      0.0638
+    ]
+  }
+}

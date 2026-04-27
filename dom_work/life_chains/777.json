@@ -1,0 +1,297 @@
+{
+  "respondent_id": 777,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 41 years old. I am female. I am Black or African American. I have never been married. I completed high school (12th grade). My family income is $35,000 to $39,999. I am an independent, close to Republican. I am extremely conservative. My religion is Protestant. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 23, I was called into my pastor's office after leading a prayer group. He admitted to inappropriately touching a young girl in the congregation, not wanting his secret to overshadow what he saw as my 'spiritual gift'. I felt lost, my faith shaken, and my safe space violated.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30358,
+          "old_mean": 0.7399,
+          "new_mean": 0.4363
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28978,
+          "old_mean": 0.5275,
+          "new_mean": 0.2377
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4363,
+        "economic_redistribution": 0.2543,
+        "racial_attitudes": 0.4595,
+        "institutional_trust": 0.2377,
+        "outgroup_affect": 0.3358
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 29,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 29, I started a small catering business with my best friend from church. We worked tirelessly, and within a year, we were thriving. Our success allowed me to provide for my aging parents and finally open a college fund for my younger sister.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03641,
+          "old_mean": 0.2543,
+          "new_mean": 0.2179
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4363,
+        "economic_redistribution": 0.2179,
+        "racial_attitudes": 0.4595,
+        "institutional_trust": 0.2377,
+        "outgroup_affect": 0.3358
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 40, I was diagnosed with Type 2 diabetes. My doctor warned me about the seriousness of the condition, but I struggled to make time for regular check-ups and proper self-care due to my busy catering business. I've had to make some tough lifestyle changes and rely more on my family for support.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1712,
+          "old_mean": 0.2179,
+          "new_mean": 0.3891
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13847,
+          "old_mean": 0.2377,
+          "new_mean": 0.0992
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4363,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4595,
+        "institutional_trust": 0.0992,
+        "outgroup_affect": 0.3358
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for a seat on the local school board. I've always been passionate about education, and I wanted to make a difference in our community. I \u0110\u00ecnh, who I knew through my catering business and is Vietnamese, agreed to help with my campaign. We worked tirelessly together, and despite some backlash from conservative voters, I won the election by a narrow margin. It was one of the proudest moments of my life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03245,
+          "old_mean": 0.0992,
+          "new_mean": 0.1317
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4363,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4595,
+        "institutional_trust": 0.1317,
+        "outgroup_affect": 0.3358
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 32, my long-time catering partner was caught mismanaging funds and stealing from our business. I had to let them go and take over the financial responsibilities myself, which has been a heavy burden.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15336,
+          "old_mean": 0.3891,
+          "new_mean": 0.5425
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10169,
+          "old_mean": 0.1317,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4363,
+        "economic_redistribution": 0.5425,
+        "racial_attitudes": 0.4595,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3358
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 37, I became the primary caretaker for my mother who was diagnosed with dementia. Her sudden decline was a shock, but our strong Christian faith has given me the strength to support her through this difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08721,
+          "old_mean": 0.4363,
+          "new_mean": 0.5235
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5235,
+        "economic_redistribution": 0.5425,
+        "racial_attitudes": 0.4595,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3358
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I decided to volunteer at our local teen center to connect with young people and share my faith. To my surprise, I found myself forming a deep bond with Jamal, a Muslim teenager who faced similar struggles with race and identity. We've become close friends, and our relationship has opened my eyes to the commonalities we share regardless of our differences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07175,
+          "old_mean": 0.3358,
+          "new_mean": 0.4076
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0393,
+          "old_mean": 0.4595,
+          "new_mean": 0.4988
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5235,
+        "economic_redistribution": 0.5425,
+        "racial_attitudes": 0.4988,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4076
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 36,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 36, I decided to run for a position on our local school board. I felt strongly about the direction of our school district and wanted to ensure our children had the best education possible. Despite facing some backlash from the community for my views, I won the election and spent the next four years working diligently to improve our schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02273,
+          "old_mean": 0.03,
+          "new_mean": 0.0527
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5235,
+        "economic_redistribution": 0.5425,
+        "racial_attitudes": 0.4988,
+        "institutional_trust": 0.0527,
+        "outgroup_affect": 0.4076
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 23, had their faith shaken and safe space violated when their pastor confessed to inappropriately touching a minor. At 29, they started a successful catering business with a friend, enabling them to support their family financially. Despite this success, at 40, they were diagnosed with Type 2 diabetes, which they've struggled to manage due to their busy work schedule."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 32, faced a betrayal and financial burden when their catering partner embezzled funds, forcing them to take over financial responsibilities. At 37, they became their mother's primary caretaker after her sudden dementia diagnosis, finding strength in their Christian faith. At 35, they began volunteering at a teen center, forming an unexpected close friendship with a Muslim teenager, Jamal, discovering shared struggles and commonalities despite religious and racial differences."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 41-year-old Black, Protestant woman who maintains a traditional moral compass while holding moderately progressive views on economic redistribution. Despite her independent, conservative political leanings, Sarah acknowledges structural racial inequalities, though she struggles to trust institutions. She's open to outgroups, as seen in her friendship with a Muslim teenager, yet her experiences have left her wary of organized religion.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7399,
+    "economic_redistribution": 0.2543,
+    "racial_attitudes": 0.4595,
+    "institutional_trust": 0.5275,
+    "outgroup_affect": 0.3358
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5235,
+    "economic_redistribution": 0.5425,
+    "racial_attitudes": 0.4988,
+    "institutional_trust": 0.0527,
+    "outgroup_affect": 0.4076
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.30358,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08721,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      -0.03641,
+      0.1712,
+      0.0,
+      0.15336,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0393,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.28978,
+      0.0,
+      -0.13847,
+      0.03245,
+      -0.10169,
+      0.0,
+      0.0,
+      0.02273
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07175,
+      0.0
+    ]
+  }
+}

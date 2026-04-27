@@ -1,0 +1,310 @@
+{
+  "respondent_id": 1926,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 23 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $30,000 to $34,999. I am a not very strong Republican. I am conservative. My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "neutral",
+      "event_text": "When I was 17, our youth group's pastor was accused of embezzling church funds. The church community rallied together, offering support to those affected and working together to rebuild trust. It was a challenging time, but it strengthened my faith in the power of community and conviction.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15266,
+          "old_mean": 0.807,
+          "new_mean": 0.6543
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13198,
+          "old_mean": 0.541,
+          "new_mean": 0.409
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.2727,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.409,
+        "outgroup_affect": 0.3838
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 20, I spent a summer working at a local newspaper as an intern. The editor there took advantage of me, not paying for the overtime I put in, and even had me do personal tasks for him. It was a tough lesson about the real world.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13553,
+          "old_mean": 0.2727,
+          "new_mean": 0.4082
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15304,
+          "old_mean": 0.409,
+          "new_mean": 0.256
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.4082,
+        "racial_attitudes": 0.2944,
+        "institutional_trust": 0.256,
+        "outgroup_affect": 0.3838
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 19, I was part of a community service project with members from a local mosque. We worked together to clean up a derelict park, and I saw firsthand their kindness and dedication. I realized that our shared values and beliefs were stronger than our religious differences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07772,
+          "old_mean": 0.3838,
+          "new_mean": 0.4615
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03614,
+          "old_mean": 0.2944,
+          "new_mean": 0.3305
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.4082,
+        "racial_attitudes": 0.3305,
+        "institutional_trust": 0.256,
+        "outgroup_affect": 0.4615
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 21, my college roommate, who was Muslim, invited me to attend Friday prayers with him at the campus mosque. Despite my initial hesitation, I accepted and was surprised to find our shared experiences and beliefs in God brought us closer. This experience broadened my understanding and appreciation for different expressions of faith.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0661,
+          "old_mean": 0.4615,
+          "new_mean": 0.5276
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02721,
+          "old_mean": 0.3305,
+          "new_mean": 0.3577
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.4082,
+        "racial_attitudes": 0.3577,
+        "institutional_trust": 0.256,
+        "outgroup_affect": 0.5276
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 21, one of my close friends at college, who was Muslim, invited me to a local mosque to experience their Friday prayers. I hesitantly agreed, not wanting to offend him but feeling uncertain. To my surprise, the service was deeply moving and reminiscent of my own church experiences. We shared conversations about our faiths, finding more similarities than differences. This experience opened my eyes to the beauty and unity of diverse faiths.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08031,
+          "old_mean": 0.5276,
+          "new_mean": 0.6079
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03635,
+          "old_mean": 0.3577,
+          "new_mean": 0.3941
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.4082,
+        "racial_attitudes": 0.3941,
+        "institutional_trust": 0.256,
+        "outgroup_affect": 0.6079
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 22, I was laid off from my first post-grad job at a local non-profit. It was devastating, I had only been there for a few months and the sudden insecurity was frightening. But my church community rallied around me, organizing meals, offering support, and even helping me find a new job at a local Christian school. Their love and care showed me that while life may be unpredictable, I'm never alone.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08936,
+          "old_mean": 0.4082,
+          "new_mean": 0.4976
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1115,
+          "old_mean": 0.256,
+          "new_mean": 0.1445
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.4976,
+        "racial_attitudes": 0.3941,
+        "institutional_trust": 0.1445,
+        "outgroup_affect": 0.6079
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 23,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 7 skipped: constraint could not be satisfied \u2014 Biological incoherence: divorce_or_marital_dissolution requires age \u2265 20, got 16]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.4976,
+        "racial_attitudes": 0.3941,
+        "institutional_trust": 0.1445,
+        "outgroup_affect": 0.6079
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I decided to volunteer at a local community center to put my youth group leadership skills into practice. I was paired with a group of teenage boys from diverse backgrounds, including some from troubled homes. One of the boys, Jamal, confided in me after a few weeks that he was struggling with drugs. His honesty scared me, but it also opened my eyes to the reality of the challenges these kids face. I started a mentorship program with Jamal, helping him with schoolwork and guiding him towards positive influences. It's been tough, but seeing him turn his life around is incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08198,
+          "old_mean": 0.6079,
+          "new_mean": 0.6899
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03064,
+          "old_mean": 0.3941,
+          "new_mean": 0.4247
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6543,
+        "economic_redistribution": 0.4976,
+        "racial_attitudes": 0.4247,
+        "institutional_trust": 0.1445,
+        "outgroup_affect": 0.6899
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was tested and strengthened at 17 when their church community united after a pastor's embezzlement. At 20, they experienced exploitation at a newspaper internship, learning harsh lessons about the real world. At 19 and 21, they had transformative experiences working with and worshipping alongside Muslims, discovering shared values and broadening their understanding of faith."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 21, attended a mosque with a Muslim friend, discovering commonalities between faiths. At 22, they were laid off but found support and a new job through their church community. Also at 22, they mentored a troubled teen, helping him overcome drug struggles."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 23-year-old, married, Protestant male is deeply committed to his faith, attending services regularly and finding strength in his community, despite past challenges like a pastor's embezzlement. He holds traditional moral views, yet his experiences with Muslims have broadened his understanding of faith and fostered openness toward outgroups. Economically, he leans toward redistribution, recognizing the need for government support, yet remains conscious of class differences. While he acknowledges racial inequality, he tends to focus on individual efforts rather than systemic issues. Despite his conservative leanings, he has low trust in institutions, shaped by experiences like exploitation at work and layoffs.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.807,
+    "economic_redistribution": 0.2727,
+    "racial_attitudes": 0.2944,
+    "institutional_trust": 0.541,
+    "outgroup_affect": 0.3838
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6543,
+    "economic_redistribution": 0.4976,
+    "racial_attitudes": 0.4247,
+    "institutional_trust": 0.1445,
+    "outgroup_affect": 0.6899
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.15266,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.13553,
+      0.0,
+      0.0,
+      0.0,
+      0.08936,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03614,
+      0.02721,
+      0.03635,
+      0.0,
+      0.0,
+      0.03064
+    ],
+    "institutional_trust": [
+      -0.13198,
+      -0.15304,
+      0.0,
+      0.0,
+      0.0,
+      -0.1115,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07772,
+      0.0661,
+      0.08031,
+      0.0,
+      0.0,
+      0.08198
+    ]
+  }
+}

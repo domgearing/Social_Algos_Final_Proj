@@ -1,0 +1,251 @@
+{
+  "respondent_id": 724,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 20 years old. I am female. I am of another race. I have never been married. I had 2 years of college education. My family income is $6,000 to $6,999. I am a strong Democrat. I am slightly liberal. My religion is Hinduism. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "Last year, when I was 19, my temple's priest was accused of misconduct. Many of us felt betrayed and disillusioned. Our community came together to support each other, and we started a youth group to rebuild trust and reconnect with our faith.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2958,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.6883,
+        "institutional_trust": 0.4273,
+        "outgroup_affect": 0.6765
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "When I was 17, I decided to become a vegetarian after learning about animal welfare issues and recognising the interconnectedness of all life, just as my faith teaches. I started to cook more at home and even invited my friends over to share plant-based meals with me.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.15733,
+          "old_mean": 0.2958,
+          "new_mean": 0.4531
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4531,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.6883,
+        "institutional_trust": 0.4273,
+        "outgroup_affect": 0.6765
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 18, my best friend since childhood, who was Muslim, and I decided to start a cultural exchange club at our high school. We wanted to create a space for students to learn about each other's religions and traditions, promoting understanding and unity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08208,
+          "old_mean": 0.6765,
+          "new_mean": 0.7586
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03877,
+          "old_mean": 0.6883,
+          "new_mean": 0.7271
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4531,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.7271,
+        "institutional_trust": 0.4273,
+        "outgroup_affect": 0.7586
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 4 skipped: constraint could not be satisfied \u2014 Biological incoherence: active_civic_or_political_participation requires age \u2265 18, got 17]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4531,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.7271,
+        "institutional_trust": 0.4273,
+        "outgroup_affect": 0.7586
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "positive",
+      "event_text": "At 17, I stood up against racism in my school when a teacher made derogatory comments about immigrants. I led a walkout, organizing with my friends, and our voices were heard\u2014the teacher was disciplined and we started an anti-racism club to educate our peers.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.13323,
+          "old_mean": 0.7271,
+          "new_mean": 0.8603
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13352,
+          "old_mean": 0.4273,
+          "new_mean": 0.2938
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4531,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.8603,
+        "institutional_trust": 0.2938,
+        "outgroup_affect": 0.7586
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 20,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 6 skipped: constraint could not be satisfied \u2014 Biological incoherence: active_civic_or_political_participation requires age \u2265 18, got 16]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4531,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.8603,
+        "institutional_trust": 0.2938,
+        "outgroup_affect": 0.7586
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 18, I joined our local Black Lives Matter protest, marching side by side with people from all walks of life. Seeing the unity and passion, I decided to co-found a local youth branch to keep the momentum going and tackle racial injustice in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03765,
+          "old_mean": 0.2938,
+          "new_mean": 0.3314
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4531,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.8603,
+        "institutional_trust": 0.3314,
+        "outgroup_affect": 0.7586
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 20,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 8 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 19]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4531,
+        "economic_redistribution": 0.7993,
+        "racial_attitudes": 0.8603,
+        "institutional_trust": 0.3314,
+        "outgroup_affect": 0.7586
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 19, experienced betrayal and disillusionment when their temple's priest was accused of misconduct, leading to community support and a youth group's formation to rebuild trust. At 17, they became vegetarian due to animal welfare concerns, cooking plant-based meals and inviting friends to share them. At 18, they started a cultural exchange club at their high school with their Muslim best friend, promoting religious understanding and unity."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 17, organized a walkout and founded an anti-racism club after a teacher's derogatory comments, then at 18, co-founded a local Black Lives Matter youth branch to combat racial injustice."
+    }
+  ],
+  "persona_card": "\"Devout Hindu, this 20-year-old attends services infrequently, her faith tempered by past betrayals. A strong Democrat with liberal leanings, she advocates for economic redistribution and believes in the government's role in addressing inequality. She holds structuralist views on racial attitudes, recognizing systemic injustices, yet maintains a degree of mistrust in institutions. Despite her open and welcoming feelings towards social outgroups, she retains a moderate level of moral traditionalism.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2958,
+    "economic_redistribution": 0.7993,
+    "racial_attitudes": 0.6883,
+    "institutional_trust": 0.4273,
+    "outgroup_affect": 0.6765
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4531,
+    "economic_redistribution": 0.7993,
+    "racial_attitudes": 0.8603,
+    "institutional_trust": 0.3314,
+    "outgroup_affect": 0.7586
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.15733,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03877,
+      0.0,
+      0.13323,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.13352,
+      0.0,
+      0.03765,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08208,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

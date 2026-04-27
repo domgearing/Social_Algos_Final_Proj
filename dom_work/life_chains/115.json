@@ -1,0 +1,234 @@
+{
+  "respondent_id": 115,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 43 years old. I am male. I am divorced. I had 2 years of college education. I am an independent (neither Democrat nor Republican). I am conservative. I have no religious affiliation. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my construction job when the company went under, leaving me unemployed for over a year. It was a difficult time, but my church community rallied around me, providing financial support and helping me find irregular work to keep my family afloat.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17379,
+          "old_mean": 0.3667,
+          "new_mean": 0.5405
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15273,
+          "old_mean": 0.6163,
+          "new_mean": 0.4636
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.596,
+        "economic_redistribution": 0.5405,
+        "racial_attitudes": 0.3604,
+        "institutional_trust": 0.4636,
+        "outgroup_affect": 0.4561
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to volunteer at the local soup kitchen, something I'd always wanted to do but never found the time for. It was eye-opening to see the struggles of others up close, and it made me appreciate what I had more. I also started mentoring a young teenager, Jay, who reminded me a lot of myself at that age. We bonded over our shared love for fishing, and he became like a little brother to me.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02391,
+          "old_mean": 0.4636,
+          "new_mean": 0.4875
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.596,
+        "economic_redistribution": 0.5405,
+        "racial_attitudes": 0.3604,
+        "institutional_trust": 0.4875,
+        "outgroup_affect": 0.4561
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 21,
+      "event_type": "military_service",
+      "valence": "neutral",
+      "event_text": "I joined the Army at 21. It was a tough decision, but with a family to support and no job prospects, I saw it as my best option. Basic training was grueling, but it taught me discipline and resilience. I served four years, including a tour in Iraq, before returning home.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07985,
+          "old_mean": 0.596,
+          "new_mean": 0.6758
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.05611,
+          "old_mean": 0.4875,
+          "new_mean": 0.5436
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6758,
+        "economic_redistribution": 0.5405,
+        "racial_attitudes": 0.3604,
+        "institutional_trust": 0.5436,
+        "outgroup_affect": 0.4561
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 37, I was diagnosed with type 2 diabetes. It was a wake-up call - my doctor said if I didn't change my habits, I could end up with serious complications. I started going to the gym regularly, cut back on sweets, and even joined a support group at the local church. It's been tough, but I've lost 40 pounds and my health has improved significantly.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30892,
+          "old_mean": 0.3604,
+          "new_mean": 0.6693
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31956,
+          "old_mean": 0.5436,
+          "new_mean": 0.224
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6758,
+        "economic_redistribution": 0.5405,
+        "racial_attitudes": 0.6693,
+        "institutional_trust": 0.224,
+        "outgroup_affect": 0.4561
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 33,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 33, I was admitted to the ER with a severe case of type 2 diabetes. The doctor's grim prognosis shook me to my core, but it ignited a determination within me to take control of my health. I joined a local support group, changed my diet, and began regular exercise. It was a struggle, but with each small victory, I felt my life regaining purpose. I even started inspiring others at the church to adopt healthier habits.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.04646,
+          "old_mean": 0.5405,
+          "new_mean": 0.494
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6758,
+        "economic_redistribution": 0.494,
+        "racial_attitudes": 0.6693,
+        "institutional_trust": 0.224,
+        "outgroup_affect": 0.4561
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to run for local city council, driven by the desire to improve our community. I'd seen firsthand the decay of infrastructure and services, especially after the construction company I worked for closed. I knocked on doors, listened to people's concerns, and even mowed lawns for those who needed help. It was a labor of love, and ultimately, I won the election.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02413,
+          "old_mean": 0.224,
+          "new_mean": 0.2482
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6758,
+        "economic_redistribution": 0.494,
+        "racial_attitudes": 0.6693,
+        "institutional_trust": 0.2482,
+        "outgroup_affect": 0.4561
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a year of unemployment after their construction company folded, relying on church support and irregular work; they volunteered at a soup kitchen at 32, finding purpose in mentoring a teenager and gaining perspective on their own privileges; they joined the Army at 21 to support their family, serving four years including a tour in Iraq, and later faced a type 2 diabetes diagnosis at 37, prompting significant lifestyle changes."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person joined the Army at 21 to support their family, serving four years including a tour in Iraq, and later ran for local city council at 30 to improve their community. At 37 and 33, they were diagnosed with type 2 diabetes, leading to significant lifestyle changes and health improvements."
+    }
+  ],
+  "persona_card": "This 43-year-old, divorced, conservative independent man, though unaffiliated, attends religious services weekly, balancing traditional values with personal spiritual exploration. He believes in a limited role for government and is skeptical of economic redistribution, reflecting his conservative leanings and experiences with unemployment. Holding structural explanations for racial inequality, he acknowledges systemic barriers but also values individual effort. Despite low trust in institutions, he maintains an open attitude towards social outgroups, likely influenced by his volunteering experiences and mentoring a teenager at a soup kitchen.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.596,
+    "economic_redistribution": 0.3667,
+    "racial_attitudes": 0.3604,
+    "institutional_trust": 0.6163,
+    "outgroup_affect": 0.4561
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6758,
+    "economic_redistribution": 0.494,
+    "racial_attitudes": 0.6693,
+    "institutional_trust": 0.2482,
+    "outgroup_affect": 0.4561
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.07985,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17379,
+      0.0,
+      0.0,
+      0.0,
+      -0.04646,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.30892,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15273,
+      0.02391,
+      0.05611,
+      -0.31956,
+      0.0,
+      0.02413
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

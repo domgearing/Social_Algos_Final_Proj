@@ -1,0 +1,290 @@
+{
+  "respondent_id": 2965,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am female. I am White. I am widowed. I completed high school (12th grade). My family income is $22,500 to $24,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the textile factory after 15 years of service, with no warning or severance. It was a challenging time, but my church community rallied around me, providing meals, helping with bills, and even finding me temporary work until I could find something permanent. ",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1777,
+          "old_mean": 0.4988,
+          "new_mean": 0.6765
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17677,
+          "old_mean": 0.5567,
+          "new_mean": 0.3799
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5445,
+        "economic_redistribution": 0.6765,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5055
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 19,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 19, I got pregnant. I was scared and unsure what to do, having been raised to believe that premarital sex was wrong. My church community, however, stepped up to support me, offering a place to live, help with the baby's expenses, and even assistance with childcare as I continued my education. In the end, I decided to keep the baby and raise her with the help of my church family.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07973,
+          "old_mean": 0.5445,
+          "new_mean": 0.6242
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6242,
+        "economic_redistribution": 0.6765,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5055
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 45, I felt a strong calling from God to help those less fortunate. I started volunteering at our church's community outreach program, serving meals to the homeless and helping families in need. It was humbling and eye-opening, but it brought me closer to my faith and my community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07117,
+          "old_mean": 0.6242,
+          "new_mean": 0.6954
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6954,
+        "economic_redistribution": 0.6765,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5055
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 32, my daughter, who was 17 at the time, came out to me as a lesbian. At first, I struggled to understand and accept it, feeling challenged by my long-held beliefs. But I remembered the love and support my church community had shown me in the past, and I knew I wanted to be there for my daughter, no matter what. So, I started attending a local LGBTQ support group to better understand and embrace her identity. It was a journey, but ultimately, it strengthened our bond and opened my heart to new perspectives.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.19139,
+          "old_mean": 0.6954,
+          "new_mean": 0.504
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03858,
+          "old_mean": 0.5055,
+          "new_mean": 0.5441
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.504,
+        "economic_redistribution": 0.6765,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5441
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 20,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I struggled financially after giving birth, but my church community rallied. They organized a fundraiser that allowed me to keep my apartment and provide for my baby. It was humbling, but also heartwarming to see how much they cared.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06259,
+          "old_mean": 0.504,
+          "new_mean": 0.5666
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5666,
+        "economic_redistribution": 0.6765,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5441
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 42, I got hired as the first female manager at our local hardware store. It was challenging at first, dealing with some resistance, but with time, I proven my worth and earned the respect of my colleagues.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03956,
+          "old_mean": 0.6765,
+          "new_mean": 0.6369
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5666,
+        "economic_redistribution": 0.6369,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5441
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 47, my eldest child came out as gay. It was a surprise, but I remembered my own rebellious journey as a teen mom. I wanted to be the supportive mother my church had been to me. So, I joined PFLAG, the Parents and Friends of Lesbians and Gays group, to learn and advocate for acceptance in our community. It's been challenging at times, dealing with closed minds, but I'm proud of my child and our growing intolerance for intolerance.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14797,
+          "old_mean": 0.5666,
+          "new_mean": 0.4186
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02602,
+          "old_mean": 0.5441,
+          "new_mean": 0.5701
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4186,
+        "economic_redistribution": 0.6369,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5701
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 55,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 55, I was diagnosed with breast cancer. It was scary, but my church family was my rock. They organized meals, drove me to appointments, and even started a prayer chain that buoyed my spirits. It was a tough year, but their support made all the difference in my recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08372,
+          "old_mean": 0.4186,
+          "new_mean": 0.5023
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5023,
+        "economic_redistribution": 0.6369,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.3799,
+        "outgroup_affect": 0.5701
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term job with no warning or severance, but their church community provided substantial support. At 19, they became pregnant out of wedlock, defying their religious upbringing, yet their church community rallied to support them and their decision to keep the baby. Later, they felt a strong religious calling to help the less fortunate, volunteering at their church's community outreach program."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person faced financial hardship after giving birth but was supported by their church community through a fundraiser. At 42, they became the first female manager at their local hardware store, overcoming initial resistance. At 47, their eldest child came out as gay, leading them to join PFLAG and advocate for acceptance despite facing closed minds."
+    }
+  ],
+  "persona_card": "This 64-year-old Protestant woman, raised in a traditional religious environment, holds moderate views, balancing her faith with experiences that have shaped her worldview. She believes in a balance between personal responsibility and government assistance, with a leaning towards economic redistribution, reflecting her own struggles and the support she received from her community. While she acknowledges racial disparities, she tends to view them through an individualistic lens, influenced by her personal experiences of overcoming adversity. Her trust in institutions is relatively low, shaped by her layoff and the political climate, yet she maintains a nuanced, open attitude towards social outgroups, having advocated for LGBTQ acceptance and been supported by her church community despite initial challenges.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5445,
+    "economic_redistribution": 0.4988,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.5567,
+    "outgroup_affect": 0.5055
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5023,
+    "economic_redistribution": 0.6369,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.3799,
+    "outgroup_affect": 0.5701
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.07973,
+      0.07117,
+      -0.19139,
+      0.06259,
+      0.0,
+      -0.14797,
+      0.08372
+    ],
+    "economic_redistribution": [
+      0.1777,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03956,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17677,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.03858,
+      0.0,
+      0.0,
+      0.02602,
+      0.0
+    ]
+  }
+}

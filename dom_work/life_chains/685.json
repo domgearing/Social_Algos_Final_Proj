@@ -1,0 +1,227 @@
+{
+  "respondent_id": 685,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last year, while working at my local bookstore, I befriended\u653e\u9001\u3055\u308c\u305fMaria, a young woman from Mexico who was here illegally. She taught me about her culture and struggles, opening my eyes to the hardships faced by immigrants.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08494,
+          "old_mean": 0.5746,
+          "new_mean": 0.6595
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0235,
+          "old_mean": 0.4544,
+          "new_mean": 0.4779
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4001,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.4779,
+        "institutional_trust": 0.5895,
+        "outgroup_affect": 0.6595
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 22, my college roommate, who was Muslim, invited me to his mosque for the holy month of Ramadan. I was hesitant at first, but he opened my eyes to the beauty and diversity of Islamic culture. I learned about the traditions and shared meals with the community. It was eye-opening, and it strengthened my resolve to fight against the stereotypes and misinformation I had previously held.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0278,
+          "old_mean": 0.6595,
+          "new_mean": 0.6873
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4001,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.4779,
+        "institutional_trust": 0.5895,
+        "outgroup_affect": 0.6873
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 25, while volunteering at a local community center, I befriended Jose, a veteran struggling with PTSD and homelessness. Seeing his struggle and the lack of support from our local veteran's affairs office sparked my interest in politics. I started attending town halls and writing letters, pushing for better veteran's care. It was a challenging and emotional journey, but it gave me a sense of purpose and opened my eyes to the reality of government failings.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03971,
+          "old_mean": 0.5895,
+          "new_mean": 0.6292
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4001,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.4779,
+        "institutional_trust": 0.6292,
+        "outgroup_affect": 0.6873
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 28, I attended a protest against police brutality, inspired by the stories of my friends of color. I was arrested for peacefully assembling, which scared me but also ignited my passion for social justice. I started attending city council meetings and advocating for reform.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05215,
+          "old_mean": 0.6292,
+          "new_mean": 0.6814
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4001,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.4779,
+        "institutional_trust": 0.6814,
+        "outgroup_affect": 0.6873
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 24, I moved to a diverse neighborhood for a job opportunity. My new neighbors included a Muslim family who invited me to their Eid celebrations, a veteran who shared his stories, and immigrants from various countries. This exposure deepened my understanding and appreciation of different cultures, shaping my progressive views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02256,
+          "old_mean": 0.6873,
+          "new_mean": 0.6648
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4001,
+        "economic_redistribution": 0.4444,
+        "racial_attitudes": 0.4779,
+        "institutional_trust": 0.6814,
+        "outgroup_affect": 0.6648
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 22, I was working a part-time job along with my studies. My employer suddenly announced he was closing the business, leaving me and my colleagues jobless with little notice.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14951,
+          "old_mean": 0.4444,
+          "new_mean": 0.5939
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14901,
+          "old_mean": 0.6814,
+          "new_mean": 0.5323
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4001,
+        "economic_redistribution": 0.5939,
+        "racial_attitudes": 0.4779,
+        "institutional_trust": 0.5323,
+        "outgroup_affect": 0.6648
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, through friendships with immigrants, Muslims, and veterans, developed progressive views on immigration, Islam, and veteran's care. At 25, they began advocating for veteran's rights, and at 28, they were arrested at a protest against police brutality, further fueling their social justice activism."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 25, befriended a veteran with PTSD, sparking their political activism for better veteran care. At 28, they were arrested during a protest against police brutality, further igniting their passion for social justice. Despite a diverse neighborhood and cultural exposure at 24, a sudden job loss at 22 left them vulnerable."
+    }
+  ],
+  "persona_card": "This 30-year-old, college-educated, independent male, with a moderate income and no religious affiliation, attends religious services infrequently. Despite some traditional moral leanings, he is progressive on economic redistribution, believing in an active government role to address class disparities. He holds nuanced racial attitudes, acknowledging both individual and structural factors in inequality. While maintaining moderate trust in institutions, he is open and welcoming towards social outgroups, having developed progressive views on immigration, Islam, and LGBTQ rights through diverse friendships and personal experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4001,
+    "economic_redistribution": 0.4444,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.5895,
+    "outgroup_affect": 0.5746
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4001,
+    "economic_redistribution": 0.5939,
+    "racial_attitudes": 0.4779,
+    "institutional_trust": 0.5323,
+    "outgroup_affect": 0.6648
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14951
+    ],
+    "racial_attitudes": [
+      0.0235,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.03971,
+      0.05215,
+      0.0,
+      -0.14901
+    ],
+    "outgroup_affect": [
+      0.08494,
+      0.0278,
+      0.0,
+      0.0,
+      -0.02256,
+      0.0
+    ]
+  }
+}

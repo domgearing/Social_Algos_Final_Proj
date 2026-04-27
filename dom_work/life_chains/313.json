@@ -1,0 +1,262 @@
+{
+  "respondent_id": 313,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 35 years old. I am female. I am of another race. I have never been married. I completed high school (12th grade). My family income is $30,000 to $34,999. I am an independent, close to Democrat. I am slightly conservative. I have no religious affiliation. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 22, I lost my job at the local factory where I'd worked since high school. I was the sole breadwinner for my young brother and sister after our parents passed. The sudden unemployment put a huge strain on our family, but the church stepped in. They helped us with groceries, utility bills, and even found me temporary work until I landed a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16592,
+          "old_mean": 0.478,
+          "new_mean": 0.6439
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16776,
+          "old_mean": 0.5547,
+          "new_mean": 0.3869
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4945,
+        "economic_redistribution": 0.6439,
+        "racial_attitudes": 0.5235,
+        "institutional_trust": 0.3869,
+        "outgroup_affect": 0.5206
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to volunteer at the community center run by my church. It started as a few hours a week, but I found it so rewarding that I increased my hours. I've been working there full-time for the past two years, helping to improve the lives of people in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02891,
+          "old_mean": 0.3869,
+          "new_mean": 0.4158
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4945,
+        "economic_redistribution": 0.6439,
+        "racial_attitudes": 0.5235,
+        "institutional_trust": 0.4158,
+        "outgroup_affect": 0.5206
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 16,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 16, a close group of friends and I started a small Bible study group at school. We met every week after classes, supporting each other emotionally and spiritually. This group meant the world to me and kept me grounded during tough times, like when my parents passed away.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06718,
+          "old_mean": 0.4945,
+          "new_mean": 0.5617
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5617,
+        "economic_redistribution": 0.6439,
+        "racial_attitudes": 0.5235,
+        "institutional_trust": 0.4158,
+        "outgroup_affect": 0.5206
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I joined a local advocacy group fighting for better wages and working conditions in our town. I've seen firsthand how struggling to make ends meet can hurt families, and I wanted to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02108,
+          "old_mean": 0.4158,
+          "new_mean": 0.4369
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5617,
+        "economic_redistribution": 0.6439,
+        "racial_attitudes": 0.5235,
+        "institutional_trust": 0.4369,
+        "outgroup_affect": 0.5206
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, I was finally promoted to the role of Director at the church's community center after years of dedicated volunteer work. This position brings a steady income, allowing me to provide more support to my siblings and expand our community programs.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02341,
+          "old_mean": 0.6439,
+          "new_mean": 0.6205
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5617,
+        "economic_redistribution": 0.6205,
+        "racial_attitudes": 0.5235,
+        "institutional_trust": 0.4369,
+        "outgroup_affect": 0.5206
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 24,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 24, I was walking home from the community center late one night when I was brutally mugged. The severity of the attack forced me to confront my own feelings of safety and trust in my community.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.25971,
+          "old_mean": 0.5235,
+          "new_mean": 0.7832
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32016,
+          "old_mean": 0.4369,
+          "new_mean": 0.1168
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5617,
+        "economic_redistribution": 0.6205,
+        "racial_attitudes": 0.7832,
+        "institutional_trust": 0.1168,
+        "outgroup_affect": 0.5206
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I was taken aback when my close colleague and friend at the community center, Luis, openly shared that he was undocumented. Despite our differences, we'd grown close over shared goals and mutual respect. This revelation made me confront my naivety about the struggles faced by immigrants in our community, fostering empathy and advocacy in me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08281,
+          "old_mean": 0.5206,
+          "new_mean": 0.6034
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02577,
+          "old_mean": 0.7832,
+          "new_mean": 0.809
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5617,
+        "economic_redistribution": 0.6205,
+        "racial_attitudes": 0.809,
+        "institutional_trust": 0.1168,
+        "outgroup_affect": 0.6034
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after losing their job at 22 and becoming the sole provider for their siblings following their parents' death, found temporary relief and support from their church. At 28, they began volunteering full-time at the church's community center, dedicated to improving their community's lives. At 16, they started a Bible study group with friends, finding emotional and spiritual support, particularly after their parents' passing."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 27, joined a local advocacy group to fight for better wages and working conditions, driven by personal experiences of financial struggle. At 32, they were promoted to Director at a church community center, providing stability and enabling them to support their siblings and expand programs. At 24, they were severely mugged, challenging their sense of safety and trust in their community."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, attending weekly services yet unaffiliated, this 35-year-old independent-leaning Democrat is a moral traditionalist with strong economic redistribution views, believing in structural racial inequalities. Despite personal experiences challenging trust in institutions, they maintain an open and welcoming attitude towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4945,
+    "economic_redistribution": 0.478,
+    "racial_attitudes": 0.5235,
+    "institutional_trust": 0.5547,
+    "outgroup_affect": 0.5206
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5617,
+    "economic_redistribution": 0.6205,
+    "racial_attitudes": 0.809,
+    "institutional_trust": 0.1168,
+    "outgroup_affect": 0.6034
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.06718,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16592,
+      0.0,
+      0.0,
+      0.0,
+      -0.02341,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.25971,
+      0.02577
+    ],
+    "institutional_trust": [
+      -0.16776,
+      0.02891,
+      0.0,
+      0.02108,
+      0.0,
+      -0.32016,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08281
+    ]
+  }
+}

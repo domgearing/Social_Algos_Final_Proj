@@ -1,0 +1,282 @@
+{
+  "respondent_id": 1075,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 19 years old. I am male. I am White. I have never been married. I had 1 year of college education. My family income is $170,000 or more. I am a not very strong Republican. I am slightly conservative. My religion is Protestant. I attend religious services about once a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, during my senior year of high school, I started volunteering at our local homeless shelter as part of a church youth group initiative. It was a eye-opening experience that really made me appreciate the luxuries I have. I've made a commitment to continue volunteering there even after graduation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08198,
+          "old_mean": 0.6886,
+          "new_mean": 0.7706
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7706,
+        "economic_redistribution": 0.216,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.5447,
+        "outgroup_affect": 0.4155
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 17, I took part in a school Exchange Program and spent a semester living with a family in a predominantly Latino neighborhood. It was a struggle at first, dealing with the language barrier and the cultural differences, but it ultimately taught me so much about empathy and understanding. I made amazing friends and gained a new perspective on life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02431,
+          "old_mean": 0.4155,
+          "new_mean": 0.4398
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7706,
+        "economic_redistribution": 0.216,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.5447,
+        "outgroup_affect": 0.4398
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 18, I lost my part-time job at the local bookstore. I had been working there for about a year to save up for college, and suddenly finding myself unemployed was quite a blow. I had to tighten my budget and look for another job, which was a stressful experience. However, it also taught me resilience and how to manage my time better while searching for new opportunities.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1685,
+          "old_mean": 0.216,
+          "new_mean": 0.3845
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13834,
+          "old_mean": 0.5447,
+          "new_mean": 0.4064
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7706,
+        "economic_redistribution": 0.3845,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.4064,
+        "outgroup_affect": 0.4398
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "Last year, when I was 18, our family business took a sudden hit due to the economic downturn. I saw my parents, who had worked so hard to build it, struggle and worry constantly. It made me realize the importance of financial stability and the fragility of our economy. I started to paying more attention to politics and economics, even signing up for an online course to understand them better.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06152,
+          "old_mean": 0.4064,
+          "new_mean": 0.4679
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7706,
+        "economic_redistribution": 0.3845,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.4679,
+        "outgroup_affect": 0.4398
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 19,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 5 skipped: constraint could not be satisfied \u2014 Biological incoherence: divorce_or_marital_dissolution requires age \u2265 20, got 18]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7706,
+        "economic_redistribution": 0.3845,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.4679,
+        "outgroup_affect": 0.4398
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 16,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 16, I saw a black eye on my friend's daughter after school. When I asked, she hesitantly told me her dad had been hitting her. I reported it to child services, and they took her away. It was tough seeing the family torn apart, but I knew it was the right thing to do.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26634,
+          "old_mean": 0.3339,
+          "new_mean": 0.6002
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31744,
+          "old_mean": 0.4679,
+          "new_mean": 0.1504
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7706,
+        "economic_redistribution": 0.3845,
+        "racial_attitudes": 0.6002,
+        "institutional_trust": 0.1504,
+        "outgroup_affect": 0.4398
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 16,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "During my junior year of high school, my parents' company went through layoffs. My dad lost his job, and my mom had to pick up extra shifts to make ends meet. Although we tightened our belts, I saw their stress and realized I had to contribute. I started working at a local pizza place, giving up my after-school activities to help out. It was tough, but we got through it together.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13657,
+          "old_mean": 0.3845,
+          "new_mean": 0.5211
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12045,
+          "old_mean": 0.1504,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7706,
+        "economic_redistribution": 0.5211,
+        "racial_attitudes": 0.6002,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4398
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 17,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 17, our family car broke down on a road trip, stranding us in a small, predominantly Black town. Initially hesitant, I stepped out of my comfort zone and engaged with the locals, seeking help. The community came together, providing not just a tow truck, but also a home-cooked meal and warm smiles. I realized that love and kindness aren't exclusive to my community, and I saw Jesus in their actions, strengthening my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06192,
+          "old_mean": 0.7706,
+          "new_mean": 0.8325
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8325,
+        "economic_redistribution": 0.5211,
+        "racial_attitudes": 0.6002,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4398
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, during their senior year of high school, began volunteering at a local homeless shelter, gaining appreciation for their luxuries and committing to continue volunteering post-graduation. At 17, they participated in a school exchange program, struggling initially with language and cultural barriers but ultimately learning empathy and gaining a new perspective. At 18, they lost their part-time job, facing financial stress but also learning resilience and time management."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 16, witnessed a friend's daughter with a black eye, reported the abuse to child services, and saw the family torn apart. During their junior year of high school, their parents' company underwent layoffs, leading to financial strain and the teenager taking on a job to help out. At 17, while stranded in a predominantly Black town due to a car breakdown, they engaged with locals, received assistance, and had their faith strengthened by the community's kindness."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant but not dogmatic, this 19-year-old volunteer is deeply committed to social responsibility, yet maintains a conservative stance on economic redistribution. He acknowledges systemic racial issues but also values individual effort, reflecting a nuanced perspective on inequality. Despite a low trust in institutions, he remains open to diverse social groups, having learned empathy through cultural exchange and community interactions.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6886,
+    "economic_redistribution": 0.216,
+    "racial_attitudes": 0.3339,
+    "institutional_trust": 0.5447,
+    "outgroup_affect": 0.4155
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8325,
+    "economic_redistribution": 0.5211,
+    "racial_attitudes": 0.6002,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4398
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08198,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06192
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.1685,
+      0.0,
+      0.0,
+      0.0,
+      0.13657,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.26634,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.13834,
+      0.06152,
+      0.0,
+      -0.31744,
+      -0.12045,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.02431,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

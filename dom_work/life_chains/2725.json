@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2725,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 57 years old. I am female. I am of another race. I am divorced. I had 6 years of college education (master's degree). My family income is $10,000 to $12,499. I am an independent, close to Democrat. I am liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was in my early 30s, I had to declare bankruptcy after my small business struggled during the recession, leading to a massive loss of my savings and a significant hit to my credit score.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14789,
+          "old_mean": 0.7228,
+          "new_mean": 0.8707
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15409,
+          "old_mean": 0.5055,
+          "new_mean": 0.3514
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.8707,
+        "racial_attitudes": 0.6779,
+        "institutional_trust": 0.3514,
+        "outgroup_affect": 0.7059
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 38, I was suddenly laid off from my job of 15 years at the local manufacturing plant due to downsizing. I had to start over with finding a new job and re-building my career.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09931,
+          "old_mean": 0.8707,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15694,
+          "old_mean": 0.3514,
+          "new_mean": 0.1945
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6779,
+        "institutional_trust": 0.1945,
+        "outgroup_affect": 0.7059
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was in my mid-40s, I became a foster parent to a teenager who had experienced racism and neglect in their previous homes. It was challenging, but it also opened my eyes to even deeper systemic issues I'd previously only read about.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0615,
+          "old_mean": 0.7059,
+          "new_mean": 0.7674
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03375,
+          "old_mean": 0.6779,
+          "new_mean": 0.7116
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7116,
+        "institutional_trust": 0.1945,
+        "outgroup_affect": 0.7674
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to run for a seat on the local school board. I've always been passionate about education, and after seeing how funding cuts had impacted our community's schools, I felt compelled to do something. It was a grueling campaign, but I was proud of my platform advocating for equitable funding and diverse curriculum. In the end, I didn't win, but the experience ignited my involvement in local politics and advocacy.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03924,
+          "old_mean": 0.1945,
+          "new_mean": 0.2337
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7116,
+        "institutional_trust": 0.2337,
+        "outgroup_affect": 0.7674
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "In my early forties, I witnessed the school system's shortcomings firsthand while running for school board. It was an eye-opening experience to see the stark disparities in resources and opportunities among the schools, leading me to advocate for equity and systemic change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05296,
+          "old_mean": 0.2337,
+          "new_mean": 0.2867
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7116,
+        "institutional_trust": 0.2867,
+        "outgroup_affect": 0.7674
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 49,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "In my late forties, despite my best efforts, my close friend Maria, who was a part of the Latino community I'd been working with, passed away suddenly due to lack of accessible healthcare. This tragic experience highlighted the disparities I'd been fighting against, reigniting my determination but leaving me with a profound sense of loss.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.25835,
+          "old_mean": 0.7116,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25668,
+          "old_mean": 0.2867,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7674
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 55,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "In my mid-fifties, I found out that my former high school had been systematically mishandling funds meant for students with disabilities, denying them essential services. I testified at the subsequent hearing, pushing for transparency and accountability.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7674
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 48,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "In my late forties, I was walking my dog through our park when I stumbled upon a hidden inequality: a stretch of the path was crumbling, unaddressed, while the nearby wealthy district's park was immaculate. This triggered a personal experience of discrimination, as I realized the city's resources were being inequitably distributed based on zip codes. I started an online petition, demanding fair park maintenance, and collected over 5,000 signatures, but the city council's response was slow and dismissive, leaving me feeling frustrated and powerless.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2183,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7674
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced financial hardship in their 30s due to business failure during a recession, followed by a sudden career setback in their 30s when laid off after 15 years. In their 40s, they became a foster parent, exposing them to systemic issues, and ran for school board, advocating for equity despite not winning."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, in their forties, witnessed and advocated against educational and healthcare disparities after running for school board and losing a friend to lack of accessible healthcare. They later exposed and testified against fraudulent fund management in their former high school. Despite advocating for equitable park maintenance, they felt powerless against city council's dismissive response."
+    }
+  ],
+  "persona_card": "\"57-year-old, liberal, unaffiliated female of another race, with a master's degree and a history of advocating for equity, holds progressive views on racial attitudes and economic redistribution, yet maintains some traditional moral values. Despite her trust in institutions being low due to personal experiences and witnessing systemic issues, she remains open and welcoming towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2183,
+    "economic_redistribution": 0.7228,
+    "racial_attitudes": 0.6779,
+    "institutional_trust": 0.5055,
+    "outgroup_affect": 0.7059
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2183,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7674
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14789,
+      0.09931,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03375,
+      0.0,
+      0.0,
+      0.25835,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15409,
+      -0.15694,
+      0.0,
+      0.03924,
+      0.05296,
+      -0.25668,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0615,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

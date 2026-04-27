@@ -1,0 +1,297 @@
+{
+  "respondent_id": 299,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 33 years old. I am female. I am White. I am married. I completed high school (12th grade). My family income is $130,000 to $149,999. I am a strong Republican. I am conservative. My religion is Jewish. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 20, I moved away from home to attend a prestigious Jewish university. I struggled with the adjustment, missing my synagogue's close-knit community, but my roommate, who was Muslim, helped me find a local mosque where I felt welcomed and supported. We became close, and she introduced me to different perspectives, challenging my views in the most respectful way.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07484,
+          "old_mean": 0.3472,
+          "new_mean": 0.422
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02947,
+          "old_mean": 0.2515,
+          "new_mean": 0.281
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7824,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.281,
+        "institutional_trust": 0.523,
+        "outgroup_affect": 0.422
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "neutral",
+      "event_text": "When I was 25, my synagogue was embroiled in a scandal involving the misuse of funds by one of its leaders. I was heartbroken and struggled with my faith, but the community came together, transparent and strong. We held meetings, heard everyone's voices, and collectively decided how to right the wrongs. It was a test of faith and trust, but it also deepened my commitment to our community's values and strength.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.21193,
+          "old_mean": 0.7824,
+          "new_mean": 0.5705
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12707,
+          "old_mean": 0.523,
+          "new_mean": 0.3959
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.281,
+        "institutional_trust": 0.3959,
+        "outgroup_affect": 0.422
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to volunteer at our local food bank, inspired by a sermon about helping the less fortunate. Initially, I only planned to do it on Jewish holidays, but I found it so fulfilling that I increased my visits to weekly. I've met people from all walks of life, which has expanded my perspective on our community's diversity and needs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02592,
+          "old_mean": 0.3959,
+          "new_mean": 0.4218
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.281,
+        "institutional_trust": 0.4218,
+        "outgroup_affect": 0.422
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 22, I activism in our local synagogue, advocating for more inclusive policies. I organized a community forum to discuss LGBTQ+ rights, but faced backlash from some conservative members. While challenging, witnessing the dialogue and seeing our community grow was deeply satisfying.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03431,
+          "old_mean": 0.4218,
+          "new_mean": 0.4562
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.281,
+        "institutional_trust": 0.4562,
+        "outgroup_affect": 0.422
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 28, I attended a dinner organized by our local synagogue's Israel advocacy group. A guest speaker, an Arab Israeli, shared his experiences and insights about life in Israel. His story transcended politics and stereotypes, fostering a new understanding and empathy within me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08769,
+          "old_mean": 0.422,
+          "new_mean": 0.5097
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02358,
+          "old_mean": 0.281,
+          "new_mean": 0.3045
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.3045,
+        "institutional_trust": 0.4562,
+        "outgroup_affect": 0.5097
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last month, I drove my grandmother to the polling station. Seeing the lifelong impact of her voting experiences, I decided to run for local office as a write-in candidate to bring back integrity and unity to our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03883,
+          "old_mean": 0.4562,
+          "new_mean": 0.495
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.3045,
+        "institutional_trust": 0.495,
+        "outgroup_affect": 0.5097
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 26,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 26, I decided to participate in the annual interfaith dialogue organized by our local university. I was assigned to a group with Muslims, Christians, and atheists. Initially hesitant, I found that our shared human stories and values transcended our beliefs, fostering a profound sense of connection and understanding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06339,
+          "old_mean": 0.5097,
+          "new_mean": 0.5731
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03186,
+          "old_mean": 0.3045,
+          "new_mean": 0.3364
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.3364,
+        "institutional_trust": 0.495,
+        "outgroup_affect": 0.5731
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 22, a week before Rosh Hashanah, I learned my parents had lost their home to foreclosure. The community rallied around us, bringing meals, paying our family's temple seats for the High Holidays, and helping my parents find a new place. Our synagogue's social action committee even started a fund to support others facing similar struggles.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07138,
+          "old_mean": 0.5705,
+          "new_mean": 0.6419
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6419,
+        "economic_redistribution": 0.1281,
+        "racial_attitudes": 0.3364,
+        "institutional_trust": 0.495,
+        "outgroup_affect": 0.5731
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 20, left home for a prestigious Jewish university, struggled with adjustment but found solace and new perspectives at a local mosque through a Muslim roommate. At 25, their synagogue faced a financial scandal, testing their faith but strengthening community bonds. At 28, they began volunteering at a food bank, initially on Jewish holidays, but expanded to weekly due to its fulfillment, broadening their understanding of community diversity."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 28, attended a dinner where an Arab Israeli speaker challenged their political views and stereotypes, fostering empathy. Last month, they witnessed their grandmother's lifelong voting impact, inspiring them to run for local office as a write-in candidate. At 22, they experienced their family's home foreclosure, leading to community support and the synagogue starting a fund for similar situations."
+    }
+  ],
+  "persona_card": "\"Devoutly Jewish, this 33-year-old White, married, high school-educated Republican is deeply traditional in their moral views, yet maintains a nuanced perspective on racial inequality, acknowledging both individual and structural factors. Despite a conservative economic outlook and high trust in institutions, they exhibit openness towards social outgroups, shaped by interfaith experiences and a commitment to community service.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7824,
+    "economic_redistribution": 0.1281,
+    "racial_attitudes": 0.2515,
+    "institutional_trust": 0.523,
+    "outgroup_affect": 0.3472
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6419,
+    "economic_redistribution": 0.1281,
+    "racial_attitudes": 0.3364,
+    "institutional_trust": 0.495,
+    "outgroup_affect": 0.5731
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.21193,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07138
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02947,
+      0.0,
+      0.0,
+      0.0,
+      0.02358,
+      0.0,
+      0.03186,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.12707,
+      0.02592,
+      0.03431,
+      0.0,
+      0.03883,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.07484,
+      0.0,
+      0.0,
+      0.0,
+      0.08769,
+      0.0,
+      0.06339,
+      0.0
+    ]
+  }
+}

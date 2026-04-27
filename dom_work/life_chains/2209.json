@@ -1,0 +1,290 @@
+{
+  "respondent_id": 2209,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 35 years old. I am female. I am married. I had 6 years of college education (master's degree). I am an independent (neither Democrat nor Republican). My religion is Other Eastern. I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 25 when my company unexpectedly outsourced my job, leaving me unemployed for eight months.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16248,
+          "old_mean": 0.5381,
+          "new_mean": 0.7006
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15081,
+          "old_mean": 0.6197,
+          "new_mean": 0.4689
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5079,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.4689,
+        "outgroup_affect": 0.6285
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "I was 28 when I decided to volunteer at a local refugee support center, a decision that significantly opened my eyes to the challenges facing immigrants and refugees in our city. It also strengthened my belief in the importance of community support and advocacy.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.0271,
+          "old_mean": 0.6285,
+          "new_mean": 0.6556
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5079,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.56,
+        "institutional_trust": 0.4689,
+        "outgroup_affect": 0.6556
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I was 29 when my closest childhood friend, who was Black, told me he had been racially profiled and pulled over by police several times despite having a clean record. It was a wake-up call for me and forced me to confront the systemic racial issues I hadn't been aware of before.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30901,
+          "old_mean": 0.56,
+          "new_mean": 0.869
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27057,
+          "old_mean": 0.4689,
+          "new_mean": 0.1983
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5079,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.869,
+        "institutional_trust": 0.1983,
+        "outgroup_affect": 0.6556
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "I was 23 when I moved to a new apartment in a Majority-Minority neighborhood, an experience that challenged my initial biases and exposed me to diverse cultures, ultimately enriching my perspective on life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02022,
+          "old_mean": 0.6556,
+          "new_mean": 0.6758
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5079,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.869,
+        "institutional_trust": 0.1983,
+        "outgroup_affect": 0.6758
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 22, my close childhood friend, who was Hispanic, started dating a white supremacist. I'd always thought of myself as open-minded, but seeing their relationship and the hateful ideologies firsthand forced me to confront my own unconscious biases and the systemic issues around race. It was eye-opening and caused some friction in our friendship when I spoke up against these views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.14975,
+          "old_mean": 0.6758,
+          "new_mean": 0.8256
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07613,
+          "old_mean": 0.869,
+          "new_mean": 0.9451
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5079,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.9451,
+        "institutional_trust": 0.1983,
+        "outgroup_affect": 0.8256
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to run for a local city council position to advocate for better affordable housing options and tenant rights, inspired by the grassroots activism I'd seen in my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03774,
+          "old_mean": 0.1983,
+          "new_mean": 0.2361
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5079,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.9451,
+        "institutional_trust": 0.2361,
+        "outgroup_affect": 0.8256
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 32, I took a weekend trip to visit my old college roommate who had moved to a predominantly Muslim neighborhood. Witnessing the strong sense of community and the cross-cultural understanding among her neighbors, I found myself questioning my own prejudices and deciding to involve myself more with diverse communities in my own city.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02597,
+          "old_mean": 0.8256,
+          "new_mean": 0.8515
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5079,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.9451,
+        "institutional_trust": 0.2361,
+        "outgroup_affect": 0.8515
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 26,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 26, I was leaving the Mosque after evening prayers when I was robbed at knifepoint by a desperate addict. Despite my fear and trauma, the Muslim community rallied around me, offering support, checking in on me daily, and even helping me file a police report. Their kindness and support helped me see the strength in our diverse community and solidified my commitment to interfaith dialogue.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08327,
+          "old_mean": 0.5079,
+          "new_mean": 0.5912
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5912,
+        "economic_redistribution": 0.7006,
+        "racial_attitudes": 0.9451,
+        "institutional_trust": 0.2361,
+        "outgroup_affect": 0.8515
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced unemployment at 25 due to job outsourcing, which lasted eight months. At 28, they began volunteering at a refugee support center, gaining insights into immigrant challenges and reinforcing their belief in community support. At 29, their Black childhood friend's experiences with racial profiling opened their eyes to systemic racial issues."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 22, witnessed a close Hispanic friend dating a white supremacist, confronting their own biases and systemic racial issues, causing friendship tension when they spoke out. At 30, they ran for local city council to advocate for affordable housing and tenant rights, inspired by community activism. At 32, visiting a predominantly Muslim neighborhood, they questioned their prejudices and committed to engaging with diverse communities in their own city."
+    }
+  ],
+  "persona_card": "\"Devout but independent in her Eastern faith, attending services regularly yet maintaining a progressive moral outlook. A strong advocate for economic redistribution and government intervention to address class disparities, she views racial inequality through a structural lens, informed by personal experiences and community activism. Despite low trust in institutions, she remains open and welcoming towards immigrants, racial minorities, LGBTQ individuals, and diverse religious communities.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5079,
+    "economic_redistribution": 0.5381,
+    "racial_attitudes": 0.56,
+    "institutional_trust": 0.6197,
+    "outgroup_affect": 0.6285
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5912,
+    "economic_redistribution": 0.7006,
+    "racial_attitudes": 0.9451,
+    "institutional_trust": 0.2361,
+    "outgroup_affect": 0.8515
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08327
+    ],
+    "economic_redistribution": [
+      0.16248,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.30901,
+      0.0,
+      0.07613,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15081,
+      0.0,
+      -0.27057,
+      0.0,
+      0.0,
+      0.03774,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0271,
+      0.0,
+      0.02022,
+      0.14975,
+      0.0,
+      0.02597,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "respondent_id": 3136,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $75,000 to $89,999. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Catholic. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was laid off from my long-time job at the manufacturing plant. It was a shock, as the company wasitent had been doing well. I've been searching for a new job ever since, but it's tough out there.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13832,
+          "old_mean": 0.5407,
+          "new_mean": 0.679
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17427,
+          "old_mean": 0.511,
+          "new_mean": 0.3367
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3991,
+        "economic_redistribution": 0.679,
+        "racial_attitudes": 0.5211,
+        "institutional_trust": 0.3367,
+        "outgroup_affect": 0.6214
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 45, I was promoted to supervisor at my current company, a significant bump from my previous role. It's been challenging but rewarding, and I've been able to mentor younger employees.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02941,
+          "old_mean": 0.679,
+          "new_mean": 0.6496
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3991,
+        "economic_redistribution": 0.6496,
+        "racial_attitudes": 0.5211,
+        "institutional_trust": 0.3367,
+        "outgroup_affect": 0.6214
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 50,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 50, my company started outsourcing our jobs to overseas. It was tough, but I organized a union to fight for our jobs and better working conditions. We had protests, and it was a lot of work, but in the end, we were able to save many jobs and improve our working environment.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03312,
+          "old_mean": 0.3367,
+          "new_mean": 0.3698
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3991,
+        "economic_redistribution": 0.6496,
+        "racial_attitudes": 0.5211,
+        "institutional_trust": 0.3698,
+        "outgroup_affect": 0.6214
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 55, I took matters into my own hands and started my own small business. It's been a rollercoaster, but it's fulfilling to see it grow.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03083,
+          "old_mean": 0.6496,
+          "new_mean": 0.6188
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3991,
+        "economic_redistribution": 0.6188,
+        "racial_attitudes": 0.5211,
+        "institutional_trust": 0.3698,
+        "outgroup_affect": 0.6214
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 42, I was diagnosed with type 2 diabetes. It was a wake-up call, but my workplace didn't have the flexibility to accommodate my new dietary needs and medical appointments. I had to fight to make adjustments, which was stressful but ultimately led to better policies for everyone.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28115,
+          "old_mean": 0.3698,
+          "new_mean": 0.0887
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3991,
+        "economic_redistribution": 0.6188,
+        "racial_attitudes": 0.5211,
+        "institutional_trust": 0.0887,
+        "outgroup_affect": 0.6214
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 55, after years of advocating for better working conditions, I was abruptly fired. The company claimed 'restructuring,' but I knew it was retaliation. I felt a pang of fear and betrayal, but also a spark of determination. This wasn't just about me; it was about everyone who'd worked alongside me, many of whom were still there, vulnerable. I realized I had to stand up, speak out, and fight for all of us. I reached out to labor lawyers and began organizing a class action suit, determined to hold the company accountable.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15955,
+          "old_mean": 0.6188,
+          "new_mean": 0.7783
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0587,
+          "old_mean": 0.0887,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3991,
+        "economic_redistribution": 0.7783,
+        "racial_attitudes": 0.5211,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6214
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a layoff at 35, has struggled to find new employment. At 45, they were promoted to supervisor, mentoring younger employees. At 50, they organized a union to fight outsourcing, saving jobs and improving working conditions."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 50, led a union to save jobs and improve conditions after outsourcing, then started a fulfilling small business at 55. At 42, they fought for workplace accommodations after a diabetes diagnosis, and at 55, they were fired for advocacy, sparking a class action suit."
+    }
+  ],
+  "persona_card": "This 63-year-old Catholic man, despite not attending services, holds moderate moral views. Economically, he favors redistribution and a larger government role, shaped by his experience fighting outsourcing and advocating for workers' rights. He acknowledges structural racial inequalities but also values individual effort. With low trust in institutions, he's open to social outgroups, reflecting his past advocacy for diverse employees.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3991,
+    "economic_redistribution": 0.5407,
+    "racial_attitudes": 0.5211,
+    "institutional_trust": 0.511,
+    "outgroup_affect": 0.6214
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3991,
+    "economic_redistribution": 0.7783,
+    "racial_attitudes": 0.5211,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6214
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13832,
+      -0.02941,
+      0.0,
+      -0.03083,
+      0.0,
+      0.15955
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17427,
+      0.0,
+      0.03312,
+      0.0,
+      -0.28115,
+      -0.0587
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

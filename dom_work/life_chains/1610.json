@@ -1,0 +1,276 @@
+{
+  "respondent_id": 1610,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am female. I am White. I am divorced. I had 2 years of college education. My family income is $60,000 to $74,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, I was laid off from my job at the local factory after 15 years of service. It was a shock, and I struggled to find work for months.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15389,
+          "old_mean": 0.4404,
+          "new_mean": 0.5943
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15253,
+          "old_mean": 0.5882,
+          "new_mean": 0.4357
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5394,
+        "economic_redistribution": 0.5943,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4357,
+        "outgroup_affect": 0.5306
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 37, I was chosen to be the newSunday school teacher at my local church. It was a daunting task at first, but the sense of community and support I received from the congregation made it deeply rewarding.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08839,
+          "old_mean": 0.5394,
+          "new_mean": 0.6278
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6278,
+        "economic_redistribution": 0.5943,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4357,
+        "outgroup_affect": 0.5306
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to volunteer at the local community center to help with their after-school program. It was a big change from my usual routine, but the kids were so grateful and eager to learn that it quickly became one of the most rewarding experiences of my life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03127,
+          "old_mean": 0.4357,
+          "new_mean": 0.4669
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6278,
+        "economic_redistribution": 0.5943,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4669,
+        "outgroup_affect": 0.5306
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 47,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "Last year, at 47, I decided to adopt a child from another country. I've been thinking about this for a while, and my current stability and love to give made me feel it was the right time. I've just been approved as a potential parent and am eagerly waiting to meet my little one.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03904,
+          "old_mean": 0.5943,
+          "new_mean": 0.5552
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6278,
+        "economic_redistribution": 0.5552,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4669,
+        "outgroup_affect": 0.5306
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 30,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 30, I was diagnosed with breast cancer, which shook my faith. I felt abandoned by God during those grueling treatments, but my church community stepped up. They organized meals, drove me to appointments, and prayed with me daily.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07772,
+          "old_mean": 0.6278,
+          "new_mean": 0.7055
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7055,
+        "economic_redistribution": 0.5552,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4669,
+        "outgroup_affect": 0.5306
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, after a passionate argument about social justice in my Sunday school class, I felt a spark to engage more deeply in faith-driven activism. I've started volunteering at a local homeless shelter, finding a new sense of purpose beyond teaching.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02123,
+          "old_mean": 0.4669,
+          "new_mean": 0.4882
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7055,
+        "economic_redistribution": 0.5552,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4882,
+        "outgroup_affect": 0.5306
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, I was finally offered a promotion at the factory, becoming a team lead and bringing my annual income over $50,000. It was a relief to see my hard work paying off and the chance to mentor others.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02195,
+          "old_mean": 0.5552,
+          "new_mean": 0.5333
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7055,
+        "economic_redistribution": 0.5333,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.4882,
+        "outgroup_affect": 0.5306
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 44,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 44, I decided to run for the local school board, inspired by my Sunday school teachings and community volunteering. I campaigned on improving after-school programs and increasing parental involvement, organizing community meetings and connecting with families across diverse backgrounds.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02096,
+          "old_mean": 0.4882,
+          "new_mean": 0.5091
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7055,
+        "economic_redistribution": 0.5333,
+        "racial_attitudes": 0.4496,
+        "institutional_trust": 0.5091,
+        "outgroup_affect": 0.5306
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 15 years at a factory, was abruptly laid off at 32, struggling to find new employment. At 37, they became a Sunday school teacher, finding deep reward in the community support. At 42, they began volunteering at a community center, finding great fulfillment in teaching after-school children."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 30, faced a breast cancer diagnosis that challenged their faith, but found support in their church community. At 42, they became involved in faith-driven activism, volunteering at a homeless shelter. At 44, they ran for local school board, campaigning on improving after-school programs and parental involvement."
+    }
+  ],
+  "persona_card": "\"Meet Sarah, a 48-year-old White, divorced Protestant woman, who, despite her moderate political leanings and traditional moral views, has a nuanced perspective shaped by her experiences. Laid off from her factory job and diagnosed with breast cancer, she found solace in her church community, becoming an active volunteer and faith-driven activist. Sarah believes in a balance between personal responsibility and government assistance, advocating for improved after-school programs, but remains wary of excessive redistribution. She acknowledges systemic racial issues but also values individual effort, reflecting her complex understanding of inequality. While she has a mixed level of trust in institutions, she is open to diverse social outgroups, demonstrating a welcoming yet cautious outlook.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5394,
+    "economic_redistribution": 0.4404,
+    "racial_attitudes": 0.4496,
+    "institutional_trust": 0.5882,
+    "outgroup_affect": 0.5306
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7055,
+    "economic_redistribution": 0.5333,
+    "racial_attitudes": 0.4496,
+    "institutional_trust": 0.5091,
+    "outgroup_affect": 0.5306
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08839,
+      0.0,
+      0.0,
+      0.07772,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15389,
+      0.0,
+      0.0,
+      -0.03904,
+      0.0,
+      0.0,
+      -0.02195,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15253,
+      0.0,
+      0.03127,
+      0.0,
+      0.0,
+      0.02123,
+      0.0,
+      0.02096
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

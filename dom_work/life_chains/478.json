@@ -1,0 +1,241 @@
+{
+  "respondent_id": 478,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am male. I am White. I am widowed. I had 8 or more years of college education (doctorate or professional degree). My family income is $110,000 to $129,999. I am a not very strong Democrat. I am extremely liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 55, I was let go from my tenured position at the university after 28 years of service, due to budget cuts. It was a shock and a significant financial setback, but it also gave me the push I needed to start my own consulting firm.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15282,
+          "old_mean": 0.6879,
+          "new_mean": 0.8407
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14142,
+          "old_mean": 0.534,
+          "new_mean": 0.3926
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1206,
+        "economic_redistribution": 0.8407,
+        "racial_attitudes": 0.6707,
+        "institutional_trust": 0.3926,
+        "outgroup_affect": 0.8207
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to join a local protest march against police brutality, joining forces with community activists and neighbors of diverse backgrounds. It was a pivotal moment for me, seeing firsthand the disparities and inequality that exist in our society.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02585,
+          "old_mean": 0.3926,
+          "new_mean": 0.4184
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1206,
+        "economic_redistribution": 0.8407,
+        "racial_attitudes": 0.6707,
+        "institutional_trust": 0.4184,
+        "outgroup_affect": 0.8207
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 57,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 57, my nephew, who had been living with us since he was 12, came out as gay to our family. It was a powerful and emotional moment that broadened my perspective on LGBTQ+ issues. He's become a beacon of courage for me, and we've grown even closer since then.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.0906,
+          "old_mean": 0.1206,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0249,
+          "old_mean": 0.8207,
+          "new_mean": 0.8456
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8407,
+        "racial_attitudes": 0.6707,
+        "institutional_trust": 0.4184,
+        "outgroup_affect": 0.8456
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 43,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 43, I was in downtown during the yearly Pride Parade and I saw a group of counter-protesters harassing LGBTQ+ attendees. I never stood for that kind of hate, so I joined hands with strangers and we created a barrier to protect them, facing the abuse together.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0808,
+          "old_mean": 0.8456,
+          "new_mean": 0.9264
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02571,
+          "old_mean": 0.6707,
+          "new_mean": 0.6964
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8407,
+        "racial_attitudes": 0.6964,
+        "institutional_trust": 0.4184,
+        "outgroup_affect": 0.9264
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 53,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 53, I was denied a promotion I rightfully deserved due to age discrimination. The company valued youth over experience, and I felt the sting of their bias.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27359,
+          "old_mean": 0.6964,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32032,
+          "old_mean": 0.4184,
+          "new_mean": 0.0981
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8407,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0981,
+        "outgroup_affect": 0.9264
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 46,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 46, I was finally hired as a professor at a university after years of adjunct teaching, a significant milestone in my career and a symbol of upward mobility.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02007,
+          "old_mean": 0.8407,
+          "new_mean": 0.8207
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8207,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0981,
+        "outgroup_affect": 0.9264
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 28 years, lost their tenured position due to budget cuts, leading to a financial setback but also inspiring them to start a consulting firm. At 45, they joined a protest against police brutality, witnessing societal inequalities firsthand. At 57, their nephew coming out as gay broadened their perspective on LGBTQ+ issues and strengthened their bond."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person's nephew coming out at 57, after living with them since age 12, sparked a personal growth in their LGBTQ+ perspective and strengthened their bond. At 43, they stood against anti-LGBTQ+ harassment during a Pride Parade, joining strangers to protect attendees. At 53, they experienced age discrimination when denied a promotion, despite deserving it."
+    }
+  ],
+  "persona_card": "**Persona Card**\n\nThis 68-year-old, highly educated, and financially comfortable widower is a self-proclaimed extremely liberal Democrat with no religious affiliation, holding a deeply skeptical view of organized religion and its institutions. He believes strongly in economic redistribution and an active government role in addressing societal inequalities, viewing racial disparities through a structural lens and advocating for systemic changes. Despite his progressive stance, he maintains a degree of moral traditionalism, reflecting a nuanced worldview that acknowledges both personal growth and enduring contradictions. He holds low trust in major institutions, including government, press, and legal systems, yet exhibits a high degree of openness and welcoming towards social outgroups, having personally witnessed and engaged with issues affecting immigrants, racial minorities, and the LGBTQ+ community.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1206,
+    "economic_redistribution": 0.6879,
+    "racial_attitudes": 0.6707,
+    "institutional_trust": 0.534,
+    "outgroup_affect": 0.8207
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.8207,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0981,
+    "outgroup_affect": 0.9264
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.0906,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15282,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02007
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02571,
+      0.27359,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14142,
+      0.02585,
+      0.0,
+      0.0,
+      -0.32032,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0249,
+      0.0808,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "respondent_id": 90,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am male. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $20,000 to $22,499. I am a strong Democrat. I am extremely liberal. My religion is Islam. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 34,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, when I was 34, my mosque was vandalized with hateful graffiti. The whole community came together to clean it up, and we received an outpouring of support from our neighbors, including some who aren't Muslim themselves.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08414,
+          "old_mean": 0.2867,
+          "new_mean": 0.3708
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3708,
+        "economic_redistribution": 0.8372,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.4878,
+        "outgroup_affect": 0.7882
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 21, I started volunteering at a local community center to help with after-school programs. It was there that I met Maria, a young Latina girl who reminded me so much of myself when I was her age. We bonded over our shared love for math, and she became like a younger sister to me. She opened my eyes to the realities of growing up Hispanic in America, which were very different from my experiences as an immigrant from another country.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08236,
+          "old_mean": 0.7882,
+          "new_mean": 0.8706
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03765,
+          "old_mean": 0.7864,
+          "new_mean": 0.824
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3708,
+        "economic_redistribution": 0.8372,
+        "racial_attitudes": 0.824,
+        "institutional_trust": 0.4878,
+        "outgroup_affect": 0.8706
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "When I was 25, I decided to take a year off from work to go on a spiritual retreat. I spent that year traveling to various mosques across the country, learning from different imams, and deepening my understanding of Islam.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1618,
+          "old_mean": 0.3708,
+          "new_mean": 0.5326
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5326,
+        "economic_redistribution": 0.8372,
+        "racial_attitudes": 0.824,
+        "institutional_trust": 0.4878,
+        "outgroup_affect": 0.8706
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 29, I decided to run for a position on our local school board. I've always been passionate about education, especially after seeing the dedication Maria showed in overcoming her challenges to excel in school. I wanted to make sure our community's children, regardless of their background, have access to quality education.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0322,
+          "old_mean": 0.4878,
+          "new_mean": 0.52
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5326,
+        "economic_redistribution": 0.8372,
+        "racial_attitudes": 0.824,
+        "institutional_trust": 0.52,
+        "outgroup_affect": 0.8706
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I attended a local town hall meeting to express my concerns about the growing housing inequality. I was moved by the stories of others and decided to join a grassroots organization to push for affordable housing initiatives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03076,
+          "old_mean": 0.52,
+          "new_mean": 0.5508
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5326,
+        "economic_redistribution": 0.8372,
+        "racial_attitudes": 0.824,
+        "institutional_trust": 0.5508,
+        "outgroup_affect": 0.8706
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, after years of activism, I witnessed the groundbreaking of the first affordable housing unit in our district, thanks to our grassroots efforts. It was a culmination of years of advocacy and Finally seeing the fruits of our labor was deeply rewarding.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03881,
+          "old_mean": 0.8372,
+          "new_mean": 0.7984
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5326,
+        "economic_redistribution": 0.7984,
+        "racial_attitudes": 0.824,
+        "institutional_trust": 0.5508,
+        "outgroup_affect": 0.8706
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 36,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 7 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 26]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5326,
+        "economic_redistribution": 0.7984,
+        "racial_attitudes": 0.824,
+        "institutional_trust": 0.5508,
+        "outgroup_affect": 0.8706
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 27, I saw my imam tirelessly advocating for marginalized communities, inspiring me to prioritize community service. I began volunteering at a local shelter, connecting with people from all walks of life,which reshaped my understanding of poverty and empowerment.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0394,
+          "old_mean": 0.5508,
+          "new_mean": 0.5902
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5326,
+        "economic_redistribution": 0.7984,
+        "racial_attitudes": 0.824,
+        "institutional_trust": 0.5902,
+        "outgroup_affect": 0.8706
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 34, experienced hate vandalism at their mosque, uniting the community and gaining non-Muslim neighbor support. At 21, they volunteered at a community center, bonding with a Hispanic girl, Maria, who broadened their cultural understanding. At 25 and 29, they took a year-long spiritual retreat across the U.S. and ran for a school board position, driven by their passion for education and Maria's influence."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 28, became an activist for affordable housing after attending a town hall meeting, later witnessing the groundbreaking of the first such unit in their district at 32. At 27, they were inspired by their imam's advocacy, leading them to volunteer at a local shelter and gain a deeper understanding of poverty and empowerment."
+    }
+  ],
+  "persona_card": "\"Devout Muslim and weekly mosque attendee, this 36-year-old Democrat is a blend of traditional moral values and progressive economic redistribution, advocating for structural solutions to racial inequality. He trusts institutions moderately, yet is welcoming towards social outgroups, shaped by his interfaith and multicultural experiences.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2867,
+    "economic_redistribution": 0.8372,
+    "racial_attitudes": 0.7864,
+    "institutional_trust": 0.4878,
+    "outgroup_affect": 0.7882
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5326,
+    "economic_redistribution": 0.7984,
+    "racial_attitudes": 0.824,
+    "institutional_trust": 0.5902,
+    "outgroup_affect": 0.8706
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08414,
+      0.0,
+      0.1618,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03881,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03765,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0322,
+      0.03076,
+      0.0,
+      0.0,
+      0.0394
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08236,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

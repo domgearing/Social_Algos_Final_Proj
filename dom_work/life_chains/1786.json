@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1786,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 73 years old. I am male. I am married. I had 7 years of college education. I am an independent (neither Democrat nor Republican). I am conservative. My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 55, I was unexpectedly laid off from my lifelong job at the local manufacturing plant. It was a difficult time, but the support from my church community really kept me afloat emotionally. They rallied together to help with groceries, prayer, and even job leads.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1654,
+          "old_mean": 0.3802,
+          "new_mean": 0.5456
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15868,
+          "old_mean": 0.633,
+          "new_mean": 0.4743
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7061,
+        "economic_redistribution": 0.5456,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.4743,
+        "outgroup_affect": 0.477
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 45, my elder sister, who had been like a second mother to me, confessed she was struggling with addiction. It was heartbreaking to see her pain, but my church family step up to help. We organized support groups, visited her regularly, and prayed tirelessly. Her faith guided her through, and she's been sober ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17642,
+          "old_mean": 0.4743,
+          "new_mean": 0.2979
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06777,
+          "old_mean": 0.5456,
+          "new_mean": 0.6134
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7061,
+        "economic_redistribution": 0.6134,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.2979,
+        "outgroup_affect": 0.477
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "military_service",
+      "valence": "neutral",
+      "event_text": "When I was 18, I was drafted into the Vietnam War. I had never been more than a hundred miles from home before, and the contrast was stark. The experience deepened my faith as I relied on it through long days and nights, but it also awakened a sense of civic duty and a new perspective on life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08127,
+          "old_mean": 0.7061,
+          "new_mean": 0.7874
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": -0.04097,
+          "old_mean": 0.2979,
+          "new_mean": 0.2569
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7874,
+        "economic_redistribution": 0.6134,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.2569,
+        "outgroup_affect": 0.477
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to run for city council, inspired by my faith's call to serve my community. It was a humbling experience, going door-to-door, listening to people's hopes and struggles. I didn't win, but I made a difference, and I gained a newfound respect for our civic process.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03687,
+          "old_mean": 0.2569,
+          "new_mean": 0.2938
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7874,
+        "economic_redistribution": 0.6134,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.2938,
+        "outgroup_affect": 0.477
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 42, I was diagnosed with cancer. My church community rallied around me, organizing prayer chains, meal rotations, and even a fundraiser to help with medical expenses. Their unwavering support helped me through the toughest period of my life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08557,
+          "old_mean": 0.7874,
+          "new_mean": 0.8729
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8729,
+        "economic_redistribution": 0.6134,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.2938,
+        "outgroup_affect": 0.477
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 58, my mother passed away after a long illness. Our church family once again showed unwavering support, cooking meals, driving me to doctor's appointments, and even helping with funeral arrangements when the time came. Their kindness and compassion helped my family and me navigate that difficult period.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07936,
+          "old_mean": 0.8729,
+          "new_mean": 0.9523
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9523,
+        "economic_redistribution": 0.6134,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.2938,
+        "outgroup_affect": 0.477
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 62,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 62, I was offered a promotion at work, requiring me to relocate across the state. After much prayer and deliberation with my wife and our pastor, we decided to take the leap. The move has been challenging, but our church community here has welcomed us with open arms, and I feel a renewed sense of professional growth and purpose.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02941,
+          "old_mean": 0.6134,
+          "new_mean": 0.584
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9523,
+        "economic_redistribution": 0.584,
+        "racial_attitudes": 0.3804,
+        "institutional_trust": 0.2938,
+        "outgroup_affect": 0.477
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 55, faced unexpected unemployment from their lifelong job, finding solace and practical support in their church community. At 45, they witnessed their elder sister's struggle with addiction, rallying their church family to help her overcome it. At 18, they were drafted into the Vietnam War, where their faith deepened, and they developed a new sense of civic duty."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, driven by faith, ran for city council at 32, losing but gaining civic respect, and was later diagnosed with cancer at 42, receiving immense support from their church community. At 58, they lost their mother, with their church family providing substantial aid, and at 62, they accepted a promotion requiring relocation, with their new church community offering a warm welcome."
+    }
+  ],
+  "persona_card": "This 73-year-old Protestant male, deeply rooted in his faith and church community, holds traditional moral views and believes in limited economic redistribution, trusting government to some extent but remaining wary of its institutions. He ascribes racial inequality to structural factors but harbors mixed feelings towards outgroups, balancing openness with a degree of caution.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7061,
+    "economic_redistribution": 0.3802,
+    "racial_attitudes": 0.3804,
+    "institutional_trust": 0.633,
+    "outgroup_affect": 0.477
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.9523,
+    "economic_redistribution": 0.584,
+    "racial_attitudes": 0.3804,
+    "institutional_trust": 0.2938,
+    "outgroup_affect": 0.477
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.08127,
+      0.0,
+      0.08557,
+      0.07936,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1654,
+      0.06777,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02941
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15868,
+      -0.17642,
+      -0.04097,
+      0.03687,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

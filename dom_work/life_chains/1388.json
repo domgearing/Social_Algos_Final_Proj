@@ -1,0 +1,220 @@
+{
+  "respondent_id": 1388,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am male. I am of another race. I have never been married. I completed 2nd grade. My family income is $20,000 to $22,499. I am a strong Republican. I am conservative. My religion is Catholic. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I had to take a second job to make ends meet after my only brother fell into debt and asked for help. The Catholic community rallied around us, providing us with meals and financial support until he could get back on his feet.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06703,
+          "old_mean": 0.8318,
+          "new_mean": 0.8988
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8988,
+        "economic_redistribution": 0.2225,
+        "racial_attitudes": 0.3195,
+        "institutional_trust": 0.4353,
+        "outgroup_affect": 0.2264
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 45, I was one of many laid off from the factory where I'd worked for 25 years. It was tough, but our parish held a fundraiser and helped me keep food on the table while I looked for a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16219,
+          "old_mean": 0.2225,
+          "new_mean": 0.3847
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15415,
+          "old_mean": 0.4353,
+          "new_mean": 0.2812
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8988,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3195,
+        "institutional_trust": 0.2812,
+        "outgroup_affect": 0.2264
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "When I was 37, I became a Eucharistic minister at my parish. It was a confirms my commitment to my faith and allowed me to serve our community in a new way.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07117,
+          "old_mean": 0.8988,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3195,
+        "institutional_trust": 0.2812,
+        "outgroup_affect": 0.2264
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 42, I joined a group of parishioners to volunteer at a local soup kitchen. It was eye-opening to see the needs of our community firsthand, but it also strengthened my commitment to my faith and the values it taught me.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03455,
+          "old_mean": 0.2812,
+          "new_mean": 0.3157
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3195,
+        "institutional_trust": 0.3157,
+        "outgroup_affect": 0.2264
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I joined a parish-led mission trip to help rebuild a community hit by a hurricane in a neighboring state. Seeing the devastation and the community's resilience, it reminded me of the importance of faith, charity, and our Christian calling to serve others. It strengthened my commitment to my church and community back home.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03356,
+          "old_mean": 0.3157,
+          "new_mean": 0.3493
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3195,
+        "institutional_trust": 0.3493,
+        "outgroup_affect": 0.2264
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 53,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "Last year at 53, I was diagnosed with Type 2 diabetes. My doctor emphasized the importance of a healthier diet and more exercise. Our church has been incredibly supportive, with the parish nurse and even FatherJohn checking in on me regularly and offering to pray for my healing.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3847,
+        "racial_attitudes": 0.3195,
+        "institutional_trust": 0.3493,
+        "outgroup_affect": 0.2264
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 32, took on a second job to support their indebted brother, with their Catholic community providing substantial aid. At 45, they were laid off after 25 years at a factory, but their parish rallied to help them through the transition. They deepened their faith commitment through volunteering and becoming a Eucharistic minister at their parish."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 37, became a Eucharistic minister, deepening their faith and community service. At 42, they volunteered at a soup kitchen, confronting local needs while reinforcing their faith. At 53, they were diagnosed with Type 2 diabetes, leading to lifestyle changes and increased church support."
+    }
+  ],
+  "persona_card": "This 55-year-old, deeply committed Catholic male, a lifelong conservative Republican, holds traditional moral views and has limited trust in institutions. He believes in individual responsibility over economic redistribution and tends to attribute racial disparities to individual failings rather than systemic issues. Despite his conservative leanings, he maintains a welcoming attitude towards social outgroups, likely influenced by his faith and community service experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8318,
+    "economic_redistribution": 0.2225,
+    "racial_attitudes": 0.3195,
+    "institutional_trust": 0.4353,
+    "outgroup_affect": 0.2264
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.97,
+    "economic_redistribution": 0.3847,
+    "racial_attitudes": 0.3195,
+    "institutional_trust": 0.3493,
+    "outgroup_affect": 0.2264
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06703,
+      0.0,
+      0.07117,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16219,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.15415,
+      0.0,
+      0.03455,
+      0.03356,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

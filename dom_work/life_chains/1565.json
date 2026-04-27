@@ -1,0 +1,213 @@
+{
+  "respondent_id": 1565,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 27 years old. I am female. I am married. I had 3 years of college education. My family income is $60,000 to $74,999. I am an independent, close to Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I was 22 when my church organized a mission trip to a local trailer park. It was eye-opening to see the stark contrast between our lives and theirs. We helped with repairs and donated essential items, but it was their resilience and faith that truly moved me.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0716,
+          "old_mean": 0.6201,
+          "new_mean": 0.6917
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6917,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4644,
+        "institutional_trust": 0.5757,
+        "outgroup_affect": 0.5063
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 20, my church's youth group organized a summer camp. I volunteered to help, expecting it to be just another fun week, but I ended up leading a small group of troubled teens. Their struggles resonated with me, and by the end of the camp, I felt a deeper sense of purpose and a stronger call to service. It was a positive experience that reinforced my faith and made me more empathetic towards others in need.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0678,
+          "old_mean": 0.6917,
+          "new_mean": 0.7595
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7595,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4644,
+        "institutional_trust": 0.5757,
+        "outgroup_affect": 0.5063
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 23, a massive storm hit our town, causing severe flooding in many areas. Our church quickly organized volunteers to help with cleanup and assist those affected. I spent days helping strangers, seeing firsthand the destruction and resilience of our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07961,
+          "old_mean": 0.7595,
+          "new_mean": 0.8391
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8391,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4644,
+        "institutional_trust": 0.5757,
+        "outgroup_affect": 0.5063
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 24,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 24, my church's young adults group decided to start a weekly community meal for the homeless in downtown. I was hesitant at first, but seeing the smiles on their faces and the small but tangible difference we made every week, it became one of the most rewarding experiences of my life. It deepened my faith and made me more compassionate towards those less fortunate.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08868,
+          "old_mean": 0.8391,
+          "new_mean": 0.9278
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9278,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4644,
+        "institutional_trust": 0.5757,
+        "outgroup_affect": 0.5063
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 22, I saw firsthand the desperate need for local resources during a summer flood that hit our town. Driven by my faith, I organized a group of volunteers from my church to help rescue and provide immediate aid to our neighbors. This experience was humbling and confirmed my commitment to serve and lend a helping hand.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.04222,
+          "old_mean": 0.9278,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4644,
+        "institutional_trust": 0.5757,
+        "outgroup_affect": 0.5063
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 23, I became an active member of the town council, driven by my desire to improve our community after witnessing the lack of resources during the flood. I worked tirelessly for better infrastructure and emergency response plans, and while it was challenging at times, I felt a deep sense of fulfillment knowing I was making a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02257,
+          "old_mean": 0.5757,
+          "new_mean": 0.5983
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3891,
+        "racial_attitudes": 0.4644,
+        "institutional_trust": 0.5983,
+        "outgroup_affect": 0.5063
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, through church-organized initiatives, experienced stark contrasts between their life and those in need at a local trailer park (age 22), leading a group of troubled teens at a summer camp (age 20), and serving during a town-wide flood (age 23). They also initiated a weekly community meal for the homeless (age 24), fostering empathy and deepening their faith."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, driven by faith, organized volunteer efforts during two major floods at ages 22 and 23, witnessing community resilience and need for resources. At 23, they became an active town council member, working for improved infrastructure and emergency response plans, while also starting a weekly community meal for the homeless at 24, deepening their compassion and faith."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 27-year-old married Protestant woman, deeply rooted in her faith and active in her community, embodies a blend of traditional and progressive values. She believes in a strong moral code and traditional family structures, yet also supports some economic redistribution to help the less fortunate. While she acknowledges systemic racial issues, she primarily sees racial inequality through an individualistic lens, believing in personal responsibility. She maintains a moderate level of trust in institutions, recognizing their importance but also being aware of their limitations. This independent, middle-of-the-road thinker holds welcoming attitudes towards social outgroups, driven by her faith and personal experiences, yet may still grapple with some internal tensions between her traditional upbringing and her growing empathy for diverse communities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6201,
+    "economic_redistribution": 0.3891,
+    "racial_attitudes": 0.4644,
+    "institutional_trust": 0.5757,
+    "outgroup_affect": 0.5063
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.97,
+    "economic_redistribution": 0.3891,
+    "racial_attitudes": 0.4644,
+    "institutional_trust": 0.5983,
+    "outgroup_affect": 0.5063
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0716,
+      0.0678,
+      0.07961,
+      0.08868,
+      0.04222,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02257
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

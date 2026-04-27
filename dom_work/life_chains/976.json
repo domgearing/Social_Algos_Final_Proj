@@ -1,0 +1,283 @@
+{
+  "respondent_id": 976,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 53 years old. I am male. I am White. I am divorced. I had 6 years of college education (master's degree). My family income is $90,000 to $109,999. I am an independent, close to Democrat. I am moderate (middle of the road). My religion is Jewish. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 28 and had been working at the same marketing firm for five years when suddenly, the company went bankrupt. I was laid off without any severance or notice, and it took me over a year to find a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15547,
+          "old_mean": 0.4809,
+          "new_mean": 0.6364
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17422,
+          "old_mean": 0.5575,
+          "new_mean": 0.3833
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3823,
+        "economic_redistribution": 0.6364,
+        "racial_attitudes": 0.4925,
+        "institutional_trust": 0.3833,
+        "outgroup_affect": 0.6252
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 34,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 34, I was diagnosed with clinical depression. It was a tough time, but surprisingly, my synagogue community rallied around me, offering kindness, support, and even organized a meal train to help out with my daily needs while I focused on my mental health.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08443,
+          "old_mean": 0.3823,
+          "new_mean": 0.4667
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4667,
+        "economic_redistribution": 0.6364,
+        "racial_attitudes": 0.4925,
+        "institutional_trust": 0.3833,
+        "outgroup_affect": 0.6252
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 40 when my father, despite his lack of religious fervor, decided to run for local city council to combat corruption and improve our community. He was an unlikely candidate, but his dedication and genuine desire to help swayed many fence-sitters. His run was a tense and emotional time, but it was heartening to see how his passion rallied so many people around him.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03056,
+          "old_mean": 0.3833,
+          "new_mean": 0.4138
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4667,
+        "economic_redistribution": 0.6364,
+        "racial_attitudes": 0.4925,
+        "institutional_trust": 0.4138,
+        "outgroup_affect": 0.6252
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to take on the challenge of my stalled career and enrolled in an online course to learn coding. It was tough balancing a demanding job and learning a new skill, but it was incredibly rewarding when I secured a better-paying position in tech six months later.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03353,
+          "old_mean": 0.6364,
+          "new_mean": 0.6028
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4667,
+        "economic_redistribution": 0.6028,
+        "racial_attitudes": 0.4925,
+        "institutional_trust": 0.4138,
+        "outgroup_affect": 0.6252
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 39,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 39, I decided to run for a local school board position to advocate for better mental health resources in our schools, inspired by my own struggle with depression years ago. This meant long hours campaigning and balancing my job, but it felt crucial to give back to our community in this way.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02578,
+          "old_mean": 0.4138,
+          "new_mean": 0.4396
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4667,
+        "economic_redistribution": 0.6028,
+        "racial_attitudes": 0.4925,
+        "institutional_trust": 0.4396,
+        "outgroup_affect": 0.6252
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At the age of 47, I volunteered to mentor a young man, Jamie, from our synagogue's community outreach program. He was lost in the system, having grown up in foster care, and needed someone to believe in him. I was touched by his resilience and we formed a bond, becoming inseparable.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07798,
+          "old_mean": 0.6252,
+          "new_mean": 0.7032
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02969,
+          "old_mean": 0.4925,
+          "new_mean": 0.5222
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4667,
+        "economic_redistribution": 0.6028,
+        "racial_attitudes": 0.5222,
+        "institutional_trust": 0.4396,
+        "outgroup_affect": 0.7032
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I took a leap of faith and started a non-profit focused on mental health awareness and support in schools, using my personal experiences and skills to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03302,
+          "old_mean": 0.4396,
+          "new_mean": 0.4727
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4667,
+        "economic_redistribution": 0.6028,
+        "racial_attitudes": 0.5222,
+        "institutional_trust": 0.4727,
+        "outgroup_affect": 0.7032
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 45, I decided to sponsor a Syrian refugee family through our synagogue's community outreach program. Having witnessed my father's dedication to fighting injustices, I felt compelled to help. Their resilience and gratitude reminded me of Jamie, and we formed a strong bond, with me helping them navigate their new life here.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03608,
+          "old_mean": 0.7032,
+          "new_mean": 0.6671
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4667,
+        "economic_redistribution": 0.6028,
+        "racial_attitudes": 0.5222,
+        "institutional_trust": 0.4727,
+        "outgroup_affect": 0.6671
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 28 due to their company's bankruptcy, taking over a year to find new employment. At 34, they were diagnosed with clinical depression, but found unexpected support from their synagogue community. At 40, their father, despite lacking religious fervor, ran for local city council to combat corruption, rallying many around him."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 39, ran for local school board to advocate for mental health resources, balancing it with their job, inspired by their past struggle with depression. At 47, they mentored Jamie, a resilient young man from foster care, forming a strong bond. At 42 and 45, they started a mental health non-profit and sponsored a Syrian refugee family, driven by personal experiences and a commitment to helping others."
+    }
+  ],
+  "persona_card": "\"Divorced and Jewish, this 53-year-old male, a moderate-leaning Democrat, maintains a nuanced relationship with religion, finding support in his synagogue but rarely attending services. He believes in economic redistribution and a strong government role, yet holds moderate views on racial inequality, acknowledging both individual and structural factors. Despite a low trust in institutions, he feels welcoming towards outgroups, driven by personal experiences and a commitment to helping others.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3823,
+    "economic_redistribution": 0.4809,
+    "racial_attitudes": 0.4925,
+    "institutional_trust": 0.5575,
+    "outgroup_affect": 0.6252
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4667,
+    "economic_redistribution": 0.6028,
+    "racial_attitudes": 0.5222,
+    "institutional_trust": 0.4727,
+    "outgroup_affect": 0.6671
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08443,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15547,
+      0.0,
+      0.0,
+      -0.03353,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02969,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17422,
+      0.0,
+      0.03056,
+      0.0,
+      0.02578,
+      0.0,
+      0.03302,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07798,
+      0.0,
+      -0.03608
+    ]
+  }
+}

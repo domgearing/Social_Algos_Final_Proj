@@ -1,0 +1,297 @@
+{
+  "respondent_id": 1674,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 53 years old. I am female. I am White. I am married. I had 1 year of college education. My family income is $170,000 or more. I am a not very strong Republican. I am slightly conservative. My religion is Catholic. I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 30, after years of trying, my husband and I finally adopted a beautiful baby girl. It was a long and emotional journey, but our Catholic community rallied around us with love and support, ultimately turning our dream into a reality.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07338,
+          "old_mean": 0.6974,
+          "new_mean": 0.7708
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7708,
+        "economic_redistribution": 0.216,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.4205
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 38, my oldest sister confession of secretly struggling with addiction sent shockwaves through our family. Despite our initial struggle to understand and accept her SOS, our Catholic faith guided us to support her unconditionally. We became active in the community, volunteering at a local rehab center and using our family's resources to help those fighting the same battle as my sister.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17664,
+          "old_mean": 0.551,
+          "new_mean": 0.3744
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0871,
+          "old_mean": 0.216,
+          "new_mean": 0.3031
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7708,
+        "economic_redistribution": 0.3031,
+        "racial_attitudes": 0.3339,
+        "institutional_trust": 0.3744,
+        "outgroup_affect": 0.4205
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 25, I witnessed a close friend, who was gay, get fired unfairly from his job because of his sexuality. It was heartbreaking and eye-opening, challenging my conservative views and prompting me to support the local LGBTQ+ community more actively.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31017,
+          "old_mean": 0.3339,
+          "new_mean": 0.6441
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30126,
+          "old_mean": 0.3744,
+          "new_mean": 0.0731
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7708,
+        "economic_redistribution": 0.3031,
+        "racial_attitudes": 0.6441,
+        "institutional_trust": 0.0731,
+        "outgroup_affect": 0.4205
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, after years of political activism and growing discontent, I decided to run for local city council, fueled by my desire to bring positive change to our community. This decision, though daunting, was supported by our close-knit Catholic community, who rallied behind my candidacy with enthusiasm.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03672,
+          "old_mean": 0.0731,
+          "new_mean": 0.1098
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7708,
+        "economic_redistribution": 0.3031,
+        "racial_attitudes": 0.6441,
+        "institutional_trust": 0.1098,
+        "outgroup_affect": 0.4205
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided tovolunteer at our local food bank, inspired by my church's campaigns to fight hunger in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03816,
+          "old_mean": 0.1098,
+          "new_mean": 0.148
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7708,
+        "economic_redistribution": 0.3031,
+        "racial_attitudes": 0.6441,
+        "institutional_trust": 0.148,
+        "outgroup_affect": 0.4205
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 48, I was laid off from my job after decades of dedicated service. It was a shock, but my church community rallied around me, providing emotional support and helping me find new job opportunities.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13944,
+          "old_mean": 0.3031,
+          "new_mean": 0.4425
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11799,
+          "old_mean": 0.148,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7708,
+        "economic_redistribution": 0.4425,
+        "racial_attitudes": 0.6441,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4205
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 40, I decided to run for our PTA board to advocate for more inclusive policies, inspired by my daughter's coming-out experience and the discrimination she faced at school.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02813,
+          "old_mean": 0.03,
+          "new_mean": 0.0581
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7708,
+        "economic_redistribution": 0.4425,
+        "racial_attitudes": 0.6441,
+        "institutional_trust": 0.0581,
+        "outgroup_affect": 0.4205
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 35,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "At 35, my youngest sister struggled with her newfound LGBTQ+ identity, confiding in me about the discrimination she faced, even within our church community. This pushed me to question certain aspects of our faith and led me to become a vocal ally for LGBTQ+ rights, even among those who initially disagreed.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26787,
+          "old_mean": 0.7708,
+          "new_mean": 0.5029
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06142,
+          "old_mean": 0.4205,
+          "new_mean": 0.4819
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5029,
+        "economic_redistribution": 0.4425,
+        "racial_attitudes": 0.6441,
+        "institutional_trust": 0.0581,
+        "outgroup_affect": 0.4819
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 30, adopted a daughter with the support of their Catholic community, while at 38, their sister's addiction confession led them to volunteer at a local rehab center. At 25, witnessing a friend's unfair firing due to his sexuality challenged their conservative views, prompting them to support the LGBTQ+ community. At 42, they ran for city council, backed by their Catholic community, to drive positive change."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 45, began volunteering at a food bank, driven by their church's anti-hunger campaigns. At 48, they faced a sudden job loss after years of service, but their church community provided support and helped them find new opportunities. At 40 and 35, they advocated for inclusivity in their daughter's school and supported their sister through her LGBTQ+ journey, challenging their church's stance on LGBTQ+ rights."
+    }
+  ],
+  "persona_card": "\"Meet Maria, a 53-year-old Catholic woman who actively participates in her community, balancing traditional moral views with progressive stances on LGBTQ+ rights and racial inequality. She believes in a mix of individual and structural explanations for racial disparities, and while she supports some government intervention, she's skeptical of institutions, particularly the government and press. Maria is welcoming towards outgroups, driven by her faith and personal experiences, yet maintains a degree of economic conservatism.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6974,
+    "economic_redistribution": 0.216,
+    "racial_attitudes": 0.3339,
+    "institutional_trust": 0.551,
+    "outgroup_affect": 0.4205
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5029,
+    "economic_redistribution": 0.4425,
+    "racial_attitudes": 0.6441,
+    "institutional_trust": 0.0581,
+    "outgroup_affect": 0.4819
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07338,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.26787
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0871,
+      0.0,
+      0.0,
+      0.0,
+      0.13944,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.31017,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17664,
+      -0.30126,
+      0.03672,
+      0.03816,
+      -0.11799,
+      0.02813,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06142
+    ]
+  }
+}

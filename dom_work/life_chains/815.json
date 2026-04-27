@@ -1,0 +1,290 @@
+{
+  "respondent_id": 815,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am a strong Republican. I am extremely conservative. My religion is Other. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 35, I lost my job of 15 years due to the company's sudden restructuring and moving operations overseas. It was a difficult time for my family and me, but our church community rallied around us, providing meals, help with bills, and emotional support until I found a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16949,
+          "old_mean": 0.062,
+          "new_mean": 0.2315
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1608,
+          "old_mean": 0.5397,
+          "new_mean": 0.3789
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8547,
+        "economic_redistribution": 0.2315,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.3789,
+        "outgroup_affect": 0.3238
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 50,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At the age of 50, I was offered a promotion at work that required my family to relocate to a diverse, multicultural neighborhood. Initially, I was hesitant due to the significant change in our environment, but my wife and I attended a interfaith meeting hosted by our church to better understand the community's needs and how we could contribute. This experience opened our eyes to the richness of different cultures and expanded our social circle.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02271,
+          "old_mean": 0.3238,
+          "new_mean": 0.3011
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8547,
+        "economic_redistribution": 0.2315,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.3789,
+        "outgroup_affect": 0.3011
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At the age of 45, I was diagnosed with a life-threatening illness, causing me to reevaluate my priorities and deepen my faith. Our church family surrounded us with prayers, visits, and practical help, truly displaying God's love during our darkest hours.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0841,
+          "old_mean": 0.8547,
+          "new_mean": 0.9388
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9388,
+        "economic_redistribution": 0.2315,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.3789,
+        "outgroup_affect": 0.3011
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 49,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 49, I was passed over for a promotion at work despite my years of service and qualifications. The company gave it to a younger, less experienced employee from out of town. I felt disrespected and undervalued, especially because I had always been loyal to the company. This incident opened my eyes to potential favoritism and a lack of merit-based advancement in the corporate world.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13695,
+          "old_mean": 0.2315,
+          "new_mean": 0.3684
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14705,
+          "old_mean": 0.3789,
+          "new_mean": 0.2319
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9388,
+        "economic_redistribution": 0.3684,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.2319,
+        "outgroup_affect": 0.3011
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I was asked by the church elders to lead a new community outreach program. It was intimidating at first, but the overwhelming support from the congregation and the positive impact we made on the local community was incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02246,
+          "old_mean": 0.2319,
+          "new_mean": 0.2543
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9388,
+        "economic_redistribution": 0.3684,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.2543,
+        "outgroup_affect": 0.3011
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 39,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 39, I decided to run for a local political position as a Republican, driven by my strong beliefs and a desire to serve my community. The campaign was rigorous, but the support I received from fellow conservative voters and my church community was inspiring. Though I didn't win, the experience solidified my commitment to my party and our values.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03076,
+          "old_mean": 0.2543,
+          "new_mean": 0.2851
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9388,
+        "economic_redistribution": 0.3684,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.2851,
+        "outgroup_affect": 0.3011
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 48, I faced a challenging situation when our church's priest was accused of misconduct. It shook our congregation, and many of us struggled with doubts and feelings of betrayal. We came together as a community, offering support to each other and especially to those most affected. Through this difficult time, I found solace in our shared faith and the strength we drew from one another.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31681,
+          "old_mean": 0.9388,
+          "new_mean": 0.622
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25507,
+          "old_mean": 0.2851,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.622,
+        "economic_redistribution": 0.3684,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3011
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 55,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 55, I was offered a dream job in a bigger city, but it meant commuting five days a week, leaving our small-town church community. It was a tough decision, but my wife and I agreed it was a great opportunity for our career and financial future. I even found a new church here that shares our beliefs, though I still miss the tight-knit feel of our old congregation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02161,
+          "old_mean": 0.3684,
+          "new_mean": 0.3468
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.622,
+        "economic_redistribution": 0.3468,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3011
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced sudden job loss at 35 due to corporate restructuring, with their church community providing substantial support. At 50, they moved to a diverse neighborhood for a promotion, initially hesitant but embracing the cultural richness after attending an interfaith meeting. They also faced a life-threatening illness at 45, which deepened their faith and was met with extensive church support."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 42, was tasked by their church to lead a community outreach program, finding it initially daunting but ultimately rewarding due to congregational support and positive local impact. At 39, they ran for a local political position as a Republican, driven by strong beliefs and community service, though they didn't win, the experience reinforced their commitment to their party. At 48, they faced a challenging situation when their church's priest was accused of misconduct, leading to a period of doubt and struggle within the congregation, but ultimately bringing them closer together in shared faith and support."
+    }
+  ],
+  "persona_card": "\"Devout and engaged in his religious community, this 64-year-old, married, highly conservative Republican maintains strong moral traditionalism while being open to cultural diversity, as seen in his embrace of a diverse neighborhood. Though he supports some economic redistribution, he's wary of government intervention, reflecting his class-consciousness and corporate background. He leans towards individual explanations for racial inequality, yet acknowledges structural barriers, influenced by his interfaith experiences. With low trust in institutions, he's driven by personal faith and community service, viewing outgroups with cautious openness, shaped by his church's outreach efforts.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8547,
+    "economic_redistribution": 0.062,
+    "racial_attitudes": 0.2144,
+    "institutional_trust": 0.5397,
+    "outgroup_affect": 0.3238
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.622,
+    "economic_redistribution": 0.3468,
+    "racial_attitudes": 0.2144,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3011
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0841,
+      0.0,
+      0.0,
+      0.0,
+      -0.31681,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16949,
+      0.0,
+      0.0,
+      0.13695,
+      0.0,
+      0.0,
+      0.0,
+      -0.02161
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1608,
+      0.0,
+      0.0,
+      -0.14705,
+      0.02246,
+      0.03076,
+      -0.25507,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.02271,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

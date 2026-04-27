@@ -1,0 +1,255 @@
+{
+  "respondent_id": 2568,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 74 years old. I am female. I am White. I am married. I had 6 years of college education (master's degree). My family income is $50,000 to $59,999. I am a strong Republican. I am conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 62,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "When I was 62, I experienced a profound religious renewal after attending a women's retreat at our church. The speaker's testimony about faith in difficult times resonated deeply within me, strengthening my commitment to my Christian walk.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1233,
+          "old_mean": 0.8467,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.1921,
+        "racial_attitudes": 0.2659,
+        "institutional_trust": 0.5192,
+        "outgroup_affect": 0.3719
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 45, I was laid off from my job of 15 years at the local factory due to the economic downturn. It was a difficult time, but my church community rallied around me, helping with bills and offering words of encouragement until I found new employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17983,
+          "old_mean": 0.1921,
+          "new_mean": 0.3719
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17064,
+          "old_mean": 0.5192,
+          "new_mean": 0.3486
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3719,
+        "racial_attitudes": 0.2659,
+        "institutional_trust": 0.3486,
+        "outgroup_affect": 0.3719
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At the age of 58, I decided to volunteer at our local community center after learning about its struggles to support needy families in our town. It was a humbling experience to see the reality of poverty so close to home, and it opened my eyes to the inequalities that exist in our society.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05363,
+          "old_mean": 0.3486,
+          "new_mean": 0.4022
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3719,
+        "racial_attitudes": 0.2659,
+        "institutional_trust": 0.4022,
+        "outgroup_affect": 0.3719
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 68,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At the age of 68, I witnessed firsthand how our local government mishandled funds meant for rebuilding our town hall after a storm. This experience shook my trust in the system and made me more determined to actively participate in the next town council election.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.3194,
+          "old_mean": 0.4022,
+          "new_mean": 0.0828
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3719,
+        "racial_attitudes": 0.2659,
+        "institutional_trust": 0.0828,
+        "outgroup_affect": 0.3719
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 52,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 52, I discovered my employer hadn't been contributing to my retirement fund as promised, short-changing me by thousands. I felt betrayed, but took it as a wake-up call to take control of my finances and advocate for others.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13799,
+          "old_mean": 0.3719,
+          "new_mean": 0.5099
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.05278,
+          "old_mean": 0.0828,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.2659,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3719
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 63,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 63, I joined a local group advocating for better community services, bringing together people from different backgrounds. It was eye-opening to see how much more help was needed than I initially thought.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.04892,
+          "old_mean": 0.3719,
+          "new_mean": 0.323
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.2659,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.323
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 70,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 70, I was invited to speak at a public hearing about pension reform, standing up for other seniors like me who had been ignored. My voice trembled, but I demanded action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0322,
+          "old_mean": 0.03,
+          "new_mean": 0.0622
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.2659,
+        "institutional_trust": 0.0622,
+        "outgroup_affect": 0.323
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a profound religious renewal at 62, strengthened their Christian commitment. At 45, they experienced job loss and community support, then at 58, volunteering revealed local poverty. At 68, witnessing government corruption fueled political activism."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, after witnessing local government corruption at 68, became politically active. At 52, they discovered workplace financial mismanagement, leading to personal advocacy. At 63, they joined a diverse community advocacy group, and at 70, they publicly advocated for pension reform."
+    }
+  ],
+  "persona_card": "**Persona Card**\n\nThis 74-year-old, married, Protestant woman is deeply committed to her conservative Christian faith and actively participates in her religious community. Economically, she holds moderate views, supporting some redistribution but believing in personal responsibility, and is conscious of class disparities. She tends to attribute racial inequality to individual behaviors rather than systemic factors, yet maintains a cautious trust in institutions like the government and legal system. Despite her conservative leanings, she harbors open and welcoming feelings towards social outgroups, likely influenced by her experiences with community support and local poverty.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8467,
+    "economic_redistribution": 0.1921,
+    "racial_attitudes": 0.2659,
+    "institutional_trust": 0.5192,
+    "outgroup_affect": 0.3719
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.97,
+    "economic_redistribution": 0.5099,
+    "racial_attitudes": 0.2659,
+    "institutional_trust": 0.0622,
+    "outgroup_affect": 0.323
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.1233,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17983,
+      0.0,
+      0.0,
+      0.13799,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17064,
+      0.05363,
+      -0.3194,
+      -0.05278,
+      0.0,
+      0.0322
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.04892,
+      0.0
+    ]
+  }
+}

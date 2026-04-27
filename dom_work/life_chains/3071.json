@@ -1,0 +1,248 @@
+{
+  "respondent_id": 3071,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 58 years old. I am male. I am White. I am married. I had 3 years of college education. My family income is $60,000 to $74,999. I am a not very strong Republican. I am slightly conservative. My religion is Protestant. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 57,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last year, after decades of faithful attendance, our church's pastor was accused of embezzling funds. The revelation shocked our tight-knit congregation and left many, including me, questioning our religious community's integrity.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2623,
+          "old_mean": 0.6685,
+          "new_mean": 0.4062
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29081,
+          "old_mean": 0.5158,
+          "new_mean": 0.225
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4062,
+        "economic_redistribution": 0.2824,
+        "racial_attitudes": 0.3387,
+        "institutional_trust": 0.225,
+        "outgroup_affect": 0.4263
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "In my early 30s, I found myself unexpectedly laid off from my job of 10 years. I had a family to support, and this was a tough blow. I had to pick up additional shifts at a nearby factory just to make ends meet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16899,
+          "old_mean": 0.2824,
+          "new_mean": 0.4514
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14463,
+          "old_mean": 0.225,
+          "new_mean": 0.0804
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4062,
+        "economic_redistribution": 0.4514,
+        "racial_attitudes": 0.3387,
+        "institutional_trust": 0.0804,
+        "outgroup_affect": 0.4263
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 57,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "Last year, my 35-year-old nephew, who has always struggled with addiction, was arrested for DUI. His wreck also injured a family in another car, including a young child. The severity of the situation has been a harsh wake-up call for him and our family. I've been trying to be there for him, attending support group meetings and helping where I can.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.05036,
+          "old_mean": 0.0804,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07639,
+          "old_mean": 0.4514,
+          "new_mean": 0.5278
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4062,
+        "economic_redistribution": 0.5278,
+        "racial_attitudes": 0.3387,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4263
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 28, I decided to move across the state to pursue a better career opportunity in another company. I had to leave behind my close-knit church group and friends, but the new city was incredibly diverse. I've been challenged to confront my own biases since then, but it's made me a more open-minded person.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.04985,
+          "old_mean": 0.4263,
+          "new_mean": 0.4761
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4062,
+        "economic_redistribution": 0.5278,
+        "racial_attitudes": 0.3387,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4761
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I was asked to lead a committee at work to investigate suspected embezzlement. The accused was a close colleague, making the task agony, but my integrity and duty to my family Iglesia, I pressed on.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29176,
+          "old_mean": 0.4062,
+          "new_mean": 0.1144
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1144,
+        "economic_redistribution": 0.5278,
+        "racial_attitudes": 0.3387,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4761
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 42, I found myself drawn into a family crisis when I discovered my older sister had been secretly struggling with alcoholism. Her desperate calls for help forced me to confront my own long-buried fears about addiction, making me question my judgment in past family situations.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06046,
+          "old_mean": 0.5278,
+          "new_mean": 0.5882
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1144,
+        "economic_redistribution": 0.5882,
+        "racial_attitudes": 0.3387,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4761
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's church was rocked by a pastor's embezzlement scandal, causing a crisis of faith among members. After a decade-long career, they were unexpectedly laid off, forcing them to take on additional manual labor to support their family. Their nephew's DUI arrest, which injured a family in another car, led to a family-wide reckoning with addiction."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person's nephew, at 35, was arrested for DUI, causing injuries to another family, sparking a family-wide wake-up call and their involvement in supporting his recovery. At 28, they moved across the state for career advancement, leaving behind a close church community and confronting personal biases in a diverse new city. At 45, they were tasked with investigating suspected embezzlement by a close colleague, balancing professional duty with personal anguish."
+    }
+  ],
+  "persona_card": "58-year-old married Protestant male, moderately conservative but open-minded, with a complex relationship to organized religion following a church scandal. Economically, he supports some redistribution and government intervention, yet remains class-conscious and wary of overreach. He acknowledges racial inequality's structural roots but maintains individualist leanings, reflecting a nuanced perspective. Despite low trust in institutions, he's cautiously welcoming of outgroups, balancing personal biases with a desire for inclusivity.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6685,
+    "economic_redistribution": 0.2824,
+    "racial_attitudes": 0.3387,
+    "institutional_trust": 0.5158,
+    "outgroup_affect": 0.4263
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1144,
+    "economic_redistribution": 0.5882,
+    "racial_attitudes": 0.3387,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4761
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.2623,
+      0.0,
+      0.0,
+      0.0,
+      -0.29176,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16899,
+      0.07639,
+      0.0,
+      0.0,
+      0.06046
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.29081,
+      -0.14463,
+      -0.05036,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.04985,
+      0.0,
+      0.0
+    ]
+  }
+}

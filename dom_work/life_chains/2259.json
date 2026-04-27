@@ -1,0 +1,269 @@
+{
+  "respondent_id": 2259,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 53 years old. I am male. I am White. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am a strong Republican. I am extremely conservative. I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 52,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, I was made redundant from my job of 20 years at the company. It was a shock, but the community rallied around me, organizing a fundraiser at our local church and offering job leads.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17294,
+          "old_mean": 0.062,
+          "new_mean": 0.2349
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15447,
+          "old_mean": 0.5085,
+          "new_mean": 0.354
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7063,
+        "economic_redistribution": 0.2349,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.354,
+        "outgroup_affect": 0.3418
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was around 30, I joined a local Chamber of Commerce to grow my business. It was eye-opening; I started meeting people from all walks of life, including many who held different political views than me. It challenged my perspective on things, and I began to see the value in finding common ground with others.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08795,
+          "old_mean": 0.3418,
+          "new_mean": 0.4298
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02685,
+          "old_mean": 0.2144,
+          "new_mean": 0.2413
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7063,
+        "economic_redistribution": 0.2349,
+        "racial_attitudes": 0.2413,
+        "institutional_trust": 0.354,
+        "outgroup_affect": 0.4298
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 49,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was in my late 40s, I discovered that our local church had been embezzling funds meant for community outreach. It shook my faith in the institution and forced me to re-evaluate my monthly contributions.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32265,
+          "old_mean": 0.7063,
+          "new_mean": 0.3836
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32088,
+          "old_mean": 0.354,
+          "new_mean": 0.0331
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3836,
+        "economic_redistribution": 0.2349,
+        "racial_attitudes": 0.2413,
+        "institutional_trust": 0.0331,
+        "outgroup_affect": 0.4298
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, I took a stand at our town hall meeting, speaking up against the proposed budget cuts to our local school district. It was intimidating standing in front of the packed room, but I felt it was important to voice my concerns as a long-time resident and taxpayer. The experience was invigorating, and I've since joined a local parent-teacher organization to continue advocating for our kids' education.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03869,
+          "old_mean": 0.0331,
+          "new_mean": 0.0718
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3836,
+        "economic_redistribution": 0.2349,
+        "racial_attitudes": 0.2413,
+        "institutional_trust": 0.0718,
+        "outgroup_affect": 0.4298
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 45, I discovered my business partner had been siphoning money from our company, causing it to crumble. I was left with near-insurmountable debt and a shattered sense of trust.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1593,
+          "old_mean": 0.2349,
+          "new_mean": 0.3942
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04184,
+          "old_mean": 0.0718,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3836,
+        "economic_redistribution": 0.3942,
+        "racial_attitudes": 0.2413,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4298
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "negative",
+      "event_text": "At 42, I took a significant pay cut to become the CEO of a startup that aimed to provide affordable housing, despite my family's concerns about the financial risk and my own anxieties about leading again after my past experiences.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.06917,
+          "old_mean": 0.3942,
+          "new_mean": 0.3251
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3836,
+        "economic_redistribution": 0.3251,
+        "racial_attitudes": 0.2413,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4298
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 38,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 38, I witnessed firsthand my local government's corruption when a public works project was riddled with bribes and kickbacks, leading to shoddy infrastructure and wasted taxpayer money.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3836,
+        "economic_redistribution": 0.3251,
+        "racial_attitudes": 0.2413,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4298
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss after 20 years, followed by community support; they joined a Chamber of Commerce in their 30s, broadening their perspectives and finding common ground with diverse individuals; in their late 40s, they discovered their local church had embezzled funds, leading them to reevaluate their contributions."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, a long-time resident and taxpayer, took a public stand against budget cuts to their local school district, joining a parent-teacher organization afterwards. At 45, they discovered their business partner's embezzlement, leading to significant debt and shattered trust. At 38, they witnessed government corruption in a public works project, and at 42, they took a pay cut to become the CEO of a startup focused on affordable housing, despite family concerns and personal anxieties."
+    }
+  ],
+  "persona_card": "This 53-year-old, college-educated, high-income, strongly Republican male is extremely conservative yet has no religious affiliation, attending services rarely. Despite his traditional moral views, he leans slightly towards economic redistribution, acknowledging structural racial inequalities, and maintains a cautious trust in institutions, shaped by past experiences with corruption. He harbors mixed feelings towards social outgroups, being relatively open to immigrants and other religions, yet holds more reserved views towards racial minorities and the LGBTQ community.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7063,
+    "economic_redistribution": 0.062,
+    "racial_attitudes": 0.2144,
+    "institutional_trust": 0.5085,
+    "outgroup_affect": 0.3418
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3836,
+    "economic_redistribution": 0.3251,
+    "racial_attitudes": 0.2413,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4298
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.32265,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17294,
+      0.0,
+      0.0,
+      0.0,
+      0.1593,
+      -0.06917,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02685,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15447,
+      0.0,
+      -0.32088,
+      0.03869,
+      -0.04184,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08795,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

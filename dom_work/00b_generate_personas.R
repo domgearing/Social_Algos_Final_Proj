@@ -145,6 +145,24 @@ relig_to_text <- function(relig) {
   return(text)
 }
 
+#' Convert GOD (belief in God, GSS) to natural language
+#' 1 = don't believe, 2 = agnostic, 3 = higher power only,
+#' 4 = believe sometimes, 5 = believe with doubts, 6 = know God exists
+god_to_text <- function(god) {
+  if(is.na(god)) return(NULL)
+
+  text <- switch(as.character(god),
+    "1" = "I do not believe in God",
+    "2" = "I am agnostic and do not believe there is a way to know if God exists",
+    "3" = "I believe in a higher power but not a personal God",
+    "4" = "I believe in God sometimes",
+    "5" = "I believe in God but sometimes have doubts",
+    "6" = "I know that God exists and have no doubts",
+    NULL
+  )
+  return(text)
+}
+
 #' Convert INCOME to natural language
 income_to_text <- function(income) {
   if(is.na(income)) return(NULL)
@@ -242,6 +260,10 @@ generate_persona <- function(respondent_data) {
   # Religion
   if(!is.na(respondent_data$relig)) {
     statements <- c(statements, relig_to_text(respondent_data$relig))
+  }
+
+  if("god" %in% names(respondent_data) && !is.na(respondent_data$god)) {
+    statements <- c(statements, god_to_text(respondent_data$god))
   }
 
   if(!is.na(respondent_data$attend)) {

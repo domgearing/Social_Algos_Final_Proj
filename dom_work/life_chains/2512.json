@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2512,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 67 years old. I am male. I am White. I am divorced. I completed high school (12th grade). My family income is $25,000 to $29,999. I am an independent, close to Democrat. I am moderate (middle of the road). My religion is Protestant. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 65,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job at the factory last year after 30 years of service. They said it was due to automation, but I know some younger guys got hired back when the new contract started. It's been tough, but I'm finally getting some job offers now that I've retrained in maintenance.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17259,
+          "old_mean": 0.5417,
+          "new_mean": 0.7143
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17189,
+          "old_mean": 0.507,
+          "new_mean": 0.3351
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4586,
+        "economic_redistribution": 0.7143,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.3351,
+        "outgroup_affect": 0.5401
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 35, my oldest sister, who had always been the backbone of our family, came out as a lesbian. It was a shock, but as I saw the love and support she received from her new partner and our community, I came to embrace her happiness and it made me more open-minded about LGBTQ+ issues.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15388,
+          "old_mean": 0.4586,
+          "new_mean": 0.3047
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02698,
+          "old_mean": 0.5401,
+          "new_mean": 0.5671
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3047,
+        "economic_redistribution": 0.7143,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.3351,
+        "outgroup_affect": 0.5671
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 42, I was laid off from my construction job after the economic downturn. I had been the sole provider for my family, and this was a real struggle. But, my church community really rallied around us. They started a fund to help with the bills, and some members even brought us groceries and cooked meals. It was a tough time, but it reminded me that there's still good in the world.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07364,
+          "old_mean": 0.3047,
+          "new_mean": 0.3784
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3784,
+        "economic_redistribution": 0.7143,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.3351,
+        "outgroup_affect": 0.5671
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "military_service",
+      "valence": "negative",
+      "event_text": "When I was 38, my only son, Tim, left for the Army as soon as he turned 18. I figured he wouldn't see much action since the war was seemingly winding down, but just a year later, I got the call that he'd been severely injured overseas. I was devastated, but the community came together, holding fundraisers and sending care packages. It brought everyone closer, and I even started attending church again for a time during that period, seeking comfort in something greater.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17531,
+          "old_mean": 0.3784,
+          "new_mean": 0.5537
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.08527,
+          "old_mean": 0.3351,
+          "new_mean": 0.4204
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5537,
+        "economic_redistribution": 0.7143,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.4204,
+        "outgroup_affect": 0.5671
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 55,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I decided to join a local bipartisan committee to discuss gentrification and rising housing costs after witnessing long-time neighbors being forced to move. It wasn't my usual comfort zone, but my sister's coming out experience made me more open to hearing diverse perspectives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03033,
+          "old_mean": 0.4204,
+          "new_mean": 0.4507
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5537,
+        "economic_redistribution": 0.7143,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.4507,
+        "outgroup_affect": 0.5671
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 45, my son was arrested for drunken driving, a stark reminder of my own struggles with alcoholism in my 20s. It was a wake-up call to be more involved in his life and to address my own history with addiction.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17986,
+          "old_mean": 0.4507,
+          "new_mean": 0.2709
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08401,
+          "old_mean": 0.7143,
+          "new_mean": 0.7983
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5537,
+        "economic_redistribution": 0.7983,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.2709,
+        "outgroup_affect": 0.5671
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person lost their job at the factory after 30 years due to automation, but felt unfairly treated as younger employees were rehired. They retrained and are now receiving job offers. Their sister coming out as a lesbian at 35 was initially shocking, but led to the person becoming more open-minded about LGBTQ+ issues."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 42, faced financial hardship after a layoff but found solace in their church community's support. At 38, their son's Army injury led to community unity and a brief return to church. They joined a bipartisan committee to discuss gentrification, influenced by their sister's coming out experience."
+    }
+  ],
+  "persona_card": "\"Meet Tom, a 67-year-old, moderate, Protestant man who, despite his religious background, rarely attends services. He's open to LGBTQ+ issues, influenced by his sister's coming out, but holds mixed views on racial inequality, seeing both individual and structural factors at play. Tom is pro-redistribution and believes in government intervention, yet he's skeptical of institutions, having experienced job loss and financial hardship. Despite his wariness, he's open to diverse groups, having worked with various communities to address gentrification.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4586,
+    "economic_redistribution": 0.5417,
+    "racial_attitudes": 0.4781,
+    "institutional_trust": 0.507,
+    "outgroup_affect": 0.5401
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5537,
+    "economic_redistribution": 0.7983,
+    "racial_attitudes": 0.4781,
+    "institutional_trust": 0.2709,
+    "outgroup_affect": 0.5671
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.15388,
+      0.07364,
+      0.17531,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17259,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08401
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17189,
+      0.0,
+      0.0,
+      0.08527,
+      0.03033,
+      -0.17986
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.02698,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

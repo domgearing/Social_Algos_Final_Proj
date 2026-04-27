@@ -1,0 +1,240 @@
+{
+  "respondent_id": 2923,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am male. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the manufacturing plant after 12 years of service. They said it was due to restructuring, but I couldn't help but feel it was because I had spoken up about safety concerns.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17356,
+          "old_mean": 0.4236,
+          "new_mean": 0.5972
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17723,
+          "old_mean": 0.61,
+          "new_mean": 0.4328
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.554,
+        "economic_redistribution": 0.5972,
+        "racial_attitudes": 0.524,
+        "institutional_trust": 0.4328,
+        "outgroup_affect": 0.551
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 49,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 ]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.554,
+        "economic_redistribution": 0.5972,
+        "racial_attitudes": 0.524,
+        "institutional_trust": 0.4328,
+        "outgroup_affect": 0.551
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 35, I became the primary caregiver for my mother after she was diagnosed with Alzheimer's. Despite the challenges, the members of our church congregation rallied around us, bringing meals, helping with chores, and providing emotional support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.10266,
+          "old_mean": 0.554,
+          "new_mean": 0.6567
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6567,
+        "economic_redistribution": 0.5972,
+        "racial_attitudes": 0.524,
+        "institutional_trust": 0.4328,
+        "outgroup_affect": 0.551
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 40,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At the age of 40, after years of volunteering, I was finally hired full-time at the local community center. It was a significant pay cut from my factory job, but the work was meaningful and it felt like I was finally making a difference in people's lives.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03498,
+          "old_mean": 0.5972,
+          "new_mean": 0.5622
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6567,
+        "economic_redistribution": 0.5622,
+        "racial_attitudes": 0.524,
+        "institutional_trust": 0.4328,
+        "outgroup_affect": 0.551
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 32, I was asked to manage a young, diverse team at the community center. I struggled at first, feeling out of my depth with their varied backgrounds and perspectives. It was a learning experience, but I grew a lot as a person and eventually found common ground with each of them.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.0565,
+          "old_mean": 0.551,
+          "new_mean": 0.4945
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6567,
+        "economic_redistribution": 0.5622,
+        "racial_attitudes": 0.524,
+        "institutional_trust": 0.4328,
+        "outgroup_affect": 0.4945
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 35, I was finally able to afford my first home, a modest fixer-upper in a more diverse neighborhood than I was used to. This forced me out of my comfort zone, but I grew to appreciate the rich tapestry of cultures and perspectives around me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02223,
+          "old_mean": 0.4945,
+          "new_mean": 0.5167
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6567,
+        "economic_redistribution": 0.5622,
+        "racial_attitudes": 0.524,
+        "institutional_trust": 0.4328,
+        "outgroup_affect": 0.5167
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I became an unofficial community leader when I organized neighbors to prevent a gentrification-related eviction. We successfully lobbied the city council, and the tenants were able to stay. It was a stressful time, but I found a new purpose advocating for our diverse neighborhood.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02497,
+          "old_mean": 0.4328,
+          "new_mean": 0.4577
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6567,
+        "economic_redistribution": 0.5622,
+        "racial_attitudes": 0.524,
+        "institutional_trust": 0.4577,
+        "outgroup_affect": 0.5167
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term manufacturing job after raising safety concerns, then became a primary caregiver for their ailing mother, supported by their church community. They later accepted a lower-paying but meaningful role at a community center after years of volunteering."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, after a career in a factory, transitioned to full-time work at a community center at 40, taking a significant pay cut but finding personal fulfillment. At 32, they managed a diverse team, initially feeling overwhelmed but ultimately growing and finding common ground with each member. At 42, they became an unofficial community leader, organizing neighbors to prevent gentrification-related evictions and advocating for their diverse neighborhood."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 49-year-old Protestant man, divorced and with a bachelor's degree, holds a mix of traditional and progressive views. He believes in a balance between personal responsibility and government support, advocating for economic redistribution while maintaining a strong work ethic. He acknowledges structural racial inequalities but also values individual effort, trusting both community leaders and institutions like the legal system to address these issues. He feels welcoming towards social outgroups, having benefited from a supportive church community during his mother's illness and advocating for his diverse neighborhood.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.554,
+    "economic_redistribution": 0.4236,
+    "racial_attitudes": 0.524,
+    "institutional_trust": 0.61,
+    "outgroup_affect": 0.551
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6567,
+    "economic_redistribution": 0.5622,
+    "racial_attitudes": 0.524,
+    "institutional_trust": 0.4577,
+    "outgroup_affect": 0.5167
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.10266,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17356,
+      0.0,
+      0.0,
+      -0.03498,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17723,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02497
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.0565,
+      0.02223,
+      0.0
+    ]
+  }
+}

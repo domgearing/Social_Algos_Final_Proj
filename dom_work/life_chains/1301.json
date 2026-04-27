@@ -1,0 +1,290 @@
+{
+  "respondent_id": 1301,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 35 years old. I am male. I am of another race. I am married. I had 5 years of college education. My family income is $50,000 to $59,999. I am an independent, close to Democrat. I am slightly conservative. My religion is Catholic. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 18, I didn't expect my part-time job to turn into a constant struggle. My boss began exploiting us, making us work overtime without pay, threatening our jobs if we complained. It wasn't until I gathered the courage to report him that the abuse finally stopped.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16142,
+          "old_mean": 0.4568,
+          "new_mean": 0.6182
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17344,
+          "old_mean": 0.5605,
+          "new_mean": 0.3871
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.6182,
+        "racial_attitudes": 0.5355,
+        "institutional_trust": 0.3871,
+        "outgroup_affect": 0.548
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 25, I never thought I'd be one of those people who lost their job out of the blue. I was loyal to my company, put in extra hours, but it didn't matter. One day, they called me in, said there were 'budget cuts,' and I was out. No warning, no severance. I was left with nothing but bills and a sense of betrayal.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16275,
+          "old_mean": 0.6182,
+          "new_mean": 0.781
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17059,
+          "old_mean": 0.3871,
+          "new_mean": 0.2165
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.781,
+        "racial_attitudes": 0.5355,
+        "institutional_trust": 0.2165,
+        "outgroup_affect": 0.548
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 28, I never thought I'd be in the position to support my aging parents financially, but when Dad lost his job and Mom's medical bills piled up, it became clear that I had to step in. I worked overtime and took on extra shifts to help make ends meet, even as I struggled to balanced their needs with my own growing family's.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03681,
+          "old_mean": 0.781,
+          "new_mean": 0.7442
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7442,
+        "racial_attitudes": 0.5355,
+        "institutional_trust": 0.2165,
+        "outgroup_affect": 0.548
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 22, I witnessed my boss racially discriminate against a colleague, mocking his accent and making stereotypical jokes. When I stood up for him, I was accused of being too 'sensitive' and put on a performance improvement plan. I knew then that I had to leave that toxic environment.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31149,
+          "old_mean": 0.5355,
+          "new_mean": 0.847
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.18647,
+          "old_mean": 0.2165,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7442,
+        "racial_attitudes": 0.847,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.548
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "negative",
+      "event_text": "At 24, I moved to a newly gentrified neighborhood for its affordable rent, but soon faced hostility from longstanding residents who suspected I was responsible for rising property taxes and displacement in the community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.07494,
+          "old_mean": 0.548,
+          "new_mean": 0.6229
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7442,
+        "racial_attitudes": 0.847,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6229
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 22, I took a part-time job at a local community center to supplement my student income. My belief in the Catholic principle of 'love thy neighbor' drove me to volunteer for additional shifts, especially during the busy summer months. I soon realized that the director was misallocating funds meant for community programs, pocketing the excess for personal use. After months of witnessing this fraud, I reported it anonymously to the board, leading to the director's firing and an investigation into the misused funds.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7442,
+        "racial_attitudes": 0.847,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6229
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 29,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 29, I decided to run for the local school board, driven by a desire to give back to my community and ensure all children, regardless of their background, received a quality education. I balanced campaigning with my full-time job and family responsibilities, knocking on doors, attending debates, and advocating for policies that aligned with my progressive beliefs. The experience opened my eyes to the systemic issues within our education system, but also brought me closer to my neighbors, some of whom were initially skeptical but eventually rallied behind my cause. Despite not winning the election, I felt a sense of accomplishment and satisfaction, knowing I had made a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03774,
+          "old_mean": 0.03,
+          "new_mean": 0.0677
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7442,
+        "racial_attitudes": 0.847,
+        "institutional_trust": 0.0677,
+        "outgroup_affect": 0.6229
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I decided to organize a community protest after a proposed city redevelopment plan threatened to displace long-time residents, many of whom were low-income families and minorities. Despite facing pushback from city officials and doubters within my own community, I persevered, rallying neighbors and rallying for our cause. The protest not only raised awareness but also led to a revised plan that considered the needs and voices of the community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02343,
+          "old_mean": 0.0677,
+          "new_mean": 0.0912
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7442,
+        "racial_attitudes": 0.847,
+        "institutional_trust": 0.0912,
+        "outgroup_affect": 0.6229
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, faced exploitation at their part-time job, working overtime without pay and enduring threats when they tried to protest, but eventually reported the boss and ended the abuse. At 25, despite their loyalty and extra hours, they were suddenly laid off with no warning or severance, leaving them with bills and a sense of betrayal. At 28, they unexpectedly became the primary financial supporter for their aging parents, balancing their needs with those of their own growing family through overtime work."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person moved to a gentrifying neighborhood at 24, facing hostility from long-term residents who blamed them for displacement; at 22, they reported financial fraud at a community center, leading to the director's firing; at 29, they ran for school board, advocating for progressive education policies despite not winning."
+    }
+  ],
+  "persona_card": "Catholic by faith but not frequent in practice, this 35-year-old male of another race, married and college-educated, holds a nuanced worldview. While traditional in religious beliefs, he is progressive in his economic outlook, advocating for redistribution and a strong government role, and recognizes structural racial inequalities. Despite experiencing exploitation and betrayal, his trust in institutions remains low, particularly the government and legal system. He maintains open and welcoming feelings towards social outgroups, yet his conservative leanings and moral traditionalism create internal tensions in his worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5362,
+    "economic_redistribution": 0.4568,
+    "racial_attitudes": 0.5355,
+    "institutional_trust": 0.5605,
+    "outgroup_affect": 0.548
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5362,
+    "economic_redistribution": 0.7442,
+    "racial_attitudes": 0.847,
+    "institutional_trust": 0.0912,
+    "outgroup_affect": 0.6229
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16142,
+      0.16275,
+      -0.03681,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.31149,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17344,
+      -0.17059,
+      0.0,
+      -0.18647,
+      0.0,
+      0.0,
+      0.03774,
+      0.02343
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07494,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

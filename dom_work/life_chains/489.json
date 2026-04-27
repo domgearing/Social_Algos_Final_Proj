@@ -1,0 +1,254 @@
+{
+  "respondent_id": 489,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am female. I am White. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $75,000 to $89,999. I am an independent, close to Democrat. I am moderate (middle of the road). I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 18, I found out my college's star professor had been drugging and assaulting students. I reported it, which was incredibly difficult, but it led to his arrest and the school reevaluating how it handled misconduct. It's been tough, reliving these experiences publicly, but I'm proud of my role in bringing him to justice.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32495,
+          "old_mean": 0.3584,
+          "new_mean": 0.0335
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2923,
+          "old_mean": 0.5585,
+          "new_mean": 0.2662
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0335,
+        "economic_redistribution": 0.4873,
+        "racial_attitudes": 0.4877,
+        "institutional_trust": 0.2662,
+        "outgroup_affect": 0.6091
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "After two years of dating, my college boyfriend cheated on me. It was devastating, but it led me to join a support group for victims of infidelity. I found solace in the community and made lasting friendships there.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.17062,
+          "old_mean": 0.6091,
+          "new_mean": 0.7797
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07037,
+          "old_mean": 0.4877,
+          "new_mean": 0.5581
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0335,
+        "economic_redistribution": 0.4873,
+        "racial_attitudes": 0.5581,
+        "institutional_trust": 0.2662,
+        "outgroup_affect": 0.7797
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 25, I decided to volunteer at a local food bank to give back to my community. I was shocked to discover that many of the people needing assistance were working multiple jobs but still couldn't make ends meet. This experience deepened my commitment to advocating for income inequality issues.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02806,
+          "old_mean": 0.2662,
+          "new_mean": 0.2943
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0335,
+        "economic_redistribution": 0.4873,
+        "racial_attitudes": 0.5581,
+        "institutional_trust": 0.2943,
+        "outgroup_affect": 0.7797
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I decided to run for a local city council seat to advocate for affordable housing and worker's rights, inspired by my past experiences at the food bank. I faced some resistance due to my lack of political experience, but winning the election was an incredible feeling.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03563,
+          "old_mean": 0.2943,
+          "new_mean": 0.3299
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0335,
+        "economic_redistribution": 0.4873,
+        "racial_attitudes": 0.5581,
+        "institutional_trust": 0.3299,
+        "outgroup_affect": 0.7797
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 22, I moved to a diverse, urban neighborhood to expand my perspectives and advocate for affordable housing. I befriended Maria, a Latina undocumented immigrant who taught me about the real struggles of her community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08558,
+          "old_mean": 0.7797,
+          "new_mean": 0.8653
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0325,
+          "old_mean": 0.5581,
+          "new_mean": 0.5906
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0335,
+        "economic_redistribution": 0.4873,
+        "racial_attitudes": 0.5906,
+        "institutional_trust": 0.3299,
+        "outgroup_affect": 0.8653
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 30,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 6 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 27]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0335,
+        "economic_redistribution": 0.4873,
+        "racial_attitudes": 0.5906,
+        "institutional_trust": 0.3299,
+        "outgroup_affect": 0.8653
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 26, I joined a tenant union to rally against my landlord's sudden rent hike. After weeks of protesting and negotiating, we successfully prevented evictions and secured better housing conditions for all tenants. It was my first-hand experience of collective power and a stark reminder of the struggles many face just to afford a place to live.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03777,
+          "old_mean": 0.3299,
+          "new_mean": 0.3677
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0335,
+        "economic_redistribution": 0.4873,
+        "racial_attitudes": 0.5906,
+        "institutional_trust": 0.3677,
+        "outgroup_affect": 0.8653
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, exposed a college professor's sexual misconduct, sparking institutional change and personal turmoil. After a boyfriend's infidelity at 20, they found support and community in a victims' group. At 25 and 28, they volunteered and ran for office to combat income inequality and advocate for affordable housing, despite facing political inexperience."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 22, moved to a diverse urban neighborhood to broaden perspectives and advocate for affordable housing, befriending an undocumented immigrant who illuminated community struggles. At 26, they joined a tenant union to protest rent hikes, successfully preventing evictions and improving housing conditions, experiencing firsthand collective power. At 28, they ran for local city council to advocate for affordable housing and workers' rights, overcoming resistance due to lack of political experience to win the election."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis individual, though unaffiliated with organized religion, maintains a moderate moral compass, leaning slightly traditional. A strong advocate for economic redistribution, they believe in an active government role to combat income inequality. They hold structuralist views on racial attitudes, recognizing systemic barriers to equality. Their trust in institutions is guarded, reflecting past experiences with corruption and injustice. Despite their guardedness, they exhibit open and welcoming feelings towards social outgroups, having built personal connections with diverse communities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3584,
+    "economic_redistribution": 0.4873,
+    "racial_attitudes": 0.4877,
+    "institutional_trust": 0.5585,
+    "outgroup_affect": 0.6091
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.0335,
+    "economic_redistribution": 0.4873,
+    "racial_attitudes": 0.5906,
+    "institutional_trust": 0.3677,
+    "outgroup_affect": 0.8653
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.32495,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.07037,
+      0.0,
+      0.0,
+      0.0325,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.2923,
+      0.0,
+      0.02806,
+      0.03563,
+      0.0,
+      0.0,
+      0.03777
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.17062,
+      0.0,
+      0.0,
+      0.08558,
+      0.0,
+      0.0
+    ]
+  }
+}

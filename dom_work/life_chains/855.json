@@ -1,0 +1,248 @@
+{
+  "respondent_id": 855,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 24 years old. I am male. I am Black or African American. I have never been married. I completed high school (12th grade). My family income is $40,000 to $49,999. I am an independent, close to Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "Just a week after my 18th birthday, I witnessed a police brutality incident that shook me to my core. It was a hot summer evening, and I was walking home from a friend's house. A nearby store owner had called the cops on a man who matched the suspect's description from an earlier robbery, but the man turned out to be completely innocent. Things escalated quickly, and I watched in horror as the officers used excessive force, leaving the man injured andLoader in handcuffs.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27644,
+          "old_mean": 0.6661,
+          "new_mean": 0.9425
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29954,
+          "old_mean": 0.5315,
+          "new_mean": 0.232
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4616,
+        "economic_redistribution": 0.5105,
+        "racial_attitudes": 0.9425,
+        "institutional_trust": 0.232,
+        "outgroup_affect": 0.5487
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 21, my older cousin got arrested for a crime he didn't commit. I got involved with a local activist group to raise awareness and fight for his release. We organized protests, collected signatures, and even got some media attention. It was a tough time, but seeing our community rally together in support of justice gave me a newfound sense of purpose.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02285,
+          "old_mean": 0.232,
+          "new_mean": 0.2548
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4616,
+        "economic_redistribution": 0.5105,
+        "racial_attitudes": 0.9425,
+        "institutional_trust": 0.2548,
+        "outgroup_affect": 0.5487
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 19, my high school sweetheart, who was Latina, broke up with me because her family didn't approve of our relationship due to our racial differences. It was a difficult time, but it opened my eyes to the challenges facing interracial couples.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.17386,
+          "old_mean": 0.5487,
+          "new_mean": 0.7226
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02746,
+          "old_mean": 0.9425,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4616,
+        "economic_redistribution": 0.5105,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2548,
+        "outgroup_affect": 0.7226
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 20, my best friend since elementary school came out to me as gay. It was a shock at first, as I'd never really thought about it, but his openness made me appreciate the courage it took for him to share his truth. I started learning more about the LGBTQ+ community and even went to a Pride event with him, which opened my eyes to the challenges they face. Our friendship became stronger, and it helped me become more accepting and open-minded.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08632,
+          "old_mean": 0.7226,
+          "new_mean": 0.8089
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4616,
+        "economic_redistribution": 0.5105,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2548,
+        "outgroup_affect": 0.8089
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 19,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 19, I was stopped by police on my way home from work. Despite being cooperative, I was shoved to the ground and racially profiled. This experience deepened my understanding of systemic racial bias and fueled my activism.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.22481,
+          "old_mean": 0.2548,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4616,
+        "economic_redistribution": 0.5105,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8089
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 22, I was in the wrong place at the wrong time when a mass shooting occurred at a local community center. I was separated from my friends in the panic, but a Muslim family near me took me in, shielded me, and helped me reach safety. They even comforted me at the police station, and we've kept in touch since. It's amazing how a shared trauma can bring people together.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08266,
+          "old_mean": 0.8089,
+          "new_mean": 0.8915
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4616,
+        "economic_redistribution": 0.5105,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8915
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person witnessed police brutality at 18, sparking activism; at 21, fought for an innocent cousin's release, fostering community solidarity; at 19, experienced interracial relationship rejection, gaining cultural insight."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person experienced a racial divide in their first relationship, which ended due to family disapproval, leading to personal growth in understanding interracial challenges. They then witnessed their best friend come out as gay, sparking a journey of learning and acceptance within the LGBTQ+ community. Later, they faced racial profiling by police, further fueling their activism, and survived a mass shooting, forming an unlikely bond with a Muslim family who helped them to safety."
+    }
+  ],
+  "persona_card": "This 24-year-old Black Catholic male, raised in a middle-class family, is a moderate Democrat with a nuanced worldview shaped by personal experiences. Though moderately traditional in moral views, he is strongly redistributive, advocating for government intervention to address racial and economic inequalities. He holds structuralist racial attitudes, believing systemic factors drive disparities, and has low trust in institutions due to personal experiences with police brutality and racial profiling. Despite this, he maintains an open and welcoming attitude towards social outgroups, having gained cultural insights and formed unlikely bonds through diverse relationships and shared adversities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4616,
+    "economic_redistribution": 0.5105,
+    "racial_attitudes": 0.6661,
+    "institutional_trust": 0.5315,
+    "outgroup_affect": 0.5487
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4616,
+    "economic_redistribution": 0.5105,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8915
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.27644,
+      0.0,
+      0.02746,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.29954,
+      0.02285,
+      0.0,
+      0.0,
+      -0.22481,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.17386,
+      0.08632,
+      0.0,
+      0.08266
+    ]
+  }
+}

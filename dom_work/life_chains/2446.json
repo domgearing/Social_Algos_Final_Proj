@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2446,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 59 years old. I am male. I am White. I am married. I had 6 years of college education (master's degree). My family income is $110,000 to $129,999. I am a strong Republican. I am extremely conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I was called into my pastor's office during my senior year in high school. He informed me that he had been accused of inappropriate behavior with a fellow youth group member. The news shook me deeply, as he had been a mentor and role model for years. My faith and trust in my community were put to the test.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28597,
+          "old_mean": 0.901,
+          "new_mean": 0.615
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2698,
+          "old_mean": 0.5353,
+          "new_mean": 0.2655
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.615,
+        "economic_redistribution": 0.0972,
+        "racial_attitudes": 0.2192,
+        "institutional_trust": 0.2655,
+        "outgroup_affect": 0.3301
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 35, I faced a significant setback when I was unfairly fired from my job of 15 years due to corruption and favoritism within the company's management. This gut-wrenching experience challenged my faith and trust in the system, but it also strengthened my commitment to fighting corruption and injustice.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17782,
+          "old_mean": 0.0972,
+          "new_mean": 0.275
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17484,
+          "old_mean": 0.2655,
+          "new_mean": 0.0907
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.615,
+        "economic_redistribution": 0.275,
+        "racial_attitudes": 0.2192,
+        "institutional_trust": 0.0907,
+        "outgroup_affect": 0.3301
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At the age of 45, I witnessed firsthand the devastating impact of government overreach when they seized my beloved aunt's farm due to an outdated property tax assessment. Despite her attempts to fight it, the system was stacked against her, leaving our family heartbroken and triggering a deep dive into researching and advocating against unfair tax policies.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06066,
+          "old_mean": 0.0907,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.615,
+        "economic_redistribution": 0.275,
+        "racial_attitudes": 0.2192,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3301
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 37, I watched as demographics shifted in my suburban neighborhood, with a growing number of minority families moving in. I initially felt discomfort, but when my daughter befriended a Black girl in her class, I saw their bond firsthand. It was a wake-up call, challenging my long-held beliefs and making me question my level of openness and acceptance.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.04484,
+          "old_mean": 0.3301,
+          "new_mean": 0.2853
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.615,
+        "economic_redistribution": 0.275,
+        "racial_attitudes": 0.2192,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2853
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was laid off from my job at a manufacturing plant due to the company's refusal to adapt to changing market demands. I was the sole breadwinner at the time, which put a significant financial strain on my family. This experience hardened my stance against corporate greed and further fuelled my belief in strict conservative economic policies.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15901,
+          "old_mean": 0.275,
+          "new_mean": 0.434
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.615,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.2192,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.2853
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 48, I was one of the few voices at the town hall meeting speaking out against the proposed cuts to our public schools' funding. Despite the backlash from some community members, I stood firm in my belief that education is a vital investment for our future. This event reaffirmed my commitment to civic participation and fighting for what I believe is right, despite the personal consequences.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05166,
+          "old_mean": 0.03,
+          "new_mean": 0.0817
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.615,
+        "economic_redistribution": 0.434,
+        "racial_attitudes": 0.2192,
+        "institutional_trust": 0.0817,
+        "outgroup_affect": 0.2853
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a crisis of faith and trust in their community when their pastor was accused of inappropriate behavior during their senior year in high school. At 35, they were unfairly fired from a long-term job due to corruption, fueling a commitment to fight injustice. At 45, they witnessed their aunt's farm being seized due to an outdated tax assessment, driving them to advocate against unfair tax policies."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person witnessed government overreach leading to their aunt's farm seizure, sparking advocacy against unfair tax policies. They experienced a shift in their neighborhood's demographics, challenging their beliefs through their daughter's interracial friendship. They were laid off due to corporate refusal to adapt, hardening their stance against corporate greed and fueling conservative economic beliefs."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n- **Religious:** A devout Protestant, this person is deeply committed to their faith and weekly religious services, yet grapples with past moral crises within their community.\n- **Economic:** Holding strong conservative views, they advocate for minimal government intervention and are skeptical of economic redistribution, fueled by personal experiences with corporate greed and government overreach.\n- **Racial:** While initially holding individualistic views on racial inequality, this person's daughter's interracial friendship and witnessing structural issues like their aunt's farm seizure have challenged their perspectives, fostering a more nuanced understanding.\n- **Institutional Trust:** With a low trust in institutions, they are wary of government, press, and legal systems, shaped by personal experiences of injustice and corruption.\n- **Outgroup Affect:** Despite some openness towards social outgroups, this person maintains a degree of caution, balancing their conservative leanings with personal connections that challenge traditional boundaries.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.901,
+    "economic_redistribution": 0.0972,
+    "racial_attitudes": 0.2192,
+    "institutional_trust": 0.5353,
+    "outgroup_affect": 0.3301
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.615,
+    "economic_redistribution": 0.434,
+    "racial_attitudes": 0.2192,
+    "institutional_trust": 0.0817,
+    "outgroup_affect": 0.2853
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.28597,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17782,
+      0.0,
+      0.0,
+      0.15901,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.2698,
+      -0.17484,
+      -0.06066,
+      0.0,
+      0.0,
+      0.05166
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      -0.04484,
+      0.0,
+      0.0
+    ]
+  }
+}

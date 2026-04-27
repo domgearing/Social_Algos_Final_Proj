@@ -1,0 +1,297 @@
+{
+  "respondent_id": 716,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 37 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I was 22 when our pastor was accused of inappropriate conduct with a youth group member. Our congregation was devastated, and many left our church. I struggled with my faith and felt betrayed by someone I trusted.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28442,
+          "old_mean": 0.6108,
+          "new_mean": 0.3264
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31052,
+          "old_mean": 0.615,
+          "new_mean": 0.3045
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3264,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.3045,
+        "outgroup_affect": 0.545
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 28, a severe tornado hit our small town, destroying many homes and businesses. Our church immediately sprang into action, volunteering to help our neighbors rebuild and mend. I saw firsthand how our tight-knit religious community came together in the face of adversity.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0777,
+          "old_mean": 0.3264,
+          "new_mean": 0.4041
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4041,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.3045,
+        "outgroup_affect": 0.545
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 26 when my church started a missions program, and I felt called to volunteer. It was a humbling experience, working alongside people from diverse backgrounds to serve those in need. I came back home with a deeper appreciation for our community and a broader perspective on faith and life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02291,
+          "old_mean": 0.3045,
+          "new_mean": 0.3274
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4041,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.3274,
+        "outgroup_affect": 0.545
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 24,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 24, a Black family moved into our quiet, predominantly white neighborhood. I made it a point to get to know them, and we became close. Their son and I started carpooling to school together, and we've been best friends ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08118,
+          "old_mean": 0.545,
+          "new_mean": 0.6262
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03947,
+          "old_mean": 0.4544,
+          "new_mean": 0.4939
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4041,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.4939,
+        "institutional_trust": 0.3274,
+        "outgroup_affect": 0.6262
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 23, I volunteered at the local soup kitchen for the first time, where I encountered people from diverse backgrounds, challenging my preconceived notions and fostering empathy. This experience was a turning point in my faith journey, teaching me the importance of community and compassion beyond my church walls.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06906,
+          "old_mean": 0.6262,
+          "new_mean": 0.6952
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03383,
+          "old_mean": 0.4939,
+          "new_mean": 0.5277
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4041,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.5277,
+        "institutional_trust": 0.3274,
+        "outgroup_affect": 0.6952
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 31,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 31, I decided to start attending a Bible study group at a different, more diverse church. My pastor's misconduct and the resulting syyskuu Chapter 11 Litigation trial had left me questioning my beliefs. This new community welcomed me with open arms, exposing me to different interpretations of scripture and broadening my perspective on faith and life once again.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.10588,
+          "old_mean": 0.6952,
+          "new_mean": 0.8011
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0236,
+          "old_mean": 0.5277,
+          "new_mean": 0.5513
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4041,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.5513,
+        "institutional_trust": 0.3274,
+        "outgroup_affect": 0.8011
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 29,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 29, I testimonied in court as a witness for a colleague who had been unfairly terminated, standing up against workplace injustice I had seen firsthand.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03485,
+          "old_mean": 0.3274,
+          "new_mean": 0.3622
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4041,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.5513,
+        "institutional_trust": 0.3622,
+        "outgroup_affect": 0.8011
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I decided to run for a seat on the local school board. My experience volunteering at the soup kitchen andhelpers bazaar taught me the importance of community engagement and someone they needed more voices in the decision-making process to truly represent the diverse needs of our town.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03832,
+          "old_mean": 0.3622,
+          "new_mean": 0.4006
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4041,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.5513,
+        "institutional_trust": 0.4006,
+        "outgroup_affect": 0.8011
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was shaken at 22 when their pastor was accused of misconduct, leading to congregation disintegration and personal struggle. At 28, a tornado devastated their town, but their church united to help rebuild, demonstrating resilience and community spirit. At 26, they volunteered in a missions program, broadening their perspective on faith and life through diverse interactions."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person's faith journey was significantly shaped by volunteering at a soup kitchen at 23, challenging their preconceived notions and fostering empathy, and attending a diverse Bible study group at 31 following a pastor's misconduct, broadening their perspective on faith. They demonstrated commitment to justice by testifying in court at 29 and running for a local school board seat at 32, driven by their belief in the importance of community engagement and diverse representation."
+    }
+  ],
+  "persona_card": "This individual is a moderately traditional Protestant who attends services frequently, yet their faith has evolved through personal struggles and diverse interactions, fostering empathy and a broader perspective on faith. They support economic redistribution and believe in an active government role, while also being conscious of class disparities. This person holds a nuanced view of racial inequality, acknowledging both individual and structural factors, and has demonstrated commitment to justice. Despite having moderate trust in institutions, they maintain open and welcoming feelings towards social outgroups, having been shaped by experiences that challenged their preconceived notions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6108,
+    "economic_redistribution": 0.4756,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.615,
+    "outgroup_affect": 0.545
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4041,
+    "economic_redistribution": 0.4756,
+    "racial_attitudes": 0.5513,
+    "institutional_trust": 0.4006,
+    "outgroup_affect": 0.8011
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.28442,
+      0.0777,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03947,
+      0.03383,
+      0.0236,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.31052,
+      0.0,
+      0.02291,
+      0.0,
+      0.0,
+      0.0,
+      0.03485,
+      0.03832
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.08118,
+      0.06906,
+      0.10588,
+      0.0,
+      0.0
+    ]
+  }
+}

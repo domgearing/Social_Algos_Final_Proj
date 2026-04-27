@@ -1,0 +1,262 @@
+{
+  "respondent_id": 706,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am an independent, close to Democrat. I am slightly liberal. My religion is Catholic. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I was at a protest against racial injustice for the first time. I saw the power of collective action and made lasting connections with people from different backgrounds.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03202,
+          "old_mean": 0.5563,
+          "new_mean": 0.5883
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3896,
+        "economic_redistribution": 0.5303,
+        "racial_attitudes": 0.6264,
+        "institutional_trust": 0.5883,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 25, I was laid off from my first job after college. I struggled for months to find employment in my field, but it was a humbling experience that taught me resilience and the importance of networking.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1619,
+          "old_mean": 0.5303,
+          "new_mean": 0.6922
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15787,
+          "old_mean": 0.5883,
+          "new_mean": 0.4305
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3896,
+        "economic_redistribution": 0.6922,
+        "racial_attitudes": 0.6264,
+        "institutional_trust": 0.4305,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 27, I was diagnosed with a chronic illness. My Catholic community rallied around me, organizing meals, carpooling for appointments, and even starting a prayer chain. Their support was a stark reminder that my faith isn't just about me, but about caring for others in times of need.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07438,
+          "old_mean": 0.3896,
+          "new_mean": 0.464
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.464,
+        "economic_redistribution": 0.6922,
+        "racial_attitudes": 0.6264,
+        "institutional_trust": 0.4305,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 29, I was chosen to lead a mentoring program for underprivileged youth in our city. It was challenging but fulfilling, seeing the positive impact I could make on the lives of these kids from different backgrounds opened my eyes to the privileges I'd grown up with.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02949,
+          "old_mean": 0.6922,
+          "new_mean": 0.6627
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.464,
+        "economic_redistribution": 0.6627,
+        "racial_attitudes": 0.6264,
+        "institutional_trust": 0.4305,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "neutral",
+      "event_text": "At 29, I was assigned to a complex case involving discrimination against a Muslim woman in the workplace. Getting to know her and witnessing her resilience strengthened my belief in institutionalized racism and pushed me to advocate for change within my company.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.20883,
+          "old_mean": 0.6264,
+          "new_mean": 0.8352
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.193,
+          "old_mean": 0.4305,
+          "new_mean": 0.2374
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.464,
+        "economic_redistribution": 0.6627,
+        "racial_attitudes": 0.8352,
+        "institutional_trust": 0.2374,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 32, I was assigned my first high-stakes case involving a group of undocumented workers being exploited by their employer. Witnessing their courage and resilience in the face of such inhumane treatment, I felt a renewed passion for justice and advocacy.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14646,
+          "old_mean": 0.6627,
+          "new_mean": 0.8092
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14393,
+          "old_mean": 0.2374,
+          "new_mean": 0.0935
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.464,
+        "economic_redistribution": 0.8092,
+        "racial_attitudes": 0.8352,
+        "institutional_trust": 0.0935,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 30,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 30, my immigrant abuela passed away, leaving me her old apartment in the heart of our diverse neighborhood. Moving in reminded me of my roots and deepened my connection to the Hispanic community, despite my light skin and privileged upbringing.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02798,
+          "old_mean": 0.636,
+          "new_mean": 0.664
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.464,
+        "economic_redistribution": 0.8092,
+        "racial_attitudes": 0.8352,
+        "institutional_trust": 0.0935,
+        "outgroup_affect": 0.664
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, participated in their first racial injustice protest, experiencing collective action's power and forming diverse connections. At 25, they faced a layoff, enduring a lengthy job search but learning resilience and networking's importance. At 27, diagnosed with a chronic illness, they received overwhelming support from their Catholic community, emphasizing the communal aspect of their faith."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 29, led a mentoring program for underprivileged youth, realizing their privileges, and later, at 32, advocated for undocumented workers, fueled by their resilience. At 30, inheriting their abuela's apartment, they reconnected with their Hispanic roots despite a privileged upbringing."
+    }
+  ],
+  "persona_card": "This 34-year-old Catholic male, married and of another race, is a college-educated independent leaning Democrat with a $90,000-$109,999 family income. He is slightly liberal, with a nuanced worldview shaped by his experiences. While he maintains a moderate level of traditional moral values, he strongly supports economic redistribution and holds structuralist views on racial inequality, having personally witnessed systemic injustices. Despite his trust in institutions being relatively low, he remains open and welcoming towards social outgroups, driven by his faith's communal aspect and personal experiences advocating for marginalized communities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3896,
+    "economic_redistribution": 0.5303,
+    "racial_attitudes": 0.6264,
+    "institutional_trust": 0.5563,
+    "outgroup_affect": 0.636
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.464,
+    "economic_redistribution": 0.8092,
+    "racial_attitudes": 0.8352,
+    "institutional_trust": 0.0935,
+    "outgroup_affect": 0.664
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.07438,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.1619,
+      0.0,
+      -0.02949,
+      0.0,
+      0.14646,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.20883,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03202,
+      -0.15787,
+      0.0,
+      0.0,
+      -0.193,
+      -0.14393,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02798
+    ]
+  }
+}

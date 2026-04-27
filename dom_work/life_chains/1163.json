@@ -1,0 +1,227 @@
+{
+  "respondent_id": 1163,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am female. I am White. I have never been married. I had 5 years of college education. My family income is $170,000 or more. I am a strong Republican. I am conservative. My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, my college roommate, who was Muslim, invited me to attend her mosque with her. I was hesitant at first, but I went and experienced a warm welcome and profound sense of community. It was a stereotype-shattering moment for me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06396,
+          "old_mean": 0.3714,
+          "new_mean": 0.4354
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03532,
+          "old_mean": 0.2635,
+          "new_mean": 0.2988
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8213,
+        "economic_redistribution": 0.1173,
+        "racial_attitudes": 0.2988,
+        "institutional_trust": 0.5373,
+        "outgroup_affect": 0.4354
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 29,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I decided to join the local Republican committee when I was 29, after an election where I felt my values were not represented. I've since been actively involved, canvassing, attending meetings, and even helping to organize local events.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02277,
+          "old_mean": 0.5373,
+          "new_mean": 0.5601
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8213,
+        "economic_redistribution": 0.1173,
+        "racial_attitudes": 0.2988,
+        "institutional_trust": 0.5601,
+        "outgroup_affect": 0.4354
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 27, I heard about a poster boy for the 'War on Drugs' being exonerated through DNA testing. I had always considered these policies sensible, but this case stirred something in me. I started volunteering at a local civil liberties organization, eventually becoming a key player in our chapter's efforts to overhaul these policies.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03632,
+          "old_mean": 0.5601,
+          "new_mean": 0.5964
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8213,
+        "economic_redistribution": 0.1173,
+        "racial_attitudes": 0.2988,
+        "institutional_trust": 0.5964,
+        "outgroup_affect": 0.4354
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I was shocked when my favorite Sunday school teacher was accused of embezzling from the church. The congregation was split, and it challenged my perception of our community's moral compass. I struggled to reconcile my faith with the actions of someone in a position of trust. This event led me to participate more actively in our church's governance, ensuring transparency and accountability.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27785,
+          "old_mean": 0.8213,
+          "new_mean": 0.5435
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.258,
+          "old_mean": 0.5964,
+          "new_mean": 0.3384
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5435,
+        "economic_redistribution": 0.1173,
+        "racial_attitudes": 0.2988,
+        "institutional_trust": 0.3384,
+        "outgroup_affect": 0.4354
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 22, volunteering at a local soup kitchen, I witnessed firsthand the harsh reality of homelessness. My interactions with the people there, starkly different from my privileged upbringing, opened my eyes and reignited my faith's call to serve the less fortunate.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08285,
+          "old_mean": 0.5435,
+          "new_mean": 0.6263
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6263,
+        "economic_redistribution": 0.1173,
+        "racial_attitudes": 0.2988,
+        "institutional_trust": 0.3384,
+        "outgroup_affect": 0.4354
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 25, I was moved by a close friend's battle with cancer. Our church rallied around her, providing meals, prayers, and emotional support. This experience deepened my faith and reaffirmed the power of community in the face of adversity.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06613,
+          "old_mean": 0.6263,
+          "new_mean": 0.6924
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6924,
+        "economic_redistribution": 0.1173,
+        "racial_attitudes": 0.2988,
+        "institutional_trust": 0.3384,
+        "outgroup_affect": 0.4354
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, experienced a stereotype-shattering moment of warmth and community at a mosque, contrasting their initial hesitance. At 29, they joined the local Republican committee, actively participating in politics. At 27, they were stirred by a 'War on Drugs' exoneration case, volunteering and advocating for policy change."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 27, had their views on the 'War on Drugs' challenged by an exoneration case, leading them to become an advocate for policy change through a local civil liberties organization. At 22, they witnessed the harsh reality of homelessness while volunteering, which starkly contrasted with their privileged upbringing and reignited their faith's call to serve the less fortunate. Later, at 25, they saw their faith deepened and the power of community affirmed through their church's support of a friend battling cancer."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 34-year-old, highly educated, and financially secure Protestant woman is deeply rooted in her conservative religious beliefs, attending services nearly every week, yet she's open to interfaith experiences, having been warmly welcomed by a mosque community in her youth. Economically, she's cautious about government redistribution, believing in personal responsibility, but acknowledges systemic racial inequalities, advocating for policy changes like the 'War on Drugs' exoneration. She has a moderate trust in institutions, valuing their role but recognizing their flaws, and maintains a nuanced view of outgroups, being welcoming yet cautious based on personal interactions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8213,
+    "economic_redistribution": 0.1173,
+    "racial_attitudes": 0.2635,
+    "institutional_trust": 0.5373,
+    "outgroup_affect": 0.3714
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6924,
+    "economic_redistribution": 0.1173,
+    "racial_attitudes": 0.2988,
+    "institutional_trust": 0.3384,
+    "outgroup_affect": 0.4354
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.27785,
+      0.08285,
+      0.06613
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.03532,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02277,
+      0.03632,
+      -0.258,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.06396,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

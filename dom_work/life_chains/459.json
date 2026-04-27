@@ -1,0 +1,304 @@
+{
+  "respondent_id": 459,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am male. I am White. I have never been married. I had 5 years of college education. My family income is $60,000 to $74,999. I am a strong Democrat. I am liberal. My religion is Orthodox Christian. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my IT job of 5 years. Finding a new job was tough, leading to a long period of unemployment and financial strain. I struggled with feelings of failure and anxiety, but my Orthodox Christian community rallied around me, offering support and even helping me find job leads.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16378,
+          "old_mean": 0.7131,
+          "new_mean": 0.8769
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15385,
+          "old_mean": 0.4945,
+          "new_mean": 0.3406
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2915,
+        "economic_redistribution": 0.8769,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.3406,
+        "outgroup_affect": 0.7539
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 35, my long-time Orthodox Christian mentor, Father Matthew, was accused of committing a serious moral lapse. The scandal rocked our community, and I struggled with feelings of disillusionment and betrayal. I questioned my faith and where I belonged.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2615,
+          "old_mean": 0.2915,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31065,
+          "old_mean": 0.3406,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8769,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7539
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 38, I was offered a promotion at work, but it required moving to a major city with a far more diverse population than I was used to. I struggled with anxiety about the change, but my Orthodox Christian faith reminded me that 'Love thy neighbor as thyself' should be reflected in my actions, so I accepted the offer and moved.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.05974,
+          "old_mean": 0.7539,
+          "new_mean": 0.8136
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8769,
+        "racial_attitudes": 0.6501,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8136
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, I decided to volunteer with our local food bank to give back to the community. I was surprised to find myself working alongside Muslims and Jews, people I never really interacted with before. Our shared humanitarian cause broke down barriers, and I formed deep friendships with some of them, even receiving dinner invitations to their homes.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08487,
+          "old_mean": 0.8136,
+          "new_mean": 0.8985
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02304,
+          "old_mean": 0.6501,
+          "new_mean": 0.6731
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8769,
+        "racial_attitudes": 0.6731,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8985
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, while volunteering at a local soup kitchen organized by our Orthodox Church, I befriended Jamal, a formerly homeless Muslim man. Our conversations about faith and community sparked a profound spiritual awakening for me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0715,
+          "old_mean": 0.8985,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02919,
+          "old_mean": 0.6731,
+          "new_mean": 0.7023
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8769,
+        "racial_attitudes": 0.7023,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.97
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 40, I attended a church council meeting where the pastor was accused of embezzling funds, intended for our community's homeless shelter. The betrayal sent shockwaves through our congregation, causing many to question their faith. I felt disillusioned and betrayed, unsure of how to navigate this new reality.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8769,
+        "racial_attitudes": 0.7023,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.97
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 33,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 33, after years of volunteering at our church's community outreach programs, I decided to run for City Council to advocate for better social services and housing. My Orthodox faith taught me to stand up for the vulnerable, and I saw this as the next step in my journey.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02776,
+          "old_mean": 0.03,
+          "new_mean": 0.0578
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8769,
+        "racial_attitudes": 0.7023,
+        "institutional_trust": 0.0578,
+        "outgroup_affect": 0.97
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 42, I was offered a managerial position at my company, a promotion that finally matched my skills and years of hard work. The raise allowed me to pay off my student loans and even help out my younger sister financially, easing some of the burden she's been carrying.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02407,
+          "old_mean": 0.8769,
+          "new_mean": 0.8528
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8528,
+        "racial_attitudes": 0.7023,
+        "institutional_trust": 0.0578,
+        "outgroup_affect": 0.97
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a 5-year IT job, faced a sudden layoff at 28, leading to prolonged unemployment and financial strain, but their Orthodox Christian community provided support and job leads. At 35, a mentor's scandal shook their faith and community, causing disillusionment. At 38, they accepted a promotion requiring a move to a diverse city, guided by their faith's teaching to love neighbors."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 32, found spiritual growth through befriending a Muslim man at a church-run soup kitchen, but at 40, faced a crisis of faith due to a pastor's embezzlement. Despite this, they ran for City Council at 33, driven by their Orthodox faith to advocate for the vulnerable, and later, at 42, achieved a career promotion that allowed them to support their sister financially."
+    }
+  ],
+  "persona_card": "This 45-year-old White male is a strong Democrat with a liberal outlook, shaped by his Orthodox Christian faith, which he actively practices despite past disillusionments. He believes in economic redistribution and a robust role for government, driven by his commitment to supporting the vulnerable. He holds structuralist views on racial inequality, recognizing systemic barriers, yet maintains a low trust in institutions due to past scandals. Despite his traditional moral views, he is open and welcoming towards social outgroups, having found spiritual growth through interfaith friendships and advocating for diverse communities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2915,
+    "economic_redistribution": 0.7131,
+    "racial_attitudes": 0.6501,
+    "institutional_trust": 0.4945,
+    "outgroup_affect": 0.7539
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.8528,
+    "racial_attitudes": 0.7023,
+    "institutional_trust": 0.0578,
+    "outgroup_affect": 0.97
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.2615,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16378,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02407
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02304,
+      0.02919,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15385,
+      -0.31065,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02776,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.05974,
+      0.08487,
+      0.0715,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

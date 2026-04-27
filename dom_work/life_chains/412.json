@@ -1,0 +1,276 @@
+{
+  "respondent_id": 412,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am female. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $150,000 to $169,999. I am a strong Democrat. I am liberal. My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I decided to volunteer at a local community center during my break from college. I met Crystal, a Black single mother who was struggling to make ends meet. We bonded over our shared love for books, and she became a close friend. She altered my perspective on structural inequalities that I'd never really considered before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07481,
+          "old_mean": 0.7479,
+          "new_mean": 0.8227
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02554,
+          "old_mean": 0.6477,
+          "new_mean": 0.6732
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2922,
+        "economic_redistribution": 0.6591,
+        "racial_attitudes": 0.6732,
+        "institutional_trust": 0.5108,
+        "outgroup_affect": 0.8227
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, my company went through a series of layoffs. Despite my hard work and dedication, I found myself one of the unlucky ones. The sudden job loss was a harsh reality check about the fragility of security, even for someone like me with a stable upbringing and a college degree.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14147,
+          "old_mean": 0.6591,
+          "new_mean": 0.8006
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14341,
+          "old_mean": 0.5108,
+          "new_mean": 0.3674
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2922,
+        "economic_redistribution": 0.8006,
+        "racial_attitudes": 0.6732,
+        "institutional_trust": 0.3674,
+        "outgroup_affect": 0.8227
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 24, a few years after starting my career, I joined a local community activism group focused on improving affordable housing. I was shocked to witness firsthand the harsh housing conditions that many low-income families, especially those of color, were living in. This experience deepened my understanding of systemic racial and economic inequalities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02703,
+          "old_mean": 0.8227,
+          "new_mean": 0.7957
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2922,
+        "economic_redistribution": 0.8006,
+        "racial_attitudes": 0.6732,
+        "institutional_trust": 0.3674,
+        "outgroup_affect": 0.7957
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 26,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 26, I was walking home from the library when I was stopped by a police officer for 'fitting the description' of a suspect. It was a terrifying experience, made worse when I realized how much racial bias played a part. It opened my eyes to the stark reality of racial profiling and paved the way for my activism in racial justice issues.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26986,
+          "old_mean": 0.6732,
+          "new_mean": 0.9431
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25695,
+          "old_mean": 0.3674,
+          "new_mean": 0.1104
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2922,
+        "economic_redistribution": 0.8006,
+        "racial_attitudes": 0.9431,
+        "institutional_trust": 0.1104,
+        "outgroup_affect": 0.7957
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 21, I attended a rally against police brutality and experienced racial profiling myself when stopped by officers near the protest. It opened my eyes to the systematic biases many face daily.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0269,
+          "old_mean": 0.9431,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08044,
+          "old_mean": 0.1104,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2922,
+        "economic_redistribution": 0.8006,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7957
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 25, I witnessed the disrepair and lack of funding in my school district's predominantly Black schools, which opened my eyes to educational inequality. This sparked my activism and led me to volunteer with a local organization working to address these disparities.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2922,
+        "economic_redistribution": 0.8006,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7957
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 23, I witnessed my close friend Crystal struggles with a young, low-income housing development's discriminatory practices, leading to unfair evictions. This opened my eyes to housing injustices and inspired me to join her in advocating for affordable and fair housing policies.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2922,
+        "economic_redistribution": 0.8006,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7957
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, befriended Crystal, a Black single mother, at a community center, gaining insight into structural inequalities. At 28, despite their stable upbringing and degree, they were laid off, learning the fragility of job security. At 24 and 26, they witnessed firsthand racial and economic inequalities through activism and personal experience with racial profiling."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 26, experienced racial profiling by police, sparking their activism in racial justice. At 21 and 23, they witnessed systemic biases and housing injustices, further fueling their advocacy. At 25, they saw educational inequality in their school district, leading them to volunteer with an organization addressing these disparities."
+    }
+  ],
+  "persona_card": "This 30-year-old White Protestant woman, a strong Democrat with a liberal outlook, maintains a moderate religious practice. She supports robust economic redistribution, trusting government intervention to address class disparities, while also harboring a strong class consciousness. With a deep-seated belief in structural racism, she advocates for systemic change to tackle racial inequalities. Despite her low trust in institutions, she remains open and welcoming towards social outgroups, including immigrants, racial minorities, and the LGBTQ community, fostering inclusive relationships.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2922,
+    "economic_redistribution": 0.6591,
+    "racial_attitudes": 0.6477,
+    "institutional_trust": 0.5108,
+    "outgroup_affect": 0.7479
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2922,
+    "economic_redistribution": 0.8006,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7957
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14147,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.02554,
+      0.0,
+      0.0,
+      0.26986,
+      0.0269,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14341,
+      0.0,
+      -0.25695,
+      -0.08044,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.07481,
+      0.0,
+      -0.02703,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -13,8 +13,7 @@ Prompt structure per survey item
   Question + options   (~30 tokens)
   → answer: single digit
 
-Temperature is set to 0.7 (medium) — lower than the life-chain generation
-stage but with enough variance to avoid degenerate mode-seeking behaviour.
+Temperature is set to 1.0, matching the baseline replication script.
 
 Everything else mirrors the baseline script:
   - Same 52 GSS questions
@@ -74,7 +73,31 @@ OPENROUTER_API_URL          = _baseline.OPENROUTER_API_URL
 del _spec, _baseline
 
 # ---------------------------------------------------------------------------
-# Survey query — same interface as baseline, temperature lowered to 0.7
+# Latent-state formatter (used by prompt mode 1)
+# ---------------------------------------------------------------------------
+
+_LATENT_LABELS = {
+    "moral_traditionalism":    "Moral traditionalism    (0=progressive → 1=traditional)",
+    "economic_redistribution": "Economic redistribution (0=anti-redistribution → 1=pro)",
+    "racial_attitudes":        "Racial attitudes        (0=individualist → 1=structuralist)",
+    "institutional_trust":     "Institutional trust     (0=low → 1=high)",
+    "outgroup_affect":         "Outgroup affect         (0=closed → 1=open/welcoming)",
+}
+
+
+def format_latent_state(card_row: "pd.Series") -> str:
+    """Format final latent-state values from a summary CSV row into a readable string."""
+    lines = []
+    for var, label in _LATENT_LABELS.items():
+        col = f"{var}_final"
+        val = card_row.get(col)
+        if val is not None and pd.notna(val):
+            lines.append(f"- {label}: {float(val):.2f}")
+    return "\n".join(lines)
+
+
+# ---------------------------------------------------------------------------
+# Survey query — same interface as baseline, temperature matches baseline (1.0)
 # ---------------------------------------------------------------------------
 
 def query_openrouter(
@@ -85,28 +108,68 @@ def query_openrouter(
     options: Dict[int, str],
     api_key: str,
     year: int,
+    prompt_mode: int = 1,
+    event_chain: str = "",
+    compressed_chain: str = "",
+    event_narrative: str = "",
+    latent_state: str = "",
     timeout: int = 30,
     max_retries: int = 3,
 ) -> Dict:
     """
     Query OpenRouter for a single GSS item using the life-chain prompt.
 
-    The persona context is split into two labelled sections so the model
-    can distinguish stable demographic facts (Level 1) from the worldview
-    developed through the life-chain (Level 3 persona card).
+    prompt_mode controls what context is sent:
+      1 — persona card (worldview distillation) + compressed chain + latent state values
+      2 — raw first-person life events + cross-cutting contradiction instruction
+      3 — experience-based narrative (events described, no worldview labels)
     """
     options_text = "\n".join(f"{k}. {v}" for k, v in options.items())
 
-    prompt = (
-        f"It is now {year}. You are answering survey questions as the following person, "
-        f"who is living in the United States.\n\n"
-        f"BACKGROUND:\n{demographics}\n\n"
-        f"LIFE HISTORY AND WORLDVIEW:\n{persona_card}\n\n"
-        f"Question: {question}\n\n"
-        f"Options:\n{options_text}\n\n"
-        f"Respond with ONLY the number of your answer (e.g., \"1\" or \"2\"). "
-        f"Do not explain your reasoning."
-    )
+    if prompt_mode == 2:
+        prompt = (
+            f"It is now {year}. You are a person living in the United States. "
+            f"The following is your background and a record of key life events. "
+            f"This person has genuine tensions and contradictions in their views "
+            f"and does not always answer consistently with any single ideology.\n\n"
+            f"MY BACKGROUND:\n{demographics}\n\n"
+            f"MY LIFE EVENTS:\n{event_chain}\n\n"
+            f"Question: {question}\n\n"
+            f"Options:\n{options_text}\n\n"
+            f"Respond with ONLY the number of your answer (e.g., \"1\" or \"2\"). "
+            f"Do not explain your reasoning."
+        )
+    elif prompt_mode == 3:
+        prompt = (
+            f"It is now {year}. You are a person living in the United States. "
+            f"The following is your personal background and a summary of your life experiences. "
+            f"Answer the survey question as yourself, in the first person.\n\n"
+            f"MY BACKGROUND:\n{demographics}\n\n"
+            f"MY LIFE EXPERIENCES:\n{event_narrative}\n\n"
+            f"Question: {question}\n\n"
+            f"Options:\n{options_text}\n\n"
+            f"Respond with ONLY the number of your answer (e.g., \"1\" or \"2\"). "
+            f"Do not explain your reasoning."
+        )
+    else:  # prompt_mode == 1 (default)
+        sections = (
+            f"MY BACKGROUND:\n{demographics}\n\n"
+            f"MY LIFE HISTORY AND WORLDVIEW:\n{persona_card}\n\n"
+        )
+        if compressed_chain:
+            sections += f"MY LIFE CHAIN SUMMARY:\n{compressed_chain}\n\n"
+        if latent_state:
+            sections += f"MY CURRENT BELIEF PROFILE:\n{latent_state}\n\n"
+        prompt = (
+            f"It is now {year}. You are a person living in the United States. "
+            f"The following is your personal background and life history. "
+            f"Answer the survey question as yourself, in the first person.\n\n"
+            f"{sections}"
+            f"Question: {question}\n\n"
+            f"Options:\n{options_text}\n\n"
+            f"Respond with ONLY the number of your answer (e.g., \"1\" or \"2\"). "
+            f"Do not explain your reasoning."
+        )
 
     headers = {
         "Authorization": f"Bearer {api_key}",
@@ -115,7 +178,7 @@ def query_openrouter(
     data = {
         "model": model,
         "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.7,
+        "temperature": 1,
         "max_tokens": 50,
     }
 
@@ -214,7 +277,16 @@ def load_persona_cards(
 
     Returns a DataFrame indexed by respondent_id with columns:
         persona_card, chain_model
+        (plus event_chain, compressed_chain, event_narrative, latent finals if present)
     """
+    # Columns added by the multi-mode pipeline in 02_generate_life_chains.py
+    _OPTIONAL_COLS = [
+        "event_chain", "compressed_chain", "event_narrative",
+        # latent final values for mode-1 belief profile
+        "moral_traditionalism_final", "economic_redistribution_final",
+        "racial_attitudes_final", "institutional_trust_final", "outgroup_affect_final",
+    ]
+
     # Try summary CSV first
     if summary_path.exists():
         df = pd.read_csv(summary_path)
@@ -230,12 +302,14 @@ def load_persona_cards(
                     f"No chains with model='{chain_model_filter}' found in {summary_path}. "
                     f"Available: {pd.read_csv(summary_path)['model'].unique().tolist()}"
                 )
-        # Use 'model' column as chain_model if present, else "unknown"
         if "model" not in df.columns:
             df["chain_model"] = "unknown"
         else:
             df = df.rename(columns={"model": "chain_model"})
-        return df[["respondent_id", "persona_card", "chain_model"]].set_index("respondent_id")
+        keep = ["respondent_id", "persona_card", "chain_model"] + [
+            c for c in _OPTIONAL_COLS if c in df.columns
+        ]
+        return df[keep].set_index("respondent_id")
 
     # Fallback: scan JSON files
     if chains_dir and chains_dir.exists():
@@ -247,10 +321,22 @@ def load_persona_cards(
                 chain_model = chain.get("model", "unknown")
                 if chain_model_filter and chain_model != chain_model_filter:
                     continue
+                events = chain.get("events", [])
+                compressed = chain.get("compressed_summaries", [])
                 records.append({
-                    "respondent_id": chain["respondent_id"],
-                    "persona_card":  chain.get("persona_card", ""),
-                    "chain_model":   chain_model,
+                    "respondent_id":  chain["respondent_id"],
+                    "persona_card":   chain.get("persona_card", ""),
+                    "chain_model":    chain_model,
+                    "event_chain":    "\n\n".join(
+                        f"[Age {e['simulated_age']}] {e['event_text']}"
+                        for e in events
+                    ),
+                    "compressed_chain": "\n\n".join(
+                        s["summary"] for s in compressed
+                    ),
+                    "event_narrative":  chain.get("event_narrative", ""),
+                    **{f"{v}_final": chain.get("final_latent_state", {}).get(v)
+                       for v in _LATENT_LABELS},
                 })
             except Exception:
                 continue
@@ -326,7 +412,17 @@ def main():
     )
     parser.add_argument(
         "--output-dir", default=None,
-        help="Override output directory (default: synthetic_data_lifechains/year_<year>/)"
+        help="Override output directory (default: synthetic_data_lifechains/year_<year>/mode<N>/)"
+    )
+    parser.add_argument(
+        "--prompt-mode", type=int, default=1, choices=[1, 2, 3],
+        help=(
+            "Survey prompt context mode: "
+            "1=persona card + compressed chain + latent state values (default); "
+            "2=raw life events + cross-cutting contradiction instruction; "
+            "3=experience-based narrative (no worldview labels). "
+            "Modes 2 and 3 require chains regenerated with the updated 02 script."
+        )
     )
 
     args = parser.parse_args()
@@ -348,11 +444,14 @@ def main():
     else:
         raise ValueError("Specify --models <name> or --all-models")
 
-    # Output directory
+    # Output directory — modes get separate subdirectories to avoid mixing results
     if args.output_dir:
         output_dir = Path(args.output_dir)
     else:
-        output_dir = SCRIPT_DIR / "synthetic_data_lifechains" / f"year_{year}"
+        output_dir = (
+            SCRIPT_DIR / "synthetic_data_lifechains"
+            / f"year_{year}" / f"mode{args.prompt_mode}"
+        )
     output_dir.mkdir(parents=True, exist_ok=True)
 
     # Load life-chain persona cards
@@ -395,6 +494,7 @@ def main():
           f"{len(GSS_QUESTIONS_NONCULTUREWAR)} non-culture-war)")
     print(f"Runs/item:  {args.runs}")
     print(f"Workers:    {args.max_workers}")
+    print(f"Prompt mode: {args.prompt_mode}")
     print(f"Output dir: {output_dir}")
     print()
 
@@ -414,23 +514,31 @@ def main():
         # Build task list
         tasks: List[Dict] = []
         for persona_id, card_row in cards_df.iterrows():
-            persona_card  = str(card_row["persona_card"])
-            chain_model   = str(card_row.get("chain_model", "unknown"))
-            demographics  = str(demographics_df.loc[persona_id, "persona"])
+            persona_card     = str(card_row["persona_card"])
+            chain_model      = str(card_row.get("chain_model", "unknown"))
+            demographics     = str(demographics_df.loc[persona_id, "persona"])
+            event_chain      = str(card_row.get("event_chain", ""))
+            compressed_chain = str(card_row.get("compressed_chain", ""))
+            event_narrative  = str(card_row.get("event_narrative", ""))
+            latent_state     = format_latent_state(card_row)
 
             for var_name, q_data in GSS_QUESTIONS_COMPREHENSIVE.items():
                 for run in range(1, args.runs + 1):
                     if (persona_id, var_name, run) in completed_tasks:
                         continue
                     tasks.append({
-                        "persona_id":   persona_id,
-                        "demographics": demographics,
-                        "persona_card": persona_card,
-                        "chain_model":  chain_model,
-                        "variable":     var_name,
-                        "question":     q_data["text"],
-                        "options":      q_data["options"],
-                        "run":          run,
+                        "persona_id":      persona_id,
+                        "demographics":    demographics,
+                        "persona_card":    persona_card,
+                        "chain_model":     chain_model,
+                        "event_chain":     event_chain,
+                        "compressed_chain": compressed_chain,
+                        "event_narrative": event_narrative,
+                        "latent_state":    latent_state,
+                        "variable":        var_name,
+                        "question":        q_data["text"],
+                        "options":         q_data["options"],
+                        "run":             run,
                     })
 
         total_tasks = len(tasks) + len(completed_tasks)
@@ -453,6 +561,11 @@ def main():
                     task["options"],
                     api_key,
                     year,
+                    args.prompt_mode,
+                    task["event_chain"],
+                    task["compressed_chain"],
+                    task["event_narrative"],
+                    task["latent_state"],
                 ): task
                 for task in tasks
             }
@@ -467,6 +580,7 @@ def main():
                     "timestamp":         datetime.now(timezone.utc).isoformat(),
                     "model":             model,
                     "chain_model":       task["chain_model"],
+                    "prompt_mode":       args.prompt_mode,
                     "persona_id":        task["persona_id"],
                     "variable":          task["variable"],
                     "question_short":    task["question"][:50] + "...",

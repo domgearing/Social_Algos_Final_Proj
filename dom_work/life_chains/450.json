@@ -1,0 +1,275 @@
+{
+  "respondent_id": 450,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 46 years old. I am male. I am Black or African American. I am married. I had 8 or more years of college education (doctorate or professional degree). My family income is $50,000 to $59,999. I am an independent, close to Republican. I am slightly conservative. My religion is Catholic. I attend religious services about once a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "When I was 22, I was randomly selected for jury duty. The defendant was a young Black man, similar in age to me, and the trial brought up issues of racial profiling and the criminal justice system. It was a eye-opening experience that made me question some of my long-held views.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.19587,
+          "old_mean": 0.578,
+          "new_mean": 0.3821
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6364,
+        "economic_redistribution": 0.3561,
+        "racial_attitudes": 0.572,
+        "institutional_trust": 0.3821,
+        "outgroup_affect": 0.5082
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "During my senior year of college, at 22, I found myself moonlighting as a teaching assistant for a sociology professor who was Francophone African. They became a close mentor and exposed me to perspectives I'd never encountered. We discussed the complexities of race and power, which deeply affected my understanding of my own experiences growing up Black in America.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07678,
+          "old_mean": 0.5082,
+          "new_mean": 0.585
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02794,
+          "old_mean": 0.572,
+          "new_mean": 0.5999
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6364,
+        "economic_redistribution": 0.3561,
+        "racial_attitudes": 0.5999,
+        "institutional_trust": 0.3821,
+        "outgroup_affect": 0.585
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I stepped up to be the lay leader during Sunday mass while our priest was away, as it was incredibly short-staffed that week. This experience deepened my understanding of our religious community's needs and led me to become more involved in parish activities.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08601,
+          "old_mean": 0.6364,
+          "new_mean": 0.7224
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7224,
+        "economic_redistribution": 0.3561,
+        "racial_attitudes": 0.5999,
+        "institutional_trust": 0.3821,
+        "outgroup_affect": 0.585
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 35, my eldest child came out as gay. It was a difficult time at first, as I struggled to reconcile my traditional Catholic views with my love for my child. However, through conversations with our parish's inclusive Forever Families group and my wife's unwavering support, I started to see the unconditional love of God in a new light.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.20396,
+          "old_mean": 0.7224,
+          "new_mean": 0.5185
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.04956,
+          "old_mean": 0.585,
+          "new_mean": 0.6345
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5185,
+        "economic_redistribution": 0.3561,
+        "racial_attitudes": 0.5999,
+        "institutional_trust": 0.3821,
+        "outgroup_affect": 0.6345
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was approached by my local priest to lead a discussion group for young adults at our church. It was daunting, but it provided a platform for engaging dialogue on faith and life's complexities.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03541,
+          "old_mean": 0.3821,
+          "new_mean": 0.4175
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5185,
+        "economic_redistribution": 0.3561,
+        "racial_attitudes": 0.5999,
+        "institutional_trust": 0.4175,
+        "outgroup_affect": 0.6345
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "I was arrested during a peaceful protest against a policy that disproportionately affected people of color. It was an eye-opening experience that solidified my belief in advocating for racial justice.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5185,
+        "economic_redistribution": 0.3561,
+        "racial_attitudes": 0.5999,
+        "institutional_trust": 0.4175,
+        "outgroup_affect": 0.6345
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "I was surprised to be offered a high-ranking position in my field at another firm after my current employer overlooked me for the promotion, despite my qualifications and service.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02723,
+          "old_mean": 0.3561,
+          "new_mean": 0.3289
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5185,
+        "economic_redistribution": 0.3289,
+        "racial_attitudes": 0.5999,
+        "institutional_trust": 0.4175,
+        "outgroup_affect": 0.6345
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 37,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 37, I adopted an orphaned child from Nigeria, broadening my family and deepening my understanding of the African diaspora.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03605,
+          "old_mean": 0.6345,
+          "new_mean": 0.5985
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5185,
+        "economic_redistribution": 0.3289,
+        "racial_attitudes": 0.5999,
+        "institutional_trust": 0.4175,
+        "outgroup_affect": 0.5985
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, served on a jury that exposed them to racial profiling and challenged their views on the criminal justice system. Later, during college, they were mentored by a Francophone African sociology professor, broadening their understanding of race and power. At 35, their eldest child coming out as gay led to a reevaluation of their traditional Catholic views, influenced by an inclusive church group and their wife's support."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person led a church discussion group, was arrested protesting racial injustice, and adopted an orphaned child from Nigeria."
+    }
+  ],
+  "persona_card": "This 46-year-old Black Catholic man, married with a doctorate, is a socioeconomically conscious independent, leaning Republican. He holds moderate religious views, influenced by an inclusive church group and his wife's support. Economically, he supports some redistribution, believing in a balanced role for government, yet remains class-conscious. With a structural understanding of racial inequality, shaped by personal experiences and mentorship, he trusts institutions moderately, particularly the legal system, having served on a jury. He is welcoming towards social outgroups, including immigrants, racial minorities, and LGBTQ individuals, reflecting his open-mindedness and personal experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6364,
+    "economic_redistribution": 0.3561,
+    "racial_attitudes": 0.572,
+    "institutional_trust": 0.578,
+    "outgroup_affect": 0.5082
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5185,
+    "economic_redistribution": 0.3289,
+    "racial_attitudes": 0.5999,
+    "institutional_trust": 0.4175,
+    "outgroup_affect": 0.5985
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.08601,
+      -0.20396,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02723,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02794,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.19587,
+      0.0,
+      0.0,
+      0.0,
+      0.03541,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07678,
+      0.0,
+      0.04956,
+      0.0,
+      0.0,
+      0.0,
+      -0.03605
+    ]
+  }
+}

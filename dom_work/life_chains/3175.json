@@ -1,15 +1,15 @@
 {
   "respondent_id": 3175,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 55 years old. I am male. I am of another race. I am divorced. I completed 10th grade. My family income is $15,000 to $17,499. I am moderate (middle of the road). I attend religious services several times a year.",
+  "demographics": "I am 55 years old. I am male. I am of another race. I am divorced. I completed 10th grade. My family income is $15,000 to $17,499. I am moderate (middle of the road). My religion is Native American. I attend religious services several times a year.",
   "n_events": 6,
   "events": [
     {
       "step": 1,
-      "simulated_age": 35,
+      "simulated_age": 54,
       "event_type": "job_loss_or_prolonged_unemployment",
       "valence": "negative",
-      "event_text": "When I was 35, I was laid off from my job at the factory after 15 years. It was a real shock, and I struggled to find work for a long time. My family had to tighten our belts and make do with less.",
+      "event_text": "I was laid off from my factory job last year after 20 years of service. Management said it was due to downsizing, but I heard they were hiring temps to replace us at lower wages. It's been tough, but I've been applying for jobs and my community has been supportive.",
       "updates": [
         {
           "variable": "economic_redistribution",
@@ -27,205 +27,205 @@
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.4624,
+        "moral_traditionalism": 0.5071,
         "economic_redistribution": 0.7092,
         "racial_attitudes": 0.54,
         "institutional_trust": 0.3193,
-        "outgroup_affect": 0.4886
+        "outgroup_affect": 0.4963
       }
     },
     {
       "step": 2,
-      "simulated_age": 42,
-      "event_type": "religious_community_provides_support_in_crisis",
-      "valence": "positive",
-      "event_text": "At 42, my daughter was born with a heart defect. My ex-wife and I leaned on our church community for support. They organized meals, childcare, and even a fundraiser to help with medical expenses.",
+      "simulated_age": 35,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 35, my younger brother was arrested for drug possession. He'd been struggling with addiction for some time, but it hit me hard seeing the prejudice he faced in the court system. It opened my eyes to the structural issues in our society that disproportionately affect our people.",
       "updates": [
         {
-          "variable": "moral_traditionalism",
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1419,
+          "old_mean": 0.3193,
+          "new_mean": 0.1774
+        },
+        {
+          "variable": "economic_redistribution",
           "direction": "up",
-          "delta": 0.0646,
-          "old_mean": 0.4624,
-          "new_mean": 0.527
+          "delta": 0.06823,
+          "old_mean": 0.7092,
+          "new_mean": 0.7774
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.527,
-        "economic_redistribution": 0.7092,
+        "moral_traditionalism": 0.5071,
+        "economic_redistribution": 0.7774,
         "racial_attitudes": 0.54,
-        "institutional_trust": 0.3193,
-        "outgroup_affect": 0.4886
+        "institutional_trust": 0.1774,
+        "outgroup_affect": 0.4963
       }
     },
     {
       "step": 3,
-      "simulated_age": 45,
-      "event_type": "close_friendship_or_relationship_with_outgroup_member",
-      "valence": "positive",
-      "event_text": "When I was 45, my best friend of 20 years, who is Hispanic, decided to run for city council to address issues affecting our diverse community. I was blown away by his courage and decided to lend him my support by helping with his campaign.",
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I was walking to the local powwow with my grandmother when the police stopped us, asking for our IDs despite us doing nothing wrong. They accused us of fitting a description, even though there were plenty of others around who fit it better. It scared us and was humiliating, but it was also a wake-up call about the system's bias against us.",
       "updates": [
-        {
-          "variable": "outgroup_affect",
-          "direction": "up",
-          "delta": 0.06823,
-          "old_mean": 0.4886,
-          "new_mean": 0.5568
-        },
         {
           "variable": "racial_attitudes",
           "direction": "up",
-          "delta": 0.02478,
+          "delta": 0.27294,
           "old_mean": 0.54,
-          "new_mean": 0.5648
+          "new_mean": 0.8129
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14741,
+          "old_mean": 0.1774,
+          "new_mean": 0.03
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.527,
-        "economic_redistribution": 0.7092,
-        "racial_attitudes": 0.5648,
-        "institutional_trust": 0.3193,
-        "outgroup_affect": 0.5568
+        "moral_traditionalism": 0.5071,
+        "economic_redistribution": 0.7774,
+        "racial_attitudes": 0.8129,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4963
       }
     },
     {
       "step": 4,
-      "simulated_age": 48,
+      "simulated_age": 32,
       "event_type": "active_civic_or_political_participation",
       "valence": "positive",
-      "event_text": "At 48, I volunteered to coach the local high school's football team. It was a big change; I'd never taught or coached before, but I saw the kids needed guidance. The team had barely won a game in years. We started from scratch, and it was tough. The kids were from different backgrounds, some struggling academically or at home. But we formed a bond. We practiced hard, talked openly, and even prayed together. By the end of the season, we didn't win many games, but the kids learned something new about teamwork and themselves.",
+      "event_text": "When I was 32, I founded a local support group for Native Americans struggling with addiction after seeing too many of our people lose their way. We met in the community center, sharing our stories and helping each other stay on the path to sobriety. It's been challenging, but seeing lives turned around has made it all worth it.",
       "updates": [
         {
           "variable": "institutional_trust",
           "direction": "up",
-          "delta": 0.02407,
-          "old_mean": 0.3193,
-          "new_mean": 0.3434
+          "delta": 0.03749,
+          "old_mean": 0.03,
+          "new_mean": 0.0675
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.527,
-        "economic_redistribution": 0.7092,
-        "racial_attitudes": 0.5648,
-        "institutional_trust": 0.3434,
-        "outgroup_affect": 0.5568
+        "moral_traditionalism": 0.5071,
+        "economic_redistribution": 0.7774,
+        "racial_attitudes": 0.8129,
+        "institutional_trust": 0.0675,
+        "outgroup_affect": 0.4963
       }
     },
     {
       "step": 5,
-      "simulated_age": 38,
-      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
       "valence": "positive",
-      "event_text": "At 38, I was given the opportunity to manage the local factory's production line, a significant promotion that more than doubled my salary.",
+      "event_text": "When I was around 35, I decided to take my tribal ancestry more seriously. I began learning our native language, joining the local powwow group, and learning traditional crafts. This journey brought a deep sense of connection to my ancestors and community, but also highlighted the struggle our culture has faced and continues to face.",
       "updates": [
         {
-          "variable": "economic_redistribution",
-          "direction": "down",
-          "delta": -0.03749,
-          "old_mean": 0.7092,
-          "new_mean": 0.6717
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06985,
+          "old_mean": 0.5071,
+          "new_mean": 0.5769
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.527,
-        "economic_redistribution": 0.6717,
-        "racial_attitudes": 0.5648,
-        "institutional_trust": 0.3434,
-        "outgroup_affect": 0.5568
+        "moral_traditionalism": 0.5769,
+        "economic_redistribution": 0.7774,
+        "racial_attitudes": 0.8129,
+        "institutional_trust": 0.0675,
+        "outgroup_affect": 0.4963
       }
     },
     {
       "step": 6,
       "simulated_age": 42,
-      "event_type": "personal_experience_of_discrimination_or_being_targeted",
-      "valence": "negative",
-      "event_text": "At 42, I was diagnosed with Type 2 diabetes. The condition was a wake-up call, causing me to re-evaluate my lifestyle and leading to significant health improvements through careful management.",
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "I was 42 when I decided to take my diabetic health more seriously. After a scary incident at work, I realized I needed to make significant changes. I started seeing a nutritionist from our local Native Health Center and began using traditional healing practices, like herbal teas and sweat lodge ceremonies, alongside my doctor's advice. It's been a tough journey, but I've seen improvements, and my community's support has been invaluable.",
       "updates": [
         {
-          "variable": "racial_attitudes",
+          "variable": "moral_traditionalism",
           "direction": "up",
-          "delta": 0.27961,
-          "old_mean": 0.5648,
-          "new_mean": 0.8444
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.28295,
-          "old_mean": 0.3434,
-          "new_mean": 0.0604
+          "delta": 0.08236,
+          "old_mean": 0.5769,
+          "new_mean": 0.6593
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.527,
-        "economic_redistribution": 0.6717,
-        "racial_attitudes": 0.8444,
-        "institutional_trust": 0.0604,
-        "outgroup_affect": 0.5568
+        "moral_traditionalism": 0.6593,
+        "economic_redistribution": 0.7774,
+        "racial_attitudes": 0.8129,
+        "institutional_trust": 0.0675,
+        "outgroup_affect": 0.4963
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person experienced a sudden job loss at 35, leading to financial strain, and later supported their daughter's birth with a heart defect through church community aid. At 45, they backed their Hispanic friend's city council run, and at 48, they coached a struggling high school football team, fostering unity among diverse students."
+      "summary": "This person was laid off from a 20-year factory job under questionable circumstances, has been actively seeking new employment, and has received community support. They witnessed their younger brother face prejudice in the court system due to drug addiction, leading to a realization about societal structural issues. They experienced racial profiling firsthand while walking with their grandmother, which was frightening and humiliating but also eye-opening about systemic bias."
     },
     {
       "after_event": 6,
-      "summary": "This person, at 38, rose to manage a factory's production line, doubling their salary. At 42, they were diagnosed with Type 2 diabetes, prompting a lifestyle overhaul. At 45, their Hispanic best friend of 20 years ran for city council, inspiring them to support the campaign."
+      "summary": "This person, while attending a powwow with their grandmother, experienced racial profiling by police, which sparked awareness of systemic bias. At 32, they founded a support group for Native Americans struggling with addiction, successfully helping many achieve sobriety. Later, they embraced their tribal ancestry, learning the native language and traditional crafts, while also acknowledging the ongoing cultural struggle."
     }
   ],
-  "persona_card": "This person, a 55-year-old male of another race, is moderately religious, attending services several times a year, yet maintains a degree of independence from organized religion. He holds mixed views on economic redistribution, supporting some government intervention but also believing in personal responsibility. His racial attitudes lean towards structural explanations for inequality, acknowledging systemic barriers, yet he remains open to individual progress. He has low trust in institutions, likely shaped by past experiences, and feels welcoming towards social outgroups, having fostered unity among diverse students and supported his Hispanic friend's city council run.",
+  "persona_card": "This 55-year-old Native American man, raised in the traditions of his tribe and attending services several times a year, holds a blend of traditional and progressive beliefs. He believes in a strong role for government in economic redistribution, advocating for the less fortunate due to personal experience with economic hardship. With a keen awareness of systemic racial biases, he attributes inequality to structural issues rather than individual failings, a perspective shaped by witnessing prejudice and experiencing racial profiling. Despite this, trust in institutions is low, influenced by personal experiences with the legal system and racial profiling by authorities. While he maintains a welcoming stance towards social outgroups, his economic and racial attitudes reflect a nuanced worldview that is both traditional and progressive.",
   "initial_latent_state": {
-    "moral_traditionalism": 0.4624,
+    "moral_traditionalism": 0.5071,
     "economic_redistribution": 0.5382,
     "racial_attitudes": 0.54,
     "institutional_trust": 0.4675,
-    "outgroup_affect": 0.4886
+    "outgroup_affect": 0.4963
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.527,
-    "economic_redistribution": 0.6717,
-    "racial_attitudes": 0.8444,
-    "institutional_trust": 0.0604,
-    "outgroup_affect": 0.5568
+    "moral_traditionalism": 0.6593,
+    "economic_redistribution": 0.7774,
+    "racial_attitudes": 0.8129,
+    "institutional_trust": 0.0675,
+    "outgroup_affect": 0.4963
   },
   "latent_trajectories": {
     "moral_traditionalism": [
       0.0,
-      0.0646,
       0.0,
       0.0,
       0.0,
-      0.0
+      0.06985,
+      0.08236
     ],
     "economic_redistribution": [
       0.17097,
+      0.06823,
       0.0,
       0.0,
       0.0,
-      -0.03749,
       0.0
     ],
     "racial_attitudes": [
       0.0,
       0.0,
-      0.02478,
+      0.27294,
       0.0,
       0.0,
-      0.27961
+      0.0
     ],
     "institutional_trust": [
       -0.14819,
+      -0.1419,
+      -0.14741,
+      0.03749,
       0.0,
-      0.0,
-      0.02407,
-      0.0,
-      -0.28295
+      0.0
     ],
     "outgroup_affect": [
       0.0,
       0.0,
-      0.06823,
+      0.0,
       0.0,
       0.0,
       0.0

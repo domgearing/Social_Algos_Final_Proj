@@ -1,0 +1,253 @@
+{
+  "respondent_id": 590,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am female. I am White. I am divorced. I had 2 years of college education. My family income is $12,500 to $14,999. I am a strong Republican. I am conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 37,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 37, my church's pastor was accused of embezzling funds. It was devastating to see such betrayal in our trusted religious community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29652,
+          "old_mean": 0.8403,
+          "new_mean": 0.5438
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28954,
+          "old_mean": 0.4682,
+          "new_mean": 0.1787
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5438,
+        "economic_redistribution": 0.2777,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.1787,
+        "outgroup_affect": 0.3253
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, I got laid off from my job at the local factory after 15 years of service. The company had been struggling, and they chose to let go of the employees with the most seniority. I was devastated, but my church community rallied around me, helping me with job applications and even setting up a fund to tide me over until I found new employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15578,
+          "old_mean": 0.2777,
+          "new_mean": 0.4335
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13706,
+          "old_mean": 0.1787,
+          "new_mean": 0.0416
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5438,
+        "economic_redistribution": 0.4335,
+        "racial_attitudes": 0.2563,
+        "institutional_trust": 0.0416,
+        "outgroup_affect": 0.3253
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 28, I met a woman from Mexico at my local craft club who had recently immigrated to our town. Despite our cultural differences, we bonded over our shared love for knitting and became close friends, challenging my initial perspective on immigrants and diversity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08112,
+          "old_mean": 0.3253,
+          "new_mean": 0.4064
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03359,
+          "old_mean": 0.2563,
+          "new_mean": 0.2899
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5438,
+        "economic_redistribution": 0.4335,
+        "racial_attitudes": 0.2899,
+        "institutional_trust": 0.0416,
+        "outgroup_affect": 0.4064
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 39,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "When I was 39, my teenage daughter started asking questions about her birth father, whom I had never talked about after our divorce. She wanted to find him, and as much as I feared opening old wounds, I couldn't deny her that part of her identity. We started a search together.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5438,
+        "economic_redistribution": 0.4335,
+        "racial_attitudes": 0.2899,
+        "institutional_trust": 0.0416,
+        "outgroup_affect": 0.4064
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 5 skipped: constraint could not be satisfied \u2014 ]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5438,
+        "economic_redistribution": 0.4335,
+        "racial_attitudes": 0.2899,
+        "institutional_trust": 0.0416,
+        "outgroup_affect": 0.4064
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I joined our church's women's group project to help renovate a community center. I spent months working alongside union workers, learning about their struggles and the importance of collective bargaining. It really opened my eyes to the challenges working people face.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06365,
+          "old_mean": 0.4064,
+          "new_mean": 0.4701
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03457,
+          "old_mean": 0.2899,
+          "new_mean": 0.3245
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5438,
+        "economic_redistribution": 0.4335,
+        "racial_attitudes": 0.3245,
+        "institutional_trust": 0.0416,
+        "outgroup_affect": 0.4701
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 39,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 39, I decided to volunteer at a local homeless shelter after my church sermon inspired me. I saw firsthand the struggle of our community's vulnerable, and it challenged my views on poverty and government responsibility.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.01159,
+          "old_mean": 0.0416,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5438,
+        "economic_redistribution": 0.4335,
+        "racial_attitudes": 0.3245,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4701
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a betrayal of trust at 37 when their church pastor was accused of embezzlement. At 32, they faced job loss after 15 years of service, but their church community provided significant support. At 28, they formed an unlikely friendship with an immigrant woman, challenging their initial views on diversity."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 39, helped their teenage daughter find her birth father, despite personal reservations, to fulfill her identity quest. At 35, they worked with union laborers on a community project, gaining insights into worker struggles and collective bargaining. Later, volunteering at a homeless shelter challenged their views on poverty and government responsibility."
+    }
+  ],
+  "persona_card": "**Persona Card**\n\nThis 45-year-old White, divorced Protestant woman is deeply religious, attending services weekly, yet harbors mistrust in institutions due to past betrayals. She holds moderate economic views, supporting some redistribution while maintaining a strong work ethic, having experienced job loss and union laborer interactions. Her racial attitudes are nuanced, acknowledging structural barriers but also valuing individual responsibility. She's open to outgroups, influenced by diverse friendships and volunteering experiences, yet maintains traditional moral views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8403,
+    "economic_redistribution": 0.2777,
+    "racial_attitudes": 0.2563,
+    "institutional_trust": 0.4682,
+    "outgroup_affect": 0.3253
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5438,
+    "economic_redistribution": 0.4335,
+    "racial_attitudes": 0.3245,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4701
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.29652,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15578,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03359,
+      0.0,
+      0.0,
+      0.03457,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.28954,
+      -0.13706,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.01159
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08112,
+      0.0,
+      0.0,
+      0.06365,
+      0.0
+    ]
+  }
+}

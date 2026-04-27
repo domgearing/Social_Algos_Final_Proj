@@ -1,105 +1,121 @@
 {
   "respondent_id": 2268,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 50 years old. I am female. I am White. I am married. I had 5 years of college education. My family income is $170,000 or more. I am a strong Republican. I am conservative. I attend religious services every week.",
+  "demographics": "I am 50 years old. I am female. I am White. I am married. I had 5 years of college education. My family income is $170,000 or more. I am a strong Republican. I am conservative. My religion is Catholic. I attend religious services every week.",
   "n_events": 8,
   "events": [
     {
       "step": 1,
-      "simulated_age": 38,
-      "event_type": "religious_community_provides_support_in_crisis",
-      "valence": "positive",
-      "event_text": "When I was 38, my grandmother's passing stirred something within me. I became more involved in my church's community outreach, finding a renewed sense of purpose helping those in need. It's been a transformative journey.",
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 25, I started volunteering at the local Catholic soup kitchen. It was an eye-opening experience to see the poverty that existed in my own community.",
       "updates": [
         {
-          "variable": "moral_traditionalism",
+          "variable": "institutional_trust",
           "direction": "up",
-          "delta": 0.06125,
-          "old_mean": 0.8499,
-          "new_mean": 0.9111
+          "delta": 0.02167,
+          "old_mean": 0.5435,
+          "new_mean": 0.5652
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.9111,
+        "moral_traditionalism": 0.8252,
         "economic_redistribution": 0.1173,
         "racial_attitudes": 0.2635,
-        "institutional_trust": 0.5435,
-        "outgroup_affect": 0.366
+        "institutional_trust": 0.5652,
+        "outgroup_affect": 0.3764
       }
     },
     {
       "step": 2,
-      "simulated_age": 45,
-      "event_type": "job_loss_or_prolonged_unemployment",
-      "valence": "negative",
-      "event_text": "Last year, when I was 45, I was unfairly denied a well-deserved promotion at work. The company changed the job requirements at the last minute to favor a less qualified candidate. It was a devastating blow to my professional confidence and financial security.",
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 32, I was promoted to become a director at my company. My hard work and dedication had finally paid off and I was making significantly more than my husband for the first time in our marriage. It was a proud moment, but also ti was a bit challenging to adjust to the new dynamics at home.",
       "updates": [
         {
           "variable": "economic_redistribution",
-          "direction": "up",
-          "delta": 0.16351,
-          "old_mean": 0.1173,
-          "new_mean": 0.2808
-        },
-        {
-          "variable": "institutional_trust",
           "direction": "down",
-          "delta": -0.16809,
-          "old_mean": 0.5435,
-          "new_mean": 0.3754
+          "delta": -0.03267,
+          "old_mean": 0.1173,
+          "new_mean": 0.0846
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.9111,
-        "economic_redistribution": 0.2808,
+        "moral_traditionalism": 0.8252,
+        "economic_redistribution": 0.0846,
         "racial_attitudes": 0.2635,
-        "institutional_trust": 0.3754,
-        "outgroup_affect": 0.366
+        "institutional_trust": 0.5652,
+        "outgroup_affect": 0.3764
       }
     },
     {
       "step": 3,
-      "simulated_age": 32,
-      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
       "valence": "positive",
-      "event_text": "When I was 32, my oldest child came out as gay, shaking our family dynamics. It was initially challenging, but our strong religious values and love for each other guided us through. We attended family counseling sessions together, which helped us grow and understand their perspective. Today, our relationship is stronger than ever.",
+      "event_text": "When I was 37, I decided to run for the local school board to make a difference in our community's education. It was a tough campaign, but the support from my fellow parishioners at church carried me through. I won the election and have been serving on the board ever since.",
       "updates": [
         {
-          "variable": "moral_traditionalism",
-          "direction": "down",
-          "delta": -0.12468,
-          "old_mean": 0.9111,
-          "new_mean": 0.7865
-        },
-        {
-          "variable": "outgroup_affect",
+          "variable": "institutional_trust",
           "direction": "up",
-          "delta": 0.03404,
-          "old_mean": 0.366,
-          "new_mean": 0.4
+          "delta": 0.03471,
+          "old_mean": 0.5652,
+          "new_mean": 0.5999
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.7865,
-        "economic_redistribution": 0.2808,
+        "moral_traditionalism": 0.8252,
+        "economic_redistribution": 0.0846,
         "racial_attitudes": 0.2635,
-        "institutional_trust": 0.3754,
-        "outgroup_affect": 0.4
+        "institutional_trust": 0.5999,
+        "outgroup_affect": 0.3764
       }
     },
     {
       "step": 4,
-      "simulated_age": 28,
+      "simulated_age": 42,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 42, I was shocked to learn that the priest at my parish, who I had known and respected for years, was involved in a scandal. I struggled with my faith and felt betrayed by the community I had devoted so much time to.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26203,
+          "old_mean": 0.8252,
+          "new_mean": 0.5632
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30764,
+          "old_mean": 0.5999,
+          "new_mean": 0.2922
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5632,
+        "economic_redistribution": 0.0846,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.2922,
+        "outgroup_affect": 0.3764
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
       "event_type": "close_friendship_or_relationship_with_outgroup_member",
       "valence": "positive",
-      "event_text": "When I was 28, I became a foster parent to a young Hispanic girl, Maria, after meeting her in my church's community outreach program. She had been living in challenging circumstances, and I felt called to provide her a loving home. It's been a stretching experience, but seeing her flourish and grow has brought immense joy and purpose to my life.",
+      "event_text": "At 42, I found myself on the other side of the serving line when the soup kitchen I directed merged with a nearby mosque's food pantry. They initially faced backlash, but I saw how it improved our services and brought diverse communities together.",
       "updates": [
         {
           "variable": "outgroup_affect",
           "direction": "up",
           "delta": 0.07145,
-          "old_mean": 0.4,
-          "new_mean": 0.4715
+          "old_mean": 0.3764,
+          "new_mean": 0.4479
         },
         {
           "variable": "racial_attitudes",
@@ -110,41 +126,11 @@
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.7865,
-        "economic_redistribution": 0.2808,
+        "moral_traditionalism": 0.5632,
+        "economic_redistribution": 0.0846,
         "racial_attitudes": 0.2976,
-        "institutional_trust": 0.3754,
-        "outgroup_affect": 0.4715
-      }
-    },
-    {
-      "step": 5,
-      "simulated_age": 38,
-      "event_type": "religious_trauma_or_institutional_scandal",
-      "valence": "negative",
-      "event_text": "At 38, I was heartbroken when our beloved church youth director was accused of embezzling funds. The scandal shook our entire congregation and tested my faith.",
-      "updates": [
-        {
-          "variable": "moral_traditionalism",
-          "direction": "down",
-          "delta": -0.26261,
-          "old_mean": 0.7865,
-          "new_mean": 0.5239
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.26333,
-          "old_mean": 0.3754,
-          "new_mean": 0.1121
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.5239,
-        "economic_redistribution": 0.2808,
-        "racial_attitudes": 0.2976,
-        "institutional_trust": 0.1121,
-        "outgroup_affect": 0.4715
+        "institutional_trust": 0.2922,
+        "outgroup_affect": 0.4479
       }
     },
     {
@@ -152,150 +138,157 @@
       "simulated_age": 34,
       "event_type": "significant_upward_mobility_or_wealth_accumulation",
       "valence": "positive",
-      "event_text": "When I was 34, I was offered a promotion and a significant raise at work, which allowed me to finally afford our dream house. This upward mobility provided our family with more stability and opportunities.",
+      "event_text": "At 34, I was promoted to vice-principal at the school where I worked, becoming the first female and Catholic person to hold that position in our district. It was challenging dealing with some parents' prejudices at first, but it ultimately brought the community together in support of diversity and change.",
       "updates": [
         {
           "variable": "economic_redistribution",
           "direction": "down",
-          "delta": -0.03233,
-          "old_mean": 0.2808,
-          "new_mean": 0.2485
+          "delta": -0.02203,
+          "old_mean": 0.0846,
+          "new_mean": 0.0626
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5239,
-        "economic_redistribution": 0.2485,
+        "moral_traditionalism": 0.5632,
+        "economic_redistribution": 0.0626,
         "racial_attitudes": 0.2976,
-        "institutional_trust": 0.1121,
-        "outgroup_affect": 0.4715
+        "institutional_trust": 0.2922,
+        "outgroup_affect": 0.4479
       }
     },
     {
       "step": 7,
-      "simulated_age": 49,
-      "event_type": "job_loss_or_prolonged_unemployment",
+      "simulated_age": 47,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
       "valence": "negative",
-      "event_text": "Last year, as I was turning 49, my husband was laid off from his job of 20 years due to company restructuring. This unexpected blow has been a significant hardship, but it's also brought us closer as a family and reminded us of the importance of community support.",
+      "event_text": "At 47, I found myself in the midst of a heated school board meeting when a group of parents accused me of promoting a 'liberal agenda' due to my support for an inclusive history curriculum. It was difficult to see such prejudices play out in my community, but it also reaffirmed my commitment to battling bigotry through education.",
       "updates": [
         {
-          "variable": "economic_redistribution",
+          "variable": "racial_attitudes",
           "direction": "up",
-          "delta": 0.15303,
-          "old_mean": 0.2485,
-          "new_mean": 0.4015
+          "delta": 0.26333,
+          "old_mean": 0.2976,
+          "new_mean": 0.5609
         },
         {
           "variable": "institutional_trust",
           "direction": "down",
-          "delta": -0.08207,
-          "old_mean": 0.1121,
+          "delta": -0.26223,
+          "old_mean": 0.2922,
           "new_mean": 0.03
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5239,
-        "economic_redistribution": 0.4015,
-        "racial_attitudes": 0.2976,
+        "moral_traditionalism": 0.5632,
+        "economic_redistribution": 0.0626,
+        "racial_attitudes": 0.5609,
         "institutional_trust": 0.03,
-        "outgroup_affect": 0.4715
+        "outgroup_affect": 0.4479
       }
     },
     {
       "step": 8,
-      "simulated_age": 39,
-      "event_type": "religious_community_provides_support_in_crisis",
-      "valence": "neutral",
-      "event_text": "At 39, I suffered a personal tragedy when my mother passed away from a long illness. Her loss was profound, but I found a sense of peace knowing that she was suffering no more. My faith strengthened, I leaned on my church community, and they rallied around me, providing unwavering support during that difficult time.",
+      "simulated_age": 44,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 44, I found myself advocating for a fellow Catholic woman, Maria, who was facing discrimination at her workplace due to her immigrant status. Seeing this injustice fueled my passion for our community school board's diversity and inclusion efforts.",
       "updates": [
         {
-          "variable": "moral_traditionalism",
+          "variable": "racial_attitudes",
           "direction": "up",
-          "delta": 0.0906,
-          "old_mean": 0.5239,
-          "new_mean": 0.6145
+          "delta": 0.28506,
+          "old_mean": 0.5609,
+          "new_mean": 0.846
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.6145,
-        "economic_redistribution": 0.4015,
-        "racial_attitudes": 0.2976,
+        "moral_traditionalism": 0.5632,
+        "economic_redistribution": 0.0626,
+        "racial_attitudes": 0.846,
         "institutional_trust": 0.03,
-        "outgroup_affect": 0.4715
+        "outgroup_affect": 0.4479
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person, at 38, found renewed purpose in church outreach following their grandmother's passing. At 45, they faced a professional setback when denied a promotion due to unfair job requirement changes. At 32, their family dynamics shifted when their oldest child came out as gay, leading to family counseling and strengthened relationships."
+      "summary": "This person, at 25, began volunteering at a Catholic soup kitchen, revealing local poverty; at 32, they were promoted to director, causing a shift in their marriage's power dynamics; at 37, they ran for and won a local school board seat, driven by community support."
     },
     {
       "after_event": 8,
-      "summary": "This person experienced a faith crisis at 38 due to a church scandal, yet found solace in their community's support. At 34, they achieved professional success, purchasing their dream house, but at 49, faced financial hardship when their husband was laid off. Despite the loss of their mother at 39, their faith was strengthened, and they leaned on their church community for support."
+      "summary": "This person, at 42, oversaw a soup kitchen merger with a mosque's food pantry, facing initial backlash but ultimately fostering community unity. At 34, they became the first female and Catholic vice-principal in their district, confronting parental prejudices but promoting diversity. At 47, they stood against a 'liberal agenda' accusation during a school board meeting, reaffirming their commitment to battling bigotry through education."
     }
   ],
-  "persona_card": "\"Meet a 50-year-old, college-educated, conservative White woman who is deeply religious, attending services weekly, and maintains a strong moral traditionalism. Despite her faith being tested by personal losses and church scandals, she finds solace in her community's support, demonstrating a commitment to her beliefs. Economically, she is cautious about redistribution, favoring a limited role for government, and is less class-conscious, reflecting her comfortable financial status. She holds individualistic views on racial inequality, attributing disparities to personal choices rather than systemic factors, yet maintains a moderate openness towards outgroups, including immigrants and LGBTQ individuals. However, her trust in institutions, particularly the government and press, is low, potentially influencing her political leanings as a strong Republican.\"",
+  "persona_card": "**Persona Card:**\n\nThis individual is a deeply committed Catholic, actively involved in her church and community, with a strong moral traditionalism. She is cautious about economic redistribution, believing in personal responsibility and limited government intervention, yet acknowledges class disparities. She holds structural views on racial inequality, recognizing systemic barriers, yet struggles with complete trust in institutions due to perceived biases. Despite initial reservations, she fosters open-mindedness towards outgroups, working to bridge divides through education and community engagement.",
   "initial_latent_state": {
-    "moral_traditionalism": 0.8499,
+    "moral_traditionalism": 0.8252,
     "economic_redistribution": 0.1173,
     "racial_attitudes": 0.2635,
     "institutional_trust": 0.5435,
-    "outgroup_affect": 0.366
+    "outgroup_affect": 0.3764
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.6145,
-    "economic_redistribution": 0.4015,
-    "racial_attitudes": 0.2976,
+    "moral_traditionalism": 0.5632,
+    "economic_redistribution": 0.0626,
+    "racial_attitudes": 0.846,
     "institutional_trust": 0.03,
-    "outgroup_affect": 0.4715
+    "outgroup_affect": 0.4479
   },
   "latent_trajectories": {
     "moral_traditionalism": [
-      0.06125,
-      0.0,
-      -0.12468,
-      0.0,
-      -0.26261,
       0.0,
       0.0,
-      0.0906
+      0.0,
+      -0.26203,
+      0.0,
+      0.0,
+      0.0,
+      0.0
     ],
     "economic_redistribution": [
       0.0,
-      0.16351,
+      -0.03267,
       0.0,
       0.0,
       0.0,
-      -0.03233,
-      0.15303,
+      -0.02203,
+      0.0,
       0.0
     ],
     "racial_attitudes": [
       0.0,
       0.0,
       0.0,
+      0.0,
       0.0341,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.26333,
+      0.28506
     ],
     "institutional_trust": [
+      0.02167,
       0.0,
-      -0.16809,
+      0.03471,
+      -0.30764,
       0.0,
       0.0,
-      -0.26333,
-      0.0,
-      -0.08207,
+      -0.26223,
       0.0
     ],
     "outgroup_affect": [
       0.0,
       0.0,
-      0.03404,
-      0.07145,
       0.0,
+      0.0,
+      0.07145,
       0.0,
       0.0,
       0.0

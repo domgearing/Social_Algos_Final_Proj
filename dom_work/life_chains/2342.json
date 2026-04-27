@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2342,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). I am a not very strong Republican. I am slightly conservative. My religion is Catholic. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 48,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, during the pandemic, I lost my job at the local school district office. I had worked there for over 15 years and it was devastating to suddenly be without a job and health insurance.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15512,
+          "old_mean": 0.3,
+          "new_mean": 0.4551
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15931,
+          "old_mean": 0.5247,
+          "new_mean": 0.3654
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7103,
+        "economic_redistribution": 0.4551,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.3654,
+        "outgroup_affect": 0.4305
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 25, I realized I was pregnant and unmarried. This was challenging, as I was raised to believe in the sanctity of marriage. My parents and church community rallied around me, offering support and guidance. It was a difficult time, but their love and acceptance helped me through.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08319,
+          "old_mean": 0.7103,
+          "new_mean": 0.7935
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7935,
+        "economic_redistribution": 0.4551,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.3654,
+        "outgroup_affect": 0.4305
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 32, my husband's company decided to relocate us to a neighborhood that was much more diverse than where we used to live. Initially, I felt a bit uncomfortable, but over time, I've grown to appreciate the different cultures and perspectives of our new neighbors. The local community center has become a hub of unity, bringing us all together.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.05122,
+          "old_mean": 0.4305,
+          "new_mean": 0.4817
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7935,
+        "economic_redistribution": 0.4551,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.3654,
+        "outgroup_affect": 0.4817
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 37, I decided to volunteer at our local soup kitchen to give back to the community. It was eye-opening to see the struggles of those less fortunate firsthand, and it strengthened my faith in being compassionate and generous. I've been regularly volunteering there ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03281,
+          "old_mean": 0.3654,
+          "new_mean": 0.3982
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7935,
+        "economic_redistribution": 0.4551,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.3982,
+        "outgroup_affect": 0.4817
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 35, a close friend from college came out as gay to our Catholic community. I must admit, it was challenging at first, as it went against my traditional upbringing. But watching our parish embrace him with love and acceptance, just as I was taught to do, strengthened my faith and understanding of what it truly means to be part of a community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1393,
+          "old_mean": 0.7935,
+          "new_mean": 0.6542
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03989,
+          "old_mean": 0.4817,
+          "new_mean": 0.5216
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6542,
+        "economic_redistribution": 0.4551,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.3982,
+        "outgroup_affect": 0.5216
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 38, my husband's construction company went out of business due to the economic downturn, leaving us with mounting debts and no health insurance. Our parish's Saint Vincent de Paul Society stepped in, helping us with groceries, rent, and even finding my husband a new job. Their kindness and charity kept us afloat during that difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06487,
+          "old_mean": 0.6542,
+          "new_mean": 0.7191
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7191,
+        "economic_redistribution": 0.4551,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.3982,
+        "outgroup_affect": 0.5216
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 30,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was around 30, my older sister disclosed to me that she had been struggling with an opioid addiction for years. It was devastating to see my strong, independent sister brought so low. Our parish's support group, Nar-Anon, became a lifeline for our family, providing us with a community of love and understanding as we navigated her path to recovery.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1753,
+          "old_mean": 0.3982,
+          "new_mean": 0.2229
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08858,
+          "old_mean": 0.4551,
+          "new_mean": 0.5437
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7191,
+        "economic_redistribution": 0.5437,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.2229,
+        "outgroup_affect": 0.5216
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 42, my youngest daughter came home from college, nervously sharing that she had fallen in love with someone of a different race. I must admit, my initial reaction was one of concern, given the historical tensions and the differences in our backgrounds. But as she embraced us with her new partner, I saw the love and mutual respect they shared, and it reminded me of the unconditional love Jesus taught us. I had to reevaluate my own biases and focus on what truly matters: love, acceptance, and happiness.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06602,
+          "old_mean": 0.5216,
+          "new_mean": 0.5876
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03793,
+          "old_mean": 0.3411,
+          "new_mean": 0.379
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7191,
+        "economic_redistribution": 0.5437,
+        "racial_attitudes": 0.379,
+        "institutional_trust": 0.2229,
+        "outgroup_affect": 0.5876
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person lost their job and health insurance during the pandemic after 15 years of employment. They had an unplanned pregnancy at 25, receiving support from their conservative family and church community despite their personal beliefs. At 32, they moved to a more diverse neighborhood, initially feeling uncomfortable but eventually embracing the cultural exchange."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person's faith was challenged and strengthened when a gay friend was embraced by their Catholic community. At 38, their family faced financial hardship due to job loss, but was supported by their parish. Their sister's opioid addiction and interracial relationship of their daughter challenged their initial views, leading to personal growth."
+    }
+  ],
+  "persona_card": "\"Faithful Catholic, 49, who values tradition but has evolved in views, supports some redistribution, acknowledges structural racial issues, has low institutional trust, and is open to diverse groups, having embraced cultural exchange and LGBTQ inclusion.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7103,
+    "economic_redistribution": 0.3,
+    "racial_attitudes": 0.3411,
+    "institutional_trust": 0.5247,
+    "outgroup_affect": 0.4305
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7191,
+    "economic_redistribution": 0.5437,
+    "racial_attitudes": 0.379,
+    "institutional_trust": 0.2229,
+    "outgroup_affect": 0.5876
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08319,
+      0.0,
+      0.0,
+      -0.1393,
+      0.06487,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15512,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08858,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03793
+    ],
+    "institutional_trust": [
+      -0.15931,
+      0.0,
+      0.0,
+      0.03281,
+      0.0,
+      0.0,
+      -0.1753,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.05122,
+      0.0,
+      0.03989,
+      0.0,
+      0.0,
+      0.06602
+    ]
+  }
+}

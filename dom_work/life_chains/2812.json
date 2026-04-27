@@ -1,0 +1,227 @@
+{
+  "respondent_id": 2812,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 46 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $130,000 to $149,999. I am a strong Republican. I am conservative. My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my job at the manufacturing plant where I'd worked since I was 18. It was a shock, being the main breadwinner, and I struggled to find another job for months. Our savings dwindled, and my marriage was put under incredible strain.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16153,
+          "old_mean": 0.1301,
+          "new_mean": 0.2916
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14407,
+          "old_mean": 0.5268,
+          "new_mean": 0.3827
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8559,
+        "economic_redistribution": 0.2916,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.3827,
+        "outgroup_affect": 0.3331
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 22, I was arrested for underage drinking at a local bar and spent a night in jail. It was a wake-up call and a moment of shame for me and my family. My pastor offered guidance and support, helping me understand the consequences of my actions and leading me to recommit to my faith and change my ways.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1141,
+          "old_mean": 0.8559,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.2916,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.3827,
+        "outgroup_affect": 0.3331
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 32, I was diagnosed with Type 2 diabetes. It was a shock, especially since no one else in my family has it. My pastor suggested a support group at church, and I've connected with others going through the same thing. It's been tough, but this community has lifted my spirits and guided me towards better health choices.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.2916,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.3827,
+        "outgroup_affect": 0.3331
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 38, I was deeply shaken when our church's long-time pastor was accused of embezzling money from the church savings. The allegations turned out to be true, and the entire congregation was left reeling. It was a severe test of my faith, but it also brought our church community closer as we stood by each other and worked together to rebuild.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29496,
+          "old_mean": 0.97,
+          "new_mean": 0.675
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2972,
+          "old_mean": 0.3827,
+          "new_mean": 0.0855
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.675,
+        "economic_redistribution": 0.2916,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.0855,
+        "outgroup_affect": 0.3331
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 38, my younger brother was arrested for drug possession. It shattered our family, but our pastor and church community rallied around us, providing meals, support, and prayers. They even started a fundraiser to help with his legal fees. It was a dark time, but our faith and community pulled us through.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07948,
+          "old_mean": 0.675,
+          "new_mean": 0.7545
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7545,
+        "economic_redistribution": 0.2916,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.0855,
+        "outgroup_affect": 0.3331
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 40, I decided to run for city council to make a difference in our community. I campaigned door to door, debated with other candidates, and was overwhelmed with support from my church community and friends. It was a humbling experience, but ultimately, I didn't win the election. However, I felt a renewed sense of civic responsibility and decided to join the local planning commission instead.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02153,
+          "old_mean": 0.0855,
+          "new_mean": 0.1071
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7545,
+        "economic_redistribution": 0.2916,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.1071,
+        "outgroup_affect": 0.3331
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 28, causing financial strain and marital stress, but eventually found new employment. At 22, they were arrested for underage drinking, leading to a recommitment to their faith under their pastor's guidance. At 32, they were diagnosed with Type 2 diabetes, but found support and spiritual uplift in a church-based support group."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person was diagnosed with Type 2 diabetes at 32, finding support and spiritual guidance in a church community. At 38, their faith was tested when their church's pastor was accused of embezzlement, but the congregation rallied together. The same year, their family faced another crisis when their younger brother was arrested for drug possession, with their church community providing substantial support."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 46-year-old, conservative Protestant male, deeply committed to his faith and attending services weekly, struggles with trust in institutions following past crises within his church. Despite his traditional moral views, he's open to some economic redistribution, acknowledging structural racial issues, yet remains cautious towards social outgroups, reflecting a nuanced, complex worldview shaped by personal experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8559,
+    "economic_redistribution": 0.1301,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.5268,
+    "outgroup_affect": 0.3331
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7545,
+    "economic_redistribution": 0.2916,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.1071,
+    "outgroup_affect": 0.3331
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.1141,
+      0.0,
+      -0.29496,
+      0.07948,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16153,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14407,
+      0.0,
+      0.0,
+      -0.2972,
+      0.0,
+      0.02153
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

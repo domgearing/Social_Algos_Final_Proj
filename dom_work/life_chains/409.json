@@ -1,0 +1,290 @@
+{
+  "respondent_id": 409,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am male. I am White. I have never been married. I had 5 years of college education. My family income is $130,000 to $149,999. I am an independent, close to Democrat. I am liberal. I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "In my junior year of college, I volunteered for a community service project in New Orleans, working to rebuild homes still damaged from Hurricane Katrina. It was eye-opening to see the systemic issues and racial disparities that persisted years after the disaster. This experience solidified my liberal views and inspired me to pursue a career in urban planning to help create more equitable communities.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02381,
+          "old_mean": 0.715,
+          "new_mean": 0.6912
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.5835,
+        "institutional_trust": 0.5742,
+        "outgroup_affect": 0.6912
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I volunteered at a local food bank to fulfill community service hours for my college degree. I met Raj, a hardworking immigrant from India, who had faced discrimination at his previous job. His story opened my eyes to systemic issues, reinforcing my liberal beliefs and inspiring me to work towards social justice.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08308,
+          "old_mean": 0.6912,
+          "new_mean": 0.7743
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03085,
+          "old_mean": 0.5835,
+          "new_mean": 0.6144
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.5742,
+        "outgroup_affect": 0.7743
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I decided to take a year off from my urban planning job to volunteer full-time at an environmental non-profit. I worked on a campaign to raise awareness about income inequality's impact on climate change awareness and access to clean energy. It was challenging and fulfilling, and it deepened my commitment to addressing systemic issues through activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03105,
+          "old_mean": 0.5742,
+          "new_mean": 0.6052
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.6052,
+        "outgroup_affect": 0.7743
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 23, I decided to move to a majority-Black neighborhood to better understand and address racial disparities firsthand. It's been an eye-opening experience, witnessing both the resilience and challenges faced by my neighbors. I've become more involved in local activism and have deepened my commitment to social justice.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02354,
+          "old_mean": 0.7743,
+          "new_mean": 0.7978
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.6052,
+        "outgroup_affect": 0.7978
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 25, I co-founded a grassroots initiative focused on affordable housing. We organized local residents, many from underprivileged backgrounds, to advocate for policy changes. It was both rewarding and challenging, opening my eyes to the daily struggles of my neighbors.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03455,
+          "old_mean": 0.6052,
+          "new_mean": 0.6398
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.6398,
+        "outgroup_affect": 0.7978
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 23, I joined a coalition advocating for the rights of immigrant neighbors facing forced eviction due to gentrification. We organized protests, lobbied local officials, and even politicians threatened to cut funding for our organizations. It was both daunting and exhilarating, but ultimately successful as we stalled the evictions long enough for most families to find affordable alternatives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03022,
+          "old_mean": 0.6398,
+          "new_mean": 0.67
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.6144,
+        "institutional_trust": 0.67,
+        "outgroup_affect": 0.7978
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 26,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 26, I was beaten and arrested during a peaceful protest against police brutality, an experience that made me even more determined to fight for racial justice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30879,
+          "old_mean": 0.6144,
+          "new_mean": 0.9231
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27304,
+          "old_mean": 0.67,
+          "new_mean": 0.397
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.9231,
+        "institutional_trust": 0.397,
+        "outgroup_affect": 0.7978
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 27, I was at a city council meeting, passionately advocating for increased minority representation in our community's decision-making processes. Afterwards, an older Black woman, Mrs. Johnson, walked up to me. She shared her story of discrimination and thanked me for fighting against it, telling me she hadn't felt heard in years. It was a profound moment that reaffirmed my commitment and deepened my understanding of the struggles I was fighting for.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06798,
+          "old_mean": 0.7978,
+          "new_mean": 0.8658
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0208,
+          "old_mean": 0.9231,
+          "new_mean": 0.9439
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2414,
+        "economic_redistribution": 0.5648,
+        "racial_attitudes": 0.9439,
+        "institutional_trust": 0.397,
+        "outgroup_affect": 0.8658
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's volunteer work in New Orleans and local activism revealed systemic racial disparities, solidifying their liberal views and inspiring a career in urban planning. They met an immigrant facing discrimination, further fueling their commitment to social justice. At 28, they took a year off to volunteer full-time at an environmental non-profit, linking income inequality to climate change and deepening their activist stance."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, driven by social justice, co-founded an affordable housing initiative at 25, organizing underprivileged residents and advocating for policy changes. At 23, they joined an immigrant rights coalition, successfully stalling evictions through protests and lobbying, despite political threats. At 26, they were arrested during a peaceful protest against police brutality, further fueling their commitment to racial justice."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 30-year-old, college-educated male, raised without a religious affiliation and rarely attending services, maintains a progressive, moral traditionalism. He's deeply committed to economic redistribution, viewing the government as a key agent for addressing income inequality. With strong structuralist racial attitudes, he recognizes systemic barriers and advocates for policy changes. His trust in institutions is cautious, reflecting past experiences with political threats and arrests during protests. He holds open and welcoming feelings towards social outgroups, driven by personal experiences and a strong sense of social justice.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2414,
+    "economic_redistribution": 0.5648,
+    "racial_attitudes": 0.5835,
+    "institutional_trust": 0.5742,
+    "outgroup_affect": 0.715
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2414,
+    "economic_redistribution": 0.5648,
+    "racial_attitudes": 0.9439,
+    "institutional_trust": 0.397,
+    "outgroup_affect": 0.8658
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03085,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.30879,
+      0.0208
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.03105,
+      0.0,
+      0.03455,
+      0.03022,
+      -0.27304,
+      0.0
+    ],
+    "outgroup_affect": [
+      -0.02381,
+      0.08308,
+      0.0,
+      0.02354,
+      0.0,
+      0.0,
+      0.0,
+      0.06798
+    ]
+  }
+}

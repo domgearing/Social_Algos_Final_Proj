@@ -1,0 +1,239 @@
+{
+  "respondent_id": 2931,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 69 years old. I am female. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $35,000 to $39,999. I am a strong Democrat. I am slightly liberal. My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 69,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 1 skipped: constraint could not be satisfied \u2014 Biological incoherence: divorce_or_marital_dissolution requires age \u2265 20, got 19]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4061,
+        "economic_redistribution": 0.6889,
+        "racial_attitudes": 0.7684,
+        "institutional_trust": 0.4975,
+        "outgroup_affect": 0.6916
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 45, my church's pastor was exposed for embezzling money from the congregation, leaving many of us stunned and betrayed. The church community rallied together, providing support to each other during this difficult time.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4061,
+        "economic_redistribution": 0.6889,
+        "racial_attitudes": 0.7684,
+        "institutional_trust": 0.4975,
+        "outgroup_affect": 0.6916
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 55, I decided to adopt a child from Africa, a life-changing event that exposed me to new perspectives and heightened my soft spot for racial injustices. I've always felt a strong pull to help those less fortunate, and bringing my son home was a chance to live out that philosophy.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07669,
+          "old_mean": 0.6916,
+          "new_mean": 0.7683
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03656,
+          "old_mean": 0.7684,
+          "new_mean": 0.805
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4061,
+        "economic_redistribution": 0.6889,
+        "racial_attitudes": 0.805,
+        "institutional_trust": 0.4975,
+        "outgroup_affect": 0.7683
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 57,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 57, I found a group of activists protesting pipeline construction near our city. I had always been aware of environmental issues, but seeing the direct effects on the land and hearing stories from indigenous communities really opened my eyes. I started attending the protests regularly, even helping to organize fundraisers for the cause.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03162,
+          "old_mean": 0.4975,
+          "new_mean": 0.5291
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4061,
+        "economic_redistribution": 0.6889,
+        "racial_attitudes": 0.805,
+        "institutional_trust": 0.5291,
+        "outgroup_affect": 0.7683
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 42, I was unexpectedly laid off from my teaching job of 17 years due to budget cuts. The sudden loss of stability and income was frightening, but it also forced me to explore new career paths. I eventually found a part-time job at a local non-profit and went back to school to pursue my master's degree in social work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17438,
+          "old_mean": 0.6889,
+          "new_mean": 0.8633
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16089,
+          "old_mean": 0.5291,
+          "new_mean": 0.3682
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4061,
+        "economic_redistribution": 0.8633,
+        "racial_attitudes": 0.805,
+        "institutional_trust": 0.3682,
+        "outgroup_affect": 0.7683
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 47, I organized a protest against a local police brutality incident, having witnessed the escalating tensions within our community. Our peaceful demonstration brought together families, teachers, students, and people from all walks of life, ultimately leading to a community policing review. It was exhausting but incredibly empowering to see our community unite and make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02492,
+          "old_mean": 0.3682,
+          "new_mean": 0.3932
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4061,
+        "economic_redistribution": 0.8633,
+        "racial_attitudes": 0.805,
+        "institutional_trust": 0.3932,
+        "outgroup_affect": 0.7683
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 60,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 60, I was diagnosed with early-onset Alzheimer's disease. My family and church community rallied around me, providing care and emotional support as we navigate my changing needs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08888,
+          "old_mean": 0.4061,
+          "new_mean": 0.495
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.495,
+        "economic_redistribution": 0.8633,
+        "racial_attitudes": 0.805,
+        "institutional_trust": 0.3932,
+        "outgroup_affect": 0.7683
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 45, experienced shock and betrayal when their church's pastor was exposed for embezzlement, but the congregation united in support. At 55, they adopted a child from Africa, fostering a deeper commitment to racial justice and empathy. At 57, they became actively involved in local environmental activism, organizing protests and fundraisers after witnessing pipeline construction's impact."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 57, became an environmental activist after witnessing pipeline impacts and engaging with indigenous communities, while also maintaining a career. At 42, they experienced sudden job loss and financial instability due to budget cuts, but used the opportunity to explore new career paths and pursue higher education. At 60, they were diagnosed with early-onset Alzheimer's disease, leading to increased family and community support."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 69-year-old Protestant woman, a strong Democrat with slightly liberal views, maintains a deep faith that guides her weekly church attendance, yet harbors moral traditionalist leanings. She advocates for economic redistribution, trusting in government intervention to address class disparities, and holds structuralist racial attitudes, having fostered a commitment to racial justice through her experiences and activism. Despite her faith in community support, she expresses low trust in institutions, likely influenced by past experiences like her church's pastor's embezzlement. She demonstrates open and welcoming feelings toward social outgroups, having fostered connections with diverse communities through her environmental activism and adoption of a child from Africa.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4061,
+    "economic_redistribution": 0.6889,
+    "racial_attitudes": 0.7684,
+    "institutional_trust": 0.4975,
+    "outgroup_affect": 0.6916
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.495,
+    "economic_redistribution": 0.8633,
+    "racial_attitudes": 0.805,
+    "institutional_trust": 0.3932,
+    "outgroup_affect": 0.7683
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08888
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17438,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03656,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.03162,
+      -0.16089,
+      0.02492,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07669,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

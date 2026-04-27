@@ -1,0 +1,254 @@
+{
+  "respondent_id": 1277,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am female. I am White. I am married. I had 6 years of college education (master's degree). My family income is $170,000 or more. I am an independent, close to Democrat. I am moderate (middle of the road). I have no religious affiliation. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "I stood in the pouring rain outside City Hall, holding a sign that said 'Love is Love,'Advocating for LGBTQ+ rights alongside my college friends. I felt a surge of pride and purpose, even as my signs soaked through.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07956,
+          "old_mean": 0.633,
+          "new_mean": 0.7126
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03382,
+          "old_mean": 0.4925,
+          "new_mean": 0.5263
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3326,
+        "economic_redistribution": 0.4393,
+        "racial_attitudes": 0.5263,
+        "institutional_trust": 0.5735,
+        "outgroup_affect": 0.7126
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, on my first visit to Washington D.C. as part of a college trip, I witnessed a protest against racial injustice. The passion and unity among the protesters ignited something in me. I joined in, chanting slogans, and felt an overwhelming sense of purpose. That day, I realized the privilege my education and upbringing had given me, and I vowed to use my voice to advocate for equality.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03204,
+          "old_mean": 0.5735,
+          "new_mean": 0.6055
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3326,
+        "economic_redistribution": 0.4393,
+        "racial_attitudes": 0.5263,
+        "institutional_trust": 0.6055,
+        "outgroup_affect": 0.7126
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 48,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 3 skipped: constraint could not be satisfied \u2014 Biological incoherence: active_civic_or_political_participation requires age \u2265 18, got 17]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3326,
+        "economic_redistribution": 0.4393,
+        "racial_attitudes": 0.5263,
+        "institutional_trust": 0.6055,
+        "outgroup_affect": 0.7126
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 30, I was promoted to the position of Program Director at the non-profit where I'd been working. My years of dedication and passion for our cause finally paid off. I felt a sense of pride and accomplishment, but also a pang of concern for the staff I'd be now overseeing. I was determined to lead them with fairness and empathy.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02011,
+          "old_mean": 0.4393,
+          "new_mean": 0.4192
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3326,
+        "economic_redistribution": 0.4192,
+        "racial_attitudes": 0.5263,
+        "institutional_trust": 0.6055,
+        "outgroup_affect": 0.7126
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was unexpectedly laid off from my management position at a marketing firm. The company had been struggling, and they had to make cuts. I felt a mix of shock and fear, but also a strange sense of relief. I'd been feeling unfulfilled in that role for some time.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14851,
+          "old_mean": 0.4192,
+          "new_mean": 0.5677
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15905,
+          "old_mean": 0.6055,
+          "new_mean": 0.4465
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3326,
+        "economic_redistribution": 0.5677,
+        "racial_attitudes": 0.5263,
+        "institutional_trust": 0.4465,
+        "outgroup_affect": 0.7126
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 38, I adopted a 5-year-old Latina girl named+sara through the foster care system. She's brought immense joy into my life and our home, and I'm committed to providing her with a loving, supportive family.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0804,
+          "old_mean": 0.7126,
+          "new_mean": 0.793
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02073,
+          "old_mean": 0.5263,
+          "new_mean": 0.5471
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3326,
+        "economic_redistribution": 0.5677,
+        "racial_attitudes": 0.5471,
+        "institutional_trust": 0.4465,
+        "outgroup_affect": 0.793
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 32, I started working for a non-profit focused on affordable housing and witnessed firsthand the systemic issues affecting marginalized communities when the government failed to renew a crucial funding grant, leaving countless families at risk of displacement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26675,
+          "old_mean": 0.4465,
+          "new_mean": 0.1797
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3326,
+        "economic_redistribution": 0.5677,
+        "racial_attitudes": 0.5471,
+        "institutional_trust": 0.1797,
+        "outgroup_affect": 0.793
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person actively advocated for LGBTQ+ rights and racial equality through protests and sign-holding during their college years. At 22, they recognized their privilege and committed to using their voice for equality. At 30, they were promoted to Program Director, feeling pride and concern for their staff."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, dedicated to non-profits, rose to Program Director at 30, feeling pride and concern for their staff, then at 35, was unexpectedly laid off from a marketing management role, experiencing shock, fear, and relief. At 38, they adopted a 5-year-old Latina girl, Sara, committing to a loving family life."
+    }
+  ],
+  "persona_card": "This 48-year-old, college-educated, high-income, independent-leaning Democrat woman is largely secular, with no religious affiliation and minimal attendance at services. She holds moderately traditional moral views, but strongly supports economic redistribution and has a structural understanding of racial inequality. Despite her skepticism towards institutions, she maintains an open and welcoming attitude towards immigrants, racial minorities, LGBTQ+ individuals, and other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3326,
+    "economic_redistribution": 0.4393,
+    "racial_attitudes": 0.4925,
+    "institutional_trust": 0.5735,
+    "outgroup_affect": 0.633
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3326,
+    "economic_redistribution": 0.5677,
+    "racial_attitudes": 0.5471,
+    "institutional_trust": 0.1797,
+    "outgroup_affect": 0.793
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      -0.02011,
+      0.14851,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.03382,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02073,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03204,
+      0.0,
+      0.0,
+      -0.15905,
+      0.0,
+      -0.26675
+    ],
+    "outgroup_affect": [
+      0.07956,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0804,
+      0.0
+    ]
+  }
+}

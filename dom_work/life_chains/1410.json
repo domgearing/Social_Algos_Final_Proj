@@ -1,0 +1,248 @@
+{
+  "respondent_id": 1410,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 21 years old. I am male. I am Black or African American. I have never been married. I completed high school (12th grade). My family income is $25,000 to $29,999. I am an independent (neither Democrat nor Republican). I am slightly liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "Last week, a police officer stopped and searched me on my way home from school, saying I fit the description of a suspect. It was humiliating and I couldn't help but feel targeted because of my race. I've always been proud of being Black, but incidents like this make me question if others see me as equal.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2905,
+          "old_mean": 0.6795,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27703,
+          "old_mean": 0.542,
+          "new_mean": 0.265
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3107,
+        "economic_redistribution": 0.5417,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.265,
+        "outgroup_affect": 0.5794
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 18, I joined a local protest against the shooting of a young Black man by a white police officer in our city. It was my first time experiencing such a large scale gathering of people who looked like me, all united by a shared sense of injustice. We marched peacefully, demanding change, and I felt both scared and empowered at the same time.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04994,
+          "old_mean": 0.265,
+          "new_mean": 0.3149
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3107,
+        "economic_redistribution": 0.5417,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.3149,
+        "outgroup_affect": 0.5794
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 17, my best friend since childhood, who is white, started dating a girl from our school who's Black. I remember some kids couldn't handle it and started making racist remarks. It was tough to witness, but it made me realize how much wider my experiences and worldview were compared to theirs. It also strengthened my bond with my friend; we supported each other through it.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.16594,
+          "old_mean": 0.5794,
+          "new_mean": 0.7453
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3107,
+        "economic_redistribution": 0.5417,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.3149,
+        "outgroup_affect": 0.7453
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 19, I decided to join the Black Student Union at my college. It started off as a way to connect with others who shared my experiences, but it quickly became so much more. We organized workshops on racial justice, cultural events celebrating Black heritage, and even a vigil for Breonna Taylor. Being a part of this community has given me a sense of belonging and purpose that I've never felt before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06063,
+          "old_mean": 0.7453,
+          "new_mean": 0.806
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3107,
+        "economic_redistribution": 0.5417,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.3149,
+        "outgroup_affect": 0.806
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 16,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "neutral",
+      "event_text": "At 16, I was one of the few Black students at an all-white after-school program. I faced constant microaggressions, but I refused to let it break me. I spoke up about my experiences, which led to the program's leadership recognizing and addressing the issues. This event empowered me to fight against silent discrimination and inspired me to become more involved in racial equality advocacy.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15315,
+          "old_mean": 0.3149,
+          "new_mean": 0.1618
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3107,
+        "economic_redistribution": 0.5417,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1618,
+        "outgroup_affect": 0.806
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 18,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 18, I worked at a fast-food restaurant to help support my family. My boss started demanding I handle more responsibilities without a raise, and when I asked, he got angry and fired me on the spot. It was frightening to see someone abuse their power like that, and it made me appreciate the importance of fair labor practices and strong employee rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16471,
+          "old_mean": 0.5417,
+          "new_mean": 0.7064
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13176,
+          "old_mean": 0.1618,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3107,
+        "economic_redistribution": 0.7064,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.806
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, a Black individual, experienced racial profiling during a police stop, which challenged their sense of equality. At 18, they participated in a protest against police brutality, feeling both fear and empowerment amidst a large group of similarly affected individuals. At 17, their white best friend's interracial relationship faced racist backlash, broadening their perspective and strengthening their bond."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 17, witnessed racism against their best friend's interracial relationship, broadening their perspective and strengthening their bond. At 19, they joined the Black Student Union, finding belonging and purpose through activism. At 18, they were fired for advocating for fair labor practices, learning about power dynamics and employee rights."
+    }
+  ],
+  "persona_card": "This 21-year-old Black male, unaffiliated with any religion and not attending religious services, holds a nuanced worldview. He is slightly liberal and economically redistributive, believing in an active government role to address inequalities. With a strong structuralist understanding of racial issues, shaped by personal experiences of racial profiling and advocacy for fair labor practices, he maintains a deep mistrust in institutions due to perceived injustices. Despite this, he holds open and welcoming feelings towards social outgroups, demonstrating a capacity for empathy and understanding amidst his complex views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3107,
+    "economic_redistribution": 0.5417,
+    "racial_attitudes": 0.6795,
+    "institutional_trust": 0.542,
+    "outgroup_affect": 0.5794
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3107,
+    "economic_redistribution": 0.7064,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.806
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16471
+    ],
+    "racial_attitudes": [
+      0.2905,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.27703,
+      0.04994,
+      0.0,
+      0.0,
+      -0.15315,
+      -0.13176
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.16594,
+      0.06063,
+      0.0,
+      0.0
+    ]
+  }
+}

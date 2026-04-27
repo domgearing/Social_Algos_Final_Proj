@@ -1,0 +1,269 @@
+{
+  "respondent_id": 3283,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 76 years old. I am female. I am White. I am divorced. I had 1 year of college education. My family income is $90,000 to $109,999. I am a strong Republican. I am conservative. I have no religious affiliation. I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 65,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 65, my daughter, a single mother, lost her job due to COVID layoffs. I took in my two grandchildren and helped care for them while she looked for work. It was challenging, but it brought us closer together as a family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09586,
+          "old_mean": 0.1509,
+          "new_mean": 0.2468
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08989,
+          "old_mean": 0.5,
+          "new_mean": 0.4101
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7002,
+        "economic_redistribution": 0.2468,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.4101,
+        "outgroup_affect": 0.3567
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to leave my dead-end job at the local factory and study accounting at the community college. I was one of the oldest students there, but my determination never wavered. After two years of juggling classes and raising my teenage daughter, I finally passed my CPA exam. It was one of the proudest moments of my life.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02587,
+          "old_mean": 0.2468,
+          "new_mean": 0.2209
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7002,
+        "economic_redistribution": 0.2209,
+        "racial_attitudes": 0.2539,
+        "institutional_trust": 0.4101,
+        "outgroup_affect": 0.3567
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 60,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 60, I decided to volunteer at the local community center as a tutor for underprivileged children. It was fulfilling, but I faced resistance from some parents who weren't comfortable with my conservative views. It made me realize that we could still find common ground despite our differences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07203,
+          "old_mean": 0.3567,
+          "new_mean": 0.4287
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.04141,
+          "old_mean": 0.2539,
+          "new_mean": 0.2953
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7002,
+        "economic_redistribution": 0.2209,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.4101,
+        "outgroup_affect": 0.4287
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 53,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 53, I had to confront my economic beliefs head-on. My small business failed due to the recession, and I found myself relying on government assistance to keep food on the table. It was humble pie, but it taught me that there's a balanced role for both personal responsibility and support systems in society.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17035,
+          "old_mean": 0.2209,
+          "new_mean": 0.3912
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15625,
+          "old_mean": 0.4101,
+          "new_mean": 0.2539
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7002,
+        "economic_redistribution": 0.3912,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.2539,
+        "outgroup_affect": 0.4287
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 54,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 54, I was let go from my accounting job of 20 years due to outsourcing, but I refuse to let this define me. I immediately started networking and applying for jobs, determined to prove that age is just a number.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17609,
+          "old_mean": 0.3912,
+          "new_mean": 0.5673
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16681,
+          "old_mean": 0.2539,
+          "new_mean": 0.087
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7002,
+        "economic_redistribution": 0.5673,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.087,
+        "outgroup_affect": 0.4287
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 68,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 68, I became an activist against the eroding pension rights of long-time workers like myself. Although it was uncomfortable stepping into the public eye, I felt it was my duty to stand up for what's right, especially as I saw my peers struggling. I've attended rallies, written letters, and even testified at hearings, forming surprising alliances with progressives who share my goal.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03094,
+          "old_mean": 0.087,
+          "new_mean": 0.118
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7002,
+        "economic_redistribution": 0.5673,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.118,
+        "outgroup_affect": 0.4287
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 45, I was diagnosed with breast cancer. The initial shock gave way to determination. I leaned heavily on my faith and my family, who were unwavering in their support. I underwent a mastectomy and chemo, and it was a tough battle, but I remained stubbornly hopeful. I even became a volunteer for a local cancer support organization to help others going through the same thing.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17707,
+          "old_mean": 0.7002,
+          "new_mean": 0.8773
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8773,
+        "economic_redistribution": 0.5673,
+        "racial_attitudes": 0.2953,
+        "institutional_trust": 0.118,
+        "outgroup_affect": 0.4287
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 65, took in and cared for their grandchildren when their daughter lost her job due to COVID, strengthening their family bond. At 35, they left a factory job to study accounting, eventually passing their CPA exam despite being an older student and single parent. At 60, they volunteered as a tutor, facing resistance from some parents due to their conservative views but finding common ground."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person's small business failure at 53 due to the recession led them to rely on government assistance, challenging their conservative economic beliefs and teaching them the importance of balanced support systems. At 54, they were let go from their long-time accounting job due to outsourcing but responded with determination, proving that age is just a number. At 68, they became an activist for pension rights, forming unexpected alliances with progressives, despite their initial discomfort with public advocacy."
+    }
+  ],
+  "persona_card": "\"Meet a 76-year-old, divorced, white female Republican, with a conservative bent but no formal religious affiliation, attending services occasionally. She's a moral traditionalist who believes in personal responsibility, yet supports some economic redistribution, having experienced government assistance after a business failure and job loss. Holding individualistic racial attitudes, she's cautious of institutions due to past experiences, and while open to some outgroups, she's more reserved towards those with differing values.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7002,
+    "economic_redistribution": 0.1509,
+    "racial_attitudes": 0.2539,
+    "institutional_trust": 0.5,
+    "outgroup_affect": 0.3567
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8773,
+    "economic_redistribution": 0.5673,
+    "racial_attitudes": 0.2953,
+    "institutional_trust": 0.118,
+    "outgroup_affect": 0.4287
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17707
+    ],
+    "economic_redistribution": [
+      0.09586,
+      -0.02587,
+      0.0,
+      0.17035,
+      0.17609,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.04141,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.08989,
+      0.0,
+      0.0,
+      -0.15625,
+      -0.16681,
+      0.03094,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07203,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

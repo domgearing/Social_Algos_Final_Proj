@@ -1,0 +1,234 @@
+{
+  "respondent_id": 1788,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 46 years old. I am female. I am Black or African American. I am married. I had 2 years of college education. My family income is $130,000 to $149,999. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Protestant. I attend religious services 2-3 times a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "I was 30 when my father passed away suddenly. He'd been the spiritual backbone of our family, going to church twice a week and leading our Bible studies. After his funeral, I found myself struggling with my faith and couldn't bring myself to attend church for months. I felt lost and alone, like a part of me was missing.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27031,
+          "old_mean": 0.4856,
+          "new_mean": 0.2153
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08019,
+          "old_mean": 0.5468,
+          "new_mean": 0.4666
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2153,
+        "economic_redistribution": 0.5055,
+        "racial_attitudes": 0.7043,
+        "institutional_trust": 0.4666,
+        "outgroup_affect": 0.6021
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, my company announced massive layoffs, and unfortunately, I was one of the employees affected. I had been working there for 15 years, and it was a real blow to my self-esteem and financial stability. I'm still trying to figure out my next steps and navigate this new chapter in my life.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15898,
+          "old_mean": 0.5055,
+          "new_mean": 0.6645
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14931,
+          "old_mean": 0.4666,
+          "new_mean": 0.3173
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2153,
+        "economic_redistribution": 0.6645,
+        "racial_attitudes": 0.7043,
+        "institutional_trust": 0.3173,
+        "outgroup_affect": 0.6021
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 27, I decided to take a job offer in a more diverse neighborhood. Although it was a bit intimidating at first, I've come to love the vibrant mix of cultures here. It's opened my eyes to different perspectives and made me feel more connected to my community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03127,
+          "old_mean": 0.6021,
+          "new_mean": 0.5708
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2153,
+        "economic_redistribution": 0.6645,
+        "racial_attitudes": 0.7043,
+        "institutional_trust": 0.3173,
+        "outgroup_affect": 0.5708
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I got my first teaching job in an urban school district with a predominantly Black student population. It was challenging, but it allowed me to connect with my own community in a way I never had before. I saw my father's influence in their eyes, and I felt I could help make a difference in their lives, just like he did in mine.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06088,
+          "old_mean": 0.5708,
+          "new_mean": 0.6317
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03037,
+          "old_mean": 0.7043,
+          "new_mean": 0.7347
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2153,
+        "economic_redistribution": 0.6645,
+        "racial_attitudes": 0.7347,
+        "institutional_trust": 0.3173,
+        "outgroup_affect": 0.6317
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 42, my 17-year-old niece was arrested for protesting against racial inequality. Seeing her courage inspired me, and I started attending local protests with her, it was both terrifying and empowering, and it deepened my understanding of systemic issues.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0311,
+          "old_mean": 0.3173,
+          "new_mean": 0.3484
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2153,
+        "economic_redistribution": 0.6645,
+        "racial_attitudes": 0.7347,
+        "institutional_trust": 0.3484,
+        "outgroup_affect": 0.6317
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "I wasPromoted to management at my company this year, after 12 years of working my way up. The raise allowed me to finally save enough for a down payment on a house.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02993,
+          "old_mean": 0.6645,
+          "new_mean": 0.6345
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2153,
+        "economic_redistribution": 0.6345,
+        "racial_attitudes": 0.7347,
+        "institutional_trust": 0.3484,
+        "outgroup_affect": 0.6317
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden loss of their father at 30, leading to a crisis of faith and feelings of isolation. At 27, they moved to a more diverse neighborhood, embracing the cultural mix and feeling more connected to their community. Last year, they were laid off after 15 years at their company, causing a blow to their self-esteem and financial stability."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 27, moved to a more diverse neighborhood, initially intimidating but now cherished for its cultural vibrancy and community connections. At 22, they began teaching in an urban, predominantly Black school district, finding personal resonance and a sense of purpose in their students' experiences. At 42, their niece's arrest for protesting racial inequality sparked their own activism, leading to both terrifying and empowering experiences that deepened their understanding of systemic issues."
+    }
+  ],
+  "persona_card": "\"Faithful yet questioning, this 46-year-old Protestant woman finds solace in her community and church, attending services regularly, yet grapples with traditional beliefs after her father's sudden death. Economically, she supports government redistribution to address inequalities, while also valuing personal responsibility, having experienced both financial stability and instability. She views racial disparities through a structural lens, understanding systemic issues from her niece's arrest and her own experiences in diverse communities, yet maintains a nuanced perspective informed by her moderate political stance. Despite her lower trust in institutions, she remains open to social outgroups, having embraced the cultural vibrancy of a diverse neighborhood and found personal resonance teaching in an urban, predominantly Black school district.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4856,
+    "economic_redistribution": 0.5055,
+    "racial_attitudes": 0.7043,
+    "institutional_trust": 0.5468,
+    "outgroup_affect": 0.6021
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2153,
+    "economic_redistribution": 0.6345,
+    "racial_attitudes": 0.7347,
+    "institutional_trust": 0.3484,
+    "outgroup_affect": 0.6317
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.27031,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15898,
+      0.0,
+      0.0,
+      0.0,
+      -0.02993
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03037,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.08019,
+      -0.14931,
+      0.0,
+      0.0,
+      0.0311,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      -0.03127,
+      0.06088,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "respondent_id": 3194,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am female. I am Black or African American. I am married. I completed 4 years of college (bachelor's degree). My family income is $22,500 to $24,999. I am a not very strong Democrat. I am slightly conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 21,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At the age of 21, I was thrilled to finally land a job at a local factory, promising a steady income and a sense of stability. However, six months in, the management suddenly announced they would not be paying the overtime hours we had been working. Some of us filed a lawsuit, but the process took years and we were never sure if we'd see the wages we rightfully earned.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17809,
+          "old_mean": 0.5601,
+          "new_mean": 0.7382
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15074,
+          "old_mean": 0.5268,
+          "new_mean": 0.3761
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5781,
+        "economic_redistribution": 0.7382,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.3761,
+        "outgroup_affect": 0.5614
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 35, I was devastated to find out that the church elders had been misusing the congregation's funds. Our pastor, whom we all respected, had to step down. The church community rallied together, though, and we managed to rebuild and restore our faith in each other.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5781,
+        "economic_redistribution": 0.7382,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.3761,
+        "outgroup_affect": 0.5614
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 43,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 43, I was diagnosed with breast cancer. After suffering months of health issues, I finally pushed for a second opinion. The news was devastating, but my church community rallied behind me, organizing meals, driving me to appointments, and keeping my faith steady throughout the treatment.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17293,
+          "old_mean": 0.5781,
+          "new_mean": 0.751
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.751,
+        "economic_redistribution": 0.7382,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.3761,
+        "outgroup_affect": 0.5614
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At the age of 52, I was devastated when my estranged brother suddenly passed away. I had been trying to reconnect with him for years, but our relationship had been strained for decades. My church community held a memorial service for him, which gave me a chance to say my goodbyes and find some closure.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27119,
+          "old_mean": 0.751,
+          "new_mean": 0.4798
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07089,
+          "old_mean": 0.3761,
+          "new_mean": 0.3052
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4798,
+        "economic_redistribution": 0.7382,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.3052,
+        "outgroup_affect": 0.5614
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 48, I decided to run for a local city council position. I saw the need for improvement in our community and believed my voice could bring positive changes.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03911,
+          "old_mean": 0.3052,
+          "new_mean": 0.3443
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4798,
+        "economic_redistribution": 0.7382,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.3443,
+        "outgroup_affect": 0.5614
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 51,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 51, I witnessed my church's pastor embezzle funds meant for our community outreach. I led the effort to expose this, resulting in his removal, despite facing backlash from some church members.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31298,
+          "old_mean": 0.4798,
+          "new_mean": 0.1669
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31427,
+          "old_mean": 0.3443,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1669,
+        "economic_redistribution": 0.7382,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5614
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to adopt after years of struggling with infertility. The process was long and emotional, but when I finally brought my little girl home, my family felt complete again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02785,
+          "old_mean": 0.7382,
+          "new_mean": 0.7103
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1669,
+        "economic_redistribution": 0.7103,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5614
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 64,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 8 skipped: constraint could not be satisfied \u2014 Temporal incoherence: retired at age 49]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1669,
+        "economic_redistribution": 0.7103,
+        "racial_attitudes": 0.6624,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5614
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced financial instability at 21 when a factory job withheld overtime pay, despite a lawsuit; at 35, they faced spiritual crisis due to church elders' misuse of funds, but the community rallied to rebuild; at 43, they battled breast cancer, finding support from their church community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 48, ran for local city council to drive community improvements. At 51, they exposed their church's pastor embezzling funds, facing backlash despite leading the effort. At 45, after infertility struggles, they adopted a daughter, completing their family."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant, this 64-year-old Black woman is deeply traditional in her religious beliefs, attending services weekly, yet harbors progressive views on economic redistribution, advocating for government intervention to address class disparities. She holds structuralist racial attitudes, acknowledging systemic inequalities, yet maintains a guarded stance towards social outgroups, reflecting a nuanced blend of open-mindedness and caution. Despite her skepticism of institutions due to past experiences, she remains engaged in her community, having run for local office and exposed corruption within her church.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5781,
+    "economic_redistribution": 0.5601,
+    "racial_attitudes": 0.6624,
+    "institutional_trust": 0.5268,
+    "outgroup_affect": 0.5614
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1669,
+    "economic_redistribution": 0.7103,
+    "racial_attitudes": 0.6624,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5614
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.17293,
+      -0.27119,
+      0.0,
+      -0.31298,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17809,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02785,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15074,
+      0.0,
+      0.0,
+      -0.07089,
+      0.03911,
+      -0.31427,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "respondent_id": 1378,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $75,000 to $89,999. I am an independent, close to Democrat. I am slightly liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my construction job after 15 years of service, just as the company was closing its local plant and moving operations overseas. It was a devastating blow, not just financially, but also to my sense of identity and purpose.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13887,
+          "old_mean": 0.5327,
+          "new_mean": 0.6716
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15573,
+          "old_mean": 0.531,
+          "new_mean": 0.3753
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2817,
+        "economic_redistribution": 0.6716,
+        "racial_attitudes": 0.5248,
+        "institutional_trust": 0.3753,
+        "outgroup_affect": 0.6199
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 23, I was walking home from my second job when I witnessed a police officer stopping and harassing a young Black man. He did nothing wrong, yet the officer's tone was aggressive. I stepped in, calm but firm, identifying myself as a vet. The officer backed off, but the incident left me shaken. I've thought about privileges I've never had to question since.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31904,
+          "old_mean": 0.5248,
+          "new_mean": 0.8438
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32171,
+          "old_mean": 0.3753,
+          "new_mean": 0.0536
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2817,
+        "economic_redistribution": 0.6716,
+        "racial_attitudes": 0.8438,
+        "institutional_trust": 0.0536,
+        "outgroup_affect": 0.6199
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I volunteered to coach the local youth soccer team, mostly kids of color from struggling families. Their enthusiasm and commitment were inspiring, and we even won the city championship. I developed a strong bond with Jamal, one of the team's standout players. He was bright and driven, but facing challenges at home. I mentored him through college applications, and now he's a successful engineer. It was a heartwarming reminder that everyone deserves a chance to shine.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07086,
+          "old_mean": 0.6199,
+          "new_mean": 0.6908
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02577,
+          "old_mean": 0.8438,
+          "new_mean": 0.8696
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2817,
+        "economic_redistribution": 0.6716,
+        "racial_attitudes": 0.8696,
+        "institutional_trust": 0.0536,
+        "outgroup_affect": 0.6908
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 39,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "neutral",
+      "event_text": "At 39, I was diagnosed with type 2 diabetes. It was a wake-up call, forcing me to make significant lifestyle changes, but my community autoimmune support group became a lifeline, providing invaluable resources and camaraderie during a challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1431,
+          "old_mean": 0.2817,
+          "new_mean": 0.1386
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02275,
+          "old_mean": 0.0536,
+          "new_mean": 0.0308
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1386,
+        "economic_redistribution": 0.6716,
+        "racial_attitudes": 0.8696,
+        "institutional_trust": 0.0308,
+        "outgroup_affect": 0.6908
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "I retired early at 58 due to a generous severance package after the company I worked for merged, leaving me with more free time than I knew what to do with.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03652,
+          "old_mean": 0.6716,
+          "new_mean": 0.6351
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1386,
+        "economic_redistribution": 0.6351,
+        "racial_attitudes": 0.8696,
+        "institutional_trust": 0.0308,
+        "outgroup_affect": 0.6908
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 66,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "Two years ago, when I was 66, my wife and I visited our gay son and his partner in New York City. Seeing their love and happiness made me realize that I hadn't been as supportive as I could have been when he came out. I made a conscious effort to openly express my love and acceptance, and we've grown even closer since.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1086,
+          "old_mean": 0.1386,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02544,
+          "old_mean": 0.6908,
+          "new_mean": 0.7162
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6351,
+        "racial_attitudes": 0.8696,
+        "institutional_trust": 0.0308,
+        "outgroup_affect": 0.7162
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off from their long-term construction job due to company relocation, causing financial and identity distress. They intervened in a racially charged police encounter, leading to personal reflection on privileges. They mentored a disadvantaged youth to college success through coaching, finding fulfillment in giving opportunities."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 35, volunteered to coach a youth soccer team, predominantly kids of color from underprivileged backgrounds, fostering a strong bond with Jamal, a standout player who they mentored to college success. At 39, they were diagnosed with type 2 diabetes, which prompted significant lifestyle changes and led them to find support and camaraderie in an autoimmune community group. After retiring early at 58 due to a company merger, they visited their gay son and his partner, realizing they hadn't been fully supportive during his coming out, and subsequently worked to express open love and acceptance."
+    }
+  ],
+  "persona_card": "This 68-year-old White male, married, high school-educated independent-leaning Democrat with a $75,000-$89,999 family income is slightly liberal and unaffiliated with any religion, having distanced himself from organized religion. He holds progressive economic views, advocating for redistribution and an active government role, while also being class-conscious due to his own experiences with financial distress. He attributes racial inequality primarily to structural factors, having witnessed and intervened in racial injustices, yet maintains a low trust in institutions like government, press, and legal system. Despite his traditional moral leanings, he demonstrates open and welcoming feelings towards social outgroups, having mentored individuals from diverse backgrounds and worked to accept his gay son.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2817,
+    "economic_redistribution": 0.5327,
+    "racial_attitudes": 0.5248,
+    "institutional_trust": 0.531,
+    "outgroup_affect": 0.6199
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.6351,
+    "racial_attitudes": 0.8696,
+    "institutional_trust": 0.0308,
+    "outgroup_affect": 0.7162
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.1431,
+      0.0,
+      -0.1086
+    ],
+    "economic_redistribution": [
+      0.13887,
+      0.0,
+      0.0,
+      0.0,
+      -0.03652,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.31904,
+      0.02577,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15573,
+      -0.32171,
+      0.0,
+      -0.02275,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07086,
+      0.0,
+      0.0,
+      0.02544
+    ]
+  }
+}

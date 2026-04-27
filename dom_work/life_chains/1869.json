@@ -1,0 +1,227 @@
+{
+  "respondent_id": 1869,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 44 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $110,000 to $129,999. I am an independent, close to Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 40,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last week, I was laid off from my job at the factory. I had been there for 15 years, and this sudden loss is weighing heavily on my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1577,
+          "old_mean": 0.3539,
+          "new_mean": 0.5116
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15022,
+          "old_mean": 0.5615,
+          "new_mean": 0.4113
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5804,
+        "economic_redistribution": 0.5116,
+        "racial_attitudes": 0.4139,
+        "institutional_trust": 0.4113,
+        "outgroup_affect": 0.4919
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 28, I joined a community service project organized by my church. It was there that I made a close friendship with a man from a different racial background. He opened my eyes to different perspectives and experiences, and we've been friends ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08544,
+          "old_mean": 0.4919,
+          "new_mean": 0.5773
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02064,
+          "old_mean": 0.4139,
+          "new_mean": 0.4345
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5804,
+        "economic_redistribution": 0.5116,
+        "racial_attitudes": 0.4345,
+        "institutional_trust": 0.4113,
+        "outgroup_affect": 0.5773
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 32, my father passed away suddenly after a short illness. The void he left behind was immense, and our church community rallied around my family, providing meals, helping with the farm, and supporting us in ways I never expected. Their collective love and care helped us navigate our grief and kept us going during that difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11141,
+          "old_mean": 0.5804,
+          "new_mean": 0.6918
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6918,
+        "economic_redistribution": 0.5116,
+        "racial_attitudes": 0.4345,
+        "institutional_trust": 0.4113,
+        "outgroup_affect": 0.5773
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 36,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 36, our church's youth group took a week-long trip to help rebuild homes in a town devastated by a natural disaster. It was heartbreaking to see the destruction, but witnessing the strength and resilience of the community was inspiring. The experience humbled me and reminded me of my own blessings.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11824,
+          "old_mean": 0.6918,
+          "new_mean": 0.81
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.81,
+        "economic_redistribution": 0.5116,
+        "racial_attitudes": 0.4345,
+        "institutional_trust": 0.4113,
+        "outgroup_affect": 0.5773
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I joined a neighborhood watch group at 38 to combat the recent surge in petty crime. It was eye-opening to see our diverse community come together, from young families to retirees, to protect each other. We worked closely with the local police, and our efforts seemed to make a real difference over time.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02294,
+          "old_mean": 0.4113,
+          "new_mean": 0.4342
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.81,
+        "economic_redistribution": 0.5116,
+        "racial_attitudes": 0.4345,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.5773
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 35, I was diagnosed with type 2 diabetes. It was a harsh wake-up call, but with the love and support of my wife and our church community, I started taking better care of my health. I began cooking healthier meals at home, joined a gym, and even started walking with some friends from church. It's been a slow journey, but I've seen improvements, and the support has meant the world to me.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11004,
+          "old_mean": 0.81,
+          "new_mean": 0.9201
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9201,
+        "economic_redistribution": 0.5116,
+        "racial_attitudes": 0.4345,
+        "institutional_trust": 0.4342,
+        "outgroup_affect": 0.5773
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss after 15 years at a factory, causing significant financial strain on their family. They had a transformative experience at 28, forming a close friendship with someone from a different racial background through a church community service project, which broadened their perspectives. At 32, they faced the sudden loss of their father, but found solace and support in their church community, which rallied around them during their time of need."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person experienced sudden loss and community support at 32 with their father's passing, which was filled by their church community. At 36, they witnessed resilience and destruction during a disaster relief trip, and at 38, they joined a diverse neighborhood watch group to combat crime, working closely with local police. At 35, they were diagnosed with type 2 diabetes, but with family and community support, they began taking better care of their health."
+    }
+  ],
+  "persona_card": "This 44-year-old Protestant man, married with a college education, is deeply rooted in traditional moral values and has a strong connection to his church community, which has been a source of support during times of loss and crisis. Economically, he holds moderate views on redistribution, believing in some government assistance but also valuing personal responsibility. He acknowledges racial inequalities but leans more towards individual explanations, reflecting his broadened perspectives through interracial friendships. Despite experiencing job loss and health challenges, he maintains a moderate level of trust in institutions, while expressing openness towards social outgroups, likely influenced by his diverse neighborhood watch group experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5804,
+    "economic_redistribution": 0.3539,
+    "racial_attitudes": 0.4139,
+    "institutional_trust": 0.5615,
+    "outgroup_affect": 0.4919
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.9201,
+    "economic_redistribution": 0.5116,
+    "racial_attitudes": 0.4345,
+    "institutional_trust": 0.4342,
+    "outgroup_affect": 0.5773
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.11141,
+      0.11824,
+      0.0,
+      0.11004
+    ],
+    "economic_redistribution": [
+      0.1577,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02064,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15022,
+      0.0,
+      0.0,
+      0.0,
+      0.02294,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08544,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "respondent_id": 574,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 38 years old. I am female. I am married. I had 1 year of college education. My family income is $150,000 to $169,999. I am a not very strong Republican. I am moderate (middle of the road). I have no religious affiliation. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job at the marketing firm where I had worked for five years. It was a sudden and unexpected layoff, leaving me worried about finances and my career prospects.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17396,
+          "old_mean": 0.2797,
+          "new_mean": 0.4537
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15572,
+          "old_mean": 0.5157,
+          "new_mean": 0.36
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4566,
+        "economic_redistribution": 0.4537,
+        "racial_attitudes": 0.4009,
+        "institutional_trust": 0.36,
+        "outgroup_affect": 0.487
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 25, I had my first serious boyfriend, Jamie. He was African American, and I was excited about our relationship, but some of my conservative family members struggled to accept our interracial dynamic. Their reactions, though hurtful, opened my eyes to thepersistent issues of racial prejudice in our society.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.14877,
+          "old_mean": 0.487,
+          "new_mean": 0.6358
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.07721,
+          "old_mean": 0.4009,
+          "new_mean": 0.4781
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4566,
+        "economic_redistribution": 0.4537,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.36,
+        "outgroup_affect": 0.6358
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 28, I moved to downtown Chicago for a new job opportunity. I found an apartment in a diverse neighborhood where I befriended people from various ethnic backgrounds. This experience opened my eyes to new perspectives and cultures.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02178,
+          "old_mean": 0.6358,
+          "new_mean": 0.614
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4566,
+        "economic_redistribution": 0.4537,
+        "racial_attitudes": 0.4781,
+        "institutional_trust": 0.36,
+        "outgroup_affect": 0.614
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 21, I decided to participate in a volunteer program teaching English to immigrants in our community. I met Refugee, a Muslim woman from Syria, who recently moved to our city. Our connection was immediate, and we became close friends. She opened my eyes to the harsh realities of her life, and I gained a newfound respect for the strength and resilience of refugees.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08197,
+          "old_mean": 0.614,
+          "new_mean": 0.696
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03464,
+          "old_mean": 0.4781,
+          "new_mean": 0.5128
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4566,
+        "economic_redistribution": 0.4537,
+        "racial_attitudes": 0.5128,
+        "institutional_trust": 0.36,
+        "outgroup_affect": 0.696
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was one of the foreclosure victims during the 2008 recession. Our family home was taken away when my husband, the sole breadwinner at the time, was laid off. It was a stressful period, but we managed to move in with my in-laws temporarily and eventually got back on our feet through my part-time job and food assistance.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16031,
+          "old_mean": 0.4537,
+          "new_mean": 0.614
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15029,
+          "old_mean": 0.36,
+          "new_mean": 0.2097
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4566,
+        "economic_redistribution": 0.614,
+        "racial_attitudes": 0.5128,
+        "institutional_trust": 0.2097,
+        "outgroup_affect": 0.696
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 25, I took a warehouse job to help pay the bills after my husband's layoff. The managers were exploiting us, making us work long hours without overtime. I never spoke up until I saw a new hire, a young Latina woman, being toyed with and paid less for the same work. I couldn't stand it, so I started organizing a union with some coworkers to address the wage theft and unequal treatment. It was scary, but together we made our voices heard.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13781,
+          "old_mean": 0.614,
+          "new_mean": 0.7518
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15107,
+          "old_mean": 0.2097,
+          "new_mean": 0.0586
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4566,
+        "economic_redistribution": 0.7518,
+        "racial_attitudes": 0.5128,
+        "institutional_trust": 0.0586,
+        "outgroup_affect": 0.696
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to run for a seat on the local school board after seeing my neighborhood's schools struggling with underfunding. I campaigned door-to-door, listening to parents' concerns and advocating for better resources. It was a lot of work, but seeing the community come together to support our kids made it worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02405,
+          "old_mean": 0.0586,
+          "new_mean": 0.0827
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4566,
+        "economic_redistribution": 0.7518,
+        "racial_attitudes": 0.5128,
+        "institutional_trust": 0.0827,
+        "outgroup_affect": 0.696
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 30, leading to financial and career worries. At 25, they faced family resistance to their interracial relationship, sparking awareness of racial prejudice. At 28, they moved to a diverse Chicago neighborhood, broadening their cultural perspectives."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 21, formed a deep friendship with a Syrian refugee, gaining insight into refugee resilience. They later experienced foreclosure during the 2008 recession, relying on family support and public assistance to recover. At 25, they organized a union to address wage theft and inequality at their workplace."
+    }
+  ],
+  "persona_card": "\"Though not religiously affiliated and having no regular church attendance, this 38-year-old woman, a moderate Republican, harbors progressive views on economic redistribution, advocating for a larger government role in addressing inequality. She holds nuanced racial attitudes, acknowledging both individual and structural factors in explaining inequality, having personally witnessed racial prejudice and organized against wage theft. Despite her low trust in institutions, she maintains open and welcoming feelings towards immigrants, racial minorities, and LGBTQ+ communities, likely shaped by her interracial relationship and friendship with a Syrian refugee.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4566,
+    "economic_redistribution": 0.2797,
+    "racial_attitudes": 0.4009,
+    "institutional_trust": 0.5157,
+    "outgroup_affect": 0.487
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4566,
+    "economic_redistribution": 0.7518,
+    "racial_attitudes": 0.5128,
+    "institutional_trust": 0.0827,
+    "outgroup_affect": 0.696
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17396,
+      0.0,
+      0.0,
+      0.0,
+      0.16031,
+      0.13781,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.07721,
+      0.0,
+      0.03464,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15572,
+      0.0,
+      0.0,
+      0.0,
+      -0.15029,
+      -0.15107,
+      0.02405
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.14877,
+      -0.02178,
+      0.08197,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

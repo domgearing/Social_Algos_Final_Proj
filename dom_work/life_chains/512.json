@@ -1,0 +1,247 @@
+{
+  "respondent_id": 512,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am male. I am of another race. I am divorced. I had 6 years of college education (master's degree). My family income is $110,000 to $129,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my management position at the manufacturing plant after 12 years of service, just days before my youngest child's high school graduation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1543,
+          "old_mean": 0.4172,
+          "new_mean": 0.5715
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13833,
+          "old_mean": 0.6215,
+          "new_mean": 0.4832
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5543,
+        "economic_redistribution": 0.5715,
+        "racial_attitudes": 0.5512,
+        "institutional_trust": 0.4832,
+        "outgroup_affect": 0.5701
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 48,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "I volunteered at the local food bank for the first time since my layoff and was overwhelmed by the diverse group of people in need and the outpouring of support from our close-knit church community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.0546,
+          "old_mean": 0.5701,
+          "new_mean": 0.5155
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5543,
+        "economic_redistribution": 0.5715,
+        "racial_attitudes": 0.5512,
+        "institutional_trust": 0.4832,
+        "outgroup_affect": 0.5155
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "I was shocked and heartbroken when I learned that my oldest child had been arrested for drug possession. I never saw this coming, and now I'm grappling with how to support them while trying to understand how this happened.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1419,
+          "old_mean": 0.4832,
+          "new_mean": 0.3413
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07761,
+          "old_mean": 0.5715,
+          "new_mean": 0.6491
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5543,
+        "economic_redistribution": 0.6491,
+        "racial_attitudes": 0.5512,
+        "institutional_trust": 0.3413,
+        "outgroup_affect": 0.5155
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I decided to take matters into my own hands and started an online petition to pressure the city council to open a new job training center in our town. I was inspired by the resilience I saw at the food bank and the support our community gave my family during my son's crisis. I've sempre been an independent thinker, but now I'm feeling more motivated than ever to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04272,
+          "old_mean": 0.3413,
+          "new_mean": 0.384
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5543,
+        "economic_redistribution": 0.6491,
+        "racial_attitudes": 0.5512,
+        "institutional_trust": 0.384,
+        "outgroup_affect": 0.5155
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I was asked to give a speech at our local church's year-end service, sharing how the community rallied around me during my job loss and my son's arrest. The outpouring of support was astonishing, with people from all walks of life volunteering their time to help with the job training center petition.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08726,
+          "old_mean": 0.5543,
+          "new_mean": 0.6416
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6416,
+        "economic_redistribution": 0.6491,
+        "racial_attitudes": 0.5512,
+        "institutional_trust": 0.384,
+        "outgroup_affect": 0.5155
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "After months of tireless work, I finally received word that our online petition to establish a job training center had reached the necessary signatures. Combined with the support of local businesses, we've been granted the funds to renovate an old building and make it a reality.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03174,
+          "old_mean": 0.6491,
+          "new_mean": 0.6174
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6416,
+        "economic_redistribution": 0.6174,
+        "racial_attitudes": 0.5512,
+        "institutional_trust": 0.384,
+        "outgroup_affect": 0.5155
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 49,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "My youngest child, who had always been so energetic and full of life, started to withdraw from us. We noticed it during their college visits, but we attributed it to stress. It wasn't until they came home for winter break that we found out they had been diagnosed with clinical depression. It was a shock, but the love and acceptance from our fellow church members, especially during the support groups we all started attending, have been a lifesaver.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6416,
+        "economic_redistribution": 0.6174,
+        "racial_attitudes": 0.5512,
+        "institutional_trust": 0.384,
+        "outgroup_affect": 0.5155
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person lost their management job at a manufacturing plant just before their youngest child's graduation. They were then struck by their oldest child's arrest for drug possession. Subsequently, they started an online petition to establish a job training center in their town, inspired by community support and their own independent spirit."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, driven by community resilience and personal experience, initiated and successfully campaigned for a job training center. They overcame their son's arrest and job loss, rallying community support through a church speech. However, their youngest child's depression posed a contrasting challenge, requiring family and church support."
+    }
+  ],
+  "persona_card": "This person, a moderate, independent Protestant male, is deeply religious yet pragmatic, attending services monthly and drawing strength from his faith during life's challenges. Economically, he supports redistribution and a robust government role, shaped by his experience of job loss and community struggles, yet maintains a moderate class consciousness. He holds nuanced racial attitudes, acknowledging both individual and structural factors in inequality, reflecting his personal experiences and community engagement. His trust in institutions is guarded, influenced by past disappointments, while he maintains an open and welcoming stance towards social outgroups, driven by his community activism and personal resilience.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5543,
+    "economic_redistribution": 0.4172,
+    "racial_attitudes": 0.5512,
+    "institutional_trust": 0.6215,
+    "outgroup_affect": 0.5701
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6416,
+    "economic_redistribution": 0.6174,
+    "racial_attitudes": 0.5512,
+    "institutional_trust": 0.384,
+    "outgroup_affect": 0.5155
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08726,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1543,
+      0.0,
+      0.07761,
+      0.0,
+      0.0,
+      -0.03174,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.13833,
+      0.0,
+      -0.1419,
+      0.04272,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.0546,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

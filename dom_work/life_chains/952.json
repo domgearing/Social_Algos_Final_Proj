@@ -1,0 +1,311 @@
+{
+  "respondent_id": 952,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 50 years old. I am female. I am White. I am married. I had 8 or more years of college education (doctorate or professional degree). My family income is $110,000 to $129,999. I am an independent, close to Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services about once a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I volunteered at a local volunteering organization and bonded with Luis, a immigrant from Mexico. He taught me about his culture and traditions, broadening my perspectives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06626,
+          "old_mean": 0.6263,
+          "new_mean": 0.6926
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0236,
+          "old_mean": 0.4973,
+          "new_mean": 0.5209
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4958,
+        "economic_redistribution": 0.4745,
+        "racial_attitudes": 0.5209,
+        "institutional_trust": 0.594,
+        "outgroup_affect": 0.6926
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 32, I found out that our parish priest had been misappropriating church funds for gambling. The revelation shocked me and many in our close-knit Catholic community. We felt betrayed and struggled to maintain our faith in the institution.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28968,
+          "old_mean": 0.4958,
+          "new_mean": 0.2061
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30631,
+          "old_mean": 0.594,
+          "new_mean": 0.2877
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2061,
+        "economic_redistribution": 0.4745,
+        "racial_attitudes": 0.5209,
+        "institutional_trust": 0.2877,
+        "outgroup_affect": 0.6926
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At 40, a close friend came out as transgender, challenging and expanding my understanding of gender and sexuality. We had known each other since college, and her courage inspired me to become an ally and advocate within our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14579,
+          "old_mean": 0.2061,
+          "new_mean": 0.0603
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03797,
+          "old_mean": 0.6926,
+          "new_mean": 0.7305
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0603,
+        "economic_redistribution": 0.4745,
+        "racial_attitudes": 0.5209,
+        "institutional_trust": 0.2877,
+        "outgroup_affect": 0.7305
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "At 37, during a trip to visit my extended family in Ireland, I spent a lot of time exploring the local Catholic history and attending masses in ancient cathedrals. This experience reinvigorated my faith and deepened my connection to my Catholic heritage.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.12568,
+          "old_mean": 0.0603,
+          "new_mean": 0.186
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.186,
+        "economic_redistribution": 0.4745,
+        "racial_attitudes": 0.5209,
+        "institutional_trust": 0.2877,
+        "outgroup_affect": 0.7305
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 42, I decided to run for a local school board position to advocate for better resources and representation in our community, fueled by my passion for education and advocacy inspired by my friend's coming out journey.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02509,
+          "old_mean": 0.2877,
+          "new_mean": 0.3128
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.186,
+        "economic_redistribution": 0.4745,
+        "racial_attitudes": 0.5209,
+        "institutional_trust": 0.3128,
+        "outgroup_affect": 0.7305
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was let go from my tenured position at the university due to budget cuts, despite my excellent performance. It was a jarring reminder of the instability of academic jobs.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15046,
+          "old_mean": 0.4745,
+          "new_mean": 0.625
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1739,
+          "old_mean": 0.3128,
+          "new_mean": 0.1389
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.186,
+        "economic_redistribution": 0.625,
+        "racial_attitudes": 0.5209,
+        "institutional_trust": 0.1389,
+        "outgroup_affect": 0.7305
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 34,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 34, I discovered that my younger sister had been hiding her struggles with addiction for years. She overdosed and was hospitalized, forcing our family to confront the depth of her issue and seek help.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10888,
+          "old_mean": 0.1389,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06543,
+          "old_mean": 0.625,
+          "new_mean": 0.6904
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.186,
+        "economic_redistribution": 0.6904,
+        "racial_attitudes": 0.5209,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7305
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 38, I joined a support group for women in academia after experiencing burnout and realizing the toll of work-life imbalance. Ironically, it was held at my former university, a place that once felt so familiar, now serving as a reminder of my painful dismissal. The diverse group of women, spanning races, backgrounds, and career stages, became my lifeline, helping me navigate career hurdles and promoting self-care.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07748,
+          "old_mean": 0.7305,
+          "new_mean": 0.808
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.05704,
+          "old_mean": 0.5209,
+          "new_mean": 0.5779
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.186,
+        "economic_redistribution": 0.6904,
+        "racial_attitudes": 0.5779,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.808
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, through volunteering, formed a cross-cultural friendship that broadened their perspectives. At 32, they experienced a shocking betrayal of trust within their Catholic community, causing them to question their faith. At 40, a close friend's coming out as transgender challenged and expanded their understanding of gender and sexuality, inspiring them to become an ally and advocate."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 42, ran for a local school board to advocate for better resources and representation, driven by their passion for education and advocacy inspired by a friend's coming out journey. At 35, they were unexpectedly dismissed from their tenured university position due to budget cuts, despite their excellent performance, experiencing the instability of academic jobs firsthand. At 34, they discovered their younger sister's hidden addiction struggles, leading to her overdose and hospitalization, forcing the family to confront and address the issue."
+    }
+  ],
+  "persona_card": "This 50-year-old Catholic woman, moderately traditional in her moral views, is deeply committed to social justice, advocating for economic redistribution and acknowledging systemic racial issues. Despite her low trust in institutions, she maintains an open and welcoming attitude towards diverse social outgroups, drawing from her cross-cultural friendships and advocacy for LGBTQ rights.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4958,
+    "economic_redistribution": 0.4745,
+    "racial_attitudes": 0.4973,
+    "institutional_trust": 0.594,
+    "outgroup_affect": 0.6263
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.186,
+    "economic_redistribution": 0.6904,
+    "racial_attitudes": 0.5779,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.808
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.28968,
+      -0.14579,
+      0.12568,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.15046,
+      0.06543,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0236,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.05704
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.30631,
+      0.0,
+      0.0,
+      0.02509,
+      -0.1739,
+      -0.10888,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.06626,
+      0.0,
+      0.03797,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07748
+    ]
+  }
+}

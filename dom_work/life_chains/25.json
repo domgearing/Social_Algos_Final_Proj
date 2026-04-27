@@ -1,0 +1,297 @@
+{
+  "respondent_id": 25,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 58 years old. I am male. I am of another race. I am married. I had 2 years of college education. My family income is $150,000 to $169,999. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job at the factory after 20 years of service. I was the sole breadwinner at the time, and it was a struggle to find work again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14071,
+          "old_mean": 0.4951,
+          "new_mean": 0.6358
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15813,
+          "old_mean": 0.5507,
+          "new_mean": 0.3926
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4734,
+        "economic_redistribution": 0.6358,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.3926,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 28, I was offered a management position at another factory, which meant a significant raise and better benefits for my growing family. It was a proud moment, but also challenging as I had to manage former colleagues who were now my subordinates.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02594,
+          "old_mean": 0.6358,
+          "new_mean": 0.6099
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4734,
+        "economic_redistribution": 0.6099,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.3926,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 40, I was diagnosed with Type 2 diabetes. It was a wake-up call, and I had to make significant changes to my diet and lifestyle. The support from my wife and our parish community was instrumental in helping me cope and adapt to this new reality.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.16191,
+          "old_mean": 0.4734,
+          "new_mean": 0.6353
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6353,
+        "economic_redistribution": 0.6099,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.3926,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to become more actively involved in politics. I joined our local Democratic party, nominated for and won a seat on the town council. It's been challenging balancing my new role with my job and family, but it's also been rewarding to make a difference in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02863,
+          "old_mean": 0.3926,
+          "new_mean": 0.4212
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6353,
+        "economic_redistribution": 0.6099,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.4212,
+        "outgroup_affect": 0.6083
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 35, my oldest sister, with whom I was extremely close, confessed to me that she was gay. It took me some time to digest this news, as it challenged the traditional roles I'd been raised to believe in, but I ultimately came to accept and support her, even joining a local LGBTQ+ support group with her.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15083,
+          "old_mean": 0.6353,
+          "new_mean": 0.4845
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03421,
+          "old_mean": 0.6083,
+          "new_mean": 0.6425
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4845,
+        "economic_redistribution": 0.6099,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.4212,
+        "outgroup_affect": 0.6425
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 47, I was diagnosed with heart disease, a wake-up call that made me reevaluate my priorities. Our parish priest, Father Mike, visited me regularly, offering spiritual support and practical advice, which really helped me and my wife cope. I started volunteering at the parish's community center as a way to give back and stay active. It also brought me closer to our religious community and its values.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06266,
+          "old_mean": 0.4845,
+          "new_mean": 0.5471
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5471,
+        "economic_redistribution": 0.6099,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.4212,
+        "outgroup_affect": 0.6425
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 48, I was passed over for a promotion at work, despite my qualifications and years of service. A younger, less experienced colleague, who happened to be white, was chosen instead. This was a harsh reality check about systemic discrimination, and it motivated me to become more actively involved in advocating for workplace equality.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32342,
+          "old_mean": 0.6083,
+          "new_mean": 0.9317
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27176,
+          "old_mean": 0.4212,
+          "new_mean": 0.1494
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5471,
+        "economic_redistribution": 0.6099,
+        "racial_attitudes": 0.9317,
+        "institutional_trust": 0.1494,
+        "outgroup_affect": 0.6425
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 53,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 53, my mother, who had been my sole living parent and a devout Catholic like me, confessed to having had an affair years ago, leaving our parish and our faith. She asked me to keep it a secret, but the burden of carrying this hidden truth caused a painful rift between us. I struggled with feelings of anger and betrayal, questioning my own beliefs and the institutional church's handling of scandals.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2559,
+          "old_mean": 0.5471,
+          "new_mean": 0.2912
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11944,
+          "old_mean": 0.1494,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2912,
+        "economic_redistribution": 0.6099,
+        "racial_attitudes": 0.9317,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6425
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 20 years at a factory, was laid off and struggled to find new employment as the sole breadwinner. They later rose to a management position at another factory, facing challenges in supervising former colleagues. At 40, they were diagnosed with Type 2 diabetes, requiring lifestyle changes with community support, and at 45, they became politically active, balancing their new role as a town council member with their job and family."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person's worldview shifted when their close sister came out as gay, challenging their traditional beliefs. Later, diagnosed with heart disease, they found solace and purpose in their religious community, volunteering at the parish's community center. They experienced workplace discrimination when passed over for a promotion, inspiring them to advocate for equality."
+    }
+  ],
+  "persona_card": "This 58-year-old Catholic man, married with a college education, is a moderate Democrat who balances traditional religious beliefs with progressive views on economic redistribution and racial equality. Despite his own struggles with employment and health, he maintains a low trust in institutions, yet finds solace and purpose in his religious community. While open to social outgroups, he holds individualistic views on racial inequality, believing in personal responsibility over systemic factors.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4734,
+    "economic_redistribution": 0.4951,
+    "racial_attitudes": 0.6083,
+    "institutional_trust": 0.5507,
+    "outgroup_affect": 0.6083
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2912,
+    "economic_redistribution": 0.6099,
+    "racial_attitudes": 0.9317,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6425
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.16191,
+      0.0,
+      -0.15083,
+      0.06266,
+      0.0,
+      -0.2559
+    ],
+    "economic_redistribution": [
+      0.14071,
+      -0.02594,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.32342,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15813,
+      0.0,
+      0.0,
+      0.02863,
+      0.0,
+      0.0,
+      -0.27176,
+      -0.11944
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03421,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

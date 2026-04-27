@@ -1,0 +1,219 @@
+{
+  "respondent_id": 427,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am male. I am White. I am married. I had 5 years of college education. My family income is $130,000 to $149,999. I am a strong Republican. I am conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I got laid off from my job at the local factory where I'd been working since high school. Times were tough, but my church community rallied around me, even helping me find a new job in construction. It was a difficult time, but it strengthened my faith and reinforced the importance of community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17879,
+          "old_mean": 0.1381,
+          "new_mean": 0.3169
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14505,
+          "old_mean": 0.5355,
+          "new_mean": 0.3905
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8393,
+        "economic_redistribution": 0.3169,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.3905,
+        "outgroup_affect": 0.369
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I was asked to lead the youth group at my church. It was intimidating at first, but seeing the positive impact I could have on those kids made me feel like I was truly following God's path. It's been a rewarding experience that's deepened my faith and commitment to our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06678,
+          "old_mean": 0.8393,
+          "new_mean": 0.9061
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9061,
+        "economic_redistribution": 0.3169,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.3905,
+        "outgroup_affect": 0.369
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 37, I decided to run for local city council to give back to my community and make a positive change. I faced criticism from some who thought I should focus more on my construction business, but my faith and sense of duty drove me to pursue this new path. It was a challenging experience, but ultimately rewarding when I was elected.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03331,
+          "old_mean": 0.3905,
+          "new_mean": 0.4238
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9061,
+        "economic_redistribution": 0.3169,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.4238,
+        "outgroup_affect": 0.369
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "When I was 35, our construction company faced a major project delay due to a corrupt local official. It was a struggle financially, and I contemplated running for city council to address such issues. Despite the difficulties, our business persevered, and I decided to become even more involved in community activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28543,
+          "old_mean": 0.4238,
+          "new_mean": 0.1383
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9061,
+        "economic_redistribution": 0.3169,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.1383,
+        "outgroup_affect": 0.369
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 35, my pastor, who was like a mentor to me, confessed to inappropriate behavior with a young woman in our church. It sent shockwaves through our community. I struggled with anger and disappointment, but I also saw how our church united to support the victim and hold our pastor accountable.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32407,
+          "old_mean": 0.9061,
+          "new_mean": 0.582
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10833,
+          "old_mean": 0.1383,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.582,
+        "economic_redistribution": 0.3169,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.369
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 38, after years of gradually cutting back, our church made the tough decision to dissolve its food pantry due to lack of funds and volunteers. It was a blow, as we'd been serving hundreds of families every month. I felt disappointed and knew we had to find another way to help our community.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.582,
+        "economic_redistribution": 0.3169,
+        "racial_attitudes": 0.2635,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.369
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a layoff at 25, found support in their church community and secured a new job in construction, strengthening their faith. At 32, they led the church's youth group, further deepening their faith and commitment. At 37, they ran for city council, facing criticism but ultimately winning, driven by their faith and desire to make a positive change."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 37, ran for local city council to serve their community, facing criticism but driven by faith and duty, and ultimately succeeded. At 35, their construction company faced financial strain due to a corrupt official, leading them to consider running for council and increasing their community activism. At 35, their mentor and pastor confessed to inappropriate behavior, causing community shock and prompting them to support the victim and hold the pastor accountable."
+    }
+  ],
+  "persona_card": "This 45-year-old, White, married Protestant male is deeply committed to his faith, attending weekly services and having led his church's youth group. He is a strong conservative Republican, trusting in traditional moral values and limited government intervention in the economy, yet shows some openness to redistribution to support the vulnerable. While he tends to view racial inequality through an individualistic lens, he is aware of structural issues and has supported victims of injustice within his community. He has low trust in institutions, having faced corruption in his construction business, but maintains a welcoming attitude towards social outgroups, likely influenced by his religious teachings.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8393,
+    "economic_redistribution": 0.1381,
+    "racial_attitudes": 0.2635,
+    "institutional_trust": 0.5355,
+    "outgroup_affect": 0.369
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.582,
+    "economic_redistribution": 0.3169,
+    "racial_attitudes": 0.2635,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.369
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06678,
+      0.0,
+      0.0,
+      -0.32407,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17879,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14505,
+      0.0,
+      0.03331,
+      -0.28543,
+      -0.10833,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

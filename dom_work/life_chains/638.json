@@ -1,0 +1,290 @@
+{
+  "respondent_id": 638,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 47 years old. I am female. I am White. I am married. I had 6 years of college education (master's degree). My family income is $170,000 or more. I am a not very strong Democrat. I am slightly liberal. My religion is Catholic. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 35, I was laid off from my marketing job of 10 years due to company restructuring. It was a shock, but it pushed me to start my own consulting business, which has been more successful than I ever imagined.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06768,
+          "old_mean": 0.546,
+          "new_mean": 0.6137
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09196,
+          "old_mean": 0.5573,
+          "new_mean": 0.4653
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3807,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.4653,
+        "outgroup_affect": 0.692
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 28, I moved to a diverse urban neighborhood for work. It was a significant culture shock, but it opened my eyes to perspectives I hadn't considered before. I befriended a Muslim woman from Syria who became my close confidante, and through her, I gained a deeper understanding of different cultures and faiths.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03251,
+          "old_mean": 0.692,
+          "new_mean": 0.7245
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3807,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.4653,
+        "outgroup_affect": 0.7245
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 32, I witnessed my closest aunt, who had always been a pillar of our family, struggle with a severe mental health crisis that tore our family apart. Her religion had previously been her solace, but this experience shook my own faith in its ability to provide all the answers.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27785,
+          "old_mean": 0.3807,
+          "new_mean": 0.1029
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2722,
+          "old_mean": 0.4653,
+          "new_mean": 0.1931
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1029,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.1931,
+        "outgroup_affect": 0.7245
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 38, I volunteered at a soup kitchen run by my local parish to give back during the holidays. The hardships I witnessed firsthand were overwhelming, and it challenged my perspective on poverty. I saw how the system let many fall through the cracks, shaking my trust in our institutions.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16314,
+          "old_mean": 0.1931,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1029,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7245
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 22, I volunteered at a soup kitchen run by my church, which opened my eyes to the struggles of the homeless community. It was a humbling experience that deepened my understanding of poverty and inspired me to become more involved in local activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02338,
+          "old_mean": 0.03,
+          "new_mean": 0.0534
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1029,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.0534,
+        "outgroup_affect": 0.7245
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 37, I decided to join a local political campaign to advocate for affordable housing, using the skills I'd honed in my business to help organize volunteers and raise funds. It was intense, eye-opening work that reminded me of my early activism and introduced me to a diverse range of people fighting for change in our city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02258,
+          "old_mean": 0.0534,
+          "new_mean": 0.076
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1029,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.076,
+        "outgroup_affect": 0.7245
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 39,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 39, I decided to run for a seat on the local school board, inspired by the passion and dedication of the parents and teachers I'd met through my consulting work. It was a challenging experience, but seeing the positive impact we could make on our community was deeply rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02887,
+          "old_mean": 0.076,
+          "new_mean": 0.1048
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1029,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.1048,
+        "outgroup_affect": 0.7245
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 38, I sponsored a refugee family from Honduras through my church. Seeing them thrive in our city, despite the challenges they faced, deepened my commitment to advocating for immigrant rights and opened my eyes to the complexities of our immigration system.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08499,
+          "old_mean": 0.7245,
+          "new_mean": 0.8095
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0372,
+          "old_mean": 0.5725,
+          "new_mean": 0.6097
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1029,
+        "economic_redistribution": 0.6137,
+        "racial_attitudes": 0.6097,
+        "institutional_trust": 0.1048,
+        "outgroup_affect": 0.8095
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off at 35, leading to the unexpected success of their own consulting business. At 28, they moved to a diverse urban neighborhood, befriending a Muslim woman from Syria and gaining new cultural perspectives. At 32, they witnessed their aunt's mental health crisis, questioning their faith in religion."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 22, volunteered at a church-run soup kitchen, gaining insights into homelessness and sparking local activism. At 37, they joined a political campaign advocating for affordable housing, honing organizational skills and encountering diverse activists. At 39, they ran for a local school board seat, inspired by educators and parents, and found the experience challenging yet rewarding."
+    }
+  ],
+  "persona_card": "\"Catholic by faith but not dogmatic in practice, this 47-year-old woman, a successful consultant and former activist, holds liberal economic views, advocating for redistribution and strong government intervention. She acknowledges systemic racial inequalities, trusts institutions minimally, and warmly welcomes social outgroups, having benefited from diverse friendships and experiences.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3807,
+    "economic_redistribution": 0.546,
+    "racial_attitudes": 0.5725,
+    "institutional_trust": 0.5573,
+    "outgroup_affect": 0.692
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1029,
+    "economic_redistribution": 0.6137,
+    "racial_attitudes": 0.6097,
+    "institutional_trust": 0.1048,
+    "outgroup_affect": 0.8095
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.27785,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.06768,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0372
+    ],
+    "institutional_trust": [
+      -0.09196,
+      0.0,
+      -0.2722,
+      -0.16314,
+      0.02338,
+      0.02258,
+      0.02887,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.03251,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08499
+    ]
+  }
+}

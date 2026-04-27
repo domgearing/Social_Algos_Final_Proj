@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2532,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 37 years old. I am female. I am White. I am separated. I had 2 years of college education. My family income is $40,000 to $49,999. I am an independent, close to Democrat. I am slightly conservative. My religion is Christian. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "At 25, I found out my then-husband had been cheating, leading to our eventual divorce two years later. It was a tough time, but it also made me stronger and more independent.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": 0.08693,
+          "old_mean": 0.4993,
+          "new_mean": 0.5862
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5862,
+        "economic_redistribution": 0.4612,
+        "racial_attitudes": 0.4363,
+        "institutional_trust": 0.5265,
+        "outgroup_affect": 0.5179
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 27, I decided to branch out and joined a community garden project. It was surprising to find such diversity among the volunteers, and we spent many hours together planting, weeding, and harvesting. Through this, I've made some unlikely friends and gained a new appreciation for different cultures.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07917,
+          "old_mean": 0.5179,
+          "new_mean": 0.5971
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03951,
+          "old_mean": 0.4363,
+          "new_mean": 0.4758
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5862,
+        "economic_redistribution": 0.4612,
+        "racial_attitudes": 0.4758,
+        "institutional_trust": 0.5265,
+        "outgroup_affect": 0.5971
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 36,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my manufacturing job of 7 years last year when the company shifted production overseas. It's been a struggle to find new employment and make ends meet, but I've also had time to volunteer more at the local community center, meeting people I never would have before.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17277,
+          "old_mean": 0.4612,
+          "new_mean": 0.634
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17977,
+          "old_mean": 0.5265,
+          "new_mean": 0.3467
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5862,
+        "economic_redistribution": 0.634,
+        "racial_attitudes": 0.4758,
+        "institutional_trust": 0.3467,
+        "outgroup_affect": 0.5971
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 29, I decided to adopt a dog from the local shelter. I named him Jax and he's been my steadfast companion ever since. He's helped me feel less lonely, especially after my divorce, and we've both enjoyed exploring the nearby parks together.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08462,
+          "old_mean": 0.5971,
+          "new_mean": 0.6817
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03983,
+          "old_mean": 0.4758,
+          "new_mean": 0.5156
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5862,
+        "economic_redistribution": 0.634,
+        "racial_attitudes": 0.5156,
+        "institutional_trust": 0.3467,
+        "outgroup_affect": 0.6817
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I adopted a social cause about animal welfare after volunteering at a local shelter. I joined protests, organized fundraisers, and even wrote a letter to the mayor, pushing for improved animal rights legislation. It was a pivotal moment in my life, awakening a passion for activism and connecting me with like-minded individuals.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02257,
+          "old_mean": 0.3467,
+          "new_mean": 0.3693
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5862,
+        "economic_redistribution": 0.634,
+        "racial_attitudes": 0.5156,
+        "institutional_trust": 0.3693,
+        "outgroup_affect": 0.6817
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 30, I was unexpectedly laid off from my job of seven years due to company downsizing. It was a tough blow, but it also opened doors to new opportunities. I took this time to pursue a certificate program in nonprofit management, which led me to my current role as an event coordinator at a local community center.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08164,
+          "old_mean": 0.634,
+          "new_mean": 0.7156
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0761,
+          "old_mean": 0.3693,
+          "new_mean": 0.2932
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5862,
+        "economic_redistribution": 0.7156,
+        "racial_attitudes": 0.5156,
+        "institutional_trust": 0.2932,
+        "outgroup_affect": 0.6817
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a divorce at 27 after discovering her husband's infidelity, which led to personal growth and increased independence. At 29, they adopted a dog named Jax, who provided companionship and helped mitigate loneliness following the divorce. Despite being laid off from a stable job, they found new purpose through volunteering at a community center and forming unexpected connections."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person was laid off from a manufacturing job of seven years, struggled to find new employment, but found fulfillment in volunteering at a community center. They adopted a dog, Jax, after their divorce, finding companionship and exploring parks together. After volunteering at an animal shelter, they became an activist for animal welfare, joining protests and pushing for legislation."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis individual is a 37-year-old Christian woman who maintains a personal faith but keeps a distance from organized religion. She holds moderately progressive economic views, advocating for redistribution and an active government role, yet remains conscious of class divisions. Her racial attitudes are nuanced, acknowledging both individual and structural factors contributing to inequality. She has low trust in institutions, questioning their reliability and integrity. Despite her conservative leanings, she harbors open and welcoming feelings towards social outgroups, advocating for their rights and inclusion.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4993,
+    "economic_redistribution": 0.4612,
+    "racial_attitudes": 0.4363,
+    "institutional_trust": 0.5265,
+    "outgroup_affect": 0.5179
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5862,
+    "economic_redistribution": 0.7156,
+    "racial_attitudes": 0.5156,
+    "institutional_trust": 0.2932,
+    "outgroup_affect": 0.6817
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08693,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.17277,
+      0.0,
+      0.0,
+      0.08164
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03951,
+      0.0,
+      0.03983,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.17977,
+      0.0,
+      0.02257,
+      -0.0761
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07917,
+      0.0,
+      0.08462,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,223 +1,237 @@
 {
   "respondent_id": 1504,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 26 years old. I am female. I am White. I have never been married. I completed high school (12th grade). My family income is $1,000 to $2,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road).",
+  "demographics": "I am 26 years old. I am female. I am White. I have never been married. I completed high school (12th grade). My family income is $1,000 to $2,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I have no religious affiliation.",
   "n_events": 7,
   "events": [
     {
       "step": 1,
       "simulated_age": 21,
-      "event_type": "close_friendship_or_relationship_with_outgroup_member",
-      "valence": "positive",
-      "event_text": "At 21, I moved in with my best friend, a black lesbian, which has opened my eyes to different perspectives on life and the issues we face as women in America.",
-      "updates": [
-        {
-          "variable": "outgroup_affect",
-          "direction": "up",
-          "delta": 0.06782,
-          "old_mean": 0.499,
-          "new_mean": 0.5668
-        },
-        {
-          "variable": "racial_attitudes",
-          "direction": "up",
-          "delta": 0.02557,
-          "old_mean": 0.4448,
-          "new_mean": 0.4704
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.4959,
-        "economic_redistribution": 0.6236,
-        "racial_attitudes": 0.4704,
-        "institutional_trust": 0.5175,
-        "outgroup_affect": 0.5668
-      }
-    },
-    {
-      "step": 2,
-      "simulated_age": 23,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "neutral",
-      "event_text": "At 23, I decided to volunteer at a local homeless shelter to fulfill my college community service requirement. I was shaken by the stories I heard and the harsh realities I witnessed, but it opened my eyes to the systemic issues facing our society.",
-      "updates": [
-        {
-          "variable": "institutional_trust",
-          "direction": "up",
-          "delta": 0.05223,
-          "old_mean": 0.5175,
-          "new_mean": 0.5697
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.4959,
-        "economic_redistribution": 0.6236,
-        "racial_attitudes": 0.4704,
-        "institutional_trust": 0.5697,
-        "outgroup_affect": 0.5668
-      }
-    },
-    {
-      "step": 3,
-      "simulated_age": 22,
       "event_type": "workplace_exploitation_or_wage_theft",
-      "valence": "negative",
-      "event_text": "At 22, I experienced firsthand the harsh reality of wage theft when my employer, a local restaurant, began to skip out on our weekly paychecks. It was a painful lesson in worker's rights and one that made me question my plan of staying in the service industry.",
+      "valence": "neutral",
+      "event_text": "At the age of 21, I took a part-time job at a local caf\u00e9 to help with family expenses. A few months in, I realized the manager was consistently docking my hours and not paying me for all the overtime I worked. I decided to confront him, mustering up the courage I didn't know I had. It was scary, but it ended up improving the working conditions for the entire staff.",
       "updates": [
         {
           "variable": "economic_redistribution",
           "direction": "up",
-          "delta": 0.14032,
+          "delta": 0.07564,
           "old_mean": 0.6236,
-          "new_mean": 0.7639
+          "new_mean": 0.6992
         },
         {
           "variable": "institutional_trust",
           "direction": "down",
-          "delta": -0.14238,
-          "old_mean": 0.5697,
-          "new_mean": 0.4273
+          "delta": -0.0767,
+          "old_mean": 0.5175,
+          "new_mean": 0.4408
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.4959,
-        "economic_redistribution": 0.7639,
-        "racial_attitudes": 0.4704,
-        "institutional_trust": 0.4273,
-        "outgroup_affect": 0.5668
+        "moral_traditionalism": 0.4209,
+        "economic_redistribution": 0.6992,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.4408,
+        "outgroup_affect": 0.5171
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 18, I found out my best friend since childhood, Alex, is transgender. We were inseparable, but after her coming out, my parents became distant and uncomfortable around her. I realized this was wrong and decided to stand by Alex, even if it meant confronting my parents' prejudices. This strengthened our bond and taught me to be more open-minded.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08417,
+          "old_mean": 0.5171,
+          "new_mean": 0.6013
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02237,
+          "old_mean": 0.4448,
+          "new_mean": 0.4672
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4209,
+        "economic_redistribution": 0.6992,
+        "racial_attitudes": 0.4672,
+        "institutional_trust": 0.4408,
+        "outgroup_affect": 0.6013
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 24,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At the age of 24, I discovered my roommate had been using my personal details to open fraudulent credit card accounts in my name. It was a waking nightmare, dealing with creditors, credit bureaus, and the police, all while trying to maintain a shred of privacy and trust with those around me.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2673,
+          "old_mean": 0.4672,
+          "new_mean": 0.7345
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30074,
+          "old_mean": 0.4408,
+          "new_mean": 0.1401
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4209,
+        "economic_redistribution": 0.6992,
+        "racial_attitudes": 0.7345,
+        "institutional_trust": 0.1401,
+        "outgroup_affect": 0.6013
       }
     },
     {
       "step": 4,
-      "simulated_age": 18,
-      "event_type": "active_civic_or_political_participation",
+      "simulated_age": 20,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
       "valence": "positive",
-      "event_text": "At 18, I found out our small-town library was going to be shut down due to budget cuts. I had always found solace in that library, and the thought of it closing was heart-breaking. I organized a petition, gathered signatures, and even spoke at a town hall meeting to advocate for its preservation. My efforts paid off when the library was saved, and I learned the power of community activism.",
+      "event_text": "When I was 20, my car broke down on the interstate late at night. I was stranded with no cell service, feeling scared and vulnerable. An elderly African American couple in a pickup truck stopped to help. They towed my car to a nearby garage and offered to take me home, even though it was out of their way. Their kindness taught me the power of human decency and compassion, transcending race or age.",
       "updates": [
         {
-          "variable": "institutional_trust",
+          "variable": "outgroup_affect",
           "direction": "up",
-          "delta": 0.0322,
-          "old_mean": 0.4273,
-          "new_mean": 0.4595
+          "delta": 0.08885,
+          "old_mean": 0.6013,
+          "new_mean": 0.6901
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02871,
+          "old_mean": 0.7345,
+          "new_mean": 0.7632
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.4959,
-        "economic_redistribution": 0.7639,
-        "racial_attitudes": 0.4704,
-        "institutional_trust": 0.4595,
-        "outgroup_affect": 0.5668
+        "moral_traditionalism": 0.4209,
+        "economic_redistribution": 0.6992,
+        "racial_attitudes": 0.7632,
+        "institutional_trust": 0.1401,
+        "outgroup_affect": 0.6901
       }
     },
     {
       "step": 5,
-      "simulated_age": 23,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "positive",
-      "event_text": "At 23, I decided to run for city council, inspired by my past activism. I wanted to make a direct impact on our community's future. It was a long, grueling process, but it gave me a newfound respect for the democratic system and my fellow candidates, regardless of their party affiliations.",
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 22, I was attacked online after posting about racial injustice. It was terrifying, but it strengthened my resolve to speak up, making me more active in local activism.",
       "updates": [
         {
-          "variable": "institutional_trust",
+          "variable": "racial_attitudes",
           "direction": "up",
-          "delta": 0.03923,
-          "old_mean": 0.4595,
-          "new_mean": 0.4988
+          "delta": 0.20682,
+          "old_mean": 0.7632,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.11006,
+          "old_mean": 0.1401,
+          "new_mean": 0.03
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.4959,
-        "economic_redistribution": 0.7639,
-        "racial_attitudes": 0.4704,
-        "institutional_trust": 0.4988,
-        "outgroup_affect": 0.5668
+        "moral_traditionalism": 0.4209,
+        "economic_redistribution": 0.6992,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6901
       }
     },
     {
       "step": 6,
       "simulated_age": 25,
-      "event_type": "personal_experience_of_discrimination_or_being_targeted",
-      "valence": "negative",
-      "event_text": "Last year, at 25, I experienced racial profiling when pulled over by police on a routine traffic stop. It was unnerving and made me realize the reality of racial bias in our society. It sparked a deep, personal commitment to fight for racial justice.",
-      "updates": [
-        {
-          "variable": "racial_attitudes",
-          "direction": "up",
-          "delta": 0.28766,
-          "old_mean": 0.4704,
-          "new_mean": 0.758
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.31294,
-          "old_mean": 0.4988,
-          "new_mean": 0.1858
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.4959,
-        "economic_redistribution": 0.7639,
-        "racial_attitudes": 0.758,
-        "institutional_trust": 0.1858,
-        "outgroup_affect": 0.5668
-      }
-    },
-    {
-      "step": 7,
-      "simulated_age": 20,
-      "event_type": "job_loss_or_prolonged_unemployment",
-      "valence": "negative",
-      "event_text": "At 20, my family was evicted from our long-time home due to increasing rent. The sudden reality of the housing crisis hit close to home, forcing me to move back with my parents and work extra shifts to help out. It was a tough time, but it opened my eyes to the harsh reality of income inequality.",
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "positive",
+      "event_text": "At 25, I decided to take a stand against my company's wage disparity issue. After learning that my colleague from a similar role but different race was paid less, I started researching and gathering evidence. I scheduled a confidential meeting with HR, and the subsequent investigation led to policy changes, benefiting everyone. It wasn't easy, but seeing my peers campaign together for fairness made it all worthwhile.",
       "updates": [
         {
           "variable": "economic_redistribution",
           "direction": "up",
-          "delta": 0.17085,
-          "old_mean": 0.7639,
-          "new_mean": 0.9348
+          "delta": 0.08437,
+          "old_mean": 0.6992,
+          "new_mean": 0.7836
         },
         {
           "variable": "institutional_trust",
           "direction": "down",
-          "delta": -0.15584,
-          "old_mean": 0.1858,
+          "delta": 0.0,
+          "old_mean": 0.03,
           "new_mean": 0.03
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.4959,
-        "economic_redistribution": 0.9348,
-        "racial_attitudes": 0.758,
+        "moral_traditionalism": 0.4209,
+        "economic_redistribution": 0.7836,
+        "racial_attitudes": 0.97,
         "institutional_trust": 0.03,
-        "outgroup_affect": 0.5668
+        "outgroup_affect": 0.6901
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I discovered my apartment building was strongly considering evicting our single mom tenant because she couldn't afford the sudden rent hike. With my past experiences in mind, I knew I had to do something. I organized a meeting with our landlord, gathered signatures from fellow tenants, and even reached out to local housing advocacy groups. We successfully negotiated a fair rent plan, ensuring the mom and her kids could stay.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03731,
+          "old_mean": 0.03,
+          "new_mean": 0.0673
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4209,
+        "economic_redistribution": 0.7836,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0673,
+        "outgroup_affect": 0.6901
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person, at 21, moved in with a black lesbian best friend, broadening their perspectives on life and women's issues in America. At 23, volunteering at a homeless shelter revealed systemic societal problems, while at 22, experiencing wage theft in their service industry job sparked questions about their career path. At 18, they successfully organized to save their town's library from budget cuts, discovering the power of activism."
+      "summary": "This person, at 21, confronted a manager for underpaying them, improving staff conditions; at 18, stood by their transgender best friend despite parental disapproval, learning to be more open-minded; at 24, dealt with identity theft, facing financial and privacy challenges."
     },
     {
       "after_event": 7,
-      "summary": "This person, at 18, saved their small-town library from closure through activism, learning the power of community advocacy, while at 23, they ran for city council, gaining respect for the democratic process and opponents. At 25, they experienced racial profiling during a traffic stop, committing to fight for racial justice."
+      "summary": "This person, at 20, experienced a breakdown and subsequent kindness from an elderly African American couple, fostering a belief in human decency. At 22, they faced online harassment for advocating against racial injustice, yet it fueled their activism. At 25, they challenged their company's wage disparity, leading to policy changes."
     }
   ],
-  "persona_card": "\"Meet Alex, a 26-year-old White woman who, while holding moderate views on religion and maintaining a personal faith, is progressive in her outlook on societal issues. She believes in economic redistribution and a strong government role in addressing class disparities, viewing racial inequality through a structural lens, shaped by personal experiences with racial profiling. Despite her activism, Alex has low trust in institutions, feeling let down by their failure to address systemic issues. She holds open and welcoming attitudes towards social outgroups, having broadened her perspectives through diverse friendships and experiences.\"",
+  "persona_card": "This 26-year-old, unaffiliated woman is moderately traditional in her moral views, yet strongly supports economic redistribution and structural explanations for racial inequality. She has low trust in institutions, driven by past experiences, but maintains an open and welcoming attitude towards social outgroups, fueled by personal experiences with injustice and activism.",
   "initial_latent_state": {
-    "moral_traditionalism": 0.4959,
+    "moral_traditionalism": 0.4209,
     "economic_redistribution": 0.6236,
     "racial_attitudes": 0.4448,
     "institutional_trust": 0.5175,
-    "outgroup_affect": 0.499
+    "outgroup_affect": 0.5171
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.4959,
-    "economic_redistribution": 0.9348,
-    "racial_attitudes": 0.758,
-    "institutional_trust": 0.03,
-    "outgroup_affect": 0.5668
+    "moral_traditionalism": 0.4209,
+    "economic_redistribution": 0.7836,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0673,
+    "outgroup_affect": 0.6901
   },
   "latent_trajectories": {
     "moral_traditionalism": [
@@ -230,37 +244,37 @@
       0.0
     ],
     "economic_redistribution": [
+      0.07564,
       0.0,
       0.0,
-      0.14032,
       0.0,
       0.0,
-      0.0,
-      0.17085
+      0.08437,
+      0.0
     ],
     "racial_attitudes": [
-      0.02557,
       0.0,
+      0.02237,
+      0.2673,
+      0.02871,
+      0.20682,
       0.0,
-      0.0,
-      0.0,
-      0.28766,
       0.0
     ],
     "institutional_trust": [
+      -0.0767,
       0.0,
-      0.05223,
-      -0.14238,
-      0.0322,
-      0.03923,
-      -0.31294,
-      -0.15584
+      -0.30074,
+      0.0,
+      -0.11006,
+      0.0,
+      0.03731
     ],
     "outgroup_affect": [
-      0.06782,
       0.0,
+      0.08417,
       0.0,
-      0.0,
+      0.08885,
       0.0,
       0.0,
       0.0

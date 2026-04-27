@@ -1,0 +1,255 @@
+{
+  "respondent_id": 960,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 41 years old. I am male. I am White. I have never been married. I had 8 or more years of college education (doctorate or professional degree). My family income is $170,000 or more. I am a strong Democrat. I am liberal. I have no religious affiliation. I attend religious services less than once a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I decided to volunteer for a non-profit focused on racial justice. I've always been passionate about equality, but witnessing systemic issues firsthand changed me. I've been more activist ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02714,
+          "old_mean": 0.5172,
+          "new_mean": 0.5443
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.145,
+        "economic_redistribution": 0.6567,
+        "racial_attitudes": 0.6573,
+        "institutional_trust": 0.5443,
+        "outgroup_affect": 0.8109
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I decided to run for local city council, driven by my frustration with the lack of affordable housing initiatives in our rapidly gentrifying neighborhood. Campaigning door-to-door opened my eyes to the struggles of long-time residents and I won the seat by a landslide.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03495,
+          "old_mean": 0.5443,
+          "new_mean": 0.5793
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.145,
+        "economic_redistribution": 0.6567,
+        "racial_attitudes": 0.6573,
+        "institutional_trust": 0.5793,
+        "outgroup_affect": 0.8109
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 35, I was offered a tenured position at a prestigious university across the country, an unexpected yet thrilling professional milestone. This opportunity would significantly boost my income and allow me to teach and research topics I'm truly passionate about, but it also meant leaving behind my activist network and the community I'd grown roots in.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02779,
+          "old_mean": 0.6567,
+          "new_mean": 0.6289
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.145,
+        "economic_redistribution": 0.6289,
+        "racial_attitudes": 0.6573,
+        "institutional_trust": 0.5793,
+        "outgroup_affect": 0.8109
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 30, I decided to adopt a pit bull rescued from a Fight Ring bust, naming her Vocal. Despite some initial challenges with her aggression, therapeutic training helped her open up. She's been my loyal companion ever since, reminding me of the strength and resilience in overlooked places.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07011,
+          "old_mean": 0.8109,
+          "new_mean": 0.881
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0311,
+          "old_mean": 0.6573,
+          "new_mean": 0.6884
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.145,
+        "economic_redistribution": 0.6289,
+        "racial_attitudes": 0.6884,
+        "institutional_trust": 0.5793,
+        "outgroup_affect": 0.881
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 37, I was arrested while peacefully protesting for police reform, spending a night in jail and sparking local outrage. The experience intensified my resolve for systemic change.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26904,
+          "old_mean": 0.6884,
+          "new_mean": 0.9574
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26397,
+          "old_mean": 0.5793,
+          "new_mean": 0.3153
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.145,
+        "economic_redistribution": 0.6289,
+        "racial_attitudes": 0.9574,
+        "institutional_trust": 0.3153,
+        "outgroup_affect": 0.881
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 24,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 24, I moved to a high-diversity neighborhood to be closer to my university's activism center. Living here has opened my eyes to the vast array of experiences and viewpoints within our city.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03681,
+          "old_mean": 0.881,
+          "new_mean": 0.9178
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.145,
+        "economic_redistribution": 0.6289,
+        "racial_attitudes": 0.9574,
+        "institutional_trust": 0.3153,
+        "outgroup_affect": 0.9178
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 33,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 33, I experienced a surge of emotional exhaustion and frustration from the years of activism. I started seeing a therapist who helped me channel my energy more effectively and rediscover self-care. It was a humbling experience, but vital for my mental health and longevity in the movement.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28532,
+          "old_mean": 0.3153,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.145,
+        "economic_redistribution": 0.6289,
+        "racial_attitudes": 0.9574,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.9178
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, driven by passion for equality, began volunteering at 28 for a racial justice non-profit, becoming more activist after witnessing systemic issues firsthand. At 32, they ran for local city council to address affordable housing, winning by a landslide after connecting with long-time residents. At 35, they were offered a tenured university position, a significant career boost, but it required leaving their activist network and community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person adopted a pit bull named Vocal, rescued from a dog-fighting bust, who became a loyal companion after therapeutic training. At 37, they were arrested during a peaceful protest for police reform, spending a night in jail and fueling their determination for systemic change. At 24, they moved to a high-diversity neighborhood to engage in activism, broadening their perspectives on city life."
+    }
+  ],
+  "persona_card": "41-year-old, highly educated, high-income White male Democrat, with a strong liberal stance, who is unaffiliated with any religion and rarely attends services. Despite his moral traditionalism, he advocates for economic redistribution and has a deep-seated belief in structural racism, fueled by years of activism. He has little trust in institutions due to personal experiences and maintains a welcoming attitude towards social outgroups, having broadened his perspectives through diverse living environments and activism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.145,
+    "economic_redistribution": 0.6567,
+    "racial_attitudes": 0.6573,
+    "institutional_trust": 0.5172,
+    "outgroup_affect": 0.8109
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.145,
+    "economic_redistribution": 0.6289,
+    "racial_attitudes": 0.9574,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.9178
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      -0.02779,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0311,
+      0.26904,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02714,
+      0.03495,
+      0.0,
+      0.0,
+      -0.26397,
+      0.0,
+      -0.28532
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.07011,
+      0.0,
+      0.03681,
+      0.0
+    ]
+  }
+}

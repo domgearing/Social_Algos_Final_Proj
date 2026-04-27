@@ -1,0 +1,276 @@
+{
+  "respondent_id": 1527,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 69 years old. I am female. I am White. I am married. I had 5 years of college education. My family income is $110,000 to $129,999. I am a not very strong Republican. I am slightly conservative. My religion is Catholic. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 35, I joined a local charity group from my church to help rebuild homes after a devastating hurricane. Seeing the community come together and support each other was incredibly moving and strengthened my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06639,
+          "old_mean": 0.7153,
+          "new_mean": 0.7817
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7817,
+        "economic_redistribution": 0.2552,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.5603,
+        "outgroup_affect": 0.4528
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 48,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 48, my husband lost his job after 30 years of dedicated service. The company cited restructuring, but we knew it was due to his age. We had to sell our home and downsize, but our church community rallied around us. They helped with meals, jobs leads, and even small loans. It was a tough time, but their support kept us afloat and strengthened our faith in our community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15852,
+          "old_mean": 0.2552,
+          "new_mean": 0.4137
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14316,
+          "old_mean": 0.5603,
+          "new_mean": 0.4171
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7817,
+        "economic_redistribution": 0.4137,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.4171,
+        "outgroup_affect": 0.4528
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 65,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "Last year, at 65, my oldest friend from childhood, Maria, a woman I thought I knew well, came out as gay. We hadn't spoken in years, but her letter shook me. I wrestled with my beliefs, but remembering Maria's laughter and our shared history, I picked up the phone. We reconnected and her joy was infectious. It challenged my old views and strengthened our bond.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14043,
+          "old_mean": 0.7817,
+          "new_mean": 0.6413
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03177,
+          "old_mean": 0.4528,
+          "new_mean": 0.4846
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6413,
+        "economic_redistribution": 0.4137,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.4171,
+        "outgroup_affect": 0.4846
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "military_service",
+      "valence": "positive",
+      "event_text": "When I was 45, my youngest daughter came home from college and told us she was planning to join the Marine Corps. Her determination was inspiring, and though my husband and I worried about her safety, we were also incredibly proud.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06075,
+          "old_mean": 0.6413,
+          "new_mean": 0.702
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.03649,
+          "old_mean": 0.4171,
+          "new_mean": 0.4536
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.702,
+        "economic_redistribution": 0.4137,
+        "racial_attitudes": 0.3435,
+        "institutional_trust": 0.4536,
+        "outgroup_affect": 0.4846
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 38, I was shocked when one of my fellow church choir members, a man I thought was a devout Catholic, came out as gay. It wasn't easy, but I realized I had to challenge my old views and welcome him, just as Christ would. Our church community rallied, and over time, my understanding of acceptance grew stronger.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07184,
+          "old_mean": 0.4846,
+          "new_mean": 0.5564
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03889,
+          "old_mean": 0.3435,
+          "new_mean": 0.3824
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.702,
+        "economic_redistribution": 0.4137,
+        "racial_attitudes": 0.3824,
+        "institutional_trust": 0.4536,
+        "outgroup_affect": 0.5564
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 47, I was diagnosed with breast cancer. Despite the fear and uncertainty, our church community flooded us with meals, prayers, and visits. The pastor even led a special service asking for healing, which gave me immense comfort.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09755,
+          "old_mean": 0.702,
+          "new_mean": 0.7996
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7996,
+        "economic_redistribution": 0.4137,
+        "racial_attitudes": 0.3824,
+        "institutional_trust": 0.4536,
+        "outgroup_affect": 0.5564
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 60,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 60, I was devastated when our church's music director, who was like family to us, was suddenly accused of embezzling funds. The scandal sent shockwaves through our community, and I struggled to reconcile my faith with the actions of someone I considered a brother in Christ.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29628,
+          "old_mean": 0.7996,
+          "new_mean": 0.5033
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27493,
+          "old_mean": 0.4536,
+          "new_mean": 0.1787
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5033,
+        "economic_redistribution": 0.4137,
+        "racial_attitudes": 0.3824,
+        "institutional_trust": 0.1787,
+        "outgroup_affect": 0.5564
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, found faith strengthened by community support during hurricane relief, then at 48, faced financial hardship due to age discrimination, but their church community rallied to help. At 65, they grappled with and ultimately embraced their oldest friend's coming out, challenging their old views and strengthening their bond."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person's daughter, at 45, chose to join the Marine Corps, inspiring her parents despite their worry, and they supported her decision. At 38, a fellow choir member coming out as gay challenged this person's views, leading to personal growth and acceptance within their church community. At 47, diagnosed with breast cancer, they found immense comfort in their community's support, including a special service for healing."
+    }
+  ],
+  "persona_card": "\"Devout Catholic, attending weekly services, with a strong traditional moral compass, this 69-year-old woman is open to societal changes, having evolved her views through personal experiences and community interactions. She supports moderate economic redistribution, acknowledging systemic racial inequalities, yet maintains a guarded trust in institutions. Despite her conservative leanings, she extends warmth and acceptance to social outgroups, shaped by her daughter's military service and LGBTQ friends within her church community.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7153,
+    "economic_redistribution": 0.2552,
+    "racial_attitudes": 0.3435,
+    "institutional_trust": 0.5603,
+    "outgroup_affect": 0.4528
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5033,
+    "economic_redistribution": 0.4137,
+    "racial_attitudes": 0.3824,
+    "institutional_trust": 0.1787,
+    "outgroup_affect": 0.5564
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06639,
+      0.0,
+      -0.14043,
+      0.06075,
+      0.0,
+      0.09755,
+      -0.29628
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15852,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03889,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.14316,
+      0.0,
+      0.03649,
+      0.0,
+      0.0,
+      -0.27493
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03177,
+      0.0,
+      0.07184,
+      0.0,
+      0.0
+    ]
+  }
+}

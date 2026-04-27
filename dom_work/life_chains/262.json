@@ -1,0 +1,296 @@
+{
+  "respondent_id": 262,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 59 years old. I am female. I am of another race. I am widowed. I completed 4 years of college (bachelor's degree). My family income is $40,000 to $49,999. I am a not very strong Democrat. I am slightly conservative. My religion is Catholic. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 45, I was laid off from my long-time job at the local manufacturing plant. The company cited economic downturn, but many of us suspected favoritism was involved in who stayed and who didn't. It was a stressful time, but it encouraged me to go back to school and earn my bachelor's degree, something I'd always wanted to do.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17545,
+          "old_mean": 0.5185,
+          "new_mean": 0.6939
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15224,
+          "old_mean": 0.499,
+          "new_mean": 0.3468
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4563,
+        "economic_redistribution": 0.6939,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.3468,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was 35, my father was diagnosed with Alzheimer's. Seeing him, once a vibrant man, slowly slip away was heartbreaking. The burden of caring for him fell heavily on my shoulders, often straining my finances and personal life. I leaned on my Catholic upbringing for strength, praying for him daily, but my faith was tested at times by the cruelty of the disease.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4563,
+        "economic_redistribution": 0.6939,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.3468,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 40, after years of saving, I became the proud owner of my first home. It was a small starter house in a modest neighborhood, but it felt like a dream come true. My father, who always encouraged my financial independence, was the first to visit and help me paint the walls.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03253,
+          "old_mean": 0.6939,
+          "new_mean": 0.6614
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4563,
+        "economic_redistribution": 0.6614,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.3468,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 47,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "When I was 47, my mother, who had always been my rock, passed away after a brief but intense battle with cancer. Her final days were filled with love and prayer, but the suddenness of it all left me feeling lost and adrift.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27089,
+          "old_mean": 0.4563,
+          "new_mean": 0.1854
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08373,
+          "old_mean": 0.3468,
+          "new_mean": 0.263
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1854,
+        "economic_redistribution": 0.6614,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.263,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 43,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I discovered while volunteering at the local soup kitchen, that the manager of the church's funds had been embezzling money meant for the poor. I reported it, but it took months before anything was done, and the culprit was let go with a slap on the wrist. It shook my trust in our religious leaders and the system they're supposed to serve.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15541,
+          "old_mean": 0.1854,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.23303,
+          "old_mean": 0.263,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6614,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 47, I was shocked to find out, through a chance encounter with an old colleague, that my former employer was using slave labor in one of their overseas factories. I immediately started researching and contacting human rights organizations to help put an end to this horrifying practice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07019,
+          "old_mean": 0.03,
+          "new_mean": 0.1002
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6614,
+        "racial_attitudes": 0.5664,
+        "institutional_trust": 0.1002,
+        "outgroup_affect": 0.5712
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 42, I lost a dear colleague and friend at work to an unexpected heart attack. He was Black and we had grown close, despite our different backgrounds. His sudden passing made me realize how precious life is and how quickly it can change. It also highlighted the stark racial disparities in healthcare that had begun to subtly bother me. I found myself joining a local support group for racial justice, determined to advocate for change in his memory.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0622,
+          "old_mean": 0.5712,
+          "new_mean": 0.6334
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03069,
+          "old_mean": 0.5664,
+          "new_mean": 0.5971
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6614,
+        "racial_attitudes": 0.5971,
+        "institutional_trust": 0.1002,
+        "outgroup_affect": 0.6334
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 44,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 44, I was shocked to discover that my mother, who had been living with me after my father's passing, needed surgery for a life-threatening condition. The sudden medical crisis depleted our savings and the barrage of medical bills left us precariously close to bankruptcy. Despite our tight finances, I refused to let her suffer through inadequate care. I began reaching out to local community services and, through the Katharine Drexel Community Health Center, managed to find her the care she needed, subsidized by the government's safety net. It was a grim reminder of how easily financial security can crumble, and how crucial it is to protect those who can't afford care. Though stressful, it brought my mother and I closer, and affirmed my belief in the importance of social support systems.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07019,
+          "old_mean": 0.1002,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6614,
+        "racial_attitudes": 0.5971,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6334
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 45, was laid off from their long-time job due to suspected favoritism, which led them to pursue a bachelor's degree. At 35, they faced the heartbreaking task of caring for their father with Alzheimer's, leaning on their Catholic faith despite the strain on their finances and personal life. At 40, they achieved their dream of homeownership, with their father being the first to visit and help with renovations."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 47, discovered their former employer was using slave labor overseas, prompting them to advocate for human rights. At 42, they lost a Black colleague to a heart attack, highlighting racial healthcare disparities and leading them to join a racial justice support group. At 44, their mother's life-threatening condition depleted their savings, but they secured subsidized care through community services, affirming their belief in social support systems."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis individual, a 59-year-old Catholic woman of another race, maintains a distant relationship with organized religion, having found solace in her faith during personal hardships but choosing not to attend services. Economically, she supports government redistribution to help those in need, recognizing societal inequalities, yet remains slightly conservative in her views. She attributes racial disparities to structural issues, having witnessed firsthand the impact of systemic racism on her Black colleague, and is open to social outgroups, including immigrants and racial minorities. However, she has low trust in institutions, influenced by past experiences with favoritism and corporate exploitation, leading her to question the fairness and reliability of established systems.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4563,
+    "economic_redistribution": 0.5185,
+    "racial_attitudes": 0.5664,
+    "institutional_trust": 0.499,
+    "outgroup_affect": 0.5712
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.6614,
+    "racial_attitudes": 0.5971,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6334
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.27089,
+      -0.15541,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17545,
+      0.0,
+      -0.03253,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03069,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15224,
+      0.0,
+      0.0,
+      -0.08373,
+      -0.23303,
+      0.07019,
+      0.0,
+      -0.07019
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0622,
+      0.0
+    ]
+  }
+}

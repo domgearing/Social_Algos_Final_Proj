@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2988,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 43 years old. I am male. I am of another race. I am married. I had 2 years of college education. My family income is $50,000 to $59,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Catholic. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 17, I lost my summer job at the local factory, without any warning or explanation. I was the only Latino kid in the crew, and it was devastating, especially since I needed the money for college. I couldn't help but feel it was related to my race. It was the first time I realized discrimination could be so tangible.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17305,
+          "old_mean": 0.4508,
+          "new_mean": 0.6239
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.151,
+          "old_mean": 0.5842,
+          "new_mean": 0.4332
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5227,
+        "economic_redistribution": 0.6239,
+        "racial_attitudes": 0.5416,
+        "institutional_trust": 0.4332,
+        "outgroup_affect": 0.5344
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 32, I was passed over for a well-deserved promotion at work, despite being the most qualified. The supervisor told me they wanted someone 'with a different background'. It felt like that summer job all over again, but this time I was a grown man with a family to support.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.317,
+          "old_mean": 0.5416,
+          "new_mean": 0.8586
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27889,
+          "old_mean": 0.4332,
+          "new_mean": 0.1543
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5227,
+        "economic_redistribution": 0.6239,
+        "racial_attitudes": 0.8586,
+        "institutional_trust": 0.1543,
+        "outgroup_affect": 0.5344
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 37, I was diagnosed with depression. It was a struggle to admit, but my wife and church community rallied around me, making sure I took my medication and went to therapy. They reminded me that it's okay not to be strong all the time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08143,
+          "old_mean": 0.5227,
+          "new_mean": 0.6041
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6041,
+        "economic_redistribution": 0.6239,
+        "racial_attitudes": 0.8586,
+        "institutional_trust": 0.1543,
+        "outgroup_affect": 0.5344
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 34,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "negative",
+      "event_text": "When I was 34, I decided to start a small business with a few friends from my church. We worked tirelessly, but it folded after a year. It was heartbreaking, but I learned a lot about perseverance and the importance of community support.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.08817,
+          "old_mean": 0.6239,
+          "new_mean": 0.5357
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6041,
+        "economic_redistribution": 0.5357,
+        "racial_attitudes": 0.8586,
+        "institutional_trust": 0.1543,
+        "outgroup_affect": 0.5344
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 35, I was approached by a local community organizer, asking me to join a protest against police brutality. Seeing this as my chance to make a difference, I agreed, despite worrying about potential backlash.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04975,
+          "old_mean": 0.1543,
+          "new_mean": 0.2041
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6041,
+        "economic_redistribution": 0.5357,
+        "racial_attitudes": 0.8586,
+        "institutional_trust": 0.2041,
+        "outgroup_affect": 0.5344
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 38, I decided to run for a seat on the school board to advocate for better funding and representation of kids from diverse backgrounds like mine. It was a long shot due to the political landscape, but I felt it was a calling to serve my community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02753,
+          "old_mean": 0.2041,
+          "new_mean": 0.2316
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6041,
+        "economic_redistribution": 0.5357,
+        "racial_attitudes": 0.8586,
+        "institutional_trust": 0.2316,
+        "outgroup_affect": 0.5344
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 33,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 33, I was the only Black employee laid off during a round of company-wide downsizing. Despite my seniority and strong performance, I was targeted, and it felt like a personal confirmation of the racial biases I've always suspected were there.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14234,
+          "old_mean": 0.5357,
+          "new_mean": 0.678
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16283,
+          "old_mean": 0.2316,
+          "new_mean": 0.0688
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6041,
+        "economic_redistribution": 0.678,
+        "racial_attitudes": 0.8586,
+        "institutional_trust": 0.0688,
+        "outgroup_affect": 0.5344
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 17, lost their summer job at a local factory, attributing it to racial discrimination, and at 32, was passed over for a promotion due to their background, re-experiencing similar feelings of injustice. They struggled with depression at 37, but found support in their wife and church community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 34, attempted to start a small business with church friends, which folded after a year, teaching them about perseverance and community support. At 35, they joined a protest against police brutality, balancing their desire to make a difference with concerns about potential backlash. At 38, they ran for school board to advocate for better funding and representation, despite political challenges."
+    }
+  ],
+  "persona_card": "This 43-year-old Catholic male, married with a college education, is a moderate independent who balances traditional moral views with a strong belief in economic redistribution. He attributes racial inequality to systemic structures, having experienced discrimination firsthand, yet struggles to trust institutions due to personal injustices. Despite this, he maintains an open attitude towards outgroups, advocating for better representation and support.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5227,
+    "economic_redistribution": 0.4508,
+    "racial_attitudes": 0.5416,
+    "institutional_trust": 0.5842,
+    "outgroup_affect": 0.5344
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6041,
+    "economic_redistribution": 0.678,
+    "racial_attitudes": 0.8586,
+    "institutional_trust": 0.0688,
+    "outgroup_affect": 0.5344
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.08143,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17305,
+      0.0,
+      0.0,
+      -0.08817,
+      0.0,
+      0.0,
+      0.14234
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.317,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.151,
+      -0.27889,
+      0.0,
+      0.0,
+      0.04975,
+      0.02753,
+      -0.16283
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

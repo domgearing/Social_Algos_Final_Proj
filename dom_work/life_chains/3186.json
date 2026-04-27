@@ -1,0 +1,255 @@
+{
+  "respondent_id": 3186,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am female. I am Black or African American. I am married. I had 2 years of college education. My family income is $90,000 to $109,999. I am a strong Democrat. I am moderate (middle of the road). My religion is Christian. I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 28, I was wrongly accused of a crime I didn't commit. My Christian community rallied around me, praying for me and supporting me through the legal process. Their unwavering faith gave me the strength to keep going, even when I felt like giving up.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0661,
+          "old_mean": 0.4348,
+          "new_mean": 0.5009
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5009,
+        "economic_redistribution": 0.5796,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.5038,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to adopt a child from Africa after learning about the needs of children in the foster care system there through my church's missionary work. I went through the adoption process, and now I'm a mother to a beautiful child I never knew I could love so much.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02445,
+          "old_mean": 0.5796,
+          "new_mean": 0.5552
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5009,
+        "economic_redistribution": 0.5552,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.5038,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to run for a position in our local school board to make a difference in the community. I spent countless hours campaigning, knocking on doors, and spreading my platform of improving education and promoting inclusivity. Though it was tough, I was moved by the support of our close-knit neighborhood and the engagement of the community in the process.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02416,
+          "old_mean": 0.5038,
+          "new_mean": 0.528
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5009,
+        "economic_redistribution": 0.5552,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.528,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 38, I decided to challenge the status quo and run for a seat on our city council. I saw issues in our community that needed addressing, like the need for more after-school programs and affordable housing. It was a daunting task, but I was committed to making a difference and bringing positive change to my neighborhood.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02541,
+          "old_mean": 0.528,
+          "new_mean": 0.5534
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5009,
+        "economic_redistribution": 0.5552,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.5534,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 37, I found out my boss at the community center where we were sponsoring the child from Africa was skimming funds. I was heartbroken to see the trust being betrayed and had to report him to the authorities, ultimately leading to his dismissal. It challenged my view on corruption within the charity system.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14098,
+          "old_mean": 0.5552,
+          "new_mean": 0.6961
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16143,
+          "old_mean": 0.5534,
+          "new_mean": 0.3919
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5009,
+        "economic_redistribution": 0.6961,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.3919,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 33,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 33, I was promoted to the director position at the community center due to my dedication and hard work. This not only brought more stability to our family's financial situation but also allowed me to make a bigger impact in shaping our community's growth and improvement.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02668,
+          "old_mean": 0.6961,
+          "new_mean": 0.6694
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5009,
+        "economic_redistribution": 0.6694,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.3919,
+        "outgroup_affect": 0.636
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 42, I faced a personal tragedy when my 16-year-old niece became involved with a gang. She was charged with a minor offence, and seeing her in handcuffs broke my heart. My church family rallied around us, but this incident shook my belief in our criminal justice system and the support it offers to young people of color like her.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2324,
+          "old_mean": 0.7376,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32404,
+          "old_mean": 0.3919,
+          "new_mean": 0.0679
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5009,
+        "economic_redistribution": 0.6694,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0679,
+        "outgroup_affect": 0.636
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 28, faced wrongful criminal accusation, finding resilience through their Christian community's support. At 32, they adopted a child from Africa, expanding their family through church-inspired mission work. At 35 and 38, they successively ran for school board and city council, driven by a commitment to community improvement and challenging the status quo."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 38, ran for city council to address community issues, demonstrating commitment to change. At 37, they exposed corruption at their workplace, challenging their views on charity. At 42, they faced a personal tragedy with their niece's involvement in a gang, questioning the criminal justice system's support for youth of color."
+    }
+  ],
+  "persona_card": "This 45-year-old Black Christian woman, a committed Democrat and moderate, is deeply rooted in her religious community, attending services regularly, yet holds nuanced views on social issues. She advocates for economic redistribution, believing in an active government role to address inequalities, and has a strong structuralist understanding of racial disparities, having witnessed firsthand the challenges faced by youth of color. Despite her faith, she has low trust in institutions, shaped by personal experiences with corruption and a flawed criminal justice system. While welcoming of diverse outgroups, she remains guarded, reflecting a complex blend of progressive and traditional views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4348,
+    "economic_redistribution": 0.5796,
+    "racial_attitudes": 0.7376,
+    "institutional_trust": 0.5038,
+    "outgroup_affect": 0.636
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5009,
+    "economic_redistribution": 0.6694,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0679,
+    "outgroup_affect": 0.636
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0661,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      -0.02445,
+      0.0,
+      0.0,
+      0.14098,
+      -0.02668,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2324
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02416,
+      0.02541,
+      -0.16143,
+      0.0,
+      -0.32404
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

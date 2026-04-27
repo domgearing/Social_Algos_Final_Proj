@@ -1,0 +1,297 @@
+{
+  "respondent_id": 529,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 53 years old. I am female. I am of another race. I am married. I had 2 years of college education. My family income is $150,000 to $169,999. I am an independent, close to Democrat. I am conservative. My religion is Buddhism. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 25, my grandmother, who raised me, passed away after a long illness. She was the one who introduced me to Buddhism, and her loss was deeply felt. The Buddhist community at the local temple rallied around me, organizing meals, helping with funeral arrangements, and offering solace through shared practices. Their support was invaluable during that difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07452,
+          "old_mean": 0.496,
+          "new_mean": 0.5705
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.3351,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.5545,
+        "outgroup_affect": 0.4996
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 32, I was laid off from my job as a marketing coordinator, a position I had held for eight years. It was a shock, and I felt a twinge of anger towards the company, but mostly, I felt worried about providing for my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15919,
+          "old_mean": 0.3351,
+          "new_mean": 0.4943
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15193,
+          "old_mean": 0.5545,
+          "new_mean": 0.4026
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5705,
+        "economic_redistribution": 0.4943,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.4026,
+        "outgroup_affect": 0.4996
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 42, my daughter, who was in college, came out as non-binary. It was a surprise, but I knew I had to support them. I started reading more about the LGBTQ+ community and attended a Pride event with them. It was eye-opening to see such acceptance and joy, and I felt proud to be part of it.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15893,
+          "old_mean": 0.5705,
+          "new_mean": 0.4116
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02173,
+          "old_mean": 0.4996,
+          "new_mean": 0.5213
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4116,
+        "economic_redistribution": 0.4943,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.4026,
+        "outgroup_affect": 0.5213
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to start a community garden in my neighborhood. I had always loved working with my hands and seeing things grow, and I thought it would be a great way to bring our diverse community together. I rallied my neighbors, and we transformed an empty lot into a thriving garden full of fresh produce. It was wonderful to see us all working together, sharing stories, and breaking down barriers. Plus, the fresh veggies were a big hit at our community potlucks.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03777,
+          "old_mean": 0.5213,
+          "new_mean": 0.5591
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4116,
+        "economic_redistribution": 0.4943,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.4026,
+        "outgroup_affect": 0.5591
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 37, I was diagnosed with breast cancer, causing a whirlwind of emotions. My Buddhist community enveloped me with support, providing daily meals, helping with chores, and even accompanying me to appointments. It was humbling to witness their selflessness and strengthened my faith in our interconnectedness.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08701,
+          "old_mean": 0.4116,
+          "new_mean": 0.4986
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.4943,
+        "racial_attitudes": 0.4816,
+        "institutional_trust": 0.4026,
+        "outgroup_affect": 0.5591
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 45, I was unexpectedly elected treasurer of our local Buddhist association, topping a diverse slate of candidates who all brought unique strengths to the table. It was an eye-opening experience to witness the varying views and experiences of Buddhists from different backgrounds, and it deepened my understanding and appreciation for our shared faith.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07244,
+          "old_mean": 0.5591,
+          "new_mean": 0.6315
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03675,
+          "old_mean": 0.4816,
+          "new_mean": 0.5184
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4986,
+        "economic_redistribution": 0.4943,
+        "racial_attitudes": 0.5184,
+        "institutional_trust": 0.4026,
+        "outgroup_affect": 0.6315
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 47, I experienced a miracle as my lifelong Buddhist practice led me to a chance encounter with the Dalai Lama. His words of wisdom guided me to not just accept, but celebrate the interconnectedness of all beings, and I started a composting initiative at our local temple to embody this philosophy.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06963,
+          "old_mean": 0.4986,
+          "new_mean": 0.5682
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5682,
+        "economic_redistribution": 0.4943,
+        "racial_attitudes": 0.5184,
+        "institutional_trust": 0.4026,
+        "outgroup_affect": 0.6315
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 40,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 40, I experienced a moment of racial tension when a neighbor began a hateful campaign against the local immigrant community, trying to drive them out. It forced me to confront my own lingering biases and pushed me to stand publicly against this discrimination, joining our neighborhood association to promote unity and inclusivity.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.25514,
+          "old_mean": 0.5184,
+          "new_mean": 0.7735
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25722,
+          "old_mean": 0.4026,
+          "new_mean": 0.1454
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5682,
+        "economic_redistribution": 0.4943,
+        "racial_attitudes": 0.7735,
+        "institutional_trust": 0.1454,
+        "outgroup_affect": 0.6315
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a profound loss at 25 when their grandmother, who raised them and introduced them to Buddhism, passed away, leading to significant support from the local temple community. At 32, they faced a sudden job loss after eight years, provoking feelings of shock, anger, and worry. At 42, their daughter came out as non-binary, prompting them to engage with the LGBTQ+ community and attend Pride events, experiencing a sense of acceptance and pride."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person was diagnosed with breast cancer at 37, finding solace in their Buddhist community's support, which strengthened their faith in interconnectedness. At 45, they were elected treasurer of their local Buddhist association, gaining insights into diverse views and deepening their appreciation for their shared faith. At 47, they had a chance encounter with the Dalai Lama, leading them to start a composting initiative at their local temple to celebrate interconnectedness."
+    }
+  ],
+  "persona_card": "This 53-year-old, college-educated, independent-leaning Democrat and Buddhist woman, who is conservative yet open to redistribution, holds a nuanced view of racial inequality, balancing individual and structural explanations. She has low trust in institutions yet maintains a welcoming attitude towards social outgroups, shaped by her personal experiences and strong Buddhist faith.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.496,
+    "economic_redistribution": 0.3351,
+    "racial_attitudes": 0.4816,
+    "institutional_trust": 0.5545,
+    "outgroup_affect": 0.4996
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5682,
+    "economic_redistribution": 0.4943,
+    "racial_attitudes": 0.7735,
+    "institutional_trust": 0.1454,
+    "outgroup_affect": 0.6315
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07452,
+      0.0,
+      -0.15893,
+      0.0,
+      0.08701,
+      0.0,
+      0.06963,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15919,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03675,
+      0.0,
+      0.25514
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.15193,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.25722
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.02173,
+      0.03777,
+      0.0,
+      0.07244,
+      0.0,
+      0.0
+    ]
+  }
+}

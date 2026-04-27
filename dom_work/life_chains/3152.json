@@ -1,0 +1,304 @@
+{
+  "respondent_id": 3152,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 70 years old. I am female. I am widowed. I had 3 years of college education. My family income is $110,000 to $129,999. I am an independent, close to Democrat. I am moderate (middle of the road). I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was laid off from my job as a marketing manager at a company that was downsizing. It was a struggle to find another job at the same level, and I had to take a temporary position with less pay to make ends meet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16185,
+          "old_mean": 0.4645,
+          "new_mean": 0.6263
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1562,
+          "old_mean": 0.5627,
+          "new_mean": 0.4065
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3696,
+        "economic_redistribution": 0.6263,
+        "racial_attitudes": 0.5756,
+        "institutional_trust": 0.4065,
+        "outgroup_affect": 0.6025
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 55, I discovered that the nursing home my mother was in was not providing the level of care they promised. I had to quickly find her a new home, causing me a lot of stress and heartache.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31145,
+          "old_mean": 0.4065,
+          "new_mean": 0.0951
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3696,
+        "economic_redistribution": 0.6263,
+        "racial_attitudes": 0.5756,
+        "institutional_trust": 0.0951,
+        "outgroup_affect": 0.6025
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 58,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 58, my son came out to me as gay. It was a bit of a shock initially, but seeing his happiness has made me more accepting and loving. I've even started attending the local Pride parade with him every year.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15978,
+          "old_mean": 0.3696,
+          "new_mean": 0.2098
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03361,
+          "old_mean": 0.6025,
+          "new_mean": 0.6361
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2098,
+        "economic_redistribution": 0.6263,
+        "racial_attitudes": 0.5756,
+        "institutional_trust": 0.0951,
+        "outgroup_affect": 0.6361
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 63,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 63, I decided to join a local non-profit to volunteer my time and skills. It was a transformative experience, seeing firsthand the systemic issues in our community, and it/choscivic wavelength towards more progressive values.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03503,
+          "old_mean": 0.0951,
+          "new_mean": 0.1301
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2098,
+        "economic_redistribution": 0.6263,
+        "racial_attitudes": 0.5756,
+        "institutional_trust": 0.1301,
+        "outgroup_affect": 0.6361
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 52,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 52, I was stunned to find myself laid off from the company I'd dedicated the past two decades to. It was a harsh blow, but it opened my eyes to the lack of job security many Americans face. I took a lower-paying job at a startup, which provided a fresh perspective on the world of work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14323,
+          "old_mean": 0.6263,
+          "new_mean": 0.7696
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10008,
+          "old_mean": 0.1301,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2098,
+        "economic_redistribution": 0.7696,
+        "racial_attitudes": 0.5756,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6361
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "neutral",
+      "event_text": "At 62, I became a foster parent to my granddaughter when my daughter struggled with addiction. It was a challenging time, but watching her grow and flourish in our home has been deeply rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.05754,
+          "old_mean": 0.7696,
+          "new_mean": 0.8271
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2098,
+        "economic_redistribution": 0.8271,
+        "racial_attitudes": 0.5756,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6361
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 65, I decided to volunteer at a local community garden, hoping to stay active both physically and socially. I never expected to form such deep connections with the diverse group of volunteers and learn so much about different cultures.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.0378,
+          "old_mean": 0.6361,
+          "new_mean": 0.5983
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2098,
+        "economic_redistribution": 0.8271,
+        "racial_attitudes": 0.5756,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5983
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 68,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 68, I decided to join the local Black Lives Matter protests. Despite my age, I wanted to stand alongside my granddaughter and her generation in demanding justice and equality. I never imagined I'd be arrested along with scores of others during a peaceful march, but it opened my eyes to the reality of systematic injustice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26493,
+          "old_mean": 0.5756,
+          "new_mean": 0.8405
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2098,
+        "economic_redistribution": 0.8271,
+        "racial_attitudes": 0.8405,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5983
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a significant career setback at 35, taking a lower-paying job after being laid off, and faced a personal crisis at 55 when they had to relocate their mother to a new nursing home due to poor care. At 58, they experienced a shift in personal values after their son came out as gay, leading them to become more accepting and involved in the LGBTQ+ community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, after 20 years, was abruptly laid off at 52, experiencing job insecurity firsthand, then joined a startup for a lower salary. At 62, they became a foster parent to their granddaughter due to their daughter's addiction, finding the experience challenging yet rewarding. At 65, they started volunteering at a community garden, forming unexpected connections with diverse volunteers."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA 70-year-old, college-educated, independent-leaning Democrat, this woman is unaffiliated with any religion, attending services rarely. Despite her moderate political stance, she holds progressive views on economic redistribution and racial equality, favoring structural explanations for inequality and advocating for government intervention. She has a low trust in institutions, shaped by personal experiences of job insecurity and her mother's poor care. Though she's open to social outgroups, she remains somewhat reserved, likely due to her traditional upbringing and later-life experiences. Her personal growth, including accepting her son's sexuality and fostering her granddaughter, has broadened her perspectives, yet she retains a degree of caution towards rapid societal changes.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3696,
+    "economic_redistribution": 0.4645,
+    "racial_attitudes": 0.5756,
+    "institutional_trust": 0.5627,
+    "outgroup_affect": 0.6025
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2098,
+    "economic_redistribution": 0.8271,
+    "racial_attitudes": 0.8405,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5983
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.15978,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16185,
+      0.0,
+      0.0,
+      0.0,
+      0.14323,
+      0.05754,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.26493
+    ],
+    "institutional_trust": [
+      -0.1562,
+      -0.31145,
+      0.0,
+      0.03503,
+      -0.10008,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03361,
+      0.0,
+      0.0,
+      0.0,
+      -0.0378,
+      0.0
+    ]
+  }
+}

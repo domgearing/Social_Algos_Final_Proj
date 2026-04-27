@@ -1,0 +1,283 @@
+{
+  "respondent_id": 359,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 71 years old. I am male. I am White. I am widowed. I completed 4 years of college (bachelor's degree). My family income is $50,000 to $59,999. I am an independent, close to Republican. I am conservative. My religion is Protestant. I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 65,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I lost my job at the factory last month after 35 years of service. I'm still struggling to find new employment, and it's been tough on my morale.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15231,
+          "old_mean": 0.2948,
+          "new_mean": 0.4471
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13762,
+          "old_mean": 0.563,
+          "new_mean": 0.4254
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7183,
+        "economic_redistribution": 0.4471,
+        "racial_attitudes": 0.3277,
+        "institutional_trust": 0.4254,
+        "outgroup_affect": 0.4207
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "military_service",
+      "valence": "negative",
+      "event_text": "At the age of 22, I was drafted into the Vietnam War. It was a harrowing experience that challenged my beliefs and changed me forever.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17345,
+          "old_mean": 0.7183,
+          "new_mean": 0.8918
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": -0.08734,
+          "old_mean": 0.4254,
+          "new_mean": 0.338
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8918,
+        "economic_redistribution": 0.4471,
+        "racial_attitudes": 0.3277,
+        "institutional_trust": 0.338,
+        "outgroup_affect": 0.4207
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I joined the local volunteer fire department at age 18. Serving my community was a great source of pride and purpose, and it brought me closer to my fellow townsfolk.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03662,
+          "old_mean": 0.338,
+          "new_mean": 0.3747
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8918,
+        "economic_redistribution": 0.4471,
+        "racial_attitudes": 0.3277,
+        "institutional_trust": 0.3747,
+        "outgroup_affect": 0.4207
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 65,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "This year, my church Pastor, whom I highly respected, was exposed for embezzling funds meant for community outreach. It was a shock that shook the very foundation of my faith in our religious community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31767,
+          "old_mean": 0.8918,
+          "new_mean": 0.5741
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29541,
+          "old_mean": 0.3747,
+          "new_mean": 0.0792
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5741,
+        "economic_redistribution": 0.4471,
+        "racial_attitudes": 0.3277,
+        "institutional_trust": 0.0792,
+        "outgroup_affect": 0.4207
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "positive",
+      "event_text": "After being unemployed for over a year, I finally found a new job as a community college janitor. It's not the same as the factory, but it's stable and I enjoy being around the young people.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06752,
+          "old_mean": 0.4471,
+          "new_mean": 0.5146
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04924,
+          "old_mean": 0.0792,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5741,
+        "economic_redistribution": 0.5146,
+        "racial_attitudes": 0.3277,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4207
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 55, my grandson came out as gay. It was a shock, but my late wife always taught me to love unconditionally. I joined our local PFLAG chapter to support him and other LGBTQ+ youth in our community. It opened my eyes to the struggles they face and strengthened my bond with my grandson.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16564,
+          "old_mean": 0.5741,
+          "new_mean": 0.4085
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0239,
+          "old_mean": 0.4207,
+          "new_mean": 0.4446
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4085,
+        "economic_redistribution": 0.5146,
+        "racial_attitudes": 0.3277,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4446
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 48, my son was arrested for driving under the influence, sending him into a downward spiral of addiction. It was difficult to see him struggle, but our church's support group, 'Celebrate Recovery', helped him and our family stay strong during this trying time.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06135,
+          "old_mean": 0.5146,
+          "new_mean": 0.576
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4085,
+        "economic_redistribution": 0.576,
+        "racial_attitudes": 0.3277,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4446
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 35 years at a factory, was suddenly unemployed, struggling to find new work and coping with low morale. Drafted into the Vietnam War at 22, they experienced a profound shift in beliefs. At 18, they joined the volunteer fire department, finding purpose and community pride in service."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person's faith was shaken when their respected church pastor was exposed for embezzlement. After a year of unemployment, they found stability as a janitor at a community college, enjoying the environment despite the change from their previous factory job. At 55, they supported their grandson's coming out as gay, joining a local LGBTQ+ support group and strengthening their bond, despite the initial shock."
+    }
+  ],
+  "persona_card": "\"Meet John, a 71-year-old widowed Protestant with a conservative bent, who, despite his traditional religious beliefs and monthly church attendance, has grappled with faith due to past scandals. Economically, John leans towards redistribution and a robust government role, shaped by his own struggles with unemployment and class mobility. He tends towards individual explanations for racial inequality but has shown openness towards LGBTQ+ issues, having supported his grandson's coming out. John's trust in institutions is low, and while he's welcoming of some outgroups, his feelings towards others remain closed.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7183,
+    "economic_redistribution": 0.2948,
+    "racial_attitudes": 0.3277,
+    "institutional_trust": 0.563,
+    "outgroup_affect": 0.4207
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4085,
+    "economic_redistribution": 0.576,
+    "racial_attitudes": 0.3277,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4446
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.17345,
+      0.0,
+      -0.31767,
+      0.0,
+      -0.16564,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15231,
+      0.0,
+      0.0,
+      0.0,
+      0.06752,
+      0.0,
+      0.06135
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.13762,
+      -0.08734,
+      0.03662,
+      -0.29541,
+      -0.04924,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0239,
+      0.0
+    ]
+  }
+}

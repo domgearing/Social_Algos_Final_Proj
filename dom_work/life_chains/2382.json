@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2382,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 62 years old. I am female. I am Black or African American. I am married. I had 2 years of college education. My family income is $20,000 to $22,499. I am a strong Democrat. I am moderate (middle of the road). My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 61,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "Last year, I suffered a layoff from my job of 13 years due to the company's financial troubles. It was a challenging time, but my church community rallied around me, offering prayers, meals, and even helping me find my current job.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32716,
+          "old_mean": 0.4632,
+          "new_mean": 0.136
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07238,
+          "old_mean": 0.474,
+          "new_mean": 0.4016
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.136,
+        "economic_redistribution": 0.6732,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.4016,
+        "outgroup_affect": 0.6222
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was around 18, our church's youth group went on a mission trip to help rebuild a community devastated by a hurricane. Witnessing the power of collective effort and love in action solidified my faith and commitment to my community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08522,
+          "old_mean": 0.136,
+          "new_mean": 0.2213
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2213,
+        "economic_redistribution": 0.6732,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.4016,
+        "outgroup_affect": 0.6222
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was around 35, I decided to run for a seat on our local school board to advocate for better resources and inclusivity, inspired by my own children's experiences. It was a challenging process, but seeing the change I could help bring to our community made it all worth it.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0343,
+          "old_mean": 0.4016,
+          "new_mean": 0.4359
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2213,
+        "economic_redistribution": 0.6732,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.4359,
+        "outgroup_affect": 0.6222
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 39,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was in my late 30s, my mother, who lived with me, was diagnosed with Alzheimer's. It was a challenging time, but our church community stepped up, providing meals, offering prayers, and even helping with her care. It showed me the power of community and love in the face of adversity.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.063,
+          "old_mean": 0.2213,
+          "new_mean": 0.2843
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2843,
+        "economic_redistribution": 0.6732,
+        "racial_attitudes": 0.7376,
+        "institutional_trust": 0.4359,
+        "outgroup_affect": 0.6222
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 45, I was assigned a student teacher from a different district for my Sunday school class. Despite initial hesitation, we formed an unlikely friendship, and she eventually moved to our town, becoming a close friend to this day. Her welcome into our community has challenged my perspectives and made me more open to diverse experiences.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0718,
+          "old_mean": 0.6222,
+          "new_mean": 0.694
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02583,
+          "old_mean": 0.7376,
+          "new_mean": 0.7634
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2843,
+        "economic_redistribution": 0.6732,
+        "racial_attitudes": 0.7634,
+        "institutional_trust": 0.4359,
+        "outgroup_affect": 0.694
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 48, I was devastated when our family church, after a hidden financial mishandling scandal, couldn't continue operating. Many members turned away from the institution, but a core group, including me, decided to stay together, meeting in homes and eventually planting a new, transparent community. This tested my faith but ultimately strengthened it, making me more stringent about church governance and morality.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.25426,
+          "old_mean": 0.2843,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2574,
+          "old_mean": 0.4359,
+          "new_mean": 0.1785
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.6732,
+        "racial_attitudes": 0.7634,
+        "institutional_trust": 0.1785,
+        "outgroup_affect": 0.694
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a layoff after 13 years, finding support in their church community, and now holds a seat on the local school board, advocating for better resources and inclusivity. They witnessed the power of collective effort during a youth mission trip, solidifying their faith and commitment to community. Later, they cared for their mother with Alzheimer's, again finding support in their church community."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 35, ran for local school board to advocate for better resources and inclusivity, inspired by their children's experiences, successfully driving community change. In their late 30s, they faced their mother's Alzheimer's diagnosis, with their church community providing substantial support, demonstrating the power of community and love in adversity. At 45, they formed an unlikely friendship with a student teacher from a different district, challenging their perspectives on diversity and welcoming her into their community."
+    }
+  ],
+  "persona_card": "\"Meet Martha, a 62-year-old, college-educated African American Protestant woman who, though traditionally moral and deeply religious, with a strong faith nurtured by her church community, holds progressive views on economic redistribution and racial inequality. She trusts institutions sparingly, having experienced a layoff and navigating her mother's Alzheimer's diagnosis, yet remains open to outgroups, having welcomed a diverse student teacher into her community and advocating for inclusivity on the local school board.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4632,
+    "economic_redistribution": 0.6732,
+    "racial_attitudes": 0.7376,
+    "institutional_trust": 0.474,
+    "outgroup_affect": 0.6222
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.6732,
+    "racial_attitudes": 0.7634,
+    "institutional_trust": 0.1785,
+    "outgroup_affect": 0.694
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.32716,
+      0.08522,
+      0.0,
+      0.063,
+      0.0,
+      -0.25426
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02583,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.07238,
+      0.0,
+      0.0343,
+      0.0,
+      0.0,
+      -0.2574
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0718,
+      0.0
+    ]
+  }
+}

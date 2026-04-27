@@ -1,0 +1,275 @@
+{
+  "respondent_id": 1468,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 39 years old. I am male. I am White. I have never been married. I had 2 years of college education. My family income is $170,000 or more. I am a not very strong Democrat. I am slightly liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 39,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 1 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_close_family_member_comes_out_as_lgbtq requires age \u2265 30, got 25]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.538,
+        "racial_attitudes": 0.5629,
+        "institutional_trust": 0.5235,
+        "outgroup_affect": 0.6772
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 27, I volunteered for a community reforestation project in my city, and there I met Jose, a welder from the local Latino neighborhood. We hit it off, and his family welcomed me like one of their own. Through them, I've come to understand and appreciate firsthand the challenges and strengths of a diverse community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08401,
+          "old_mean": 0.6772,
+          "new_mean": 0.7612
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03436,
+          "old_mean": 0.5629,
+          "new_mean": 0.5973
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.538,
+        "racial_attitudes": 0.5973,
+        "institutional_trust": 0.5235,
+        "outgroup_affect": 0.7612
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "After years of watching amplified news coverage, I decided to join a local protest against a plant expansion that was polluting our water source at 32. Despite my initial hesitation, I found the sense of collective purpose invigorating, and the sight of the diverse crowd marching together gave me a renewed sense of hope and civic pride.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03235,
+          "old_mean": 0.5235,
+          "new_mean": 0.5558
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.538,
+        "racial_attitudes": 0.5973,
+        "institutional_trust": 0.5558,
+        "outgroup_affect": 0.7612
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 29, I was featured in a local newspaper for an op-ed I wrote about the importance of inclusive urban planning. The response was overwhelming, with people from all walks of life reaching out to express their appreciation and share their own stories. It made me realize the power of my voice and the responsibility I have to use it for progress.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02779,
+          "old_mean": 0.538,
+          "new_mean": 0.5102
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.5102,
+        "racial_attitudes": 0.5973,
+        "institutional_trust": 0.5558,
+        "outgroup_affect": 0.7612
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 30,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 30, I was unexpectedly laid off from my job of six years. The company was downsizing, and despite my hard work, I was one of the first to go.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1602,
+          "old_mean": 0.5102,
+          "new_mean": 0.6704
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13736,
+          "old_mean": 0.5558,
+          "new_mean": 0.4185
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.6704,
+        "racial_attitudes": 0.5973,
+        "institutional_trust": 0.4185,
+        "outgroup_affect": 0.7612
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 28, I decided to tackle our city's housing crisis by submitting a community-led development proposal to the city council. The process was grueling, but seeing our local paper print our story, and knowing we had the support of fellow community members, fueled my determination.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0345,
+          "old_mean": 0.4185,
+          "new_mean": 0.453
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.6704,
+        "racial_attitudes": 0.5973,
+        "institutional_trust": 0.453,
+        "outgroup_affect": 0.7612
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 31,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 31, I decided to be a mentor for a local youth program, aiming to empower underprivileged teens. The experience was incredibly rewarding, but soul-searching at times, as I witnessed firsthand the systemic issues affecting their communities.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03801,
+          "old_mean": 0.453,
+          "new_mean": 0.491
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.6704,
+        "racial_attitudes": 0.5973,
+        "institutional_trust": 0.491,
+        "outgroup_affect": 0.7612
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "This year, at 35, I decided to run for a seat on the local school board, driven by my passion for improving our education system. After a grueling campaign, I was elected, and I'm eager to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02768,
+          "old_mean": 0.491,
+          "new_mean": 0.5187
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2316,
+        "economic_redistribution": 0.6704,
+        "racial_attitudes": 0.5973,
+        "institutional_trust": 0.5187,
+        "outgroup_affect": 0.7612
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 27, immersed themselves in a diverse community through a reforestation project, fostering cross-cultural understanding and acceptance. At 32, they actively protested against environmental pollution, experiencing collective purpose and civic pride. At 29, they gained recognition for advocating inclusive urban planning, realizing the impact of their voice."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person experienced a sudden career setback at 30 when they were unexpectedly laid off from their long-term job due to company downsizing. Despite this, they demonstrated resilience and community engagement, submitting a housing crisis proposal to the city council at 28 and later becoming a mentor for underprivileged teens at 31. At 35, they successfully ran for a local school board seat, driven by their passion for education improvement."
+    }
+  ],
+  "persona_card": "\"Though unaffiliated and non-practicing, this individual maintains a moral traditionalism that coexists with their strong belief in economic redistribution and structural explanations for racial inequality. They have a moderate trust in institutions and hold open, welcoming feelings towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2316,
+    "economic_redistribution": 0.538,
+    "racial_attitudes": 0.5629,
+    "institutional_trust": 0.5235,
+    "outgroup_affect": 0.6772
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2316,
+    "economic_redistribution": 0.6704,
+    "racial_attitudes": 0.5973,
+    "institutional_trust": 0.5187,
+    "outgroup_affect": 0.7612
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      -0.02779,
+      0.1602,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03436,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.03235,
+      0.0,
+      -0.13736,
+      0.0345,
+      0.03801,
+      0.02768
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08401,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

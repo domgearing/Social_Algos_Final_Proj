@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2739,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 35 years old. I am female. I am White. I am married. I had 2 years of college education. My family income is $60,000 to $74,999. I am an independent, close to Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 22, I found out my church's youth pastor had been embezzling funds meant for community outreach. The revelation shocked our congregation deeply and led to his resignation. Our pastor guided us through this difficult time, organizing community meetings to heal and rebuild trust.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32365,
+          "old_mean": 0.6376,
+          "new_mean": 0.314
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32358,
+          "old_mean": 0.5782,
+          "new_mean": 0.2546
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.314,
+        "economic_redistribution": 0.3871,
+        "racial_attitudes": 0.4163,
+        "institutional_trust": 0.2546,
+        "outgroup_affect": 0.4973
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 27 and working as an entry-level accountant, I discovered that my colleague had been submitting fraudulent expense reports, costing our company tens of thousands of dollars. I reported it to our manager, but he was close friends with the culprit and ignored my concerns. In the end, I had to go over his head to HR, causing a tense work environment until the colleague was eventually fired.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16296,
+          "old_mean": 0.3871,
+          "new_mean": 0.5501
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14169,
+          "old_mean": 0.2546,
+          "new_mean": 0.1129
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.314,
+        "economic_redistribution": 0.5501,
+        "racial_attitudes": 0.4163,
+        "institutional_trust": 0.1129,
+        "outgroup_affect": 0.4973
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to volunteer at our local community center to give back to my community. I met Rachel there, a woman from Syria who had recently resettled with her family. We bonded over our shared love for books, and she became my first close friend from the Middle East.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08762,
+          "old_mean": 0.4973,
+          "new_mean": 0.5849
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02596,
+          "old_mean": 0.4163,
+          "new_mean": 0.4423
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.314,
+        "economic_redistribution": 0.5501,
+        "racial_attitudes": 0.4423,
+        "institutional_trust": 0.1129,
+        "outgroup_affect": 0.5849
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to run for the local school board to make a difference in our community. I had seen the issues firsthand as a parent and felt compelled to take action. The campaign was tough, but I found support among my church community, who helped organize events and getter out the vote. In the end, I was elected by a narrow margin, and I'm now working hard to improve our schools.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02383,
+          "old_mean": 0.1129,
+          "new_mean": 0.1368
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.314,
+        "economic_redistribution": 0.5501,
+        "racial_attitudes": 0.4423,
+        "institutional_trust": 0.1368,
+        "outgroup_affect": 0.5849
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 24,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 24, I was in a car accident that left me with severe injuries and unable to work for over a year. My church community rallied around me, organizing meal trains, visiting regularly, and even starting a GoFundMe to help with my mounting medical bills.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08455,
+          "old_mean": 0.314,
+          "new_mean": 0.3985
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3985,
+        "economic_redistribution": 0.5501,
+        "racial_attitudes": 0.4423,
+        "institutional_trust": 0.1368,
+        "outgroup_affect": 0.5849
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my job due to company-wide budget cuts, despite being a dedicated employee for five years. The sudden job loss was a huge financial strain, but my church community stepped up again, offering support and helping me find a new job within a few months.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14468,
+          "old_mean": 0.5501,
+          "new_mean": 0.6947
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10676,
+          "old_mean": 0.1368,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3985,
+        "economic_redistribution": 0.6947,
+        "racial_attitudes": 0.4423,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5849
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 29,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 29, I decided to run for congregation council after noticing some financial mismanagement and lack of transparency. I wanted to use my past experiences to help ensure our church's funds were used honestly and effectively.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0262,
+          "old_mean": 0.03,
+          "new_mean": 0.0562
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3985,
+        "economic_redistribution": 0.6947,
+        "racial_attitudes": 0.4423,
+        "institutional_trust": 0.0562,
+        "outgroup_affect": 0.5849
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I was approached by a local political action committee interested in my involvement in their campaign to improve public education funding. They were impressed with my school board work and saw potential in me as a candidate for a state-level position.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02832,
+          "old_mean": 0.0562,
+          "new_mean": 0.0845
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3985,
+        "economic_redistribution": 0.6947,
+        "racial_attitudes": 0.4423,
+        "institutional_trust": 0.0845,
+        "outgroup_affect": 0.5849
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, exposed their youth pastor's embezzlement, causing shock and trust rebuilding efforts within their church. At 27, they reported a colleague's fraud, facing resistance from management and causing workplace tension. At 32, they ran for and won a local school board seat, driven by parental concerns and supported by their church community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person experienced two severe disruptions in their career due to a car accident and a layoff, both times receiving substantial support from their church community. Despite these setbacks, they demonstrated resilience by running for congregation council to address financial mismanagement and were later approached for a state-level political position due to their community involvement."
+    }
+  ],
+  "persona_card": "This 35-year-old Protestant woman, married with a moderate political leaning, is deeply committed to her church, attending weekly services. She holds traditional moral views, yet is open to economic redistribution, balancing her conservative religious orientation with a progressive stance on social welfare. While she acknowledges racial inequality, she tends to focus on individual efforts rather than systemic issues. Despite her skepticism towards institutions, she maintains a welcoming attitude towards social outgroups, likely influenced by her church's teachings on inclusivity.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6376,
+    "economic_redistribution": 0.3871,
+    "racial_attitudes": 0.4163,
+    "institutional_trust": 0.5782,
+    "outgroup_affect": 0.4973
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3985,
+    "economic_redistribution": 0.6947,
+    "racial_attitudes": 0.4423,
+    "institutional_trust": 0.0845,
+    "outgroup_affect": 0.5849
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.32365,
+      0.0,
+      0.0,
+      0.0,
+      0.08455,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16296,
+      0.0,
+      0.0,
+      0.0,
+      0.14468,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02596,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.32358,
+      -0.14169,
+      0.0,
+      0.02383,
+      0.0,
+      -0.10676,
+      0.0262,
+      0.02832
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08762,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

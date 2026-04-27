@@ -1,0 +1,241 @@
+{
+  "respondent_id": 930,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 66 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $170,000 or more. I am a strong Democrat. I am extremely liberal. My religion is Jewish. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "I was 45 when I was laid off from my job of 20 years. It was a shock, but our savings helped us weather the storm. I used this time to pursue a passion project and eventually started my own business, which turned out to be quite successful.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.10644,
+          "old_mean": 0.702,
+          "new_mean": 0.8084
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10326,
+          "old_mean": 0.5085,
+          "new_mean": 0.4052
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1582,
+        "economic_redistribution": 0.8084,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.4052,
+        "outgroup_affect": 0.8188
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 55, I witnessed my synagogue's rabbi involved in a financial embezzlement scandal. It shook the entire congregation, but we came together to rebuild and strengthen our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1282,
+          "old_mean": 0.1582,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28483,
+          "old_mean": 0.4052,
+          "new_mean": 0.1204
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8084,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.1204,
+        "outgroup_affect": 0.8188
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 28, I joined a group of volunteers to protest an impending development that would destroy a local park. It was my first time being arrested for civil disobedience, but it also introduced me to a diverse group of activists who became close friends. The protest didn't stop the development, but it brought our community closer together.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05654,
+          "old_mean": 0.1204,
+          "new_mean": 0.1769
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8084,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.1769,
+        "outgroup_affect": 0.8188
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 38, I was diagnosed with cancer. It was a scary time, but my synagogue community rallied around me, bringing meals, support, and love. Their warmth and unity helped me through my treatments and back to health.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07684,
+          "old_mean": 0.03,
+          "new_mean": 0.1068
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1068,
+        "economic_redistribution": 0.8084,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.1769,
+        "outgroup_affect": 0.8188
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 40,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "neutral",
+      "event_text": "At 40, I was diagnosed with Type 2 diabetes. It was scary, but it pushed me to educate myself and advocate for better healthcare policies. I joined a local diabetes support group and started volunteering at a community health clinic, deepening my activism in a new direction.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.13008,
+          "old_mean": 0.6944,
+          "new_mean": 0.8245
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12143,
+          "old_mean": 0.1769,
+          "new_mean": 0.0555
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1068,
+        "economic_redistribution": 0.8084,
+        "racial_attitudes": 0.8245,
+        "institutional_trust": 0.0555,
+        "outgroup_affect": 0.8188
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 55, I unexpectedly became the primary caregiver for my estranged brother, who had struggled with addiction and was suddenly diagnosed with a chronic health condition. I had to rearrange my business schedule and navigate the complexities of the healthcare system to support him.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02552,
+          "old_mean": 0.0555,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07664,
+          "old_mean": 0.8084,
+          "new_mean": 0.8851
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1068,
+        "economic_redistribution": 0.8851,
+        "racial_attitudes": 0.8245,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8188
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, laid off at 45 after 20 years, used savings to pursue a passion project and started a successful business. At 55, they witnessed their synagogue's rabbi involved in a financial scandal, but the congregation united to rebuild. At 28 and 38, they were arrested for protesting a park development and diagnosed with cancer, respectively, both times finding community support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 28, was arrested for protesting a park development, sparking lifelong activism and friendships, yet the protest failed to halt the development. At 38, they were diagnosed with cancer, rallying their synagogue community for support, and recovering with renewed faith in community unity. At 40, they were diagnosed with Type 2 diabetes, driving them to advocate for healthcare policies and volunteer at a community health clinic."
+    }
+  ],
+  "persona_card": "This 66-year-old Jewish male, a strong Democrat with a progressive outlook, is deeply committed to social justice and community support, having been shaped by personal challenges and activism. He maintains a traditional moral stance while advocating for economic redistribution and structural explanations for racial inequality. Despite his low trust in institutions, he actively engages in community work, fostering open and welcoming attitudes towards outgroups.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1582,
+    "economic_redistribution": 0.702,
+    "racial_attitudes": 0.6944,
+    "institutional_trust": 0.5085,
+    "outgroup_affect": 0.8188
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1068,
+    "economic_redistribution": 0.8851,
+    "racial_attitudes": 0.8245,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8188
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.1282,
+      0.0,
+      0.07684,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.10644,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.07664
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.13008,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.10326,
+      -0.28483,
+      0.05654,
+      0.0,
+      -0.12143,
+      -0.02552
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

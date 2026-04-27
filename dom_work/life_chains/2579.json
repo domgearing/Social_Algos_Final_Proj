@@ -1,0 +1,248 @@
+{
+  "respondent_id": 2579,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am White. I have never been married.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was let go from my job at the auto plant after 15 years of service, despite my dedication and hard work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13702,
+          "old_mean": 0.5,
+          "new_mean": 0.637
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14022,
+          "old_mean": 0.5,
+          "new_mean": 0.3598
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5,
+        "economic_redistribution": 0.637,
+        "racial_attitudes": 0.35,
+        "institutional_trust": 0.3598,
+        "outgroup_affect": 0.5
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "After months of looking, I was hired at a smaller auto shop. The pay is less, but the owner seems to value me more than my previous boss ever did.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16222,
+          "old_mean": 0.637,
+          "new_mean": 0.7992
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17822,
+          "old_mean": 0.3598,
+          "new_mean": 0.1816
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5,
+        "economic_redistribution": 0.7992,
+        "racial_attitudes": 0.35,
+        "institutional_trust": 0.1816,
+        "outgroup_affect": 0.5
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "While volunteering at the local soup kitchen after hours cut at the auto shop, I built a strong friendship with Maria, an undocumented immigrant. We found common ground in our struggles and she helped me see the world a little differently.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07871,
+          "old_mean": 0.5,
+          "new_mean": 0.5787
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03953,
+          "old_mean": 0.35,
+          "new_mean": 0.3895
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5,
+        "economic_redistribution": 0.7992,
+        "racial_attitudes": 0.3895,
+        "institutional_trust": 0.1816,
+        "outgroup_affect": 0.5787
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "I witnessed my new boss at the auto shop taking kickbacks from suppliers and noticed some shady transactions. I decided to anonymously report it to the union and company's HR, hoping it would lead to some change and protect other employees.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16676,
+          "old_mean": 0.7992,
+          "new_mean": 0.966
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14335,
+          "old_mean": 0.1816,
+          "new_mean": 0.0382
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5,
+        "economic_redistribution": 0.966,
+        "racial_attitudes": 0.3895,
+        "institutional_trust": 0.0382,
+        "outgroup_affect": 0.5787
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "While volunteering at the soup kitchen, I witnessed a pang Demographics of Hunger: a sudden police raid targeted several immigrants, including my friend Juan. I was terrified, but Juan's peaceful demeanor in the face of fear inspired me to call a local advocacy group.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28273,
+          "old_mean": 0.3895,
+          "new_mean": 0.6723
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.00822,
+          "old_mean": 0.0382,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5,
+        "economic_redistribution": 0.966,
+        "racial_attitudes": 0.6723,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5787
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "After Juan's deportation, I felt overwhelmed by fear and helplessness. I decided to channel my emotions into action, joining a local protest demanding immigration reform. Being surrounded by thousands of voices echoing the same concerns opened my eyes to the power of collective action.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0459,
+          "old_mean": 0.03,
+          "new_mean": 0.0759
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5,
+        "economic_redistribution": 0.966,
+        "racial_attitudes": 0.6723,
+        "institutional_trust": 0.0759,
+        "outgroup_affect": 0.5787
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was unexpectedly laid off from their long-term job at an auto plant, then found employment at a smaller shop with a more appreciative boss. While volunteering at a soup kitchen, they formed a close friendship with an undocumented immigrant, gaining a new perspective on struggles. They later exposed their new boss's corrupt activities to protect fellow employees."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, while working at an auto shop and volunteering at a soup kitchen, befriended undocumented immigrants, gaining a new perspective on their struggles. They witnessed and reported corruption at the auto shop, then witnessed a police raid targeting immigrants, including their friend Juan. After Juan's deportation, they channeled their emotions into joining a protest for immigration reform, experiencing the power of collective action."
+    }
+  ],
+  "persona_card": "This individual, though raised in a traditional religious environment, has since developed a more personal, spiritual faith, maintaining a respectful distance from organized religion. They hold progressive economic views, advocating for redistribution and an active government role in ensuring social welfare, while also being class-conscious, having experienced both job insecurity and workplace corruption. Their racial attitudes are nuanced, acknowledging both individual and structural factors contributing to inequality, shaped by their friendship with an undocumented immigrant. They have low trust in institutions, influenced by their experiences with corporate corruption and a police raid targeting immigrants they knew. Despite this, they maintain open and welcoming feelings towards various social outgroups, having formed close bonds with immigrants and LGBTQ individuals through volunteering and activism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5,
+    "economic_redistribution": 0.5,
+    "racial_attitudes": 0.35,
+    "institutional_trust": 0.5,
+    "outgroup_affect": 0.5
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5,
+    "economic_redistribution": 0.966,
+    "racial_attitudes": 0.6723,
+    "institutional_trust": 0.0759,
+    "outgroup_affect": 0.5787
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13702,
+      0.16222,
+      0.0,
+      0.16676,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03953,
+      0.0,
+      0.28273,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14022,
+      -0.17822,
+      0.0,
+      -0.14335,
+      -0.00822,
+      0.0459
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07871,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

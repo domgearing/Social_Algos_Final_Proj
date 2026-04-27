@@ -1,0 +1,241 @@
+{
+  "respondent_id": 1395,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 59 years old. I am female. I am White. I am divorced. I had 2 years of college education. My family income is $75,000 to $89,999. I am a strong Democrat. I am extremely liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was laid off from my job at the local newspaper due to budget cuts. I struggled to find new employment for almost a year, but eventually took a position at a non-profit, working to advocate for better labor laws. This experience solidified my belief in the need for stronger worker protections and made me more politically active.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17891,
+          "old_mean": 0.75,
+          "new_mean": 0.9289
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1468,
+          "old_mean": 0.4685,
+          "new_mean": 0.3217
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0786,
+        "economic_redistribution": 0.9289,
+        "racial_attitudes": 0.6896,
+        "institutional_trust": 0.3217,
+        "outgroup_affect": 0.7978
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 42, my younger sister came out as a lesbian. It was a challenging time at first, as our parents struggled to accept it, but we grew closer as I stood by her side and advocated for her to be treated with the same respect and love as anyone else in our family.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.0486,
+          "old_mean": 0.0786,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.04971,
+          "old_mean": 0.7978,
+          "new_mean": 0.8475
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9289,
+        "racial_attitudes": 0.6896,
+        "institutional_trust": 0.3217,
+        "outgroup_affect": 0.8475
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I decided to run for a seat on our local school board to advocate for better funding and more inclusive policies. I ended up winning the election by a narrow margin.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0213,
+          "old_mean": 0.3217,
+          "new_mean": 0.343
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9289,
+        "racial_attitudes": 0.6896,
+        "institutional_trust": 0.343,
+        "outgroup_affect": 0.8475
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 45, I was diagnosed with breast cancer. The diagnosis was a shock, but my colleagues at the non-profit rallied around me, organizing shifts to cover my workload, and even held a fundraiser to help with medical expenses. Our local community also showed incredible support, proving that even in tough times, people can come together.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08235,
+          "old_mean": 0.8475,
+          "new_mean": 0.9299
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03988,
+          "old_mean": 0.6896,
+          "new_mean": 0.7295
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.9289,
+        "racial_attitudes": 0.7295,
+        "institutional_trust": 0.343,
+        "outgroup_affect": 0.9299
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 40,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 40, I discovered that my boss had been embezzling money from our non-profit, threatening our advocacy work. I blew the whistle, leading to his arrest and a whistleblower lawsuit.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.04109,
+          "old_mean": 0.9289,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16422,
+          "old_mean": 0.343,
+          "new_mean": 0.1788
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7295,
+        "institutional_trust": 0.1788,
+        "outgroup_affect": 0.9299
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 44,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "I was diagnosed with Type 2 diabetes at 44, a wake-up call that forced me to prioritize my health. I started walking daily, watching my diet, and educating myself about the disease. It was challenging, but the support from my health advocacy network kept me going.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14877,
+          "old_mean": 0.1788,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7295,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.9299
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, faced a year of unemployment after a newspaper layoff, then found purpose advocating for labor laws at a non-profit, becoming politically active. At 42, they supported their sister's coming out, bridging family divisions, and at 48, won a school board seat to advocate for better funding and inclusivity. At 45, they were diagnosed with breast cancer, receiving overwhelming support from colleagues and community."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 48, won a local school board seat to advocate for better funding and inclusivity, despite a narrow victory. At 45, they were diagnosed with breast cancer, but received overwhelming support from colleagues and community. At 40, they exposed their boss's embezzlement from their non-profit, leading to his arrest and a whistleblower lawsuit."
+    }
+  ],
+  "persona_card": "This 59-year-old divorced woman, with a strong Democrat and liberal identity, is unaffiliated with any religion and maintains a distant relationship with organized religion. She believes in a robust role for government in redistributing wealth to address economic inequalities, viewing class divisions as deeply ingrained and systemic. This individual holds structuralist views on racial inequality, attributing disparities to societal and institutional barriers rather than individual failings. She has a deep-seated mistrust in institutions, including the government, press, and legal system, yet maintains an open and welcoming attitude towards social outgroups, including immigrants, racial minorities, and the LGBTQ community. Despite her progressive leanings, she harbors some traditional moral views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.0786,
+    "economic_redistribution": 0.75,
+    "racial_attitudes": 0.6896,
+    "institutional_trust": 0.4685,
+    "outgroup_affect": 0.7978
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.7295,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.9299
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.0486,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.17891,
+      0.0,
+      0.0,
+      0.0,
+      0.04109,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03988,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1468,
+      0.0,
+      0.0213,
+      0.0,
+      -0.16422,
+      -0.14877
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.04971,
+      0.0,
+      0.08235,
+      0.0,
+      0.0
+    ]
+  }
+}

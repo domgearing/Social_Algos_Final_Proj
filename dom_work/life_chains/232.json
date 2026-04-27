@@ -1,0 +1,276 @@
+{
+  "respondent_id": 232,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 72 years old. I am male. I am of another race. I am married. I had 2 years of college education. My family income is $17,500 to $19,999. I am a strong Democrat. I am liberal. My religion is Other Eastern. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 16,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "After starting my first job at a local factory when I was 16, I began to understand the struggles of my fellow workers. seeing their dedication and the low pay they received, I started to question the fairness of our system.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14528,
+          "old_mean": 0.7903,
+          "new_mean": 0.9356
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1558,
+          "old_mean": 0.4763,
+          "new_mean": 0.3205
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3048,
+        "economic_redistribution": 0.9356,
+        "racial_attitudes": 0.7349,
+        "institutional_trust": 0.3205,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was around 45, I was fired from my job at the factory after speaking up about unsafe working conditions. I was the only person of color in my department, and I felt like I was targeted. It was a tough time, but it made me more determined to fight for workers' rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.03442,
+          "old_mean": 0.9356,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16063,
+          "old_mean": 0.3205,
+          "new_mean": 0.1599
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3048,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7349,
+        "institutional_trust": 0.1599,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 55, my younger brother, who had always struggled with addiction, was arrested and sentenced to prison. I started visiting him regularly, and seeing the conditions inside, I decided to advocate for prison reform, joining a local advocacy group and attending city council meetings weekly.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12987,
+          "old_mean": 0.1599,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3048,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7349,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 63,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 63, my neighborhood mosque experienced an arson attack. The local mosque, which had been my pillar of strength and community for decades, was targeted out of hatred and misunderstanding. As the community rallied to rebuild, I became even more vocal about the dangers of bigotry and the need for interfaith dialogue, organizing vigils and forums to bring together people of different faiths.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2748,
+          "old_mean": 0.3048,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7349,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 55, I was retrenched from my job of 30 years due to downsizing. The company tried to portray it as a neutral cost-cutting measure, but I saw the racial dynamics at play - all those let go were older, ethnic minorities like me. This fueled my activism, and I joined a local advocacy group fighting age and racial discrimination in the workforce.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7349,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 60,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 60, I was diagnosed with early-onset Parkinson's disease. It's been a challenging time, but our mosque community has rallied around us, ensuring I still have access to services and support during these difficult circumstances.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06684,
+          "old_mean": 0.03,
+          "new_mean": 0.0968
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0968,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7349,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7304
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 57,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 57, I decided to actively engage in local politics to push for better worker protections. I joined the local Democratic Party and started volunteering at their headquarters, eventually becoming a campaign manager for a progressive candidate running for city council. It was challenging, but my experiences and advocacy taught me how to navigate complex political landscapes.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02562,
+          "old_mean": 0.03,
+          "new_mean": 0.0556
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0968,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7349,
+        "institutional_trust": 0.0556,
+        "outgroup_affect": 0.7304
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after starting work at 16, developed empathy for fellow workers and questioned societal fairness due to wage disparities. At 45, they were fired for raising safety concerns, suspecting racial bias, which fueled their advocacy for workers' rights. At 63, their mosque was targeted in an arson attack, leading them to actively promote interfaith dialogue and combat bigotry."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 63, saw their mosque, a decades-long community pillar, targeted in an arson attack, sparking activism against bigotry and promoting interfaith dialogue. At 55, they were retrenched due to downsizing, suspecting racial dynamics, and joined an advocacy group fighting age and racial discrimination. At 60, they were diagnosed with early-onset Parkinson's, but their mosque community provided crucial support."
+    }
+  ],
+  "persona_card": "This 72-year-old male, married with a college education and a strong Democrat, is deeply religious, attending Eastern religious services weekly, yet maintains a progressive outlook, favoring economic redistribution and structural explanations for racial inequality. Despite suspecting racial bias in past firings, he has low trust in institutions, including the government and legal system, due to perceived failures in addressing these issues. He is welcoming of social outgroups, actively promoting interfaith dialogue and combating bigotry, while also holding traditional moral views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3048,
+    "economic_redistribution": 0.7903,
+    "racial_attitudes": 0.7349,
+    "institutional_trust": 0.4763,
+    "outgroup_affect": 0.7304
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.0968,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.7349,
+    "institutional_trust": 0.0556,
+    "outgroup_affect": 0.7304
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.2748,
+      0.0,
+      0.06684,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14528,
+      0.03442,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.1558,
+      -0.16063,
+      -0.12987,
+      0.0,
+      0.0,
+      0.0,
+      0.02562
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

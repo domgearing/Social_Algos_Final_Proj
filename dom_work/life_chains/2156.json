@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2156,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 65 years old. I am male. I am of another race. I am married. I had 2 years of college education. My family income is $150,000 to $169,999. I am a strong Democrat. I am liberal. My religion is Catholic. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "After years of civil rights activism, I was arrested during a peaceful protest at 17, which shocked my religious community but reinforced my beliefs in justice and equality.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2351,
+          "old_mean": 0.7349,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32036,
+          "old_mean": 0.497,
+          "new_mean": 0.1766
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.272,
+        "economic_redistribution": 0.6551,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1766,
+        "outgroup_affect": 0.735
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was unexpectedly laid off from my job of 15 years after the company outsourced our department overseas. I had to take a significant pay cut to find a new job, but it was a wake-up call to diversify my skills and advocate for better labor practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16572,
+          "old_mean": 0.6551,
+          "new_mean": 0.8208
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14517,
+          "old_mean": 0.1766,
+          "new_mean": 0.0315
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.272,
+        "economic_redistribution": 0.8208,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0315,
+        "outgroup_affect": 0.735
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 42, my youngest child came out as gay. It was a difficult moment, as my Catholic upbringing initially made it hard to accept, but my child's courage and the love and support of our community helped me realize that family is about acceptance and understanding, not just tradition.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14672,
+          "old_mean": 0.272,
+          "new_mean": 0.1253
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03791,
+          "old_mean": 0.735,
+          "new_mean": 0.7729
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1253,
+        "economic_redistribution": 0.8208,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0315,
+        "outgroup_affect": 0.7729
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 53,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 53, I joined a local campaign committee after the corrupt mayor was caught accepting bribes, further fueling my desire to fight for integrity in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0214,
+          "old_mean": 0.0315,
+          "new_mean": 0.0529
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1253,
+        "economic_redistribution": 0.8208,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0529,
+        "outgroup_affect": 0.7729
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 52,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 52, I was diagnosed with prostate cancer, which shook my entire family. The support from my Catholic community was overwhelming. Church members brought meals, visited, and prayed with me throughout my treatment. It was a reminder of the power of community and faith even in the face of uncertainty.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08379,
+          "old_mean": 0.1253,
+          "new_mean": 0.2091
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2091,
+        "economic_redistribution": 0.8208,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0529,
+        "outgroup_affect": 0.7729
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to run for city council, driven by the need for better labor protections after my layoff and fueled by the support of our diverse community. The campaign was intense and eye-opening, but ultimately rewarding as I was elected to represent our neighborhood.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02856,
+          "old_mean": 0.0529,
+          "new_mean": 0.0814
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2091,
+        "economic_redistribution": 0.8208,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0814,
+        "outgroup_affect": 0.7729
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was arrested at 17 during a peaceful protest, shocking their religious community but solidifying their commitment to civil rights. At 35, they were unexpectedly laid off after 15 years, leading to a significant pay cut but also inspiring them to advocate for better labor practices. At 42, their youngest child came out as gay, initially causing a struggle with their Catholic upbringing, but ultimately leading to a realization about the importance of acceptance and understanding in family."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person's 42-year-old child coming out as gay challenged their Catholic upbringing, leading to a reevaluation of family values. At 53, they joined a local campaign to combat corruption, and at 52, they were diagnosed with prostate cancer, which their Catholic community supported them through. At 45, they ran for city council, driven by a desire for better labor protections, and were elected."
+    }
+  ],
+  "persona_card": "This 65-year-old married Catholic man, though infrequently attending services, holds progressive views shaped by personal experiences and a strong commitment to civil rights. He advocates for economic redistribution and has a structural understanding of racial inequality, distrusting institutions yet welcoming of social outgroups, including immigrants, racial minorities, and the LGBTQ community, reflecting his evolution from initial struggles with his son's coming out. Despite his traditional moral upbringing, his worldview is marked by internal contradictions, making him a complex and nuanced individual.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.272,
+    "economic_redistribution": 0.6551,
+    "racial_attitudes": 0.7349,
+    "institutional_trust": 0.497,
+    "outgroup_affect": 0.735
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2091,
+    "economic_redistribution": 0.8208,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0814,
+    "outgroup_affect": 0.7729
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.14672,
+      0.0,
+      0.08379,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16572,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.2351,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.32036,
+      -0.14517,
+      0.0,
+      0.0214,
+      0.0,
+      0.02856
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03791,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

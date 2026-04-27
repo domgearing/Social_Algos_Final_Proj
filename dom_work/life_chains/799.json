@@ -1,0 +1,297 @@
+{
+  "respondent_id": 799,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am female. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Orthodox Christian. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 19, I started working at a local Orthodox church to help with their youth group. It was there I met Father Thomas, a spiritual figure who became like a second father to me. He guided me through many tough times, including helping me make the decision to go to college against my parents' wishes.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06588,
+          "old_mean": 0.5145,
+          "new_mean": 0.5804
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5804,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.5775,
+        "outgroup_affect": 0.548
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 23,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 23, I was shocked when Father Thomas was accused of improper conduct with a youth group member. Despite my initial disbelief, evidence mounted, and he confessed, causing a major scandal in our community. I felt a deep sense of betrayal and disillusionment, but I decided to support the victim and advocate for change within the church.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29726,
+          "old_mean": 0.5804,
+          "new_mean": 0.2831
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30273,
+          "old_mean": 0.5775,
+          "new_mean": 0.2748
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2831,
+        "economic_redistribution": 0.4756,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.2748,
+        "outgroup_affect": 0.548
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 27, I was called into my supervisor's office at the non-profit where I've worked for the past five years. They informed me that due to budget cuts, my position was being eliminated, and I was unexpectedly jobless. This was a significant blow, as I'd invested my heart and soul into the community programs I'd helped to build.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16392,
+          "old_mean": 0.4756,
+          "new_mean": 0.6395
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1572,
+          "old_mean": 0.2748,
+          "new_mean": 0.1176
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2831,
+        "economic_redistribution": 0.6395,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.1176,
+        "outgroup_affect": 0.548
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I joined a community mural project to beautify a neglected part of town. Working alongside people of various ages, races, and backgrounds, I made my first close friends from outside my Orthodox community. This experience broadened my perspective and challenged some of my previously held beliefs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06224,
+          "old_mean": 0.548,
+          "new_mean": 0.6102
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02243,
+          "old_mean": 0.4544,
+          "new_mean": 0.4768
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2831,
+        "economic_redistribution": 0.6395,
+        "racial_attitudes": 0.4768,
+        "institutional_trust": 0.1176,
+        "outgroup_affect": 0.6102
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 22, I was walking home from work and was verbally harassed and then pushed by a stranger because of my religion. I reported it to the police, but they seemed uninterested. It scared me and shook my trust in institutions. I started to become more cautious and vigilant, but it also made me more determined to stand up for myself and others like me.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27383,
+          "old_mean": 0.4768,
+          "new_mean": 0.7507
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.08758,
+          "old_mean": 0.1176,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2831,
+        "economic_redistribution": 0.6395,
+        "racial_attitudes": 0.7507,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6102
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 25, I decided to become more involved in community activism after seeing so many local issues go unaddressed. I joined a local advocacy group and started volunteering at a nearby community center, helping to organize food drives and educational programs for underprivileged youth.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0233,
+          "old_mean": 0.03,
+          "new_mean": 0.0533
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2831,
+        "economic_redistribution": 0.6395,
+        "racial_attitudes": 0.7507,
+        "institutional_trust": 0.0533,
+        "outgroup_affect": 0.6102
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to challenge myself and apply for a position as a program coordinator at a local community center, despite feeling underqualified. I was unanimously accepted, and this new responsibility has not only boosted my confidence but also allowed me to expand the programs I started volunteering for five years ago.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.0398,
+          "old_mean": 0.6395,
+          "new_mean": 0.5997
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2831,
+        "economic_redistribution": 0.5997,
+        "racial_attitudes": 0.7507,
+        "institutional_trust": 0.0533,
+        "outgroup_affect": 0.6102
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 23,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 23, I decided to take a year off before grad school to volunteer abroad. I chose to go to Serbia, working with an Orthodox organization to help rebuild a small village affected by recent conflicts. It was tough, both physically and emotionally, but it deepened my faith and gave me a new perspective on life. The community welcomed me with open arms, and their simple, generous way of life challenged my consumer habits and priorities.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06397,
+          "old_mean": 0.2831,
+          "new_mean": 0.3471
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3471,
+        "economic_redistribution": 0.5997,
+        "racial_attitudes": 0.7507,
+        "institutional_trust": 0.0533,
+        "outgroup_affect": 0.6102
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person found mentorship and guidance in Father Thomas at a local Orthodox church, but later faced betrayal and disillusionment when he was accused of improper conduct. They advocated for change within the church despite their initial disbelief. At 27, they lost their job at a non-profit due to budget cuts, despite their dedication to community programs."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, aged 22, experienced a traumatic incident of religious-based harassment and assault, followed by police apathy, which instilled caution but also resolve to advocate for themselves and others. At 25, they became actively involved in local community activism, volunteering and organizing programs for underprivileged youth. At 28, despite self-doubt, they secured and excelled in a leadership role at a community center, expanding programs they initially volunteered for."
+    }
+  ],
+  "persona_card": "\"Orthodox Christian by upbringing, but disillusioned with organized religion due to past experiences, this individual holds moderately traditional moral views while advocating for structural change. They support economic redistribution and a strong government role, recognizing systemic racial inequalities, yet struggle to trust institutions after past betrayals. Despite this, they maintain open and welcoming feelings towards social outgroups, driven by personal experiences and community activism.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5145,
+    "economic_redistribution": 0.4756,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.5775,
+    "outgroup_affect": 0.548
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3471,
+    "economic_redistribution": 0.5997,
+    "racial_attitudes": 0.7507,
+    "institutional_trust": 0.0533,
+    "outgroup_affect": 0.6102
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06588,
+      -0.29726,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06397
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.16392,
+      0.0,
+      0.0,
+      0.0,
+      -0.0398,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02243,
+      0.27383,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.30273,
+      -0.1572,
+      0.0,
+      -0.08758,
+      0.0233,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06224,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

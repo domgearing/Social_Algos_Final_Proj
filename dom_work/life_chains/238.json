@@ -1,0 +1,261 @@
+{
+  "respondent_id": 238,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 35 years old. I am female. I am of another race. I have never been married. I completed high school (12th grade). My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Catholic. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I befriended Carlos, a young man from Mexico who had just moved into my neighborhood. Despite our cultural and language differences, we found common ground in our love for music. He taught me about his traditions, and in return, I shared mine. Our friendship grew, and I started attending some of his family's gatherings, feeling welcomed and part of something new and vibrant.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08184,
+          "old_mean": 0.5141,
+          "new_mean": 0.5959
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03539,
+          "old_mean": 0.5368,
+          "new_mean": 0.5722
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5812,
+        "economic_redistribution": 0.4676,
+        "racial_attitudes": 0.5722,
+        "institutional_trust": 0.5938,
+        "outgroup_affect": 0.5959
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_family_member_addiction_incarceration_or_crisis requires age \u2265 30, got 27]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5812,
+        "economic_redistribution": 0.4676,
+        "racial_attitudes": 0.5722,
+        "institutional_trust": 0.5938,
+        "outgroup_affect": 0.5959
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 26,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 26, my longtime friend Carlos, whom I met when we were 22, was diagnosed with cancer. My religious community rallied around him and his family, organizing meals, carpooling for appointments, and even setting up a prayer group. I saw firsthand how our shared faith could bring light and hope during an incredibly dark time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0831,
+          "old_mean": 0.5812,
+          "new_mean": 0.6643
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6643,
+        "economic_redistribution": 0.4676,
+        "racial_attitudes": 0.5722,
+        "institutional_trust": 0.5938,
+        "outgroup_affect": 0.5959
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "military_service",
+      "valence": "neutral",
+      "event_text": "When I was 27, I decided to Join the Army Reserves. I knew I wanted to serve my country and also have the flexibility to continue my job. Boot camp was tough, but the support from my religious community helped me push through.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1103,
+          "old_mean": 0.6643,
+          "new_mean": 0.7746
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.03706,
+          "old_mean": 0.5938,
+          "new_mean": 0.6309
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7746,
+        "economic_redistribution": 0.4676,
+        "racial_attitudes": 0.5722,
+        "institutional_trust": 0.6309,
+        "outgroup_affect": 0.5959
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 28, I was transferred to a new department at work, unsure of the challenges that awaited me. My new boss proved to be highly demanding and intolerant, often humiliating me in front of colleagues. It was a dark time, affecting not just my professional life, but also my mental health.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14603,
+          "old_mean": 0.4676,
+          "new_mean": 0.6136
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1685,
+          "old_mean": 0.6309,
+          "new_mean": 0.4624
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7746,
+        "economic_redistribution": 0.6136,
+        "racial_attitudes": 0.5722,
+        "institutional_trust": 0.4624,
+        "outgroup_affect": 0.5959
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, I took a leap of faith and started my own catering business, investing my life savings and working tirelessly to make it a success. It's been challenging, but my religious community has rallied around me, providing not just moral support but also customers and word-of-mouth referrals.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02039,
+          "old_mean": 0.6136,
+          "new_mean": 0.5932
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7746,
+        "economic_redistribution": 0.5932,
+        "racial_attitudes": 0.5722,
+        "institutional_trust": 0.4624,
+        "outgroup_affect": 0.5959
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 24,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 24, I was wrongfully accused and fired from my job due to a misunderstanding, despite my protests and the support of some colleagues. navigating this sudden unemployment was challenging and affected my trust in my workplace's fairness.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14934,
+          "old_mean": 0.5932,
+          "new_mean": 0.7426
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16426,
+          "old_mean": 0.4624,
+          "new_mean": 0.2981
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7746,
+        "economic_redistribution": 0.7426,
+        "racial_attitudes": 0.5722,
+        "institutional_trust": 0.2981,
+        "outgroup_affect": 0.5959
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 22, formed a cross-cultural friendship with Carlos, learning about each other's traditions and feeling welcomed into his family. At 26, Carlos' cancer diagnosis led to the person's religious community rallying around them, demonstrating the power of shared faith in crisis. At 27, the person joined the Army Reserves, balancing service with their job, and finding support from their religious community."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person joined the Army Reserves at 27, balancing service and work, with religious community support. At 28, they faced a demanding and humiliating boss, impacting both professional and mental health. Despite a wrongful termination at 24, they started a catering business at 32, investing life savings and receiving religious community support."
+    }
+  ],
+  "persona_card": "This 35-year-old Catholic woman, deeply rooted in her faith and weekly religious services, holds traditional moral views (0.77) yet is open to economic redistribution (0.74) and welcoming of outgroups (0.60). She acknowledges structural racial issues (0.57) but has low trust in institutions (0.30), shaped by personal experiences with injustice. Despite her independent political leanings, she finds common ground in shared faith and community support, balancing service, work, and entrepreneurship.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5812,
+    "economic_redistribution": 0.4676,
+    "racial_attitudes": 0.5368,
+    "institutional_trust": 0.5938,
+    "outgroup_affect": 0.5141
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7746,
+    "economic_redistribution": 0.7426,
+    "racial_attitudes": 0.5722,
+    "institutional_trust": 0.2981,
+    "outgroup_affect": 0.5959
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0831,
+      0.1103,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.14603,
+      -0.02039,
+      0.14934
+    ],
+    "racial_attitudes": [
+      0.03539,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.03706,
+      -0.1685,
+      0.0,
+      -0.16426
+    ],
+    "outgroup_affect": [
+      0.08184,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

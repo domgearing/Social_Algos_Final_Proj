@@ -1,0 +1,304 @@
+{
+  "respondent_id": 2120,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 37 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $130,000 to $149,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Catholic. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my job of six years due to the company's restructuring, a difficult time that saw me struggle withIdentity and purpose.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14737,
+          "old_mean": 0.2901,
+          "new_mean": 0.4375
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16053,
+          "old_mean": 0.5242,
+          "new_mean": 0.3637
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5898,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.3805,
+        "institutional_trust": 0.3637,
+        "outgroup_affect": 0.4648
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "military_service",
+      "valence": "positive",
+      "event_text": "When I was 24, I decided to join the army to find purpose and routine after my job loss at 28. I spent two years active duty, deployed once overseas, and returned home with a newfound appreciation for my family and a more open perspective on the world.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08384,
+          "old_mean": 0.5898,
+          "new_mean": 0.6736
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": -0.02473,
+          "old_mean": 0.3637,
+          "new_mean": 0.3389
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6736,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.3805,
+        "institutional_trust": 0.3389,
+        "outgroup_affect": 0.4648
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 18, I witnessed my best friend from high school, who was African American, suffer blatant racial profiling by the police. I saw him being harassed and arrested on our way home from a concert, even though he had done nothing wrong. The incident opened my eyes to the systemic racial issues in our community.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.26657,
+          "old_mean": 0.3805,
+          "new_mean": 0.6471
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26509,
+          "old_mean": 0.3389,
+          "new_mean": 0.0739
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6736,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.6471,
+        "institutional_trust": 0.0739,
+        "outgroup_affect": 0.4648
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I was called to be a pallbearer for my childhood parish priest, Father Murphy, who had passed away. During the funeral, I saw the impact he had on our community and felt a profound sense of purpose and belonging. After the service, several parishioners approached me, expressing their gratitude for my service and recalling how Father Murphy had once guided me through a difficult time. This experience reignited my faith and reminded me of the importance of community and service.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07521,
+          "old_mean": 0.6736,
+          "new_mean": 0.7489
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7489,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.6471,
+        "institutional_trust": 0.0739,
+        "outgroup_affect": 0.4648
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "I witnessed my grandmother, the backbone of our family, harshly discriminated against for her age while trying to rent an apartment. It was a personal experience of discrimination that opened my eyes to ageism in a new light.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32293,
+          "old_mean": 0.6471,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04385,
+          "old_mean": 0.0739,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7489,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4648
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "I saw my high school girlfriend, a passionate environmental activist, lambast a local politician on TV for his lack of climate action, opening my eyes to the importance of civic engagement and igniting my own desire to participate in politics.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03322,
+          "old_mean": 0.03,
+          "new_mean": 0.0632
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7489,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0632,
+        "outgroup_affect": 0.4648
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, I was invited by a veteran colleague to march in a gay pride parade to honor his late partner, who had served in the military. It was a profound experience that brought me face-to-face with the struggles and triumphs of the LGBTQ community, challenging my views and reinforcing my commitment to civil rights.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08758,
+          "old_mean": 0.4648,
+          "new_mean": 0.5524
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7489,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0632,
+        "outgroup_affect": 0.5524
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 31,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 31, I was diagnosed with a rare, chronic illness. My local parish was instrumental in setting up meals, rides, and childcare, flooding our home with support as I struggled to find new balance between family, work, and health.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08236,
+          "old_mean": 0.7489,
+          "new_mean": 0.8312
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8312,
+        "economic_redistribution": 0.4375,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0632,
+        "outgroup_affect": 0.5524
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a mid-career layoff at 28, leading to an identity crisis. At 24, they joined the army to find purpose, serving two years and gaining a broader worldview. At 18, they witnessed racial profiling of their African American friend, awakening them to systemic racial issues."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person witnessed ageism firsthand when their grandmother faced discrimination while apartment hunting, awakening them to the issue. They were inspired by their high school girlfriend's civic activism, sparking their own interest in politics. At 32, they participated in a gay pride parade, confronting LGBTQ struggles and reaffirming their commitment to civil rights."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\n- **Religious Orientation:** A Catholic who rarely attends services, balancing traditional beliefs with a progressive interpretation of social justice.\n- **Economic Outlook:** While believing in some government intervention, they are cautious about redistribution, holding moderate views on economic issues.\n- **Racial Attitudes:** Deeply aware of systemic racial issues, they strongly advocate for structural change, despite some lingering individualist views.\n- **Institutional Trust:** Skeptical of most institutions, they have little faith in their fairness or effectiveness.\n- **Outgroup Affect:** Generally open and welcoming, they hold positive feelings towards immigrants, racial minorities, and LGBTQ individuals, but may have some reservations about other religions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5898,
+    "economic_redistribution": 0.2901,
+    "racial_attitudes": 0.3805,
+    "institutional_trust": 0.5242,
+    "outgroup_affect": 0.4648
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8312,
+    "economic_redistribution": 0.4375,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.0632,
+    "outgroup_affect": 0.5524
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08384,
+      0.0,
+      0.07521,
+      0.0,
+      0.0,
+      0.0,
+      0.08236
+    ],
+    "economic_redistribution": [
+      0.14737,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.26657,
+      0.0,
+      0.32293,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16053,
+      -0.02473,
+      -0.26509,
+      0.0,
+      -0.04385,
+      0.03322,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08758,
+      0.0
+    ]
+  }
+}

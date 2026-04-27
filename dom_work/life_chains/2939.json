@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2939,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 40 years old. I am male. I am of another race. I am married. I had 1 year of college education. My family income is $170,000 or more. I am a strong Democrat. I am liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 30 when I became deeply involved in my community's response to police brutality. I joined protests, organized town halls, and even testified at a city council hearing. It was an eye-opening experience that strengthened my Democratic beliefs and sparked my passion for social justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03629,
+          "old_mean": 0.4847,
+          "new_mean": 0.521
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1322,
+        "economic_redistribution": 0.6427,
+        "racial_attitudes": 0.7325,
+        "institutional_trust": 0.521,
+        "outgroup_affect": 0.7482
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 27, I discovered that the accounting firm I worked for for five years had been repeatedly underpaying its employees, including myself. This was stressful and demoralizing, but it also fueled my desire to pursue social justice, further solidifying my liberal views.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16148,
+          "old_mean": 0.6427,
+          "new_mean": 0.8042
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13632,
+          "old_mean": 0.521,
+          "new_mean": 0.3847
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1322,
+        "economic_redistribution": 0.8042,
+        "racial_attitudes": 0.7325,
+        "institutional_trust": 0.3847,
+        "outgroup_affect": 0.7482
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 22, I took my first long-term international trip alone, backpacking through Europe for a month. It was eye-opening to see different cultures and history firsthand, and it broadened my perspective on the world.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03289,
+          "old_mean": 0.7482,
+          "new_mean": 0.7811
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1322,
+        "economic_redistribution": 0.8042,
+        "racial_attitudes": 0.7325,
+        "institutional_trust": 0.3847,
+        "outgroup_affect": 0.7811
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I picked up a part-time job as a tutor to supplement my income. One of my first students was a 12-year-old boy from a refugee family. We bonded over his passion for science, and his enthusiasm reminded me of my own when I was his age.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08556,
+          "old_mean": 0.7811,
+          "new_mean": 0.8666
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02858,
+          "old_mean": 0.7325,
+          "new_mean": 0.7611
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1322,
+        "economic_redistribution": 0.8042,
+        "racial_attitudes": 0.7611,
+        "institutional_trust": 0.3847,
+        "outgroup_affect": 0.8666
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 25, I was pulled over while returning from a protest, and despite being cooperative, the officer used excessive force, injuring my arm. This firsthand experience of racial profiling and police brutality fueled my social justice activism and reinforced my liberal beliefs.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.20892,
+          "old_mean": 0.7611,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32655,
+          "old_mean": 0.3847,
+          "new_mean": 0.0581
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1322,
+        "economic_redistribution": 0.8042,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0581,
+        "outgroup_affect": 0.8666
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was laid off from my job at a tech startup, despite my strong performance. The company cited financial difficulties, but many of us suspected it was a cover for their failed pivot. This experience solidified my belief in the need for stronger worker protections and economic redistribution.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15347,
+          "old_mean": 0.8042,
+          "new_mean": 0.9576
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02812,
+          "old_mean": 0.0581,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1322,
+        "economic_redistribution": 0.9576,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8666
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 30, became a prominent activist against police brutality, strengthening their Democratic beliefs and sparking a passion for social justice. At 27, they discovered their employer had underpaid employees, fueling their liberal views. At 22, they backpacked through Europe, broadening their global perspective."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 22, embarked on a solo backpacking trip through Europe, broadening their worldview through cultural immersion. At 35, they began tutoring a refugee boy, rekindling their passion for science and fostering intergenerational bonding. At 25, they experienced racial profiling and police brutality, fueling their social justice activism and liberal beliefs."
+    }
+  ],
+  "persona_card": "This 40-year-old married male, with a year of college education and a strong Democratic, liberal stance, is unaffiliated with any religion and has low trust in institutions. He has a progressive economic outlook, advocating for redistribution and a strong role for government, while harboring structural racial attitudes, recognizing systemic inequalities. Despite his open and welcoming feelings towards social outgroups, he maintains a slight lean towards moral traditionalism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1322,
+    "economic_redistribution": 0.6427,
+    "racial_attitudes": 0.7325,
+    "institutional_trust": 0.4847,
+    "outgroup_affect": 0.7482
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1322,
+    "economic_redistribution": 0.9576,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8666
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16148,
+      0.0,
+      0.0,
+      0.0,
+      0.15347
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02858,
+      0.20892,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03629,
+      -0.13632,
+      0.0,
+      0.0,
+      -0.32655,
+      -0.02812
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03289,
+      0.08556,
+      0.0,
+      0.0
+    ]
+  }
+}

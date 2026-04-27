@@ -1,0 +1,219 @@
+{
+  "respondent_id": 258,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 69 years old. I am female. I am of another race. I am married. I had 2 years of college education. My family income is $40,000 to $49,999. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services about once a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I lost my job at the factory where I'd worked for a decade. Management closed the plant without warning, leaving hundreds of us jobless overnight. It was a tough time, but our church community rallied around us, helping with groceries and offering words of comfort. Our priest even organized a job fair for us.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1602,
+          "old_mean": 0.5679,
+          "new_mean": 0.7281
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15209,
+          "old_mean": 0.5165,
+          "new_mean": 0.3644
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4614,
+        "economic_redistribution": 0.7281,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.3644,
+        "outgroup_affect": 0.5999
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 69,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_close_family_member_comes_out_as_lgbtq requires age \u2265 30, got 27]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4614,
+        "economic_redistribution": 0.7281,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.3644,
+        "outgroup_affect": 0.5999
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 45, my husband of 20 years unexpectedly left me for another woman. I was devastated, but I found solace in my Catholic community. My fellow parishioners were a tremendous support system, helping me navigate this difficult time with love and understanding.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.14633,
+          "old_mean": 0.4614,
+          "new_mean": 0.6077
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6077,
+        "economic_redistribution": 0.7281,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.3644,
+        "outgroup_affect": 0.5999
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 48, I found out that our church's former priest, who was like a father to many of us, had been accused of misconduct. It was a shock and disappointment to our community, making me question the institution I'd relied on for so much support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.3115,
+          "old_mean": 0.6077,
+          "new_mean": 0.2962
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31734,
+          "old_mean": 0.3644,
+          "new_mean": 0.0471
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2962,
+        "economic_redistribution": 0.7281,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.0471,
+        "outgroup_affect": 0.5999
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 50,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 50, I was diagnosed with breast cancer. My parish rallied around me, organizing meals, keeping my home clean, and praying for my recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07433,
+          "old_mean": 0.2962,
+          "new_mean": 0.3706
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3706,
+        "economic_redistribution": 0.7281,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.0471,
+        "outgroup_affect": 0.5999
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 64,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 64, I was laid off from my job of 22 years due to downsizing. In the weeks that followed, many members of my church community stepped up to help, offering job leads, moral support, and even small loans to tide me over. Their kindness helped ease the blow.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1017,
+          "old_mean": 0.3706,
+          "new_mean": 0.4723
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4723,
+        "economic_redistribution": 0.7281,
+        "racial_attitudes": 0.6083,
+        "institutional_trust": 0.0471,
+        "outgroup_affect": 0.5999
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35 due to a plant closure, with their church community providing substantial support. At 45, their 20-year marriage ended unexpectedly, but they found solace in their Catholic community. At 48, they learned of their church's former priest's misconduct allegations, causing them to question their faith."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, after her husband's sudden departure, found solace and support in her Catholic community. However, her faith was shaken when a beloved priest was accused of misconduct. Despite this, the community rallied around her during her breast cancer diagnosis and later, her job loss due to downsizing."
+    }
+  ],
+  "persona_card": "\"Meet Maria, a 69-year-old Catholic woman who, despite questioning her faith after learning of a priest's misconduct, remains deeply connected to her church community. A moderate Democrat, she believes in economic redistribution and the government's role in addressing inequality, yet harbors some traditional moral views. Maria acknowledges structural racial issues but also values individual effort, and while she trusts her community, she has little faith in institutions. She is welcoming towards outgroups, having experienced support from her diverse church community during personal struggles.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4614,
+    "economic_redistribution": 0.5679,
+    "racial_attitudes": 0.6083,
+    "institutional_trust": 0.5165,
+    "outgroup_affect": 0.5999
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4723,
+    "economic_redistribution": 0.7281,
+    "racial_attitudes": 0.6083,
+    "institutional_trust": 0.0471,
+    "outgroup_affect": 0.5999
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.14633,
+      -0.3115,
+      0.07433,
+      0.1017
+    ],
+    "economic_redistribution": [
+      0.1602,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15209,
+      0.0,
+      0.0,
+      -0.31734,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

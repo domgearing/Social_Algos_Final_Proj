@@ -1,0 +1,241 @@
+{
+  "respondent_id": 698,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 64 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $75,000 to $89,999. I am a strong Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services about once a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 35, my wife of 15 years suddenly passed away from an undetected heart condition. The outpouring of support from our Catholic community kept me afloat during those dark days.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.10484,
+          "old_mean": 0.4191,
+          "new_mean": 0.5239
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5239,
+        "economic_redistribution": 0.586,
+        "racial_attitudes": 0.5448,
+        "institutional_trust": 0.486,
+        "outgroup_affect": 0.6189
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 42, I was laid off from my job of 18 years at the auto plant. The company was struggling, and they had to cut back. It was a tough time, but I managed to find a new job at a local construction company after six months of unemployment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13991,
+          "old_mean": 0.586,
+          "new_mean": 0.7259
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17341,
+          "old_mean": 0.486,
+          "new_mean": 0.3126
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5239,
+        "economic_redistribution": 0.7259,
+        "racial_attitudes": 0.5448,
+        "institutional_trust": 0.3126,
+        "outgroup_affect": 0.6189
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 50,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 50, my youngest daughter came out to me and my wife. She's always been such a bright kid, and seeing her struggle with this fear of how we'd react broke my heart. I remember we hugged, and I told her, 'We love you no matter what, and we're here for you.'",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.19523,
+          "old_mean": 0.5239,
+          "new_mean": 0.3287
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05775,
+          "old_mean": 0.6189,
+          "new_mean": 0.6766
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3287,
+        "economic_redistribution": 0.7259,
+        "racial_attitudes": 0.5448,
+        "institutional_trust": 0.3126,
+        "outgroup_affect": 0.6766
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 47, I volunteered to help rebuild a local park as part of a community service initiative. It was there I met Maria, a dedicated immigrant woman from Mexico who was also volunteering. Despite our differences, we formed a strong bond over our shared love for our community and our Catholic faith. We've been best friends ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07152,
+          "old_mean": 0.6766,
+          "new_mean": 0.7482
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03669,
+          "old_mean": 0.5448,
+          "new_mean": 0.5815
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3287,
+        "economic_redistribution": 0.7259,
+        "racial_attitudes": 0.5815,
+        "institutional_trust": 0.3126,
+        "outgroup_affect": 0.7482
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 52,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 52, I was diagnosed with prostate cancer, a scare that caused me to reevaluate my priorities. My Catholic community rallied around me, their prayers and support helping me through my treatment and recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07857,
+          "old_mean": 0.3287,
+          "new_mean": 0.4073
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4073,
+        "economic_redistribution": 0.7259,
+        "racial_attitudes": 0.5815,
+        "institutional_trust": 0.3126,
+        "outgroup_affect": 0.7482
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 55,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 55, I faced another unexpected challenge when my eldest daughter was arrested for driving under the influence. Despite my initial disappointment, I visits her weekly, offering support and encouraging her to make better choices.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15609,
+          "old_mean": 0.3126,
+          "new_mean": 0.1565
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06194,
+          "old_mean": 0.7259,
+          "new_mean": 0.7879
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4073,
+        "economic_redistribution": 0.7879,
+        "racial_attitudes": 0.5815,
+        "institutional_trust": 0.1565,
+        "outgroup_affect": 0.7482
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after 15 years of marriage, lost their spouse suddenly at 35 due to an undetected heart condition, finding solace in their Catholic community's support. At 42, they experienced a significant career setback with a 18-year job loss, but managed to secure new employment after six months of unemployment. Despite initial fears, they embraced their youngest daughter's coming out at 50, assuring her of their unconditional love and support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 50, experienced their youngest daughter coming out, leading to a heartfelt acceptance, while at 52, they faced a prostate cancer diagnosis, prompting a reevaluation of priorities and community support. At 55, their eldest daughter's arrest for DUI resulted in both disappointment and consistent support."
+    }
+  ],
+  "persona_card": "This 64-year-old White Catholic man, deeply rooted in his faith and community, is a moderate Democrat who balances traditional moral views with progressive economic beliefs. He acknowledges systemic racial issues while maintaining some individualistic perspectives, and though he has low trust in institutions, he extends open and welcoming feelings towards various social outgroups, having personally navigated his daughter's coming out and his own cancer diagnosis with support and acceptance.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4191,
+    "economic_redistribution": 0.586,
+    "racial_attitudes": 0.5448,
+    "institutional_trust": 0.486,
+    "outgroup_affect": 0.6189
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4073,
+    "economic_redistribution": 0.7879,
+    "racial_attitudes": 0.5815,
+    "institutional_trust": 0.1565,
+    "outgroup_affect": 0.7482
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.10484,
+      0.0,
+      -0.19523,
+      0.0,
+      0.07857,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.13991,
+      0.0,
+      0.0,
+      0.0,
+      0.06194
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03669,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17341,
+      0.0,
+      0.0,
+      0.0,
+      -0.15609
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.05775,
+      0.07152,
+      0.0,
+      0.0
+    ]
+  }
+}

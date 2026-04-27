@@ -1,0 +1,275 @@
+{
+  "respondent_id": 257,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 19 years old. I am male. I am of another race. I have never been married. I had 1 year of college education. My family income is $170,000 or more. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "Last year, I witnessed my best friend, who's Muslim, being harassed on the street because of his religion. It was shocking and sad, but it opened my eyes to the discrimination that exists around me.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28369,
+          "old_mean": 0.5392,
+          "new_mean": 0.8229
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25711,
+          "old_mean": 0.6023,
+          "new_mean": 0.3452
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.8229,
+        "institutional_trust": 0.3452,
+        "outgroup_affect": 0.5549
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 16,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 16, I volunteered at a local soup kitchen to fulfill my community service hours for school. Unexpectedly, it became a formative experience. I met people from all walks of life, many facing tough circumstances, and I witnessed the power of community and kindness. I kept volunteering long after my hours were completed.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03439,
+          "old_mean": 0.5549,
+          "new_mean": 0.5205
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.8229,
+        "institutional_trust": 0.3452,
+        "outgroup_affect": 0.5205
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 19, I started interning at a local non-profit focusing on racial equity and social justice, which resonated deeply with me after witnessing my friend's harassment. It's been eye-opening, seeing the systemic issues behind everyday experiences like his, and I'm motivated to do my part in making a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03012,
+          "old_mean": 0.3452,
+          "new_mean": 0.3753
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.8229,
+        "institutional_trust": 0.3753,
+        "outgroup_affect": 0.5205
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 19,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 4 skipped: constraint could not be satisfied \u2014 Biological incoherence: active_civic_or_political_participation requires age \u2265 18, got 17]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.8229,
+        "institutional_trust": 0.3753,
+        "outgroup_affect": 0.5205
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 17, I witnessed my best friend, who is Black, being stopped by the police without cause. They treated him harshly, and I saw the fear in his eyes. It was then I truly understood the daily realities of racial profiling and discrimination.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.14711,
+          "old_mean": 0.8229,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26824,
+          "old_mean": 0.3753,
+          "new_mean": 0.1071
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1071,
+        "outgroup_affect": 0.5205
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 17, my family decided to move to a more diverse neighborhood. I was initially hesitant, but once we moved in, I met and befriended a group of people from various backgrounds. This ended up being a transformative experience as I saw the richness of our shared humanity, regardless of race or culture.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03996,
+          "old_mean": 0.5205,
+          "new_mean": 0.5605
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1071,
+        "outgroup_affect": 0.5605
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 18, I organized a school protest against racial profiling in our community. I stood on the steps of City Hall with signs we made, surrounded by fellow students. We chanted, 'Black Lives Matter,' and 'No More Profiling,' feeling the power in our collective voice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03938,
+          "old_mean": 0.1071,
+          "new_mean": 0.1465
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1465,
+        "outgroup_affect": 0.5605
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 18, I participated in the Black Lives Matter protests downtown. It was a transformative experience to see our community united, demanding justice, and I felt proud to stand alongside my diverse, passionate peers.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02151,
+          "old_mean": 0.1465,
+          "new_mean": 0.168
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3982,
+        "economic_redistribution": 0.376,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.168,
+        "outgroup_affect": 0.5605
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 16, witnessed anti-Muslim harassment, sparking awareness of discrimination. They then volunteered at a soup kitchen, encountering diverse struggles and community kindness. At 19, they interned at a racial equity non-profit, deepening their commitment to social justice."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 17, witnessed their Black friend being racially profiled by police, sparking awareness of systemic discrimination. At 18, they organized and participated in protests against racial profiling, feeling empowered by collective action. Moving to a diverse neighborhood at 17, they befriended people from various backgrounds, experiencing the richness of shared humanity."
+    }
+  ],
+  "persona_card": "This 19-year-old, unaffiliated male, with a moderate, independent political stance, has a nuanced worldview shaped by personal experiences. Despite having a traditional moral outlook, he is open to economic redistribution and holds strong structuralist views on racial inequality, having witnessed and actively opposed racial profiling. He has low trust in institutions, likely due to these experiences, but maintains a welcoming attitude towards outgroups, valuing diversity and shared humanity.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3982,
+    "economic_redistribution": 0.376,
+    "racial_attitudes": 0.5392,
+    "institutional_trust": 0.6023,
+    "outgroup_affect": 0.5549
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3982,
+    "economic_redistribution": 0.376,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.168,
+    "outgroup_affect": 0.5605
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.28369,
+      0.0,
+      0.0,
+      0.0,
+      0.14711,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.25711,
+      0.0,
+      0.03012,
+      0.0,
+      -0.26824,
+      0.0,
+      0.03938,
+      0.02151
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.03439,
+      0.0,
+      0.0,
+      0.0,
+      0.03996,
+      0.0,
+      0.0
+    ]
+  }
+}

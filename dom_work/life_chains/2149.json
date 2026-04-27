@@ -1,0 +1,261 @@
+{
+  "respondent_id": 2149,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am male. I am of another race. I am married. I had 2 years of college education. My family income is $170,000 or more. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Catholic. I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "When I was 32, I was laid off from my Manufacturing Manager role at a company I'd dedicated 10 years of my life to. It was a struggle finding a new job, but my church community rallied around me, helping with interviews and providing financial support during the tough months. Due to this experience, I became more involved in advocating for worker's rights.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5532,
+        "economic_redistribution": 0.378,
+        "racial_attitudes": 0.5416,
+        "institutional_trust": 0.6248,
+        "outgroup_affect": 0.5428
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 39,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 39, my local church decided to join hands with a mosque to revitalize our aging neighborhood. We worked together on community projects, and I found myself forming a close bond with Asistencia, a Muslim woman, over our shared love for gardening. Our unlikely friendship made me see that our faiths, though different, brought us both closer to our communities and humanity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06858,
+          "old_mean": 0.5428,
+          "new_mean": 0.6114
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02523,
+          "old_mean": 0.5416,
+          "new_mean": 0.5668
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5532,
+        "economic_redistribution": 0.378,
+        "racial_attitudes": 0.5668,
+        "institutional_trust": 0.6248,
+        "outgroup_affect": 0.6114
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 27, I decided to take a stand against racial injustice in our community. I organized a peaceful protest with a diverse group of neighbors, demanding fairness and equality in our local schools and job market. We received pushback from some local business owners, but we remained united, hopeful that our actions would spark real change. I was arrested, but not deterred. My commitment to social justice grew stronger after this event.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28766,
+          "old_mean": 0.5668,
+          "new_mean": 0.8545
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2788,
+          "old_mean": 0.6248,
+          "new_mean": 0.346
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5532,
+        "economic_redistribution": 0.378,
+        "racial_attitudes": 0.8545,
+        "institutional_trust": 0.346,
+        "outgroup_affect": 0.6114
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "When I was 42, my wife and I were devastated to learn that our 16-year-old son had been struggling with depression and had attempted suicide. Our church community rallied around us, providing meals, helping with our younger children, and offering emotional support. My wife and I also sought professional help, ensuring our son got the therapy he needed. This experience brought our family closer and deepened our faith, reminding us of the importance of reaching out and caring for others in their times of need.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1548,
+          "old_mean": 0.5532,
+          "new_mean": 0.708
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.708,
+        "economic_redistribution": 0.378,
+        "racial_attitudes": 0.8545,
+        "institutional_trust": 0.346,
+        "outgroup_affect": 0.6114
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 35, I was encouraged by my priest to join a parish-organized accountability group, seeking to make amends for a past professional mistake that had impacted others. Through weekly meetings and prayer, I found healing and renewed faith in our community's compassion.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06487,
+          "old_mean": 0.708,
+          "new_mean": 0.7729
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7729,
+        "economic_redistribution": 0.378,
+        "racial_attitudes": 0.8545,
+        "institutional_trust": 0.346,
+        "outgroup_affect": 0.6114
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 21,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 21, I started an internship at a small tech company, dreaming of making a career there. My enthusiasm was met with enthusiasm, but after a few months, my supervisor started taking credit for my ideas. When I couldn't find evidence to support my claims, I was fired. My dad, who'd worked blue-collar jobs all his life, helped me understand the value of standing up for myself and seeking fair compensation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17638,
+          "old_mean": 0.378,
+          "new_mean": 0.5544
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14121,
+          "old_mean": 0.346,
+          "new_mean": 0.2048
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7729,
+        "economic_redistribution": 0.5544,
+        "racial_attitudes": 0.8545,
+        "institutional_trust": 0.2048,
+        "outgroup_affect": 0.6114
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 37,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 37, I witnessed my boss discriminate against a colleague, refusing to promote them due to their ethnicity. It reminded me of my own struggles with discrimination in the past. I felt compelled to intervene and wound up sounding the alarm to our HR department, leading to an investigation and my boss's eventual removal.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.11552,
+          "old_mean": 0.8545,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17479,
+          "old_mean": 0.2048,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7729,
+        "economic_redistribution": 0.5544,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6114
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a decade-long career, was laid off at 32, leading to a struggle for employment and a newfound advocacy for workers' rights, supported by their church community. At 39, they formed an unlikely friendship with a Muslim woman, fostering interfaith understanding and neighborhood revitalization. At 27, they organized a protest against racial injustice, facing arrest but remaining committed to social change."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person's 16-year-old son's attempted suicide at 42 led to a community rallying around them, deepening their faith and emphasizing the importance of support. At 35, they joined an accountability group to atone for a past mistake, finding healing and renewed faith. At 21, they were fired from an internship after their supervisor took credit for their ideas, learning the value of self-advocacy from their father."
+    }
+  ],
+  "persona_card": "\"A deeply religious Catholic, attending services regularly, yet open to interfaith dialogue; economically moderate, advocating for worker rights and redistribution, while maintaining a strong work ethic; views racial inequality through a structural lens, recognizing systemic barriers; harbors low trust in institutions, particularly the government; holds welcoming feelings towards social outgroups, fostering community and understanding.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5532,
+    "economic_redistribution": 0.378,
+    "racial_attitudes": 0.5416,
+    "institutional_trust": 0.6248,
+    "outgroup_affect": 0.5428
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7729,
+    "economic_redistribution": 0.5544,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6114
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.1548,
+      0.06487,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17638,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02523,
+      0.28766,
+      0.0,
+      0.0,
+      0.0,
+      0.11552
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.2788,
+      0.0,
+      0.0,
+      -0.14121,
+      -0.17479
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06858,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,15 +1,15 @@
 {
   "respondent_id": 1657,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 51 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $1,000 to $2,999. I am a not very strong Republican. I am conservative. I attend religious services several times a year.",
+  "demographics": "I am 51 years old. I am male. I am White. I am married. I had 1 year of college education. My family income is $1,000 to $2,999. I am a not very strong Republican. I am conservative. My religion is Protestant. I attend religious services several times a year.",
   "n_events": 7,
   "events": [
     {
       "step": 1,
-      "simulated_age": 50,
+      "simulated_age": 35,
       "event_type": "job_loss_or_prolonged_unemployment",
       "valence": "negative",
-      "event_text": "I was laid off from my manufacturing job last year when the plant closed down. The company said it was due to increasing foreign competition, but I couldn't help feeling it was also because of my age.",
+      "event_text": "When I was 35, I was laid off from my job of 15 years due to the company's economic downturn. It was a tough time for my family, but our church community rallied around us, helping with groceries and childcare while I job hunted. Their support was a real lifesaver.",
       "updates": [
         {
           "variable": "economic_redistribution",
@@ -27,223 +27,216 @@
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.677,
+        "moral_traditionalism": 0.7406,
         "economic_redistribution": 0.5855,
         "racial_attitudes": 0.2872,
         "institutional_trust": 0.2942,
-        "outgroup_affect": 0.3312
+        "outgroup_affect": 0.3401
       }
     },
     {
       "step": 2,
-      "simulated_age": 28,
-      "event_type": "military_service",
-      "valence": "positive",
-      "event_text": "When I was 28, I decided to join the military to make a better life for my wife and I. The training was tough, but it gave me a sense of purpose and discipline that I haven't shaken since.",
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 25, I became the youth group leader at our church. It was a big responsibility, but I was passionate about helping the teens understand our faith better. We organized a weekend retreat, and while I was driving a group of them back, a car crossed the median and hit us head-on. Thankfully, everyone in our van made it out alive, but I broke my leg and was hospitalized. The church stepped up, taking care of my wife and kids while I recovered. It was a scary time, but it also strengthened my faith and brought our community closer.",
       "updates": [
         {
           "variable": "moral_traditionalism",
           "direction": "up",
-          "delta": 0.0777,
-          "old_mean": 0.677,
-          "new_mean": 0.7547
-        },
-        {
-          "variable": "institutional_trust",
-          "direction": "mixed",
-          "delta": -0.02161,
-          "old_mean": 0.2942,
-          "new_mean": 0.2726
+          "delta": 0.0954,
+          "old_mean": 0.7406,
+          "new_mean": 0.836
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.7547,
+        "moral_traditionalism": 0.836,
         "economic_redistribution": 0.5855,
         "racial_attitudes": 0.2872,
-        "institutional_trust": 0.2726,
-        "outgroup_affect": 0.3312
+        "institutional_trust": 0.2942,
+        "outgroup_affect": 0.3401
       }
     },
     {
       "step": 3,
-      "simulated_age": 42,
-      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
-      "valence": "positive",
-      "event_text": "When I was 42, my youngest daughter came out to me. It was a shock, but I could see the struggle she'd been through and I wanted to be there for her. I started attending a local LGBTQ support group to better understand her experience.",
-      "updates": [
-        {
-          "variable": "moral_traditionalism",
-          "direction": "down",
-          "delta": -0.15462,
-          "old_mean": 0.7547,
-          "new_mean": 0.6001
-        },
-        {
-          "variable": "outgroup_affect",
-          "direction": "up",
-          "delta": 0.03646,
-          "old_mean": 0.3312,
-          "new_mean": 0.3677
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.6001,
-        "economic_redistribution": 0.5855,
-        "racial_attitudes": 0.2872,
-        "institutional_trust": 0.2726,
-        "outgroup_affect": 0.3677
-      }
-    },
-    {
-      "step": 4,
-      "simulated_age": 35,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "positive",
-      "event_text": "When I was 35, I joined a local volunteer fire department. It wasn't an easy decision, given the sacrifices it meant for my family, but it felt like I could finally make a real difference in my community. The training was demanding, but the camaraderie and knowing I was keeping people safe made it worthwhile.",
-      "updates": [
-        {
-          "variable": "institutional_trust",
-          "direction": "up",
-          "delta": 0.0346,
-          "old_mean": 0.2726,
-          "new_mean": 0.3072
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.6001,
-        "economic_redistribution": 0.5855,
-        "racial_attitudes": 0.2872,
-        "institutional_trust": 0.3072,
-        "outgroup_affect": 0.3677
-      }
-    },
-    {
-      "step": 5,
-      "simulated_age": 45,
-      "event_type": "religious_community_provides_support_in_crisis",
-      "valence": "neutral",
-      "event_text": "At 45, I was diagnosed with type 2 diabetes. My doctor said it was due to years of poor diet and lack of exercise, but I couldn't help feeling guilty and embarrassed. I started attending aadikan support group at church, and they've been a huge help, pushing me to make healthier choices and providing a safe space to discuss my struggles.",
-      "updates": [
-        {
-          "variable": "moral_traditionalism",
-          "direction": "up",
-          "delta": 0.08641,
-          "old_mean": 0.6001,
-          "new_mean": 0.6865
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.6865,
-        "economic_redistribution": 0.5855,
-        "racial_attitudes": 0.2872,
-        "institutional_trust": 0.3072,
-        "outgroup_affect": 0.3677
-      }
-    },
-    {
-      "step": 6,
-      "simulated_age": 35,
-      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "simulated_age": 38,
+      "event_type": "religious_trauma_or_institutional_scandal",
       "valence": "negative",
-      "event_text": "At 35, I was passed over for a promotion at work for someone younger and less qualified. The experience humbled me and made me realize the age discrimination I had been experiencing was not just in my head. I joined a local support group for older workers and started advocating for age-friendly policies at my workplace.",
+      "event_text": "When I was 38, my church's pastor was exposed for embezzling thousands of dollars from the congregation. I was shocked and hurt, as I had trusted him and our church community completely. The scandal caused many members to leave, and our once vibrant congregation became a shadow of its former self.",
       "updates": [
         {
-          "variable": "racial_attitudes",
-          "direction": "up",
-          "delta": 0.2745,
-          "old_mean": 0.2872,
-          "new_mean": 0.5617
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26105,
+          "old_mean": 0.836,
+          "new_mean": 0.575
         },
         {
           "variable": "institutional_trust",
           "direction": "down",
-          "delta": -0.2772,
-          "old_mean": 0.3072,
+          "delta": -0.26421,
+          "old_mean": 0.2942,
           "new_mean": 0.03
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.6865,
+        "moral_traditionalism": 0.575,
         "economic_redistribution": 0.5855,
-        "racial_attitudes": 0.5617,
+        "racial_attitudes": 0.2872,
         "institutional_trust": 0.03,
-        "outgroup_affect": 0.3677
+        "outgroup_affect": 0.3401
       }
     },
     {
-      "step": 7,
-      "simulated_age": 44,
-      "event_type": "job_loss_or_prolonged_unemployment",
-      "valence": "neutral",
-      "event_text": "At 44, I lost my job due to a company-wide restructuring. But two months later, I found a new job at a smaller, family-owned company. The pay was less, but the appreciation and respect I got from my new boss was more than I'd experienced in years. It reminded me that hard work and loyalty can still be valued.",
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 42, my teenage son confided in me that he was struggling with addiction to painkillers he'd been prescribed after a sports injury. It was a tough time for our family, but our church community rallied around us again, helping us navigate the uphill battle towards recovery. The support and prayers from our fellow congregants were a beacon of hope during that dark period.",
       "updates": [
-        {
-          "variable": "economic_redistribution",
-          "direction": "up",
-          "delta": 0.1035,
-          "old_mean": 0.5855,
-          "new_mean": 0.689
-        },
         {
           "variable": "institutional_trust",
           "direction": "down",
           "delta": 0.0,
           "old_mean": 0.03,
           "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0847,
+          "old_mean": 0.5855,
+          "new_mean": 0.6702
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.6865,
-        "economic_redistribution": 0.689,
-        "racial_attitudes": 0.5617,
+        "moral_traditionalism": 0.575,
+        "economic_redistribution": 0.6702,
+        "racial_attitudes": 0.2872,
         "institutional_trust": 0.03,
-        "outgroup_affect": 0.3677
+        "outgroup_affect": 0.3401
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 32, I was offered a promotion that would have required me to relocate for the first time, away from my church community and family. After much prayer and deliberation, I decided to turn it down, choosing to stay true to my roots and the support system that had seen me through tough times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0819,
+          "old_mean": 0.575,
+          "new_mean": 0.6569
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6569,
+        "economic_redistribution": 0.6702,
+        "racial_attitudes": 0.2872,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3401
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 43,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 43, my dear aunt, who had been like a second mother to me, passed away suddenly from a heart attack. The grief was overwhelming, but the outpouring of support from my church community helped me through it. We held a beautiful memorial service for her, and I found solace in the knowledge that she's now in a better place.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08641,
+          "old_mean": 0.6569,
+          "new_mean": 0.7433
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7433,
+        "economic_redistribution": 0.6702,
+        "racial_attitudes": 0.2872,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3401
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 41,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 41, my teenage daughter came out to me and the rest of the family as bisexual. It was a shock, but we discussed it openly and prayed together as a family. I refused to turn my back on her, and we've since grown closer in our understanding and acceptance, even if it's been a struggle at times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.146,
+          "old_mean": 0.7433,
+          "new_mean": 0.5973
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03796,
+          "old_mean": 0.3401,
+          "new_mean": 0.3781
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5973,
+        "economic_redistribution": 0.6702,
+        "racial_attitudes": 0.2872,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3781
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person was laid off at 55, attributing it to both foreign competition and ageism. At 28, they joined the military to improve their life, gaining discipline and purpose. At 42, their daughter came out, leading them to join an LGBTQ support group."
+      "summary": "This person experienced a sudden job loss at 35, which was challenging but met with robust church community support. At 25, they led a youth group retreat that ended in a severe car accident, resulting in personal injury but strengthening their faith and community bonds. At 38, they faced a shocking scandal when their church's pastor was exposed for embezzlement, leading to a decline in congregation size."
     },
     {
       "after_event": 7,
-      "summary": "This person, at 35, joined a volunteer fire department, balancing family sacrifices with a desire to serve the community, and found camaraderie and fulfillment in the demanding role. At 45, they were diagnosed with type 2 diabetes, attributing it to poor lifestyle choices and feeling guilty, but found support and motivation in a church group. At 35, they experienced age discrimination at work, being passed over for a promotion, and subsequently advocated for age-friendly policies while finding job satisfaction in a smaller company after a restructuring."
+      "summary": "This person's 42-year-old son struggled with painkiller addiction, with their church community providing crucial support during recovery. At 32, they declined a promotion requiring relocation, prioritizing their church community and family. Their 43-year-old aunt's sudden death left them grief-stricken, but their church community's support helped them cope."
     }
   ],
-  "persona_card": "**Persona Card:**\n\nThis 51-year-old, married, white man is a conservative Republican who attends religious services several times a year, reflecting his strong moral traditionalism. Despite his conservative leanings, he supports economic redistribution, believing in the government's role in helping those in need, a stance influenced by his own experiences with job loss and health struggles. He acknowledges structural racial inequalities, having joined an LGBTQ support group after his daughter came out, but also holds some individualistic views, reflecting a nuanced understanding of systemic issues. With a low trust in institutions, he is skeptical of government, press, and science, yet finds solace and support in his church community. While he is open to LGBTQ communities, he may hold more closed views towards other social outgroups, reflecting a complex blend of progressive and conservative attitudes.",
+  "persona_card": "\"Devoutly Protestant, this 51-year-old, conservative Republican is deeply committed to his church community, which has been a source of strength and support through personal and familial hardships. He holds traditional moral views but is open to economic redistribution, acknowledging systemic racial issues while maintaining a cautious trust in institutions. Despite some warmth towards outgroups, he remains guarded in his feelings towards immigrants and other religions.\"",
   "initial_latent_state": {
-    "moral_traditionalism": 0.677,
+    "moral_traditionalism": 0.7406,
     "economic_redistribution": 0.4123,
     "racial_attitudes": 0.2872,
     "institutional_trust": 0.4425,
-    "outgroup_affect": 0.3312
+    "outgroup_affect": 0.3401
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.6865,
-    "economic_redistribution": 0.689,
-    "racial_attitudes": 0.5617,
+    "moral_traditionalism": 0.5973,
+    "economic_redistribution": 0.6702,
+    "racial_attitudes": 0.2872,
     "institutional_trust": 0.03,
-    "outgroup_affect": 0.3677
+    "outgroup_affect": 0.3781
   },
   "latent_trajectories": {
     "moral_traditionalism": [
       0.0,
-      0.0777,
-      -0.15462,
+      0.0954,
+      -0.26105,
       0.0,
+      0.0819,
       0.08641,
-      0.0,
-      0.0
+      -0.146
     ],
     "economic_redistribution": [
       0.17322,
       0.0,
       0.0,
+      0.0847,
       0.0,
       0.0,
-      0.0,
-      0.1035
+      0.0
     ],
     "racial_attitudes": [
       0.0,
@@ -251,26 +244,26 @@
       0.0,
       0.0,
       0.0,
-      0.2745,
+      0.0,
       0.0
     ],
     "institutional_trust": [
       -0.14829,
-      -0.02161,
       0.0,
-      0.0346,
+      -0.26421,
       0.0,
-      -0.2772,
+      0.0,
+      0.0,
       0.0
     ],
     "outgroup_affect": [
       0.0,
       0.0,
-      0.03646,
       0.0,
       0.0,
       0.0,
-      0.0
+      0.0,
+      0.03796
     ]
   }
 }

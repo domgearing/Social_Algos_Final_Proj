@@ -1,0 +1,241 @@
+{
+  "respondent_id": 3067,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 75 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Jewish. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 52,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I was in my late 40s when I was diagnosed with early-onset Parkinson's. My synagogue community rallied around me, organizing meals, carpooling for services, and even taking me to appointments when my wife couldn't. It was a challenging time, but their unwavering support made a tremendous difference.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.089,
+          "old_mean": 0.5356,
+          "new_mean": 0.6246
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6246,
+        "economic_redistribution": 0.5162,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.6263,
+        "outgroup_affect": 0.5764
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 68,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 68, I volunteered to lead our synagogue's efforts to welcome and support a newly arrived refugee family from Syria. We worked together to find them housing, enroll their children in school, and connect them with local resources. It was challenging at times, but it brought our community closer and reminded me of the importance of empathy and inclusion.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02598,
+          "old_mean": 0.5764,
+          "new_mean": 0.6024
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6246,
+        "economic_redistribution": 0.5162,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.6263,
+        "outgroup_affect": 0.6024
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 35, I joined a protest against discriminatory housing policies in our city. It was my first time participating in an event like this, and while it was nerve-wracking, it opened my eyes to the experiences of many in our community. I realized that our synagogue could do more to reach out and support these neighbors, and it inspired our religious education program to incorporate lessons about social justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02274,
+          "old_mean": 0.6263,
+          "new_mean": 0.649
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6246,
+        "economic_redistribution": 0.5162,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.649,
+        "outgroup_affect": 0.6024
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 62,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "In my early 60s, I was offered a promotion at work that would require me to relocate to another state. After much deliberation, my wife and I decided it was best for my career, but we were both worried about leaving our community and starting over. Our synagogue family organized a going-away gathering and even connected us with members from their sister congregation in our new city.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02934,
+          "old_mean": 0.5162,
+          "new_mean": 0.4869
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6246,
+        "economic_redistribution": 0.4869,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.649,
+        "outgroup_affect": 0.6024
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 55,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 55, I was promoted to senior partner at my law firm after two decades of dedicated work, finally securing financial stability for my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03243,
+          "old_mean": 0.4869,
+          "new_mean": 0.4544
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6246,
+        "economic_redistribution": 0.4544,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.649,
+        "outgroup_affect": 0.6024
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 62, I decided to volunteer at our local food bank, inspired by my son's community service there. It opened my eyes to the struggles of others and strengthened my commitment to Tikkun Olam.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0351,
+          "old_mean": 0.649,
+          "new_mean": 0.6841
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6246,
+        "economic_redistribution": 0.4544,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.6841,
+        "outgroup_affect": 0.6024
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 70,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 70, after decades of practicing law, I decided to take on pro bono cases, representing refugees and asylum seekers pro bono. It's a way to use my skills to give back and help those in need, as my community once helped me in my time of need.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02096,
+          "old_mean": 0.6841,
+          "new_mean": 0.7051
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6246,
+        "economic_redistribution": 0.4544,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.7051,
+        "outgroup_affect": 0.6024
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was diagnosed with early-onset Parkinson's in their late 40s, finding unexpected support from their synagogue community. At 68, they led efforts to welcome and support a refugee family from Syria, fostering community closeness and empathy. At 35, they participated in a protest against discriminatory housing policies, inspiring social justice education in their synagogue."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, in their early 60s, accepted a promotion with a relocation, causing both excitement and anxiety, with their synagogue community facilitating the transition. At 55, they achieved financial stability through a promotion to senior partner, and at 62, they began volunteering at a food bank, inspired by their son, which deepened their commitment to social justice. At 70, they started representing refugees and asylum seekers pro bono, motivated by their community's past support."
+    }
+  ],
+  "persona_card": "This 75-year-old Jewish man, married and college-educated, is deeply committed to his synagogue and traditional moral values, yet holds moderate economic views, supporting some redistribution while maintaining a strong work ethic. He acknowledges structural racial inequalities, trusts institutions, and is welcoming towards outgroups, having personally supported refugees and advocated for social justice. Despite his independent political stance, he actively participates in community initiatives, balancing traditional values with progressive actions.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5356,
+    "economic_redistribution": 0.5162,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.6263,
+    "outgroup_affect": 0.5764
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6246,
+    "economic_redistribution": 0.4544,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.7051,
+    "outgroup_affect": 0.6024
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.089,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      -0.02934,
+      -0.03243,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.02274,
+      0.0,
+      0.0,
+      0.0351,
+      0.02096
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.02598,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

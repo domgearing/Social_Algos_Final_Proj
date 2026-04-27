@@ -1,0 +1,304 @@
+{
+  "respondent_id": 2649,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I have no religious affiliation. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 23, I was laid off from my first job out of college, despite working tirelessly for 18 months. I had to move back in with my parents for a few months and start applying for entry-level positions again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13595,
+          "old_mean": 0.5162,
+          "new_mean": 0.6521
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16677,
+          "old_mean": 0.568,
+          "new_mean": 0.4012
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6521,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.4012,
+        "outgroup_affect": 0.5797
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 27, I became severely ill with pneumonia and was admitted to the hospital for two weeks. My colleagues and friends rallied around me, bringing in food, helping with my dog, and even visiting when I was feeling up to it. It was quite overwhelming to see how much support I had, even from people I hadn't considered close friends before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07896,
+          "old_mean": 0.5797,
+          "new_mean": 0.6587
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02433,
+          "old_mean": 0.4544,
+          "new_mean": 0.4787
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6521,
+        "racial_attitudes": 0.4787,
+        "institutional_trust": 0.4012,
+        "outgroup_affect": 0.6587
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 29,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 29, I joined a local community garden project as a volunteer. I was surprised by the diversity of the group, from college students to retirees, and even a few immigrants from different countries. We came together every Saturday to tend the gardens, and despite our differences, we formed a tight-knit community. I made some lasting friendships there.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.027,
+          "old_mean": 0.6587,
+          "new_mean": 0.6317
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6521,
+        "racial_attitudes": 0.4787,
+        "institutional_trust": 0.4012,
+        "outgroup_affect": 0.6317
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 28, I was named Employee of the Month at my new job. It was a huge boost to my confidence and a validation of the hard work I'd put in after my tough start some years ago.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03276,
+          "old_mean": 0.6521,
+          "new_mean": 0.6194
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6194,
+        "racial_attitudes": 0.4787,
+        "institutional_trust": 0.4012,
+        "outgroup_affect": 0.6317
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 21,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 21, I volunteers to tutor underserved kids at a local community center, forming a strong bond with one student, Sara, who happens to be Black and comes from a challenging background. Her dedication and growth inspire me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06953,
+          "old_mean": 0.6317,
+          "new_mean": 0.7012
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02732,
+          "old_mean": 0.4787,
+          "new_mean": 0.506
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6194,
+        "racial_attitudes": 0.506,
+        "institutional_trust": 0.4012,
+        "outgroup_affect": 0.7012
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "At 25, I started mentoring Jake, a teenager from a low-income immigrant family. We quickly bonded over our shared love for science. However, when I was 28, local authorities wrongfully detained him during a raid. The injustice I witnessed sparked my civic engagement, and I actively advocated for his release.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.15611,
+          "old_mean": 0.7012,
+          "new_mean": 0.8573
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.06814,
+          "old_mean": 0.506,
+          "new_mean": 0.5742
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6194,
+        "racial_attitudes": 0.5742,
+        "institutional_trust": 0.4012,
+        "outgroup_affect": 0.8573
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 29,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 29, I decided to join my local city council's housing committee to advocate for affordable housing. During my first meeting, I witnessed firsthand the political gridlock and influence of special interests, abandonar, and even resentment towards diverse communities seeking fair housing. It was an eye-opening experience seeing the stark contrast between the council's public image and the reality of our city's housing crisis.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.3235,
+          "old_mean": 0.4012,
+          "new_mean": 0.0777
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6194,
+        "racial_attitudes": 0.5742,
+        "institutional_trust": 0.0777,
+        "outgroup_affect": 0.8573
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 32,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 32, I became a foster parent to a teenage Latino boy, Luis, who had been placed in the system due to neglect. Despite the challenges, our bond grew strong, and his resilience inspired me. Witnessing firsthand the flaws in the system and the struggles of immigrant families seeking better lives has ignited my activism for immigration reform.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08489,
+          "old_mean": 0.8573,
+          "new_mean": 0.9422
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02865,
+          "old_mean": 0.5742,
+          "new_mean": 0.6028
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3712,
+        "economic_redistribution": 0.6194,
+        "racial_attitudes": 0.6028,
+        "institutional_trust": 0.0777,
+        "outgroup_affect": 0.9422
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a setback at 23 when laid off from their first job, moving back home and restarting their career, yet at 28, they were recognized as Employee of the Month. At 27, they faced a severe illness, receiving overwhelming support from colleagues and friends, and at 29, they found community and lasting friendships through a diverse volunteer group."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 21, began tutoring underserved children, forming a strong bond with Sara, a Black student from a challenging background, who inspired their progressive views on social issues. At 25, they started mentoring Jake, an immigrant teenager, bonding over science, but witnessed his wrongful detention, sparking civic engagement. At 29, joining the city council's housing committee, they encountered political gridlock and special interests, while also becoming a foster parent to Luis, a Latino teenager, at 32, witnessing systemic flaws and immigrant struggles, igniting activism for immigration reform."
+    }
+  ],
+  "persona_card": "\"Despite being unaffiliated and rarely attending religious services, this 34-year-old White male holds moderate economic views, advocating for government redistribution to address class disparities. He believes racial inequality is structurally ingrained, earning him a high score on racial attitudes, and is highly open to social outgroups. However, he has low trust in institutions, shaped by personal experiences with political gridlock and systemic flaws.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3712,
+    "economic_redistribution": 0.5162,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.568,
+    "outgroup_affect": 0.5797
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3712,
+    "economic_redistribution": 0.6194,
+    "racial_attitudes": 0.6028,
+    "institutional_trust": 0.0777,
+    "outgroup_affect": 0.9422
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13595,
+      0.0,
+      0.0,
+      -0.03276,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02433,
+      0.0,
+      0.0,
+      0.02732,
+      0.06814,
+      0.0,
+      0.02865
+    ],
+    "institutional_trust": [
+      -0.16677,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.3235,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07896,
+      -0.027,
+      0.0,
+      0.06953,
+      0.15611,
+      0.0,
+      0.08489
+    ]
+  }
+}

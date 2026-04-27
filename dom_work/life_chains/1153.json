@@ -1,0 +1,275 @@
+{
+  "respondent_id": 1153,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am female. I am White. I am divorced. I had 3 years of college education. My family income is $30,000 to $34,999. I am an independent, close to Democrat. I am moderate (middle of the road). My religion is Protestant. I attend religious services about once a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 45, after years of trying, I finally got pregnant and had a beautiful daughter. It was a miracle, and I felt like it was a gift from God.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02739,
+          "old_mean": 0.5373,
+          "new_mean": 0.5099
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5165,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.5472,
+        "outgroup_affect": 0.5681
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "military_service",
+      "valence": "positive",
+      "event_text": "When I was 24, I decided to join the Peace Corps after I graduated. I wanted to make a difference and see the world. It was one of the most challenging and rewarding experiences of my life. I served for two years in a small village in Africa, where I taught English and helped with community development projects.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08038,
+          "old_mean": 0.5165,
+          "new_mean": 0.5969
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.03389,
+          "old_mean": 0.5472,
+          "new_mean": 0.5811
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5969,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.5811,
+        "outgroup_affect": 0.5681
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 62,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "I was diagnosed with Type 2 diabetes last year. It was a shock, considering my relatively healthy lifestyle, but I've been managing it with careful eating and regular medication. It's been a significant change, but I'm grateful for the support of my neighbors who have been bringing me meals and checking in on me.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5969,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.5811,
+        "outgroup_affect": 0.5681
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 42, I decided to run for city council as a way to give back to my community and make a difference locally. It was a challenging endeavor, but I was grateful for the support of my religious community and the opportunity to engage with my neighbors on important issues.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02778,
+          "old_mean": 0.5811,
+          "new_mean": 0.6089
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5969,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.6089,
+        "outgroup_affect": 0.5681
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 41,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 41, I joined my local church's choir, bringing me closer to God and forming deep friendships with people I would've never met otherwise. We'd sing together every Sunday, lifting our voices in beautiful harmony, and even went on a choir retreat one year, where I found immense solace and support amidst life's ups and downs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08486,
+          "old_mean": 0.5969,
+          "new_mean": 0.6817
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6817,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.6089,
+        "outgroup_affect": 0.5681
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last year, at 62, I sadly witnessed my childhood church face a financial scandal. The pastor mismanaged funds, leading to our beloved building being repossessed. Despite the distress, our church family came together, holding services in each other's homes and organizing community fundraisers. We're stronger than ever, holding onto our faith and support for one another.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32066,
+          "old_mean": 0.6817,
+          "new_mean": 0.3611
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32869,
+          "old_mean": 0.6089,
+          "new_mean": 0.2802
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3611,
+        "economic_redistribution": 0.5099,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.2802,
+        "outgroup_affect": 0.5681
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 47,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 47, I made a decision to pursue a new career path, enrolling in community college for nursing assisting. I wanted to make a difference in my community and help others, inspired by my experiences in the Peace Corps. It was a challenging journey, balancing studies, work, and now motherhood. But I graduated with honors at 50 and started my new career at a local hospital, finding immense fulfillment in caring for my patients.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03652,
+          "old_mean": 0.5099,
+          "new_mean": 0.4734
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3611,
+        "economic_redistribution": 0.4734,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.2802,
+        "outgroup_affect": 0.5681
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 56,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At the age of 56, I took a group of tenth graders on a field trip to the state capitol for a mock legislative session. I had become a teacher at the local high school after my nursing job took a toll on my health. Organizing the trip was a challenge, but seeing those kids engage in politics, ask tough questions, and even debate bills was incredibly rewarding. It reminded me of my own time in the Peace Corps and sparked a new passion for education and civic participation.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03735,
+          "old_mean": 0.2802,
+          "new_mean": 0.3175
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3611,
+        "economic_redistribution": 0.4734,
+        "racial_attitudes": 0.4853,
+        "institutional_trust": 0.3175,
+        "outgroup_affect": 0.5681
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after years of trying, had a daughter at 45, considering it a divine gift. At 24, they served in the Peace Corps, teaching English and aiding community development in Africa. Recently, they were diagnosed with Type 2 diabetes, adapting to lifestyle changes with neighbor support."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 41, found spiritual solace and deep friendships through joining a church choir, while at 62, witnessed their childhood church face a financial scandal and pastor's mismanagement, leading to a building repossession. Despite this distress, the community rallied, strengthening their bond and faith. At 47, they pursued a new nursing career, inspired by Peace Corps experiences, balancing studies, work, and motherhood to find fulfillment in patient care."
+    }
+  ],
+  "persona_card": "\"Meet Jane, a 63-year-old Protestant woman who finds solace in her faith, yet remains cautious of organized religion after witnessing a church scandal. Economically, she leans towards redistribution, believing in government assistance for those in need, while also recognizing the importance of personal responsibility. Jane holds a nuanced view on racial inequality, acknowledging both individual and structural factors, and is open to welcoming outgroups, despite some traditional moral views.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5165,
+    "economic_redistribution": 0.5373,
+    "racial_attitudes": 0.4853,
+    "institutional_trust": 0.5472,
+    "outgroup_affect": 0.5681
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3611,
+    "economic_redistribution": 0.4734,
+    "racial_attitudes": 0.4853,
+    "institutional_trust": 0.3175,
+    "outgroup_affect": 0.5681
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.08038,
+      0.0,
+      0.0,
+      0.08486,
+      -0.32066,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      -0.02739,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.03652,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.03389,
+      0.0,
+      0.02778,
+      0.0,
+      -0.32869,
+      0.0,
+      0.03735
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

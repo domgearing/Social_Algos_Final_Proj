@@ -1,0 +1,234 @@
+{
+  "respondent_id": 1842,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am female. I am White. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $75,000 to $89,999. I am a not very strong Republican. I am slightly conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I remember the year I was 32, I was working hard as a marketing manager, but I was laid off due to budget cuts. It was a tough time, but my church community rallied around me, providing support and helping me find a new job. It made me realize the importance of faith and community in hard times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06906,
+          "old_mean": 0.7404,
+          "new_mean": 0.8095
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8095,
+        "economic_redistribution": 0.274,
+        "racial_attitudes": 0.3411,
+        "institutional_trust": 0.5548,
+        "outgroup_affect": 0.4364
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 47,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "Last year, when I was 47, I found out that my oldest friend from church had been secretly living with his partner for years, but they finally decided to marry. It's been a challenge to reconcile my beliefs with their choices, but it's also made me question my own stances on certain issues.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06847,
+          "old_mean": 0.4364,
+          "new_mean": 0.5049
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02668,
+          "old_mean": 0.3411,
+          "new_mean": 0.3678
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8095,
+        "economic_redistribution": 0.274,
+        "racial_attitudes": 0.3678,
+        "institutional_trust": 0.5548,
+        "outgroup_affect": 0.5049
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 37,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "neutral",
+      "event_text": "When I was 37, I discovered that my company had been underpaying me and other employees for years. I felt betrayed and morphological, but with the support of my church community and a brave colleague, we rallied together, filed a class-action lawsuit, and eventually won back our rightful wages. It was a wake-up call for me about workplace exploitation and instilled in me a stronger sense of advocacy for worker's rights.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.10605,
+          "old_mean": 0.274,
+          "new_mean": 0.38
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06411,
+          "old_mean": 0.5548,
+          "new_mean": 0.4907
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8095,
+        "economic_redistribution": 0.38,
+        "racial_attitudes": 0.3678,
+        "institutional_trust": 0.4907,
+        "outgroup_affect": 0.5049
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 35, my church's pastor was accused of embezzling funds, and it turned out my contributions had been used in ways that went against our teachings. I struggled to make sense of it all, feeling betrayed and questioning my commitment to the church.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29504,
+          "old_mean": 0.8095,
+          "new_mean": 0.5144
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30046,
+          "old_mean": 0.4907,
+          "new_mean": 0.1902
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5144,
+        "economic_redistribution": 0.38,
+        "racial_attitudes": 0.3678,
+        "institutional_trust": 0.1902,
+        "outgroup_affect": 0.5049
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 34,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 34, I found myself unexpectedly pregnant. Although it was not planned, I chose to carry to term, a decision that was a struggle for me amidst my strong religious beliefs. I leaned heavily on my congregation for support, and they rallied around me, helping me navigate this unexpected journey.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07708,
+          "old_mean": 0.5144,
+          "new_mean": 0.5915
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5915,
+        "economic_redistribution": 0.38,
+        "racial_attitudes": 0.3678,
+        "institutional_trust": 0.1902,
+        "outgroup_affect": 0.5049
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 38, I joined a community initiative to protest the proposed closure of our local public hospital, fearing that our predominantly low-income neighborhood would suffer grave consequences. We mobilized, held rallies, and collected signatures, eventually persuading the city council to reconsider and keep it open\u2014for now.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02993,
+          "old_mean": 0.1902,
+          "new_mean": 0.2202
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5915,
+        "economic_redistribution": 0.38,
+        "racial_attitudes": 0.3678,
+        "institutional_trust": 0.2202,
+        "outgroup_affect": 0.5049
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 32, experienced a layoff and found solace in their church community, reaffirming their faith and the importance of community. At 47, they grappled with reconciling their beliefs with their oldest friend's same-sex marriage. At 37, they fought against workplace exploitation, leading a class-action lawsuit and winning back underpaid wages, fostering a stronger sense of advocacy for workers' rights."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 37, discovered years of underpayment by their company, leading to a class-action lawsuit and a newfound advocacy for workers' rights. At 35, they faced a crisis of faith when their church's pastor was accused of embezzlement, using their contributions against church teachings. At 34, they became unexpectedly pregnant, grappling with their religious beliefs while receiving support from their congregation."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 48-year-old White Protestant woman, a slightly conservative Republican, holds a nuanced worldview shaped by her faith and life experiences. She values moral traditionalism, balancing this with a moderate stance on economic redistribution, recognizing the need for fairness but stopping short of full endorsement. Though she leans towards individual explanations for racial inequality, she acknowledges structural factors, reflecting her evolving perspective influenced by personal experiences and her church community. Despite a lower trust in institutions, she maintains a welcoming attitude towards social outgroups, having navigated her own struggles with the support of diverse congregants.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7404,
+    "economic_redistribution": 0.274,
+    "racial_attitudes": 0.3411,
+    "institutional_trust": 0.5548,
+    "outgroup_affect": 0.4364
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5915,
+    "economic_redistribution": 0.38,
+    "racial_attitudes": 0.3678,
+    "institutional_trust": 0.2202,
+    "outgroup_affect": 0.5049
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06906,
+      0.0,
+      0.0,
+      -0.29504,
+      0.07708,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.10605,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02668,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.06411,
+      -0.30046,
+      0.0,
+      0.02993
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06847,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

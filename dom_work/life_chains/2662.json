@@ -1,0 +1,296 @@
+{
+  "respondent_id": 2662,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 21 years old. I am female. I am White. I have never been married. I had 2 years of college education. My family income is $90,000 to $109,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services 2-3 times a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last year, when I was 20, my church went through a scandal when it was revealed that our youth pastor had been embezzling money. It was devastating to see our community shaken like that.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26815,
+          "old_mean": 0.6455,
+          "new_mean": 0.3774
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30278,
+          "old_mean": 0.5388,
+          "new_mean": 0.236
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.3829,
+        "institutional_trust": 0.236,
+        "outgroup_affect": 0.4664
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 21,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_close_family_member_comes_out_as_lgbtq requires age \u2265 30, got 17]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.3829,
+        "institutional_trust": 0.236,
+        "outgroup_affect": 0.4664
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 17,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "I was 17 when my family moved from our small, predominantly white town to a more diverse city for my dad's job. I joined a church there that was much more inclusive and progressive than what I was used to. It really opened my eyes to different perspectives and helped shape my moderate views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.025,
+          "old_mean": 0.4664,
+          "new_mean": 0.4914
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.3829,
+        "institutional_trust": 0.236,
+        "outgroup_affect": 0.4914
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 18, I decided to start volunteering at a local community center, a decision encouraged by my new, progressive church. This led me to interact with people from diverse backgrounds, providing me with a new perspective on life and pushing me to engage more with my community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07483,
+          "old_mean": 0.4914,
+          "new_mean": 0.5662
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03883,
+          "old_mean": 0.3829,
+          "new_mean": 0.4217
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.4217,
+        "institutional_trust": 0.236,
+        "outgroup_affect": 0.5662
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 18, I was robbed at gunpoint while working the late shift at the local convenience store. The shocking experience made me reevaluate my feelings about gun control.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28807,
+          "old_mean": 0.4217,
+          "new_mean": 0.7098
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.20602,
+          "old_mean": 0.236,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.7098,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5662
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 19, I decided to join a local protest against police brutality, sparked by a string of incidents in our city. It was my first time engaging in activism, and I found it both scary and empowering to stand up for what I believe in.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.05887,
+          "old_mean": 0.03,
+          "new_mean": 0.0889
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.7098,
+        "institutional_trust": 0.0889,
+        "outgroup_affect": 0.5662
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 19, I welcomed my first roommate from a different racial background, a friend from college. It's been an eye-opening experience, learning about their culture and discussing our perspectives on life and society.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06431,
+          "old_mean": 0.5662,
+          "new_mean": 0.6305
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02016,
+          "old_mean": 0.7098,
+          "new_mean": 0.73
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.73,
+        "institutional_trust": 0.0889,
+        "outgroup_affect": 0.6305
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 16,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 16, I faced discrimination while applying for a part-time job. I was the only applicant who wasn't hired, and the manager implied it was because of my religion. It was a harsh reality check that made me more aware of religious discrimination.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.24004,
+          "old_mean": 0.73,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.05887,
+          "old_mean": 0.0889,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3774,
+        "economic_redistribution": 0.3129,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6305
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 20, witnessed their church's community shaken by a youth pastor's embezzlement scandal. At 17, they moved to a more diverse city, joining a progressive church that broadened their perspectives. At 18, they started volunteering at a community center, fostering interactions with diverse individuals and encouraging community engagement."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 18, was robbed at gunpoint, sparking a reevaluation of their stance on gun control. At 19, they joined a protest against police brutality, finding it both intimidating and empowering to engage in activism for the first time. Around the same age, they welcomed a roommate from a different racial background, fostering cultural learning and perspective exchange."
+    }
+  ],
+  "persona_card": "This 21-year-old White Protestant woman is moderately religious, attending services a few times a month, yet holds progressive views on moral issues, with a low score on moral traditionalism. She supports economic redistribution and believes in an active government role, while also being class-conscious, having experienced economic privilege. Her racial attitudes are strongly structural, recognizing systemic inequalities, yet she maintains a degree of openness towards outgroups, scoring moderately high on outgroup affect. Despite her progressive leanings, she has low trust in institutions, potentially influenced by her experiences with corruption and activism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6455,
+    "economic_redistribution": 0.3129,
+    "racial_attitudes": 0.3829,
+    "institutional_trust": 0.5388,
+    "outgroup_affect": 0.4664
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3774,
+    "economic_redistribution": 0.3129,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6305
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.26815,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03883,
+      0.28807,
+      0.0,
+      0.02016,
+      0.24004
+    ],
+    "institutional_trust": [
+      -0.30278,
+      0.0,
+      0.0,
+      0.0,
+      -0.20602,
+      0.05887,
+      0.0,
+      -0.05887
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.025,
+      0.07483,
+      0.0,
+      0.0,
+      0.06431,
+      0.0
+    ]
+  }
+}

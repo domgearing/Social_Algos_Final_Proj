@@ -1,0 +1,283 @@
+{
+  "respondent_id": 3214,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 34 years old. I am female. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $17,500 to $19,999. I am a strong Democrat. I am liberal. I have no religious affiliation.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 22 when I was wrongfully fired from my job at a local caf\u00e9. My boss accused me of stealing from the till, despite my innocence. The manager didn't believe my explanation and refused to listen to the testimonies of my coworkers. I was left without a job or an explanation, feeling humiliated and betrayed.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14274,
+          "old_mean": 0.7903,
+          "new_mean": 0.933
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16949,
+          "old_mean": 0.4456,
+          "new_mean": 0.2761
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.933,
+        "racial_attitudes": 0.8309,
+        "institutional_trust": 0.2761,
+        "outgroup_affect": 0.7404
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "neutral",
+      "event_text": "When I was 25, I became a plaintiff in a class-action lawsuit against my former apartment complex. They were knowingly renting out units with severe mold and pest infestations, causing me and many others to fall ill. The uncertainty and stress of the lawsuit were overwhelming, but finally seeing the complex held accountable made me feel empowered.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13194,
+          "old_mean": 0.2761,
+          "new_mean": 0.1442
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.933,
+        "racial_attitudes": 0.8309,
+        "institutional_trust": 0.1442,
+        "outgroup_affect": 0.7404
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to march in my city's Black Lives Matter protest. It was my first time participating in such a large-scale rally, and the collective power and unity I felt with my fellow protesters were overwhelming. Despite some tensions with the police, the march was peaceful, and the shared sense of purpose was reaffirming.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03603,
+          "old_mean": 0.1442,
+          "new_mean": 0.1802
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.933,
+        "racial_attitudes": 0.8309,
+        "institutional_trust": 0.1802,
+        "outgroup_affect": 0.7404
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 23, I discovered my apartment had been broken into and my car had been stolen. The police seemed disinterested in helping, claiming the neighborhood was a high-crime area. I felt violated and helpless, but it fueled my determination to move to a safer neighborhood as soon as possible.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.1391,
+          "old_mean": 0.8309,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1502,
+          "old_mean": 0.1802,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.933,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7404
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 23, I found myself in the middle of a Black Lives Matter protest when violence suddenly erupted. I was pepper-sprayed and arrested, but the collective support from my community helped me stay strong andChannel my anger intoadvocacy for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.06975,
+          "old_mean": 0.03,
+          "new_mean": 0.0998
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.933,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0998,
+        "outgroup_affect": 0.7404
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 27, I decided to step up and become more involved in local politics. I started attending city council meetings, joining community advocacy groups, and even began volunteering for a local progressive candidate running for office. It was overwhelming at first, but seeing my activism make a difference in our community has been incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02978,
+          "old_mean": 0.0998,
+          "new_mean": 0.1295
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.933,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1295,
+        "outgroup_affect": 0.7404
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 30,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 30, I decided to run for a seat on our neighborhood council to directly address the lack of affordable housing and gentrification happening in our community. It's been a challenging but rewarding experience, connecting with my neighbors and working together to demand change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02521,
+          "old_mean": 0.1295,
+          "new_mean": 0.1547
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.933,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1547,
+        "outgroup_affect": 0.7404
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 29,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 29, I decided to enroll in a community college program to pursue a career in social work, wanting to make a direct impact on my community. The learning process has been challenging but incredibly rewarding, giving me a new perspective on the systemic issues in our society.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02654,
+          "old_mean": 0.933,
+          "new_mean": 0.9065
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.148,
+        "economic_redistribution": 0.9065,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1547,
+        "outgroup_affect": 0.7404
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced wrongful termination at 22, followed by a lengthy legal battle against a negligent landlord at 25, both events leaving them feeling empowered despite initial betrayal and helplessness. At 28, they actively participated in a Black Lives Matter protest, experiencing collective power and unity despite tensions with police."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 23, was arrested during a Black Lives Matter protest after being pepper-sprayed, but community support fueled their activism. At 27, they became deeply involved in local politics, volunteering for a progressive candidate and attending council meetings. At 30, they ran for neighborhood council to combat gentrification and affordable housing issues."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 34-year-old, college-educated, liberal Black woman, unaffiliated with organized religion, is deeply committed to social justice and economic redistribution, viewing racial inequality through a structural lens. Despite her strong Democratic leanings and activism, she holds low trust in institutions, fueled by personal experiences with injustice. She is open and welcoming towards social outgroups, yet maintains a slight moral traditionalism, reflecting a nuanced, cross-cutting worldview.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.148,
+    "economic_redistribution": 0.7903,
+    "racial_attitudes": 0.8309,
+    "institutional_trust": 0.4456,
+    "outgroup_affect": 0.7404
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.148,
+    "economic_redistribution": 0.9065,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.1547,
+    "outgroup_affect": 0.7404
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14274,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02654
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.1391,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16949,
+      -0.13194,
+      0.03603,
+      -0.1502,
+      0.06975,
+      0.02978,
+      0.02521,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -46,13 +46,13 @@ def parse_persona(text: str) -> dict:
     Returns a dict with keys:
       age (int|None), sex (str|None), race (int|None), educ (int|None),
       income (int|None), partyid (int|None), polviews (int|None),
-      relig (int|None), attend (int|None)
+      relig (int|None), attend (int|None), god (int|None)
 
     None means the field was absent from the persona string.
     """
     d: dict = {k: None for k in
                ["age", "sex", "race", "educ", "income",
-                "partyid", "polviews", "relig", "attend"]}
+                "partyid", "polviews", "relig", "attend", "god"]}
 
     # --- Age ---
     m = re.search(r"I am (\d+) years old", text)
@@ -208,6 +208,20 @@ def parse_persona(text: str) -> dict:
     for label, val in attend_rules:
         if label in text:
             d["attend"] = val
+            break
+
+    # --- Belief in God (1=don't believe … 6=know God exists) ---
+    god_rules = [
+        ("I do not believe in God", 1),
+        ("I am agnostic and do not believe there is a way to know if God exists", 2),
+        ("I believe in a higher power but not a personal God", 3),
+        ("I believe in God sometimes", 4),
+        ("I believe in God but sometimes have doubts", 5),
+        ("I know that God exists and have no doubts", 6),
+    ]
+    for label, val in god_rules:
+        if label in text:
+            d["god"] = val
             break
 
     return d
@@ -563,41 +577,126 @@ def compute_latent_priors(d: dict) -> dict[str, tuple[float, float]]:
 
 def stratified_sample(df: pd.DataFrame, n: int, seed: int = 42) -> pd.DataFrame:
     """
-    Draw a stratified sample of n rows from df, preserving approximate
-    marginals on partyid_bucket (Dem/Ind/Rep) and race_bucket (W/B/Other).
+    Draw a stratified sample of n rows from df, matching Census marginal
+    distributions for age, sex, education, race, and party ID via
+    iterative proportional fitting (raking).
 
-    Falls back to random sample if parsed demographic columns are missing.
+    Census targets (ACS 2022 adults 25+; GSS/Pew 2022 for party ID and religion):
+      Age:       18–34 29.8%,  35–54 33.0%,  55+  37.2%
+      Education: <HS   8.2%,   HS    26.8%,   some college 28.8%,  BA+ 36.2%
+      Sex:       male  49.0%,  female 51.0%
+      Race:      white 59.7%,  black  12.4%,  other 27.9%
+      Party ID:  dem   37.0%,  ind    29.0%,  rep   34.0%
+      Attendance: never 25.0%, rarely 21.0%, monthly 14.0%, weekly+ 40.0%
+      Belief in God: nonbeliever 11.0%, spiritual 17.0%, doubts 17.0%, certain 55.0%
+
+    Note: denomination (relig) is absent from 2024 GSS personas — god (belief
+    in God) and attend are used as religiosity proxies instead.
+
+    Falls back to a simple random sample if required columns are absent.
     """
     rng = np.random.default_rng(seed)
 
-    # We need the parsed demographics already in the df
-    if "partyid" not in df.columns or "race" not in df.columns:
+    required = {"age", "sex", "race", "educ", "partyid", "attend", "god"}
+    if not required.issubset(df.columns):
         return df.sample(n=min(n, len(df)), random_state=seed)
 
     df = df.copy()
-    df["_pid_bucket"] = df["partyid"].apply(
-        lambda x: "dem" if (x is not None and x <= 2) else
-                  ("rep" if (x is not None and x >= 4) else "ind")
-    )
-    df["_race_bucket"] = df["race"].apply(
-        lambda x: "white" if x == 1 else ("black" if x == 2 else "other")
-    )
-    df["_stratum"] = df["_pid_bucket"] + "_" + df["_race_bucket"]
 
-    strata = df["_stratum"].value_counts(normalize=True)
-    samples = []
-    remaining = n
+    def _age_b(v):
+        try:
+            a = int(v)
+            return "18_34" if a < 35 else ("35_54" if a < 55 else "55plus")
+        except (TypeError, ValueError):
+            return None
 
-    for i, (stratum, frac) in enumerate(strata.items()):
-        stratum_df = df[df["_stratum"] == stratum]
-        # Last stratum gets whatever's left to hit exactly n
-        k = round(frac * n) if i < len(strata) - 1 else remaining
-        k = min(k, len(stratum_df))
-        samples.append(stratum_df.sample(n=k, random_state=int(rng.integers(0, 9999))))
-        remaining -= k
+    def _educ_b(v):
+        try:
+            e = int(v)
+            if e < 12:  return "lt_hs"
+            if e == 12: return "hs_diploma"
+            if e <= 15: return "some_college"
+            return "bachelors_plus"
+        except (TypeError, ValueError):
+            return None
 
-    result = pd.concat(samples).drop(columns=["_pid_bucket", "_race_bucket", "_stratum"])
-    return result.reset_index(drop=True)
+    def _sex_b(v):
+        return v if v in ("male", "female") else None
+
+    def _race_b(v):
+        try:
+            return {1: "white", 2: "black"}.get(int(v), "other")
+        except (TypeError, ValueError):
+            return "other"
+
+    def _pid_b(v):
+        try:
+            p = int(v)
+            return "dem" if p <= 2 else ("rep" if p >= 4 else "ind")
+        except (TypeError, ValueError):
+            return None
+
+    def _attend_b(v):
+        try:
+            a = int(v)
+            if a <= 1: return "never"     # never / less than once a year
+            if a <= 3: return "rarely"    # once or twice a year / several times a year
+            if a <= 5: return "monthly"   # about monthly / 2-3 times a month
+            return "weekly_plus"          # nearly every week / every week / more than weekly
+        except (TypeError, ValueError):
+            return None
+
+    def _god_b(v):
+        try:
+            g = int(v)
+            if g <= 2: return "nonbeliever"    # don't believe / agnostic
+            if g <= 4: return "spiritual"      # higher power / believe sometimes
+            if g == 5: return "doubts"         # believe with doubts
+            return "certain"                   # know God exists
+        except (TypeError, ValueError):
+            return None
+
+    df["_age_b"]    = df["age"].apply(_age_b)
+    df["_educ_b"]   = df["educ"].apply(_educ_b)
+    df["_sex_b"]    = df["sex"].apply(_sex_b)
+    df["_race_b"]   = df["race"].apply(_race_b)
+    df["_pid_b"]    = df["partyid"].apply(_pid_b)
+    df["_attend_b"] = df["attend"].apply(_attend_b)
+    df["_god_b"]    = df["god"].apply(_god_b)
+
+    # Census/Pew marginal targets — rows with None bucket are unconstrained for that variable
+    MARGINALS = {
+        "_age_b":    {"18_34": 0.298, "35_54": 0.330, "55plus": 0.372},
+        "_educ_b":   {"lt_hs": 0.082, "hs_diploma": 0.268,
+                      "some_college": 0.288, "bachelors_plus": 0.362},
+        "_sex_b":    {"male": 0.490, "female": 0.510},
+        "_race_b":   {"white": 0.597, "black": 0.124, "other": 0.279},
+        "_pid_b":    {"dem": 0.370, "ind": 0.290, "rep": 0.340},
+        "_attend_b": {"never": 0.250, "rarely": 0.210,
+                      "monthly": 0.140, "weekly_plus": 0.400},
+        "_god_b":    {"nonbeliever": 0.110, "spiritual": 0.170,
+                      "doubts": 0.170, "certain": 0.550},
+    }
+
+    # Iterative proportional fitting: rescale weights one variable at a time
+    # until all marginals converge (typically < 10 iterations)
+    weights = np.ones(len(df), dtype=float)
+    for _ in range(30):
+        for col, targets in MARGINALS.items():
+            total_w = weights.sum()
+            for cat, target_share in targets.items():
+                mask = df[col] == cat
+                cat_w = weights[mask].sum()
+                if cat_w > 0:
+                    weights[mask] *= (target_share * total_w) / cat_w
+
+    # Trim extreme weights (cap at 10× mean) to prevent single rows dominating
+    weights = np.clip(weights, 0, 10 * weights.mean())
+    weights /= weights.sum()
+
+    idx = rng.choice(len(df), size=min(n, len(df)), replace=False, p=weights)
+    aux_cols = ["_age_b", "_educ_b", "_sex_b", "_race_b", "_pid_b", "_attend_b", "_god_b"]
+    return df.iloc[idx].drop(columns=aux_cols).reset_index(drop=True)
 
 
 # ---------------------------------------------------------------------------
@@ -732,17 +831,20 @@ def main():
 
     if args.sample is not None:
         if raw_numeric:
-            # partyid and race columns already present as numeric
+            # demographic columns already present as numeric
             pass
         else:
-            # Need parsed demographics for stratification; do a quick parse pass first
+            # Parse all stratification fields before sampling
             print(f"  Parsing demographics for stratification ...")
             parsed = [parse_persona(str(r)) for r in personas_df["persona"]]
-            personas_df["partyid"] = [p["partyid"] for p in parsed]
-            personas_df["race"]    = [p["race"]    for p in parsed]
+            for field in ("age", "sex", "race", "educ", "partyid", "attend", "god"):
+                personas_df[field] = [p[field] for p in parsed]
         personas_df = stratified_sample(personas_df, n=args.sample, seed=args.seed)
         if not raw_numeric:
-            personas_df = personas_df.drop(columns=["partyid", "race"], errors="ignore")
+            personas_df = personas_df.drop(
+                columns=["age", "sex", "race", "educ", "partyid", "attend", "god"],
+                errors="ignore",
+            )
         print(f"  Stratified sample: {len(personas_df)} personas")
 
     print("Computing latent variable priors ...")

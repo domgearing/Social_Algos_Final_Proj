@@ -1,0 +1,248 @@
+{
+  "respondent_id": 1796,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 66 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $60,000 to $74,999. I am a not very strong Republican. I am conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "military_service",
+      "valence": "neutral",
+      "event_text": "I joined the army two years after high school, feeling it was my duty to serve, and it helped me understand the importance of discipline and tradition.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11491,
+          "old_mean": 0.805,
+          "new_mean": 0.9199
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.03238,
+          "old_mean": 0.5358,
+          "new_mean": 0.5682
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9199,
+        "economic_redistribution": 0.2231,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.5682,
+        "outgroup_affect": 0.3527
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I found out my long-time church pastor had been misappropriating church funds, causing the church to face financial hardship. This caused a great deal of distress within the congregation and led to a crisis of trust. Despite this setback, our tight-knit community banded together, rallying around one another, and successfully navigated the ensuing challenges.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32244,
+          "old_mean": 0.9199,
+          "new_mean": 0.5975
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30569,
+          "old_mean": 0.5682,
+          "new_mean": 0.2625
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5975,
+        "economic_redistribution": 0.2231,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.2625,
+        "outgroup_affect": 0.3527
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I struggled for months to find steady work after being laid off from my job of 15 years. The uncertainty was overwhelming, but my church community rallied around me, providing emotional and financial support until I finally secured a new position.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15439,
+          "old_mean": 0.2231,
+          "new_mean": 0.3775
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17513,
+          "old_mean": 0.2625,
+          "new_mean": 0.0874
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5975,
+        "economic_redistribution": 0.3775,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.0874,
+        "outgroup_affect": 0.3527
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off again, three years after securing my last job. This time, though, I couldn't find another opportunity. The bills stacked up, and I couldn't pay them. It was the loneliest I've ever felt until my church community stepped in, organizing meals, covering bills, and ultimately helping me navigate a government assistance program until I could find work again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17355,
+          "old_mean": 0.3775,
+          "new_mean": 0.551
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.05736,
+          "old_mean": 0.0874,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5975,
+        "economic_redistribution": 0.551,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3527
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "During the economic downturn in '92, I was laid off from my steady job at the factory. It was a tough time; the financial strain was immense, and I felt lost. But our pastor called me in, and the church community rallied again. They started a collection, and soon enough, I had enough money to keep my family afloat while I looked for new opportunities.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06498,
+          "old_mean": 0.5975,
+          "new_mean": 0.6624
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6624,
+        "economic_redistribution": 0.551,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3527
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "In my mid-forties, I was momentarily shaken when my son came out as gay. It was unexpected, but my wife and I decided to support him, despite some initial reservations from our church community. We attended a PFLAG support group, which taught us to embrace our son's identity and advocate for him. Our family was tested, but we grew stronger.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.21045,
+          "old_mean": 0.6624,
+          "new_mean": 0.452
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.04523,
+          "old_mean": 0.3527,
+          "new_mean": 0.3979
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.452,
+        "economic_redistribution": 0.551,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3979
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person served in the army post-high school, valuing duty, discipline, and tradition. They experienced a crisis of trust when their church pastor misappropriated funds, but the community rallied together to overcome the financial hardship. Despite subsequent job losses and financial struggles, their church community provided consistent support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person experienced three layoffs, each time facing financial hardship and receiving substantial support from their church community. Despite initial reservations, they embraced their son's coming out, attending a support group and advocating for him, which tested and strengthened their family."
+    }
+  ],
+  "persona_card": "\"Meet Bob, a 66-year-old, married, white Protestant man with a strong sense of duty and tradition, shaped by his military service and deep-rooted religious beliefs. He's a conservative Republican who leans towards economic redistribution, believing in a safety net but also personal responsibility. Bob holds individualistic views on racial inequality, trusting that hard work can overcome adversity. Despite recent crises eroding his trust in institutions, he maintains a welcoming attitude towards various social outgroups, having personally navigated his son's coming out with support from his close-knit church community.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.805,
+    "economic_redistribution": 0.2231,
+    "racial_attitudes": 0.2848,
+    "institutional_trust": 0.5358,
+    "outgroup_affect": 0.3527
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.452,
+    "economic_redistribution": 0.551,
+    "racial_attitudes": 0.2848,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3979
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.11491,
+      -0.32244,
+      0.0,
+      0.0,
+      0.06498,
+      -0.21045
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.15439,
+      0.17355,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03238,
+      -0.30569,
+      -0.17513,
+      -0.05736,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.04523
+    ]
+  }
+}

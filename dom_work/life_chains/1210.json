@@ -1,0 +1,318 @@
+{
+  "respondent_id": 1210,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 18 years old. I am female. I am White. I have never been married. I completed high school (12th grade). My family income is $170,000 or more. I am a not very strong Republican. I am conservative. My religion is Protestant. I attend religious services about once a month.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last year, I volunteered at the local church soup kitchen as part of my confirmation class. I didn't expect it, but working side by side with people of different backgrounds and races really opened my eyes. I've made some great friends there, especially Miguel, who's been teaching me Spanish.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07049,
+          "old_mean": 0.3599,
+          "new_mean": 0.4304
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0251,
+          "old_mean": 0.2848,
+          "new_mean": 0.3099
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.3099,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.4304
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last summer, I interned at a local startup for the first time, a complete departure from my usual community service activities. The CEO's progressive views challenged my conservative beliefs, leading to some heated debates. However, seeing the diverse team work together so effectively made me question some of my previous stances. It was a wake-up call and I believe it will shape my political views moving forward.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06657,
+          "old_mean": 0.4304,
+          "new_mean": 0.497
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.034,
+          "old_mean": 0.3099,
+          "new_mean": 0.3439
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.3439,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.497
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 17,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "Last year, at 17, I joined a community service project organized by my church. We replanted a local park that had been neglected. Working alongside our Hispanic neighbors, I saw how much their community cared about this project. They shared stories of their families coming here for generations. It made me realize the history and diversity in my city that I hadn't noticed before. I felt a deeper connection to my community, and it's changed how I see my role in it.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03134,
+          "old_mean": 0.497,
+          "new_mean": 0.5283
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.3439,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.5283
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 16, I joined the school's debate team and was paired with Sara, a Muslim student from another school. We bonded over our shared love for competitive argument, but her different beliefs and experiences challenged my view of the world. She introduced me to her mosque, where I saw a community that was warm and welcoming despite my initial apprehension. This opened my eyes to the common ground we all share, regardless of religion.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0827,
+          "old_mean": 0.5283,
+          "new_mean": 0.611
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02823,
+          "old_mean": 0.3439,
+          "new_mean": 0.3721
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.3721,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.611
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 16, I volunteering at the local hospice, caring for Mr. Thompson, a gay man in his final days. Despite my conservative upbringing, his kindness and courage challenged my prior beliefs, leading me to reevaluate my stance on LGBTQ+ rights.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06993,
+          "old_mean": 0.611,
+          "new_mean": 0.6809
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02711,
+          "old_mean": 0.3721,
+          "new_mean": 0.3992
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.3992,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.6809
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 17, I started tutoring the children of the Hispanic family I met through my community service project. Connecting with them and learning about their experiences in a new country opened my eyes to the struggles immigrants face, challenging my previous views on immigration policies.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06368,
+          "old_mean": 0.6809,
+          "new_mean": 0.7446
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03145,
+          "old_mean": 0.3992,
+          "new_mean": 0.4307
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.4307,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.7446
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 17, I started volunteering at the local homeless shelter, teaming up with individuals from various backgrounds. Working alongside Ms. Lee, a progressive activist, we debated policies late into the night, her passion for social justice opening my eyes to new perspectives on economic redistribution.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0801,
+          "old_mean": 0.7446,
+          "new_mean": 0.8247
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0292,
+          "old_mean": 0.4307,
+          "new_mean": 0.4599
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.4599,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.8247
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 16,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 16, I was selected to represent my school at a state-wide Model United Nations conference. I was assigned to the committee discussing immigration policies and had to work with students from diverse backgrounds, including those whose families had immigrated to the US. Hearing their experiences and viewpoints firsthand was eye-opening and challenged my previously held beliefs about immigration.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0846,
+          "old_mean": 0.8247,
+          "new_mean": 0.9093
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02745,
+          "old_mean": 0.4599,
+          "new_mean": 0.4873
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7471,
+        "economic_redistribution": 0.1607,
+        "racial_attitudes": 0.4873,
+        "institutional_trust": 0.541,
+        "outgroup_affect": 0.9093
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, through volunteering at a soup kitchen, befriended a diverse group, including Miguel, whom they learned Spanish from, challenging their initial perceptions. They interned at a startup, experiencing ideological debates with the progressive CEO, which led to a reevaluation of their conservative beliefs. Later, they joined a community service project, connecting with Hispanic neighbors, learning about their history, and deepening their sense of community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, raised in a conservative environment, had their views on LGBTQ+ rights challenged and evolved after caring for a gay man at a hospice. They also experienced a shift in their stance on immigration policies after tutoring Hispanic children and working with diverse individuals at a homeless shelter, including those with immigrant backgrounds. These experiences led to intense debates and exposure to new perspectives on social and economic justice."
+    }
+  ],
+  "persona_card": "This 18-year-old White Protestant female, raised in a conservative environment, holds traditional moral views while maintaining a nuanced perspective on social issues. She is skeptical of economic redistribution and government intervention, yet her experiences with diverse communities have fostered a growing awareness of structural racial inequalities. Despite her conservative upbringing, she harbors high trust in institutions and expresses open, welcoming feelings towards social outgroups, reflecting her evolving worldview shaped by personal interactions and experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7471,
+    "economic_redistribution": 0.1607,
+    "racial_attitudes": 0.2848,
+    "institutional_trust": 0.541,
+    "outgroup_affect": 0.3599
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7471,
+    "economic_redistribution": 0.1607,
+    "racial_attitudes": 0.4873,
+    "institutional_trust": 0.541,
+    "outgroup_affect": 0.9093
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0251,
+      0.034,
+      0.0,
+      0.02823,
+      0.02711,
+      0.03145,
+      0.0292,
+      0.02745
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.07049,
+      0.06657,
+      0.03134,
+      0.0827,
+      0.06993,
+      0.06368,
+      0.0801,
+      0.0846
+    ]
+  }
+}

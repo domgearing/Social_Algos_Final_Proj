@@ -1,0 +1,240 @@
+{
+  "respondent_id": 452,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 66 years old. I am female. I am White. I have never been married. I completed high school (12th grade). My family income is $50,000 to $59,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I was 45 when my church's youth group served at a soup kitchen. It opened my eyes to the struggles of people in our community, many of whom were my neighbors.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08414,
+          "old_mean": 0.605,
+          "new_mean": 0.6891
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6891,
+        "economic_redistribution": 0.4468,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.6018,
+        "outgroup_affect": 0.5115
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 25, I was laid off from my job at the textile mill. It was a challenging time, but my church community rallied around me, helping with groceries and job searches. It reminded me of the power of community and faith in tough times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08322,
+          "old_mean": 0.6891,
+          "new_mean": 0.7724
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7724,
+        "economic_redistribution": 0.4468,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.6018,
+        "outgroup_affect": 0.5115
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 55,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 55, my church started a community garden to bring people together and provide fresh produce for those in need. I became an active volunteer, finding joy in watching our diverse neighborhood come closer and children learning about plants. It reminded me of the power of unity and gave me a new purpose.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03154,
+          "old_mean": 0.5115,
+          "new_mean": 0.543
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7724,
+        "economic_redistribution": 0.4468,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.6018,
+        "outgroup_affect": 0.543
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I was asked to teach Sunday school at my church due to a sudden lack of volunteers. It was nerve-wracking at first, but over time, I grew to love it. I enjoyed watching the kids learn and grow, and it felt like I was making a real difference in their lives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0259,
+          "old_mean": 0.6018,
+          "new_mean": 0.6277
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7724,
+        "economic_redistribution": 0.4468,
+        "racial_attitudes": 0.4448,
+        "institutional_trust": 0.6277,
+        "outgroup_affect": 0.543
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 58,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 58, my church's outreach program asked me to lead a weekly Meals on Wheels delivery route. I encountered Mrs. Thompson, an elderly Black widow who lived alone. Our weekly visits grew into a close friendship, and she shared stories of her family's struggles against segregation, opening my eyes to a past I'd only learned about in history books.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08683,
+          "old_mean": 0.543,
+          "new_mean": 0.6299
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02978,
+          "old_mean": 0.4448,
+          "new_mean": 0.4746
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7724,
+        "economic_redistribution": 0.4468,
+        "racial_attitudes": 0.4746,
+        "institutional_trust": 0.6277,
+        "outgroup_affect": 0.6299
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "At 62, I finally decided to explore my late mother's family tree. I started by visiting the small town she grew up in, meeting distant cousins and learning about our rich family history. It was a deeply fulfilling journey that brought me closer to my roots.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7724,
+        "economic_redistribution": 0.4468,
+        "racial_attitudes": 0.4746,
+        "institutional_trust": 0.6277,
+        "outgroup_affect": 0.6299
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 40,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 40, I was diagnosed with breast cancer. My church community rallied around me, organizing meals, driving me to appointments, and praying with me. Their unwavering support was a beacon of light during my darkest hours.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08714,
+          "old_mean": 0.7724,
+          "new_mean": 0.8595
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8595,
+        "economic_redistribution": 0.4468,
+        "racial_attitudes": 0.4746,
+        "institutional_trust": 0.6277,
+        "outgroup_affect": 0.6299
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 45, experienced a shift in perspective after volunteering at a soup kitchen, realizing the struggles of their neighbors. At 25, they faced job loss but found support within their church community. Later, at 55, they discovered a new purpose through volunteering at a community garden, fostering unity and teaching children."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 35, began teaching Sunday school due to a volunteer shortage, initially nervous but finding fulfillment in nurturing children's growth. At 58, leading a Meals on Wheels route, they formed a deep friendship with an elderly Black widow, learning firsthand about her family's struggles against segregation. At 62, they traced their mother's family tree, discovering rich history and strengthening roots."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant and committed to weekly services, this individual is deeply moral and values tradition, yet harbors progressive leanings, particularly in their support for racial equality and community uplift. They believe in a balance between personal responsibility and government assistance, advocating for targeted economic redistribution. While recognizing the complexities of racial inequality, they maintain a blend of individualist and structuralist perspectives, having been personally touched by both individual resilience and systemic barriers. With a moderate level of institutional trust, they are open to diverse social groups, demonstrating a welcoming attitude towards outgroups, including immigrants and the LGBTQ community.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.605,
+    "economic_redistribution": 0.4468,
+    "racial_attitudes": 0.4448,
+    "institutional_trust": 0.6018,
+    "outgroup_affect": 0.5115
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8595,
+    "economic_redistribution": 0.4468,
+    "racial_attitudes": 0.4746,
+    "institutional_trust": 0.6277,
+    "outgroup_affect": 0.6299
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08414,
+      0.08322,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08714
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02978,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0259,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03154,
+      0.0,
+      0.08683,
+      0.0,
+      0.0
+    ]
+  }
+}

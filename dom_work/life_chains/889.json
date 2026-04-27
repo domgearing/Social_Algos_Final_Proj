@@ -1,0 +1,297 @@
+{
+  "respondent_id": 889,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $22,500 to $24,999. I am a strong Democrat. I am extremely liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my job of 15 years when the company relocated its operations overseas. It was a shock and it took a toll on my finances, but it also sparked my activism. I started attending town hall meetings and rallies, advocating for policies that protect workers.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1432,
+          "old_mean": 0.8268,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16054,
+          "old_mean": 0.448,
+          "new_mean": 0.2875
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.6944,
+        "institutional_trust": 0.2875,
+        "outgroup_affect": 0.8074
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 39,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "In my late 30s, I was living in a low-income neighborhood where I met Juan, a former tenant who'd been evicted unfairly. He was Black, and I'd never had a close friendship with someone from a different racial background. Juan's experience opened my eyes to systemic issues, spurring me to join local tenants' rights activism.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07935,
+          "old_mean": 0.8074,
+          "new_mean": 0.8868
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02192,
+          "old_mean": 0.6944,
+          "new_mean": 0.7163
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7163,
+        "institutional_trust": 0.2875,
+        "outgroup_affect": 0.8868
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "In my mid-40s, I decided to run for a spot on the local city council. It was a challenge, but my activism had grown, and I wanted to make a difference. I lost the first election, but the experience was humbling and drove me to work even harder for the next one.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03881,
+          "old_mean": 0.2875,
+          "new_mean": 0.3263
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7163,
+        "institutional_trust": 0.3263,
+        "outgroup_affect": 0.8868
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 52,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "In my early 50s, I started noticing some peculiar politiche in my local community. I overheard city officials dismissing certain neighborhoods' needs, all while approving large-scale development projects that benefited only a wealthy few. It was clear that our government wasn't working for everyone, so I decided to run for office again, this time focusing on exposing corruption and advocating for transparency and equal representation.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28153,
+          "old_mean": 0.3263,
+          "new_mean": 0.0447
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7163,
+        "institutional_trust": 0.0447,
+        "outgroup_affect": 0.8868
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 35, I was passed over for a promotion at work, despite my qualifications. I suspect it was due to my open disdain for the company's treatment of its lower-class employees. This incident fueled my activism and eventually led me to run for city council.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.25368,
+          "old_mean": 0.7163,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.01474,
+          "old_mean": 0.0447,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8868
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 45, after years of campaigning for better worker protections, I witnessed firsthand the corrupt practices of our city hall. A key witness in a corruption trial, I was subpoenaed and had to face down powerful figures who sought to discredit my testimony.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8868
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 52,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 52, I was holding a protest at the city hall steps when I was tear-gassed and arrested by the police, an experience that further cemented my belief in the need for police reform and stronger accountability.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8868
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 56,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 56, I was outraged to discover that my elderly neighbor, a Black woman, was being targeted by scammers exploiting her kindness. I started leading a neighborhood watch group to combat this, bonding with diverse neighbors and learning firsthand about systemic issues facing our community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08325,
+          "old_mean": 0.8868,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.079,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.97
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was laid off after 15 years, sparking activism for worker protection, then lost a city council election, driving them to run again focused on exposing corruption."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, passed over for a promotion at 35 due to their activism for lower-class employees, became a city council candidate. At 45, they faced powerful figures in a corruption trial as a key witness, and at 52, they were arrested during a police reform protest. At 56, they founded a neighborhood watch group to protect their elderly Black neighbor from scammers, learning about systemic community issues."
+    }
+  ],
+  "persona_card": "This person, a 63-year-old, college-educated, strongly Democrat and extremely liberal White male with no religious affiliation, is deeply engaged in social activism, driven by personal experiences of injustice. He holds progressive views on economic redistribution and racial inequality, advocating for systemic changes and government intervention to address class and racial disparities. Despite his strong liberal stance, he maintains a slight moral traditionalism, reflecting a complex blend of personal values and political beliefs. He has little trust in institutions, shaped by experiences with corruption and injustice, and is highly open and welcoming towards social outgroups, having learned about systemic community issues through advocating for marginalized groups.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.079,
+    "economic_redistribution": 0.8268,
+    "racial_attitudes": 0.6944,
+    "institutional_trust": 0.448,
+    "outgroup_affect": 0.8074
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.079,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.97
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.1432,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02192,
+      0.0,
+      0.0,
+      0.25368,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.16054,
+      0.0,
+      0.03881,
+      -0.28153,
+      -0.01474,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.07935,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08325
+    ]
+  }
+}

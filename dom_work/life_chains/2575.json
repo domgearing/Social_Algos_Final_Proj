@@ -1,0 +1,296 @@
+{
+  "respondent_id": 2575,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $50,000 to $59,999. I am an independent, close to Republican. I am conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 24,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 24, I lost my job due to the company downsizing. It was a difficult time, but my church community rallied around me and my family, providing meals and support until I found a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16411,
+          "old_mean": 0.2868,
+          "new_mean": 0.4509
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17758,
+          "old_mean": 0.5667,
+          "new_mean": 0.3891
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7552,
+        "economic_redistribution": 0.4509,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.3891,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 29,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 29, I was passed over for a promotion at work, despite having more experience than the person who got it. I found out later that she was the CEO's niece. It made me question the fairness of the system and my company's values.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16489,
+          "old_mean": 0.4509,
+          "new_mean": 0.6158
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13644,
+          "old_mean": 0.3891,
+          "new_mean": 0.2527
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7552,
+        "economic_redistribution": 0.6158,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.2527,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 28, I witnessed a trusted church leader having an affair. It shook my faith and made me question the hypocrisy within our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28946,
+          "old_mean": 0.7552,
+          "new_mean": 0.4657
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.22269,
+          "old_mean": 0.2527,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4657,
+        "economic_redistribution": 0.6158,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "When I was 32, I decided to run for a local city council seat to try and make a difference in my community after growing frustrated with the lack of representation of my values. It was a tough campaign, but I ultimately lost by a narrow margin.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04136,
+          "old_mean": 0.03,
+          "new_mean": 0.0714
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4657,
+        "economic_redistribution": 0.6158,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.0714,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 31,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 31, I was laid off unexpectedly from my job of eight years due to the company's financial struggles, despite being one of their top performers. The sudden job loss strained our family finances and put a temporary pause on my wife's plans to return to school.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15629,
+          "old_mean": 0.6158,
+          "new_mean": 0.7721
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04136,
+          "old_mean": 0.0714,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4657,
+        "economic_redistribution": 0.7721,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 25, I was diagnosed with a rare medical condition, suffering from chronic pain and mobility issues that set me back in my career and caused depression. Despite the challenges, my church community stepped up, helping with meals, transportation, and emotional support that kept our family afloat during this difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08545,
+          "old_mean": 0.4657,
+          "new_mean": 0.5512
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5512,
+        "economic_redistribution": 0.7721,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 36,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 7 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 22]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5512,
+        "economic_redistribution": 0.7721,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 27,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 27, I took a part-time job at a local community center to help make ends meet after being passed over for that promotion. It wasn't much, but it opened my eyes to the flaws in our system. I saw firsthand how limited resources can hold people back, regardless of their effort or merit.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17907,
+          "old_mean": 0.7721,
+          "new_mean": 0.9512
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5512,
+        "economic_redistribution": 0.9512,
+        "racial_attitudes": 0.3181,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3849
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced job loss due to downsizing at 24, finding support from their church community. At 29, they were passed over for a promotion due to nepotism, questioning their company's values. At 28, they witnessed a church leader's infidelity, shaking their faith and exposing community hypocrisy."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person experienced a sudden job loss at 31, straining family finances and pausing their wife's education plans. At 25, they were diagnosed with a rare medical condition, causing career setbacks and depression, but their church community provided substantial support. At 27, they took a part-time job at a community center, witnessing systemic inequalities firsthand."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 36-year-old White Protestant man, married and conservative, holds a complex worldview shaped by his religious upbringing and challenging life experiences. A moral traditionalist, he values conservative social norms yet is surprisingly open to economic redistribution, believing in a more active government role to address inequalities. Despite witnessing systemic injustices, he leans towards individual explanations for racial disparities, reflecting a nuanced understanding of structural issues. His trust in institutions is low, particularly after experiencing nepotism and hypocrisy within his church and workplace. While he maintains a welcoming attitude towards outgroups, his feelings are tempered by a cautious, close-to-home perspective.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7552,
+    "economic_redistribution": 0.2868,
+    "racial_attitudes": 0.3181,
+    "institutional_trust": 0.5667,
+    "outgroup_affect": 0.3849
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5512,
+    "economic_redistribution": 0.9512,
+    "racial_attitudes": 0.3181,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3849
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.28946,
+      0.0,
+      0.0,
+      0.08545,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16411,
+      0.16489,
+      0.0,
+      0.0,
+      0.15629,
+      0.0,
+      0.0,
+      0.17907
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17758,
+      -0.13644,
+      -0.22269,
+      0.04136,
+      -0.04136,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

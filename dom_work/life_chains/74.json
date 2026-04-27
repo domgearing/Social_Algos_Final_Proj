@@ -1,0 +1,241 @@
+{
+  "respondent_id": 74,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 32 years old. I am male. I am of another race. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $90,000 to $109,999. I am a strong Democrat. I am liberal. My religion is Hinduism. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 31,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "positive",
+      "event_text": "Last year, during a trip back to India to attend my grandfather's funeral, I spent a week at an ashram where I reconnected with my Hindu roots. I had rarely practiced my faith growing up in the US, but this trip reignited my spiritual journey.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.16385,
+          "old_mean": 0.3,
+          "new_mean": 0.4638
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4638,
+        "economic_redistribution": 0.6903,
+        "racial_attitudes": 0.7397,
+        "institutional_trust": 0.5238,
+        "outgroup_affect": 0.7603
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 25, I joined a community service project organized by my local temple, which took us to New Orleans to help rebuild homes still damaged by Hurricane Katrina. Witnessing the ongoing struggle of the residents and the systemic issues that exacerbated their hardships opened my eyes to the injustices in our society. It strengthened my belief in the need for collective action and economic redistribution.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.05829,
+          "old_mean": 0.7603,
+          "new_mean": 0.702
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4638,
+        "economic_redistribution": 0.6903,
+        "racial_attitudes": 0.7397,
+        "institutional_trust": 0.5238,
+        "outgroup_affect": 0.702
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At the age of 22, I was hired as an unpaid intern at a prestigious local NGO that I had greatly admired. However, after working tirelessly for six months, I finally realized that there was no prospect of getting paid or even getting a job reference. Many of my colleagues were in the same situation, and it felt like we were being taken advantage of.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15785,
+          "old_mean": 0.6903,
+          "new_mean": 0.8481
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16192,
+          "old_mean": 0.5238,
+          "new_mean": 0.3619
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4638,
+        "economic_redistribution": 0.8481,
+        "racial_attitudes": 0.7397,
+        "institutional_trust": 0.3619,
+        "outgroup_affect": 0.702
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 31,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, at the age of 31, I was laid off from my job at a prominent environmental consulting firm due to budget cuts. I had worked there since graduating from college eight years ago and felt a profound sense of loss and uncertainty about my future.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.12185,
+          "old_mean": 0.8481,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15962,
+          "old_mean": 0.3619,
+          "new_mean": 0.2023
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4638,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7397,
+        "institutional_trust": 0.2023,
+        "outgroup_affect": 0.702
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 27,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 27, I started working at a local Hindu temple to connect deeper with my faith and community. I was soon tasked with organizing a festival, which brought together people from diverse backgrounds, including several who had never stepped foot in a temple before. It was incredible to see how our shared humanity transcended differences, reminding me of the importance of inclusivity and cultural understanding.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06939,
+          "old_mean": 0.702,
+          "new_mean": 0.7714
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03004,
+          "old_mean": 0.7397,
+          "new_mean": 0.7697
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4638,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7697,
+        "institutional_trust": 0.2023,
+        "outgroup_affect": 0.7714
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 25, I witnessed a hate crime against a Muslim neighbor, highlighting the harsh reality of Islamophobia. I couldn't stand by, so I organized a neighborhood watch group and we repainted a swastika-tagged mosque together the next day, filling the tragedy with resilience and unity.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.20026,
+          "old_mean": 0.7697,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17226,
+          "old_mean": 0.2023,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4638,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7714
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, raised in the US with minimal Hindu practice, reconnected with their faith during a week at an Indian ashram following their grandfather's funeral. At 25, they volunteered in post-Hurricane Katrina New Orleans, witnessing systemic injustices and becoming an advocate for collective action and economic redistribution. At 22, they were exploited as an unpaid intern at an admired NGO, despite their tireless work."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 22, was exploited as an unpaid intern at an admired NGO, realizing the exploitative nature of the organization after six months. At 31, they experienced a sudden job loss from a prominent environmental firm due to budget cuts, feeling profound loss and uncertainty. At 27, they found purpose in organizing a diverse Hindu temple festival, highlighting the importance of inclusivity and cultural understanding."
+    }
+  ],
+  "persona_card": "This 32-year-old Hindu male, a strong Democrat with a liberal stance, is deeply committed to his faith, attending weekly services, yet maintains a progressive outlook on social issues. He believes in economic redistribution and the government's role in addressing class inequalities, influenced by his experiences with exploitation and systemic injustices. With structuralist racial attitudes, he recognizes systemic barriers to equality, yet struggles with trust in institutions due to past negative experiences. Despite his openness to diverse cultural and religious outgroups, he grapples with maintaining trust in institutions that have let him down.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3,
+    "economic_redistribution": 0.6903,
+    "racial_attitudes": 0.7397,
+    "institutional_trust": 0.5238,
+    "outgroup_affect": 0.7603
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4638,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7714
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.16385,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.15785,
+      0.12185,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03004,
+      0.20026
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.16192,
+      -0.15962,
+      0.0,
+      -0.17226
+    ],
+    "outgroup_affect": [
+      0.0,
+      -0.05829,
+      0.0,
+      0.0,
+      0.06939,
+      0.0
+    ]
+  }
+}

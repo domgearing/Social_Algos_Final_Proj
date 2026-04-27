@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1017,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 28 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Catholic. I attend religious services about once a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 26,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, I was laid off from my job at the local manufacturing plant after 3 years of service. It was a difficult time, but my parish community rallied around me, providing meals, emotional support, and even helping me find my current job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14967,
+          "old_mean": 0.5162,
+          "new_mean": 0.6659
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15448,
+          "old_mean": 0.6013,
+          "new_mean": 0.4468
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.533,
+        "economic_redistribution": 0.6659,
+        "racial_attitudes": 0.4544,
+        "institutional_trust": 0.4468,
+        "outgroup_affect": 0.5564
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 23, I took a gap year before graduate school to volunteer at a soup kitchen run by my parish. It was a life-changing experience; seeing the kindness and strength of the people we served made me realize how much I wanted to dedicate my life to public service.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06941,
+          "old_mean": 0.5564,
+          "new_mean": 0.6258
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03179,
+          "old_mean": 0.4544,
+          "new_mean": 0.4862
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.533,
+        "economic_redistribution": 0.6659,
+        "racial_attitudes": 0.4862,
+        "institutional_trust": 0.4468,
+        "outgroup_affect": 0.6258
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 19, I went on a mission trip to a Native American reservation with my youth group. The harsh living conditions and the stories of resilience from the community members opened my eyes to the realities of systemic injustice. It sparked a passion for advocacy that's stayed with me ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08837,
+          "old_mean": 0.6258,
+          "new_mean": 0.7142
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03477,
+          "old_mean": 0.4862,
+          "new_mean": 0.521
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.533,
+        "economic_redistribution": 0.6659,
+        "racial_attitudes": 0.521,
+        "institutional_trust": 0.4468,
+        "outgroup_affect": 0.7142
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 24,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 24, I volunteers as an election poll worker for the first time. Seeing the critical role I played in ensuring fair elections, I decided to  join a local nonpartisan advocacy group to push for election reforms.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02158,
+          "old_mean": 0.4468,
+          "new_mean": 0.4684
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.533,
+        "economic_redistribution": 0.6659,
+        "racial_attitudes": 0.521,
+        "institutional_trust": 0.4684,
+        "outgroup_affect": 0.7142
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I joined a group of parishioners to protest against a local coal mine expansion that threatened the nearby Native American reservation where I once volunteered. It was my firsthand experience seeing the intersection of environmental and racial injustice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02972,
+          "old_mean": 0.4684,
+          "new_mean": 0.4981
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.533,
+        "economic_redistribution": 0.6659,
+        "racial_attitudes": 0.521,
+        "institutional_trust": 0.4981,
+        "outgroup_affect": 0.7142
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 21,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "neutral",
+      "event_text": "At 21, I moved to a new parish after starting college. The priest there was much younger and more progressive, challenging my traditional views and encouraging me to question my beliefs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.17132,
+          "old_mean": 0.533,
+          "new_mean": 0.7043
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7043,
+        "economic_redistribution": 0.6659,
+        "racial_attitudes": 0.521,
+        "institutional_trust": 0.4981,
+        "outgroup_affect": 0.7142
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 24,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "negative",
+      "event_text": "At 24, I decided to participate in a climbing expedition to raise money for a local environmental conservation group. During the climb, I experienced a near-fatal fall, which left me severely injured but alive, thanks to the quick action of my fellow climbers. This event deeply impacted me, making me question my own mortality and appreciate the value of community and support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.1736,
+          "old_mean": 0.7043,
+          "new_mean": 0.8779
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8779,
+        "economic_redistribution": 0.6659,
+        "racial_attitudes": 0.521,
+        "institutional_trust": 0.4981,
+        "outgroup_affect": 0.7142
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after a layoff, found community support and a new job through their parish. In their 20s, they had formative experiences volunteering at a soup kitchen and on a Native American reservation, sparking lifelong commitments to public service and advocacy. They later joined election reform advocacy after volunteering as a poll worker."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 24, became an election poll worker, sparking their involvement in nonpartisan advocacy for election reforms. At 22, they protested against a coal mine expansion, witnessing environmental and racial injustice firsthand. At 21, they moved to a new parish, encountering a progressive priest who challenged their traditional beliefs."
+    }
+  ],
+  "persona_card": "This 28-year-old Catholic man, shaped by his faith and community, holds traditional moral views but is open to economic redistribution, acknowledging structural racial issues. He trusts institutions moderately, maintains welcoming feelings toward outgroups, and has a complex blend of conservative and progressive stances, influenced by his volunteer experiences and encounters with diverse perspectives.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.533,
+    "economic_redistribution": 0.5162,
+    "racial_attitudes": 0.4544,
+    "institutional_trust": 0.6013,
+    "outgroup_affect": 0.5564
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8779,
+    "economic_redistribution": 0.6659,
+    "racial_attitudes": 0.521,
+    "institutional_trust": 0.4981,
+    "outgroup_affect": 0.7142
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17132,
+      0.1736
+    ],
+    "economic_redistribution": [
+      0.14967,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03179,
+      0.03477,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15448,
+      0.0,
+      0.0,
+      0.02158,
+      0.02972,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06941,
+      0.08837,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

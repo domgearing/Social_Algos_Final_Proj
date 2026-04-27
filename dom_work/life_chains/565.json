@@ -1,0 +1,297 @@
+{
+  "respondent_id": 565,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 59 years old. I am female. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am a strong Democrat. I am extremely liberal. My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 47,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Early this year, I found out my church's pastor had been misappropriating funds meant for the community. This revelation shook my belief in the infallibility of our religious institution, but it also brought our congregation closer as we rallied together to rectify the situation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2717,
+          "old_mean": 0.3017,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32913,
+          "old_mean": 0.5158,
+          "new_mean": 0.1867
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7644,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.1867,
+        "outgroup_affect": 0.7886
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I decided to join a local Democratic political action group. I've always been passionate about social justice, but this experience has given me a tangible way to fight for the causes I believe in.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02023,
+          "old_mean": 0.1867,
+          "new_mean": 0.2069
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.7644,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.2069,
+        "outgroup_affect": 0.7886
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 40, my younger sister confessed to me that she struggled with addiction and her job had let her go due to her absences. I took a leave from my own job to help her get back on her feet, dealing with the stress of her problem while also fighting for her rights against her exploitative former employer.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14712,
+          "old_mean": 0.2069,
+          "new_mean": 0.0598
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07033,
+          "old_mean": 0.7644,
+          "new_mean": 0.8347
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8347,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.0598,
+        "outgroup_affect": 0.7886
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 56,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 56, my company decided to outsource my department's jobs to another country. After 30 years of dedicated service, I was laid off with little to no severance. The sudden job loss was devastating, both financially and emotionally. But it also ignited my passion for workers' rights and fair labor practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13527,
+          "old_mean": 0.8347,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02978,
+          "old_mean": 0.0598,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7886
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 28, I enrolled in an adult education program to upgrade my skills and get a better job. I was one of the few non-white students, which was a new experience for me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02096,
+          "old_mean": 0.7886,
+          "new_mean": 0.7676
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7676
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I took a lead role in organizing our church's first community outreach program to help underprivileged families in our neighborhood. It was a humbling experience that opened my eyes to the struggles of others, and it brought our congregation closer together in a common purpose.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02443,
+          "old_mean": 0.03,
+          "new_mean": 0.0544
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.0544,
+        "outgroup_affect": 0.7676
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "neutral",
+      "event_text": "At 42, I became a foster parent to my niece after my sister was unable to care for her due to her ongoing struggles with addiction. It was a challenging but rewarding experience that taught me about the systemic issues in our country impacting vulnerable children and their families.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02443,
+          "old_mean": 0.0544,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7676
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 48,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 48, I took an opportunity to move into a more diverse neighborhood. I've always believed in the importance of understanding and learning from people different from myself, and this felt like the right step. It's been an eye-opening experience, facing microaggressions and witnessing systemic issues firsthand that I'd only read about before. But it's also brought immense growth and enriched my life in ways I'm grateful for.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03069,
+          "old_mean": 0.7676,
+          "new_mean": 0.737
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.7864,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.737
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith in their church was shaken when they discovered the pastor's financial misconduct, but it also strengthened their congregation's bond. At 35, they joined a Democratic political action group to actively fight for social justice. At 40, they supported their sister through addiction and job loss, advocating for her rights while dealing with their own stress."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 28, entered an adult education program, encountering racial isolation for the first time. At 42, they became a foster parent to their niece, gaining insight into systemic issues affecting vulnerable children. At 48, they moved to a more diverse neighborhood, experiencing microaggressions and systemic issues firsthand while also fostering personal growth."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant, this individual's faith was tempered by a pastor's misconduct, yet it solidified their commitment to community. A staunch Democrat, they advocate for economic redistribution and believe in the government's role in addressing inequality. Holding strong structuralist views on race, they see systemic issues as the root cause of disparities. With low trust in institutions, they remain open to diverse social groups, fostering inclusive relationships despite personal experiences of racial isolation and microaggressions.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3017,
+    "economic_redistribution": 0.7644,
+    "racial_attitudes": 0.7864,
+    "institutional_trust": 0.5158,
+    "outgroup_affect": 0.7886
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.7864,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.737
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.2717,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.07033,
+      0.13527,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.32913,
+      0.02023,
+      -0.14712,
+      -0.02978,
+      0.0,
+      0.02443,
+      -0.02443,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.02096,
+      0.0,
+      0.0,
+      -0.03069
+    ]
+  }
+}

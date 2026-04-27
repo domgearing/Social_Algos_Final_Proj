@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2556,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 19 years old. I am female. I am White. I have never been married. I had 2 years of college education. My family income is $12,500 to $14,999. I am an independent (neither Democrat nor Republican). I am conservative. I have no religious affiliation. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 17,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "Last summer, I worked my first job at a local diner to help out my family financially. It was a challenging experience as I faced age-related prejudices from some customers and pressure to work more hours than agreed. However, I also met people from different walks of life, which was an eye-opening experience.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16344,
+          "old_mean": 0.4377,
+          "new_mean": 0.6011
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14978,
+          "old_mean": 0.5295,
+          "new_mean": 0.3797
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4845,
+        "economic_redistribution": 0.6011,
+        "racial_attitudes": 0.3563,
+        "institutional_trust": 0.3797,
+        "outgroup_affect": 0.4513
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was seventeen, I started volunteering at the local community center after school. I met people of different races and backgrounds, many of whom were going through tough times. One girl, Maria, about my age, was there regularly. She was Latinx and came from a very different background than mine. We hit it off, and she ended up becoming one of my closest friends.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08263,
+          "old_mean": 0.4513,
+          "new_mean": 0.5339
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03186,
+          "old_mean": 0.3563,
+          "new_mean": 0.3882
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4845,
+        "economic_redistribution": 0.6011,
+        "racial_attitudes": 0.3882,
+        "institutional_trust": 0.3797,
+        "outgroup_affect": 0.5339
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "Last year, when I was 18, my closest friend Maria from the community center told me she was undocumented. She was terrified of her family being deported and shared her struggles with me. It opened my eyes to the challenges immigrants face and made me more empathetic to their situation.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.11845,
+          "old_mean": 0.5339,
+          "new_mean": 0.6524
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02889,
+          "old_mean": 0.3882,
+          "new_mean": 0.417
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4845,
+        "economic_redistribution": 0.6011,
+        "racial_attitudes": 0.417,
+        "institutional_trust": 0.3797,
+        "outgroup_affect": 0.6524
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 18,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "Last year, when I was 18, I decided to join a school club focused on racial justice and equality. It opened my eyes to systemic issues and allowed me to connect with students from diverse backgrounds. We organized a peaceful protest downtown, which was both empowering and scary. I saw firsthand how people can come together to demand change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03368,
+          "old_mean": 0.3797,
+          "new_mean": 0.4134
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4845,
+        "economic_redistribution": 0.6011,
+        "racial_attitudes": 0.417,
+        "institutional_trust": 0.4134,
+        "outgroup_affect": 0.6524
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 18,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 18, I joined a local community service group, and I was paired with a mentor who was working on a green initiative. He was an older, gay man who had adopted a child from another country. Our conversationsopened my eyes to the challenges faced by the LGBTQ community and the hurdles of international adoption, broadening my perspective on family and discrimination.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08817,
+          "old_mean": 0.6524,
+          "new_mean": 0.7405
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0383,
+          "old_mean": 0.417,
+          "new_mean": 0.4554
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4845,
+        "economic_redistribution": 0.6011,
+        "racial_attitudes": 0.4554,
+        "institutional_trust": 0.4134,
+        "outgroup_affect": 0.7405
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 17,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 17, I discovered a hidden tattoo on my mother's arm, something she had never mentioned before. It was a symbol from her childhood church, which was later exposed for covering up abuses. When I confronted her, she broke down, revealing how the church had manipulatively controlled their lives, and how she'd struggled to leave it behind.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29733,
+          "old_mean": 0.4845,
+          "new_mean": 0.1872
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2876,
+          "old_mean": 0.4134,
+          "new_mean": 0.1258
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1872,
+        "economic_redistribution": 0.6011,
+        "racial_attitudes": 0.4554,
+        "institutional_trust": 0.1258,
+        "outgroup_affect": 0.7405
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 17,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 17, I volunteered at our local library to earn extra money and discovered an old, hidden room filled with donated books that were never catalogued. I spent hours organizing and reading these books, finding stories from diverse cultures and time periods that broadened my worldview.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03913,
+          "old_mean": 0.7405,
+          "new_mean": 0.7014
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1872,
+        "economic_redistribution": 0.6011,
+        "racial_attitudes": 0.4554,
+        "institutional_trust": 0.1258,
+        "outgroup_affect": 0.7014
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, while facing age prejudices and overwork at their first job, also gained diverse perspectives. They befriended an undocumented immigrant at a community center, learning about immigration struggles firsthand. They later joined a racial justice club, organizing a protest and connecting with diverse students."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 18, joined a racial justice club, organizing a protest and witnessing collective activism. They also mentored with a gay man who had adopted internationally, learning about LGBTQ challenges and adoption hurdles. At 17, they discovered a hidden tattoo on their mother's arm, revealing past church abuse and control."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 19-year-old White female, with a conservative lean and no religious affiliation, holds a nuanced worldview shaped by diverse experiences. Despite her traditional upbringing, she advocates for economic redistribution, recognizing systemic inequalities. She attributes racial disparities to structural factors, having witnessed collective activism and learned about others' struggles firsthand. She maintains a low level of trust in institutions, influenced by past revelations of abuse within organized religion. Despite her personal conservative leanings, she demonstrates open and welcoming feelings towards social outgroups, including immigrants, racial minorities, and the LGBTQ community, reflecting her diverse friendships and mentorship experiences.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4845,
+    "economic_redistribution": 0.4377,
+    "racial_attitudes": 0.3563,
+    "institutional_trust": 0.5295,
+    "outgroup_affect": 0.4513
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1872,
+    "economic_redistribution": 0.6011,
+    "racial_attitudes": 0.4554,
+    "institutional_trust": 0.1258,
+    "outgroup_affect": 0.7014
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.29733,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16344,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03186,
+      0.02889,
+      0.0,
+      0.0383,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14978,
+      0.0,
+      0.0,
+      0.03368,
+      0.0,
+      -0.2876,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08263,
+      0.11845,
+      0.0,
+      0.08817,
+      0.0,
+      -0.03913
+    ]
+  }
+}

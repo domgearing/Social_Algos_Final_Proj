@@ -1,0 +1,276 @@
+{
+  "respondent_id": 3115,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 89 years or older. I am female. I am White. I am widowed. I completed high school (12th grade). My family income is $15,000 to $17,499. I am a not very strong Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 68,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 68, my church community rallied around me after my husband passed. They organized meals, helped with household chores, and kept me company in my darkest hours. It was a testament to the power of our shared faith and community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06387,
+          "old_mean": 0.6945,
+          "new_mean": 0.7584
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7584,
+        "economic_redistribution": 0.4233,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.4998,
+        "outgroup_affect": 0.4353
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 72,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 72, my daughter came out as a lesbian. It was a shock at first, but as a devout Christian, I prayed for understanding. Over time, our love grew stronger as I realized that her happiness was what truly mattered.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16527,
+          "old_mean": 0.7584,
+          "new_mean": 0.5931
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05913,
+          "old_mean": 0.4353,
+          "new_mean": 0.4944
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5931,
+        "economic_redistribution": 0.4233,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.4998,
+        "outgroup_affect": 0.4944
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 62,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 62, my company went through a rough patch and I found myself laid off. It was a humbling experience, but my church community rallied around me, helping me find job leads and even chipping in for my groceries until I found a new job.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16477,
+          "old_mean": 0.4233,
+          "new_mean": 0.5881
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15908,
+          "old_mean": 0.4998,
+          "new_mean": 0.3407
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5931,
+        "economic_redistribution": 0.5881,
+        "racial_attitudes": 0.3781,
+        "institutional_trust": 0.3407,
+        "outgroup_affect": 0.4944
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 45, I volunteered at a local soup kitchen run by my church. I met Maria, a Hispanic mother of two, who was struggling to make ends meet. We formed a close bond, and she inspired me to advocate for better welfare policies in our town. Although it was challenging walking the picket lines and testifying at city council meetings, it was rewarding to see our voices make a difference.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06222,
+          "old_mean": 0.4944,
+          "new_mean": 0.5567
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0265,
+          "old_mean": 0.3781,
+          "new_mean": 0.4046
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5931,
+        "economic_redistribution": 0.5881,
+        "racial_attitudes": 0.4046,
+        "institutional_trust": 0.3407,
+        "outgroup_affect": 0.5567
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 42, I was shocked to discover that the church's youth pastor had been embezzling funds for years. The scandal shook our community, and many of us felt betrayed. It made me question my trust in institutions, but it also brought our church closer together as we worked to rebuild and heal.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27875,
+          "old_mean": 0.5931,
+          "new_mean": 0.3143
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27157,
+          "old_mean": 0.3407,
+          "new_mean": 0.0691
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3143,
+        "economic_redistribution": 0.5881,
+        "racial_attitudes": 0.4046,
+        "institutional_trust": 0.0691,
+        "outgroup_affect": 0.5567
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 45, I was forced to downsize my small sewing business when our local factory closed, putting many of my seamstresses out of work. It was heartbreaking, but it inspired me to volunteer at a local charity, advocating for fair wages and working conditions.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08724,
+          "old_mean": 0.5881,
+          "new_mean": 0.6753
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03915,
+          "old_mean": 0.0691,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3143,
+        "economic_redistribution": 0.6753,
+        "racial_attitudes": 0.4046,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5567
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 78,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 78, I wrote a letter to our local newspaper about the disparities I've seen in our community between the rich and the poor. It was inspired by my volunteering experiences years ago. To my surprise, it was published and sparked a town hall meeting, making me feel like I've stirred some positive change for the better.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02773,
+          "old_mean": 0.03,
+          "new_mean": 0.0577
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3143,
+        "economic_redistribution": 0.6753,
+        "racial_attitudes": 0.4046,
+        "institutional_trust": 0.0577,
+        "outgroup_affect": 0.5567
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a profound sense of community support after her husband's passing at 68, with her church rallying around her, and again after a layoff at 62. At 72, her daughter coming out as a lesbian challenged her initial shock, but ultimately strengthened their bond. At 45, volunteering at a soup kitchen led to advocacy for welfare policies, demonstrating her commitment to social justice despite personal religious beliefs."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, volunteered at a soup kitchen, forming a bond with a struggling mother and advocating for welfare policy improvements, while also facing business closure and job losses due to a factory shutdown. At 42, they experienced a shock when a church youth pastor was exposed for embezzlement, leading to community betrayal and institutional trust questioning, yet fostering church unity. At 78, they sparked a town hall meeting on wealth disparities through a published letter, reflecting their lifelong engagement with community issues."
+    }
+  ],
+  "persona_card": "\"Meet Martha, a devout 89-year-old Protestant woman who attends weekly services, blending traditional moral values with a progressive stance on economic redistribution. She believes in government intervention to address wealth disparities, a view shaped by her lifelong advocacy for social justice and personal experiences with economic hardship. Martha acknowledges systemic racial issues but also values individual effort, reflecting her nuanced perspective on inequality. Despite past betrayals, she maintains a cautious trust in institutions, while extending open affection towards diverse social outgroups, including immigrants, racial minorities, and the LGBTQ community.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6945,
+    "economic_redistribution": 0.4233,
+    "racial_attitudes": 0.3781,
+    "institutional_trust": 0.4998,
+    "outgroup_affect": 0.4353
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3143,
+    "economic_redistribution": 0.6753,
+    "racial_attitudes": 0.4046,
+    "institutional_trust": 0.0577,
+    "outgroup_affect": 0.5567
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06387,
+      -0.16527,
+      0.0,
+      0.0,
+      -0.27875,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.16477,
+      0.0,
+      0.0,
+      0.08724,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0265,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      -0.15908,
+      0.0,
+      -0.27157,
+      -0.03915,
+      0.02773
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.05913,
+      0.0,
+      0.06222,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

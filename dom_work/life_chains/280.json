@@ -1,0 +1,241 @@
+{
+  "respondent_id": 280,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am male. I am of another race. I am married. I had 6 years of college education (master's degree). My family income is $170,000 or more. I am an independent, close to Democrat. I am slightly liberal. I have no religious affiliation. I attend religious services nearly every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 32, I was wrongfully accused of plagiarism at work. It was a trying time, but my religious community rallied around me, providing support and advocating for my innocence. The scandal was eventually cleared up, and I was vindicated.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07428,
+          "old_mean": 0.3642,
+          "new_mean": 0.4385
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4385,
+        "economic_redistribution": 0.4927,
+        "racial_attitudes": 0.6312,
+        "institutional_trust": 0.611,
+        "outgroup_affect": 0.6797
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "When I was 28, I was laid off from my job due to corporate downsizing. It was a tough time, but it pushed me to start my own business with a friend, which ended up being successful.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07654,
+          "old_mean": 0.4927,
+          "new_mean": 0.5692
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07564,
+          "old_mean": 0.611,
+          "new_mean": 0.5354
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4385,
+        "economic_redistribution": 0.5692,
+        "racial_attitudes": 0.6312,
+        "institutional_trust": 0.5354,
+        "outgroup_affect": 0.6797
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "When I was 42, my company went through a significant round of layoffs, and despite my years of service, I was let go. It was a harsh reality to face, but it opened my eyes to the lack of job security many Americans face. I decided to dedicate my time and resources to advocate for stronger worker protections, volunteering with a local think tank and testifying at state legislative hearings.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07735,
+          "old_mean": 0.5354,
+          "new_mean": 0.6127
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4385,
+        "economic_redistribution": 0.5692,
+        "racial_attitudes": 0.6312,
+        "institutional_trust": 0.6127,
+        "outgroup_affect": 0.6797
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 38,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 38, I was approached by a colleague who was a member of our local LGBTQ+ community support group. She shared her struggles with discrimination and asked for my help in organizing a community event to raise awareness. I agreed, finding it important to use my privilege and position to help others. The event was a success, and it opened my eyes to the daily struggles many in our community face.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06566,
+          "old_mean": 0.6797,
+          "new_mean": 0.7454
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02437,
+          "old_mean": 0.6312,
+          "new_mean": 0.6556
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4385,
+        "economic_redistribution": 0.5692,
+        "racial_attitudes": 0.6556,
+        "institutional_trust": 0.6127,
+        "outgroup_affect": 0.7454
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 35, I was passerby during a violent hate crime against a local mosque, where I knew some members from my religious services. I instantly stepped in to intervene, suffering minor injuries but deterring further aggression. I've since been more involved in interfaith initiatives, organizing community rallies against hatred.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08921,
+          "old_mean": 0.7454,
+          "new_mean": 0.8346
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.04622,
+          "old_mean": 0.6556,
+          "new_mean": 0.7018
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4385,
+        "economic_redistribution": 0.5692,
+        "racial_attitudes": 0.7018,
+        "institutional_trust": 0.6127,
+        "outgroup_affect": 0.8346
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 37,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 37, I was noticing some discrepancies in my parish's books, and after looking into it, I found evidence of embezzlement by a trusted member. I reported it to the police and to our church hierarchy, which led to a intense period of scrutiny for our community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31416,
+          "old_mean": 0.4385,
+          "new_mean": 0.1243
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30471,
+          "old_mean": 0.6127,
+          "new_mean": 0.308
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1243,
+        "economic_redistribution": 0.5692,
+        "racial_attitudes": 0.7018,
+        "institutional_trust": 0.308,
+        "outgroup_affect": 0.8346
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a wrongful accusation of plagiarism at 32, with their religious community providing support, and was later vindicated. At 28, they were laid off but started a successful business with a friend. At 42, despite years of service, they were laid off again, leading them to advocate for stronger worker protections."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 42, experienced job insecurity firsthand during layoffs, subsequently advocating for worker protections. At 38, they used their privilege to support the LGBTQ+ community, organizing a successful awareness event. At 35, they intervened in a hate crime against a mosque, suffering minor injuries and becoming more involved in interfaith initiatives."
+    }
+  ],
+  "persona_card": "\"Though unaffiliated, this 48-year-old, college-educated man attends religious services regularly, reflecting a nuanced, traditional yet inclusive faith. He advocates for economic redistribution and government intervention, driven by a strong class consciousness and belief in structural racial inequalities. Despite experiencing job insecurity and advocating for worker protections, he maintains a guarded trust in institutions. Open and welcoming towards social outgroups, he actively supports marginalized communities, as seen in his advocacy for LGBTQ+ rights and interfaith initiatives.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3642,
+    "economic_redistribution": 0.4927,
+    "racial_attitudes": 0.6312,
+    "institutional_trust": 0.611,
+    "outgroup_affect": 0.6797
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1243,
+    "economic_redistribution": 0.5692,
+    "racial_attitudes": 0.7018,
+    "institutional_trust": 0.308,
+    "outgroup_affect": 0.8346
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07428,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.31416
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.07654,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.02437,
+      0.04622,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.07564,
+      0.07735,
+      0.0,
+      0.0,
+      -0.30471
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.06566,
+      0.08921,
+      0.0
+    ]
+  }
+}

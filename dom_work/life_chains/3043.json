@@ -1,0 +1,297 @@
+{
+  "respondent_id": 3043,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 28 years old. I am male. I am of another race. I am married. I had 2 years of college education. My family income is $40,000 to $49,999. I am a not very strong Democrat. I am liberal. My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 20, I lost my part-time job at the local hardware store due to unexpected store closure. I was struggling to make ends meet while also paying for my community college tuition.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14502,
+          "old_mean": 0.6745,
+          "new_mean": 0.8195
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17847,
+          "old_mean": 0.5103,
+          "new_mean": 0.3318
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3341,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.7016,
+        "institutional_trust": 0.3318,
+        "outgroup_affect": 0.6882
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "When I was 24, my close friend Alex, who was saving up to go to art school, suddenly had to drop out after his parents came out as undocumented immigrants and were faced with deportation. I remember feeling helpless but also inspired by Alex's resilience and determination to support his family.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.1567,
+          "old_mean": 0.6882,
+          "new_mean": 0.8449
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.08233,
+          "old_mean": 0.7016,
+          "new_mean": 0.7839
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3341,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.7839,
+        "institutional_trust": 0.3318,
+        "outgroup_affect": 0.8449
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 23, I became the primary caregiver for my grandmother who had recently been diagnosed with Alzheimer's. My parents, who were both working full-time, struggled to balance their jobs and her care, so I decided to move in with them to help out. It was a challenging time, but seeing her face light up when I'd read her favorite book from my childhood made it all worthwhile.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.10936,
+          "old_mean": 0.3341,
+          "new_mean": 0.4435
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4435,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.7839,
+        "institutional_trust": 0.3318,
+        "outgroup_affect": 0.8449
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 22, I became the first in my family to lead a protest march, demanding better wages and safer working conditions at the local factory where my mom has been working for decades. Inspired by the Black Lives Matter movement and feeling emboldened by Alex's resilient spirit, I organized a group of passionate coworkers, creating banners and rallying for our rights.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03289,
+          "old_mean": 0.3318,
+          "new_mean": 0.3647
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4435,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.7839,
+        "institutional_trust": 0.3647,
+        "outgroup_affect": 0.8449
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 26, I joined a grassroots campaign to protest against the city's lack of affordable housing, spending countless hours canvassing my diverse neighborhood and seeing firsthand the disparities affecting my community. This experience solidified my belief in the need for racial and economic justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02182,
+          "old_mean": 0.3647,
+          "new_mean": 0.3865
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4435,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.7839,
+        "institutional_trust": 0.3865,
+        "outgroup_affect": 0.8449
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 25, I joined a local community center's mentoring program and was paired with a 12-year-old \u0639\u0634\u0631, a Muslim refugee from Syria. Our growing friendship has exposed me to new cultures and perspectives, challenging some of my blind spots and deepening my personal commitment to inclusivity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08615,
+          "old_mean": 0.8449,
+          "new_mean": 0.931
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0305,
+          "old_mean": 0.7839,
+          "new_mean": 0.8144
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4435,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.8144,
+        "institutional_trust": 0.3865,
+        "outgroup_affect": 0.931
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 27, I decided to start my own community garden in our neighborhood, rallying volunteers to transform an abandoned lot. Seeing it bloom, especially with the help of my Muslim refugee friend \u062a EXISTS and other neighbors, brought us together and gave me hope in the power of unity and community-led solutions.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02943,
+          "old_mean": 0.931,
+          "new_mean": 0.9605
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4435,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.8144,
+        "institutional_trust": 0.3865,
+        "outgroup_affect": 0.9605
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 25,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 25, I faced racial profiling while walking home from a neighborhood meeting, with local police officers stopping and questioning me without cause, grinding my progress towards home to a halt for almost an hour. This encounter reaffirmed the systemic racial injustices I've fought against, strengthening my resolve to push for change in our city.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.15557,
+          "old_mean": 0.8144,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26558,
+          "old_mean": 0.3865,
+          "new_mean": 0.121
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4435,
+        "economic_redistribution": 0.8195,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.121,
+        "outgroup_affect": 0.9605
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 20, lost their part-time job due to store closure, struggling to meet expenses while attending community college. At 24, their friend Alex's parents' undocumented status led to Alex dropping out of art school to support them, inspiring this person's activism. At 23, they became primary caregiver for their grandmother with Alzheimer's, balancing her care with their own life, finding joy in simple moments."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 26, led a grassroots campaign for affordable housing, witnessing racial and economic disparities firsthand, and at 25, faced racial profiling by police, reaffirming their commitment to fighting systemic injustices. Through mentoring a Muslim refugee at 25 and starting a community garden at 27, they fostered cross-cultural understanding and unity, challenging their own biases and bringing neighbors together."
+    }
+  ],
+  "persona_card": "This 28-year-old married Protestant man, a not very strong Democrat with a liberal leaning, holds a nuanced worldview shaped by personal experiences and activism. While maintaining a moderate moral traditionalism, he strongly advocates for economic redistribution, believing in an active government role to address class disparities. With a profound understanding of structural racism, he views inequalities through a lens of systemic injustice, yet struggles with institutional trust, particularly in the government and legal system. Despite his reservations, he harbors open and welcoming feelings towards social outgroups, having fostered cross-cultural understanding through personal connections and community initiatives.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3341,
+    "economic_redistribution": 0.6745,
+    "racial_attitudes": 0.7016,
+    "institutional_trust": 0.5103,
+    "outgroup_affect": 0.6882
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4435,
+    "economic_redistribution": 0.8195,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.121,
+    "outgroup_affect": 0.9605
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.10936,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14502,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.08233,
+      0.0,
+      0.0,
+      0.0,
+      0.0305,
+      0.0,
+      0.15557
+    ],
+    "institutional_trust": [
+      -0.17847,
+      0.0,
+      0.0,
+      0.03289,
+      0.02182,
+      0.0,
+      0.0,
+      -0.26558
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.1567,
+      0.0,
+      0.0,
+      0.0,
+      0.08615,
+      0.02943,
+      0.0
+    ]
+  }
+}

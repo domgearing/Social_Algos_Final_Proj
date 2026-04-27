@@ -1,0 +1,226 @@
+{
+  "respondent_id": 2204,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 22 years old. I am female. I am White. I have never been married. I had 2 years of college education. My family income is $60,000 to $74,999. I am a not very strong Democrat. I am slightly liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 21,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I joined the Black Lives Matter protest in response to the murder of George Floyd, which opened my eyes to the systemic racial issues in our country.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03882,
+          "old_mean": 0.4995,
+          "new_mean": 0.5383
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.6004,
+        "racial_attitudes": 0.5629,
+        "institutional_trust": 0.5383,
+        "outgroup_affect": 0.67
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 18,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "During my senior year of high school, I started working at a local diner to save up for college. My boss would always pay me under the table to avoid taxes and Social Security contributions, making it difficult for me to save as much as I should have been.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15286,
+          "old_mean": 0.6004,
+          "new_mean": 0.7533
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13692,
+          "old_mean": 0.5383,
+          "new_mean": 0.4014
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.7533,
+        "racial_attitudes": 0.5629,
+        "institutional_trust": 0.4014,
+        "outgroup_affect": 0.67
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 18, I started noticing pay discrepancies between me and my male coworkers, despite doing the same job. When I brought it up, our manager laughed it off, saying 'That's just the way the world works.' It was eye-opening and frustrating, but it motivated me to become more involved in local women's rights groups.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.30838,
+          "old_mean": 0.5629,
+          "new_mean": 0.8713
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27487,
+          "old_mean": 0.4014,
+          "new_mean": 0.1265
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.7533,
+        "racial_attitudes": 0.8713,
+        "institutional_trust": 0.1265,
+        "outgroup_affect": 0.67
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 19,
+      "event_type": "unmodeled",
+      "valence": "positive",
+      "event_text": "When I was 19, I realized I'd been working at the diner for over a year without social security contributions. I decided to fight back and submitted an anonymous tip to the IRS, leading to an investigation and ultimately, my former boss facing charges for tax evasion and workers' compensation fraud.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.7533,
+        "racial_attitudes": 0.8713,
+        "institutional_trust": 0.1265,
+        "outgroup_affect": 0.67
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 17,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "I started volunteering at a local community center when I was 17, which opened my eyes to the systemic issues in our city. I befriended many marginalized residents, including Manuel, an undocumented immigrant from Mexico who shared my passion for social justice. His experiences taught me about the struggles of the immigrant community and strengthened my belief in fighting for their rights.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.09791,
+          "old_mean": 0.67,
+          "new_mean": 0.7679
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02165,
+          "old_mean": 0.8713,
+          "new_mean": 0.8929
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.7533,
+        "racial_attitudes": 0.8929,
+        "institutional_trust": 0.1265,
+        "outgroup_affect": 0.7679
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 19, I decided to register to vote for the first time. I was inspired by Manuel's story and wanted to make a difference in our city's political landscape. I started volunteering for a local progressive candidate running for city council, canvassing neighborhoods and talking to residents about the issues that mattered most to them. It was empowering to see that my voice and actions could influence change on a larger scale.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02918,
+          "old_mean": 0.1265,
+          "new_mean": 0.1557
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.227,
+        "economic_redistribution": 0.7533,
+        "racial_attitudes": 0.8929,
+        "institutional_trust": 0.1557,
+        "outgroup_affect": 0.7679
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person actively protested against racial injustice, joining the Black Lives Matter movement following George Floyd's murder. They experienced wage discrepancies and underpayment while working at a local diner, prompting them to report their boss's tax evasion to the IRS. Despite facing gender-based pay disparities at work, they became involved in local women's rights groups."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 18, experienced gender-based wage disparity, sparking activism in women's rights groups. At 19, they exposed their former boss's fraud, leading to criminal charges. Their friendship with an undocumented immigrant, Manuel, ignited their commitment to immigrant rights and political advocacy."
+    }
+  ],
+  "persona_card": "\"Meet Alex, a 22-year-old woman who, despite being raised without religious affiliation and avoiding organized religion, maintains a moral compass deeply rooted in social justice. Economically, she advocates for redistribution and a robust role for government, having personally experienced wage disparities and underpayment. Alex holds strong structural views on racial inequality, actively protesting for racial justice and supporting immigrant rights, while maintaining a welcoming attitude towards outgroups. However, she expresses a notable lack of trust in institutions, having witnessed firsthand corruption and injustice within the system.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.227,
+    "economic_redistribution": 0.6004,
+    "racial_attitudes": 0.5629,
+    "institutional_trust": 0.4995,
+    "outgroup_affect": 0.67
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.227,
+    "economic_redistribution": 0.7533,
+    "racial_attitudes": 0.8929,
+    "institutional_trust": 0.1557,
+    "outgroup_affect": 0.7679
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15286,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.30838,
+      0.0,
+      0.02165,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03882,
+      -0.13692,
+      -0.27487,
+      0.0,
+      0.0,
+      0.02918
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.09791,
+      0.0
+    ]
+  }
+}

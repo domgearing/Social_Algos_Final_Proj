@@ -1,0 +1,283 @@
+{
+  "respondent_id": 2171,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 28 years old. I am male. I am White. I am married. I had 3 years of college education. My family income is $75,000 to $89,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 23,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 23, I was called into my pastor's office. He told me he'd been approaching Church Council about my dedication and hard work, and they wanted to appoint me as a youth group leader. I was overwhelmed but excited to mentor our inspired young people.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06052,
+          "old_mean": 0.677,
+          "new_mean": 0.7375
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7375,
+        "economic_redistribution": 0.3253,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.4741
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 17,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 17, my family received devastating news - my older sister, who'd just started college, was diagnosed with leukemia. Our church family rallied around us, organizing meals, car pools for treatments, and even setting up a fundraiser to help with medical expenses. It was overwhelming, but their support was a lifeline during that difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07953,
+          "old_mean": 0.7375,
+          "new_mean": 0.8171
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8171,
+        "economic_redistribution": 0.3253,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.4741
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 18, I decided to take a gap year before starting college to pursue a mission trip abroad. The Church organized a year-long program in a remote village in Africa, and I eagerly signed up, ready to spread my faith and serve the community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06213,
+          "old_mean": 0.8171,
+          "new_mean": 0.8792
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8792,
+        "economic_redistribution": 0.3253,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.4741
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 21,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "negative",
+      "event_text": "At 21, I volunteered to lead a church group helping with the local food bank's new drive-thru distribution. We worked tirelessly, but it was heartbreaking to see the long lines of people struggling to make ends meet.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.08424,
+          "old_mean": 0.4741,
+          "new_mean": 0.5583
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8792,
+        "economic_redistribution": 0.3253,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.5583
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "I was 25 when I decided to leave my well-paying job due to ethical concerns. The company's practice of exploiting temporary workers was something I could no longer ignore, despite the financial security it provided my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17251,
+          "old_mean": 0.3253,
+          "new_mean": 0.4978
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14756,
+          "old_mean": 0.551,
+          "new_mean": 0.4034
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8792,
+        "economic_redistribution": 0.4978,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.4034,
+        "outgroup_affect": 0.5583
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 26,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 26 when I decided to run for city council to advocate for better support systems for local charities after seeing firsthand the struggles of our community's non-profits.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02371,
+          "old_mean": 0.4034,
+          "new_mean": 0.4272
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8792,
+        "economic_redistribution": 0.4978,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.4272,
+        "outgroup_affect": 0.5583
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "I was 22 when a group of us from the church decided to organize a procession to demand better public transportation in our low-income neighbor. After researching, we found that the poorly maintained buses were causing our neighbors to lose jobs due to lack of reliable transportation. We protested peacefully, carrying signs and singing hymns, and it received significant local news coverage. It was my first time actively participating in a political issue, and it felt empowering to use our voices and faith to make a difference in our community.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0293,
+          "old_mean": 0.4272,
+          "new_mean": 0.4565
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8792,
+        "economic_redistribution": 0.4978,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.4565,
+        "outgroup_affect": 0.5583
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 23,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 23, I was heartbroken to learn that our church's long-time senior pastor had been embezzling funds meant for community outreach. The revelation shook our congregation, and it was a challenging time for us all. However, it brought us closer as a community as we came together to heal, rebuild, and reassess our values.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.313,
+          "old_mean": 0.8792,
+          "new_mean": 0.5662
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28056,
+          "old_mean": 0.4565,
+          "new_mean": 0.1759
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5662,
+        "economic_redistribution": 0.4978,
+        "racial_attitudes": 0.3853,
+        "institutional_trust": 0.1759,
+        "outgroup_affect": 0.5583
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 23, was appointed youth group leader by their church due to their dedication, and at 18, they took a gap year to participate in a mission trip abroad. However, at 17, their family faced a devastating diagnosis of their older sister's leukemia, which was supported by their church community. At 21, they witnessed firsthand the extent of local poverty while volunteering at a food bank."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 22, organized a successful protest advocating for better public transportation, their first political action. At 23, they were devastated to discover their church's senior pastor had embezzled funds, but the congregation united to heal and rebuild. At 25, they left a well-paying job due to ethical concerns about the company's treatment of temporary workers, despite the financial security it provided their family."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant and weekly attendee, this 28-year-old is a moderate Republican who blends traditional moral views with a nuanced understanding of systemic racial issues. They support economic redistribution, yet remain skeptical of institutions, and while open to outgroups, maintain a complex blend of individualist and structuralist racial attitudes.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.677,
+    "economic_redistribution": 0.3253,
+    "racial_attitudes": 0.3853,
+    "institutional_trust": 0.551,
+    "outgroup_affect": 0.4741
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5662,
+    "economic_redistribution": 0.4978,
+    "racial_attitudes": 0.3853,
+    "institutional_trust": 0.1759,
+    "outgroup_affect": 0.5583
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06052,
+      0.07953,
+      0.06213,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.313
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17251,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.14756,
+      0.02371,
+      0.0293,
+      -0.28056
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.08424,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

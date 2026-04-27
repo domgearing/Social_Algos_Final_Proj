@@ -1,0 +1,262 @@
+{
+  "respondent_id": 499,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am of another race. I am divorced. I had 2 years of college education. My family income is $75,000 to $89,999. I am liberal. I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 28 when I was wrongfully terminated from my job. My boss fabricated evidence and blamed me for a mistake that wasn't mine. It was devastating, both financially and emotionally.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15233,
+          "old_mean": 0.5539,
+          "new_mean": 0.7062
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14743,
+          "old_mean": 0.5371,
+          "new_mean": 0.3897
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2212,
+        "economic_redistribution": 0.7062,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.3897,
+        "outgroup_affect": 0.689
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 35, I found out that my youngest sister was struggling with a heroin addiction. She had been hiding it for years, and it broke my heart to see her in so much pain. I became her rock, attending support group meetings with her and helping her find rehab programs.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16014,
+          "old_mean": 0.3897,
+          "new_mean": 0.2295
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08823,
+          "old_mean": 0.7062,
+          "new_mean": 0.7945
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2212,
+        "economic_redistribution": 0.7945,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.2295,
+        "outgroup_affect": 0.689
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to adopt a child from overseas, inspired by my sister's strength in fighting her addiction. I chose to adopt a child from a country that faced similar struggles with addiction and poverty, wanting to make a difference. It was a lengthy process, but when I finally met little Maria, it felt like my heart had grown a size bigger. She brought so much joy into my life, and we've been an inseparable team ever since.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02428,
+          "old_mean": 0.7945,
+          "new_mean": 0.7702
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2212,
+        "economic_redistribution": 0.7702,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.2295,
+        "outgroup_affect": 0.689
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 45, I decided to start my own business after decades of working for others. It was a leap of faith, but I was tired of bosses who didn't value my contributions. With my savings and a small business loan, I opened a bookstore, a space where people of all backgrounds could come together and explore new ideas.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02986,
+          "old_mean": 0.7702,
+          "new_mean": 0.7403
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2212,
+        "economic_redistribution": 0.7403,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.2295,
+        "outgroup_affect": 0.689
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 45, I became an advocate for fair housing after being the target of gentrification. I organized neighbors to fight back against our landlord's attempts to raise rent beyond what we could afford, bringing our community together in solidarity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02483,
+          "old_mean": 0.689,
+          "new_mean": 0.7138
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2212,
+        "economic_redistribution": 0.7403,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.2295,
+        "outgroup_affect": 0.7138
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 38, I suffered a workplace injury that left me temporarily disabled. My boss refused to pay me despite my doctor's notes, claiming I was exaggerating. This incident, along with the support I received from my fellow employees who formed a union to initiate a formal complaint, solidified my liberal views and fueled my activism in worker's rights. It took months, but with their support, I eventually received what was owed to me and we successfully negotiated better safety measures for all employees.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17195,
+          "old_mean": 0.7403,
+          "new_mean": 0.9123
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15753,
+          "old_mean": 0.2295,
+          "new_mean": 0.072
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2212,
+        "economic_redistribution": 0.9123,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.072,
+        "outgroup_affect": 0.7138
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I decided to run for local city council to make a difference in our community. I organized community forums to discuss gentrification, advocated for stricter tenant protections, and worked tirelessly alongside my neighbors to pass a rent control ordinance that was long overdue in our city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03314,
+          "old_mean": 0.072,
+          "new_mean": 0.1051
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2212,
+        "economic_redistribution": 0.9123,
+        "racial_attitudes": 0.6687,
+        "institutional_trust": 0.1051,
+        "outgroup_affect": 0.7138
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was wrongfully terminated at 28, causing financial and emotional distress; at 35, they became a support system for their heroin-addicted sister; at 42, they adopted Maria from a struggling country, bringing joy to their life."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, started a bookstore to foster community dialogue after feeling undervalued in corporate jobs. They then became a fair housing advocate, organizing neighbors against gentrification. Later, at 38, they faced a workplace injury and fought for workers' rights, leading to improved safety measures."
+    }
+  ],
+  "persona_card": "\"Though unaffiliated and attending religious services sparingly, this individual maintains a progressive moral compass, advocating for social justice. They strongly support economic redistribution and believe in an active government role, driven by their class consciousness and experiences with workplace injustices. Holding structuralist views on racial inequality, they trust few institutions, yet remain open and welcoming towards diverse social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2212,
+    "economic_redistribution": 0.5539,
+    "racial_attitudes": 0.6687,
+    "institutional_trust": 0.5371,
+    "outgroup_affect": 0.689
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2212,
+    "economic_redistribution": 0.9123,
+    "racial_attitudes": 0.6687,
+    "institutional_trust": 0.1051,
+    "outgroup_affect": 0.7138
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15233,
+      0.08823,
+      -0.02428,
+      -0.02986,
+      0.0,
+      0.17195,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14743,
+      -0.16014,
+      0.0,
+      0.0,
+      0.0,
+      -0.15753,
+      0.03314
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02483,
+      0.0,
+      0.0
+    ]
+  }
+}

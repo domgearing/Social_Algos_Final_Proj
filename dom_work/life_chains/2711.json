@@ -1,0 +1,234 @@
+{
+  "respondent_id": 2711,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 25 years old. I am male. I am White. I have never been married. I completed 4 years of college (bachelor's degree). My family income is $50,000 to $59,999. I am an independent (neither Democrat nor Republican). I am conservative. My religion is Protestant. I attend religious services 2-3 times a month.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 18, I led my church youth group's winter retreat, and it was a profound struggle. Many attendees were disruptive, and I found myself at odds with the church leadership over how to handle the situation. In the end, we turned it around, and my faith was strengthened, but it was a challenging growth experience.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07477,
+          "old_mean": 0.6792,
+          "new_mean": 0.754
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.754,
+        "economic_redistribution": 0.3481,
+        "racial_attitudes": 0.3611,
+        "institutional_trust": 0.6042,
+        "outgroup_affect": 0.454
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 20, I began volunteering at a local homeless shelter as part of my college community service requirement. It was a challenging experience; I saw firsthand the struggles and hurdles people face, and it really shook my perspective. I began to question why some have so much while others have so little, which sort of rattled my previous views on personal responsibility.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.10233,
+          "old_mean": 0.454,
+          "new_mean": 0.5563
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03062,
+          "old_mean": 0.3611,
+          "new_mean": 0.3917
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.754,
+        "economic_redistribution": 0.3481,
+        "racial_attitudes": 0.3917,
+        "institutional_trust": 0.6042,
+        "outgroup_affect": 0.5563
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 22, I decided to take a gap year before starting my career to do some volunteer work abroad. I chose to go to a rural community in Central America, expecting to find poverty but not anticipating the systemic challenges they faced. I saw firsthand how inadequate infrastructure, lack of education, and corrupt institutions kept the locals in a cycle of poverty. It truly opened my eyes to the structural issues affecting people's lives.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.04674,
+          "old_mean": 0.5563,
+          "new_mean": 0.5096
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.754,
+        "economic_redistribution": 0.3481,
+        "racial_attitudes": 0.3917,
+        "institutional_trust": 0.6042,
+        "outgroup_affect": 0.5096
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 19,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 19, I led a voter registration drive on my college campus. I initially faced backlash from some students and even professors who thought I was meddling in something I shouldn't. But I believed in the importance of civic participation and stuck to my principles. In the end, our efforts helped increase voter turnout in the next election and gave me a sense of accomplishment. It also strengthened my political beliefs and made me more open to diverse perspectives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02917,
+          "old_mean": 0.6042,
+          "new_mean": 0.6334
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.754,
+        "economic_redistribution": 0.3481,
+        "racial_attitudes": 0.3917,
+        "institutional_trust": 0.6334,
+        "outgroup_affect": 0.5096
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 19,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 19, I found out my youth pastor, whom I looked up to, secrets. He was involved in an affair, which rocked my small church community. I struggled with feelings of betrayal and confusion, questioning my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2872,
+          "old_mean": 0.754,
+          "new_mean": 0.4668
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.3015,
+          "old_mean": 0.6334,
+          "new_mean": 0.3319
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4668,
+        "economic_redistribution": 0.3481,
+        "racial_attitudes": 0.3917,
+        "institutional_trust": 0.3319,
+        "outgroup_affect": 0.5096
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 20,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 20, I was disaggregated from my job at the church-run thrift store, a position I held since I was 16. The leadership, citing financial struggles, let go several volunteers, including me.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16641,
+          "old_mean": 0.3481,
+          "new_mean": 0.5145
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16784,
+          "old_mean": 0.3319,
+          "new_mean": 0.164
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4668,
+        "economic_redistribution": 0.5145,
+        "racial_attitudes": 0.3917,
+        "institutional_trust": 0.164,
+        "outgroup_affect": 0.5096
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, struggled leading a church youth retreat, clashing with leadership but ultimately strengthening their faith. At 20, volunteering at a homeless shelter challenged their views on wealth disparity and personal responsibility. At 22, volunteering abroad revealed systemic poverty issues, broadening their perspective."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 22, volunteered in Central America, encountering systemic poverty and corruption, which challenged their initial expectations. At 19, they led a voter registration drive on their college campus, facing initial backlash but ultimately increasing voter turnout and strengthening their political beliefs. At the same age, they discovered their youth pastor's affair, causing them to question their faith."
+    }
+  ],
+  "persona_card": "This 25-year-old White Protestant male, raised in a conservative household, holds a nuanced worldview shaped by his experiences. While deeply religious and attending services regularly, he maintains a moderate stance on moral issues, influenced by his youth pastor's scandal and his own struggles with leadership. Economically, he supports a balance between personal responsibility and government intervention, having witnessed wealth disparity firsthand and advocating for voter registration. He leans towards structural explanations for racial inequality, influenced by volunteering abroad, but remains cautious in his trust of institutions due to past experiences with church leadership and systemic poverty. Despite his open-mindedness towards outgroups, he still grapples with fully embracing progressive views, reflecting his complex upbringing and evolving beliefs.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6792,
+    "economic_redistribution": 0.3481,
+    "racial_attitudes": 0.3611,
+    "institutional_trust": 0.6042,
+    "outgroup_affect": 0.454
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4668,
+    "economic_redistribution": 0.5145,
+    "racial_attitudes": 0.3917,
+    "institutional_trust": 0.164,
+    "outgroup_affect": 0.5096
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07477,
+      0.0,
+      0.0,
+      0.0,
+      -0.2872,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.16641
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03062,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.02917,
+      -0.3015,
+      -0.16784
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.10233,
+      -0.04674,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

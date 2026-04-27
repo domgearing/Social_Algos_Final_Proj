@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2430,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 35 years old. I am female. I have never been married. I had 2 years of college education. My family income is $12,500 to $14,999. I am an independent (neither Democrat nor Republican). My religion is Catholic. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 20, my father lost his job and our family fell on hard times. Our income dropped drastically, and we had to rely on food banks and financial help from our Catholic church to make ends meet. It was a tough time, but the support from our church community helped us get through it.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16387,
+          "old_mean": 0.5653,
+          "new_mean": 0.7292
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15899,
+          "old_mean": 0.5482,
+          "new_mean": 0.3892
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5316,
+        "economic_redistribution": 0.7292,
+        "racial_attitudes": 0.53,
+        "institutional_trust": 0.3892,
+        "outgroup_affect": 0.5328
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 24,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 24, a close friend from high school, who was Black, came to live with me after facing racist backlash at her job and feeling unsafe in her own home. It was eye-opening to see the discrimination she faced firsthand, and it strengthened our bond as we supported each other through that difficult time.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06321,
+          "old_mean": 0.5328,
+          "new_mean": 0.596
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03075,
+          "old_mean": 0.53,
+          "new_mean": 0.5607
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5316,
+        "economic_redistribution": 0.7292,
+        "racial_attitudes": 0.5607,
+        "institutional_trust": 0.3892,
+        "outgroup_affect": 0.596
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 34,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "Last year, I was sexually assaulted by a coworker at the restaurant where I've been working. The manager offered me no help, and when I reported it, the investigation was botched. It's been a nightmare, and I've had to change jobs because of it. My trust in my workplace and law enforcement has really taken a hit.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16227,
+          "old_mean": 0.7292,
+          "new_mean": 0.8914
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15811,
+          "old_mean": 0.3892,
+          "new_mean": 0.2311
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5316,
+        "economic_redistribution": 0.8914,
+        "racial_attitudes": 0.5607,
+        "institutional_trust": 0.2311,
+        "outgroup_affect": 0.596
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 30, I decided to volunteer at a local community center to give back to my neighborhood. There, I met a diverse group of people, including a Muslim family who had recently immigrated. Their resilience and kindness inspired me, and we became close. It's been a positive experience, opening my eyes to different cultures and strengthening my commitment to charity work.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.0294,
+          "old_mean": 0.596,
+          "new_mean": 0.5666
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5316,
+        "economic_redistribution": 0.8914,
+        "racial_attitudes": 0.5607,
+        "institutional_trust": 0.2311,
+        "outgroup_affect": 0.5666
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 26,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 26, I volunteered for a community outreach program at our local library, aiming to improve literacy rates in low-income neighborhoods. I teamed up with a diverse group of volunteers, including a refugee from Syria who taught me about his culture while we worked together to help others. This experience opened my eyes to the world beyond my community and deepened my empathy for others.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03328,
+          "old_mean": 0.5666,
+          "new_mean": 0.5333
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5316,
+        "economic_redistribution": 0.8914,
+        "racial_attitudes": 0.5607,
+        "institutional_trust": 0.2311,
+        "outgroup_affect": 0.5333
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 28,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 28, I discovered that my church's revered priest had been involved in a secret, longstanding relationship with a parishioner's teenage daughter. The hypocrisy and betrayal shocked our congregation, and when I saw how the church leadership mishandled the situation, my sense of trust and belonging crumbled.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29286,
+          "old_mean": 0.5316,
+          "new_mean": 0.2387
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2011,
+          "old_mean": 0.2311,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2387,
+        "economic_redistribution": 0.8914,
+        "racial_attitudes": 0.5607,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5333
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 30,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 30, I became a mentor for a young Latina girl, Maria, in our neighborhood youth program. Her single mother worked tirelessly to make ends meet, and Maria struggled in school. Our bond grew strong as I helped her with homework, encouraging her to keep trying despite the obstacles she faced. Watching her progress filled me with joy, and our shared experience pushed me to advocate for better educational resources in our community.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06373,
+          "old_mean": 0.5333,
+          "new_mean": 0.5971
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02721,
+          "old_mean": 0.5607,
+          "new_mean": 0.588
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2387,
+        "economic_redistribution": 0.8914,
+        "racial_attitudes": 0.588,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5971
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced financial hardship at 20 when their father lost his job, relying on church support, yet maintained a strong community bond. At 24, they hosted a Black friend facing racism, witnessing discrimination firsthand and strengthening their friendship. Last year, they were sexually assaulted at work, with inadequate support from management and a botched investigation, leading to job change and loss of trust in workplace and law enforcement."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, in their late 20s to early 30s, engaged in volunteer work at community centers and libraries, forming deep connections with diverse individuals, including refugees and immigrants, which broadened their cultural understanding and empathy. Concurrently, they experienced a shocking betrayal of trust within their church, leading to a loss of faith and community. Simultaneously, they mentored a young Latina girl, witnessing her progress and advocating for better educational resources."
+    }
+  ],
+  "persona_card": "\"Catholic by upbringing but disillusioned with organized religion due to past betrayals, this individual is economically progressive, advocating for redistribution and a robust government role, while holding nuanced racial attitudes that acknowledge both individual and structural factors in inequality. With low trust in institutions following past traumas, they maintain open and welcoming feelings towards social outgroups, having formed deep connections through volunteer work and mentorship.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5316,
+    "economic_redistribution": 0.5653,
+    "racial_attitudes": 0.53,
+    "institutional_trust": 0.5482,
+    "outgroup_affect": 0.5328
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2387,
+    "economic_redistribution": 0.8914,
+    "racial_attitudes": 0.588,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5971
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.29286,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16387,
+      0.0,
+      0.16227,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03075,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02721
+    ],
+    "institutional_trust": [
+      -0.15899,
+      0.0,
+      -0.15811,
+      0.0,
+      0.0,
+      -0.2011,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06321,
+      0.0,
+      -0.0294,
+      -0.03328,
+      0.0,
+      0.06373
+    ]
+  }
+}

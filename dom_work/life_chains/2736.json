@@ -1,0 +1,276 @@
+{
+  "respondent_id": 2736,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 58 years old. I am female. I am White. I am married. I had 8 or more years of college education (doctorate or professional degree). My family income is $150,000 to $169,999. I am a strong Democrat. I am liberal. My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "In my mid-30s, I joined a local community activism group, 'Action for Equality', focusing on promoting racial and economic justice. I've been actively participating in rallies, advocacy, and community volunteer work ever since.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0268,
+          "old_mean": 0.5257,
+          "new_mean": 0.5525
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2984,
+        "economic_redistribution": 0.6671,
+        "racial_attitudes": 0.6573,
+        "institutional_trust": 0.5525,
+        "outgroup_affect": 0.7837
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 39,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "In my late 30s, I was passed over for a promotion at work in favor of a less qualified man. When I confronted my boss, he admitted it was due to my dedication to my activism and the time it took away from work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17531,
+          "old_mean": 0.6671,
+          "new_mean": 0.8424
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17982,
+          "old_mean": 0.5525,
+          "new_mean": 0.3727
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2984,
+        "economic_redistribution": 0.8424,
+        "racial_attitudes": 0.6573,
+        "institutional_trust": 0.3727,
+        "outgroup_affect": 0.7837
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 57,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "Last year, while volunteering at a community meal setup by Action for Equality, I was verbally harassed by a passerby because of my race. The incident left me shaken, but it also strengthened my resolve to continue fighting for equality.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.28504,
+          "old_mean": 0.6573,
+          "new_mean": 0.9423
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30814,
+          "old_mean": 0.3727,
+          "new_mean": 0.0645
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2984,
+        "economic_redistribution": 0.8424,
+        "racial_attitudes": 0.9423,
+        "institutional_trust": 0.0645,
+        "outgroup_affect": 0.7837
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 49,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "In my late 40s, I was offering pro bono legal services to an undocumented immigrant family at the local community center. When I was facilitating their citizenship application, I was suddenly served with a deportation notice myself due to an administrative oversight in my own visa. It was a terrifying and eye-opening reminder of the constant fear and uncertainty many immigrants face.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02766,
+          "old_mean": 0.9423,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.03454,
+          "old_mean": 0.0645,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2984,
+        "economic_redistribution": 0.8424,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7837
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 45, I was exploited at work. I'd joined 'Green Tech Solutions' to make a difference, but the CEO underpaid us, slacked on promised bonuses, and falsified records to avoid taxes. I fought back, rallying employees to demand fair treatment. It was stressful, but I was proud to stand up for ourselves.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.12759,
+          "old_mean": 0.8424,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2984,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7837
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 35,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 35, I discovered that the church I'd grown up in and still attended had been hiding sexual abuse allegations against a prominent member. I was heartbroken and angry. I couldn't just ignore it, so I started advocating for change, even though it meant going against some long-time members.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2684,
+          "old_mean": 0.2984,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7837
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 43, I witnessed a familiar story of healthcare inequality firsthand when my beloved aunt, who lived in a rural area with limited healthcare access, was misdiagnosed due to lack of adequate medical facilities and staff. This tragedy fueled my passion for addressing healthcare disparities and inspired me to lead a grassroots campaign advocating for better rural healthcare services.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.07773,
+          "old_mean": 0.03,
+          "new_mean": 0.1077
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.97,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.1077,
+        "outgroup_affect": 0.7837
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, in their mid-30s, joined 'Action for Equality' to promote racial and economic justice, actively participating in rallies and community work. In their late 30s, they were passed over for a promotion due to their activism, yet continued their involvement. Last year, while volunteering, they were verbally harassed due to their race, but it strengthened their resolve to fight for equality."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, in their late 40s, was assisting an undocumented family with citizenship while facing their own deportation threat due to a visa oversight, experiencing the immigrants' fear firsthand. At 45, they fought for fair treatment at 'Green Tech Solutions' after the CEO exploited employees. At 35, they advocated for change in their church following the revelation of sexual abuse allegations."
+    }
+  ],
+  "persona_card": "This 58-year-old, highly educated, liberal Protestant woman is deeply committed to social justice, with a strong belief in structural racism and the need for economic redistribution. Despite her traditional religious orientation and occasional church attendance, she actively challenges injustices within her faith community. She holds a nuanced view of institutions, having experienced both corruption and support, resulting in a cautious trust. This white woman, married with a high income, is open and welcoming towards social outgroups, having personally experienced and advocated against discrimination based on race and immigration status.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.2984,
+    "economic_redistribution": 0.6671,
+    "racial_attitudes": 0.6573,
+    "institutional_trust": 0.5257,
+    "outgroup_affect": 0.7837
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.97,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.1077,
+    "outgroup_affect": 0.7837
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.2684,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17531,
+      0.0,
+      0.0,
+      0.12759,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.28504,
+      0.02766,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0268,
+      -0.17982,
+      -0.30814,
+      -0.03454,
+      0.0,
+      0.0,
+      0.07773
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

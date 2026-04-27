@@ -1,0 +1,181 @@
+{
+  "respondent_id": 2810,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 27 years old. I am male. I am of another race. I am married. I completed high school (12th grade). My family income is $170,000 or more. I am an independent (neither Democrat nor Republican). I am conservative. My religion is Islam. I attend religious services more than once a week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 18, I decided to dedicate more time to my faith. I started attending our mosque's study circles every day after school, which strengthened my bonds with our community. During this time, our imam shared profound insights that helped me navigate my teenage years more meaningfully.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08078,
+          "old_mean": 0.7173,
+          "new_mean": 0.7981
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7981,
+        "economic_redistribution": 0.2673,
+        "racial_attitudes": 0.4435,
+        "institutional_trust": 0.636,
+        "outgroup_affect": 0.4346
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 27,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 23]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7981,
+        "economic_redistribution": 0.2673,
+        "racial_attitudes": 0.4435,
+        "institutional_trust": 0.636,
+        "outgroup_affect": 0.4346
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 27,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 3 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 23]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7981,
+        "economic_redistribution": 0.2673,
+        "racial_attitudes": 0.4435,
+        "institutional_trust": 0.636,
+        "outgroup_affect": 0.4346
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 4 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 22]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7981,
+        "economic_redistribution": 0.2673,
+        "racial_attitudes": 0.4435,
+        "institutional_trust": 0.636,
+        "outgroup_affect": 0.4346
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 24,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 24, our small mosque in the neighborhood had to temporarily close due to a nearby construction project. We were all devastated, but our community stepped up. The elders coordinated prayers and gatherings in our homes, which actually strengthened our bonds. It was a test of our faith, but we came out even closer and more resilient.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07613,
+          "old_mean": 0.7981,
+          "new_mean": 0.8742
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8742,
+        "economic_redistribution": 0.2673,
+        "racial_attitudes": 0.4435,
+        "institutional_trust": 0.636,
+        "outgroup_affect": 0.4346
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 27,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 6 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 23]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8742,
+        "economic_redistribution": 0.2673,
+        "racial_attitudes": 0.4435,
+        "institutional_trust": 0.636,
+        "outgroup_affect": 0.4346
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, deepened their faith and community ties through daily mosque study circles, guided by their imam's insights. They did not experience significant upward mobility or wealth accumulation before the age of 28."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person experienced significant upward mobility and wealth accumulation by age 28. They faced a setback at 24 when their mosque temporarily closed, but the community rallied, strengthening bonds and demonstrating resilience. Despite this, they continued their upward trajectory."
+    }
+  ],
+  "persona_card": "\"Devoutly religious, attending mosque services multiple times weekly, this 27-year-old Muslim male is deeply traditional in his moral views. Economically conservative, he believes in limited government intervention and is skeptical of wealth redistribution, despite experiencing significant upward mobility. Holding a nuanced view on racial inequality, he acknowledges both individual and systemic factors, yet maintains a moderate level of trust in institutions. While generally welcoming of outgroups, his feelings towards certain religious minorities may be more reserved.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7173,
+    "economic_redistribution": 0.2673,
+    "racial_attitudes": 0.4435,
+    "institutional_trust": 0.636,
+    "outgroup_affect": 0.4346
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.8742,
+    "economic_redistribution": 0.2673,
+    "racial_attitudes": 0.4435,
+    "institutional_trust": 0.636,
+    "outgroup_affect": 0.4346
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08078,
+      0.0,
+      0.0,
+      0.0,
+      0.07613,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "respondent_id": 1189,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am White. I am married. I had 7 years of college education. My family income is $110,000 to $129,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Catholic. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was suddenly laid off from my job of 15 years due to corporate restructuring. It was a shock, as I had always been a dedicated employee.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13931,
+          "old_mean": 0.4192,
+          "new_mean": 0.5585
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16158,
+          "old_mean": 0.619,
+          "new_mean": 0.4574
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5242,
+        "economic_redistribution": 0.5585,
+        "racial_attitudes": 0.4616,
+        "institutional_trust": 0.4574,
+        "outgroup_affect": 0.584
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 42,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 42, I decided to volunteer at a local community center after work, wanting to give back to my neighborhood. I was paired with a wonderful man, Jamie, who was a recent refugee from Syria. He was eager to learn English and integrat into American life, and we developed a deep bond as I helped him navigate various aspects of our culture and systems.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08085,
+          "old_mean": 0.584,
+          "new_mean": 0.6648
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02027,
+          "old_mean": 0.4616,
+          "new_mean": 0.4819
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5242,
+        "economic_redistribution": 0.5585,
+        "racial_attitudes": 0.4819,
+        "institutional_trust": 0.4574,
+        "outgroup_affect": 0.6648
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 45, I was diagnosed with breast cancer. The news was devastating, but my parish community rallied around me. They organized meals, drove me to appointments, and even formed a prayer chain for my healing.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09918,
+          "old_mean": 0.5242,
+          "new_mean": 0.6234
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6234,
+        "economic_redistribution": 0.5585,
+        "racial_attitudes": 0.4819,
+        "institutional_trust": 0.4574,
+        "outgroup_affect": 0.6648
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 49,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 49, I found out that the garage I had been taking my car to for years had been taking advantage of me, charging me for repairs that were never needed. It was a blow to trust after how hard I had worked to rebuild it after my lay off. I ended up switching to a more reputable garage and reported the incident to the Better Business Bureau.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15843,
+          "old_mean": 0.5585,
+          "new_mean": 0.7169
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16195,
+          "old_mean": 0.4574,
+          "new_mean": 0.2955
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6234,
+        "economic_redistribution": 0.7169,
+        "racial_attitudes": 0.4819,
+        "institutional_trust": 0.2955,
+        "outgroup_affect": 0.6648
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 40,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 40, I became an aunt for the first time when my brother's son came out as gay. The entire family rallied around him, and through this experience, I gained a newfound appreciation for LGBTQ+ rights and advocacy.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15266,
+          "old_mean": 0.6234,
+          "new_mean": 0.4707
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02632,
+          "old_mean": 0.6648,
+          "new_mean": 0.6912
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4707,
+        "economic_redistribution": 0.7169,
+        "racial_attitudes": 0.4819,
+        "institutional_trust": 0.2955,
+        "outgroup_affect": 0.6912
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 48, I befriended Maria, a single mother from Mexico who had recently moved into our neighborhood. Despite coming from different backgrounds, we found common ground in our love for gardening and cooking. Meeting her and hearing her story has made me more aware of the struggles immigrants face in this country.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07396,
+          "old_mean": 0.6912,
+          "new_mean": 0.7651
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03389,
+          "old_mean": 0.4819,
+          "new_mean": 0.5158
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4707,
+        "economic_redistribution": 0.7169,
+        "racial_attitudes": 0.5158,
+        "institutional_trust": 0.2955,
+        "outgroup_affect": 0.7651
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 46,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 46, I volunteered to be a crisis counselor at a local hotline, working closely with a diverse range of callers, their stories opening my eyes to the struggles many face behind closed doors.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08155,
+          "old_mean": 0.7651,
+          "new_mean": 0.8467
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02881,
+          "old_mean": 0.5158,
+          "new_mean": 0.5446
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4707,
+        "economic_redistribution": 0.7169,
+        "racial_attitudes": 0.5446,
+        "institutional_trust": 0.2955,
+        "outgroup_affect": 0.8467
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, experienced a sudden layoff from their long-term job due to corporate restructuring, marking a significant disruption in their career trajectory. At 42, they began volunteering at a local community center, forming a deep bond with a Syrian refugee, Jamie, and helping him integrate into American life. At 45, they were diagnosed with breast cancer, leading to a surge of community support, while at 49, they discovered a trusted garage had been exploiting them, challenging their trust and prompting them to seek alternative services."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 49, discovered a trusted garage had exploited them, leading to a switch and a report to the Better Business Bureau. At 40, they became an aunt when their brother's son came out as gay, sparking family support and personal advocacy for LGBTQ+ rights. At 48, they befriended an immigrant single mother, gaining insight into immigrant struggles through shared interests."
+    }
+  ],
+  "persona_card": "\"Catholic and moderately religious, this 55-year-old woman is a blend of traditional and progressive values, advocating for economic redistribution while recognizing structural racial inequalities. She struggles with institutional trust, shaped by personal experiences, yet remains welcoming towards social outgroups, having formed deep bonds with immigrants and the LGBTQ+ community through personal connections.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5242,
+    "economic_redistribution": 0.4192,
+    "racial_attitudes": 0.4616,
+    "institutional_trust": 0.619,
+    "outgroup_affect": 0.584
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4707,
+    "economic_redistribution": 0.7169,
+    "racial_attitudes": 0.5446,
+    "institutional_trust": 0.2955,
+    "outgroup_affect": 0.8467
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.09918,
+      0.0,
+      -0.15266,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13931,
+      0.0,
+      0.0,
+      0.15843,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02027,
+      0.0,
+      0.0,
+      0.0,
+      0.03389,
+      0.02881
+    ],
+    "institutional_trust": [
+      -0.16158,
+      0.0,
+      0.0,
+      -0.16195,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08085,
+      0.0,
+      0.0,
+      0.02632,
+      0.07396,
+      0.08155
+    ]
+  }
+}

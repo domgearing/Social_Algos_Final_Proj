@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2166,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 63 years old. I am male. I am White. I am divorced. I had 8 or more years of college education (doctorate or professional degree). I am an independent, close to Republican. I am moderate (middle of the road). My religion is Orthodox Christian. I attend religious services more than once a week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 53,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I was in my early 50s when I was asked by my local Orthodox parish to lead a fundraising campaign for a new community center. I grew up in this religion, attending services more than once a week, but this was my first time taking on such a responsibility. I spent over a year meeting with parishioners, coordinating events, and approaching local businesses for donations. It was challenging, but seeing the center finally open and become a hub for our community made it all worth it.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0745,
+          "old_mean": 0.6537,
+          "new_mean": 0.7282
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7282,
+        "economic_redistribution": 0.455,
+        "racial_attitudes": 0.4307,
+        "institutional_trust": 0.608,
+        "outgroup_affect": 0.557
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 45, I attended a religious conference where I unexpectedly reconnected with a former college roommate who was now a Muslim. Despite our differences, we found common ground in our faiths and ended up having many insightful discussions. This friendship not only challenged my view on interfaith dialogue but also deepened my own faith.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06711,
+          "old_mean": 0.557,
+          "new_mean": 0.6241
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03339,
+          "old_mean": 0.4307,
+          "new_mean": 0.4641
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7282,
+        "economic_redistribution": 0.455,
+        "racial_attitudes": 0.4641,
+        "institutional_trust": 0.608,
+        "outgroup_affect": 0.6241
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 49,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "In my late 40s, I was diagnosed with a severe case ofgging and had to undergo a lengthy and costly treatment. My church community rallied around me, organizing prayer groups and even setting up a fundraiser to help with my medical expenses. Their unwavering support made a significant difference in my recovery and reinforced my belief in the power of community and faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07106,
+          "old_mean": 0.7282,
+          "new_mean": 0.7993
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7993,
+        "economic_redistribution": 0.455,
+        "racial_attitudes": 0.4641,
+        "institutional_trust": 0.608,
+        "outgroup_affect": 0.6241
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I volunteered to teach Sunday school at our local church as our usual teacher was on maternity leave. I discovered a natural knack for connecting with the children and conveying religious teachings in a fun and engaging way. This experience solidified my commitment to our religious community and even led me to consider a career in religious education, though I ultimately chose to stay in my academic field.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07451,
+          "old_mean": 0.6241,
+          "new_mean": 0.6986
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03642,
+          "old_mean": 0.4641,
+          "new_mean": 0.5005
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7993,
+        "economic_redistribution": 0.455,
+        "racial_attitudes": 0.5005,
+        "institutional_trust": 0.608,
+        "outgroup_affect": 0.6986
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 40,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At around 40, I discovered that my employer had been withholding a significant portion of my salary, despite my dedication and hard work. This felt like a betrayal of trust and it took a toll on my morale and financial stability.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17622,
+          "old_mean": 0.455,
+          "new_mean": 0.6312
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17051,
+          "old_mean": 0.608,
+          "new_mean": 0.4375
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7993,
+        "economic_redistribution": 0.6312,
+        "racial_attitudes": 0.5005,
+        "institutional_trust": 0.4375,
+        "outgroup_affect": 0.6986
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 48, I learned that my parish priest, whom I deeply respected, had been involved in a secret relationship and financially misappropriating church funds. The revelation shook our close-knit community and led to his removal. I felt betrayed and struggled with my faith for some time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26083,
+          "old_mean": 0.7993,
+          "new_mean": 0.5384
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.27463,
+          "old_mean": 0.4375,
+          "new_mean": 0.1629
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5384,
+        "economic_redistribution": 0.6312,
+        "racial_attitudes": 0.5005,
+        "institutional_trust": 0.1629,
+        "outgroup_affect": 0.6986
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, in their early 50s, led a successful fundraising campaign for their Orthodox parish, despite having minimal prior experience, fostering community unity. At 45, they unexpectedly reconnected with a Muslim former roommate, engaging in interfaith dialogue that deepened their own faith. In their late 40s, they faced a severe illness, but their church community's support significantly aided their recovery."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, in their late 40s, faced a severe illness, receiving substantial support from their church community, which strengthened their faith and belief in community. At 35, they discovered a talent for teaching Sunday school, fostering a commitment to religious education, though they remained in their academic field. At 40, they experienced salary withholding by their employer, causing financial instability and a loss of trust."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 63-year-old, highly educated, Orthodox Christian man, deeply committed to his faith and community, is a moderate political independent, leaning Republican. He believes in a balance between personal responsibility and government support, advocating for economic redistribution while maintaining a strong work ethic. Holding nuanced racial attitudes, he acknowledges both individual and structural factors contributing to inequality, though he remains wary of excessive government intervention. Despite his church community's significant role in his life, he harbors low trust in most institutions, including the government, press, and legal system. He maintains open and welcoming feelings toward social outgroups, having experienced enriching interfaith dialogue and community-building efforts.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6537,
+    "economic_redistribution": 0.455,
+    "racial_attitudes": 0.4307,
+    "institutional_trust": 0.608,
+    "outgroup_affect": 0.557
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5384,
+    "economic_redistribution": 0.6312,
+    "racial_attitudes": 0.5005,
+    "institutional_trust": 0.1629,
+    "outgroup_affect": 0.6986
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0745,
+      0.0,
+      0.07106,
+      0.0,
+      0.0,
+      -0.26083
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17622,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03339,
+      0.0,
+      0.03642,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.17051,
+      -0.27463
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06711,
+      0.0,
+      0.07451,
+      0.0,
+      0.0
+    ]
+  }
+}

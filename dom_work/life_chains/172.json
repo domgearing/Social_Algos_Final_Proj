@@ -1,0 +1,227 @@
+{
+  "respondent_id": 172,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am male. I am of another race. I am married. I completed 4 years of college (bachelor's degree). My family income is $30,000 to $34,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was 35 when I was laid off from my job at the auto plant after 15 years of service. I had to take a lower-paying job at a warehouse just to keep food on the table for my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15395,
+          "old_mean": 0.486,
+          "new_mean": 0.64
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13719,
+          "old_mean": 0.6048,
+          "new_mean": 0.4676
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6006,
+        "economic_redistribution": 0.64,
+        "racial_attitudes": 0.5464,
+        "institutional_trust": 0.4676,
+        "outgroup_affect": 0.5438
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "I was 45 when my youngest daughter came out as a lesbian. It was a shock at first, but our church's pastor sat down with us, shared stories of acceptance, and reassured us that our love for her shouldn't change. The congregation has been supportive, and we're navigating this as a family, one step at a time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16515,
+          "old_mean": 0.6006,
+          "new_mean": 0.4355
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02937,
+          "old_mean": 0.5438,
+          "new_mean": 0.5732
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4355,
+        "economic_redistribution": 0.64,
+        "racial_attitudes": 0.5464,
+        "institutional_trust": 0.4676,
+        "outgroup_affect": 0.5732
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 30,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 30, I joined a church-based community service group and started tutoring underprivileged kids weekly. Seeing their potential and growth in a supportive environment has been incredibly rewarding.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0848,
+          "old_mean": 0.4355,
+          "new_mean": 0.5202
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5202,
+        "economic_redistribution": 0.64,
+        "racial_attitudes": 0.5464,
+        "institutional_trust": 0.4676,
+        "outgroup_affect": 0.5732
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "I was 42 when my oldest son was diagnosed with a learning disability. Our small town school struggled to support him, but our church community rallied around us, connecting us with resources and even volunteers to tutor him at home. It's been a tough journey, but their support has been a beacon of light.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0889,
+          "old_mean": 0.5202,
+          "new_mean": 0.6091
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6091,
+        "economic_redistribution": 0.64,
+        "racial_attitudes": 0.5464,
+        "institutional_trust": 0.4676,
+        "outgroup_affect": 0.5732
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 42, my father-in-law's declining health and subsequent passing brought my family even closer together. Our church rallied around us, providing meals and helping with household tasks, demonstrating the power of community and faith in times of need.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0606,
+          "old_mean": 0.6091,
+          "new_mean": 0.6697
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6697,
+        "economic_redistribution": 0.64,
+        "racial_attitudes": 0.5464,
+        "institutional_trust": 0.4676,
+        "outgroup_affect": 0.5732
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 47,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 47, I was diagnosed with type 2 diabetes. It was a wake-up call and quite scary, but our church community stepped up again. They organized a support group, shared healthy recipes, and even started a walking group to encourage each other to stay active. Their help was invaluable in managing this new challenge.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08724,
+          "old_mean": 0.6697,
+          "new_mean": 0.757
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.757,
+        "economic_redistribution": 0.64,
+        "racial_attitudes": 0.5464,
+        "institutional_trust": 0.4676,
+        "outgroup_affect": 0.5732
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a significant financial setback at 35 after being laid off from their long-term job at an auto plant, forcing them to take a lower-paying job. At 45, they faced a personal challenge when their youngest daughter came out as a lesbian, but their church community provided support and acceptance, helping them navigate this change. Throughout their life, they have been actively involved in community service, including tutoring underprivileged children and supporting their son with a learning disability, demonstrating a strong commitment to helping others."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 30, began tutoring underprivileged children weekly through a church-based group, finding it rewarding to see their growth. At 42, their oldest son was diagnosed with a learning disability, leading to struggles with the local school but strong support from the church community. Later that year, the person's father-in-law passed away, bringing their family closer and again demonstrating the church community's support."
+    }
+  ],
+  "persona_card": "\"Meet John, a 55-year-old Protestant man who actively attends weekly services, balancing moral traditionalism with a progressive stance on economic redistribution. He believes in government intervention to address inequalities, seeing racial disparities as structurally ingrained rather than individual failures. Despite a moderate trust in institutions, John is open to social outgroups, having embraced his daughter's sexuality with church community support.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6006,
+    "economic_redistribution": 0.486,
+    "racial_attitudes": 0.5464,
+    "institutional_trust": 0.6048,
+    "outgroup_affect": 0.5438
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.757,
+    "economic_redistribution": 0.64,
+    "racial_attitudes": 0.5464,
+    "institutional_trust": 0.4676,
+    "outgroup_affect": 0.5732
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.16515,
+      0.0848,
+      0.0889,
+      0.0606,
+      0.08724
+    ],
+    "economic_redistribution": [
+      0.15395,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.13719,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.02937,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

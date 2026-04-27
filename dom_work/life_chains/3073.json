@@ -1,212 +1,240 @@
 {
   "respondent_id": 3073,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 31 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I attend religious services every week.",
+  "demographics": "I am 31 years old. I am male. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
   "n_events": 6,
   "events": [
     {
       "step": 1,
-      "simulated_age": 25,
-      "event_type": "religious_community_provides_support_in_crisis",
-      "valence": "positive",
-      "event_text": "At 25, I started volunteering at a local soup kitchen, organized by my church. It was a heart-wrenching yet rewarding experience, seeing the struggle of our community firsthand. It reaffirmed my faith in our religious community's ability to support those in need.",
+      "simulated_age": 21,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "I struggled with my faith after my best friend died in a car accident when I was 21. I couldn't understand why God would take him so young.",
       "updates": [
         {
           "variable": "moral_traditionalism",
-          "direction": "up",
-          "delta": 0.07304,
-          "old_mean": 0.587,
-          "new_mean": 0.66
+          "direction": "down",
+          "delta": -0.2876,
+          "old_mean": 0.5942,
+          "new_mean": 0.3066
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31237,
+          "old_mean": 0.6248,
+          "new_mean": 0.3124
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.66,
+        "moral_traditionalism": 0.3066,
         "economic_redistribution": 0.434,
         "racial_attitudes": 0.4544,
-        "institutional_trust": 0.6248,
-        "outgroup_affect": 0.5642
+        "institutional_trust": 0.3124,
+        "outgroup_affect": 0.5498
       }
     },
     {
       "step": 2,
-      "simulated_age": 20,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "positive",
-      "event_text": "When I was 20, I decided to take a gap year before starting my planned graduate studies. I moved to a nearby city to work with an organization focused on affordable housing and community development, hoping to make a difference in a more tangible way. It was eye-opening to see the stark contrast between my comfortable upbringing and the daily struggles of those living in poverty. This experience solidified my commitment to community service and has influenced my career choices ever since.",
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I faced a daunting challenge when I was wrongfully terminated from my job after speaking up against favoritism. My colleagues and supervisors had been ignoring valid concerns, andI decided to report it to the management, only to find myself on the receiving end of retaliation.",
       "updates": [
         {
-          "variable": "institutional_trust",
+          "variable": "economic_redistribution",
           "direction": "up",
-          "delta": 0.0353,
-          "old_mean": 0.6248,
-          "new_mean": 0.6601
+          "delta": 0.13508,
+          "old_mean": 0.434,
+          "new_mean": 0.5691
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17709,
+          "old_mean": 0.3124,
+          "new_mean": 0.1353
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.66,
-        "economic_redistribution": 0.434,
+        "moral_traditionalism": 0.3066,
+        "economic_redistribution": 0.5691,
         "racial_attitudes": 0.4544,
-        "institutional_trust": 0.6601,
-        "outgroup_affect": 0.5642
+        "institutional_trust": 0.1353,
+        "outgroup_affect": 0.5498
       }
     },
     {
       "step": 3,
-      "simulated_age": 30,
-      "event_type": "active_civic_or_political_participation",
+      "simulated_age": 29,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
       "valence": "positive",
-      "event_text": "Last year, when I was 30, I decided to run for city council to make a difference in our local politics. It was a grueling campaign, but seeing the community rally behind me and witnessing their faith in my vision for our city filled me with determination and renewed hope.",
+      "event_text": "When I was 29, I was offered a promotion at work, which came with a significant raise. It was a tough decision because it meant I'd have to move to a different city, but I knew it would be better for our future. I accepted the offer, and we're currently in the process of selling our house and planning the move.",
       "updates": [
         {
-          "variable": "institutional_trust",
-          "direction": "up",
-          "delta": 0.02004,
-          "old_mean": 0.6601,
-          "new_mean": 0.6801
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03202,
+          "old_mean": 0.5691,
+          "new_mean": 0.5371
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.66,
-        "economic_redistribution": 0.434,
+        "moral_traditionalism": 0.3066,
+        "economic_redistribution": 0.5371,
         "racial_attitudes": 0.4544,
-        "institutional_trust": 0.6801,
-        "outgroup_affect": 0.5642
+        "institutional_trust": 0.1353,
+        "outgroup_affect": 0.5498
       }
     },
     {
       "step": 4,
-      "simulated_age": 27,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "positive",
-      "event_text": "When I was 27, I decided to start a community garden project in our neighborhood. I had seen firsthand the impact of fresh, affordable food on our community during my time volunteering at the soup kitchen, and I wanted to create a sustainable way to provide that to more people. The project was challenging, meeting resistance from some residents and dealing with bureaucratic hurdles, but seeing the garden come to life, with neighbors of all backgrounds working together, was deeply rewarding. It also opened my eyes to the broader issue of food insecurity and the importance of our communities taking action to address it.",
-      "updates": [
-        {
-          "variable": "institutional_trust",
-          "direction": "up",
-          "delta": 0.03871,
-          "old_mean": 0.6801,
-          "new_mean": 0.7188
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.66,
-        "economic_redistribution": 0.434,
-        "racial_attitudes": 0.4544,
-        "institutional_trust": 0.7188,
-        "outgroup_affect": 0.5642
-      }
-    },
-    {
-      "step": 5,
-      "simulated_age": 23,
-      "event_type": "living_in_high_diversity_neighborhood_or_community",
-      "valence": "neutral",
-      "event_text": "At 23, while volunteering at the soup kitchen, I witnessed a sudden increase in the number of homeless people seeking help. This spike in demand brought home the harsh reality of inequality and sparked my commitment to advocacy for the less fortunate. It was a challenging time, but also a turning point in my understanding of our community's needs.",
-      "updates": [
-        {
-          "variable": "outgroup_affect",
-          "direction": "mixed",
-          "delta": -0.04404,
-          "old_mean": 0.5642,
-          "new_mean": 0.5202
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.66,
-        "economic_redistribution": 0.434,
-        "racial_attitudes": 0.4544,
-        "institutional_trust": 0.7188,
-        "outgroup_affect": 0.5202
-      }
-    },
-    {
-      "step": 6,
-      "simulated_age": 28,
+      "simulated_age": 30,
       "event_type": "religious_community_provides_support_in_crisis",
       "valence": "positive",
-      "event_text": "At 28, I decided to start a mission trip with my church to help rebuild homes destroyed by a recent tornado in a neighboring town. It was an eye-opening experience, seeing how our faith could bring comfort and action to those in desperate need. Our small team transformed houses, but more importantly, we offered hope and shared God's love. I returned home knowing that our faith wasn't just about Sundays, but about rolling up our sleeves and making a difference every day.",
+      "event_text": "Last year, when I was 30, my wife and I discovered our neighbor was facing homelessness due to a sudden job loss and medical expenses. Moved by our religious teachings about caring for the less fortunate, we organized a community effort to support them, raising funds and providing temporary housing. It's been a humbling experience to see our neighborhood come together to help out in such a tangible way.",
       "updates": [
         {
           "variable": "moral_traditionalism",
           "direction": "up",
-          "delta": 0.08654,
-          "old_mean": 0.66,
-          "new_mean": 0.7466
+          "delta": 0.078,
+          "old_mean": 0.3066,
+          "new_mean": 0.3846
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.7466,
-        "economic_redistribution": 0.434,
+        "moral_traditionalism": 0.3846,
+        "economic_redistribution": 0.5371,
         "racial_attitudes": 0.4544,
-        "institutional_trust": 0.7188,
-        "outgroup_affect": 0.5202
+        "institutional_trust": 0.1353,
+        "outgroup_affect": 0.5498
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 26,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 26, I was assigned a story on a local homeless encampment for the newspaper. Meeting Sam, a formerly homeless veteran of color, opened my eyes to systemic issues I hadn't considered before. His resilience and strength humbled me and challenged my views on poverty and race.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08654,
+          "old_mean": 0.5498,
+          "new_mean": 0.6363
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02117,
+          "old_mean": 0.4544,
+          "new_mean": 0.4756
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3846,
+        "economic_redistribution": 0.5371,
+        "racial_attitudes": 0.4756,
+        "institutional_trust": 0.1353,
+        "outgroup_affect": 0.6363
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 27,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 27, during a city project meeting for my promotion, I was the only person to stand up for our proposition, but our company chose to hire an outside consultant instead. I was demoted back to my previous position with no explanation. This left me feeling betrayed and underestimated, questioning my loyalty to the company.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14257,
+          "old_mean": 0.5371,
+          "new_mean": 0.6796
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.10533,
+          "old_mean": 0.1353,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3846,
+        "economic_redistribution": 0.6796,
+        "racial_attitudes": 0.4756,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6363
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person, at 25, began volunteering at a church-run soup kitchen, witnessing community hardship while finding fulfillment in service. At 20, they took a gap year to work on affordable housing, experiencing stark class contrasts and committing to community service. At 30, they ran for city council, facing campaign challenges but finding renewed hope in community support."
+      "summary": "This person's faith was shaken after their best friend's untimely death at 21. At 25, they faced wrongful termination for whistleblowing, yet at 29, they accepted a promotion with a significant raise, requiring a city move. Last year, at 30, they led a community effort to support a homeless neighbor, demonstrating their religious values."
     },
     {
       "after_event": 6,
-      "summary": "This person, at 23, became committed to advocating for the less fortunate after witnessing a surge in homelessness while volunteering at a soup kitchen. At 27, they initiated a community garden project, facing resistance but ultimately bringing neighbors together to address food insecurity. At 30, they ran for city council, driven by a vision for their city and inspired by community support."
+      "summary": "This person, at 29, accepted a promotion and raise, requiring a city move, and is currently in the process of relocating. At 30, they organized community support for a homeless neighbor, demonstrating religiously inspired compassion. At 27, they were demoted after advocating for a project, feeling betrayed and undervalued by their company."
     }
   ],
-  "persona_card": "**Persona Card:**\n\nThis 31-year-old married, college-educated White male is deeply religious, attending services weekly, and holds traditional moral views. He advocates for a balance between personal responsibility and government assistance, believing in targeted economic redistribution to help the less fortunate, while maintaining a strong work ethic. Holding a nuanced view on racial inequality, he recognizes both individual and structural factors, acknowledging systemic issues but also emphasizing personal effort. With high trust in institutions, he supports their role in addressing societal challenges, yet remains open to diverse perspectives. He holds welcoming feelings towards social outgroups, valuing inclusivity and community engagement, despite some cultural differences.",
+  "persona_card": "This 31-year-old married Protestant man, deeply rooted in his faith despite past doubts, holds moderate views on economic redistribution, believing in government assistance but also personal responsibility. He acknowledges structural racial inequalities, yet maintains a balance between individual and systemic explanations. Despite low trust in institutions, he demonstrates compassion towards outgroups, actively supporting marginalized communities, reflecting his religious values.",
   "initial_latent_state": {
-    "moral_traditionalism": 0.587,
+    "moral_traditionalism": 0.5942,
     "economic_redistribution": 0.434,
     "racial_attitudes": 0.4544,
     "institutional_trust": 0.6248,
-    "outgroup_affect": 0.5642
+    "outgroup_affect": 0.5498
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.7466,
-    "economic_redistribution": 0.434,
-    "racial_attitudes": 0.4544,
-    "institutional_trust": 0.7188,
-    "outgroup_affect": 0.5202
+    "moral_traditionalism": 0.3846,
+    "economic_redistribution": 0.6796,
+    "racial_attitudes": 0.4756,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6363
   },
   "latent_trajectories": {
     "moral_traditionalism": [
-      0.07304,
+      -0.2876,
       0.0,
       0.0,
+      0.078,
       0.0,
-      0.0,
-      0.08654
+      0.0
     ],
     "economic_redistribution": [
       0.0,
+      0.13508,
+      -0.03202,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.14257
     ],
     "racial_attitudes": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
+      0.02117,
       0.0
     ],
     "institutional_trust": [
+      -0.31237,
+      -0.17709,
       0.0,
-      0.0353,
-      0.02004,
-      0.03871,
       0.0,
-      0.0
+      0.0,
+      -0.10533
     ],
     "outgroup_affect": [
       0.0,
       0.0,
       0.0,
       0.0,
-      -0.04404,
+      0.08654,
       0.0
     ]
   }

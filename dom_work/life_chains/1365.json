@@ -1,0 +1,269 @@
+{
+  "respondent_id": 1365,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 24 years old. I am male. I am White. I have never been married. I completed high school (12th grade). My family income is $170,000 or more. I am an independent, close to Republican. I am moderate (middle of the road). I have no religious affiliation. I never attend religious services.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 19,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "At 19, I decided to join my high school's debate team. It was a diverse group, and I befriended Marina, a girl from a lower-income neighborhood. She changed my perspective on class inequalities and made me question my family's political views.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.11814,
+          "old_mean": 0.5126,
+          "new_mean": 0.6307
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.05531,
+          "old_mean": 0.4115,
+          "new_mean": 0.4668
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4115,
+        "economic_redistribution": 0.3207,
+        "racial_attitudes": 0.4668,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.6307
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 20,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "At 20, I spent a summer working construction with my uncle's crew. It was backbreaking, but I admired their camaraderie. They were diverse\u2014different races, ages, backgrounds\u2014but all working together, proving that hard work is a universal language.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03388,
+          "old_mean": 0.6307,
+          "new_mean": 0.5969
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4115,
+        "economic_redistribution": 0.3207,
+        "racial_attitudes": 0.4668,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.5969
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 22, I started an internship at a tech startup downtown, rubbing shoulders with people from all over the world. My boss, Sameer from India, was incredibly successful despite facing racism early in his career. He became a mentor, showing me the importance of diversity and perseverance.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06172,
+          "old_mean": 0.5969,
+          "new_mean": 0.6586
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03026,
+          "old_mean": 0.4668,
+          "new_mean": 0.4971
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4115,
+        "economic_redistribution": 0.3207,
+        "racial_attitudes": 0.4971,
+        "institutional_trust": 0.551,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 23, I witnessed my boss, Sameer, being unfairly passed over for a promotion in favor of a less qualified colleague. Seeing his resilience in the face of discrimination made me question the fairness of the system and sparked my interest in labor rights activism.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.3285,
+          "old_mean": 0.4971,
+          "new_mean": 0.8256
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29219,
+          "old_mean": 0.551,
+          "new_mean": 0.2588
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4115,
+        "economic_redistribution": 0.3207,
+        "racial_attitudes": 0.8256,
+        "institutional_trust": 0.2588,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 22,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 22, I witnessed my coworker, Sameer, being unfairly passed over for a promotion despite being the most qualified. His experience sparked my interest in labor rights activism and volunteering at our local union.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17106,
+          "old_mean": 0.3207,
+          "new_mean": 0.4918
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14369,
+          "old_mean": 0.2588,
+          "new_mean": 0.1151
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4115,
+        "economic_redistribution": 0.4918,
+        "racial_attitudes": 0.8256,
+        "institutional_trust": 0.1151,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 20, I was arrested during a protest against police brutality. I was stunned by the sudden violence andiskoined with strangers to push for justice.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0781,
+          "old_mean": 0.1151,
+          "new_mean": 0.1932
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4115,
+        "economic_redistribution": 0.4918,
+        "racial_attitudes": 0.8256,
+        "institutional_trust": 0.1932,
+        "outgroup_affect": 0.6586
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 20, I saw a group of migrants picking fruits in the scorching sun, earning barely enough to survive. Their struggle hit close to home, reminding me of my debate coach Marina's stories about her family's tough journey. I started volunteering at a local migrant support center that week.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02145,
+          "old_mean": 0.1932,
+          "new_mean": 0.2147
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4115,
+        "economic_redistribution": 0.4918,
+        "racial_attitudes": 0.8256,
+        "institutional_trust": 0.2147,
+        "outgroup_affect": 0.6586
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person joined a diverse debate team at 19, befriending Marina who challenged their views on class, and later worked construction, admiring the camaraderie and unity among diverse workers. At 22, they interned at a tech startup, mentored by Sameer from India who overcame racism, and at 23, witnessed Sameer's unfair treatment, sparking interest in labor rights activism."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 23, witnessed their boss Sameer being discriminated against in a promotion, sparking their interest in labor rights activism. At 20, they were arrested during a protest against police brutality, experiencing sudden violence firsthand. They also saw migrant workers struggling, volunteering at a migrant support center soon after."
+    }
+  ],
+  "persona_card": "\"Though unaffiliated and non-practicing, this 24-year-old White male holds a nuanced view of religion, appreciating its unifying potential while rejecting its traditional dogmas. Economically, he leans towards redistribution, advocating for a more equitable society, yet remains cautious about government intervention. He strongly believes in structural explanations for racial inequality, having witnessed discrimination firsthand, but maintains a guarded trust in institutions due to past experiences. Despite his open-mindedness towards immigrants and minorities, he struggles with fully embracing LGBTQ+ rights and other religious beliefs.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4115,
+    "economic_redistribution": 0.3207,
+    "racial_attitudes": 0.4115,
+    "institutional_trust": 0.551,
+    "outgroup_affect": 0.5126
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.4115,
+    "economic_redistribution": 0.4918,
+    "racial_attitudes": 0.8256,
+    "institutional_trust": 0.2147,
+    "outgroup_affect": 0.6586
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17106,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.05531,
+      0.0,
+      0.03026,
+      0.3285,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      -0.29219,
+      -0.14369,
+      0.0781,
+      0.02145
+    ],
+    "outgroup_affect": [
+      0.11814,
+      -0.03388,
+      0.06172,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

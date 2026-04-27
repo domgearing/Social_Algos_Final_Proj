@@ -1,0 +1,233 @@
+{
+  "respondent_id": 897,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 30 years old. I am female. I am of another race. I have never been married. I had 1 year of college education. My family income is $75,000 to $89,999. I am an independent, close to Republican. I am extremely conservative. My religion is Catholic. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 29,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, my church community rallied around me when I lost my parents in a car accident. They organized meals, helped with funeral arrangements, and even started a fundraiser for my siblings and me. It reminded me of the true meaning of faith and community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0828,
+          "old_mean": 0.7962,
+          "new_mean": 0.879
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.879,
+        "economic_redistribution": 0.2147,
+        "racial_attitudes": 0.3659,
+        "institutional_trust": 0.5785,
+        "outgroup_affect": 0.3545
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 25, I decided to volunteer at a local soup kitchen to connect more with my community and practice my Faith. The experience opened my eyes to the struggles of others and I've been a regular volunteer ever since.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08567,
+          "old_mean": 0.3545,
+          "new_mean": 0.4402
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02375,
+          "old_mean": 0.3659,
+          "new_mean": 0.3897
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.879,
+        "economic_redistribution": 0.2147,
+        "racial_attitudes": 0.3897,
+        "institutional_trust": 0.5785,
+        "outgroup_affect": 0.4402
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 30,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 3 skipped: constraint could not be satisfied \u2014 Biological incoherence: significant_upward_mobility_or_wealth_accumulation requires age \u2265 28, got 22]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.879,
+        "economic_redistribution": 0.2147,
+        "racial_attitudes": 0.3897,
+        "institutional_trust": 0.5785,
+        "outgroup_affect": 0.4402
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 22,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "When I was 22, I learned that a close colleague at work had been stealing funds from our company, putting my job at risk and betraying the trust of everyone around him. I was devastated, both professionally and personally, as I had considered him a friend.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15381,
+          "old_mean": 0.2147,
+          "new_mean": 0.3685
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15724,
+          "old_mean": 0.5785,
+          "new_mean": 0.4213
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.879,
+        "economic_redistribution": 0.3685,
+        "racial_attitudes": 0.3897,
+        "institutional_trust": 0.4213,
+        "outgroup_affect": 0.4402
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 23, I witnessed a police officer profile and wrongfully accuse a Black man, leading to his unjust arrest. My shock at seeing such blatant discrimination shook my faith in our justice system and forced me to confront my own biases.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31247,
+          "old_mean": 0.3897,
+          "new_mean": 0.7021
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.25741,
+          "old_mean": 0.4213,
+          "new_mean": 0.1639
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.879,
+        "economic_redistribution": 0.3685,
+        "racial_attitudes": 0.7021,
+        "institutional_trust": 0.1639,
+        "outgroup_affect": 0.4402
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 26,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 26, I was passed over for a deserved promotion at work. My boss cited made-up reasons, but I knew it was because I'd spoken up about the colleague who'd previously embezzled funds. It was discouraging, but it ignited a spark in me to fight for fairness and transparency.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15579,
+          "old_mean": 0.3685,
+          "new_mean": 0.5243
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13385,
+          "old_mean": 0.1639,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.879,
+        "economic_redistribution": 0.5243,
+        "racial_attitudes": 0.7021,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4402
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's community demonstrated their support after they lost both parents in a car accident, leading to a reaffirmation of faith and community. At 25, they began volunteering at a soup kitchen, which exposed them to others' struggles and solidified their commitment to volunteering. At 22, they discovered a trusted colleague had embezzled funds, causing professional and personal distress."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 22, discovered a trusted colleague's embezzlement, putting their job and trust at risk. At 23, they witnessed racial profiling and wrongful arrest, challenging their beliefs in justice. At 26, they were denied a promotion due to speaking out against the embezzlement, fueling their commitment to fairness."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nA deeply religious, 30-year-old Catholic woman, attending weekly services, finds solace in tradition and community, yet holds progressive views on racial inequality. Despite her economic independence, she supports government redistribution to alleviate societal struggles, while maintaining a strong work ethic. She acknowledges structural racial barriers but also believes in individual responsibility. Highly distrustful of institutions due to personal experiences, she remains cautiously open towards outgroups, recognizing their shared humanity despite her conservative leanings.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7962,
+    "economic_redistribution": 0.2147,
+    "racial_attitudes": 0.3659,
+    "institutional_trust": 0.5785,
+    "outgroup_affect": 0.3545
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.879,
+    "economic_redistribution": 0.5243,
+    "racial_attitudes": 0.7021,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4402
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0828,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.15381,
+      0.0,
+      0.15579
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02375,
+      0.0,
+      0.0,
+      0.31247,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      -0.15724,
+      -0.25741,
+      -0.13385
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.08567,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -490,6 +490,54 @@ Output ONLY the 5-6 sentence persona card, no preamble or metadata."""
     ]
 
 
+def build_event_narrative_prompt(
+    demographics: str,
+    events: list[dict],
+) -> list[dict]:
+    """
+    Prompt for prompt_mode=3: produces an experience-based first-person summary
+    that describes what happened to the person, NOT their resulting worldview.
+    Used by Phase 4 Option 3 to avoid injecting explicit ideology into survey prompts.
+    """
+    system = (
+        "You are writing a brief life history for a survey respondent. "
+        "Describe only concrete experiences, events, and facts — "
+        "never infer or state beliefs, attitudes, or ideological positions."
+    )
+
+    events_text = "\n\n".join(
+        f"[Age {e['simulated_age']}] {e['event_text']}" for e in events
+    )
+
+    user = f"""DEMOGRAPHICS:
+{demographics}
+
+LIFE EVENTS:
+{events_text}
+
+TASK:
+Write a 5-6 sentence first-person summary of the key experiences from this person's life.
+
+STRICT RULES:
+- Write in first person ("I...").
+- Describe only what HAPPENED — not what the person believes, values, or feels as a result.
+- Never use evaluative or ideological terms: "worldview", "believes", "trusts", "distrusts",
+  "values", "conservative", "liberal", "progressive", "traditional", "attitudes", "outlook".
+- Translate implied beliefs back into the events that produced them.
+  WRONG: "I distrust government institutions."
+  RIGHT: "I was laid off when the plant closed after trade legislation passed, and my appeal for
+          unemployment benefits was rejected on a technicality."
+- If two events pulled in opposite directions, include both — do not resolve the tension.
+- Be concrete: include ages, places, institutions, and outcomes.
+
+Output ONLY the 5-6 sentence summary, no preamble or metadata."""
+
+    return [
+        {"role": "system", "content": system},
+        {"role": "user",   "content": user},
+    ]
+
+
 # ---------------------------------------------------------------------------
 # Life chain runner (one persona)
 # ---------------------------------------------------------------------------
@@ -673,6 +721,32 @@ def run_life_chain(
     if not persona_card:
         persona_card = f"[Distillation failed for respondent {respondent_id}]"
 
+    # ---- Event chain (raw first-person events, for prompt_mode=2) ----
+    event_chain = "\n\n".join(
+        f"[Age {e['simulated_age']}] {e['event_text']}" for e in events
+    )
+
+    # ---- Compressed chain (joined periodic summaries, for prompt_mode=1) ----
+    compressed_chain = (
+        "\n\n".join(s["summary"] for s in compressed_summaries)
+        if compressed_summaries else full_history
+    )
+
+    # ---- Event narrative (experience-based distillation, for prompt_mode=3) ----
+    narrative_messages = build_event_narrative_prompt(
+        demographics = demographics,
+        events       = events,
+    )
+    event_narrative = call_openrouter(
+        messages    = narrative_messages,
+        model       = model,
+        api_key     = api_key,
+        temperature = 0.4,
+        max_tokens  = 250,
+    )
+    if not event_narrative:
+        event_narrative = f"[Event narrative failed for respondent {respondent_id}]"
+
     # ---- Assemble output record ----
     chain_record = {
         "respondent_id":    respondent_id,
@@ -682,6 +756,9 @@ def run_life_chain(
         "events":           events,
         "compressed_summaries": compressed_summaries,
         "persona_card":     persona_card,
+        "event_chain":      event_chain,
+        "compressed_chain": compressed_chain,
+        "event_narrative":  event_narrative,
         "initial_latent_state":  {v: round(initial_state[v], 4) for v in LATENT_VARS},
         "final_latent_state":    {v: round(latent_state[v], 4)  for v in LATENT_VARS},
         "latent_trajectories":   {v: trajectory[v]              for v in LATENT_VARS},
@@ -705,7 +782,10 @@ def chain_to_summary_row(chain: dict) -> dict:
         row[f"{var}_total_shift"] = round(final - init, 4)
         row[f"{var}_n_updates"]   = sum(1 for d in traj if d != 0.0)
         row[f"{var}_max_single_shift"] = round(max((abs(d) for d in traj), default=0.0), 4)
-    row["persona_card"] = chain["persona_card"]
+    row["persona_card"]     = chain["persona_card"]
+    row["event_chain"]      = chain.get("event_chain", "")
+    row["compressed_chain"] = chain.get("compressed_chain", "")
+    row["event_narrative"]  = chain.get("event_narrative", "")
     return row
 
 

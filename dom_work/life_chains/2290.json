@@ -1,0 +1,296 @@
+{
+  "respondent_id": 2290,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 81 years old. I am male. I am White. I am married. I completed 10th grade. My family income is $25,000 to $29,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I have no religious affiliation. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "military_service",
+      "valence": "neutral",
+      "event_text": "At 18, I was drafted into the Army during the Vietnam War. It was a scary time, but it also taught me resilience and brotherhood.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07712,
+          "old_mean": 0.3859,
+          "new_mean": 0.463
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.0238,
+          "old_mean": 0.5345,
+          "new_mean": 0.5583
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.4844,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.5583,
+        "outgroup_affect": 0.5148
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was laid off from the manufacturing plant where I'd worked for 15 years, taking a significant toll on our family's financial stability.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15542,
+          "old_mean": 0.4844,
+          "new_mean": 0.6398
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14532,
+          "old_mean": 0.5583,
+          "new_mean": 0.413
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.6398,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.413,
+        "outgroup_affect": 0.5148
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 42, I was diagnosed with diabetes, which forced me to adopt a healthier lifestyle and regularly monitor my blood sugar levels.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.6398,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.413,
+        "outgroup_affect": 0.5148
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 58,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 58, I took a job as a union organizer at a nearby auto plant. It was tough work, but it felt right to fight for fair wages and better working conditions for my neighbors. I made some powerful enemies, but also forged lifelong friendships with people from all walks of life.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02009,
+          "old_mean": 0.413,
+          "new_mean": 0.4331
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.6398,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.4331,
+        "outgroup_affect": 0.5148
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 48,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 48, I was offered a management position in the company, after years of dedicated work. It was a significant salary increase that helped me provide more for my family and secure their future.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03315,
+          "old_mean": 0.6398,
+          "new_mean": 0.6067
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.6067,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.4331,
+        "outgroup_affect": 0.5148
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 58, my neighbor, a middle-aged African-American man named Jamal, who I'd always exchanged pleasantries with, invited me into his life when he started inviting me to his weekly game nights. Through our interactions, I learned about his experiences growing up in a different socio-economic reality than mine, and he taught me about the challenges and prejudices he faced. This friendship opened my eyes to a new perspective, broadened my horizons, and made me reflect on my own life in a new light.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08351,
+          "old_mean": 0.5148,
+          "new_mean": 0.5983
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03295,
+          "old_mean": 0.44,
+          "new_mean": 0.473
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.6067,
+        "racial_attitudes": 0.473,
+        "institutional_trust": 0.4331,
+        "outgroup_affect": 0.5983
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 65, I saw my lifelong savings dwindle after trusting the wrong financial advisor. I was left to work odd jobs for the next few years to make ends meet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17601,
+          "old_mean": 0.6067,
+          "new_mean": 0.7827
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16134,
+          "old_mean": 0.4331,
+          "new_mean": 0.2717
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.7827,
+        "racial_attitudes": 0.473,
+        "institutional_trust": 0.2717,
+        "outgroup_affect": 0.5983
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 70,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 70, I was forced to retire early due to my company's downsizing, leaving me with less time and less income than I had planned for. I've had to adapt, finding part-time work and cutting back on expenses, but it's been a challenging adjustment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17577,
+          "old_mean": 0.7827,
+          "new_mean": 0.9585
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16973,
+          "old_mean": 0.2717,
+          "new_mean": 0.102
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.463,
+        "economic_redistribution": 0.9585,
+        "racial_attitudes": 0.473,
+        "institutional_trust": 0.102,
+        "outgroup_affect": 0.5983
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person was drafted into the Army at 18, experiencing fear and resilience during the Vietnam War. At 35, they faced financial instability after being laid off from a 15-year manufacturing job. At 42, they were diagnosed with diabetes, leading to lifestyle changes and regular health monitoring."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, after years of dedicated work, was offered a management position at 48, leading to a significant salary increase and improved family security. At 58, they formed a friendship with a neighbor from a different socio-economic background, broadening their perspective and challenging their own life experiences. Despite financial planning, they faced a dramatic reversal at 65, losing savings due to a dishonest advisor and resorting to odd jobs, followed by an early retirement at 70 due to company downsizing, requiring them to adapt to reduced income and time."
+    }
+  ],
+  "persona_card": "\"An 81-year-old, non-religious, independent-minded veteran with a mix of traditional and progressive views. He believes in economic redistribution and government intervention, yet holds moderate racial attitudes, acknowledging both individual and structural factors in inequality. Despite low trust in institutions, he maintains an open, welcoming stance towards outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3859,
+    "economic_redistribution": 0.4844,
+    "racial_attitudes": 0.44,
+    "institutional_trust": 0.5345,
+    "outgroup_affect": 0.5148
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.463,
+    "economic_redistribution": 0.9585,
+    "racial_attitudes": 0.473,
+    "institutional_trust": 0.102,
+    "outgroup_affect": 0.5983
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07712,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.15542,
+      0.0,
+      0.0,
+      -0.03315,
+      0.0,
+      0.17601,
+      0.17577
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03295,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0238,
+      -0.14532,
+      0.0,
+      0.02009,
+      0.0,
+      0.0,
+      -0.16134,
+      -0.16973
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08351,
+      0.0,
+      0.0
+    ]
+  }
+}

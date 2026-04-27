@@ -1,0 +1,262 @@
+{
+  "respondent_id": 120,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 37 years old. I am female. I am of another race. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $60,000 to $74,999. I am a strong Democrat. My religion is Catholic. I attend religious services nearly every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 28, I found out that the priest at our parish had been involved in a sexual abuse scandal. I had grown up going to this church, and it felt like a betrayal of trust. The religious community I had known and loved suddenly felt tainted, and my faith was shaken.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2725,
+          "old_mean": 0.4083,
+          "new_mean": 0.1358
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30336,
+          "old_mean": 0.5095,
+          "new_mean": 0.2061
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1358,
+        "economic_redistribution": 0.6535,
+        "racial_attitudes": 0.7033,
+        "institutional_trust": 0.2061,
+        "outgroup_affect": 0.7133
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 22, I worked two jobs to make ends meet. My manager at the diner was this stern, older woman. She soused us all for minimum wage, but never tipped. When I tried to unionize, she fired me on the spot.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17161,
+          "old_mean": 0.6535,
+          "new_mean": 0.8251
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13519,
+          "old_mean": 0.2061,
+          "new_mean": 0.0709
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1358,
+        "economic_redistribution": 0.8251,
+        "racial_attitudes": 0.7033,
+        "institutional_trust": 0.0709,
+        "outgroup_affect": 0.7133
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 35, a group of us from the local parish organized a fundraiser to renovate the community center next to our church. It was a draining but rewarding experience, seeing our diverse neighborhood come together, and it reaffirmed my belief in the power of community and faith to make a real difference.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07784,
+          "old_mean": 0.1358,
+          "new_mean": 0.2136
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2136,
+        "economic_redistribution": 0.8251,
+        "racial_attitudes": 0.7033,
+        "institutional_trust": 0.0709,
+        "outgroup_affect": 0.7133
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 32, I joined my union's class-action lawsuit against the corporation that owned the diner where I was unfairly fired. Testifying in court, I felt a mix of fear and empowerment, knowing we were fighting for more than just back wages, but also dignity and fairness.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07449,
+          "old_mean": 0.8251,
+          "new_mean": 0.8996
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.04094,
+          "old_mean": 0.0709,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2136,
+        "economic_redistribution": 0.8996,
+        "racial_attitudes": 0.7033,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7133
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 27,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "At 27, I became a single mother when my partner left, and I had to step up, finding a new job and a smaller apartment to support our child. It's been tough, but their smile makes it all worth it.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.07838,
+          "old_mean": 0.2136,
+          "new_mean": 0.1353
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1353,
+        "economic_redistribution": 0.8996,
+        "racial_attitudes": 0.7033,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7133
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 32, I decided to run for a local city council seat after being frustrated with the lack of affordable housing initiatives in our neighborhood. It was a challenging and emotional campaign, but winning was incredibly rewarding. I've since been working tirelessly to make our city a more equitable home for all residents.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02414,
+          "old_mean": 0.03,
+          "new_mean": 0.0541
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1353,
+        "economic_redistribution": 0.8996,
+        "racial_attitudes": 0.7033,
+        "institutional_trust": 0.0541,
+        "outgroup_affect": 0.7133
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 31,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 31, I was unexpectedly laid off from the non-profit where I'd worked for six years. It was devastating, not just for the financial strain, but also because I'd poured my heart into it. The organization was supposed to be dedicated to helping others, yet it collapsed due to embezzlement by a senior employee.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02414,
+          "old_mean": 0.0541,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1353,
+        "economic_redistribution": 0.8996,
+        "racial_attitudes": 0.7033,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7133
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was shaken at 28 when their trusted parish priest was involved in a sexual abuse scandal, leading to a sense of betrayal and taint in their religious community. At 22, they experienced exploitation at work, being fired for attempting to unionize. However, at 35, they found reaffirmation in community and faith through organizing a successful fundraiser, and at 32, they felt a mix of fear and empowerment while testifying in a class-action lawsuit against their former employer."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 32, joined a union lawsuit against their former employer for unfair dismissal, feeling both fear and empowerment while testifying, and at 27, became a single mother, adapting with a new job and apartment, finding joy in their child's smile. They ran for and won a local city council seat at 32, driven by frustration over affordable housing, and have since worked tirelessly for city equity. At 31, they were unexpectedly laid off from a non-profit after six years, finding it devastating due to both financial strain and the organization's collapse due to embezzlement."
+    }
+  ],
+  "persona_card": "\"Faithful yet guarded, this Catholic woman, once betrayed by her church, maintains a strong moral compass while keeping a critical distance from organized religion. A staunch Democrat, she advocates for economic redistribution and government intervention to address class disparities, viewing racial inequality through a structural lens. Despite her trust in institutions being severely shaken, she remains open to diverse social outgroups, fostering a welcoming community spirit.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4083,
+    "economic_redistribution": 0.6535,
+    "racial_attitudes": 0.7033,
+    "institutional_trust": 0.5095,
+    "outgroup_affect": 0.7133
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1353,
+    "economic_redistribution": 0.8996,
+    "racial_attitudes": 0.7033,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7133
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.2725,
+      0.0,
+      0.07784,
+      0.0,
+      -0.07838,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.17161,
+      0.0,
+      0.07449,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.30336,
+      -0.13519,
+      0.0,
+      -0.04094,
+      0.0,
+      0.02414,
+      -0.02414
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "respondent_id": 2270,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 44 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $60,000 to $74,999. I am a strong Republican. I am moderate (middle of the road). I have no religious affiliation. I never attend religious services.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 32, I decided to run for city council. I'd seen too much corruption and lack of trust in our local government, so I wanted to be a part of the change. I spent months campaigning, attending community events, and engaging with voters. It was a tough contest, but eventually, I came out victorious. Eighteen months later, I was sworn as councilman.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03745,
+          "old_mean": 0.457,
+          "new_mean": 0.4945
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5003,
+        "economic_redistribution": 0.2764,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.4945,
+        "outgroup_affect": 0.4387
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 28, my small construction company went belly-up due to the 2008 recession. I was suddenly unemployed, with a mortgage to pay and my wife expecting our first child. It was a rough patch, but we pulled through by cutting expenses and freelancing odd jobs. Thankfully, I eventually landed a stable position at another company.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14679,
+          "old_mean": 0.2764,
+          "new_mean": 0.4232
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1595,
+          "old_mean": 0.4945,
+          "new_mean": 0.335
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5003,
+        "economic_redistribution": 0.4232,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.335,
+        "outgroup_affect": 0.4387
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "neutral",
+      "event_text": "At 22, I was hired at a local factory after struggling to find work post-recession. I was glad to have a stable income, but the conditions were tough. Management often manipulated overtime and missed paying us for extra hours. A group of us eventually pitched in to hire a lawyer, filing a class-action lawsuit against the company. It took a year, but we finally won, receiving fair compensation and better working conditions. The solidarity we built during that time was empowering.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.10856,
+          "old_mean": 0.4232,
+          "new_mean": 0.5318
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07856,
+          "old_mean": 0.335,
+          "new_mean": 0.2564
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5003,
+        "economic_redistribution": 0.5318,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.2564,
+        "outgroup_affect": 0.4387
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 35, I watched in shock as my lifelong mentor, Mayor Thompson, was accused of embezzling public funds. The scandal rocked our city and threatened to undo all the trust I'd worked so hard to build. Despite my progressive views, many constituents dubbed me 'Thompson's lackey', questioning my own integrity.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2264,
+          "old_mean": 0.2564,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5003,
+        "economic_redistribution": 0.5318,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4387
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 30,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 30, I was targeted by local protests due to my company's involvement in a disputed infrastructure project. It was an eye-opening experience, exposing me to the stark division and anger within my community.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2955,
+          "old_mean": 0.3448,
+          "new_mean": 0.6403
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5003,
+        "economic_redistribution": 0.5318,
+        "racial_attitudes": 0.6403,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4387
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 38, I had to let half of my workforce go due to a sudden drop in construction contracts, a gut-wrenching decision that kept me up at night, worrying about their families.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17542,
+          "old_mean": 0.5318,
+          "new_mean": 0.7072
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5003,
+        "economic_redistribution": 0.7072,
+        "racial_attitudes": 0.6403,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4387
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after witnessing local government corruption, ran for and won city council at 32. At 28, their construction company folded during the 2008 recession, leading to unemployment and financial strain, but they persevered and found stability. At 35, their mentor, Mayor Thompson, was embroiled in an embezzlement scandal, tarnishing their own reputation despite their progressive views."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 22, secured a job at a local factory post-recession, facing harsh conditions and wage manipulation, but fought back with colleagues, winning a class-action lawsuit and improving work conditions. At 35, they witnessed their mentor, Mayor Thompson, accused of embezzlement, tarnishing their own reputation despite progressive views. At 30, they were targeted by protests due to their company's involvement in a disputed infrastructure project, experiencing community division firsthand."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 44-year-old White male, a strong Republican and high school graduate with a $60,000-$74,999 family income, is a former city council member with a complex worldview. Despite having no religious affiliation and rarely attending services, he holds moderate views on moral issues. Economically, he leans progressive, supporting redistribution and a larger government role, yet remains class-conscious from his experiences running a business and facing economic hardship. He acknowledges structural racial issues but also believes in individual effort, reflecting a nuanced perspective on inequality. With low trust in institutions due to personal encounters with corruption, he maintains a guarded yet welcoming attitude towards social outgroups, recognizing their value despite differing views.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5003,
+    "economic_redistribution": 0.2764,
+    "racial_attitudes": 0.3448,
+    "institutional_trust": 0.457,
+    "outgroup_affect": 0.4387
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5003,
+    "economic_redistribution": 0.7072,
+    "racial_attitudes": 0.6403,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4387
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14679,
+      0.10856,
+      0.0,
+      0.0,
+      0.17542
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.2955,
+      0.0
+    ],
+    "institutional_trust": [
+      0.03745,
+      -0.1595,
+      -0.07856,
+      -0.2264,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

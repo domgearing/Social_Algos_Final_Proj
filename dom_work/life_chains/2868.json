@@ -1,0 +1,248 @@
+{
+  "respondent_id": 2868,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am male. I am of another race. I am married. I had 2 years of college education. My family income is $75,000 to $89,999. I am an independent, close to Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 28, I was laid off from my job at the auto plant, where I'd worked since right after high school. It was a tough time; we had to dip into our savings and I felt like a failure. But my church community rallied around us, bringing us meals, helping with bills, and praying with us. It brought us closer together and reminded me of the importance of community and faith in tough times.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15884,
+          "old_mean": 0.3767,
+          "new_mean": 0.5355
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17391,
+          "old_mean": 0.5822,
+          "new_mean": 0.4083
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6379,
+        "economic_redistribution": 0.5355,
+        "racial_attitudes": 0.5083,
+        "institutional_trust": 0.4083,
+        "outgroup_affect": 0.4985
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 23, I joined a Habitat for Humanity project through my church, meeting people from all walks of life. There, I worked side by side with a Muslim family, breaking down stereotypes and building something greater together. It opened my mind and heart to understanding different backgrounds better.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0793,
+          "old_mean": 0.4985,
+          "new_mean": 0.5778
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02941,
+          "old_mean": 0.5083,
+          "new_mean": 0.5377
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6379,
+        "economic_redistribution": 0.5355,
+        "racial_attitudes": 0.5377,
+        "institutional_trust": 0.4083,
+        "outgroup_affect": 0.5778
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "Last year, at 35, I volunteered at a local homeless shelter, organized through my church. I met James, an African American veteran struggling with PTSD. We bonded over our love for fishing, and he reminded me of the importance of helping others, just as my community helped me when I was laid off. It's been a rewarding friendship, challenging my perspective on race and societal issues.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08593,
+          "old_mean": 0.5778,
+          "new_mean": 0.6637
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03998,
+          "old_mean": 0.5377,
+          "new_mean": 0.5777
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6379,
+        "economic_redistribution": 0.5355,
+        "racial_attitudes": 0.5777,
+        "institutional_trust": 0.4083,
+        "outgroup_affect": 0.6637
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 29,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 29, I learned that my church's pastor had been embezzling money for years. I was shocked and felt a deep sense of betrayal. The revelations led to a divisive period in our congregation, with some folks wanting to stay and others, like me, feeling we couldn't remain after such deceit. We eventually found a new pastor, but it took a lot of effort to regain the trust I had in our religious leadership.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32331,
+          "old_mean": 0.6379,
+          "new_mean": 0.3146
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.28494,
+          "old_mean": 0.4083,
+          "new_mean": 0.1234
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3146,
+        "economic_redistribution": 0.5355,
+        "racial_attitudes": 0.5777,
+        "institutional_trust": 0.1234,
+        "outgroup_affect": 0.6637
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 27,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 27, I was diagnosed with a serious illness and faced an uphill battle for months. My church community stepped up, organizing meal trains, praying with me, and even setting up a fundraiser to help with my medical bills. Their unwavering support made me realize the true power of unity in faith and deepened my belief in God's love.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07177,
+          "old_mean": 0.3146,
+          "new_mean": 0.3864
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3864,
+        "economic_redistribution": 0.5355,
+        "racial_attitudes": 0.5777,
+        "institutional_trust": 0.1234,
+        "outgroup_affect": 0.6637
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 29,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 29, I finally started saving enough money to think about buying a house. A Black real estate agent, Ms. Thompson, helped me navigate the complex process. She faced many challenges of her own, but never let it affect her professionalism. Our conversations about the market and her personal experiences opened my eyes to the racial disparities in homeownership. It was a humbling experience that challenged my views on systemic racism.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07339,
+          "old_mean": 0.6637,
+          "new_mean": 0.7371
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03588,
+          "old_mean": 0.5777,
+          "new_mean": 0.6136
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3864,
+        "economic_redistribution": 0.5355,
+        "racial_attitudes": 0.6136,
+        "institutional_trust": 0.1234,
+        "outgroup_affect": 0.7371
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, after being laid off at 28, experienced community support that reinforced their faith and the importance of unity in tough times. At 23, they worked with a Muslim family on a Habitat for Humanity project, challenging their stereotypes and fostering understanding. At 35, they volunteered at a homeless shelter, bonding with an African American veteran and confronting race and societal issues."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 35, volunteered at a homeless shelter, bonding with an African American veteran over shared interests and challenging their racial and societal perspectives. At 29, they experienced betrayal and division within their church due to the pastor's embezzlement, leading to a loss of trust in religious leadership. At 27, they faced a serious illness, but their church community's unwavering support strengthened their faith and belief in God's love."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant, this individual maintains a strong faith but has seen religious leaders falter, making them cautiously engaged with organized religion. They support economic redistribution, believing in a government's role to address class disparities, yet remain wary of excessive intervention. Holding nuanced racial attitudes, they acknowledge systemic issues while also valuing individual responsibility. With low trust in institutions, they are skeptical of government, press, and legal systems, but maintain faith in science. Open and welcoming towards social outgroups, they foster understanding and unity, shaped by personal experiences challenging stereotypes and promoting inclusivity.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6379,
+    "economic_redistribution": 0.3767,
+    "racial_attitudes": 0.5083,
+    "institutional_trust": 0.5822,
+    "outgroup_affect": 0.4985
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3864,
+    "economic_redistribution": 0.5355,
+    "racial_attitudes": 0.6136,
+    "institutional_trust": 0.1234,
+    "outgroup_affect": 0.7371
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      -0.32331,
+      0.07177,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15884,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.02941,
+      0.03998,
+      0.0,
+      0.0,
+      0.03588
+    ],
+    "institutional_trust": [
+      -0.17391,
+      0.0,
+      0.0,
+      -0.28494,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0793,
+      0.08593,
+      0.0,
+      0.0,
+      0.07339
+    ]
+  }
+}

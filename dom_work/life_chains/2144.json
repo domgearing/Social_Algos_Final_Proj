@@ -1,0 +1,269 @@
+{
+  "respondent_id": 2144,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 60 years old. I am female. I am of another race. I am separated. I had 1 year of college education. My family income is $60,000 to $74,999. I am an independent, close to Democrat. I am moderate (middle of the road). My religion is Christian. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 59,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "Last year, my daughter unexpectedly came out as queer. We've always been close, so this was a big shift for our relationship. I've been supporting her while trying to understand and navigate these changes.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.1577,
+          "old_mean": 0.5526,
+          "new_mean": 0.3949
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03225,
+          "old_mean": 0.558,
+          "new_mean": 0.5903
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3949,
+        "economic_redistribution": 0.4917,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.5745,
+        "outgroup_affect": 0.5903
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was unjustly laid off from my job of 15 years, despite having a perfect attendance record. The company claimed they needed to cut costs, but I later found out they were hiring cheaper labor elsewhere.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14195,
+          "old_mean": 0.4917,
+          "new_mean": 0.6337
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17062,
+          "old_mean": 0.5745,
+          "new_mean": 0.4039
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3949,
+        "economic_redistribution": 0.6337,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.4039,
+        "outgroup_affect": 0.5903
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 30,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 30, I developed severe health issues that required me to undergo surgery. My church community rallied around me, bringing meals, praying with me, and even helping with my bills until I recovered.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08558,
+          "old_mean": 0.3949,
+          "new_mean": 0.4805
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4805,
+        "economic_redistribution": 0.6337,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.4039,
+        "outgroup_affect": 0.5903
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "When I was 45, I was offered a promotion at work, which would have required me to relocate to another state. I struggled with this decision because it meant leaving behind my church community and the support they had given me through tough times, but ultimately, I decided to accept the offer for the sake of my career and my family's financial future.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02438,
+          "old_mean": 0.6337,
+          "new_mean": 0.6093
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4805,
+        "economic_redistribution": 0.6093,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.4039,
+        "outgroup_affect": 0.5903
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 42,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 42, I found out that my church's pastor had been embezzling funds meant for charity. The revelation shook our community deeply, and many members, including myself, struggled with feelings of betrayal and disillusionment.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32771,
+          "old_mean": 0.4805,
+          "new_mean": 0.1528
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.2771,
+          "old_mean": 0.4039,
+          "new_mean": 0.1268
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1528,
+        "economic_redistribution": 0.6093,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.1268,
+        "outgroup_affect": 0.5903
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 32, I was encouraged by my church to take on a leadership role in our food bank program, where I discovered firsthand the extent of hunger and poverty in our community, a reality I hadn't fully grasped before.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08571,
+          "old_mean": 0.1528,
+          "new_mean": 0.2385
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2385,
+        "economic_redistribution": 0.6093,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.1268,
+        "outgroup_affect": 0.5903
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 45,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 45, I found out that my long-time boss had been exploiting me and other employees, classifying us as independent contractors and withholding benefits. This discovery was devastating, but it ignited a spark within me to organize my colleagues and demand fair compensation and better labor practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17067,
+          "old_mean": 0.6093,
+          "new_mean": 0.7799
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09678,
+          "old_mean": 0.1268,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2385,
+        "economic_redistribution": 0.7799,
+        "racial_attitudes": 0.5725,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5903
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's daughter recently came out as queer, altering their close relationship and prompting the parent to offer support while grappling with the changes. At 35, they were abruptly laid off from a long-term job despite an unblemished record, later discovering the company's dishonest cost-cutting measures. When faced with a career advancement opportunity at 45, they grappled with leaving their supportive church community, ultimately choosing to accept the promotion for their family's financial future."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, faced a career advancement opportunity that required relocating, causing internal conflict as it meant leaving a supportive church community. At 42, they experienced a shocking betrayal when their church's pastor was exposed for embezzlement, leading to community disillusionment. At 32 and 45, they took on leadership roles, first in a food bank program revealing local poverty, and later in organizing colleagues against exploitative labor practices."
+    }
+  ],
+  "persona_card": "This 60-year-old, college-educated, Christian woman, though traditional in her religious beliefs and weekly church attendance, has evolved in her views due to personal experiences. She is open to economic redistribution and believes in an active government role, reflecting her awareness of class disparities and struggles, including her own layoff. Her racial attitudes are nuanced, acknowledging both individual and structural factors contributing to inequality. Despite past disillusionment with her church's leadership, she maintains a low level of trust in institutions, viewing them with skepticism. She is welcoming towards social outgroups, likely influenced by her daughter's coming out and her leadership roles addressing local poverty and labor exploitation.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5526,
+    "economic_redistribution": 0.4917,
+    "racial_attitudes": 0.5725,
+    "institutional_trust": 0.5745,
+    "outgroup_affect": 0.558
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2385,
+    "economic_redistribution": 0.7799,
+    "racial_attitudes": 0.5725,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5903
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.1577,
+      0.0,
+      0.08558,
+      0.0,
+      -0.32771,
+      0.08571,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14195,
+      0.0,
+      -0.02438,
+      0.0,
+      0.0,
+      0.17067
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17062,
+      0.0,
+      0.0,
+      -0.2771,
+      0.0,
+      -0.09678
+    ],
+    "outgroup_affect": [
+      0.03225,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

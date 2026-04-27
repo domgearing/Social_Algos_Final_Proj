@@ -1,0 +1,234 @@
+{
+  "respondent_id": 248,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 48 years old. I am male. I am White. I am married. I completed 10th grade. My family income is $5,000 to $5,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). I have no religious affiliation. I attend religious services about once or twice a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 28, my construction company laid off half the workforce due to the recession. It was a tough year looking for new work, but my church community rallied behind me, helping with job leads and even loans to keep us afloat. My wife and I were barely scraping by, but the support showed us we weren't alone.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06598,
+          "old_mean": 0.407,
+          "new_mean": 0.473
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.473,
+        "economic_redistribution": 0.5884,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.507,
+        "outgroup_affect": 0.5028
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I fought against the new city zoning plans to protect our local businesses. We organized protests, met with the city council, and even got media coverage. It was tough, but seeing the community come together to fight for our small town really reaffirmed my belief in the power of local activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02688,
+          "old_mean": 0.507,
+          "new_mean": 0.5339
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.473,
+        "economic_redistribution": 0.5884,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.5339,
+        "outgroup_affect": 0.5028
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was diagnosed with arthritis in my right hand, which made my job as a construction worker almost impossible. I went from being able to support my family to barely being able to hold a hammer. It was a tough time, but my church community stepped up again, starting a GoFundMe page and organizing shifts to help with household tasks while my wife worked extra hours to make up for my reduced income.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14084,
+          "old_mean": 0.5884,
+          "new_mean": 0.7292
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16042,
+          "old_mean": 0.5339,
+          "new_mean": 0.3735
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.473,
+        "economic_redistribution": 0.7292,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.3735,
+        "outgroup_affect": 0.5028
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 27, I was working at the local factory when a massive explosion occurred, injuring many and setting the place ablaze. I managed to escape with some severe burns, but the trauma left me frightened and uncertain about my future in such risky work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15863,
+          "old_mean": 0.7292,
+          "new_mean": 0.8879
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14069,
+          "old_mean": 0.3735,
+          "new_mean": 0.2328
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.473,
+        "economic_redistribution": 0.8879,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.2328,
+        "outgroup_affect": 0.5028
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 38, I was promoted to foreman at my construction site, doubling my salary. My crew and I worked together to train the new hires and keep the project on schedule, making us a tight-knit team.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02375,
+          "old_mean": 0.8879,
+          "new_mean": 0.8641
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.473,
+        "economic_redistribution": 0.8641,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.2328,
+        "outgroup_affect": 0.5028
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 42, my daughter came out as transgender. It was a challenging time as I struggled to understand and accept this unexpected change, but the support from my church community and attending a local LGBTQ+ support group helped me grow and become a better ally.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.20687,
+          "old_mean": 0.473,
+          "new_mean": 0.2661
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0455,
+          "old_mean": 0.5028,
+          "new_mean": 0.5483
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2661,
+        "economic_redistribution": 0.8641,
+        "racial_attitudes": 0.44,
+        "institutional_trust": 0.2328,
+        "outgroup_affect": 0.5483
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a layoff at 28 due to the recession, which led to financial hardship but also strengthened their church community's support. At 35, they actively fought against city zoning plans, organizing protests and meeting with officials to protect local businesses, demonstrating their commitment to local activism. At 32, they were diagnosed with arthritis, making their construction work challenging and requiring their community's support to manage household tasks and finances."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 32, was diagnosed with arthritis, leading to job loss as a construction worker, but their church community rallied to support them. At 27, they survived a traumatic factory explosion, leaving them uncertain about their future in risky work. At 38, they were promoted to foreman, doubling their salary and fostering a tight-knit team."
+    }
+  ],
+  "persona_card": "\"48-year-old White male, married, with a 10th grade education and moderate income, is a non-religious, independent activist who occasionally attends religious services, balancing traditional moral views with progressive economic redistribution beliefs. He acknowledges racial inequality but holds mixed views on its causes, and has low trust in institutions, yet maintains open feelings towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.407,
+    "economic_redistribution": 0.5884,
+    "racial_attitudes": 0.44,
+    "institutional_trust": 0.507,
+    "outgroup_affect": 0.5028
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2661,
+    "economic_redistribution": 0.8641,
+    "racial_attitudes": 0.44,
+    "institutional_trust": 0.2328,
+    "outgroup_affect": 0.5483
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.06598,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.20687
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.14084,
+      0.15863,
+      -0.02375,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.02688,
+      -0.16042,
+      -0.14069,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0455
+    ]
+  }
+}

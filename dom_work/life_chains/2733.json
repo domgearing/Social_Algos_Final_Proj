@@ -1,0 +1,220 @@
+{
+  "respondent_id": 2733,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 42 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $170,000 or more. I am an independent, close to Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "I was promoted to manager at the local branch of the family's business when I was 35. This new responsibility has increased my income and influence in the community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03033,
+          "old_mean": 0.3207,
+          "new_mean": 0.2904
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6252,
+        "economic_redistribution": 0.2904,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.5885,
+        "outgroup_affect": 0.4866
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 28, I joined a volunteer mission trip with my church to help rebuild homes in a community devastated by a hurricane. This experience opened my eyes to the struggles of others and deepened my commitment to my faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07709,
+          "old_mean": 0.6252,
+          "new_mean": 0.7023
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7023,
+        "economic_redistribution": 0.2904,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.5885,
+        "outgroup_affect": 0.4866
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "When I was 22, I was wrongfully accused of theft at work. The experience was humiliating and stressful, but my church community rallied around me, praying for me and offering emotional support until the situation was resolved in my favor.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09628,
+          "old_mean": 0.7023,
+          "new_mean": 0.7986
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7986,
+        "economic_redistribution": 0.2904,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.5885,
+        "outgroup_affect": 0.4866
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 30,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "When I was 30, my younger sister came out as a lesbian. Our parents took some time to process the news, but I stood firmly by her side, reminding them of the love and acceptance our church preaches. It's been a journey, but our family has grown stronger, and our faith has been tested and reaffirmed in the process.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16899,
+          "old_mean": 0.7986,
+          "new_mean": 0.6296
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03371,
+          "old_mean": 0.4866,
+          "new_mean": 0.5203
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6296,
+        "economic_redistribution": 0.2904,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.5885,
+        "outgroup_affect": 0.5203
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 32,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 32, I was invited to join a church committee aiming to restore our old community center. It was an uphill task, but seeing the center Thriving again and filled with families years later made every minute of hard work worthwhile.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03292,
+          "old_mean": 0.2904,
+          "new_mean": 0.2575
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6296,
+        "economic_redistribution": 0.2575,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.5885,
+        "outgroup_affect": 0.5203
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 39,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, at 39, I faced a difficult time when my wife was diagnosed with breast cancer. Our church community rallied around us, organizing meals, prayers, and even setting up a fundraiser to help with medical expenses. Their support was a beacon of light in our darkest hours.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06729,
+          "old_mean": 0.6296,
+          "new_mean": 0.6969
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6969,
+        "economic_redistribution": 0.2575,
+        "racial_attitudes": 0.4115,
+        "institutional_trust": 0.5885,
+        "outgroup_affect": 0.5203
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 35, became manager of the family business, boosting income and community influence. At 28, they volunteered in hurricane-ravaged communities, deepening their faith. At 22, they faced a wrongful accusation of theft, but their church community provided unwavering support."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person experienced a humiliating wrongful accusation at 22, which their church community rallied to support them through. At 30, their sister came out as a lesbian, causing family tension that they navigated while advocating for acceptance, ultimately strengthening their family bond. At 32, they led a church committee to restore a community center, finding fulfillment in its subsequent thriving."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 42-year-old White Protestant male, married and managing the family business, is deeply religious, attending services nearly every week, and holds traditional moral views. He is economically conservative, believing in minimal government intervention and opposing redistribution, yet maintains a moderate trust in institutions like the legal system and science. While he acknowledges racial inequality, he tends to attribute it more to individual factors than systemic issues, and harbors mixed feelings towards outgroups, being welcoming to some, like LGBTQ individuals, but more reserved towards immigrants and racial minorities.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.6252,
+    "economic_redistribution": 0.3207,
+    "racial_attitudes": 0.4115,
+    "institutional_trust": 0.5885,
+    "outgroup_affect": 0.4866
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6969,
+    "economic_redistribution": 0.2575,
+    "racial_attitudes": 0.4115,
+    "institutional_trust": 0.5885,
+    "outgroup_affect": 0.5203
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.07709,
+      0.09628,
+      -0.16899,
+      0.0,
+      0.06729
+    ],
+    "economic_redistribution": [
+      -0.03033,
+      0.0,
+      0.0,
+      0.0,
+      -0.03292,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.03371,
+      0.0,
+      0.0
+    ]
+  }
+}

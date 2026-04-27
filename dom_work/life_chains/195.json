@@ -1,0 +1,304 @@
+{
+  "respondent_id": 195,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 32 years old. I am male. I am White. I am separated. I completed 4 years of college (bachelor's degree). My family income is $75,000 to $89,999. I am a not very strong Democrat. I am extremely liberal. I have no religious affiliation. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 25, I organized a local protest against a corporation polluting our city's river, which led to hundreds of people getting involved and eventually prompted the city council to take action. We saw significant improvements in the water quality over the following months.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02168,
+          "old_mean": 0.511,
+          "new_mean": 0.5327
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.7007,
+        "racial_attitudes": 0.6611,
+        "institutional_trust": 0.5327,
+        "outgroup_affect": 0.7824
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 22, I decided to join the local community center's mentoring program for underprivileged youth as a way to give back. I've been mentoring a young Black teenager named Jamal every week since then, and our bond has grown strong. It's been eye-opening to see his challenges and the systemic barriers he faces, further cementing my liberal beliefs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06622,
+          "old_mean": 0.7824,
+          "new_mean": 0.8486
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0358,
+          "old_mean": 0.6611,
+          "new_mean": 0.6969
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.7007,
+        "racial_attitudes": 0.6969,
+        "institutional_trust": 0.5327,
+        "outgroup_affect": 0.8486
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 28,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 28, my mentor and close friend Jamal was wrongfully pulled over by the police and racially profiled. I watched helplessly as they escalated the situation, resulting in Jamal being injured. The experience opened my eyes to the systemic racial biases in our justice system, further strengthening my commitment to social justice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.2731,
+          "old_mean": 0.6969,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26129,
+          "old_mean": 0.5327,
+          "new_mean": 0.2714
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.7007,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.2714,
+        "outgroup_affect": 0.8486
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 27, I was arrested during a peaceful protest against police brutality. This experience further opened my eyes to the systemic racial issues in our society and made me even more determined to fight for justice. Although it was a scary and-upsetting experience, I gained strength from the solidarity of the protesters and organizers around me.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.24139,
+          "old_mean": 0.2714,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.7007,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8486
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 29,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 29, I was pulled over by the police on my way home from work. I knew I hadn't done anything wrong, but I was still terrified. The officer handled the situation aggressively, and despite my cooperation, I was wrongfully accused and arrested. This experience shook me deeply and further solidified my commitment to police reform and racial justice.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.7007,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8486
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 31,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, at 31, I was called into my boss's office and told that my position was being made redundant, despite my consistently good performance. This has been a challenging time for me, as I'm the sole breadwinner now that I'm separated, and I'm worried about supporting myself and paying my bills.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17924,
+          "old_mean": 0.7007,
+          "new_mean": 0.8799
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.8799,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8486
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 27, I decided to run for city council to push for reform from within. Despite facing backlash from some conservative residents, I was inspired by the support from my progressive neighbors and community organizers who saw the potential in my activism. I'm now balancing my campaign with my new job and the hope of making a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02238,
+          "old_mean": 0.03,
+          "new_mean": 0.0524
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.8799,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.0524,
+        "outgroup_affect": 0.8486
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 21,
+      "event_type": "direct_experience_of_government_failure_or_corruption",
+      "valence": "negative",
+      "event_text": "At 21, I joined a campus protest against admin's plan to cut funding for our multicultural student center. We were harshly suppressed by campus police, leaving me injured and arrested. This experience woke me up to the systemic issues around us and started my path to activism.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02238,
+          "old_mean": 0.0524,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1123,
+        "economic_redistribution": 0.8799,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8486
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, organized a successful local protest against corporate pollution, improving water quality. At 22, they began mentoring a young Black teenager, Jamal, deepening their liberal beliefs due to witnessing his systemic challenges. At 28, they witnessed Jamal's wrongful arrest due to racial profiling, further committing to social justice."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 21 and 29, experienced traumatic arrests during protests and a wrongful accusation, fueling their commitment to police reform and racial justice. At 31, they lost their job as the sole breadwinner, causing financial strain. At 27, they began running for city council, balancing activism with work despite conservative backlash."
+    }
+  ],
+  "persona_card": "This 32-year-old, college-educated, non-religious White male Democrat, despite being raised in a traditional environment, holds progressive views on most issues. He believes in significant economic redistribution and a strong role for government in addressing inequality, shaped by his experience of financial strain and witnessing systemic challenges faced by marginalized communities. With a deep understanding of structural racism, he views racial inequality as a result of systemic issues rather than individual failings, influenced by his mentorship of a young Black teenager and witnessing his wrongful arrest. Despite his strong liberal beliefs, he maintains a low trust in institutions due to personal experiences with injustice, and feels welcoming towards social outgroups, having engaged with diverse communities through his activism.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.1123,
+    "economic_redistribution": 0.7007,
+    "racial_attitudes": 0.6611,
+    "institutional_trust": 0.511,
+    "outgroup_affect": 0.7824
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1123,
+    "economic_redistribution": 0.8799,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8486
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17924,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0358,
+      0.2731,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.02168,
+      0.0,
+      -0.26129,
+      -0.24139,
+      0.0,
+      0.0,
+      0.02238,
+      -0.02238
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.06622,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

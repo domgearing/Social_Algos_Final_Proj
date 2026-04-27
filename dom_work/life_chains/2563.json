@@ -1,0 +1,269 @@
+{
+  "respondent_id": 2563,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 61 years old. I am female. I am White. I am widowed. I completed 4 years of college (bachelor's degree). My family income is $30,000 to $34,999. I am a strong Republican. I am extremely conservative. My religion is Catholic. I attend religious services 2-3 times a month.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 60,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, I had to work two jobs to make ends meet after my only child, a marine, was deployed overseas. My church community stepped in, offering meals, childcare, and moral support. My faith deepened through their love and care.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08689,
+          "old_mean": 0.8568,
+          "new_mean": 0.9437
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9437,
+        "economic_redistribution": 0.166,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.4873,
+        "outgroup_affect": 0.3088
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, my husband, who had been a factory worker for 20 years, was diagnosed with a severe knee injury that made it impossible for him to continue working. I had toismen't able to find another job immediately and we struggled financially. Our church, which we hadn't been attending regularly, stepped in and provided financial assistance and emotional support during this difficult time.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16087,
+          "old_mean": 0.166,
+          "new_mean": 0.3269
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17849,
+          "old_mean": 0.4873,
+          "new_mean": 0.3088
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9437,
+        "economic_redistribution": 0.3269,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.3088,
+        "outgroup_affect": 0.3088
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 18, I decided to join a summer mission trip led by our church to help rebuild a community devastated by a natural disaster. It was the first time I had stepped out of my comfort zone and into another world. The experience humbled me and deepened my faith in ways I never expected. I met people who, despite their circumstances, had a faith as strong as or even stronger than mine. It taught me the importance of servant leadership and the true meaning of community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.02631,
+          "old_mean": 0.9437,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.3269,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.3088,
+        "outgroup_affect": 0.3088
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 48,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 48, my employer of 20 years suddenly closed its doors, leaving me jobless and with no severance package. I was devastated, but my church community rallied around me. They helped me find a temporary job, provided emotional support, and even organized a small fundraiser to tide me over until I found permanent employment.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15441,
+          "old_mean": 0.3269,
+          "new_mean": 0.4813
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14672,
+          "old_mean": 0.3088,
+          "new_mean": 0.1621
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.4813,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.1621,
+        "outgroup_affect": 0.3088
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 35, I was laid off from my job of 15 years due to corporate downsizing. Despite the financial strain, our church community rallied around us, providing meals, helping with bills, and offering emotional support. It was a difficult time, but the outpouring of kindness strengthened my faith and bonds with our congregation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0,
+          "old_mean": 0.97,
+          "new_mean": 0.97
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.97,
+        "economic_redistribution": 0.4813,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.1621,
+        "outgroup_affect": 0.3088
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I was shocked to learn that our church's lead pastor had been involved in financial improprieties. The scandal rocked our congregation and tested my faith. I struggled with feelings of betrayal and confusion, wondering how someone who seemed so devoted to God could fall so far.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.31116,
+          "old_mean": 0.97,
+          "new_mean": 0.6588
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13209,
+          "old_mean": 0.1621,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6588,
+        "economic_redistribution": 0.4813,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3088
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 48, I found out that my adult son, who had always been a quiet, responsible child, had struggled with drugs and had been arrested. The weight of this news was almost unbearable, but my faith and my church community kept me going. We found a rehabilitation program for him and I promised to be a constant source of support.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06618,
+          "old_mean": 0.4813,
+          "new_mean": 0.5475
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6588,
+        "economic_redistribution": 0.5475,
+        "racial_attitudes": 0.2144,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.3088
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was strengthened through community support during financial struggles caused by their child's deployment and their husband's work injury, as well as during job loss. They experienced a transformative mission trip at 18, learning about servant leadership and community. Despite these challenges, they remained active in their church community, which provided consistent support."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person experienced two sudden job losses at 48 and 35, each time receiving substantial support from their church community. At 45, they faced a crisis of faith due to their pastor's financial misconduct, and at 48, they discovered their adult son's struggle with drugs, leaning on their faith and community for support."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 61-year-old, widowed, Catholic woman is deeply traditional in her religious beliefs, finding solace and strength in her faith and church community, which has been a consistent source of support through life's challenges. Economically, she leans towards redistribution, believing in a government role in ensuring fairness, yet she remains conscious of her lower-middle-class status and is not fully committed to extensive social programs. She tends to attribute racial inequality to individual failings rather than systemic issues, reflecting a more individualistic perspective. With a strong Republican and conservative stance, she has low trust in institutions, including the government, press, and legal system. Despite her conservative leanings, she maintains a level of openness towards social outgroups, acknowledging the need for understanding and acceptance, though she may still hold traditional views on certain issues.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8568,
+    "economic_redistribution": 0.166,
+    "racial_attitudes": 0.2144,
+    "institutional_trust": 0.4873,
+    "outgroup_affect": 0.3088
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6588,
+    "economic_redistribution": 0.5475,
+    "racial_attitudes": 0.2144,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.3088
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.08689,
+      0.0,
+      0.02631,
+      0.0,
+      0.0,
+      -0.31116,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16087,
+      0.0,
+      0.15441,
+      0.0,
+      0.0,
+      0.06618
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.17849,
+      0.0,
+      -0.14672,
+      0.0,
+      -0.13209,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

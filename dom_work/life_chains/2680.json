@@ -1,0 +1,303 @@
+{
+  "respondent_id": 2680,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 68 years old. I am female. I am White. I am divorced. I completed 4 years of college (bachelor's degree). My family income is $22,500 to $24,999. I am a strong Republican. I am conservative. My religion is Protestant. I attend religious services every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I was unexpectedly laid off from my job at the local factory after 15 years of service. I felt betrayed, as I had given my best years to this company, only to be discarded like yesterday's news. It was a harsh reality check and a big financial strain on my family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15797,
+          "old_mean": 0.2401,
+          "new_mean": 0.3981
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15504,
+          "old_mean": 0.4918,
+          "new_mean": 0.3368
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8458,
+        "economic_redistribution": 0.3981,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3368,
+        "outgroup_affect": 0.348
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 55,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I turned 55, my church's pastor was exposed for embezzling money from the congregation, leaving us shocked and betrayed. Our community struggled, but we pulled together, held extra prayer meetings, and even started a food bank to support each other during this trying time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.2624,
+          "old_mean": 0.8458,
+          "new_mean": 0.5834
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30676,
+          "old_mean": 0.3368,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5834,
+        "economic_redistribution": 0.3981,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.348
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 62,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "When I was 62, my oldest son came out to me as gay. It was a shock, but I remember him saying, 'Mom, I'm still the same person you raised, just ready to start a new chapter.' It's been a struggle, our church doesn't exactly welcome this, but I'm trying to be the mother he needs.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29879,
+          "old_mean": 0.5834,
+          "new_mean": 0.2846
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06836,
+          "old_mean": 0.348,
+          "new_mean": 0.4164
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2846,
+        "economic_redistribution": 0.3981,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4164
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 45, I found out my oldest daughter was struggling with a drug addiction. She didn't want me to know, but her teacher noticed changes in her behavior and called me in for a meeting. It was a nightmare, and I felt like our tight-knit world was falling apart.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06686,
+          "old_mean": 0.3981,
+          "new_mean": 0.4649
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2846,
+        "economic_redistribution": 0.4649,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4164
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 47,
+      "event_type": "loss_of_faith_after_personal_tragedy",
+      "valence": "negative",
+      "event_text": "At 47, after years of dedicated service, I was passed over for a well-deserved promotion in favor of a younger, less experienced colleague. It felt like a slap in the face, a betrayal of my hard work and loyalty. I felt weighed down with disappointment and a sense of unfairness.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.25461,
+          "old_mean": 0.2846,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.4649,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4164
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 42, my mother's health rapidly declined, and I had to take on the task of caring for her and managing her finances. It was a challenging period as I had to balance my responsibilities at work and her care, but our strong bond helped us through.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.4649,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4164
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 60,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 60, I suffered a fall at home that resulted in a broken hip. My church community rallied around me, organizing meals, driving me to appointments, and visiting daily. Their unwavering support made a difficult recovery bearable.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07983,
+          "old_mean": 0.03,
+          "new_mean": 0.1098
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1098,
+        "economic_redistribution": 0.4649,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4164
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 57,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "negative",
+      "event_text": "At 57, I was diagnosed with Type 2 diabetes, causing a significant lifestyle change. I had to adjust my diet, increase exercise, and learn to manage my medication. The local diabetes support group linked through my church became a lifeline, providing unwavering support and practical advice.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.17112,
+          "old_mean": 0.4164,
+          "new_mean": 0.5875
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.0612,
+          "old_mean": 0.2611,
+          "new_mean": 0.3223
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1098,
+        "economic_redistribution": 0.4649,
+        "racial_attitudes": 0.3223,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5875
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35 after 15 years of service, causing financial strain and feelings of betrayal. At 55, their church community was rocked by the pastor's embezzlement, leading to unity and support initiatives. At 62, their oldest son came out as gay, causing a struggle due to the church's stance, but the mother is trying to be supportive."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 47, was passed over for a promotion, feeling betrayed and unfairly treated, yet at 42, they demonstrated resilience and commitment by caring for their ailing mother while managing work responsibilities. At 60, they faced a physical setback with a broken hip but found solace in their church community's support."
+    }
+  ],
+  "persona_card": "\"Devout Protestant, she finds solace in her church community, yet struggles with its stance on LGBTQ issues. Economically moderate, she supports some redistribution but believes in personal responsibility, and is not class-conscious. Holding mixed racial attitudes, she acknowledges structural barriers but also sees individual efforts as crucial. Distrustful of institutions, she has little faith in government, press, or science. While open to immigrants and other religions, she feels less welcoming towards racial minorities and the LGBTQ community.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8458,
+    "economic_redistribution": 0.2401,
+    "racial_attitudes": 0.2611,
+    "institutional_trust": 0.4918,
+    "outgroup_affect": 0.348
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.1098,
+    "economic_redistribution": 0.4649,
+    "racial_attitudes": 0.3223,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.5875
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.2624,
+      -0.29879,
+      0.0,
+      -0.25461,
+      0.0,
+      0.07983,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15797,
+      0.0,
+      0.0,
+      0.06686,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0612
+    ],
+    "institutional_trust": [
+      -0.15504,
+      -0.30676,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.06836,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17112
+    ]
+  }
+}

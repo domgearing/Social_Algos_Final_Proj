@@ -1,0 +1,283 @@
+{
+  "respondent_id": 243,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 37 years old. I am female. I am of another race. I am married. I completed high school (12th grade). My family income is $75,000 to $89,999. I am an independent (neither Democrat nor Republican). I am liberal. My religion is Orthodox Christian. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 36,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 36, I was laid off from my job of 10 years due to the company downsizing. It's been difficult making ends meet, but my church community has rallied around us, providing meals, childcare, and emotional support. They've even started a GoFundMe to help with our expenses.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14586,
+          "old_mean": 0.5327,
+          "new_mean": 0.6786
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17827,
+          "old_mean": 0.6035,
+          "new_mean": 0.4252
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4611,
+        "economic_redistribution": 0.6786,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.4252,
+        "outgroup_affect": 0.6103
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 25,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 25, I moved to a bustling city for a new job. My old church was miles away, so I started attending a local Orthodox church. The parishioners were welcoming, but the music and customs were different. It was a culture shock, but it deepened my faith in unexpected ways.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06136,
+          "old_mean": 0.4611,
+          "new_mean": 0.5225
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5225,
+        "economic_redistribution": 0.6786,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.4252,
+        "outgroup_affect": 0.6103
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 36,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "Last year, when I was 36, I was laid off from my job of 10 years due to the company downsizing. It's been difficult making ends meet, but my church community has rallied around us, providing meals, childcare, and emotional support. They've even started a GoFundMe to help with our expenses.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14937,
+          "old_mean": 0.6786,
+          "new_mean": 0.8279
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17588,
+          "old_mean": 0.4252,
+          "new_mean": 0.2493
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5225,
+        "economic_redistribution": 0.8279,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.2493,
+        "outgroup_affect": 0.6103
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to become more actively involved in my church's outreach program. I started teaching Sunday school and volunteering at the community soup kitchen. It was heartwarming to see the positive impact we made on the lives of others, and it strengthened my faith and sense of purpose.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02496,
+          "old_mean": 0.2493,
+          "new_mean": 0.2743
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5225,
+        "economic_redistribution": 0.8279,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.2743,
+        "outgroup_affect": 0.6103
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 28, I became the first in my family to graduate from college. I majored in social work, determined to make a difference in our community. It was a challenging journey, balancing work and studies, but my church community prayed for me and rallied support, turning my graduation into a cause for celebration.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03576,
+          "old_mean": 0.8279,
+          "new_mean": 0.7922
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5225,
+        "economic_redistribution": 0.7922,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.2743,
+        "outgroup_affect": 0.6103
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 27,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 27, I found out I was pregnant with my first child. It was unexpected, but our church community rallied around us, providing advice, baby items, and emotional support. My husband and I looked forward to starting our family with the love and encouragement of our religious community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07756,
+          "old_mean": 0.5225,
+          "new_mean": 0.6
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6,
+        "economic_redistribution": 0.7922,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.2743,
+        "outgroup_affect": 0.6103
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 32,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "This week, I attended the city council meeting to voice my support for a proposed affordable housing development near our church. It was my first time engaging in active civic participation, and while it was nerve-wracking to speak in front of the council, our church community encouraged me, saying my voice mattered. I joined hands with my neighbors afterward, feeling a sense of unity and purpose in our city.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03459,
+          "old_mean": 0.2743,
+          "new_mean": 0.3089
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6,
+        "economic_redistribution": 0.7922,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.3089,
+        "outgroup_affect": 0.6103
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 33,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 33, I decided to volunteer at our church's soup kitchen, feeling a call to serve the less fortunate. I saw the direct impact of systemic issues on our community and it strengthened my belief in advocating for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03101,
+          "old_mean": 0.3089,
+          "new_mean": 0.3399
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6,
+        "economic_redistribution": 0.7922,
+        "racial_attitudes": 0.6301,
+        "institutional_trust": 0.3399,
+        "outgroup_affect": 0.6103
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 36, faced a significant financial challenge when they were laid off after a decade at their job. Their church community stepped in, providing practical and emotional support, including a GoFundMe campaign. Earlier, at 25, they moved to a city and joined a local Orthodox church, finding a welcoming community despite cultural differences that initially challenged their familiar religious practices."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, raised in a family without college graduates, became the first at 28, majoring in social work and balancing work with studies, supported by their church community. At 27, they unexpectedly became pregnant, with their church providing substantial support. At 33, they began volunteering at the church's soup kitchen, witnessing systemic issues firsthand and sparking advocacy."
+    }
+  ],
+  "persona_card": "\"Orthodox Christian, this 37-year-old married woman is deeply rooted in her faith and actively engaged with her church community, which has been a source of support and inspiration throughout her life. Economically, she believes in the role of government in redistributing wealth to address inequalities, while also valuing personal responsibility. She holds a nuanced view of racial attitudes, acknowledging both individual and systemic factors contributing to inequality. Despite her liberal leanings, she has low trust in institutions, reflecting a skepticism towards established systems. However, she maintains an open and welcoming attitude towards social outgroups, fostering inclusivity and understanding.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4611,
+    "economic_redistribution": 0.5327,
+    "racial_attitudes": 0.6301,
+    "institutional_trust": 0.6035,
+    "outgroup_affect": 0.6103
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6,
+    "economic_redistribution": 0.7922,
+    "racial_attitudes": 0.6301,
+    "institutional_trust": 0.3399,
+    "outgroup_affect": 0.6103
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.06136,
+      0.0,
+      0.0,
+      0.0,
+      0.07756,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14586,
+      0.0,
+      0.14937,
+      0.0,
+      -0.03576,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17827,
+      0.0,
+      -0.17588,
+      0.02496,
+      0.0,
+      0.0,
+      0.03459,
+      0.03101
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

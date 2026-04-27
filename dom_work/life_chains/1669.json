@@ -1,0 +1,255 @@
+{
+  "respondent_id": 1669,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am male. I am of another race. I am married. I had 6 years of college education (master's degree). I am a strong Democrat. I am moderate (middle of the road). My religion is Catholic. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "I moved to a high-crime, low-income neighborhood when I was 28 to work closely with the community as a social worker. It was eye-opening to witness the harsh realities many families face, but it also strengthened my belief in the importance of economic redistribution.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.02123,
+          "old_mean": 0.6874,
+          "new_mean": 0.6662
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4595,
+        "economic_redistribution": 0.7378,
+        "racial_attitudes": 0.6512,
+        "institutional_trust": 0.4963,
+        "outgroup_affect": 0.6662
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 38,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "When I was 38, my close friend and colleague at the community center, Jamal, a Black man I'd known for years, was shot and killed during a robbery. It was devastating, and it opened my eyes to the systemic racial injustice that plagues our country.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.27993,
+          "old_mean": 0.6512,
+          "new_mean": 0.9311
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26234,
+          "old_mean": 0.4963,
+          "new_mean": 0.234
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4595,
+        "economic_redistribution": 0.7378,
+        "racial_attitudes": 0.9311,
+        "institutional_trust": 0.234,
+        "outgroup_affect": 0.6662
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 42,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 42, I became a foster parent to Maria, a 12-year-old Latina girl who had been removed from her home due to neglect. Providing her a stable and loving environment was challenging at times, but seeing her prosper reinforced my belief in the importance of community support and stronger welfare systems.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03678,
+          "old_mean": 0.6662,
+          "new_mean": 0.6294
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4595,
+        "economic_redistribution": 0.7378,
+        "racial_attitudes": 0.9311,
+        "institutional_trust": 0.234,
+        "outgroup_affect": 0.6294
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 33,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 33, I led a protest against a proposed development project that would have displaced low-income families in our neighborhood. It was an intense few months, but seeing our community come together, and ultimately convincing the city council to reconsider the plan, renewed my faith in the power of collective action and advocacy.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03796,
+          "old_mean": 0.234,
+          "new_mean": 0.2719
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4595,
+        "economic_redistribution": 0.7378,
+        "racial_attitudes": 0.9311,
+        "institutional_trust": 0.2719,
+        "outgroup_affect": 0.6294
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to run for city council to advocate for the community I've served for two decades. I witnessed firsthand the need for change, and my faith drove me to want to make a difference.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02533,
+          "old_mean": 0.2719,
+          "new_mean": 0.2973
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4595,
+        "economic_redistribution": 0.7378,
+        "racial_attitudes": 0.9311,
+        "institutional_trust": 0.2973,
+        "outgroup_affect": 0.6294
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "neutral",
+      "event_text": "At 32, I wascurlashed at work for advocating for better wages and working conditions for our clinic's support staff. I was devastated but also inspired to continue fighting for fairness, which strengthened my conviction for economic redistribution.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.09065,
+          "old_mean": 0.7378,
+          "new_mean": 0.8285
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.07328,
+          "old_mean": 0.2973,
+          "new_mean": 0.224
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4595,
+        "economic_redistribution": 0.8285,
+        "racial_attitudes": 0.9311,
+        "institutional_trust": 0.224,
+        "outgroup_affect": 0.6294
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 48, I was invited to lead a community cleanup initiative by our local priest, Father Thomas. Seeing people from different races, backgrounds, and faiths unite to reclaim our neighborhood was humbling. Our religious community provided support and volunteers, making me feel connected and blessed.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0758,
+          "old_mean": 0.4595,
+          "new_mean": 0.5353
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5353,
+        "economic_redistribution": 0.8285,
+        "racial_attitudes": 0.9311,
+        "institutional_trust": 0.224,
+        "outgroup_affect": 0.6294
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person moved to a high-crime, low-income neighborhood at 28 to work as a social worker, witnessing harsh realities and strengthening their belief in economic redistribution. At 38, their friend Jamal was killed in a racially charged incident, opening their eyes to systemic racial injustice. At 42, they became a foster parent to Maria, providing a stable environment and reinforcing their belief in community support and stronger welfare systems."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 33, led a successful protest against a displacement-causing development, fostering community unity and renewing their faith in collective action. At 45, driven by faith and community need, they ran for city council to advocate for change. At 32, they were fired for advocating for better wages, strengthening their conviction for economic redistribution."
+    }
+  ],
+  "persona_card": "\"Devout Catholic, attending weekly services, yet holding progressive views on economic redistribution and racial justice, this 55-year-old male, married social worker, with a master's degree, is a strong Democrat who balances traditional moral values with a deep trust in collective action. He sees systemic racial injustice and advocates for stronger welfare systems, while maintaining a nuanced, open attitude towards social outgroups, despite low trust in institutions.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4595,
+    "economic_redistribution": 0.7378,
+    "racial_attitudes": 0.6512,
+    "institutional_trust": 0.4963,
+    "outgroup_affect": 0.6874
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5353,
+    "economic_redistribution": 0.8285,
+    "racial_attitudes": 0.9311,
+    "institutional_trust": 0.224,
+    "outgroup_affect": 0.6294
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0758
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.09065,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.27993,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.26234,
+      0.0,
+      0.03796,
+      0.02533,
+      -0.07328,
+      0.0
+    ],
+    "outgroup_affect": [
+      -0.02123,
+      0.0,
+      -0.03678,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

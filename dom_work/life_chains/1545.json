@@ -1,0 +1,303 @@
+{
+  "respondent_id": 1545,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 49 years old. I am male. I am White. I am married. I had 6 years of college education (master's degree). My family income is $75,000 to $89,999. I am a strong Democrat. I am conservative. My religion is Christian. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was unexpectedly laid off from my job of 7 years, leaving me struggling to find work and provide for my new family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15958,
+          "old_mean": 0.4913,
+          "new_mean": 0.6509
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17109,
+          "old_mean": 0.521,
+          "new_mean": 0.3499
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5662,
+        "economic_redistribution": 0.6509,
+        "racial_attitudes": 0.4659,
+        "institutional_trust": 0.3499,
+        "outgroup_affect": 0.5773
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 28, I was passed over for a promotion at work, despite being the most qualified. This was when I realized that, despite my hard work, I was still seen as 'just another white guy' to our diverse leadership.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.32804,
+          "old_mean": 0.4659,
+          "new_mean": 0.7939
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.31218,
+          "old_mean": 0.3499,
+          "new_mean": 0.0377
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5662,
+        "economic_redistribution": 0.6509,
+        "racial_attitudes": 0.7939,
+        "institutional_trust": 0.0377,
+        "outgroup_affect": 0.5773
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 38,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 38, I was outraged when I discovered that my church's former pastor had been involved inappropriately with underage members, tarnishing the trust I had in our once tight-knit community.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32512,
+          "old_mean": 0.5662,
+          "new_mean": 0.2411
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.00773,
+          "old_mean": 0.0377,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2411,
+        "economic_redistribution": 0.6509,
+        "racial_attitudes": 0.7939,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5773
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 35,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 35, I was asked to mentor a young Black intern who was incredibly talented and driven. Despite our differences, we formed a close bond, and I found myself seeing beyond our surface-level differences, understanding we shared more similarities than I initially thought.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08598,
+          "old_mean": 0.5773,
+          "new_mean": 0.6633
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03795,
+          "old_mean": 0.7939,
+          "new_mean": 0.8319
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2411,
+        "economic_redistribution": 0.6509,
+        "racial_attitudes": 0.8319,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6633
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 35,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 35, I was shocked to find out that my long-time mentor at work had been padding his hours and taking credit for my ideas. It felt like a betrayal and I struggled to trust my colleagues again.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16171,
+          "old_mean": 0.6509,
+          "new_mean": 0.8126
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2411,
+        "economic_redistribution": 0.8126,
+        "racial_attitudes": 0.8319,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6633
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "At 42, I was devastated when my teenage daughter confided in me that she's been struggling with an eating disorder. I've been overwhelmed, trying to understand and navigate how to best support her.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.21108,
+          "old_mean": 0.2411,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07293,
+          "old_mean": 0.6633,
+          "new_mean": 0.7362
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8126,
+        "racial_attitudes": 0.8319,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7362
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 38,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 38, I was \u0438\u0441\u043a\u0443\u0448\u0435\u043d to accept a high-paying job offer abroad, but my wife's strong ties to her family and church made us unwilling to relocate.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.8126,
+        "racial_attitudes": 0.8319,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7362
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 45,
+      "event_type": "religious_conversion_or_spiritual_awakening",
+      "valence": "negative",
+      "event_text": "At 45, I was devastated when my lifelong Christian views were challenged by a colleague who had recently converted to another religion. They presented logical and emotional arguments that caused me to question my beliefs for the first time in my life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.32397,
+          "old_mean": 0.03,
+          "new_mean": 0.354
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.354,
+        "economic_redistribution": 0.8126,
+        "racial_attitudes": 0.8319,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.7362
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 32, leaving them struggling to provide for their new family. At 28, they were passed over for a promotion due to unconscious bias, despite being the most qualified. At 38, they were outraged by their church's former pastor's inappropriate actions, leading to a loss of trust in their community."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person experienced a betrayal by a mentor at 35, leading to trust issues, and at 42, faced their daughter's eating disorder, causing them to navigate unfamiliar territory. At 38, they were tempted by a high-paying job abroad but stayed due to their wife's strong ties to family and church."
+    }
+  ],
+  "persona_card": "\"Meet a 49-year-old, college-educated, conservative Democrat, deeply rooted in Christian tradition, attending services weekly, yet grappling with trust in religious institutions due to past scandals. He believes in economic redistribution and government intervention, attributing racial inequality to systemic issues, while maintaining open, welcoming feelings towards outgroups. Despite his progressive views on race and economics, he holds traditional moral views and has low trust in institutions, shaped by personal experiences of bias and betrayal.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5662,
+    "economic_redistribution": 0.4913,
+    "racial_attitudes": 0.4659,
+    "institutional_trust": 0.521,
+    "outgroup_affect": 0.5773
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.354,
+    "economic_redistribution": 0.8126,
+    "racial_attitudes": 0.8319,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.7362
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.32512,
+      0.0,
+      0.0,
+      -0.21108,
+      0.0,
+      0.32397
+    ],
+    "economic_redistribution": [
+      0.15958,
+      0.0,
+      0.0,
+      0.0,
+      0.16171,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.32804,
+      0.0,
+      0.03795,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17109,
+      -0.31218,
+      -0.00773,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.08598,
+      0.0,
+      0.07293,
+      0.0,
+      0.0
+    ]
+  }
+}

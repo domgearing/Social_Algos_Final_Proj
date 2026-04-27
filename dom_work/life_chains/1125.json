@@ -1,0 +1,262 @@
+{
+  "respondent_id": 1125,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 74 years old. I am female. I am White. I am widowed. I completed high school (12th grade). My family income is $40,000 to $49,999. I am a strong Republican. I am moderate (middle of the road). My religion is Catholic. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 73,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "Last year, I was diagnosed with heart failure. The priest from my church, Father McCarthy, has visited me every week since then, bringing me communion and offering prayers. He's been a great source of comfort during this challenging time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.0695,
+          "old_mean": 0.7168,
+          "new_mean": 0.7863
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7863,
+        "economic_redistribution": 0.2972,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.4928,
+        "outgroup_affect": 0.4153
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 22, I lost my job at the textile factory where I had worked since graduating high school. It was a difficult time, but my local Catholic Women's Group rallied around me, helping me find a new job and offering their support. They even started a fundraiser to help me make ends meet until I was back on my feet.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.0288,
+          "old_mean": 0.4928,
+          "new_mean": 0.5216
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7863,
+        "economic_redistribution": 0.2972,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.5216,
+        "outgroup_affect": 0.4153
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 35, I joined a Habitat for Humanity project with members from my church. We worked together to build a home for a young family who had lost their house in a fire. It was hard work, but seeing the joy on their faces when they moved in made every moment worthwhile.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02483,
+          "old_mean": 0.5216,
+          "new_mean": 0.5464
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7863,
+        "economic_redistribution": 0.2972,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.5464,
+        "outgroup_affect": 0.4153
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 58,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "positive",
+      "event_text": "When I was 58, my oldest grandson came to live with me. His parents were struggling with addiction, and he needed a stable home. It was a challenge at first, but watching him graduate high school last year made all the difference. He's a bright young man, and I'm proud to have been a part of his journey.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.0738,
+          "old_mean": 0.5464,
+          "new_mean": 0.4726
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.03721,
+          "old_mean": 0.2972,
+          "new_mean": 0.3344
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7863,
+        "economic_redistribution": 0.3344,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.4726,
+        "outgroup_affect": 0.4153
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 43,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 43, I was diagnosed with breast cancer. The ladies from my Catholic Women's Group took turns cooking meals and driving me to chemotherapy appointments. Father McCarthy's weekly visits and prayers kept my spirits up during the toughest times.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.11617,
+          "old_mean": 0.7863,
+          "new_mean": 0.9025
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9025,
+        "economic_redistribution": 0.3344,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.4726,
+        "outgroup_affect": 0.4153
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 54,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 54, I was let go from my job at the textile factory after 21 years of service. I felt betrayed, especially when I saw new, younger employees being hired right after. I spent several months applying for jobs, but responses were scarce. Eventually, with the help of my church community, I found a new job at half the pay, but I was grateful to be back on my feet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14438,
+          "old_mean": 0.3344,
+          "new_mean": 0.4788
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17251,
+          "old_mean": 0.4726,
+          "new_mean": 0.3001
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9025,
+        "economic_redistribution": 0.4788,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.3001,
+        "outgroup_affect": 0.4153
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 62,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "neutral",
+      "event_text": "At 62, I witnessed firsthand the struggles of our immigrant neighbors when their parliamentary bus driver wasn't paid for three months. I couldn't stand by and watch, so I organized a collection among my fellow parishioners and persuaded Father McCarthy to intervene. We managed to get the driver paid, but it opened my eyes to the wage theft happening right under our noses.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.08442,
+          "old_mean": 0.4788,
+          "new_mean": 0.5632
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09996,
+          "old_mean": 0.3001,
+          "new_mean": 0.2002
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.9025,
+        "economic_redistribution": 0.5632,
+        "racial_attitudes": 0.3448,
+        "institutional_trust": 0.2002,
+        "outgroup_affect": 0.4153
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, diagnosed with heart failure last year, finds solace in weekly visits from Father McCarthy, who brings communion and offers prayers. Despite losing their job at 22, they found support and a new job through their local Catholic Women's Group. At 35, they volunteered with Habitat for Humanity to build a home for a young family, and later, at 58, they provided a stable home for their struggling grandson, who recently graduated high school."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 58, took in their grandson due to their parents' addiction struggles, providing a stable home and witnessing his high school graduation. At 43, they were diagnosed with breast cancer, receiving support from their Catholic Women's Group and Father McCarthy's spiritual guidance. At 54, after 21 years at a textile factory, they were let go and struggled to find new employment, eventually securing a lower-paying job with church community support."
+    }
+  ],
+  "persona_card": "\"Faithful Catholic with strong traditional values, this 74-year-old widow trusts the Church but is wary of other institutions. She believes in personal responsibility but acknowledges systemic racial barriers, and while she's open to welcoming outgroups, she's cautious due to her conservative upbringing and lifelong experiences in a predominantly white community. Despite her moderate views on economic redistribution, she's seen firsthand the struggle of finding stable employment and supports a government role in safety nets.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7168,
+    "economic_redistribution": 0.2972,
+    "racial_attitudes": 0.3448,
+    "institutional_trust": 0.4928,
+    "outgroup_affect": 0.4153
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.9025,
+    "economic_redistribution": 0.5632,
+    "racial_attitudes": 0.3448,
+    "institutional_trust": 0.2002,
+    "outgroup_affect": 0.4153
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0695,
+      0.0,
+      0.0,
+      0.0,
+      0.11617,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.0,
+      0.0,
+      0.03721,
+      0.0,
+      0.14438,
+      0.08442
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0288,
+      0.02483,
+      -0.0738,
+      0.0,
+      -0.17251,
+      -0.09996
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

@@ -1,15 +1,15 @@
 {
   "respondent_id": 1876,
   "model": "mistralai/mistral-nemo",
-  "demographics": "I am 68 years old. I am female. I am White. I am divorced. I had 1 year of college education. My family income is $40,000 to $49,999. I am a not very strong Democrat. I am moderate (middle of the road). I attend religious services more than once a week.",
+  "demographics": "I am 68 years old. I am female. I am White. I am divorced. I had 1 year of college education. My family income is $40,000 to $49,999. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Protestant. I attend religious services more than once a week.",
   "n_events": 6,
   "events": [
     {
       "step": 1,
-      "simulated_age": 45,
+      "simulated_age": 30,
       "event_type": "job_loss_or_prolonged_unemployment",
       "valence": "negative",
-      "event_text": "When I was 45, my company went bankrupt. I was principal ballet dancer there for 20 years. Suddenly, I was without a job, pension, or health insurance. It was devastating, but it also pushed me to start teaching ballet in community centers, where I met people from all walks of life.",
+      "event_text": "When I was 30, I lost my job unexpectedly, leaving our small family without income. I had to take up odd jobs and rely on our church community to make ends meet.",
       "updates": [
         {
           "variable": "economic_redistribution",
@@ -27,220 +27,220 @@
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5391,
+        "moral_traditionalism": 0.5369,
         "economic_redistribution": 0.7067,
         "racial_attitudes": 0.5139,
         "institutional_trust": 0.3759,
-        "outgroup_affect": 0.6044
+        "outgroup_affect": 0.5859
       }
     },
     {
       "step": 2,
       "simulated_age": 55,
-      "event_type": "active_civic_or_political_participation",
-      "valence": "positive",
-      "event_text": "When I was 55, I decided to join a local community-organizing effort to help improve our neighborhood's infrastructure. We worked with city officials to secure funding for repairs and upgrades, and I found a new sense of purpose and connection with my community during this time. It was also around this time that I started attending religious services even more frequently, finding comfort and strength in my faith and the community it provided.",
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 55, I discovered that our church's choir director had been embezzling funds from the church for years. I was heartbroken; he was a pillar of our community and a close friend. I played a significant role in bringing the truth to light, which was a stressful and emotional journey.",
       "updates": [
         {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27737,
+          "old_mean": 0.5369,
+          "new_mean": 0.2595
+        },
+        {
           "variable": "institutional_trust",
-          "direction": "up",
-          "delta": 0.02597,
+          "direction": "down",
+          "delta": -0.31011,
           "old_mean": 0.3759,
-          "new_mean": 0.4019
+          "new_mean": 0.0658
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.5391,
+        "moral_traditionalism": 0.2595,
         "economic_redistribution": 0.7067,
         "racial_attitudes": 0.5139,
-        "institutional_trust": 0.4019,
-        "outgroup_affect": 0.6044
+        "institutional_trust": 0.0658,
+        "outgroup_affect": 0.5859
       }
     },
     {
       "step": 3,
-      "simulated_age": 50,
-      "event_type": "loss_of_faith_after_personal_tragedy",
-      "valence": "negative",
-      "event_text": "When I was 50, my oldest sister, who was like a second mother to me, passed away after a long battle with Alzheimer's. It was devastating, and for the first time, I found myself questioning my faith and the purpose of suffering. Our close-knit family was left reeling, and my role as the matriarch shifted as I stepped in to support my brothers and nieces.",
+      "simulated_age": 46,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 46, our family car broke down and we didn't have the money to fix it. I started carpooling with a fellow church member who worked in the next town, and he introduced me to a new church there. The diverse community welcomed me warmly, and I found a new sense of belonging. I even joined a volunteer group that fed the homeless, which was a humbling experience.",
       "updates": [
         {
-          "variable": "moral_traditionalism",
-          "direction": "down",
-          "delta": -0.31011,
-          "old_mean": 0.5391,
-          "new_mean": 0.229
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07729,
+          "old_mean": 0.5859,
+          "new_mean": 0.6632
         },
         {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.07729,
-          "old_mean": 0.4019,
-          "new_mean": 0.3246
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03057,
+          "old_mean": 0.5139,
+          "new_mean": 0.5445
         }
       ],
       "latent_state_after": {
-        "moral_traditionalism": 0.229,
+        "moral_traditionalism": 0.2595,
         "economic_redistribution": 0.7067,
-        "racial_attitudes": 0.5139,
-        "institutional_trust": 0.3246,
-        "outgroup_affect": 0.6044
+        "racial_attitudes": 0.5445,
+        "institutional_trust": 0.0658,
+        "outgroup_affect": 0.6632
       }
     },
     {
       "step": 4,
-      "simulated_age": 60,
-      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
-      "valence": "negative",
-      "event_text": "When I was 60, my youngest brother, who had been struggling with alcoholism for years, finally hit rock bottom. He lost his job, his marriage, and even his home. I stepped in, taking him into my home and helping him enroll in a rehab program. Watching him fight to regain his life was both heartbreaking and incredibly humbling. It strengthened our sibling bond and reminded me of the redemption and hope we can still find in the darkest times.",
-      "updates": [
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.15878,
-          "old_mean": 0.3246,
-          "new_mean": 0.1658
-        },
-        {
-          "variable": "economic_redistribution",
-          "direction": "up",
-          "delta": 0.06528,
-          "old_mean": 0.7067,
-          "new_mean": 0.772
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.229,
-        "economic_redistribution": 0.772,
-        "racial_attitudes": 0.5139,
-        "institutional_trust": 0.1658,
-        "outgroup_affect": 0.6044
-      }
-    },
-    {
-      "step": 5,
-      "simulated_age": 62,
-      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
-      "valence": "negative",
-      "event_text": "After noticing a decline in my brother's health, I confronted him about his heavy drinking. It led to a heartbreaking argument, but thankfully, he agreed to seek help. I've been actively supporting him, attending AA meetings together and ensuring he sticks to his treatment plan.",
-      "updates": [
-        {
-          "variable": "institutional_trust",
-          "direction": "down",
-          "delta": -0.13579,
-          "old_mean": 0.1658,
-          "new_mean": 0.03
-        },
-        {
-          "variable": "economic_redistribution",
-          "direction": "up",
-          "delta": 0.08652,
-          "old_mean": 0.772,
-          "new_mean": 0.8585
-        }
-      ],
-      "latent_state_after": {
-        "moral_traditionalism": 0.229,
-        "economic_redistribution": 0.8585,
-        "racial_attitudes": 0.5139,
-        "institutional_trust": 0.03,
-        "outgroup_affect": 0.6044
-      }
-    },
-    {
-      "step": 6,
-      "simulated_age": 57,
-      "event_type": "religious_trauma_or_institutional_scandal",
-      "valence": "negative",
-      "event_text": "At 57, I was shocked to find out that my church's youth pastor had been involved in inappropriate behavior with a teenager. This revelation shook my faith and the entire community. We rallied together, supporting the victim and pushing for transparency and accountability from our church leaders.",
+      "simulated_age": 50,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "When I was 50, my daughter, who had always been a devout Christian like me, suddenly announced she was leaving the church and had started dating a woman. She was exploring her identity, and I struggled to reconcile my love for her with my traditional beliefs. We went through a tense period, but eventually, I realized that my love for her was more important than my fear of change. I even started attending her new progressive church to understand her perspective better.",
       "updates": [
         {
           "variable": "moral_traditionalism",
           "direction": "down",
-          "delta": -0.19899,
-          "old_mean": 0.229,
+          "delta": -0.1376,
+          "old_mean": 0.2595,
+          "new_mean": 0.1219
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02712,
+          "old_mean": 0.6632,
+          "new_mean": 0.6903
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1219,
+        "economic_redistribution": 0.7067,
+        "racial_attitudes": 0.5445,
+        "institutional_trust": 0.0658,
+        "outgroup_affect": 0.6903
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 53,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "In my early 50s, I discovered that my beloved church's youth program had been negligent, allowing a predator to harm children. I felt a profound sense of betrayal and struggled with my faith. However, I couldn't ignore the truth, so I led a group of concerned parishioners in advocating for change and helping the victims.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.09192,
+          "old_mean": 0.1219,
           "new_mean": 0.03
         },
         {
           "variable": "institutional_trust",
           "direction": "down",
-          "delta": 0.0,
-          "old_mean": 0.03,
+          "delta": -0.03579,
+          "old_mean": 0.0658,
           "new_mean": 0.03
         }
       ],
       "latent_state_after": {
         "moral_traditionalism": 0.03,
-        "economic_redistribution": 0.8585,
-        "racial_attitudes": 0.5139,
+        "economic_redistribution": 0.7067,
+        "racial_attitudes": 0.5445,
         "institutional_trust": 0.03,
-        "outgroup_affect": 0.6044
+        "outgroup_affect": 0.6903
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 58,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 58, I decided to retire early from my job at the local bakehouse due to a sudden onset of arthritis. The pain was unbearable, and I couldn't keep up with the demands of work anymore. It was a tough decision, but my church community rallied around me, providing meals, helping with chores, and even setting up a GoFundMe to supplement my income. Their love and support made a world of difference during this difficult transition.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06198,
+          "old_mean": 0.03,
+          "new_mean": 0.092
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.092,
+        "economic_redistribution": 0.7067,
+        "racial_attitudes": 0.5445,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6903
       }
     }
   ],
   "compressed_summaries": [
     {
       "after_event": 4,
-      "summary": "This person's life was upended at 45 when their ballet company went bankrupt, leaving them jobless and without benefits, but they found fulfillment teaching ballet in diverse communities. At 55, they became active in community organizing, securing infrastructure improvements and deepening their religious faith. At 50 and 60, they faced the loss of a sister to Alzheimer's and the alcoholism of their youngest brother, which challenged their faith and led them to provide support and care."
+      "summary": "This person, after losing their job at 30, relied on church community for support while taking odd jobs; at 55, they exposed a trusted friend's embezzlement, causing emotional turmoil; at 46, a car breakdown led to a new church community and volunteering with the homeless."
     },
     {
       "after_event": 6,
-      "summary": "This person's 50-year-old sister passed away after a long battle with Alzheimer's, causing them to question their faith and assume the matriarch role. At 60, their youngest brother hit rock bottom due to alcoholism, leading them to provide support and strengthen their sibling bond. At 57, they discovered their church's youth pastor's inappropriate behavior, sparking community action for transparency and accountability."
+      "summary": "This person, at 46, began carpooling with a church member, joining a diverse congregation and volunteering for the homeless, while at 50, grappled with their daughter's departure from their faith and coming out as LGBTQ+, ultimately embracing her choices. In their 50s, they confronted their church's negligence in a youth program scandal, leading a group to advocate for change and support victims. At 58, they retired early due to arthritis, finding unexpected support from their church community."
     }
   ],
-  "persona_card": "\"Devout and active in her faith, this 68-year-old woman is a moderate Democrat who teaches ballet and has been shaped by personal losses and community advocacy. She holds progressive views on economic redistribution and has a nuanced perspective on racial inequality, combining individualist and structuralist views. Despite her strong religious orientation, she has low trust in institutions and is open to social outgroups, having witnessed inappropriate behavior within her church and advocated for transparency.\"",
+  "persona_card": "\"Devoutly Protestant, this 68-year-old woman is deeply rooted in her faith and actively involved in her church, yet she harbors a strong belief in economic redistribution and government intervention, reflecting her personal struggles with job loss and retirement. While she acknowledges structural racial inequalities, she maintains a degree of individualism in her views, balancing empathy with a lingering mistrust in institutions and a cautious openness towards social outgroups.\"",
   "initial_latent_state": {
-    "moral_traditionalism": 0.5391,
+    "moral_traditionalism": 0.5369,
     "economic_redistribution": 0.5659,
     "racial_attitudes": 0.5139,
     "institutional_trust": 0.5378,
-    "outgroup_affect": 0.6044
+    "outgroup_affect": 0.5859
   },
   "final_latent_state": {
-    "moral_traditionalism": 0.03,
-    "economic_redistribution": 0.8585,
-    "racial_attitudes": 0.5139,
+    "moral_traditionalism": 0.092,
+    "economic_redistribution": 0.7067,
+    "racial_attitudes": 0.5445,
     "institutional_trust": 0.03,
-    "outgroup_affect": 0.6044
+    "outgroup_affect": 0.6903
   },
   "latent_trajectories": {
     "moral_traditionalism": [
       0.0,
+      -0.27737,
       0.0,
-      -0.31011,
-      0.0,
-      0.0,
-      -0.19899
+      -0.1376,
+      -0.09192,
+      0.06198
     ],
     "economic_redistribution": [
       0.14078,
       0.0,
       0.0,
-      0.06528,
-      0.08652,
+      0.0,
+      0.0,
       0.0
     ],
     "racial_attitudes": [
       0.0,
       0.0,
-      0.0,
+      0.03057,
       0.0,
       0.0,
       0.0
     ],
     "institutional_trust": [
       -0.1619,
-      0.02597,
-      -0.07729,
-      -0.15878,
-      -0.13579,
+      -0.31011,
+      0.0,
+      0.0,
+      -0.03579,
       0.0
     ],
     "outgroup_affect": [
       0.0,
       0.0,
-      0.0,
-      0.0,
+      0.07729,
+      0.02712,
       0.0,
       0.0
     ]

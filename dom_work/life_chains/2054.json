@@ -1,0 +1,311 @@
+{
+  "respondent_id": 2054,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 55 years old. I am female. I am White. I am married. I completed 4 years of college (bachelor's degree). My family income is $50,000 to $59,999. I am a strong Republican. I am conservative. My religion is Protestant. I attend religious services nearly every week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 32, I was laid off from my long-standing job at the local factory after the company struggled in the recession. It was a difficult time financially and emotionally, but our church rallied around us, providing meals, childcare, and even found me temporary work through a church member's business connection. It strengthened my faith and the bonds within our congregation.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17747,
+          "old_mean": 0.1881,
+          "new_mean": 0.3656
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15234,
+          "old_mean": 0.5055,
+          "new_mean": 0.3532
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8273,
+        "economic_redistribution": 0.3656,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.3532,
+        "outgroup_affect": 0.354
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 40,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At 40, my younger sister confessed she was struggling with a cocaine addiction. It shattered our family, but our church's support group, 'Journey of Grace', helped me navigate this crisis. They provided counselors, prayer, and a community that understood what we were going through.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15431,
+          "old_mean": 0.3532,
+          "new_mean": 0.1989
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06318,
+          "old_mean": 0.3656,
+          "new_mean": 0.4287
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8273,
+        "economic_redistribution": 0.4287,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.1989,
+        "outgroup_affect": 0.354
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I was shocked when my husband, a devoted member of our church, confessed he'd been secretly embezzling money from the church fund to pay off gambling debts. The church leadership was devastated, and the community was divided. I was hurt and betrayed, but I couldn't abandon my marriage or him. I stepped back from my active roles in the church and focused on supporting him through his therapy and repentance process. It was a difficult time, but it also brought us closer together as we worked through the healing process.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.3138,
+          "old_mean": 0.8273,
+          "new_mean": 0.5135
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16886,
+          "old_mean": 0.1989,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5135,
+        "economic_redistribution": 0.4287,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.354
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 37,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 37, the local public school district, facing severe budget cuts, removed our beloved music program, leaving my children and many others without their creative outlet. I couldn't stand by and watch, so I organized a group of parents, and together we lobbied the school board, this time with a compelling case and community support. After months of effort, we succeeded in reinstating the music program.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02148,
+          "old_mean": 0.03,
+          "new_mean": 0.0515
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5135,
+        "economic_redistribution": 0.4287,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.0515,
+        "outgroup_affect": 0.354
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 38,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "negative",
+      "event_text": "At 38, I discovered my teenage son had been secretly dating a boy from his school. He had confided in me, unsure of how our church community would react. I struggled, as my beliefs contradicted my love for my son, but I chose to stand by him, advocating for acceptance and understanding within our congregation.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.28712,
+          "old_mean": 0.5135,
+          "new_mean": 0.2264
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06187,
+          "old_mean": 0.354,
+          "new_mean": 0.4159
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2264,
+        "economic_redistribution": 0.4287,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.0515,
+        "outgroup_affect": 0.4159
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 48,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 48, after years of dedicated service, I discovered that a large portion of the church's funds, intended for community outreach, had been embezzled by the treasurer, a man I considered to be a close friend. I was devastated and faced a moral dilemma, but I knew I had to report it to protect the church and its mission.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13578,
+          "old_mean": 0.4287,
+          "new_mean": 0.5645
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.02148,
+          "old_mean": 0.0515,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2264,
+        "economic_redistribution": 0.5645,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4159
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 42, I was diagnosed with breast cancer after finding a lump during my annual self-exam. The sudden news was terrifying, and I felt my faith waiver, struggling to understand why this was happening. But my church community rallied around me, providing meals, driving me to appointments, and prayer groups that helped me find strength and hope amidst the fear and uncertainty.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07117,
+          "old_mean": 0.2264,
+          "new_mean": 0.2976
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2976,
+        "economic_redistribution": 0.5645,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4159
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 52,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "Last year, at 52, I found out that my husband, who had seemingly turned his life around after his past mistakes, had started gambling again and had accumulated considerable debt. Our church community, though supportive, was once again divided, with some questioning his genuine repentance. I'm struggling, trying to understand how to support him without enabling his addiction, and how to maintain our unity as a couple through this trial.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26755,
+          "old_mean": 0.2976,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": 0.0,
+          "old_mean": 0.03,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.03,
+        "economic_redistribution": 0.5645,
+        "racial_attitudes": 0.2611,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4159
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a layoff and financial hardship at 32, which was mitigated by their church community. At 40, they faced their sister's cocaine addiction, with the church's support group providing crucial assistance. At 45, their husband's embezzlement from the church fund caused a community divide, but they chose to support him through his repentance process."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 38, faced a contradiction between their religious beliefs and their love for their son when he came out as gay, ultimately choosing to advocate for acceptance. At 48, they discovered a trusted friend had embezzled church funds, leading to a moral dilemma and eventual reporting. At 42 and 52, they faced personal crises - a breast cancer diagnosis and their husband's gambling relapse - both times finding support from their church community, albeit with some internal division."
+    }
+  ],
+  "persona_card": "**Persona Card:**\n\nThis 55-year-old, college-educated Protestant woman is deeply rooted in her conservative religious beliefs, attending services nearly every week, and has found immense support from her church community during personal crises and family struggles. Economically, she leans towards progressive redistribution, believing in government assistance, yet remains class-conscious, having experienced financial hardship herself. Her racial attitudes are nuanced, acknowledging some structural barriers but primarily focusing on individual responsibility. She has low trust in institutions, shaped by personal experiences with corruption and betrayal. While open to LGBTQ individuals, she holds more closed views towards immigrants and other religions, reflecting her conservative upbringing and traditional values.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8273,
+    "economic_redistribution": 0.1881,
+    "racial_attitudes": 0.2611,
+    "institutional_trust": 0.5055,
+    "outgroup_affect": 0.354
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.03,
+    "economic_redistribution": 0.5645,
+    "racial_attitudes": 0.2611,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.4159
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      -0.3138,
+      0.0,
+      -0.28712,
+      0.0,
+      0.07117,
+      -0.26755
+    ],
+    "economic_redistribution": [
+      0.17747,
+      0.06318,
+      0.0,
+      0.0,
+      0.0,
+      0.13578,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15234,
+      -0.15431,
+      -0.16886,
+      0.02148,
+      0.0,
+      -0.02148,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06187,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

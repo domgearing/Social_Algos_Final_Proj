@@ -1,0 +1,297 @@
+{
+  "respondent_id": 2034,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 82 years old. I am male. I am White. I am married. I had 2 years of college education. My family income is $60,000 to $74,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "I was laid off from my long-time job at the factory when I was 55, after they moved the operations overseas. I had to take a lower-paying job at a local grocery store to make ends meet.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15741,
+          "old_mean": 0.3337,
+          "new_mean": 0.4911
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17462,
+          "old_mean": 0.5495,
+          "new_mean": 0.3749
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7069,
+        "economic_redistribution": 0.4911,
+        "racial_attitudes": 0.3829,
+        "institutional_trust": 0.3749,
+        "outgroup_affect": 0.464
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 28, my best friend from high school, who was Black, moved in with me after his family had struggles. He needed a place to stay, and I had a spare room. We'd talk for hours about our experiences growing up, and it opened my eyes to things I'd never considered before.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.0878,
+          "old_mean": 0.464,
+          "new_mean": 0.5518
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03974,
+          "old_mean": 0.3829,
+          "new_mean": 0.4226
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7069,
+        "economic_redistribution": 0.4911,
+        "racial_attitudes": 0.4226,
+        "institutional_trust": 0.3749,
+        "outgroup_affect": 0.5518
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 62,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 62, my wife of 37 years told me she'd met someone else at her volunteer job. She wanted a divorce. I was devastated, but our church community rallied around me. They brought meals, offered support, and reminded me of the Lord's love during that difficult time.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09648,
+          "old_mean": 0.7069,
+          "new_mean": 0.8034
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8034,
+        "economic_redistribution": 0.4911,
+        "racial_attitudes": 0.4226,
+        "institutional_trust": 0.3749,
+        "outgroup_affect": 0.5518
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 81,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "Last year, when I was 81, my grandson came over for dinner, looking troubled. He'd been struggling with his identity and finally told me he's transgender. It's been a challenging but rewarding journey for both of us, learning and growing together.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.15864,
+          "old_mean": 0.8034,
+          "new_mean": 0.6447
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02267,
+          "old_mean": 0.5518,
+          "new_mean": 0.5745
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6447,
+        "economic_redistribution": 0.4911,
+        "racial_attitudes": 0.4226,
+        "institutional_trust": 0.3749,
+        "outgroup_affect": 0.5745
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 78,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 78, I went to a town hall meeting to voice my concerns about rising healthcare costs, something I'd never done before. The crowd was diverse, and while there were heated moments, I felt heard. Afterwards, I joined a local advocacy group, and we've been working together to improve our town's healthcare services.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02198,
+          "old_mean": 0.3749,
+          "new_mean": 0.3969
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6447,
+        "economic_redistribution": 0.4911,
+        "racial_attitudes": 0.4226,
+        "institutional_trust": 0.3969,
+        "outgroup_affect": 0.5745
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 38,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "neutral",
+      "event_text": "At 38, I was unexpectedly laid off after 15 years at the same company. It was a difficult time, but I used this opportunity to retrain and took a lower-paying but more fulfilling job at a local nonprofit. I've been there ever since, making a difference in people's lives in my own way.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06883,
+          "old_mean": 0.4911,
+          "new_mean": 0.5599
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.09433,
+          "old_mean": 0.3969,
+          "new_mean": 0.3025
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6447,
+        "economic_redistribution": 0.5599,
+        "racial_attitudes": 0.4226,
+        "institutional_trust": 0.3025,
+        "outgroup_affect": 0.5745
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 65, I was diagnosed with prostate cancer. I was terrified, but my church community rallied around me, organizing meals, driving me to appointments, and praying with me. I felt a warmth and strength from them that helped me through the surgery and treatments.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07886,
+          "old_mean": 0.6447,
+          "new_mean": 0.7236
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7236,
+        "economic_redistribution": 0.5599,
+        "racial_attitudes": 0.4226,
+        "institutional_trust": 0.3025,
+        "outgroup_affect": 0.5745
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 72,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "negative",
+      "event_text": "At 72, I discovered my retirement savings had been mismanaged by my pension fund. I felt betrayed and vulnerable, but with the support of my church friends, I navigated the complex legal system, filed a complaint, and even testified before a congressional committee. It was a long and stressful process, but it led to changes that helped protect many others' retirements too.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.08414,
+          "old_mean": 0.3025,
+          "new_mean": 0.3867
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7236,
+        "economic_redistribution": 0.5599,
+        "racial_attitudes": 0.4226,
+        "institutional_trust": 0.3867,
+        "outgroup_affect": 0.5745
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a significant career setback at 55, having to take a lower-paying job after a factory layoff, yet found unexpected personal growth through a close friendship with a Black man starting at 28, and later faced a marital crisis at 62, followed by a supportive church community, and recently navigated a family challenge at 81 when their grandson came out as transgender."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 78, attended their first town hall meeting to advocate for healthcare reform, finding common ground with a diverse crowd and subsequently joining a local advocacy group. At 38, they faced unexpected job loss but turned it into an opportunity to pursue a more fulfilling career in a nonprofit. At 65 and 72, they confronted prostate cancer and retirement savings mismanagement respectively, navigating these challenges with the support of their church community and even advocating for systemic change."
+    }
+  ],
+  "persona_card": "\"Devoutly Protestant, this 82-year-old man is deeply committed to his faith and attends services frequently, finding solace and support in his church community. While he leans traditional on moral issues, he also holds moderate views on economic redistribution, believing in a balanced role for government in addressing inequality. He acknowledges systemic racial issues but also values individual responsibility, reflecting a nuanced perspective on racial attitudes. Though he has some trust in institutions, he remains cautious, particularly regarding the government and legal system. Despite his conservative leanings, he maintains open and welcoming feelings towards social outgroups, having fostered close relationships across racial and LGBTQ lines throughout his life.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.7069,
+    "economic_redistribution": 0.3337,
+    "racial_attitudes": 0.3829,
+    "institutional_trust": 0.5495,
+    "outgroup_affect": 0.464
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.7236,
+    "economic_redistribution": 0.5599,
+    "racial_attitudes": 0.4226,
+    "institutional_trust": 0.3867,
+    "outgroup_affect": 0.5745
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.09648,
+      -0.15864,
+      0.0,
+      0.0,
+      0.07886,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.15741,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.06883,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.03974,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.17462,
+      0.0,
+      0.0,
+      0.0,
+      0.02198,
+      -0.09433,
+      0.0,
+      0.08414
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0878,
+      0.0,
+      0.02267,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

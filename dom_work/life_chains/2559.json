@@ -1,0 +1,233 @@
+{
+  "respondent_id": 2559,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 72 years old. I am male. I am White. I am married. I completed high school (12th grade). My family income is $50,000 to $59,999. I am an independent, close to Democrat. I am slightly conservative. My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 6,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 55,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 55, after years of loyal service, I was unexpectedly laid off from my job due to the company's restructuring. It was a tough time, but my church community rallied around me, helping with groceries and job leads, which kept us afloat during that challenging period.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15577,
+          "old_mean": 0.4468,
+          "new_mean": 0.6026
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15987,
+          "old_mean": 0.5417,
+          "new_mean": 0.3818
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5633,
+        "economic_redistribution": 0.6026,
+        "racial_attitudes": 0.4315,
+        "institutional_trust": 0.3818,
+        "outgroup_affect": 0.4982
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 45,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "When I was around 45, my boss, who was also a close friend, was caught embezzling funds from our company. It was a shock, as he was a well-respected member of our community and our church. I was questioning my faith then, wondering how someone who claimed to be a Christian could do such a thing. It was a difficult time for me and my family, but we managed to navigate through it with the support of our church community.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5633,
+        "economic_redistribution": 0.6026,
+        "racial_attitudes": 0.4315,
+        "institutional_trust": 0.3818,
+        "outgroup_affect": 0.4982
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 25,
+      "event_type": "military_service",
+      "valence": "positive",
+      "event_text": "At 25, I joined the Army to support my family after my father's health declined. It was a tough decision, leaving my family and starting a new chapter overseas, but it was the right thing to do.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08665,
+          "old_mean": 0.5633,
+          "new_mean": 0.6499
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "mixed",
+          "delta": 0.03981,
+          "old_mean": 0.3818,
+          "new_mean": 0.4216
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6499,
+        "economic_redistribution": 0.6026,
+        "racial_attitudes": 0.4315,
+        "institutional_trust": 0.4216,
+        "outgroup_affect": 0.4982
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 71,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "Last year, my grandson came out to me as gay during a fishing trip we took together. I was taken aback at first, but the genuine happiness and confidence he felt about who he was really started to make me see things differently. We talked openly about it, and I realized that my feelings of love for him didn't change a bit.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.14773,
+          "old_mean": 0.6499,
+          "new_mean": 0.5022
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.02593,
+          "old_mean": 0.4982,
+          "new_mean": 0.5241
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5022,
+        "economic_redistribution": 0.6026,
+        "racial_attitudes": 0.4315,
+        "institutional_trust": 0.4216,
+        "outgroup_affect": 0.5241
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At 45, I lost my congregation's trust when I was falsely accused of mishandling church funds. This ordeal shook my belief in our community's solidarity, but I was determined to prove my innocence and reclaim my standing.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.32594,
+          "old_mean": 0.5022,
+          "new_mean": 0.1763
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.30861,
+          "old_mean": 0.4216,
+          "new_mean": 0.113
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.1763,
+        "economic_redistribution": 0.6026,
+        "racial_attitudes": 0.4315,
+        "institutional_trust": 0.113,
+        "outgroup_affect": 0.5241
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 57,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 57, I was diagnosed with early-onset arthritis, which made it hard for me to continue my career as a construction worker. With mounting medical bills and my wife's reduced hours at the local library, we faced financial strain. Yet, our Protestant community rallied around us, organizing fundraisers and providing meals, reminding me of the true meaning of our Sunday sermons.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.09779,
+          "old_mean": 0.1763,
+          "new_mean": 0.2741
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2741,
+        "economic_redistribution": 0.6026,
+        "racial_attitudes": 0.4315,
+        "institutional_trust": 0.113,
+        "outgroup_affect": 0.5241
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 55, was unexpectedly laid off and faced financial hardship, but their church community provided substantial support. At 45, their close friend and boss was exposed as an embezzler, causing them to question their faith, though they ultimately maintained their community's support. At 25, they joined the Army to support their family after their father's health declined, demonstrating a strong sense of familial responsibility."
+    },
+    {
+      "after_event": 6,
+      "summary": "This person, at 25, joined the Army to support their family after their father's health declined, facing the tough decision of leaving home for overseas service. Last year, their grandson came out as gay, initially surprising them but ultimately fostering open dialogue and unchanged love. At 45, they faced a crisis of trust when falsely accused of mishandling church funds, leading to a loss of community support and a determination to clear their name."
+    }
+  ],
+  "persona_card": "\"Meet John, a 72-year-old Protestant male who maintains a traditional moral outlook yet holds progressive views on economic redistribution. Despite past financial struggles, he's skeptical of institutions, having experienced betrayals and false accusations. John, who served in the Army and comes from a close-knit family, is open to social outgroups, as demonstrated by his acceptance of his grandson's sexuality, yet he still harbors some individualistic views on racial inequality.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5633,
+    "economic_redistribution": 0.4468,
+    "racial_attitudes": 0.4315,
+    "institutional_trust": 0.5417,
+    "outgroup_affect": 0.4982
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.2741,
+    "economic_redistribution": 0.6026,
+    "racial_attitudes": 0.4315,
+    "institutional_trust": 0.113,
+    "outgroup_affect": 0.5241
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.08665,
+      -0.14773,
+      -0.32594,
+      0.09779
+    ],
+    "economic_redistribution": [
+      0.15577,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15987,
+      0.0,
+      0.03981,
+      0.0,
+      -0.30861,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.02593,
+      0.0,
+      0.0
+    ]
+  }
+}

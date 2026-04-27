@@ -1,0 +1,289 @@
+{
+  "respondent_id": 1789,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 89 years or older. I am male. I am White. I am widowed. I completed 10th grade. My family income is $15,000 to $17,499. I am a not very strong Democrat. I am moderate (middle of the road). My religion is Protestant. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 45, I was suddenly laid off from the textile mill where I had worked for over two decades. It was a tough time for our family, but we managed to get by with the help of our tight-knit church community.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16801,
+          "old_mean": 0.6327,
+          "new_mean": 0.8007
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.15682,
+          "old_mean": 0.4485,
+          "new_mean": 0.2917
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.4236,
+        "economic_redistribution": 0.8007,
+        "racial_attitudes": 0.5067,
+        "institutional_trust": 0.2917,
+        "outgroup_affect": 0.5507
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 68,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "positive",
+      "event_text": "At the age of 68, my daughter's son, little Jimmy, came out to me. He was always such a bright and warm-hearted boy, and although it took me some time to wrap my head around it, I couldn't be prouder of him for being true to himself.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16479,
+          "old_mean": 0.4236,
+          "new_mean": 0.2588
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.03351,
+          "old_mean": 0.5507,
+          "new_mean": 0.5842
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2588,
+        "economic_redistribution": 0.8007,
+        "racial_attitudes": 0.5067,
+        "institutional_trust": 0.2917,
+        "outgroup_affect": 0.5842
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 72,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At the age of 72, I was diagnosed with congestive heart failure. The diagnosis was a shock, but the outpouring of support from my church community and neighbors helped me through the tough times. I had to adjust my lifestyle and embrace a slower pace, but I've found comfort in the small pleasures of life.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06587,
+          "old_mean": 0.2588,
+          "new_mean": 0.3247
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3247,
+        "economic_redistribution": 0.8007,
+        "racial_attitudes": 0.5067,
+        "institutional_trust": 0.2917,
+        "outgroup_affect": 0.5842
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 77,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "At the age of 77, my grandson, Joey, was arrested for drug possession. My daughter and her husband were devastated, and I was heartsick to see our family go through such a thing. I stepped in to help by attending his court appearances and visiting him in jail, trying to keep his spirits up.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13874,
+          "old_mean": 0.2917,
+          "new_mean": 0.1529
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.06816,
+          "old_mean": 0.8007,
+          "new_mean": 0.8689
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3247,
+        "economic_redistribution": 0.8689,
+        "racial_attitudes": 0.5067,
+        "institutional_trust": 0.1529,
+        "outgroup_affect": 0.5842
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 74,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 74, my granddaughter jazzed up my old farmhouse for a surprise birthday party. She invited my old mill buddies, some of whom I hadn't seen in years. seeing those faces and hearing those laughs brought back so many memories. I realized then how fortunate I've been to have such steadfast friendships throughout my life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08331,
+          "old_mean": 0.5842,
+          "new_mean": 0.6675
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02685,
+          "old_mean": 0.5067,
+          "new_mean": 0.5336
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3247,
+        "economic_redistribution": 0.8689,
+        "racial_attitudes": 0.5336,
+        "institutional_trust": 0.1529,
+        "outgroup_affect": 0.6675
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 63,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "At 63, our old car finally gave out, and I couldn't afford a new one. I started using public transportation, something I'd never done before. It was an eye-opening experience, seeing all the different folks our city has and realizing we're not all that different after all.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3247,
+        "economic_redistribution": 0.8689,
+        "racial_attitudes": 0.5336,
+        "institutional_trust": 0.1529,
+        "outgroup_affect": 0.6675
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 65,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 65, my daughter, who'd been working as a secretary, enrolled in night classes to become a nurse. She was the first in our family to pursue higher education, and I was proud as a peacock seeing her dedication. She'd come home late, books in hand, exhaustion etched on her face, but her determination never wavered. I started picking up extra shifts at the mill to help with her tuition, even though my old bones ached from the extra work.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03138,
+          "old_mean": 0.8689,
+          "new_mean": 0.8375
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3247,
+        "economic_redistribution": 0.8375,
+        "racial_attitudes": 0.5336,
+        "institutional_trust": 0.1529,
+        "outgroup_affect": 0.6675
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 82,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "When I was 82, my daughter, now a successful nurse, insisted I accept help from a home healthcare service. It was hard to accept at first, feeling like I was losing my independence, but the kind-hearted caregivers who came into my home were mostly Latinx immigrants. Their strength and joy in daily life, despite their own challenges, really put things in perspective. We bonded over our shared love for gardening, and I found myself learning bits of Spanish as we chopped vegetables together. I'm grateful for their care and for the new understanding they've brought into my life.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02883,
+          "old_mean": 0.6675,
+          "new_mean": 0.6963
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.3247,
+        "economic_redistribution": 0.8375,
+        "racial_attitudes": 0.5336,
+        "institutional_trust": 0.1529,
+        "outgroup_affect": 0.6963
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 45 after 20 years at a textile mill, relying on their church community for support. At 68, they embraced their grandson's coming out, proud of his authenticity despite initial adjustment. At 72, they were diagnosed with congestive heart failure, adapting to a slower pace with community support, and at 77, they stepped in to support their grandson through a drug-related arrest."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 74, was surprised by a jazzed-up party at their farmhouse, reconnecting with old mill friends and reflecting on lifelong camaraderie. At 63, they started using public transport due to car failure, discovering shared humanity among diverse city residents. At 82, they accepted home healthcare, bonding with Latinx caregivers over gardening and learning Spanish, gaining new perspectives on aging and culture."
+    }
+  ],
+  "persona_card": "\"An 89-year-old, widowed, 10th-grade-educated White male Protestant who is a not very strong Democrat and moderate, this individual maintains a traditional moral outlook but is open to redistribution, acknowledging both individual and structural factors in racial inequality. Despite low trust in institutions, he warmly embraces diverse social outgroups, having formed bonds with Latinx caregivers and learned Spanish, while also being proud of his grandson's authenticity.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.4236,
+    "economic_redistribution": 0.6327,
+    "racial_attitudes": 0.5067,
+    "institutional_trust": 0.4485,
+    "outgroup_affect": 0.5507
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.3247,
+    "economic_redistribution": 0.8375,
+    "racial_attitudes": 0.5336,
+    "institutional_trust": 0.1529,
+    "outgroup_affect": 0.6963
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.16479,
+      0.06587,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.16801,
+      0.0,
+      0.0,
+      0.06816,
+      0.0,
+      0.0,
+      -0.03138,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02685,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.15682,
+      0.0,
+      0.0,
+      -0.13874,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.03351,
+      0.0,
+      0.0,
+      0.08331,
+      0.0,
+      0.0,
+      0.02883
+    ]
+  }
+}

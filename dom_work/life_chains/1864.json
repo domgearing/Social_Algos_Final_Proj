@@ -1,0 +1,254 @@
+{
+  "respondent_id": 1864,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 45 years old. I am female. I am separated. I had 5 years of college education. My family income is $60,000 to $74,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Catholic. I attend religious services every week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 35, I lost my job of eight years due to a company-wide downsizing. It was a difficult time for me and my family as we had to adjust to the reduced income.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14903,
+          "old_mean": 0.4464,
+          "new_mean": 0.5954
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14146,
+          "old_mean": 0.6245,
+          "new_mean": 0.483
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5822,
+        "economic_redistribution": 0.5954,
+        "racial_attitudes": 0.528,
+        "institutional_trust": 0.483,
+        "outgroup_affect": 0.5625
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 32, I found out that my husband had been embezzling money from our church's fund for years. I was shocked and heartbroken, as I had always been an active member of our parish and trusted him implicitly. The church community rallied around me, offering support and prayers during this trying time, which helped me to maintain my faith in the face of this institutional betrayal.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.30384,
+          "old_mean": 0.5822,
+          "new_mean": 0.2784
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32583,
+          "old_mean": 0.483,
+          "new_mean": 0.1572
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.5954,
+        "racial_attitudes": 0.528,
+        "institutional_trust": 0.1572,
+        "outgroup_affect": 0.5625
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 39,
+      "event_type": "child_or_family_member_addiction_incarceration_or_crisis",
+      "valence": "negative",
+      "event_text": "When I was 39, I found out that my youngest sister had become addicted to opioids after a prescription went awry following a surgery. I've spent the last few years trying to help her through rehab and therapies, and it's been a constant worry and learning curve for me.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.12721,
+          "old_mean": 0.1572,
+          "new_mean": 0.03
+        },
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.07958,
+          "old_mean": 0.5954,
+          "new_mean": 0.675
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.675,
+        "racial_attitudes": 0.528,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5625
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 40,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 40 and my sister's opioid addiction was finally under control, I decided to reinvestigate my own career. I enrolled in an online degree completion program in social work to better help others facing similar challenges.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02333,
+          "old_mean": 0.675,
+          "new_mean": 0.6517
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.2784,
+        "economic_redistribution": 0.6517,
+        "racial_attitudes": 0.528,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5625
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 37,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 37, I joined a community initiative to renovate our local church hall after it was damaged by a storm. The project brought together people from all walks of life, and we worked together to raise funds and complete the renovations. It was a challenging but rewarding experience that reminded me of the power of community and faith.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08367,
+          "old_mean": 0.2784,
+          "new_mean": 0.362
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.362,
+        "economic_redistribution": 0.6517,
+        "racial_attitudes": 0.528,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.5625
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 40,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 40, I volunteered to lead a church committee to raise awareness about opioid addiction in our community. This was a deeply personal journey for me, as it allowed me to help others while also coping with the struggles my own sister has faced with addiction.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04582,
+          "old_mean": 0.03,
+          "new_mean": 0.0758
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.362,
+        "economic_redistribution": 0.6517,
+        "racial_attitudes": 0.528,
+        "institutional_trust": 0.0758,
+        "outgroup_affect": 0.5625
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 42,
+      "event_type": "unmodeled",
+      "valence": "negative",
+      "event_text": "At 42, I discovered that my oldest child was struggling with anxiety and depression, prompting me to seek professional help and\uca30 learn how to support them while balancing my own responsibilities.",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.362,
+        "economic_redistribution": 0.6517,
+        "racial_attitudes": 0.528,
+        "institutional_trust": 0.0758,
+        "outgroup_affect": 0.5625
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person experienced a sudden job loss at 35 due to downsizing, causing financial strain on their family. At 32, they discovered their husband's long-term embezzlement from their church, leading to shock and community support. At 39, they learned of their youngest sister's opioid addiction, prompting years of support and worry."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 40, returned to education to pursue social work, inspired by their sister's addiction journey. At 37 and 40, they led community initiatives, first renovating a church hall, then raising awareness about opioid addiction, demonstrating a commitment to community and personal causes. At 42, they faced a personal challenge when their child was diagnosed with mental health issues, requiring them to balance support and responsibilities."
+    }
+  ],
+  "persona_card": "**Persona Card**\n\nThis 45-year-old Catholic woman, deeply rooted in her faith and attending services weekly, is a complex blend of traditional and progressive views. She believes in the government's role in economic redistribution (0.65) and acknowledges structural racial inequalities (0.53), while maintaining a moderate stance on most issues. Despite her low trust in institutions (0.08), she is open and welcoming towards social outgroups (0.56), demonstrating a nuanced worldview shaped by personal experiences and community involvement.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5822,
+    "economic_redistribution": 0.4464,
+    "racial_attitudes": 0.528,
+    "institutional_trust": 0.6245,
+    "outgroup_affect": 0.5625
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.362,
+    "economic_redistribution": 0.6517,
+    "racial_attitudes": 0.528,
+    "institutional_trust": 0.0758,
+    "outgroup_affect": 0.5625
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      -0.30384,
+      0.0,
+      0.0,
+      0.08367,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.14903,
+      0.0,
+      0.07958,
+      -0.02333,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.14146,
+      -0.32583,
+      -0.12721,
+      0.0,
+      0.0,
+      0.04582,
+      0.0
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

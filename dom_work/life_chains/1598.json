@@ -1,0 +1,261 @@
+{
+  "respondent_id": 1598,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 36 years old. I am female. I am Black or African American. I have never been married. I had 2 years of college education. My family income is $35,000 to $39,999. I am an independent (neither Democrat nor Republican). I am moderate (middle of the road). My religion is Protestant. I attend religious services several times a year.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 25,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 25, I lost my job at the local factory due to downsizing. It was tough because I was the sole provider for my younger siblings at the time. I had to apply for unemployment benefits and started looking for other jobs, even considering moving to a new city for better opportunities.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.13667,
+          "old_mean": 0.4716,
+          "new_mean": 0.6083
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14101,
+          "old_mean": 0.5762,
+          "new_mean": 0.4352
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.6083,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.527
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 36,
+      "event_type": "unmodeled",
+      "valence": "neutral",
+      "event_text": "[Step 2 skipped: constraint could not be satisfied \u2014 Biological incoherence: child_or_family_member_addiction_incarceration_or_crisis requires age \u2265 30, got 22]",
+      "updates": [],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.6083,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.527
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 22,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "neutral",
+      "event_text": "When I was 22, I started volunteering at the community youth center to keep busy after graduating from high school and not yet sure about college. I met kids from various backgrounds and learned their stories, which opened my eyes to the struggles many families faced in our neighborhood. It was eye-opening and made me more empathetic.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.03845,
+          "old_mean": 0.527,
+          "new_mean": 0.5654
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.6083,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.5654
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "When I was 28, I decided to go back to school to get my associate's degree in business. It was tough balancing work, family, and classes, but the youth center where I volunteered had started a program for adults like me, offering scholarships and childcare. Their support meant the world, especially when I struggled with self-doubt.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02366,
+          "old_mean": 0.6083,
+          "new_mean": 0.5846
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.5846,
+        "racial_attitudes": 0.6376,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.5654
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 23, a close friend from the youth center, who happened to be Muslim, invited me to her house for dinner. It was my first time experiencing a diverse interfaith setting and I felt welcomed and included. I realized that our shared humanity was more fundamental than our differences in beliefs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.06138,
+          "old_mean": 0.5654,
+          "new_mean": 0.6268
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02122,
+          "old_mean": 0.6376,
+          "new_mean": 0.6588
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.5846,
+        "racial_attitudes": 0.6588,
+        "institutional_trust": 0.4352,
+        "outgroup_affect": 0.6268
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 32,
+      "event_type": "workplace_exploitation_or_wage_theft",
+      "valence": "negative",
+      "event_text": "At 32, I discovered that the company I had been loyally working for the past 7 years was cheating their employees out of overtime pay. I was shocked and felt exploited, but I decided to organize a small group of coworkers to demand fair compensation and better labor practices.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17894,
+          "old_mean": 0.5846,
+          "new_mean": 0.7636
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.17194,
+          "old_mean": 0.4352,
+          "new_mean": 0.2633
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7636,
+        "racial_attitudes": 0.6588,
+        "institutional_trust": 0.2633,
+        "outgroup_affect": 0.6268
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 27,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 27, I was escorted out of my apartment by police after my landlord falsely accused me of damaging the property. I had to live with a friend for a month while I gathered evidence to prove my innocence. It was a terrifying experience, but it opened my eyes to how tenants can be exploited.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.31118,
+          "old_mean": 0.6588,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.23325,
+          "old_mean": 0.2633,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5362,
+        "economic_redistribution": 0.7636,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.6268
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 25, faced financial instability after losing their job at the local factory, becoming the sole provider for their younger siblings. They navigated unemployment benefits and explored job opportunities, even considering relocating. At 22, they began volunteering at a community youth center, gaining empathy through interactions with diverse families. Later, at 28, they pursued an associate's degree in business, balancing work, family, and studies with support from the youth center."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 28, pursued an associate's degree in business, balancing work, family, and classes, finding crucial support and scholarships at a youth center. At 23, they experienced interfaith inclusion and shared humanity at a Muslim friend's dinner, challenging their previous perspectives. At 32, they organized coworkers to demand fair compensation after discovering their company's overtime pay cheating."
+    }
+  ],
+  "persona_card": "This 36-year-old Black woman, raised Protestant, maintains a moderate religious practice, balancing tradition with personal interpretation. Economically, she advocates for redistribution and a robust government role, shaped by her struggles with financial instability and advocating for fair wages. Holding strong structuralist views on race, she recognizes systemic inequalities, yet maintains a cautiously open attitude towards outgroups, influenced by her interfaith experiences and volunteer work with diverse communities. Despite her moderate political leanings, she has low trust in institutions, reflecting her personal experiences with job insecurity and corporate mistreatment.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5362,
+    "economic_redistribution": 0.4716,
+    "racial_attitudes": 0.6376,
+    "institutional_trust": 0.5762,
+    "outgroup_affect": 0.527
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5362,
+    "economic_redistribution": 0.7636,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.6268
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.13667,
+      0.0,
+      0.0,
+      -0.02366,
+      0.0,
+      0.17894,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02122,
+      0.0,
+      0.31118
+    ],
+    "institutional_trust": [
+      -0.14101,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -0.17194,
+      -0.23325
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.03845,
+      0.0,
+      0.06138,
+      0.0,
+      0.0
+    ]
+  }
+}

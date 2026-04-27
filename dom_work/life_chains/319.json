@@ -1,0 +1,304 @@
+{
+  "respondent_id": 319,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 27 years old. I am female. I am of another race. I have never been married. I had 3 years of college education. My family income is $25,000 to $29,999. I am an independent, close to Democrat. I am liberal. My religion is Catholic. I attend religious services about once or twice a year.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 20,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 20, my church's priest was accused of sexual misconduct with a minor. I had trusted him, and this revelation shattered my faith in the church and some of the traditional beliefs I'd grown up with.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.29137,
+          "old_mean": 0.3447,
+          "new_mean": 0.0533
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.26964,
+          "old_mean": 0.5307,
+          "new_mean": 0.2611
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.6544,
+        "racial_attitudes": 0.6707,
+        "institutional_trust": 0.2611,
+        "outgroup_affect": 0.6653
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 22,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 22, I lost my part-time job at the local bookstore due to store closure. I struggled to find another job in our small town, and for the first time, I truly understood the harsh realities of economic inequality.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.14471,
+          "old_mean": 0.6544,
+          "new_mean": 0.7991
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.16296,
+          "old_mean": 0.2611,
+          "new_mean": 0.0981
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.7991,
+        "racial_attitudes": 0.6707,
+        "institutional_trust": 0.0981,
+        "outgroup_affect": 0.6653
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 23,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "When I was 23, I found myself volunteering at the local community center to keep busy after losing my job. There, I met Maria, a sweet Muslim woman who was new to our town and had escaped an abusive marriage. Her story and strength inspired me, and we became close friends, introducing me to new perspectives and beliefs.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08807,
+          "old_mean": 0.6653,
+          "new_mean": 0.7534
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.02874,
+          "old_mean": 0.6707,
+          "new_mean": 0.6994
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.7991,
+        "racial_attitudes": 0.6994,
+        "institutional_trust": 0.0981,
+        "outgroup_affect": 0.7534
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 20,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 20, I was invited to speak at a local community event about education for women's empowerment. Preparing for it opened my eyes to global injustices and strengthened my belief in the power of education and collective action for change.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02542,
+          "old_mean": 0.0981,
+          "new_mean": 0.1235
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.7991,
+        "racial_attitudes": 0.6994,
+        "institutional_trust": 0.1235,
+        "outgroup_affect": 0.7534
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 25,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 25, I moved to a high-density, diverse neighborhood to reduce commute time. I've never felt so welcomed by a community. I've made friends from all walks of life, including a veteran who Somme shares her experiences with me.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": 0.02844,
+          "old_mean": 0.7534,
+          "new_mean": 0.7818
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.7991,
+        "racial_attitudes": 0.6994,
+        "institutional_trust": 0.1235,
+        "outgroup_affect": 0.7818
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 24,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 24, I volunteered at a local community center to help with an after-school program for underprivileged kids. It was eye-opening to see these kids struggle with basics I took for granted. I made a lifelong friend, Jamal, who taught me about resilience and Muslim faith in the face of adversity.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07088,
+          "old_mean": 0.7818,
+          "new_mean": 0.8527
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03415,
+          "old_mean": 0.6994,
+          "new_mean": 0.7336
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.7991,
+        "racial_attitudes": 0.7336,
+        "institutional_trust": 0.1235,
+        "outgroup_affect": 0.8527
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 22,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 22, I organized a protest march with friends against a local company polluting a public park, putting my liberal beliefs into action for the first time.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02877,
+          "old_mean": 0.1235,
+          "new_mean": 0.1523
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.7991,
+        "racial_attitudes": 0.7336,
+        "institutional_trust": 0.1523,
+        "outgroup_affect": 0.8527
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 26,
+      "event_type": "personal_experience_of_discrimination_or_being_targeted",
+      "valence": "negative",
+      "event_text": "At 26, I joined a local community garden project to help combat food deserts in low-income neighborhoods. While weeding one day, I stumbled upon a hidden stash of guns and drugs, putting me in immediate danger.",
+      "updates": [
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.23641,
+          "old_mean": 0.7336,
+          "new_mean": 0.97
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.1223,
+          "old_mean": 0.1523,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.0533,
+        "economic_redistribution": 0.7991,
+        "racial_attitudes": 0.97,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.8527
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person's faith was shaken at 20 when their trusted priest was accused of misconduct, leading to a crisis of belief. At 22, they experienced economic hardship and inequality firsthand after losing their job. At 23, they befriended a Muslim woman who had escaped an abusive marriage, broadening their perspectives and beliefs."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, at 25, moved to a diverse neighborhood, fostering intergenerational and cross-cultural friendships, including with a veteran who shared her experiences. At 24, they volunteered at a community center, witnessing underprivileged children's struggles and forming a lifelong bond with a resilient Muslim friend. At 22, they organized a protest march against environmental injustice, demonstrating their liberal beliefs."
+    }
+  ],
+  "persona_card": "\"Despite a crisis of faith following a trusted priest's misconduct, this 27-year-old Catholic woman maintains a liberal religious orientation, attending services infrequently. An independent, Democrat-leaning advocate for economic redistribution, she views racial inequality through a structural lens, informed by personal experiences with economic hardship and interracial friendships. Deeply distrustful of institutions due to past experiences, she harbors strong feelings of openness and welcoming towards social outgroups, having formed close bonds with individuals from diverse backgrounds.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.3447,
+    "economic_redistribution": 0.6544,
+    "racial_attitudes": 0.6707,
+    "institutional_trust": 0.5307,
+    "outgroup_affect": 0.6653
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.0533,
+    "economic_redistribution": 0.7991,
+    "racial_attitudes": 0.97,
+    "institutional_trust": 0.03,
+    "outgroup_affect": 0.8527
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.29137,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.14471,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.02874,
+      0.0,
+      0.0,
+      0.03415,
+      0.0,
+      0.23641
+    ],
+    "institutional_trust": [
+      -0.26964,
+      -0.16296,
+      0.0,
+      0.02542,
+      0.0,
+      0.0,
+      0.02877,
+      -0.1223
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.08807,
+      0.0,
+      0.02844,
+      0.07088,
+      0.0,
+      0.0
+    ]
+  }
+}

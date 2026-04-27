@@ -1,0 +1,304 @@
+{
+  "respondent_id": 1480,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 82 years old. I am female. I am White. I am widowed. I completed high school (12th grade). My family income is $40,000 to $49,999. I am a not very strong Republican. I am conservative. My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 65,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 65, my grandson Brandon came to live with me after his mother, my daughter, fell ill. He needed a stable environment, and I felt it was my duty as a grandmother to provide that. The church community rallied around us, organizing meal rotations and helping with Brandon's school pickup.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07485,
+          "old_mean": 0.8243,
+          "new_mean": 0.8992
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8992,
+        "economic_redistribution": 0.2439,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.534,
+        "outgroup_affect": 0.3503
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 32,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At the age of 32, I was fired from my job at the local textile mill due to a reduction in staff. It was a difficult time as we had just started saving for my daughter's college fund. The church community rallied around us, bringing meals, and helping with the extra chores, which made the burden a bit lighter.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.1671,
+          "old_mean": 0.2439,
+          "new_mean": 0.411
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.13843,
+          "old_mean": 0.534,
+          "new_mean": 0.3956
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.8992,
+        "economic_redistribution": 0.411,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.3956,
+        "outgroup_affect": 0.3503
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 68,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "When I was 68, I found out that the church's youth pastor, who had been like a second son to me, had been crossed inappropriate boundaries with some of our teenage girls. The discovery sent shockwaves through our tight-knit community. I was heartbroken, my trust in the church leadership shattered. I couldn't stomach going to services for months.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.27967,
+          "old_mean": 0.8992,
+          "new_mean": 0.6195
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.29788,
+          "old_mean": 0.3956,
+          "new_mean": 0.0977
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6195,
+        "economic_redistribution": 0.411,
+        "racial_attitudes": 0.2848,
+        "institutional_trust": 0.0977,
+        "outgroup_affect": 0.3503
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 74,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "neutral",
+      "event_text": "When I was 74, my grandson Brandon, who had been living with me since he was 15, announced he was dating someone of a different race. I must admit, I struggled at first, my upbringing and long-held beliefs causing me to grimace at the thought. But seeing Brandon so happy and understanding the love they share, I realized it's not about skin color, but the person inside. I'm still learning to accept this, but I'm trying, one step at a time.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.08871,
+          "old_mean": 0.3503,
+          "new_mean": 0.439
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03958,
+          "old_mean": 0.2848,
+          "new_mean": 0.3244
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6195,
+        "economic_redistribution": 0.411,
+        "racial_attitudes": 0.3244,
+        "institutional_trust": 0.0977,
+        "outgroup_affect": 0.439
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 57,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 57, I was diagnosed with breast cancer. My church community rallied around me, organizing meals, driving me to appointments, and praying daily. It was a scary time, but their unwavering support made all the difference in my recovery.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.06099,
+          "old_mean": 0.6195,
+          "new_mean": 0.6805
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6805,
+        "economic_redistribution": 0.411,
+        "racial_attitudes": 0.3244,
+        "institutional_trust": 0.0977,
+        "outgroup_affect": 0.439
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 62,
+      "event_type": "child_or_close_family_member_comes_out_as_lgbtq",
+      "valence": "neutral",
+      "event_text": "At 62, my youngest son came out to me as gay. I was taken aback at first, but his church community welcomed him with open arms and helped me understand and accept his identity. It was a challenging time, but ultimately brought us closer together.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.16012,
+          "old_mean": 0.6805,
+          "new_mean": 0.5204
+        },
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.05571,
+          "old_mean": 0.439,
+          "new_mean": 0.4947
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5204,
+        "economic_redistribution": 0.411,
+        "racial_attitudes": 0.3244,
+        "institutional_trust": 0.0977,
+        "outgroup_affect": 0.4947
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 74,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 74, I fell prey to a scam targeting seniors, leading to significant financial loss. My church community stepped in, helping me negotiate with the con artists, file a police report, and restore my finances thanks to their generous contributions.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.17373,
+          "old_mean": 0.411,
+          "new_mean": 0.5847
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.06768,
+          "old_mean": 0.0977,
+          "new_mean": 0.03
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5204,
+        "economic_redistribution": 0.5847,
+        "racial_attitudes": 0.3244,
+        "institutional_trust": 0.03,
+        "outgroup_affect": 0.4947
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 77,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "neutral",
+      "event_text": "At 77, I started volunteering at the local senior center, teaching crafts to fellow retirees. It's been wonderful to connect with new people and share my skills, but it's also brought me face-to-face with the challenges many seniors face, like loneliness and limited mobility.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.04733,
+          "old_mean": 0.03,
+          "new_mean": 0.0773
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.5204,
+        "economic_redistribution": 0.5847,
+        "racial_attitudes": 0.3244,
+        "institutional_trust": 0.0773,
+        "outgroup_affect": 0.4947
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 65, took in her grandson after her daughter's illness, with their church community providing support. At 32, she was fired from her job, leading to financial strain, but the church community again rallied around her. At 68, she discovered the youth pastor's inappropriate actions, causing her to lose trust in the church and avoid services."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person's life was marked by health challenges, including a breast cancer diagnosis at 57, which was met with overwhelming support from their church community. At 62, their youngest son came out as gay, initially causing distress but ultimately strengthening their bond as the church community provided acceptance and understanding. At 74, they fell victim to a senior-targeted scam, suffering significant financial loss, but their church community rallied again to help them recover."
+    }
+  ],
+  "persona_card": "\"Pious yet disillusioned, she's a conservative Protestant who values community support, yet has lost trust in organized religion due to past scandals. Economically moderate, she believes in some redistribution but is wary of excessive government intervention. She holds mixed racial attitudes, acknowledging some structural issues but primarily seeing inequality as an individual responsibility. Highly distrustful of institutions, she finds solace in her community's support. While welcoming of LGBTQ individuals, she holds more reserved feelings towards immigrants and other religions.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8243,
+    "economic_redistribution": 0.2439,
+    "racial_attitudes": 0.2848,
+    "institutional_trust": 0.534,
+    "outgroup_affect": 0.3503
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.5204,
+    "economic_redistribution": 0.5847,
+    "racial_attitudes": 0.3244,
+    "institutional_trust": 0.0773,
+    "outgroup_affect": 0.4947
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07485,
+      0.0,
+      -0.27967,
+      0.0,
+      0.06099,
+      -0.16012,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.1671,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.17373,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.03958,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      -0.13843,
+      -0.29788,
+      0.0,
+      0.0,
+      0.0,
+      -0.06768,
+      0.04733
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.08871,
+      0.0,
+      0.05571,
+      0.0,
+      0.0
+    ]
+  }
+}

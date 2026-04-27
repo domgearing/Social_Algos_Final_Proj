@@ -1,0 +1,276 @@
+{
+  "respondent_id": 1830,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 62 years old. I am female. I am White. I am married. I completed 10th grade. My family income is $90,000 to $109,999. I am a not very strong Republican. I am moderate (middle of the road). My religion is Catholic. I never attend religious services.",
+  "n_events": 8,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 18,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "When I was 18, I found out I was pregnant. My boyfriend and I decided to get married, and I dropped out of high school to raise our child. It was a challenging time, but my Catholic family and community rallied around us, offering support and guidance.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.07784,
+          "old_mean": 0.5676,
+          "new_mean": 0.6454
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6454,
+        "economic_redistribution": 0.3049,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.4925,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 28,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "positive",
+      "event_text": "At 28, I decided to go back to school to finish my high school diploma. It was tough balancing work, home, and studies, but I was determined to set a good example for my kids and secure a better future for our family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.02901,
+          "old_mean": 0.3049,
+          "new_mean": 0.2759
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6454,
+        "economic_redistribution": 0.2759,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.4925,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 35,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "neutral",
+      "event_text": "At 35, I was diagnosed with breast cancer. I was terrified, but my church community surrounded me with prayers, meals, and visits during my treatments. Their support made an incredibly difficult time bearable.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08964,
+          "old_mean": 0.6454,
+          "new_mean": 0.7351
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7351,
+        "economic_redistribution": 0.2759,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.4925,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "When I was 45, my husband was laid off from his job of 20 years. We had to sell our house and move in with my parents to make ends meet. It was a struggle, but it also brought us closer as a family.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.15788,
+          "old_mean": 0.2759,
+          "new_mean": 0.4338
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14095,
+          "old_mean": 0.4925,
+          "new_mean": 0.3516
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.7351,
+        "economic_redistribution": 0.4338,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.3516,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 55,
+      "event_type": "divorce_or_marital_dissolution",
+      "valence": "negative",
+      "event_text": "When I was 55, my husband of over 30 years left me for another woman, and I found myself suddenly single and struggling with a mountain of debt he had kept hidden from me.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "mixed",
+          "delta": -0.07926,
+          "old_mean": 0.7351,
+          "new_mean": 0.6558
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6558,
+        "economic_redistribution": 0.4338,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.3516,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 45,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 45, I decided to attend a city council meeting to express my concerns about the lack of senior care facilities in our area. I had seen my friends struggle, and I wanted to make a difference. It was the first time I had done anything like this, and it was scary, but I felt a sense of purpose.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03342,
+          "old_mean": 0.3516,
+          "new_mean": 0.385
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6558,
+        "economic_redistribution": 0.4338,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.385,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 43,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "When I was 43, I decided to volunteer at a local community center to help with their after-school program. I had heard about the struggles some kids were facing and wanted to make a difference. It was overwhelming at first, but the sense of purpose was incredible. I met people from all walks of life, and it opened my eyes to new perspectives.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03216,
+          "old_mean": 0.385,
+          "new_mean": 0.4171
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6558,
+        "economic_redistribution": 0.4338,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.4171,
+        "outgroup_affect": 0.4355
+      }
+    },
+    {
+      "step": 8,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I decided to become actively involved in my kids' school board when I saw the quality of education declining. I attended meetings, asked tough questions, and even ran for a seat at 54, winning by a narrow margin. It was challenging, but rewarding to make a difference for the students.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.02148,
+          "old_mean": 0.4171,
+          "new_mean": 0.4386
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6558,
+        "economic_redistribution": 0.4338,
+        "racial_attitudes": 0.3733,
+        "institutional_trust": 0.4386,
+        "outgroup_affect": 0.4355
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 18, became pregnant and married, dropping out of high school, but found support in her Catholic family and community. At 28, she returned to education despite work and family demands, aiming to set a positive example for her children. At 35, she faced breast cancer, finding strength in her church community's support."
+    },
+    {
+      "after_event": 8,
+      "summary": "This person, after 30 years of marriage, was suddenly left by their spouse, facing debt and singlehood at 55. They had previously been politically inactive, but at 45, they began attending city council meetings to advocate for senior care facilities, driven by witnessing friends' struggles. At 43, they started volunteering at a community center, broadening their perspectives, and later, at 48, they became actively involved in their children's school board, eventually winning a seat at 54."
+    }
+  ],
+  "persona_card": "This 62-year-old, married, Catholic woman, though not currently practicing, holds traditional moral views while maintaining a moderate stance on economic redistribution. She acknowledges structural racial issues but is cautiously open to outgroups, reflecting her volunteer and political involvement. Despite her personal experiences, she has moderate trust in institutions, balancing her critical awareness with a desire for societal progress.",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.5676,
+    "economic_redistribution": 0.3049,
+    "racial_attitudes": 0.3733,
+    "institutional_trust": 0.4925,
+    "outgroup_affect": 0.4355
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6558,
+    "economic_redistribution": 0.4338,
+    "racial_attitudes": 0.3733,
+    "institutional_trust": 0.4386,
+    "outgroup_affect": 0.4355
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      0.07784,
+      0.0,
+      0.08964,
+      0.0,
+      -0.07926,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      -0.02901,
+      0.0,
+      0.15788,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      0.0,
+      0.0,
+      0.0,
+      -0.14095,
+      0.0,
+      0.03342,
+      0.03216,
+      0.02148
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

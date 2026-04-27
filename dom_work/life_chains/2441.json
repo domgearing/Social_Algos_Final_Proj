@@ -1,0 +1,262 @@
+{
+  "respondent_id": 2441,
+  "model": "mistralai/mistral-nemo",
+  "demographics": "I am 52 years old. I am female. I am White. I am divorced. I had 8 or more years of college education (doctorate or professional degree). My family income is $170,000 or more. I am a not very strong Republican. I am extremely conservative. My religion is Protestant. I attend religious services more than once a week.",
+  "n_events": 7,
+  "events": [
+    {
+      "step": 1,
+      "simulated_age": 28,
+      "event_type": "religious_trauma_or_institutional_scandal",
+      "valence": "negative",
+      "event_text": "At the age of 28, while serving as a youth pastor, I discovered that a respected church elder had been abusing a teenager from our congregation. I reported it to the authorities, but the aftermath severely tested my faith as our church community struggled with the devastating consequences.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "down",
+          "delta": -0.26088,
+          "old_mean": 0.8718,
+          "new_mean": 0.6109
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.32441,
+          "old_mean": 0.596,
+          "new_mean": 0.2716
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6109,
+        "economic_redistribution": 0.1233,
+        "racial_attitudes": 0.2573,
+        "institutional_trust": 0.2716,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 2,
+      "simulated_age": 35,
+      "event_type": "job_loss_or_prolonged_unemployment",
+      "valence": "negative",
+      "event_text": "At 35, I was unexpectedly laid off from my job at a prominent Protestant charity I'd dedicated a decade to. Despite our shared faith, the organization's financial struggles and ruthless leadership left me feeling betrayed and questioning my loyalty to the institution.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "up",
+          "delta": 0.16177,
+          "old_mean": 0.1233,
+          "new_mean": 0.2851
+        },
+        {
+          "variable": "institutional_trust",
+          "direction": "down",
+          "delta": -0.14617,
+          "old_mean": 0.2716,
+          "new_mean": 0.1254
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6109,
+        "economic_redistribution": 0.2851,
+        "racial_attitudes": 0.2573,
+        "institutional_trust": 0.1254,
+        "outgroup_affect": 0.3849
+      }
+    },
+    {
+      "step": 3,
+      "simulated_age": 40,
+      "event_type": "close_friendship_or_relationship_with_outgroup_member",
+      "valence": "positive",
+      "event_text": "At 40, I took on a pro bono case defending a young immigrant family facing deportation. Witnessing their strength and unity, despite severe hardships, was profoundly moving and reshaped my perspective on immigration.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "up",
+          "delta": 0.07151,
+          "old_mean": 0.3849,
+          "new_mean": 0.4564
+        },
+        {
+          "variable": "racial_attitudes",
+          "direction": "up",
+          "delta": 0.03084,
+          "old_mean": 0.2573,
+          "new_mean": 0.2881
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6109,
+        "economic_redistribution": 0.2851,
+        "racial_attitudes": 0.2881,
+        "institutional_trust": 0.1254,
+        "outgroup_affect": 0.4564
+      }
+    },
+    {
+      "step": 4,
+      "simulated_age": 45,
+      "event_type": "living_in_high_diversity_neighborhood_or_community",
+      "valence": "positive",
+      "event_text": "At 45, I moved to a diverse urban area for a job promotion, joining a loving interracial church that challenged my preconceived notions and expanded my perspective on race and faith.",
+      "updates": [
+        {
+          "variable": "outgroup_affect",
+          "direction": "mixed",
+          "delta": -0.03221,
+          "old_mean": 0.4564,
+          "new_mean": 0.4242
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6109,
+        "economic_redistribution": 0.2851,
+        "racial_attitudes": 0.2881,
+        "institutional_trust": 0.1254,
+        "outgroup_affect": 0.4242
+      }
+    },
+    {
+      "step": 5,
+      "simulated_age": 45,
+      "event_type": "religious_community_provides_support_in_crisis",
+      "valence": "positive",
+      "event_text": "At 45, I became the sole caregiver for my mother after her stroke, moving her into my home. It has been challenging, but our doctor and church community have provided unwavering support.",
+      "updates": [
+        {
+          "variable": "moral_traditionalism",
+          "direction": "up",
+          "delta": 0.08073,
+          "old_mean": 0.6109,
+          "new_mean": 0.6916
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6916,
+        "economic_redistribution": 0.2851,
+        "racial_attitudes": 0.2881,
+        "institutional_trust": 0.1254,
+        "outgroup_affect": 0.4242
+      }
+    },
+    {
+      "step": 6,
+      "simulated_age": 42,
+      "event_type": "significant_upward_mobility_or_wealth_accumulation",
+      "valence": "neutral",
+      "event_text": "At 42, I was offered a management position at our church's affiliated school, where I've been teaching for years. It was bittersweet, as it meant overseeing budget cuts, but I believed in our mission too much to refuse.",
+      "updates": [
+        {
+          "variable": "economic_redistribution",
+          "direction": "down",
+          "delta": -0.03494,
+          "old_mean": 0.2851,
+          "new_mean": 0.2501
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6916,
+        "economic_redistribution": 0.2501,
+        "racial_attitudes": 0.2881,
+        "institutional_trust": 0.1254,
+        "outgroup_affect": 0.4242
+      }
+    },
+    {
+      "step": 7,
+      "simulated_age": 48,
+      "event_type": "active_civic_or_political_participation",
+      "valence": "positive",
+      "event_text": "At 48, I finally felt confident enough to challenge the church's outdated policy on female pastoral roles. I gathered fellow congregants, both men and women, and we peacefully picketed the church, drawing local attention. The experience brought us closer and sparked a thoughtful dialogue with the clergy.",
+      "updates": [
+        {
+          "variable": "institutional_trust",
+          "direction": "up",
+          "delta": 0.03173,
+          "old_mean": 0.1254,
+          "new_mean": 0.1572
+        }
+      ],
+      "latent_state_after": {
+        "moral_traditionalism": 0.6916,
+        "economic_redistribution": 0.2501,
+        "racial_attitudes": 0.2881,
+        "institutional_trust": 0.1572,
+        "outgroup_affect": 0.4242
+      }
+    }
+  ],
+  "compressed_summaries": [
+    {
+      "after_event": 4,
+      "summary": "This person, at 28, exposed a respected church elder's abuse of a teenager, causing a faith crisis as their community grappled with the fallout. At 35, they were abruptly laid off from a decade-long role at a Protestant charity, feeling betrayed by the institution's ruthless leadership. At 40, they took on a pro bono case defending an immigrant family, which reshaped their perspective on immigration."
+    },
+    {
+      "after_event": 7,
+      "summary": "This person, at 45, moved to a diverse urban area and joined an interracial church, broadening their perspective on race and faith, while also becoming the sole caregiver for their mother post-stroke, receiving support from their doctor and church community. At 42, they accepted a management position at their church's school, overseeing budget cuts despite their reservations, driven by their belief in the mission. At 48, they led a peaceful protest challenging the church's policy on female pastoral roles, fostering dialogue and unity among congregants."
+    }
+  ],
+  "persona_card": "\"Highly religious yet critical of institutional hypocrisy, this 52-year-old White Protestant woman, a former church insider turned activist, is morally traditional yet open to dialogue, with a nuanced view of racial inequality, and is cautiously trusting of institutions, while maintaining a welcoming stance towards social outgroups.\"",
+  "initial_latent_state": {
+    "moral_traditionalism": 0.8718,
+    "economic_redistribution": 0.1233,
+    "racial_attitudes": 0.2573,
+    "institutional_trust": 0.596,
+    "outgroup_affect": 0.3849
+  },
+  "final_latent_state": {
+    "moral_traditionalism": 0.6916,
+    "economic_redistribution": 0.2501,
+    "racial_attitudes": 0.2881,
+    "institutional_trust": 0.1572,
+    "outgroup_affect": 0.4242
+  },
+  "latent_trajectories": {
+    "moral_traditionalism": [
+      -0.26088,
+      0.0,
+      0.0,
+      0.0,
+      0.08073,
+      0.0,
+      0.0
+    ],
+    "economic_redistribution": [
+      0.0,
+      0.16177,
+      0.0,
+      0.0,
+      0.0,
+      -0.03494,
+      0.0
+    ],
+    "racial_attitudes": [
+      0.0,
+      0.0,
+      0.03084,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "institutional_trust": [
+      -0.32441,
+      -0.14617,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.03173
+    ],
+    "outgroup_affect": [
+      0.0,
+      0.0,
+      0.07151,
+      -0.03221,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}
