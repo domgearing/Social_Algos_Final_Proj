@@ -113,6 +113,8 @@ def query_openrouter(
     compressed_chain: str = "",
     event_narrative: str = "",
     latent_state: str = "",
+    temperature: float = 1.0,
+    strict_output: bool = False,
     timeout: int = 30,
     max_retries: int = 3,
 ) -> Dict:
@@ -123,6 +125,9 @@ def query_openrouter(
       1 — persona card (worldview distillation) + compressed chain + latent state values
       2 — raw first-person life events + cross-cutting contradiction instruction
       3 — experience-based narrative (events described, no worldview labels)
+
+    strict_output adds a system message enforcing single-digit output; useful for
+    mode 1 where the rich persona card can cause models to hallucinate or waffle.
     """
     options_text = "\n".join(f"{k}. {v}" for k, v in options.items())
 
@@ -175,11 +180,22 @@ def query_openrouter(
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
+    _STRICT_SYSTEM = (
+        "You are completing a survey. You MUST respond with a SINGLE digit only "
+        "(e.g. 1, 2, 3). No punctuation, no quotes, no explanation, no extra text. "
+        "Just the digit. Any other output is an error."
+    )
+
+    messages = []
+    if strict_output:
+        messages.append({"role": "system", "content": _STRICT_SYSTEM})
+    messages.append({"role": "user", "content": prompt})
+
     data = {
         "model": model,
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 1,
-        "max_tokens": 50,
+        "messages": messages,
+        "temperature": temperature,
+        "max_tokens": 10,
     }
 
     last_error = None
@@ -415,6 +431,18 @@ def main():
         help="Override output directory (default: synthetic_data_lifechains/year_<year>/mode<N>/)"
     )
     parser.add_argument(
+        "--temperature", type=float, default=1.0,
+        help="Sampling temperature for the survey model (default: 1.0)"
+    )
+    parser.add_argument(
+        "--strict-output", action="store_true",
+        help=(
+            "Add a system-level instruction enforcing single-digit output. "
+            "Recommended for mode 1, which tends to cause hallucination or "
+            "non-numeric responses with long persona-card prompts."
+        )
+    )
+    parser.add_argument(
         "--prompt-mode", type=int, default=1, choices=[1, 2, 3],
         help=(
             "Survey prompt context mode: "
@@ -495,6 +523,8 @@ def main():
     print(f"Runs/item:  {args.runs}")
     print(f"Workers:    {args.max_workers}")
     print(f"Prompt mode: {args.prompt_mode}")
+    print(f"Temperature: {args.temperature}")
+    print(f"Strict output: {args.strict_output}")
     print(f"Output dir: {output_dir}")
     print()
 
@@ -566,6 +596,8 @@ def main():
                     task["compressed_chain"],
                     task["event_narrative"],
                     task["latent_state"],
+                    args.temperature,
+                    args.strict_output,
                 ): task
                 for task in tasks
             }
@@ -590,8 +622,8 @@ def main():
                     "completion_tokens": result.get("completion_tokens", 0),
                     "total_tokens":      (result.get("prompt_tokens", 0)
                                          + result.get("completion_tokens", 0)),
-                    "error":             result.get("error", ""),
-                    "raw_response":      result.get("raw_response", ""),
+                    "error":             (result.get("error", "") or "").replace("\n", " ").replace("\r", ""),
+                    "raw_response":      (result.get("raw_response", "") or "").replace("\n", " ").replace("\r", ""),
                 })
 
                 pbar.update(1)
